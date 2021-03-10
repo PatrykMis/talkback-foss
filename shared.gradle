@@ -16,6 +16,9 @@ android {
         multiDexEnabled true
         minSdkVersion 23
     }
+    lintOptions {
+        abortOnError false
+    }
 }
 
 dependencies {
