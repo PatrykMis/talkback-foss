@@ -4,10 +4,6 @@ apply plugin: 'com.android.application'
 
 apply from: 'shared.gradle'
 
-apply from: 'version.gradle'
-
-final BUILD_TIMESTAMP = new Date().format('yyyy_MM_dd_HHmm')
-
 dependencies {
     implementation project(':talkback')
 }
@@ -35,7 +31,8 @@ android {
     buildToolsVersion '33.0.1'
     defaultConfig {
         applicationId talkbackApplicationId
-        versionName talkbackVersionName + "-" + BUILD_TIMESTAMP
+        versionName "13.0"
+        versionCode 2
         minSdkVersion 26
         targetSdkVersion 30
         testInstrumentationRunner 'android.test.InstrumentationTestRunner'
