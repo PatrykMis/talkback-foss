@@ -59,7 +59,7 @@ public class LabelManagerSummaryActivity extends AppCompatActivity implements On
 
   /** File provider for custom label share intent. */
   private static final String FILE_AUTHORITY =
-      BuildConfig.APPLICATION_ID + ".providers.FileProvider";
+      BuildConfig.LIBRARY_PACKAGE_NAME + ".providers.FileProvider";
 
   private LabelProviderClient labelProviderClient;
   private ListView packageList;
