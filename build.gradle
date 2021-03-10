@@ -4,8 +4,6 @@ apply plugin: 'com.android.application'
 
 apply from: 'shared.gradle'
 
-apply from: 'version.gradle'
-
 dependencies {
     implementation project(':talkback')
 }
@@ -32,7 +30,8 @@ android {
     buildToolsVersion '31.0.0'
     defaultConfig {
         applicationId talkbackApplicationId
-        versionName talkbackVersionName
+        versionName "370044210"
+        versionCode 370044210
         manifestPlaceholders = [talkbackMainPermission:talkbackMainPermission]
         minSdkVersion 26
         targetSdkVersion 30
