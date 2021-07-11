@@ -81,8 +81,4 @@
         android:title="@string/title_pref_advanced_settings">
         <intent android:action=".preference.TalkBackAdvancedPreferencesActivity" />
     </Preference>
-    <Preference
-        android:key="@string/pref_play_store_key"
-        android:title="@string/title_pref_play_store">
-    </Preference>
 </PreferenceScreen>
