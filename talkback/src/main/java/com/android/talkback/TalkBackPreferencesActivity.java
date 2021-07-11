@@ -112,19 +112,11 @@ public class TalkBackPreferencesActivity extends BasePreferencesActivity {
       assignNewFeaturesIntent();
       updateSpeakPasswordsPreference();
 
-      showTalkBackVersion();
-
       if (SettingsUtils.allowLinksOutOfSettings(context)) {
         assignTtsSettingsIntent();
-
-        // We should never try to open the play store in WebActivity.
-        assignPlayStoreIntentToPreference(R.string.pref_play_store_key);
       } else {
         // During setup, do not allow access to web.
-        PreferenceSettingsUtils.hidePreference(
-            context, getPreferenceScreen(), R.string.pref_play_store_key);
         removeCategory(R.string.pref_category_legal_and_privacy_key);
-
         // During setup, do not allow access to other apps via custom-labeling.
         removePreference(R.string.pref_category_advanced_key, R.string.pref_manage_labels_key);
 
@@ -168,38 +160,6 @@ public class TalkBackPreferencesActivity extends BasePreferencesActivity {
         PreferenceSettingsUtils.hidePreference(
             context, getPreferenceScreen(), R.string.pref_speak_passwords_without_headphones);
       }
-    }
-
-    private void assignPlayStoreIntentToPreference(int preferenceId) {
-      final Preference pref = findPreferenceByResId(preferenceId);
-      if (pref == null) {
-        return;
-      }
-      String packageName = PackageManagerUtils.TALBACK_PACKAGE;
-
-      // Only for watches, try the "market://" URL first. If there is a Play Store on the
-      // device, this should succeed. Only for LE devices, there will be no Play Store.
-      if (isWatch) {
-        Uri uri = Uri.parse("market://details?id=" + packageName);
-        Intent intent = new Intent(Intent.ACTION_VIEW, uri);
-        if (canHandleIntent(intent)) {
-          pref.setIntent(intent);
-          return;
-        }
-      }
-
-      Uri uri = Uri.parse("https://play.google.com/store/apps/details?id=" + packageName);
-      Intent intent = new Intent(Intent.ACTION_VIEW, uri);
-      if (isWatch) {
-        // The play.google.com URL goes to ClockworkHome which needs an extra permission,
-        // just redirect to the phone.
-        intent = RemoteIntentUtils.intentToOpenUriOnPhone(uri);
-      } else if (!canHandleIntent(intent)) {
-        getPreferenceScreen().removePreference(pref);
-        return;
-      }
-
-      pref.setIntent(intent);
     }
 
     private boolean canHandleIntent(Intent intent) {
@@ -283,32 +243,6 @@ public class TalkBackPreferencesActivity extends BasePreferencesActivity {
       } catch (NameNotFoundException e) {
         return null;
       }
-    }
-
-    /** Show TalkBack version in the Play Store button. */
-    private void showTalkBackVersion() {
-      Activity activity = getActivity();
-      if (activity == null) {
-        return;
-      }
-      PackageInfo packageInfo = getPackageInfo(activity);
-      if (packageInfo == null) {
-        return;
-      }
-      final Preference playStoreButton = findPreferenceByResId(R.string.pref_play_store_key);
-      if (playStoreButton == null) {
-        return;
-      }
-      Pattern pattern = Pattern.compile("[0-9]+\\.[0-9]+");
-      Matcher matcher = pattern.matcher(String.valueOf(packageInfo.versionName));
-      String summary;
-      if (matcher.find()) {
-        summary = getString(R.string.summary_pref_play_store, matcher.group());
-      } else {
-        summary =
-            getString(R.string.summary_pref_play_store, String.valueOf(packageInfo.versionName));
-      }
-      playStoreButton.setSummary(summary);
     }
 
     /**

@@ -55,10 +55,6 @@
     <!-- Required for App Enumeration -->
     <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES"/>
 
-    <!-- Required for sending data to Google Analytics. -->
-    <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
 
     <!-- Required for reading bluetooth headphone state. -->
@@ -66,12 +62,6 @@
 
     <!-- Required for calling Service.startForeground after API 28. -->
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
-
-    <!-- Required for Primes. -->
-    <uses-permission android:name="android.permission.GET_PACKAGE_SIZE" />
-
-    <!-- Used to control Primes collection using Gservices flags -->
-    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
 
     <!-- Hardware compatibility. -->
     <uses-feature

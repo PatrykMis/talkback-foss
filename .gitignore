@@ -1,3 +1,6 @@
-/builds
+build
+*/build
 .gradle
 local.properties
+braille/.cxx/
+braille/src/main/res/
