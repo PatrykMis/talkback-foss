@@ -25,8 +25,6 @@ import android.view.accessibility.AccessibilityWindowInfo;
 import com.google.android.accessibility.talkback.ActorState;
 import com.google.android.accessibility.talkback.Feedback;
 import com.google.android.accessibility.talkback.Pipeline;
-import com.google.android.accessibility.talkback.PrimesController;
-import com.google.android.accessibility.talkback.PrimesController.Timer;
 import com.google.android.accessibility.talkback.focusmanagement.NavigationTarget;
 import com.google.android.accessibility.talkback.focusmanagement.interpreter.ScreenState;
 import com.google.android.accessibility.talkback.focusmanagement.record.AccessibilityFocusActionHistory;
@@ -72,7 +70,6 @@ public class FocusActorForScreenStateChange {
 
   private Pipeline.FeedbackReturner pipeline;
   private ActorState actorState;
-  private final PrimesController primesController;
 
   private final FocusFinder focusFinder;
 
@@ -80,8 +77,7 @@ public class FocusActorForScreenStateChange {
   // Construction methods
 
   public FocusActorForScreenStateChange(
-      FocusFinder focusFinder, PrimesController primesController) {
-    this.primesController = primesController;
+      FocusFinder focusFinder) {
     this.focusFinder = focusFinder;
   }
 
@@ -104,7 +100,6 @@ public class FocusActorForScreenStateChange {
       return false;
     }
 
-    primesController.startTimer(Timer.INITIAL_FOCUS_RESTORE);
     AccessibilityNodeInfoCompat root = null;
     AccessibilityNodeInfoCompat nodeToRestoreFocus = null;
     try {
@@ -149,7 +144,6 @@ public class FocusActorForScreenStateChange {
 
     } finally {
       AccessibilityNodeInfoUtils.recycleNodes(root, nodeToRestoreFocus);
-      primesController.stopTimer(Timer.INITIAL_FOCUS_RESTORE);
     }
   }
 
@@ -182,7 +176,6 @@ public class FocusActorForScreenStateChange {
   /** Sets accessibility focus to EditText in the active window. */
   public boolean syncA11yFocusToInputFocusedEditText(ScreenState screenState, EventId eventId) {
 
-    primesController.startTimer(Timer.INITIAL_FOCUS_FOLLOW_INPUT);
     AccessibilityNodeInfoCompat inputFocusedNode = null;
     try {
       inputFocusedNode = focusFinder.findFocusCompat(FOCUS_INPUT);
@@ -193,7 +186,6 @@ public class FocusActorForScreenStateChange {
               eventId, Feedback.focus(inputFocusedNode, FOCUS_ACTION_INFO_SYNCED_EDIT_TEXT));
     } finally {
       AccessibilityNodeInfoUtils.recycleNodes(inputFocusedNode);
-      primesController.stopTimer(Timer.INITIAL_FOCUS_FOLLOW_INPUT);
     }
   }
 
@@ -205,7 +197,6 @@ public class FocusActorForScreenStateChange {
       return false;
     }
 
-    primesController.startTimer(Timer.INITIAL_FOCUS_FIRST_CONTENT);
     AccessibilityNodeInfoCompat root = null;
     AccessibilityNodeInfoCompat nodeToFocus = null;
     TraversalStrategy traversalStrategy = null;
@@ -259,7 +250,6 @@ public class FocusActorForScreenStateChange {
     } finally {
       AccessibilityNodeInfoUtils.recycleNodes(nodeToFocus, root);
       TraversalStrategyUtils.recycle(traversalStrategy);
-      primesController.stopTimer(Timer.INITIAL_FOCUS_FIRST_CONTENT);
     }
   }
 

@@ -26,7 +26,6 @@ import com.google.android.accessibility.compositor.AccessibilityFocusEventInterp
 import com.google.android.accessibility.talkback.ActorState;
 import com.google.android.accessibility.talkback.Interpretation;
 import com.google.android.accessibility.talkback.Pipeline;
-import com.google.android.accessibility.talkback.PrimesController;
 import com.google.android.accessibility.talkback.ScrollEventInterpreter;
 import com.google.android.accessibility.talkback.ScrollEventInterpreter.ScrollEventHandler;
 import com.google.android.accessibility.talkback.ScrollEventInterpreter.ScrollEventInterpretation;
@@ -74,8 +73,7 @@ public class AccessibilityFocusInterpreter
 
   public AccessibilityFocusInterpreter(
       FocusFinder focusFinder,
-      AccessibilityFocusMonitor accessibilityFocusMonitor,
-      PrimesController primesController) {
+      AccessibilityFocusMonitor accessibilityFocusMonitor) {
 
     this.accessibilityFocusMonitor = accessibilityFocusMonitor;
 
