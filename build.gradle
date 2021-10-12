@@ -35,7 +35,7 @@ android {
         versionName talkbackVersionName
         manifestPlaceholders = [talkbackMainPermission:talkbackMainPermission]
         minSdkVersion 26
-        targetSdkVersion 30
+        targetSdkVersion 31
         versionCode 370044210
         versionName "2021-04-23"
         testInstrumentationRunner 'android.test.InstrumentationTestRunner'
