@@ -34,7 +34,7 @@ android {
         versionCode 370044210
         manifestPlaceholders = [talkbackMainPermission:talkbackMainPermission]
         minSdkVersion 26
-        targetSdkVersion 30
+        targetSdkVersion 31
         testInstrumentationRunner 'android.test.InstrumentationTestRunner'
         multiDexEnabled true
     }
