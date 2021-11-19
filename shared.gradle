@@ -24,7 +24,7 @@ android {
 dependencies {
 
     // Google common
-    implementation 'com.google.guava:guava:22.0'
+    implementation 'com.google.guava:guava:31.0.1-jre'
     implementation 'com.google.android.material:material:1.1.0'
 
     // Support library
