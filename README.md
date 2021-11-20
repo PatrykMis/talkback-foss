@@ -22,7 +22,7 @@ There is also an issue tracker where various issues and improvements can be disc
 
 ## How to Build
 
-To build TalkBack, run `./build.sh`, which will produce an apk file; or, issue `gradlew assembleRelease` command and sign the apk.
+To build TalkBack, run `gradlew assembleRelease` command and sign the apk.
 
 ## How to Install
 
