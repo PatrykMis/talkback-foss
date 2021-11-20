@@ -10,13 +10,15 @@ see [TalkBack User Guide](https://support.google.com/accessibility/android/answe
 
 All changes are in the commits log. Below are the most important ones:
 
-* Removed unnessesary Google Mobile Services dependencies and permissions (credits to [Tad](https://gitlab.com/IratePorcupine) for [this patch on F-Droid repo](https://gitlab.com/fdroid/fdroiddata/-/blob/master/metadata/com.android.talkback/370044210-Remove-GMS-dependency.patch)
-* Added support for Polish braille tables in Brailleime
+* Removed unnessesary Google dependencies and permissions (credits to [Tad](https://github.com/SkewedZeppelin) from [DivestOS](https://github.com/Divested-Mobile/talkback/) project)
+* Braille input: Added support for French and Polish braille tables
 * Various translation and typo fixes
-* added Gradle Wrapper to simplify build process on various systems and build instructions in the readme.
-* Added instruction how to run TalkBack without screen access.
+* added Gradle Wrapper to simplify build process on various systems
+* various improvements from [GrapheneOS](https://github.com/GrapheneOS/talkback) project by [Daniel Micay](https://github.com/thestinger)
+* updated dependencies which may fix potencial security issues
+* Added more instructions in the readme
 
-There is also an issue tracker where various issues and improvements can be discussed. Unfortunately, the upstream code is not beeing updated too often.
+There is also an issue tracker where various issues and improvements can be discussed. Unfortunately, the upstream code is not beeing developed openly and actively maintained.
 
 ## How to Build
 
