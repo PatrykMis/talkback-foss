@@ -33,7 +33,7 @@ android {
 dependencies {
 
     // Google common
-    implementation 'com.google.guava:guava:31.0-jre'
+    implementation 'com.google.guava:guava:31.1-android'
     implementation 'com.google.android.gms:play-services-mlkit-text-recognition:17.0.1'
     implementation 'com.google.android.material:material:1.4.0'
 
