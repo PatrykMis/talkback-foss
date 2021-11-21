@@ -14,7 +14,7 @@ android {
     defaultConfig {
         vectorDrawables.useSupportLibrary = true
         multiDexEnabled true
-        minSdkVersion 23
+        minSdkVersion 29
     }
     lintOptions {
         abortOnError false

@@ -4,7 +4,7 @@
     package="com.google.android.accessibility.brailleime">
 
   <uses-sdk
-      android:minSdkVersion="23"
+      android:minSdkVersion="29"
       android:targetSdkVersion="30" />
 
   <!-- Required for haptic feedback. -->
