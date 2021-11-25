@@ -41,6 +41,7 @@ android {
     packagingOptions {
         exclude 'LICENSE'
         exclude 'README'
+        exclude 'TODO'
     }
     lintOptions {
         checkReleaseBuilds false
