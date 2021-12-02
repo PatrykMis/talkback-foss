@@ -2,9 +2,9 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="accessibility_tutorial_title">সাধ্য় সুবিধাসমূহৰ বিষয়ে প্ৰশিক্ষণ</string>
   <string name="title_pref_tutorial">টকবেকৰ ব্যৱহাৰ সম্পৰ্কীয় পাঠ</string>
-  <string name="tutorial_title">TalkBackৰ বিষয়ে প্ৰশিক্ষণ</string>
-  <string name="main_description">TalkBack হৈছে মূলতে দৃষ্টিহীন আৰু কম দৃষ্টিশক্তি থকা লোকসকলৰ বাবে ষ্ক্ৰীণ পঢ়াৰ সুবিধা। ই কথিত প্ৰতিক্ৰিয়াৰ মাধ্য়মেৰে সেইসকল লোকক ডিভাইচ ব্য়ৱহাৰ কৰিবলৈ সুবিধা দিয়ে।</string>
-  <string name="turn_off_talkback">TalkBack অফ কৰক</string>
+  <string name="tutorial_title">TalkBack FOSSৰ বিষয়ে প্ৰশিক্ষণ</string>
+  <string name="main_description">TalkBack FOSS হৈছে মূলতে দৃষ্টিহীন আৰু কম দৃষ্টিশক্তি থকা লোকসকলৰ বাবে ষ্ক্ৰীণ পঢ়াৰ সুবিধা। ই কথিত প্ৰতিক্ৰিয়াৰ মাধ্য়মেৰে সেইসকল লোকক ডিভাইচ ব্য়ৱহাৰ কৰিবলৈ সুবিধা দিয়ে।</string>
+  <string name="turn_off_talkback">TalkBack FOSS অফ কৰক</string>
   <string name="tutorial_start_lesson">শিকক</string>
   <string name="tutorial_practice">অনুশীলন</string>
   <string name="tutorial_start_lesson_content">শিকিবলগীয়া পাঠ %1$d</string>
@@ -17,7 +17,7 @@
   <string name="tutorial_lesson_1_page2_description">আপুনি একেবাৰে শেষত শুনা বস্তুটো সক্ৰিয় কৰাৰ বাবে যিকোনো ঠাইত দুবাৰ টিপক। ৪র্থ বস্তুটো বিচাৰি এতিয়াই সক্ৰিয় কৰক। তাৰ পাছত অব্যাহত ৰাখিবলৈ পৰৱৰ্তীটো সক্ৰিয় কৰক।</string>
   <string name="tutorial_lesson_1_page2_complete_message">৪র্থ বস্তুটো সক্ৰিয় কৰা হৈছে। অব্যাহত ৰাখিবলৈ পৰৱৰ্তী বুটামটো বিচাৰি সক্ৰিয় কৰক।</string>
   <string name="tutorial_lesson_1_page3_subtitle">খণ্ড ৩: নেভিগেশ্বনৰ পাঠসমূহ</string>
-  <string name="tutorial_lesson_1_page3_description">TalkBackৰ পাঠবোৰো একেধৰণেই সজোৱা হৈছে। একেবাৰে ওপৰৰ অংশত পাঠটো আছে, যিটো আপুনি যিকোনো সময়তে অন্বেষণ কৰিব বা পঢ়িব পাৰিব। ইয়াত ওপৰৰ বাওঁফালে প্ৰশিক্ষণৰ গৃহ পৃষ্ঠাৰ বুটাম এটা আছে। মাজৰ অংশখিনিত অভ্য়াস কৰিব পাৰিব। তলত অগ্ৰগতিৰ সূচক আৰু পাঠৰ নেভিগেশ্বনৰ বুটাম আছে। অব্যাহত ৰাখিবৰ বাবে পৰৱৰ্তী পাঠটো সক্ৰিয় কৰক।</string>
+  <string name="tutorial_lesson_1_page3_description">TalkBack FOSSৰ পাঠবোৰো একেধৰণেই সজোৱা হৈছে। একেবাৰে ওপৰৰ অংশত পাঠটো আছে, যিটো আপুনি যিকোনো সময়তে অন্বেষণ কৰিব বা পঢ়িব পাৰিব। ইয়াত ওপৰৰ বাওঁফালে প্ৰশিক্ষণৰ গৃহ পৃষ্ঠাৰ বুটাম এটা আছে। মাজৰ অংশখিনিত অভ্য়াস কৰিব পাৰিব। তলত অগ্ৰগতিৰ সূচক আৰু পাঠৰ নেভিগেশ্বনৰ বুটাম আছে। অব্যাহত ৰাখিবৰ বাবে পৰৱৰ্তী পাঠটো সক্ৰিয় কৰক।</string>
   <string name="tutorial_lesson_1_page4_subtitle">৪র্থ খণ্ড: অন্বেষণ কৰিবলৈ ছোৱাইপ কৰক</string>
   <string name="tutorial_lesson_1_page4_description">আপুনি ষ্ক্ৰীণত আপোনাৰ আঙুলিৰে ছোৱাইপ কৰিও অন্বেষণ কৰিব পাৰে। বাওঁফালে ছোৱাইপ কৰি সাধাৰণতে ওপৰলৈ আৰু বাওঁফালে অন্বেষণ কৰিব পাৰি, আনহাতে সোঁফালে ছোৱাইপ কৰি তললৈ আৰু সোঁফালে অন্বেষণ কৰিব পাৰি।</string>
   <string name="tutorial_lesson_1_practice_title">খণ্ড ৫: অভ্য়াস</string>
@@ -50,7 +50,7 @@
   <string name="tutorial_lesson_5_title">পাঠ ৫: পাঠ সম্পাদনা কেনেকৈ কৰিব</string>
   <string name="tutorial_lesson_5_short_description">সম্পাদনা বাকচ সক্ৰিয় কৰা, টাইপ কৰা, কাৰযৰডাল স্থানান্তৰিত কৰা, পাঠৰ কোনো অংশ বাছনি কৰা আৰু কাৰ্য সম্পাদন কৰা</string>
   <string name="tutorial_lesson_5_page1_subtitle">খণ্ড ১: সম্পাদনা বাকচ এটা কেনেকৈ সক্ৰিয় কৰিব</string>
-  <string name="tutorial_lesson_5_page1_description">TalkBackৰ সৈতে আপুনি টাইপ, বাছনি বা পাঠ সম্পাদনা কৰিবৰ বাবে এটা সম্পাদনা বাকচ ব্য়ৱহাৰ কৰিব পাৰে। সম্পাদনা বাকচ সক্ৰিয় কৰাৰ বাবে ইয়াত দুবাৰ টিপক। সম্পাদনা বাকচ সক্ৰিয় কৰাৰ পাছত, ষ্ক্ৰীণৰ তলত কীব\'ৰ্ডখন উপলব্ধ হ\'ব। বেক বুটামটো টিপি আপুনি কীব\'ৰ্ডখন আঁতৰ কৰিব পাৰে। সম্পাদনা বাকচটো এতিয়া সক্ৰিয় কৰি চাওক। আপোনাৰ অন্বেষণ কৰি হ\'লে পৰৱৰ্তী বুটামটো টিপক, যিটো এতিয়া কীব\'ৰ্ডৰ ওপৰৰ অংশত আছে।</string>
+  <string name="tutorial_lesson_5_page1_description">TalkBack FOSSৰ সৈতে আপুনি টাইপ, বাছনি বা পাঠ সম্পাদনা কৰিবৰ বাবে এটা সম্পাদনা বাকচ ব্য়ৱহাৰ কৰিব পাৰে। সম্পাদনা বাকচ সক্ৰিয় কৰাৰ বাবে ইয়াত দুবাৰ টিপক। সম্পাদনা বাকচ সক্ৰিয় কৰাৰ পাছত, ষ্ক্ৰীণৰ তলত কীব\'ৰ্ডখন উপলব্ধ হ\'ব। বেক বুটামটো টিপি আপুনি কীব\'ৰ্ডখন আঁতৰ কৰিব পাৰে। সম্পাদনা বাকচটো এতিয়া সক্ৰিয় কৰি চাওক। আপোনাৰ অন্বেষণ কৰি হ\'লে পৰৱৰ্তী বুটামটো টিপক, যিটো এতিয়া কীব\'ৰ্ডৰ ওপৰৰ অংশত আছে।</string>
   <string name="tutorial_lesson_5_page2_subtitle">খণ্ড ২: সম্পাদনা বাকচত কেনেকৈ টাইপ কৰিব</string>
   <string name="tutorial_lesson_5_page2_description">টাইপ কৰিবৰ বাবে সম্পাদনা বাকচটো সক্ৰিয় কৰক আৰু আপোনাৰ ষ্ক্ৰীণত থকা কীব\'ৰ্ডত আঙুলি ফুৰাওক। যেতিয়া আপুনি বিচৰা বৰ্ণটো শুনিব, সক্ৰিয় কৰিবৰ বাবে আঙুলিটো উঠাই দিব। সক্ৰিয় কৰি তলত থকা সম্পাদনা বাকচত টাইপ কৰাৰ চেষ্টা কৰক।</string>
   <string name="tutorial_lesson_5_page3_subtitle">খণ্ড ৩: কাৰযৰডাল কেনেকৈ ব্য়ৱহাৰ কৰিব</string>
@@ -75,9 +75,9 @@
   <string name="tutorial_alert_dialog_exit">প্ৰস্থান</string>
   <string name="tutorial_no_touch_explore_title">স্পৰ্শৰ দ্বাৰা অন্বেষণ কৰা সুবিধাৰ প্ৰয়োজন</string>
   <string name="tutorial_no_touch_explore_message">এই প্ৰশিক্ষণৰ বাবে স্পৰ্শৰ দ্বাৰা অন্বেষণ কৰাৰ সুবিধাৰ প্ৰয়োজন। অনুগ্ৰহ কৰি প্ৰশিক্ষণ আৰম্ভ কৰাৰ পূৰ্বে স্পৰ্শৰ দ্বাৰা অন্বেষণ কৰাৰ সুবিধা সক্ৰিয় কৰক।</string>
-  <string name="tutorial_service_inactive_title">TalkBack নিষ্ক্ৰিয় কৰা আছে</string>
-  <string name="tutorial_service_inactive_message">ব্য়ৱহাৰ সম্পৰ্কীয় প্ৰশিক্ষণৰ বাবে TalkBack সক্ৰিয় কৰিব লাগিব। ব্য়ৱহাৰ সম্পৰ্কীয় প্ৰশিক্ষণ আৰম্ভ কৰাৰ পূৰ্বে অনুগ্ৰহ কৰি TalkBack অন কৰক।</string>
-  <string name="tutorial_service_suspended_title">TalkBack স্থগিত ৰখা হৈছে</string>
-  <string name="tutorial_service_suspended_message">মতামত স্থগিত ৰখাৰ সময়ত TalkBackৰ ব্য়ৱহাৰ সম্পৰ্কীয় প্ৰশিক্ষণ উপলব্ধ নহ’ব। অনুগ্ৰহ কৰি TalkBackৰ মতামত পুনৰ সক্ৰিয় কৰক আৰু TalkBackৰ ব্য়ৱহাৰ সম্পৰ্কীয় প্ৰশিক্ষণ আকৌ আৰম্ভ কৰক।</string>
+  <string name="tutorial_service_inactive_title">TalkBack FOSS নিষ্ক্ৰিয় কৰা আছে</string>
+  <string name="tutorial_service_inactive_message">ব্য়ৱহাৰ সম্পৰ্কীয় প্ৰশিক্ষণৰ বাবে TalkBack FOSS সক্ৰিয় কৰিব লাগিব। ব্য়ৱহাৰ সম্পৰ্কীয় প্ৰশিক্ষণ আৰম্ভ কৰাৰ পূৰ্বে অনুগ্ৰহ কৰি TalkBack FOSS অন কৰক।</string>
+  <string name="tutorial_service_suspended_title">TalkBack FOSS স্থগিত ৰখা হৈছে</string>
+  <string name="tutorial_service_suspended_message">মতামত স্থগিত ৰখাৰ সময়ত TalkBack FOSSৰ ব্য়ৱহাৰ সম্পৰ্কীয় প্ৰশিক্ষণ উপলব্ধ নহ’ব। অনুগ্ৰহ কৰি TalkBack FOSSৰ মতামত পুনৰ সক্ৰিয় কৰক আৰু TalkBack FOSSৰ ব্য়ৱহাৰ সম্পৰ্কীয় প্ৰশিক্ষণ আকৌ আৰম্ভ কৰক।</string>
   <string name="shortcut_hear_lesson">মেনুৰ বিৱৰণ দিয়ক</string>
 </resources>

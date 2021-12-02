@@ -60,8 +60,8 @@
   <string name="voice_commands_dictate">Dictează</string>
   <string name="voice_commands_write">Scriere</string>
   <string name="voice_commands_Spell">Ortografiere</string>
-  <string name="voice_commands_talkback_settings">Setări TalkBack</string>
-  <string name="voice_commands_talkback_setting">Setare TalkBack</string>
+  <string name="voice_commands_talkback_settings">Setări TalkBack FOSS</string>
+  <string name="voice_commands_talkback_setting">Setare TalkBack FOSS</string>
   <string name="voice_commands_screen_search">Căutare pe ecran</string>
   <string name="voice_commands_search_on_screen">Caută pe ecran</string>
   <string name="voice_commands_copy">@android:string/copy</string>
@@ -139,7 +139,7 @@
   <string name="voice_commands_help_overview_description">Vedeți aplicațiile recente</string>
   <string name="voice_commands_help_assistant_description">Deschideți Asistentul Google</string>
   <string name="voice_commands_help_other_commands_title">Alte comenzi</string>
-  <string name="voice_commands_help_other_commands_description">Accesați setările TalkBack, ascundeți ecranul, vedeți acțiunile, adăugați etichete personalizate și altele</string>
+  <string name="voice_commands_help_other_commands_description">Accesați setările TalkBack FOSS, ascundeți ecranul, vedeți acțiunile, adăugați etichete personalizate și altele</string>
   <string name="voice_commands_help_label">Etichetează ca [trimiteți]</string>
   <string name="voice_commands_help_hide_screen_description">Ascundeți ecranul, astfel încât să nu fie vizibil pentru alte persoane în locurile publice</string>
   <string name="voice_commands_help_show_screen_description">După ascunderea ecranului, aduceți-l înapoi în starea normală</string>

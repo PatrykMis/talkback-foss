@@ -60,8 +60,8 @@
   <string name="voice_commands_dictate">Dicta</string>
   <string name="voice_commands_write">Escriu</string>
   <string name="voice_commands_Spell">Lletreja</string>
-  <string name="voice_commands_talkback_settings">Configuració de TalkBack</string>
-  <string name="voice_commands_talkback_setting">Configuració de TalkBack</string>
+  <string name="voice_commands_talkback_settings">Configuració de TalkBack FOSS</string>
+  <string name="voice_commands_talkback_setting">Configuració de TalkBack FOSS</string>
   <string name="voice_commands_screen_search">Cerca directa</string>
   <string name="voice_commands_search_on_screen">Cerca en pantalla</string>
   <string name="voice_commands_copy">@android:string/copy</string>
@@ -139,7 +139,7 @@
   <string name="voice_commands_help_overview_description">Consulta les teves aplicacions recents</string>
   <string name="voice_commands_help_assistant_description">Obre l\'Assistent de Google</string>
   <string name="voice_commands_help_other_commands_title">Altres ordres</string>
-  <string name="voice_commands_help_other_commands_description">Ves a la configuració de TalkBack, amaga la pantalla, consulta accions, afegeix etiquetes personalitzades i més</string>
+  <string name="voice_commands_help_other_commands_description">Ves a la configuració de TalkBack FOSS, amaga la pantalla, consulta accions, afegeix etiquetes personalitzades i més</string>
   <string name="voice_commands_help_label">Etiqueta [envia]</string>
   <string name="voice_commands_help_hide_screen_description">Amaga la pantalla perquè les altres persones no puguin veure-la quan estiguis en llocs públics</string>
   <string name="voice_commands_help_show_screen_description">Després d\'amagar la pantalla, fa que torni al seu estat normal</string>

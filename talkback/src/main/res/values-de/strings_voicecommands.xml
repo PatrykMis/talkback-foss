@@ -60,8 +60,8 @@
   <string name="voice_commands_dictate">Diktieren</string>
   <string name="voice_commands_write">Schreiben</string>
   <string name="voice_commands_Spell">Buchstabieren</string>
-  <string name="voice_commands_talkback_settings">TalkBack-Einstellungen</string>
-  <string name="voice_commands_talkback_setting">TalkBack-Einstellung</string>
+  <string name="voice_commands_talkback_settings">TalkBack FOSS-Einstellungen</string>
+  <string name="voice_commands_talkback_setting">TalkBack FOSS-Einstellung</string>
   <string name="voice_commands_screen_search">Bildschirmsuche</string>
   <string name="voice_commands_search_on_screen">Auf dem Bildschirm suchen</string>
   <string name="voice_commands_copy">@android:string/copy</string>
@@ -139,7 +139,7 @@
   <string name="voice_commands_help_overview_description">Die zuletzt aktiven Apps ansehen</string>
   <string name="voice_commands_help_assistant_description">Google Assistant öffnen</string>
   <string name="voice_commands_help_other_commands_title">Weitere Befehle</string>
-  <string name="voice_commands_help_other_commands_description">TalkBack-Einstellungen aufrufen, Display ausblenden, Aktionen sehen, benutzerdefinierte Label hinzufügen und mehr</string>
+  <string name="voice_commands_help_other_commands_description">TalkBack FOSS-Einstellungen aufrufen, Display ausblenden, Aktionen sehen, benutzerdefinierte Label hinzufügen und mehr</string>
   <string name="voice_commands_help_label">Füg ein Label für [Senden] hinzu</string>
   <string name="voice_commands_help_hide_screen_description">Display ausblenden, damit andere Personen an öffentlichen Orten deinen Bildschirm nicht sehen können</string>
   <string name="voice_commands_help_show_screen_description">Display nach dem Ausblenden auf Normalzustand zurücksetzen</string>

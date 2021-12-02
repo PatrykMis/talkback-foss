@@ -60,8 +60,8 @@
   <string name="voice_commands_dictate">Dikter</string>
   <string name="voice_commands_write">Skriv</string>
   <string name="voice_commands_Spell">Stav</string>
-  <string name="voice_commands_talkback_settings">TalkBack-indstillinger</string>
-  <string name="voice_commands_talkback_setting">TalkBack-indstilling</string>
+  <string name="voice_commands_talkback_settings">TalkBack FOSS-indstillinger</string>
+  <string name="voice_commands_talkback_setting">TalkBack FOSS-indstilling</string>
   <string name="voice_commands_screen_search">Skærmsøgning</string>
   <string name="voice_commands_search_on_screen">Søg på skærmen</string>
   <string name="voice_commands_copy">@android:string/copy</string>
@@ -139,7 +139,7 @@
   <string name="voice_commands_help_overview_description">Se dine seneste apps</string>
   <string name="voice_commands_help_assistant_description">Åbn Google Assistent</string>
   <string name="voice_commands_help_other_commands_title">Andre kommandoer</string>
-  <string name="voice_commands_help_other_commands_description">Gå til TalkBack-indstillingerne, skjul skærm, se handlinger, tilføj tilpassede etiketter m.m.</string>
+  <string name="voice_commands_help_other_commands_description">Gå til TalkBack FOSS-indstillingerne, skjul skærm, se handlinger, tilføj tilpassede etiketter m.m.</string>
   <string name="voice_commands_help_label">Navngiv [indsend]</string>
   <string name="voice_commands_help_hide_screen_description">Skjuler skærmen, så andre ikke kan se den på offentlige steder</string>
   <string name="voice_commands_help_show_screen_description">Vend tilbage til den normale skærmtilstand, efter du har skjult skærmen</string>

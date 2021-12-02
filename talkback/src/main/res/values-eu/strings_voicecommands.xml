@@ -60,8 +60,8 @@
   <string name="voice_commands_dictate">Diktatu</string>
   <string name="voice_commands_write">Idatzi</string>
   <string name="voice_commands_Spell">Letreiatu</string>
-  <string name="voice_commands_talkback_settings">TalkBack-en ezarpenak</string>
-  <string name="voice_commands_talkback_setting">TalkBack-en ezarpena</string>
+  <string name="voice_commands_talkback_settings">TalkBack FOSS-en ezarpenak</string>
+  <string name="voice_commands_talkback_setting">TalkBack FOSS-en ezarpena</string>
   <string name="voice_commands_screen_search">Bilaketa zuzena</string>
   <string name="voice_commands_search_on_screen">Bilatu pantailan</string>
   <string name="voice_commands_copy">@android:string/copy</string>
@@ -139,7 +139,7 @@
   <string name="voice_commands_help_overview_description">Ikusi azken aplikazioak</string>
   <string name="voice_commands_help_assistant_description">Ireki Google-ren Laguntzailea</string>
   <string name="voice_commands_help_other_commands_title">Beste agindu batzuk</string>
-  <string name="voice_commands_help_other_commands_description">Joan TalkBack-en ezarpenetara, ezkutatu pantaila, ikusi ekintzak, gehitu etiketa pertsonalizatuak, etab.</string>
+  <string name="voice_commands_help_other_commands_description">Joan TalkBack FOSS-en ezarpenetara, ezkutatu pantaila, ikusi ekintzak, gehitu etiketa pertsonalizatuak, etab.</string>
   <string name="voice_commands_help_label">[Bidali] izeneko etiketa</string>
   <string name="voice_commands_help_hide_screen_description">Ezkutatu pantaila besteentzat ikusgai egon ez dadin toki publikoetan</string>
   <string name="voice_commands_help_show_screen_description">Pantaila ezkutatu eta gero, itzularaz ezazu egoera normalera</string>

@@ -60,8 +60,8 @@
   <string name="voice_commands_dictate">મને કહો</string>
   <string name="voice_commands_write">લખો</string>
   <string name="voice_commands_Spell">જોડણી</string>
-  <string name="voice_commands_talkback_settings">TalkBack સેટિંગ</string>
-  <string name="voice_commands_talkback_setting">TalkBack સેટિંગ</string>
+  <string name="voice_commands_talkback_settings">TalkBack FOSS સેટિંગ</string>
+  <string name="voice_commands_talkback_setting">TalkBack FOSS સેટિંગ</string>
   <string name="voice_commands_screen_search">સ્ક્રીન પર શોધો</string>
   <string name="voice_commands_search_on_screen">સ્ક્રીન પર શોધો</string>
   <string name="voice_commands_copy">@android:string/copy</string>
@@ -139,7 +139,7 @@
   <string name="voice_commands_help_overview_description">તમારી તાજેતરની ઍપ જુઓ</string>
   <string name="voice_commands_help_assistant_description">Google Assistant ખોલો</string>
   <string name="voice_commands_help_other_commands_title">અન્ય આદેશો</string>
-  <string name="voice_commands_help_other_commands_description">TalkBack સેટિંગ પર જાઓ, સ્ક્રીન છુપાવો, ક્રિયાઓ જુઓ કસ્ટમ લેબલ ઉમેરો અને બીજું ઘણું બધું</string>
+  <string name="voice_commands_help_other_commands_description">TalkBack FOSS સેટિંગ પર જાઓ, સ્ક્રીન છુપાવો, ક્રિયાઓ જુઓ કસ્ટમ લેબલ ઉમેરો અને બીજું ઘણું બધું</string>
   <string name="voice_commands_help_label">લેબલ કરો [સબમિટ કરો]</string>
   <string name="voice_commands_help_hide_screen_description">સાર્વજનિક સ્થાનો પર અન્ય લોકો તમારી સ્ક્રીન ન જોઈ શકે તે માટે ડિસ્પ્લે છુપાવો</string>
   <string name="voice_commands_help_show_screen_description">સ્ક્રીનને છુપાવ્યા પછી, તેને સામાન્ય સ્થિતિમાં પાછી લાવો</string>

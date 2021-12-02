@@ -82,7 +82,7 @@
   <string name="talkback_off_dialog_title">Skakel TalkBack FOSS aan om braille-sleutelbord te gebruik</string>
   <string name="talkback_off_dialog_positive_button">Skakel in toeganklikheidinstellings aan</string>
   <string name="talkback_suspend_dialog_title">Hervat TalkBack FOSS om braillesleutelbord te gebruik</string>
-  <string name="talkback_off_or_suspend_dialog_message">Wanneer Talkback aan is, kan jy op jou skerm tik om braillesimbole in te voer.</string>
+  <string name="talkback_off_or_suspend_dialog_message">Wanneer TalkBack FOSS aan is, kan jy op jou skerm tik om braillesimbole in te voer.</string>
   <string name="next_keyboard">Volgende sleutelbord</string>
   <string name="braille_tutorial_title">Braille-sleutelbordtutoriaal</string>
   <string name="tutorial_intro_description">Met die braillesleutelbord kan jy op jou skerm tik om 6-knoppiebraille in te voer.\n\nJy gebruik tans Verenigde Engelse Braille. Gaan na TalkBack FOSS-instellings om jou tiktaal te wissel.\n\nJy moet jou foon anders vashou en gebruik om braille te tik.</string>

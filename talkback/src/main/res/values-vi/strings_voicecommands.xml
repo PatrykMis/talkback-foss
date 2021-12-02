@@ -60,8 +60,8 @@
   <string name="voice_commands_dictate">Đọc chính tả</string>
   <string name="voice_commands_write">Viết</string>
   <string name="voice_commands_Spell">Đánh vần</string>
-  <string name="voice_commands_talkback_settings">Cài đặt TalkBack</string>
-  <string name="voice_commands_talkback_setting">Cài đặt TalkBack</string>
+  <string name="voice_commands_talkback_settings">Cài đặt TalkBack FOSS</string>
+  <string name="voice_commands_talkback_setting">Cài đặt TalkBack FOSS</string>
   <string name="voice_commands_screen_search">Tìm kiếm trên màn hình</string>
   <string name="voice_commands_search_on_screen">Tìm kiếm trên màn hình</string>
   <string name="voice_commands_copy">@android:string/copy</string>
@@ -139,7 +139,7 @@
   <string name="voice_commands_help_overview_description">Xem các ứng dụng gần đây</string>
   <string name="voice_commands_help_assistant_description">Mở Trợ lý Google</string>
   <string name="voice_commands_help_other_commands_title">Các lệnh khác</string>
-  <string name="voice_commands_help_other_commands_description">Chuyển đến phần cài đặt của TalkBack, ẩn màn hình, xem các thao tác, thêm nhãn tùy chỉnh và các lệnh khác</string>
+  <string name="voice_commands_help_other_commands_description">Chuyển đến phần cài đặt của TalkBack FOSS, ẩn màn hình, xem các thao tác, thêm nhãn tùy chỉnh và các lệnh khác</string>
   <string name="voice_commands_help_label">Gắn nhãn [gửi]</string>
   <string name="voice_commands_help_hide_screen_description">Ẩn màn hình để người khác không thấy được màn hình của bạn ở nơi công cộng</string>
   <string name="voice_commands_help_show_screen_description">Sau khi ẩn, hãy đưa màn hình về trạng thái bình thường</string>

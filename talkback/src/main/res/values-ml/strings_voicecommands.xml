@@ -60,8 +60,8 @@
   <string name="voice_commands_dictate">പറയുക</string>
   <string name="voice_commands_write">എഴുതുക</string>
   <string name="voice_commands_Spell">പറയുക</string>
-  <string name="voice_commands_talkback_settings">TalkBack ക്രമീകരണം</string>
-  <string name="voice_commands_talkback_setting">TalkBack ക്രമീകരണം</string>
+  <string name="voice_commands_talkback_settings">TalkBack FOSS ക്രമീകരണം</string>
+  <string name="voice_commands_talkback_setting">TalkBack FOSS ക്രമീകരണം</string>
   <string name="voice_commands_screen_search">സ്ക്രീനിലെ വിവരങ്ങൾ</string>
   <string name="voice_commands_search_on_screen">സ്‌ക്രീനിൽ തിരയുക</string>
   <string name="voice_commands_copy">@android:string/copy</string>
@@ -139,7 +139,7 @@
   <string name="voice_commands_help_overview_description">നിങ്ങളുടെ അടുത്തിടെയുള്ള ആപ്പുകൾ കാണുക</string>
   <string name="voice_commands_help_assistant_description">Google Assistant തുറക്കുക</string>
   <string name="voice_commands_help_other_commands_title">മറ്റ് കമാൻഡുകൾ</string>
-  <string name="voice_commands_help_other_commands_description">TalkBack ക്രമീകരണത്തിലേക്ക് പോകുക, സ്ക്രീൻ മറയ്ക്കുക, പ്രവർത്തനങ്ങൾ കാണുക, ഇഷ്ടാനുസൃത ലേബലുകൾ ചേർക്കുക എന്നിവയും മറ്റും</string>
+  <string name="voice_commands_help_other_commands_description">TalkBack FOSS ക്രമീകരണത്തിലേക്ക് പോകുക, സ്ക്രീൻ മറയ്ക്കുക, പ്രവർത്തനങ്ങൾ കാണുക, ഇഷ്ടാനുസൃത ലേബലുകൾ ചേർക്കുക എന്നിവയും മറ്റും</string>
   <string name="voice_commands_help_label">ലേബൽ ചെയ്‌ത് [സമർപ്പിക്കുക]</string>
   <string name="voice_commands_help_hide_screen_description">പൊതുസ്ഥലങ്ങളിൽ നിങ്ങളുടെ സ്ക്രീൻ മറ്റുള്ളവർക്ക് ദൃശ്യമാകാതിരിക്കാൻ, ഡിസ്പ്ലേ സ്ക്രീൻ മറയ്ക്കുക</string>
   <string name="voice_commands_help_show_screen_description">നിങ്ങളുടെ സ്ക്രീൻ മറച്ചതിനുശേഷം, അത് സാധാരണ നിലയിലേക്ക് കൊണ്ടുവരിക</string>

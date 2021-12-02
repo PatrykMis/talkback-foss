@@ -60,7 +60,7 @@
   <string name="voice_commands_dictate">Dicta</string>
   <string name="voice_commands_write">Editar</string>
   <string name="voice_commands_Spell">Deletrear</string>
-  <string name="voice_commands_talkback_settings">Ajustes de TalkBack</string>
+  <string name="voice_commands_talkback_settings">Ajustes de TalkBack FOSS</string>
   <string name="voice_commands_talkback_setting">Ajuste de Talkback</string>
   <string name="voice_commands_screen_search">Búsqueda directa</string>
   <string name="voice_commands_search_on_screen">Buscar en la pantalla</string>
@@ -139,7 +139,7 @@
   <string name="voice_commands_help_overview_description">Muestra las aplicaciones recientes</string>
   <string name="voice_commands_help_assistant_description">Abre el Asistente de Google</string>
   <string name="voice_commands_help_other_commands_title">Otros comandos</string>
-  <string name="voice_commands_help_other_commands_description">Muestra los ajustes de TalkBack, oculta la pantalla, muestra acciones, añade etiquetas personalizadas y más</string>
+  <string name="voice_commands_help_other_commands_description">Muestra los ajustes de TalkBack FOSS, oculta la pantalla, muestra acciones, añade etiquetas personalizadas y más</string>
   <string name="voice_commands_help_label">Etiquetar [enviar]</string>
   <string name="voice_commands_help_hide_screen_description">Oculta la pantalla para que nadie pueda verla cuando estés en lugares públicos</string>
   <string name="voice_commands_help_show_screen_description">Hace que la pantalla vuelva a su estado normal después de haberla ocultado</string>

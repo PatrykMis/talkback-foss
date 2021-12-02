@@ -60,8 +60,8 @@
   <string name="voice_commands_dictate">Диктуване</string>
   <string name="voice_commands_write">Писане</string>
   <string name="voice_commands_Spell">Изписване</string>
-  <string name="voice_commands_talkback_settings">Настройки на TalkBack</string>
-  <string name="voice_commands_talkback_setting">Настройване на TalkBack</string>
+  <string name="voice_commands_talkback_settings">Настройки на TalkBack FOSS</string>
+  <string name="voice_commands_talkback_setting">Настройване на TalkBack FOSS</string>
   <string name="voice_commands_screen_search">Търсене в екрана</string>
   <string name="voice_commands_search_on_screen">Търсене на екрана</string>
   <string name="voice_commands_copy">@android:string/copy</string>
@@ -139,7 +139,7 @@
   <string name="voice_commands_help_overview_description">Преглед на скорошните ви приложения</string>
   <string name="voice_commands_help_assistant_description">Отваряне на Google Асистент</string>
   <string name="voice_commands_help_other_commands_title">Други команди</string>
-  <string name="voice_commands_help_other_commands_description">Отваряне на настройките на TalkBack, затъмняване на екрана, преглед на действията, добавяне на персонализирани етикети и др.</string>
+  <string name="voice_commands_help_other_commands_description">Отваряне на настройките на TalkBack FOSS, затъмняване на екрана, преглед на действията, добавяне на персонализирани етикети и др.</string>
   <string name="voice_commands_help_label">Етикет за [submit]</string>
   <string name="voice_commands_help_hide_screen_description">Затъмняване на екрана, за да не е видим за други хора на обществени места</string>
   <string name="voice_commands_help_show_screen_description">Възстановяване на нормалното състояние на екрана след затъмняване</string>

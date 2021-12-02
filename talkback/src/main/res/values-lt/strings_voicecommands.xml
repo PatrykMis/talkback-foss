@@ -60,8 +60,8 @@
   <string name="voice_commands_dictate">Diktuoti</string>
   <string name="voice_commands_write">Rašyti</string>
   <string name="voice_commands_Spell">Įvesti paraidžiui</string>
-  <string name="voice_commands_talkback_settings">„TalkBack“ nustatymai</string>
-  <string name="voice_commands_talkback_setting">„TalkBack“ nustatymas</string>
+  <string name="voice_commands_talkback_settings">„TalkBack FOSS“ nustatymai</string>
+  <string name="voice_commands_talkback_setting">„TalkBack FOSS“ nustatymas</string>
   <string name="voice_commands_screen_search">Paieška ekrane</string>
   <string name="voice_commands_search_on_screen">Ieškoti ekrane</string>
   <string name="voice_commands_copy">@android:string/copy</string>
@@ -139,7 +139,7 @@
   <string name="voice_commands_help_overview_description">Peržiūrėkite naujausias programas</string>
   <string name="voice_commands_help_assistant_description">Atidarykite „Google“ padėjėją</string>
   <string name="voice_commands_help_other_commands_title">Kitos komandos</string>
-  <string name="voice_commands_help_other_commands_description">Eikite į „TalkBack“ nustatymus, paslėpkite ekraną, matykite veiksmus, įtraukite tinkintų etikečių ir kt.</string>
+  <string name="voice_commands_help_other_commands_description">Eikite į „TalkBack FOSS“ nustatymus, paslėpkite ekraną, matykite veiksmus, įtraukite tinkintų etikečių ir kt.</string>
   <string name="voice_commands_help_label">Pažymėkite [Pateikti]</string>
   <string name="voice_commands_help_hide_screen_description">Paslėpkite rodinį, kad viešosiose vietose ekrano neįžiūrėtų kiti asmenys</string>
   <string name="voice_commands_help_show_screen_description">Paslėpę ekraną, grąžinkite įprastą būseną</string>

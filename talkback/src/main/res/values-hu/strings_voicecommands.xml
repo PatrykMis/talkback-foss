@@ -60,8 +60,8 @@
   <string name="voice_commands_dictate">Diktálás</string>
   <string name="voice_commands_write">Írás</string>
   <string name="voice_commands_Spell">Betűzés</string>
-  <string name="voice_commands_talkback_settings">A TalkBack beállításai</string>
-  <string name="voice_commands_talkback_setting">TalkBack-beállítások</string>
+  <string name="voice_commands_talkback_settings">A TalkBack FOSS beállításai</string>
+  <string name="voice_commands_talkback_setting">TalkBack FOSS-beállítások</string>
   <string name="voice_commands_screen_search">Közvetlen keresés</string>
   <string name="voice_commands_search_on_screen">Keresés a képernyőn</string>
   <string name="voice_commands_copy">@android:string/copy</string>
@@ -139,7 +139,7 @@
   <string name="voice_commands_help_overview_description">Legutóbbi alkalmazások megtekintése.</string>
   <string name="voice_commands_help_assistant_description">A Google Segéd megnyitása.</string>
   <string name="voice_commands_help_other_commands_title">Egyéb parancsok</string>
-  <string name="voice_commands_help_other_commands_description">A TalkBack-beállítások megnyitása, képernyő elrejtése, műveletek megtekintése, egyéni címkék hozzáadása stb.</string>
+  <string name="voice_commands_help_other_commands_description">A TalkBack FOSS-beállítások megnyitása, képernyő elrejtése, műveletek megtekintése, egyéni címkék hozzáadása stb.</string>
   <string name="voice_commands_help_label">[Beküldés] címkézése</string>
   <string name="voice_commands_help_hide_screen_description">Takarja el a kijelzőt, hogy mások ne láthassák nyilvános helyeken.</string>
   <string name="voice_commands_help_show_screen_description">A kijelző elrejtése után visszaállítás a normál állapotra.</string>

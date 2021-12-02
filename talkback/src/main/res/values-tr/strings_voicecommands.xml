@@ -60,8 +60,8 @@
   <string name="voice_commands_dictate">Sesle yaz</string>
   <string name="voice_commands_write">Yaz</string>
   <string name="voice_commands_Spell">Harfleri oku</string>
-  <string name="voice_commands_talkback_settings">TalkBack Ayarları</string>
-  <string name="voice_commands_talkback_setting">TalkBack Ayarı</string>
+  <string name="voice_commands_talkback_settings">TalkBack FOSS Ayarları</string>
+  <string name="voice_commands_talkback_setting">TalkBack FOSS Ayarı</string>
   <string name="voice_commands_screen_search">Ekranda ara</string>
   <string name="voice_commands_search_on_screen">Ekrandakilerde ara</string>
   <string name="voice_commands_copy">@android:string/copy</string>
@@ -139,7 +139,7 @@
   <string name="voice_commands_help_overview_description">Son uygulamaları görüntüleyin</string>
   <string name="voice_commands_help_assistant_description">Google Asistan\'ı açın</string>
   <string name="voice_commands_help_other_commands_title">Diğer komutlar</string>
-  <string name="voice_commands_help_other_commands_description">TalkBack ayarlarına gidin, ekranı gizleyin, işlemleri görüntüleyin, özel etiketler ekleyin ve daha fazlası</string>
+  <string name="voice_commands_help_other_commands_description">TalkBack FOSS ayarlarına gidin, ekranı gizleyin, işlemleri görüntüleyin, özel etiketler ekleyin ve daha fazlası</string>
   <string name="voice_commands_help_label">Etiket [gönder]</string>
   <string name="voice_commands_help_hide_screen_description">Herkese açık yerlerde başkalarının görmemesi için ekranınızı gizleyin</string>
   <string name="voice_commands_help_show_screen_description">Ekranınızı gizledikten sonra normal durumuna döndürün</string>

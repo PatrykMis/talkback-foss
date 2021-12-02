@@ -60,8 +60,8 @@
   <string name="voice_commands_dictate">Dikteer</string>
   <string name="voice_commands_write">Skryf</string>
   <string name="voice_commands_Spell">Spel</string>
-  <string name="voice_commands_talkback_settings">TalkBack-instellings</string>
-  <string name="voice_commands_talkback_setting">TalkBack-instelling</string>
+  <string name="voice_commands_talkback_settings">TalkBack FOSS-instellings</string>
+  <string name="voice_commands_talkback_setting">TalkBack FOSS-instelling</string>
   <string name="voice_commands_screen_search">Kitsskermsoek</string>
   <string name="voice_commands_search_on_screen">Soek op skerm</string>
   <string name="voice_commands_copy">@android:string/copy</string>
@@ -139,7 +139,7 @@
   <string name="voice_commands_help_overview_description">Sien jou onlangse programme</string>
   <string name="voice_commands_help_assistant_description">Maak Google Assistent oop</string>
   <string name="voice_commands_help_other_commands_title">Ander opdragte</string>
-  <string name="voice_commands_help_other_commands_description">Gaan na TalkBack-instellings, versteek skerm, sien handelinge, voeg gepasmaakte etikette by, en meer</string>
+  <string name="voice_commands_help_other_commands_description">Gaan na TalkBack FOSS-instellings, versteek skerm, sien handelinge, voeg gepasmaakte etikette by, en meer</string>
   <string name="voice_commands_help_label">Etiketteer [dien in]</string>
   <string name="voice_commands_help_hide_screen_description">Versteek die vertoonskerm sodat die skerm nie in publieke plekke vir ander sigbaar is nie</string>
   <string name="voice_commands_help_show_screen_description">Herstel jou skerm na \'n normale toestand nadat jy dit versteek het.</string>

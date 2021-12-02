@@ -60,8 +60,8 @@
   <string name="voice_commands_dictate">Dyktuj</string>
   <string name="voice_commands_write">Napisz</string>
   <string name="voice_commands_Spell">Przeliteruj</string>
-  <string name="voice_commands_talkback_settings">Ustawienia TalkBack</string>
-  <string name="voice_commands_talkback_setting">Ustawienie TalkBack</string>
+  <string name="voice_commands_talkback_settings">Ustawienia TalkBack FOSS</string>
+  <string name="voice_commands_talkback_setting">Ustawienie TalkBack FOSS</string>
   <string name="voice_commands_screen_search">Wyszukiwanie zawartości ekranu</string>
   <string name="voice_commands_search_on_screen">Szukaj na ekranie</string>
   <string name="voice_commands_copy">@android:string/copy</string>
@@ -139,7 +139,7 @@
   <string name="voice_commands_help_overview_description">Wyświetlanie ostatnich aplikacji</string>
   <string name="voice_commands_help_assistant_description">Otwieranie Asystenta Google</string>
   <string name="voice_commands_help_other_commands_title">Inne polecenia</string>
-  <string name="voice_commands_help_other_commands_description">Otwieranie ustawień TalkBack, ukrywania ekranu, wyświetlania działań, dodawania własnych etykiet itp.</string>
+  <string name="voice_commands_help_other_commands_description">Otwieranie ustawień TalkBack FOSS, ukrywania ekranu, wyświetlania działań, dodawania własnych etykiet itp.</string>
   <string name="voice_commands_help_label">Oznacz etykietą [prześlij]</string>
   <string name="voice_commands_help_hide_screen_description">Ukrywanie wyświetlacza, by ekran nie był widoczny dla innych osób w miejscach publicznych</string>
   <string name="voice_commands_help_show_screen_description">Przywracanie ukrytego ekranu do normalnego stanu</string>

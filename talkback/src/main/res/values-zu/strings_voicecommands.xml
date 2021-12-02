@@ -60,8 +60,8 @@
   <string name="voice_commands_dictate">Ukuphoqa</string>
   <string name="voice_commands_write">Bhala</string>
   <string name="voice_commands_Spell">I-Spell</string>
-  <string name="voice_commands_talkback_settings">Amasethingi we-TalkBack</string>
-  <string name="voice_commands_talkback_setting">Isethingi ye-TalkBack</string>
+  <string name="voice_commands_talkback_settings">Amasethingi we-TalkBack FOSS</string>
+  <string name="voice_commands_talkback_setting">Isethingi ye-TalkBack FOSS</string>
   <string name="voice_commands_screen_search">Usesho lwesikrini</string>
   <string name="voice_commands_search_on_screen">Sesha kusikrini</string>
   <string name="voice_commands_copy">@android:string/copy</string>
@@ -139,7 +139,7 @@
   <string name="voice_commands_help_overview_description">Bona izinhlelo zakho zokusebenza zamanje</string>
   <string name="voice_commands_help_assistant_description">Vula umsizi we-Google</string>
   <string name="voice_commands_help_other_commands_title">Eminye imiyalo</string>
-  <string name="voice_commands_help_other_commands_description">Iya kumasethingi we-TalkBack, fihla isikrini, bona izenzo, engeza amalebula angokwezifiso, nokuningi</string>
+  <string name="voice_commands_help_other_commands_description">Iya kumasethingi we-TalkBack FOSS, fihla isikrini, bona izenzo, engeza amalebula angokwezifiso, nokuningi</string>
   <string name="voice_commands_help_label">Ilebula [yokuthumela]</string>
   <string name="voice_commands_help_hide_screen_description">Fihla isiboniso ukuze isikrini sakho singabonakali kwabanye abantu ezindaweni ezisesidlangalaleni</string>
   <string name="voice_commands_help_show_screen_description">Ngemuva kokufihla isikrini sakho, sibuyisele esimweni esivamile</string>

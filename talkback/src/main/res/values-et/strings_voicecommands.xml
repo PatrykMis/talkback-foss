@@ -60,8 +60,8 @@
   <string name="voice_commands_dictate">Dikteeri</string>
   <string name="voice_commands_write">Kirjuta</string>
   <string name="voice_commands_Spell">Sisesta tähthaaval</string>
-  <string name="voice_commands_talkback_settings">TalkBacki seaded</string>
-  <string name="voice_commands_talkback_setting">TalkBacki seade</string>
+  <string name="voice_commands_talkback_settings">TalkBack FOSSi seaded</string>
+  <string name="voice_commands_talkback_setting">TalkBack FOSSi seade</string>
   <string name="voice_commands_screen_search">Ekraaniotsing</string>
   <string name="voice_commands_search_on_screen">Otsi ekraanikuvalt</string>
   <string name="voice_commands_copy">@android:string/copy</string>
@@ -139,7 +139,7 @@
   <string name="voice_commands_help_overview_description">Hiljutiste rakenduste nägemine</string>
   <string name="voice_commands_help_assistant_description">Google\'i assistendi avamine</string>
   <string name="voice_commands_help_other_commands_title">Muud käsud</string>
-  <string name="voice_commands_help_other_commands_description">TalkBacki seadete avamine, ekraanikuvade peitmine, toimingute nögemine, kohandatud siltide lisamine ja muud</string>
+  <string name="voice_commands_help_other_commands_description">TalkBack FOSSi seadete avamine, ekraanikuvade peitmine, toimingute nögemine, kohandatud siltide lisamine ja muud</string>
   <string name="voice_commands_help_label">Silt [Esita]</string>
   <string name="voice_commands_help_hide_screen_description">Ekraanikuva peitmine, et see poleks avalikes kohtades teistele nähtav</string>
   <string name="voice_commands_help_show_screen_description">Pärast ekraanikuva peitmist tavaolekusse naasmine</string>

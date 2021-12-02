@@ -60,8 +60,8 @@
   <string name="voice_commands_dictate">語音輸入</string>
   <string name="voice_commands_write">撰寫</string>
   <string name="voice_commands_Spell">拼字</string>
-  <string name="voice_commands_talkback_settings">TalkBack 設定</string>
-  <string name="voice_commands_talkback_setting">TalkBack 設定</string>
+  <string name="voice_commands_talkback_settings">TalkBack FOSS 設定</string>
+  <string name="voice_commands_talkback_setting">TalkBack FOSS 設定</string>
   <string name="voice_commands_screen_search">搜尋螢幕畫面</string>
   <string name="voice_commands_search_on_screen">搜尋畫面上的內容</string>
   <string name="voice_commands_copy">@android:string/copy</string>
@@ -139,7 +139,7 @@
   <string name="voice_commands_help_overview_description">查看最近使用的應用程式</string>
   <string name="voice_commands_help_assistant_description">開啟 Google 助理</string>
   <string name="voice_commands_help_other_commands_title">其他指令</string>
-  <string name="voice_commands_help_other_commands_description">前往 TalkBack 設定頁面、隱藏螢幕畫面、查看相關操作、新增自訂標籤等</string>
+  <string name="voice_commands_help_other_commands_description">前往 TalkBack FOSS 設定頁面、隱藏螢幕畫面、查看相關操作、新增自訂標籤等</string>
   <string name="voice_commands_help_label">加上 [提交] 標籤</string>
   <string name="voice_commands_help_hide_screen_description">隱藏螢幕畫面，避免裝置螢幕在公共場合遭人窺探</string>
   <string name="voice_commands_help_show_screen_description">讓處於隱藏狀態的螢幕畫面恢復成正常狀態</string>

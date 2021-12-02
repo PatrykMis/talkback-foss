@@ -60,8 +60,8 @@
   <string name="voice_commands_dictate">කියවන විට ලියන්න</string>
   <string name="voice_commands_write">ලියන්න</string>
   <string name="voice_commands_Spell">අකුරු ලියන්න</string>
-  <string name="voice_commands_talkback_settings">TalkBack සැකසීම්</string>
-  <string name="voice_commands_talkback_setting">TalkBack සැකසීම</string>
+  <string name="voice_commands_talkback_settings">TalkBack FOSS සැකසීම්</string>
+  <string name="voice_commands_talkback_setting">TalkBack FOSS සැකසීම</string>
   <string name="voice_commands_screen_search">තිර සෙවීම</string>
   <string name="voice_commands_search_on_screen">තිරයෙහි සොයන්න</string>
   <string name="voice_commands_copy">@android:string/copy</string>
@@ -139,7 +139,7 @@
   <string name="voice_commands_help_overview_description">ඔබගේ මෑත යෙදුම් බලන්න</string>
   <string name="voice_commands_help_assistant_description">Google සහායක විවෘත කරන්න</string>
   <string name="voice_commands_help_other_commands_title">වෙනත් විධාන</string>
-  <string name="voice_commands_help_other_commands_description">TalkBack සැකසීම් වෙත යන්න, තිරය සඟවන්න, ක්‍රියා බලන්න, අභිරුචි ලේබල එක් කරන්න සහ තවත් දේ</string>
+  <string name="voice_commands_help_other_commands_description">TalkBack FOSS සැකසීම් වෙත යන්න, තිරය සඟවන්න, ක්‍රියා බලන්න, අභිරුචි ලේබල එක් කරන්න සහ තවත් දේ</string>
   <string name="voice_commands_help_label">ලේබල් කරන්න [යොමු කරන්න]</string>
   <string name="voice_commands_help_hide_screen_description">ඔබගේ තිරය පොදු ස්ථානවල අන් අයට නොපෙනෙන ලෙස සංදර්ශකය සඟවන්න</string>
   <string name="voice_commands_help_show_screen_description">ඔබගේ තිරය සැඟවීමෙන් පසු සාමාන්‍ය තත්ත්වයට ආපසු යන්න</string>

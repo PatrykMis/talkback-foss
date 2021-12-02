@@ -60,8 +60,8 @@
   <string name="voice_commands_dictate">Mag-dictate</string>
   <string name="voice_commands_write">Magsulat</string>
   <string name="voice_commands_Spell">Spell</string>
-  <string name="voice_commands_talkback_settings">Mga Setting ng TalkBack</string>
-  <string name="voice_commands_talkback_setting">Setting ng TalkBack</string>
+  <string name="voice_commands_talkback_settings">Mga Setting ng TalkBack FOSS</string>
+  <string name="voice_commands_talkback_setting">Setting ng TalkBack FOSS</string>
   <string name="voice_commands_screen_search">Paghahanap sa screen</string>
   <string name="voice_commands_search_on_screen">Maghanap sa screen</string>
   <string name="voice_commands_copy">@android:string/copy</string>
@@ -139,7 +139,7 @@
   <string name="voice_commands_help_overview_description">Tingnan ang iyong mga kamakailang app</string>
   <string name="voice_commands_help_assistant_description">Buksan ang Google Assistant</string>
   <string name="voice_commands_help_other_commands_title">Iba pang command</string>
-  <string name="voice_commands_help_other_commands_description">Pumunta sa mga setting ng TalkBack, itago ang screen, tingnan ang mga pagkilos, magdagdag ng mga custom na label, at higit pa</string>
+  <string name="voice_commands_help_other_commands_description">Pumunta sa mga setting ng TalkBack FOSS, itago ang screen, tingnan ang mga pagkilos, magdagdag ng mga custom na label, at higit pa</string>
   <string name="voice_commands_help_label">[Isumite] ang label</string>
   <string name="voice_commands_help_hide_screen_description">Itago ang display para hindi makita ng ibang tao ang iyong screen sa mga pampublikong lugar</string>
   <string name="voice_commands_help_show_screen_description">Pagkatapos itago ang iyong screen, ibalik ito sa normal na status</string>
