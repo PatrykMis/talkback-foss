@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="braille_ime_service_name">TalkBack 點字鍵盤</string>
+  <string name="braille_ime_service_name">TalkBack FOSS 點字鍵盤</string>
   <string name="switch_to_screen_away_announcement">螢幕朝外模式</string>
   <string name="switch_to_tabletop_announcement">桌面模式。請將手機充電埠朝左放置。如要更新圓點位置，請用 6 指按住螢幕。</string>
   <string name="braille_ime_hidden_announcement">已隱藏點字鍵盤</string>
@@ -11,7 +11,7 @@
   <string name="switched_to_ueb_uncontracted_announcement">已切換到 UEB 一級點字</string>
   <string name="braille_ime_displayed_name">點字鍵盤</string>
   <string name="multiple_languages_braille_ime_displayed_name">點字鍵盤，%s</string>
-  <string name="input_view_caption">TalkBack 點字鍵盤 - 如需協助，請前往 g.co/help/braille</string>
+  <string name="input_view_caption">TalkBack FOSS 點字鍵盤 - 如需協助，請前往 g.co/help/braille</string>
   <string name="perform_action_next">下一個</string>
   <string name="perform_action_submitting">送出文字</string>
   <string name="calibration_step1_hold_left_finger_announcement">正在更新圓點位置，首先記錄左手的圓點。請用左手的中間 3 指按住螢幕。</string>
@@ -79,17 +79,17 @@
     <item quantity="one">%s 點</item>
     <item quantity="other">%s 點</item>
   </plurals>
-  <string name="talkback_off_dialog_title">必須開啟 TalkBack 才能使用點字鍵盤</string>
+  <string name="talkback_off_dialog_title">必須開啟 TalkBack FOSS 才能使用點字鍵盤</string>
   <string name="talkback_off_dialog_positive_button">在無障礙設定中開啟</string>
-  <string name="talkback_suspend_dialog_title">必須重新啟用 TalkBack，才能使用點字鍵盤</string>
-  <string name="talkback_off_or_suspend_dialog_message">開啟 TalkBack 後，只要輕觸螢幕即可輸入點字符號。</string>
+  <string name="talkback_suspend_dialog_title">必須重新啟用 TalkBack FOSS，才能使用點字鍵盤</string>
+  <string name="talkback_off_or_suspend_dialog_message">開啟 TalkBack FOSS 後，只要輕觸螢幕即可輸入點字符號。</string>
   <string name="next_keyboard">下一個鍵盤</string>
   <string name="braille_tutorial_title">點字鍵盤教學課程</string>
-  <string name="tutorial_intro_description">有了點字鍵盤，只要輕觸螢幕，就能輸入 6 個點的點字。\n\n你目前使用的是統一英文點字。如要切換輸入語言，請前往 TalkBack 設定。\n\n輸入點字時，手機的拿法及使用方式會與平常不同。</string>
+  <string name="tutorial_intro_description">有了點字鍵盤，只要輕觸螢幕，就能輸入 6 個點的點字。\n\n你目前使用的是統一英文點字。如要切換輸入語言，請前往 TalkBack FOSS 設定。\n\n輸入點字時，手機的拿法及使用方式會與平常不同。</string>
   <string name="next_step">下一步</string>
   <string name="leave_keyboard">離開點字鍵盤</string>
-  <string name="hold_six_fingers_description">標準的 TalkBack 手勢無法與點字鍵盤搭配使用。\n\n首先，請設定 6 個點字圓點的位置，以便輸入點字。</string>
-  <string name="rotate_orientation_description_1">從現在起，你將無法使用標準的 TalkBack 手勢。TalkBack 功能無法與點字鍵盤搭配使用。</string>
+  <string name="hold_six_fingers_description">標準的 TalkBack FOSS 手勢無法與點字鍵盤搭配使用。\n\n首先，請設定 6 個點字圓點的位置，以便輸入點字。</string>
+  <string name="rotate_orientation_description_1">從現在起，你將無法使用標準的 TalkBack FOSS 手勢。TalkBack FOSS 功能無法與點字鍵盤搭配使用。</string>
   <string name="rotate_orientation_description_2">如要開始使用，請以螢幕朝外的方式握住手機，如下圖所示。</string>
   <string name="tap_to_continue">在任何位置輕觸兩下即可繼續</string>
   <string name="instruction_type_letter_a_left_index_finger">左手食指</string>
@@ -106,7 +106,7 @@
   <string name="result_swipe_right">空格</string>
   <string name="result_swipe_down_2_fingers">隱藏鍵盤</string>
   <string name="result_swipe_down_3_fingers">下一個鍵盤</string>
-  <string name="rotate_orientation_announcement">從現在起，你將無法使用標準的 TalkBack 手勢。TalkBack 功能無法與點字鍵盤搭配使用。\n\n%1$s</string>
+  <string name="rotate_orientation_announcement">從現在起，你將無法使用標準的 TalkBack FOSS 手勢。TalkBack FOSS 功能無法與點字鍵盤搭配使用。\n\n%1$s</string>
   <string name="rotate_orientation_inactive_announcement">首先，請將手機轉向，讓螢幕朝外。\n\n接下來，請將手機由直向轉為橫向。你的雙手應該握著手機較短的兩個邊。右手必須握著有 USB 連接埠的那一邊。請將中間 3 隻手指放在螢幕上，並以拇指和小指固定手機。\n\n準備好之後，在螢幕上輕觸兩下，即可繼續進行下一個步驟。\n\n如要退出點字鍵盤，請以 3 指朝地面向下滑動，這樣就會切換回原本使用的鍵盤。</string>
   <string name="rotate_orientation_continue_announcement">你的手機目前為直向。如要繼續操作，請將手機轉為橫向，讓長邊在底部。接著，請將手機轉向，讓螢幕朝外。準備好之後，在螢幕上輕觸兩下，即可繼續進行下一個步驟。</string>
   <string name="type_letter_a_announcement_left_index_finger">左手食指</string>
@@ -122,7 +122,7 @@
   <string name="swipe_down_3_fingers_announcement">如要切換到其他鍵盤，請以 3 指向下滑動。現在就試試看吧！</string>
   <string name="swipe_down_3_fingers_completed_announcement">下一個鍵盤。這樣做通常就能切換到下一個鍵盤，不過目前仍在進行教學課程，所以系統這次會繼續顯示點字鍵盤，不會切換到其他鍵盤。</string>
   <string name="swipe_up_3_fingers_announcement">你也可以將手機平放在桌上，在桌面模式下輸入點字。如要結束教學課程，只要用 3 指向上滑動，就會看到 [結束教學課程] 選項</string>
-  <string name="open_context_menu_announcement">選項選單已開啟。請將手機轉回正常使用的方向，讓螢幕朝著你，並以平常的方式拿手機。你現在可以使用標準的 TalkBack 手勢操作手機了。向右滑動可查看更多選項。</string>
+  <string name="open_context_menu_announcement">選項選單已開啟。請將手機轉回正常使用的方向，讓螢幕朝著你，並以平常的方式拿手機。你現在可以使用標準的 TalkBack FOSS 手勢操作手機了。向右滑動可查看更多選項。</string>
   <string name="hold_six_fingers_announcement">%s\n請將裝置平放在桌上，接著用雙手的中間 3 指在螢幕上按住方便你輸入點字的位置。</string>
   <string name="hold_six_fingers_inactive_announcement">請將裝置平放在桌上，接著用雙手的中間 3 指在螢幕上按住方便你輸入點字的位置。</string>
   <string name="six_hold_announcement">輸入點字時，你也可以將手機平放在桌上。現在就試試看吧！如果附近沒有桌子，向下滑動即可略過這個步驟。</string>

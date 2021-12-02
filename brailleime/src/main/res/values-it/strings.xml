@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="braille_ime_service_name">Tastiera braille di TalkBack</string>
+  <string name="braille_ime_service_name">Tastiera braille di TalkBack FOSS</string>
   <string name="switch_to_screen_away_announcement">Modalità schermo verso l\'esterno</string>
   <string name="switch_to_tabletop_announcement">Modalità da tavolo. Appoggia il dispositivo con la porta di ricarica a sinistra. Tieni premuto con 6 dita per aggiornare la posizione dei punti.</string>
   <string name="braille_ime_hidden_announcement">Tastiera braille nascosta</string>
@@ -11,7 +11,7 @@
   <string name="switched_to_ueb_uncontracted_announcement">Passaggio a UEB esteso effettuato</string>
   <string name="braille_ime_displayed_name">Tastiera braille</string>
   <string name="multiple_languages_braille_ime_displayed_name">Tastiera braille, %s</string>
-  <string name="input_view_caption">Tastiera braille di TalkBack: per assistenza, visita il sito g.co/help/braille</string>
+  <string name="input_view_caption">Tastiera braille di TalkBack FOSS: per assistenza, visita il sito g.co/help/braille</string>
   <string name="perform_action_next">Avanti</string>
   <string name="perform_action_submitting">Invio del testo</string>
   <string name="calibration_step1_hold_left_finger_announcement">Aggiornamento della posizione dei punti. Innanzitutto registra i punti della mano sinistra. Tocca e tieni premuto lo schermo con le 3 dita centrali della mano sinistra.</string>
@@ -79,17 +79,17 @@
     <item quantity="one">punto %s</item>
     <item quantity="other">punti %s</item>
   </plurals>
-  <string name="talkback_off_dialog_title">Per utilizzare la tastiera braille, attiva TalkBack</string>
+  <string name="talkback_off_dialog_title">Per utilizzare la tastiera braille, attiva TalkBack FOSS</string>
   <string name="talkback_off_dialog_positive_button">Attiva nelle impostazioni di accessibilità</string>
-  <string name="talkback_suspend_dialog_title">Riattiva TalkBack per usare la tastiera braille</string>
-  <string name="talkback_off_or_suspend_dialog_message">Quando la funzionalità TalkBack è attiva, puoi toccare lo schermo per inserire simboli braille.</string>
+  <string name="talkback_suspend_dialog_title">Riattiva TalkBack FOSS per usare la tastiera braille</string>
+  <string name="talkback_off_or_suspend_dialog_message">Quando la funzionalità TalkBack FOSS è attiva, puoi toccare lo schermo per inserire simboli braille.</string>
   <string name="next_keyboard">Tastiera successiva</string>
   <string name="braille_tutorial_title">Tutorial tastiera braille</string>
-  <string name="tutorial_intro_description">Con la tastiera braille, puoi toccare lo schermo per inserire caratteri braille a 6 punti.\n\nStai usando il Braille Inglese Unificato. Per cambiare lingua di digitazione, vai alle impostazioni di TalkBack.\n\nPer digitare in braille, devi tenere e utilizzare il telefono in modo diverso.</string>
+  <string name="tutorial_intro_description">Con la tastiera braille, puoi toccare lo schermo per inserire caratteri braille a 6 punti.\n\nStai usando il Braille Inglese Unificato. Per cambiare lingua di digitazione, vai alle impostazioni di TalkBack FOSS.\n\nPer digitare in braille, devi tenere e utilizzare il telefono in modo diverso.</string>
   <string name="next_step">Avanti</string>
   <string name="leave_keyboard">Esci dalla tastiera braille</string>
-  <string name="hold_six_fingers_description">Non potrai usare i gesti standard di TalkBack con la tastiera braille.\n\nPer iniziare, configura la posizione dei 6 punti braille per la digitazione.</string>
-  <string name="rotate_orientation_description_1">Se inizi ora, non potrai utilizzare i gesti standard di TalkBack. TalkBack non è disponibile mentre utilizzi la tastiera braille.</string>
+  <string name="hold_six_fingers_description">Non potrai usare i gesti standard di TalkBack FOSS con la tastiera braille.\n\nPer iniziare, configura la posizione dei 6 punti braille per la digitazione.</string>
+  <string name="rotate_orientation_description_1">Se inizi ora, non potrai utilizzare i gesti standard di TalkBack FOSS. TalkBack FOSS non è disponibile mentre utilizzi la tastiera braille.</string>
   <string name="rotate_orientation_description_2">Per iniziare, tieni il telefono in questo modo, con lo schermo rivolto verso l\'esterno.</string>
   <string name="tap_to_continue">Tocca due volte un punto qualsiasi per continuare</string>
   <string name="instruction_type_letter_a_left_index_finger">dito indice sinistro</string>
@@ -106,7 +106,7 @@
   <string name="result_swipe_right">SPAZIO</string>
   <string name="result_swipe_down_2_fingers">NASCONDI TASTIERA</string>
   <string name="result_swipe_down_3_fingers">TASTIERA SUCCESSIVA</string>
-  <string name="rotate_orientation_announcement">Se inizi ora, non potrai utilizzare i gesti standard di TalkBack. TalkBack non è disponibile durante l\'utilizzo della tastiera braille.\n\n%1$s</string>
+  <string name="rotate_orientation_announcement">Se inizi ora, non potrai utilizzare i gesti standard di TalkBack FOSS. TalkBack FOSS non è disponibile durante l\'utilizzo della tastiera braille.\n\n%1$s</string>
   <string name="rotate_orientation_inactive_announcement">Per prima cosa, gira il telefono in modo tale che lo schermo sia rivolto verso l\'esterno.\n\nQuindi ruota il telefono in posizione orizzontale. Afferra il telefono dai lati più corti. La mano destra dovrebbe tenere il lato con la porta USB. Appoggia le tre dita centrali sullo schermo e utilizza il mignolo e il pollice per reggere il telefono.\n\nQuando hai posizionato le dita in questo modo, tocca due volte lo schermo per continuare.\n\nPer uscire dalla tastiera braille, scorri verso il basso con tre dita. In questo modo tornerai alla tastiera originale.</string>
   <string name="rotate_orientation_continue_announcement">Il tuo telefono è in posizione verticale. Per continuare, ruota in orizzontale il telefono in modo tale che il lato lungo sia in basso. Quindi gira lo schermo in modo tale che sia rivolto verso l\'esterno. Quando il telefono è posizionato correttamente, tocca due volte lo schermo per continuare.</string>
   <string name="type_letter_a_announcement_left_index_finger">dito indice sinistro</string>
@@ -122,7 +122,7 @@
   <string name="swipe_down_3_fingers_announcement">Per passare all\'altra tastiera, scorri verso il basso con tre dita. Prova ora.</string>
   <string name="swipe_down_3_fingers_completed_announcement">Tastiera successiva. Generalmente, in questo modo passerai alla tastiera successiva. Questa volta stai ancora utilizzando la tastiera braille perché il tutorial è ancora attivo.</string>
   <string name="swipe_up_3_fingers_announcement">Puoi anche digitare in modalità Da tavolo posizionando il telefono in orizzontale su un piano. Per terminare il tutorial, scorri verso l\'alto con 3 dita e cerca l\'opzione Termina tutorial</string>
-  <string name="open_context_menu_announcement">Il menu opzioni è aperto. Capovolgi di nuovo il telefono in modo che lo schermo sia rivolto verso di te e tienilo normalmente. Ora puoi utilizzare i gesti TalkBack standard per navigare. Scorri verso destra per visualizzare altre opzioni.</string>
+  <string name="open_context_menu_announcement">Il menu opzioni è aperto. Capovolgi di nuovo il telefono in modo che lo schermo sia rivolto verso di te e tienilo normalmente. Ora puoi utilizzare i gesti TalkBack FOSS standard per navigare. Scorri verso destra per visualizzare altre opzioni.</string>
   <string name="hold_six_fingers_announcement">%s\nAppoggia il dispositivo in orizzontale su un piano. Dopodiché, tocca e tieni premuto lo schermo con le 3 dita centrali di ogni mano tenendole in una posizione comoda per la digitazione.</string>
   <string name="hold_six_fingers_inactive_announcement">Appoggia il dispositivo in orizzontale su un piano. Dopodiché, tocca e tieni premuto lo schermo con le 3 dita centrali di ogni mano tenendole in una posizione comoda per la digitazione.</string>
   <string name="six_hold_announcement">Puoi anche digitare posizionando il telefono in orizzontale su un piano. Prova ora. Se non hai un piano a disposizione nelle vicinanze, salta questo passaggio scorrendo verso il basso.</string>

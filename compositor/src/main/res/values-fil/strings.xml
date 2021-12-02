@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="talkback_on">Naka-on ang TalkBack</string>
-  <string name="talkback_suspended">Sinuspinde ang TalkBack</string>
-  <string name="talkback_resumed">Ipinagpatuloy ang TalkBack</string>
-  <string name="talkback_disabled">Naka-off ang TalkBack</string>
+  <string name="talkback_on">Naka-on ang TalkBack FOSS</string>
+  <string name="talkback_suspended">Sinuspinde ang TalkBack FOSS</string>
+  <string name="talkback_resumed">Ipinagpatuloy ang TalkBack FOSS</string>
+  <string name="talkback_disabled">Naka-off ang TalkBack FOSS</string>
   <string name="spokenfeedback_on">Naka-on ang Pasalitang Feedback</string>
   <string name="spokenfeedback_suspended">Sinuspinde ang Pasalitang Feedback</string>
   <string name="spokenfeedback_resumed">Ipinagpatuloy ang Pasalitang Feedback</string>

@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!--
-    Notification spoken to the user to tell them that TalkBack has been turned on.
+    Notification spoken to the user to tell them that TalkBack FOSS has been turned on.
     [CHAR_LIMIT=10000]
   -->
-  <string name="talkback_on">TalkBack on</string>
+  <string name="talkback_on">TalkBack FOSS on</string>
   <!--
-    Notification spoken to the user to tell them that TalkBack will temporarily stop talking.
+    Notification spoken to the user to tell them that TalkBack FOSS will temporarily stop talking.
     [CHAR_LIMIT=10000]
   -->
-  <string name="talkback_suspended">TalkBack suspended</string>
+  <string name="talkback_suspended">TalkBack FOSS suspended</string>
   <!--
-    Notification spoken to the user to tell them that TalkBack will resume talking after having
+    Notification spoken to the user to tell them that TalkBack FOSS will resume talking after having
     stopped temporarily [CHAR_LIMIT=10000]
   -->
-  <string name="talkback_resumed">TalkBack resumed</string>
+  <string name="talkback_resumed">TalkBack FOSS resumed</string>
   <!--
-    Notification spoken to the user to tell them that TalkBack has been turned off.
+    Notification spoken to the user to tell them that TalkBack FOSS has been turned off.
     [CHAR_LIMIT=10000]
   -->
-  <string name="talkback_disabled">TalkBack off</string>
+  <string name="talkback_disabled">TalkBack FOSS off</string>
   <!-- SWITCH ACCESS-->
   <!--
     Source: A notification that the Spoken Feedback of Switch Access is turned on.
@@ -398,17 +398,17 @@
   <string name="orientation_landscape">Landscape</string>
 
   <!--
-    Source: A TalkBack menu option that allows dismissing an element on the screen.
+    Source: A TalkBack FOSS menu option that allows dismissing an element on the screen.
     Description: This is presented to the user when an element supports a "dismiss" action. [CHAR LIMIT="NONE"]
   -->
   <string name="title_action_dismiss">Dismiss</string>
   <!--
-    Source: A TalkBack menu option that allows expanding an element on the screen.
+    Source: A TalkBack FOSS menu option that allows expanding an element on the screen.
     Description: This is presented to the user when an element supports a "expand" action. [CHAR LIMIT="NONE"]
   -->
   <string name="title_action_expand">Expand</string>
   <!--
-    Source: A TalkBack menu option that allows collapsing an element on the screen.
+    Source: A TalkBack FOSS menu option that allows collapsing an element on the screen.
     Description: This is presented to the user when an element supports a "collapse" action. [CHAR LIMIT="NONE"]
   -->
   <string name="title_action_collapse">Collapse</string>
@@ -418,11 +418,11 @@
   <string name="column_index_template">Column <xliff:g id="col" example="1">%1$d</xliff:g></string>
   <!-- Spoken out to indicate the index of a list item. [CHAR LIMIT=NONE] -->
   <string name="list_index_template"><xliff:g id="item_pos">%1$d</xliff:g> of <xliff:g id="total_count">%2$d</xliff:g></string>
-  <!-- Attached to the text spoken out by TalkBack if the item is a heading -->
+  <!-- Attached to the text spoken out by TalkBack FOSS if the item is a heading -->
   <string name="heading_template">Heading</string>
-  <!-- Attached to the text spoken out by TalkBack if the item is a row heading -->
+  <!-- Attached to the text spoken out by TalkBack FOSS if the item is a row heading -->
   <string name="row_heading_template">Row heading</string>
-  <!-- Attached to the text spoken out by TalkBack if the item is a column heading -->
+  <!-- Attached to the text spoken out by TalkBack FOSS if the item is a column heading -->
   <string name="column_heading_template">Column heading</string>
   <!--
    Source: string indicating that the user is in a collection with role description that has a name,

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="talkback_on">Talkback ενεργό</string>
-  <string name="talkback_suspended">Η λειτουργία του TalkBack ανεστάλη</string>
-  <string name="talkback_resumed">Έγινε συνέχιση του TalkBack</string>
-  <string name="talkback_disabled">Το TalkBack είναι ανενεργό</string>
+  <string name="talkback_suspended">Η λειτουργία του TalkBack FOSS ανεστάλη</string>
+  <string name="talkback_resumed">Έγινε συνέχιση του TalkBack FOSS</string>
+  <string name="talkback_disabled">Το TalkBack FOSS είναι ανενεργό</string>
   <string name="spokenfeedback_on">Τα εκφωνημένα σχόλια είναι ενεργά</string>
   <string name="spokenfeedback_suspended">Τα εκφωνημένα σχόλια είναι σε αναστολή</string>
   <string name="spokenfeedback_resumed">Τα εκφωνημένα σχόλια συνεχίζονται</string>

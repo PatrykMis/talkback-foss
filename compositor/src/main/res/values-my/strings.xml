@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="talkback_on">TalkBack ဖွင့်ထား</string>
-  <string name="talkback_suspended">TalkBack ဆိုင်းငံ့ထား</string>
-  <string name="talkback_resumed">TalkBack ပြန်လည်စတင်</string>
-  <string name="talkback_disabled">TalkBack ပိတ်ထားပါသည်</string>
+  <string name="talkback_on">TalkBack FOSS ဖွင့်ထား</string>
+  <string name="talkback_suspended">TalkBack FOSS ဆိုင်းငံ့ထား</string>
+  <string name="talkback_resumed">TalkBack FOSS ပြန်လည်စတင်</string>
+  <string name="talkback_disabled">TalkBack FOSS ပိတ်ထားပါသည်</string>
   <string name="spokenfeedback_on">အကြံပြုချက်ကို အသံထွက်ဖတ်ပေးခြင်းအား ဖွင့်ထားပါသည်</string>
   <string name="spokenfeedback_suspended">အကြံပြုချက်ကို အသံထွက်ဖတ်ပေးခြင်းအား ဆိုင်းငံ့ထားပါသည်</string>
   <string name="spokenfeedback_resumed">အကြံပြုချက်ကို အသံထွက်ဖတ်ပေးခြင်းအား ပြန်ဖွင့်လိုက်ပါပြီ</string>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="braille_ime_service_name">TalkBack ਬਰੇਲ ਲਿਪੀ ਕੀ-ਬੋਰਡ</string>
+  <string name="braille_ime_service_name">TalkBack FOSS ਬਰੇਲ ਲਿਪੀ ਕੀ-ਬੋਰਡ</string>
   <string name="switch_to_screen_away_announcement">ਸਕ੍ਰੀਨ ਤੋਂ ਦੂਰ ਮੋਡ</string>
   <string name="switch_to_tabletop_announcement">ਟੇਬਲਟੌਪ ਮੋਡ। ਆਪਣੇ ਡੀਵਾਈਸ ਨੂੰ ਚਾਰਜ ਕਰਨ ਵਾਲੇ ਪੋਰਟ ਨੂੰ ਖੱਬੇ ਪਾਸੇ ਵੱਲ ਰੱਖੋ। ਬਿੰਦੂ ਦੀ ਸਥਿਤੀ ਨੂੰ ਅੱਪਡੇਟ ਕਰਨ ਲਈ, 6 ਉਂਗਲਾਂ ਨੂੰ ਸਕ੍ਰੀਨ \'ਤੇ ਰੱਖੋ।</string>
   <string name="braille_ime_hidden_announcement">ਬਰੇਲ ਲਿਪੀ ਕੀ-ਬੋਰਡ ਲੁਕਾਇਆ ਗਿਆ</string>
@@ -11,7 +11,7 @@
   <string name="switched_to_ueb_uncontracted_announcement">ਕੀ-ਬੋਰਡ ਨੂੰ UEB ਵਿਸਤ੍ਰਿਤ ਮੋਡ \'ਤੇ ਬਦਲਿਆ ਗਿਆ</string>
   <string name="braille_ime_displayed_name">ਬਰੇਲ ਲਿਪੀ ਕੀ-ਬੋਰਡ</string>
   <string name="multiple_languages_braille_ime_displayed_name">ਬਰੇਲ ਲਿਪੀ ਕੀ-ਬੋਰਡ, %s</string>
-  <string name="input_view_caption">TalkBack ਬਰੇਲ ਲਿਪੀ ਕੀ-ਬੋਰਡ - ਮਦਦ ਲਈ, g.co/help/braille \'ਤੇ ਜਾਓ</string>
+  <string name="input_view_caption">TalkBack FOSS ਬਰੇਲ ਲਿਪੀ ਕੀ-ਬੋਰਡ - ਮਦਦ ਲਈ, g.co/help/braille \'ਤੇ ਜਾਓ</string>
   <string name="perform_action_next">ਅੱਗੇ</string>
   <string name="perform_action_submitting">ਲਿਖਤ ਸਪੁਰਦ ਕੀਤੀ ਜਾ ਰਹੀ ਹੈ</string>
   <string name="calibration_step1_hold_left_finger_announcement">ਬਿੰਦੂ ਦੀ ਸਥਿਤੀ ਨੂੰ ਅੱਪਡੇਟ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ। ਪਹਿਲਾਂ, ਚਲੋ ਤੁਹਾਡੇ ਖੱਬੇ ਹੱਥ ਦੇ ਬਿੰਦੂਆਂ ਨੂੰ ਰਿਕਾਰਡ ਕਰੀਏ। ਸਕ੍ਰੀਨ ਨੂੰ ਆਪਣੇ ਖੱਬੇ ਹੱਥ ਦੀਆਂ ਵਿਚਕਾਰਲੀਆਂ 3 ਉਂਗਲਾਂ ਨਾਲ ਸਪੱਰਸ਼ ਕਰਕੇ ਰੱਖੋ।</string>
@@ -79,17 +79,17 @@
     <item quantity="one">ਬਿੰਦੀ %s</item>
     <item quantity="other">ਬਿੰਦੀਆਂ %s</item>
   </plurals>
-  <string name="talkback_off_dialog_title">ਬਰੇਲ ਲਿਪੀ ਕੀ-ਬੋਰਡ ਨੂੰ ਵਰਤਣ ਲਈ TalkBack ਚਾਲੂ ਕਰੋ</string>
+  <string name="talkback_off_dialog_title">ਬਰੇਲ ਲਿਪੀ ਕੀ-ਬੋਰਡ ਨੂੰ ਵਰਤਣ ਲਈ TalkBack FOSS ਚਾਲੂ ਕਰੋ</string>
   <string name="talkback_off_dialog_positive_button">ਪਹੁੰਚਯੋਗਤਾ ਸੈਟਿੰਗਾਂ ਵਿੱਚ ਚਾਲੂ ਕਰੋ</string>
-  <string name="talkback_suspend_dialog_title">ਬਰੇਲ ਲਿਪੀ ਕੀ-ਬੋਰਡ ਨੂੰ ਵਰਤਣ ਲਈ TalkBack ਨੂੰ ਮੁੜ-ਚਾਲੂ ਕਰੋ</string>
-  <string name="talkback_off_or_suspend_dialog_message">TalkBack ਚਾਲੂ ਹੋਣ \'ਤੇ, ਤੁਸੀਂ ਬਰੇਲ ਲਿਪੀ ਚਿੰਨ੍ਹਾਂ ਨੂੰ ਦਾਖਲ ਕਰਨ ਲਈ ਆਪਣੀ ਸਕ੍ਰੀਨ \'ਤੇ ਟੈਪ ਕਰ ਸਕਦੇ ਹੋ।</string>
+  <string name="talkback_suspend_dialog_title">ਬਰੇਲ ਲਿਪੀ ਕੀ-ਬੋਰਡ ਨੂੰ ਵਰਤਣ ਲਈ TalkBack FOSS ਨੂੰ ਮੁੜ-ਚਾਲੂ ਕਰੋ</string>
+  <string name="talkback_off_or_suspend_dialog_message">TalkBack FOSS ਚਾਲੂ ਹੋਣ \'ਤੇ, ਤੁਸੀਂ ਬਰੇਲ ਲਿਪੀ ਚਿੰਨ੍ਹਾਂ ਨੂੰ ਦਾਖਲ ਕਰਨ ਲਈ ਆਪਣੀ ਸਕ੍ਰੀਨ \'ਤੇ ਟੈਪ ਕਰ ਸਕਦੇ ਹੋ।</string>
   <string name="next_keyboard">ਅਗਲਾ ਕੀ-ਬੋਰਡ</string>
   <string name="braille_tutorial_title">ਬਰੇਲ ਲਿਪੀ ਕੀ-ਬੋਰਡ ਟਿਊਟੋਰੀਅਲ</string>
-  <string name="tutorial_intro_description">ਬਰੇਲ ਲਿਪੀ ਕੀ-ਬੋਰਡ ਨਾਲ, 6-ਬਿੰਦੂਆਂ ਵਾਲੀ ਬਰੇਲ ਲਿਪੀ ਦਾਖਲ ਕਰਨ ਲਈ ਤੁਸੀਂ ਆਪਣੀ ਸਕ੍ਰੀਨ \'ਤੇ ਟੈਪ ਕਰ ਸਕਦੇ ਹੋ।\n\nਤੁਸੀਂ ਏਕੀਕ੍ਰਿਤ ਅੰਗਰੇਜ਼ੀ ਬਰੇਲ ਲਿਪੀ ਵਰਤ ਰਹੇ ਹੋ। ਆਪਣੀ ਟਾਈਪ ਕੀਤੀ ਜਾਣ ਵਾਲੀ ਭਾਸ਼ਾ ਬਦਲਣ ਲਈ, TalkBack ਸੈਟਿੰਗਾਂ \'ਤੇ ਜਾਓ।\n\nਬਰੇਲ ਲਿਪੀ ਟਾਈਪ ਕਰਨ ਲਈ, ਤੁਹਾਨੂੰ ਆਪਣੇ ਫ਼ੋਨ ਨੂੰ ਵੱਖਰੇ ਢੰਗ ਨਾਲ ਫੜਨਾ ਅਤੇ ਵਰਤਣਾ ਪਵੇਗਾ।</string>
+  <string name="tutorial_intro_description">ਬਰੇਲ ਲਿਪੀ ਕੀ-ਬੋਰਡ ਨਾਲ, 6-ਬਿੰਦੂਆਂ ਵਾਲੀ ਬਰੇਲ ਲਿਪੀ ਦਾਖਲ ਕਰਨ ਲਈ ਤੁਸੀਂ ਆਪਣੀ ਸਕ੍ਰੀਨ \'ਤੇ ਟੈਪ ਕਰ ਸਕਦੇ ਹੋ।\n\nਤੁਸੀਂ ਏਕੀਕ੍ਰਿਤ ਅੰਗਰੇਜ਼ੀ ਬਰੇਲ ਲਿਪੀ ਵਰਤ ਰਹੇ ਹੋ। ਆਪਣੀ ਟਾਈਪ ਕੀਤੀ ਜਾਣ ਵਾਲੀ ਭਾਸ਼ਾ ਬਦਲਣ ਲਈ, TalkBack FOSS ਸੈਟਿੰਗਾਂ \'ਤੇ ਜਾਓ।\n\nਬਰੇਲ ਲਿਪੀ ਟਾਈਪ ਕਰਨ ਲਈ, ਤੁਹਾਨੂੰ ਆਪਣੇ ਫ਼ੋਨ ਨੂੰ ਵੱਖਰੇ ਢੰਗ ਨਾਲ ਫੜਨਾ ਅਤੇ ਵਰਤਣਾ ਪਵੇਗਾ।</string>
   <string name="next_step">ਅੱਗੇ</string>
   <string name="leave_keyboard">ਬਰੇਲ ਲਿਪੀ ਕੀ-ਬੋਰਡ ਨੂੰ ਛੱਡੋ</string>
-  <string name="hold_six_fingers_description">ਤੁਸੀਂ ਬਰੇਲ ਲਿਪੀ ਕੀ-ਬੋਰਡ ਵਿੱਚ ਆਮ TalkBack ਇਸ਼ਾਰਿਆਂ ਨੂੰ ਵਰਤ ਨਹੀਂ ਸਕੋਗੇ।\n\nਸ਼ੁਰੂ ਕਰਨ ਲਈ, ਚਲੋ ਤੁਹਾਡੇ ਵੱਲੋਂ ਟਾਈਪ ਕਰਨ ਵੇਲੇ 6 ਬਰੇਲ ਲਿਪੀ ਬਿੰਦੂਆਂ ਦੀ ਸਥਿਤੀਆਂ ਦਾ ਸੈੱਟਅੱਪ ਕਰੀਏ।</string>
-  <string name="rotate_orientation_description_1">ਹੁਣ ਤੋਂ, ਤੁਸੀਂ ਆਮ TalkBack ਇਸ਼ਾਰਿਆਂ ਨੂੰ ਵਰਤ ਨਹੀਂ ਸਕੋਗੇ। ਬਰੇਲ ਲਿਪੀ ਕੀ-ਬੋਰਡ ਨੂੰ ਵਰਤਣ ਵੇਲੇ TalkBack ਉਪਲਬਧ ਨਹੀਂ ਹੁੰਦਾ।</string>
+  <string name="hold_six_fingers_description">ਤੁਸੀਂ ਬਰੇਲ ਲਿਪੀ ਕੀ-ਬੋਰਡ ਵਿੱਚ ਆਮ TalkBack FOSS ਇਸ਼ਾਰਿਆਂ ਨੂੰ ਵਰਤ ਨਹੀਂ ਸਕੋਗੇ।\n\nਸ਼ੁਰੂ ਕਰਨ ਲਈ, ਚਲੋ ਤੁਹਾਡੇ ਵੱਲੋਂ ਟਾਈਪ ਕਰਨ ਵੇਲੇ 6 ਬਰੇਲ ਲਿਪੀ ਬਿੰਦੂਆਂ ਦੀ ਸਥਿਤੀਆਂ ਦਾ ਸੈੱਟਅੱਪ ਕਰੀਏ।</string>
+  <string name="rotate_orientation_description_1">ਹੁਣ ਤੋਂ, ਤੁਸੀਂ ਆਮ TalkBack FOSS ਇਸ਼ਾਰਿਆਂ ਨੂੰ ਵਰਤ ਨਹੀਂ ਸਕੋਗੇ। ਬਰੇਲ ਲਿਪੀ ਕੀ-ਬੋਰਡ ਨੂੰ ਵਰਤਣ ਵੇਲੇ TalkBack FOSS ਉਪਲਬਧ ਨਹੀਂ ਹੁੰਦਾ।</string>
   <string name="rotate_orientation_description_2">ਸ਼ੁਰੂ ਕਰਨ ਲਈ, ਆਪਣੇ ਫ਼ੋਨ ਨੂੰ ਇਸ ਤਰ੍ਹਾਂ ਫੜੋ ਕਿ ਸਕ੍ਰੀਨ ਤੁਹਾਡੇ ਤੋਂ ਪਰ੍ਹਾਂ ਹੋਵੇ।</string>
   <string name="tap_to_continue">ਜਾਰੀ ਰੱਖਣ ਲਈ ਕਿਤੇ ਵੀ ਡਬਲ ਟੈਪ ਕਰੋ</string>
   <string name="instruction_type_letter_a_left_index_finger">ਖੱਬੀ ਤਰਜਨੀ ਉਂਗਲ</string>
@@ -106,7 +106,7 @@
   <string name="result_swipe_right">ਖਾਲੀ ਜਗ੍ਹਾ</string>
   <string name="result_swipe_down_2_fingers">ਕੀ-ਬੋਰਡ ਲੁਕਾਓ</string>
   <string name="result_swipe_down_3_fingers">ਅਗਲਾ ਕੀ-ਬੋਰਡ</string>
-  <string name="rotate_orientation_announcement">ਹੁਣ ਤੋਂ, ਤੁਸੀਂ ਆਮ TalkBack ਇਸ਼ਾਰਿਆਂ ਨੂੰ ਵਰਤ ਨਹੀਂ ਸਕੋਗੇ। ਬਰੇਲ ਲਿਪੀ ਕੀ-ਬੋਰਡ ਨੂੰ ਵਰਤਣ ਵੇਲੇ TalkBack ਉਪਲਬਧ ਨਹੀਂ ਹੁੰਦਾ।\n\n%1$s</string>
+  <string name="rotate_orientation_announcement">ਹੁਣ ਤੋਂ, ਤੁਸੀਂ ਆਮ TalkBack FOSS ਇਸ਼ਾਰਿਆਂ ਨੂੰ ਵਰਤ ਨਹੀਂ ਸਕੋਗੇ। ਬਰੇਲ ਲਿਪੀ ਕੀ-ਬੋਰਡ ਨੂੰ ਵਰਤਣ ਵੇਲੇ TalkBack FOSS ਉਪਲਬਧ ਨਹੀਂ ਹੁੰਦਾ।\n\n%1$s</string>
   <string name="rotate_orientation_inactive_announcement">ਪਹਿਲਾਂ, ਆਪਣੇ ਫ਼ੋਨ ਨੂੰ ਇਸ ਤਰ੍ਹਾਂ ਘੁਮਾਓ ਕਿ ਸਕ੍ਰੀਨ ਤੁਹਾਡੇ ਤੋਂ ਪਰ੍ਹਾਂ ਹੋਵੇ।\n\nਇਸ ਤੋਂ ਬਾਅਦ, ਫ਼ੋਨ ਨੂੰ ਲੇਟਵੀਂ ਤੋਂ ਲੈਂਡਸਕੇਪ ਸਥਿਤੀ ਵਿੱਚ ਘੁਮਾਓ। ਫ਼ੋਨ ਨੂੰ ਆਪਣੀਆਂ ਉਂਗਲਾਂ ਨਾਲ ਕਿਨਾਰਿਆਂ ਤੋਂ ਫੜ ਕੇ ਰੱਖੋ। USB ਪੋਰਟ ਵਾਲੀ ਜਗ੍ਹਾ ਦੇ ਕਿਨਾਰੇ ਨੂੰ ਆਪਣੇ ਸੱਜੇ ਹੱਥ ਨਾਲ ਫੜ ਕੇ ਰੱਖੋ। ਬਾਕੀ ਦੀਆਂ 3 ਉਂਗਲਾਂ ਸਕ੍ਰੀਨ \'ਤੇ ਰੱਖੋ, ਅਤੇ ਆਪਣੀ ਛੋਟੀ ਉਂਗਲੀ ਅਤੇ ਅੰਗੂਠੇ ਨਾਲ ਫ਼ੋਨ ਨੂੰ ਫੜ ਕੇ ਰੱਖੋ।\n\nਜਦੋਂ ਤੁਸੀਂ ਤਿਆਰ ਹੋਵੋ, ਤਾਂ ਜਾਰੀ ਰੱਖਣ ਲਈ ਸਕ੍ਰੀਨ \'ਤੇ ਡਬਲ ਟੈਪ ਕਰੋ।\n\nਬਰੇਲ ਲਿਪੀ ਕੀ-ਬੋਰਡ ਤੋਂ ਬਾਹਰ ਜਾਣ ਲਈ, 3 ਉਂਗਲਾਂ ਨਾਲ ਹੇਠਾਂ ਵੱਲ ਸਵਾਈਪ ਕਰੋ। ਇੰਝ ਤੁਸੀਂ ਆਪਣੇ ਮੂਲ ਕੀ-ਬੋਰਡ \'ਤੇ ਵਾਪਸ ਆ ਜਾਵੋਗੇ।</string>
   <string name="rotate_orientation_continue_announcement">ਤੁਹਾਡਾ ਫ਼ੋਨ ਖੜ੍ਹਵੀਂ ਸਥਿਤੀ ਵਿੱਚ ਹੈ। ਜਾਰੀ ਰੱਖਣ ਲਈ, ਆਪਣੇ ਫ਼ੋਨ ਨੂੰ ਲੇਟਵੀਂ ਸਥਿਤੀ ਵਿੱਚ ਘੁਮਾਓ ਤਾਂ ਜੋ ਲੰਬਾ ਪਾਸਾ ਹੇਠਾਂ ਵੱਲ ਹੋਵੇ। ਫਿਰ ਫ਼ੋਨ ਨੂੰ ਘੁਮਾਓ ਕਿ ਸਕ੍ਰੀਨ ਤੁਹਾਡੇ ਤੋਂ ਪਰ੍ਹਾਂ ਹੋਵੇ। ਜਦੋਂ ਤੁਸੀਂ ਤਿਆਰ ਹੋਵੋ, ਤਾਂ ਜਾਰੀ ਰੱਖਣ ਲਈ ਸਕ੍ਰੀਨ \'ਤੇ ਡਬਲ ਟੈਪ ਕਰੋ।</string>
   <string name="type_letter_a_announcement_left_index_finger">ਖੱਬੀ ਤਰਜਨੀ ਉਂਗਲ</string>
@@ -122,7 +122,7 @@
   <string name="swipe_down_3_fingers_announcement">ਤੁਹਾਡੇ ਦੂਜੇ ਕੀ-ਬੋਰਡ \'ਤੇ ਜਾਣ ਲਈ, 3 ਉਂਗਲਾਂ ਨਾਲ ਹੇਠਾਂ ਵੱਲ ਸਵਾਈਪ ਕਰੋ। ਹੁਣੇ ਵਰਤ ਕੇ ਦੇਖੋ।</string>
   <string name="swipe_down_3_fingers_completed_announcement">ਅਗਲਾ ਕੀ-ਬੋਰਡ। ਆਮ ਤੌਰ \'ਤੇ, ਇੰਝ ਕਰਨ ਤੁਸੀਂ ਅਗਲੇ ਕੀ-ਬੋਰਡ \'ਤੇ ਚਲੇ ਜਾਵੋਗੇ। ਇਸ ਸਮੇਂ, ਤੁਸੀਂ ਬਰੇਲ ਲਿਪੀ ਕੀ-ਬੋਰਡ ਵਿੱਚ ਰਹਿੰਦੇ ਹੋ ਕਿਉਂਕਿ ਤੁਸੀਂ ਹਾਲੇ ਵੀ ਟਿਊਟੋਰੀਅਲ ਵਿੱਚ ਹੋ।</string>
   <string name="swipe_up_3_fingers_announcement">ਤੁਸੀਂ ਆਪਣੇ ਫ਼ੋਨ ਨੂੰ ਮੇਜ਼ \'ਤੇ ਸਿੱਧਾ ਰੱਖ ਕੇ ਵੀ ਟੇਬਲਟੌਪ ਮੋਡ ਵਿੱਚ ਟਾਈਪ ਕਰ ਸਕਦੇ ਹੋ। ਟਿਊਟੋਰੀਅਲ ਪੂਰਾ ਕਰਨ ਲਈ, 3 ਉਂਗਲਾਂ ਨਾਲ ਉੱਤੇ ਵੱਲ ਸਵਾਈਪ ਕਰੋ ਅਤੇ \'ਟਿਊਟੋਰੀਅਲ ਪੂਰਾ ਕਰੋ\' ਵਾਲਾ ਵਿਕਲਪ ਲੱਭੋ</string>
-  <string name="open_context_menu_announcement">ਵਿਕਲਪ ਮੀਨੂ ਖੁੱਲ੍ਹਾ ਹੈ। ਆਪਣੇ ਫ਼ੋਨ ਨੂੰ ਪਲਟਾਓ ਤਾਂ ਕਿ ਇਹ ਤੁਹਾਡੇ ਸਾਹਮਣੇ ਹੋਵੇ ਅਤੇ ਇਸਨੂੰ ਆਮ ਵਾਂਗ ਫੜੋ। ਹੁਣ ਤੁਸੀਂ ਨੈਵੀਗੇਟ ਕਰਨ ਲਈ ਆਮ TalkBack ਇਸ਼ਾਰਿਆਂ ਨੂੰ ਵਰਤ ਸਕਦੇ ਹੋ। ਹੋਰ ਵਿਕਲਪ ਦੇਖਣ ਲਈ ਸੱਜੇ ਪਾਸੇ ਵੱਲ ਸਵਾਈਪ ਕਰੋ।</string>
+  <string name="open_context_menu_announcement">ਵਿਕਲਪ ਮੀਨੂ ਖੁੱਲ੍ਹਾ ਹੈ। ਆਪਣੇ ਫ਼ੋਨ ਨੂੰ ਪਲਟਾਓ ਤਾਂ ਕਿ ਇਹ ਤੁਹਾਡੇ ਸਾਹਮਣੇ ਹੋਵੇ ਅਤੇ ਇਸਨੂੰ ਆਮ ਵਾਂਗ ਫੜੋ। ਹੁਣ ਤੁਸੀਂ ਨੈਵੀਗੇਟ ਕਰਨ ਲਈ ਆਮ TalkBack FOSS ਇਸ਼ਾਰਿਆਂ ਨੂੰ ਵਰਤ ਸਕਦੇ ਹੋ। ਹੋਰ ਵਿਕਲਪ ਦੇਖਣ ਲਈ ਸੱਜੇ ਪਾਸੇ ਵੱਲ ਸਵਾਈਪ ਕਰੋ।</string>
   <string name="hold_six_fingers_announcement">%s\nਆਪਣੇ ਡੀਵਾਈਸ ਨੂੰ ਮੇਜ਼ \'ਤੇ ਸਿੱਧਾ ਰੱਖੋ। ਫਿਰ, ਹਰੇਕ ਹੱਥ ਦੀਆਂ ਵਿਚਕਾਰਲੀਆਂ 3 ਉਂਗਲਾਂ ਨਾਲ ਸਕ੍ਰੀਨ ਨੂੰ ਅਜਿਹੀ ਸਥਿਤੀ ਵਿੱਚ ਸਪਰਸ਼ ਕਰਕੇ ਦਬਾਈ ਰੱਖੋ ਜੋ ਤੁਹਾਡੇ ਲਈ ਟਾਈਪ ਕਰਨ ਵਾਸਤੇ ਆਰਾਮਦੇਹ ਹੋਵੇ।</string>
   <string name="hold_six_fingers_inactive_announcement">ਆਪਣੇ ਡੀਵਾਈਸ ਨੂੰ ਮੇਜ਼ \'ਤੇ ਸਿੱਧਾ ਰੱਖੋ। ਫਿਰ, ਹਰੇਕ ਹੱਥ ਦੀਆਂ ਵਿਚਕਾਰਲੀਆਂ 3 ਉਂਗਲਾਂ ਨਾਲ ਸਕ੍ਰੀਨ ਨੂੰ ਅਜਿਹੀ ਸਥਿਤੀ ਵਿੱਚ ਸਪਰਸ਼ ਕਰਕੇ ਦਬਾਈ ਰੱਖੋ ਜੋ ਤੁਹਾਡੇ ਲਈ ਟਾਈਪ ਕਰਨ ਵਾਸਤੇ ਆਰਾਮਦੇਹ ਹੋਵੇ।</string>
   <string name="six_hold_announcement">ਤੁਸੀਂ ਆਪਣੇ ਫ਼ੋਨ ਨੂੰ ਮੇਜ਼ \'ਤੇ ਸਿੱਧਾ ਰੱਖ ਕੇ ਵੀ ਟਾਈਪ ਕਰ ਸਕਦੇ ਹੋ। ਹੁਣੇ ਵਰਤ ਕੇ ਦੇਖੋ। ਜੇ ਤੁਹਾਡੇ ਨਜ਼ਦੀਕ ਕੋਈ ਮੇਜ਼ ਨਹੀਂ ਹੈ, ਤਾਂ ਹੇਠਾਂ ਵੱਲ ਸਵਾਈਪ ਕਰਕੇ ਅੱਗੇ ਜਾਓ।</string>

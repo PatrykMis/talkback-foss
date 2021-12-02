@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="talkback_on">Aplikácia TalkBack je zapnutá</string>
-  <string name="talkback_suspended">Aplikácia TalkBack bola pozastavená</string>
-  <string name="talkback_resumed">Aplikácia TalkBack bola obnovená</string>
-  <string name="talkback_disabled">Funkcia TalkBack je vypnutá</string>
+  <string name="talkback_on">Aplikácia TalkBack FOSS je zapnutá</string>
+  <string name="talkback_suspended">Aplikácia TalkBack FOSS bola pozastavená</string>
+  <string name="talkback_resumed">Aplikácia TalkBack FOSS bola obnovená</string>
+  <string name="talkback_disabled">Funkcia TalkBack FOSS je vypnutá</string>
   <string name="spokenfeedback_on">Hovorená spätná väzba je zapnutá</string>
   <string name="spokenfeedback_suspended">Hovorená spätná väzba je pozastavená</string>
   <string name="spokenfeedback_resumed">Hovorená spätná väzba bola obnovená</string>
