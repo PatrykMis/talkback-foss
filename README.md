@@ -6,15 +6,21 @@ This repository is the FOSS-friendly fork of Google's TalkBack, which is a scree
 reader for blind and visually-impaired users of Android. For usage instructions,
 see [TalkBack User Guide](https://support.google.com/accessibility/android/answer/6283677?hl=en).
 
+## Support
+
+Matrix: [#talkback-foss:matrix.org](https://matrix.to/#/#talkback-foss:matrix.org)
+
 ## Changes from upstream
 
 All changes are in the commits log. Below are the most important ones:
 
-* Removed unnessesary Google Mobile Services dependencies and permissions (credits to [Tad](https://gitlab.com/IratePorcupine) for [this patch on F-Droid repo](https://gitlab.com/fdroid/fdroiddata/-/blob/master/metadata/com.android.talkback/370044210-Remove-GMS-dependency.patch)
-* Added support for Polish braille tables in Brailleime
-* Various translation and typo fixes
-* added Gradle Wrapper to simplify build process on various systems and build instructions in the readme.
-* Added instruction how to run TalkBack without screen access.
+* Removed unnecessary Google dependencies and permissions (credits to [Tad](https://github.com/SkewedZeppelin) from [DivestOS](https://github.com/Divested-Mobile/talkback/) project)
+* Braille input: Added support for French and Polish braille tables
+* Various translations and typo fixes
+* added Gradle Wrapper to simplify build process on various systems
+* various improvements from [GrapheneOS](https://github.com/GrapheneOS/talkback) project by [Daniel Micay](https://github.com/thestinger)
+* updated dependencies which may fix potential security issues
+* Added more instructions in the readme
 
 There is also an issue tracker where various issues and improvements can be discussed. Unfortunately, the upstream code is not beeing updated too often.
 
@@ -35,4 +41,3 @@ on, toggle the switch preference to the on position.
 Alternatively you can do it via ADB:
 
 > `adb shell settings put secure enabled_accessibility_services com.android.talkback/com.google.android.marvin.talkback.TalkBackService`
-
