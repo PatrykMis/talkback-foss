@@ -4,3 +4,4 @@ build
 local.properties
 braille/.cxx/
 braille/src/main/res/
+.DS_Store

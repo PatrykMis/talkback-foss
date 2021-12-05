@@ -1604,7 +1604,6 @@ public class AccessibilityNodeInfoUtils {
     // translation from the DOM to the AccessibilityNodeInfo.) To avoid labeling views that don't
     // support scrolling (e.g. REFERTO), check for the explicit presence of
     // AccessibilityActions.
-    if (BuildVersionUtils.isM() || BuildVersionUtils.isAtLeastN()) {
       return supportsAnyAction(
           node,
           AccessibilityAction.ACTION_SCROLL_FORWARD,
@@ -1613,13 +1612,6 @@ public class AccessibilityNodeInfoUtils {
           AccessibilityAction.ACTION_SCROLL_UP,
           AccessibilityAction.ACTION_SCROLL_RIGHT,
           AccessibilityAction.ACTION_SCROLL_LEFT);
-    } else {
-      // Directional scrolling is not available pre-M.
-      return supportsAnyAction(
-          node,
-          AccessibilityAction.ACTION_SCROLL_FORWARD,
-          AccessibilityAction.ACTION_SCROLL_BACKWARD);
-    }
   }
 
   /**

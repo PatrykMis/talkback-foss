@@ -22,6 +22,8 @@ import android.annotation.TargetApi;
 import androidx.annotation.IntDef;
 import androidx.annotation.VisibleForTesting;
 import androidx.core.view.accessibility.AccessibilityNodeInfoCompat;
+
+import android.os.Build;
 import android.view.accessibility.AccessibilityEvent;
 import android.view.accessibility.AccessibilityNodeInfo;
 import com.google.android.accessibility.talkback.actor.AutoScrollActor.AutoScrollRecord;
@@ -352,7 +354,7 @@ public class ScrollEventInterpreter implements AccessibilityEventListener {
     return TraversalStrategy.SEARCH_FOCUS_UNKNOWN;
   }
 
-  @TargetApi(BuildVersionUtils.API_R)
+  @TargetApi(Build.VERSION_CODES.R)
   @SearchDirectionOrUnknown
   private int getScrollDirectionFromDeltas(AccessibilityEvent event) {
     int scrollDeltaX = event.getScrollDeltaX();

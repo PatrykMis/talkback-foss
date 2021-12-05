@@ -173,15 +173,8 @@ public final class SpannableUtils {
       // Extra data.
       if (span instanceof LocaleSpan) {
         LocaleSpan localeSpan = (LocaleSpan) span;
-        if (Build.VERSION.SDK_INT < Build.VERSION_CODES.N) {
-          Locale locale = localeSpan.getLocale();
-          if (locale != null) {
-            stringBuilder.append(" locale=");
-            stringBuilder.append(locale);
-          }
-        } else {
-          LocaleList localeList = localeSpan.getLocales();
-          int size = localeList.size();
+        LocaleList localeList = localeSpan.getLocales();
+        int size = localeList.size();
           if (size > 0) {
             stringBuilder.append(" locale=[");
             for (int i = 0; i < size - 1; i++) {
@@ -191,7 +184,6 @@ public final class SpannableUtils {
             stringBuilder.append(localeList.get(size - 1));
             stringBuilder.append("]");
           }
-        }
 
       } else if (span instanceof TtsSpan) {
         TtsSpan ttsSpan = (TtsSpan) span;

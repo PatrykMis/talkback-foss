@@ -134,9 +134,8 @@ public class VoiceActionMonitor implements EventFilter.VoiceActionDelegate {
 
   public void onResumeInfrastructure() {
     mediaRecorderMonitor.onResumeInfrastructure();
-    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-      audioPlaybackMonitor.onResumeInfrastructure();
-    }
+    audioPlaybackMonitor.onResumeInfrastructure();
+
     if (callStateMonitor != null) {
       callStateMonitor.startMonitor();
     }
@@ -144,9 +143,8 @@ public class VoiceActionMonitor implements EventFilter.VoiceActionDelegate {
 
   public void onSuspendInfrastructure() {
     mediaRecorderMonitor.onSuspendInfrastructure();
-    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-      audioPlaybackMonitor.onSuspendInfrastructure();
-    }
+    audioPlaybackMonitor.onSuspendInfrastructure();
+
     if (callStateMonitor != null) {
       callStateMonitor.stopMonitor();
     }

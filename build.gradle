@@ -43,6 +43,7 @@ android {
         exclude 'README'
         exclude 'TODO'
     }
+    ndkVersion '23.1.7779620'
     lintOptions {
         checkReleaseBuilds false
         abortOnError false

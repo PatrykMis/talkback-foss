@@ -391,7 +391,6 @@ public class FailoverTextToSpeech {
   public void stopAll() {
     try {
       allowDeviceSleep();
-      ensureQueueFlush();
       mTts.speak("", SPEECH_FLUSH_ALL, null);
     } catch (Exception e) {
       // Don't care, we're not speaking.
@@ -493,7 +492,6 @@ public class FailoverTextToSpeech {
     bundle.putInt(Engine.KEY_PARAM_STREAM, stream);
     bundle.putFloat(SpeechParam.VOLUME, volume);
 
-    ensureQueueFlush();
     return mTts.speak(text, SPEECH_FLUSH_ALL, bundle, utteranceId);
   }
 

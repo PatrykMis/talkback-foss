@@ -931,16 +931,6 @@ public class CollectionState {
    * and vice-versa.
    */
   private static boolean shouldComputeHeaders(@NonNull AccessibilityNodeInfoCompat collectionRoot) {
-    if (Build.VERSION.SDK_INT < Build.VERSION_CODES.N) {
-      if (!AccessibilityNodeInfoUtils.hasMatchingAncestor(collectionRoot, FILTER_WEBVIEW)) {
-        // TODO: Convert to use Role.
-        // Bugs exist in specific classes, so check class names and not roles.
-        if (AccessibilityNodeInfoUtils.nodeIsListOrGrid(collectionRoot)) {
-          return false;
-        }
-      }
-    }
-
     return true;
   }
 
@@ -959,11 +949,6 @@ public class CollectionState {
       @NonNull AccessibilityNodeInfoCompat collectionRoot) {
     if (Role.getRole(collectionRoot) == Role.ROLE_PAGER) {
       return true;
-    }
-    if (Build.VERSION.SDK_INT < Build.VERSION_CODES.N) {
-      if (!AccessibilityNodeInfoUtils.hasMatchingAncestor(collectionRoot, FILTER_WEBVIEW)) {
-        return false;
-      }
     }
 
     return true;

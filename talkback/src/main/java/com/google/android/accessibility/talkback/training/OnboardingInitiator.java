@@ -90,7 +90,7 @@ public class OnboardingInitiator {
                         context,
                         0,
                         TrainingActivity.createTrainingIntent(context, ON_BOARDING_ANDROID_11),
-                        PendingIntent.FLAG_UPDATE_CURRENT),
+                        PendingIntent.FLAG_IMMUTABLE),
                     /* autoCancel= */ true));
         sharedPreferences.edit().putBoolean(updateMultiFingerGesturesShownKey, true).apply();
       }
