@@ -60,8 +60,8 @@
   <string name="voice_commands_dictate">Υπαγόρευση</string>
   <string name="voice_commands_write">Σύνταξη</string>
   <string name="voice_commands_Spell">Συλλαβισμός</string>
-  <string name="voice_commands_talkback_settings">Ρυθμίσεις TalkBack</string>
-  <string name="voice_commands_talkback_setting">Ρύθμιση TalkBack</string>
+  <string name="voice_commands_talkback_settings">Ρυθμίσεις TalkBack FOSS</string>
+  <string name="voice_commands_talkback_setting">Ρύθμιση TalkBack FOSS</string>
   <string name="voice_commands_screen_search">Αναζήτηση στην οθόνη</string>
   <string name="voice_commands_search_on_screen">Αναζήτηση στην οθόνη</string>
   <string name="voice_commands_copy">@android:string/copy</string>
@@ -139,7 +139,7 @@
   <string name="voice_commands_help_overview_description">Δείτε τις πρόσφατες εφαρμογές σας.</string>
   <string name="voice_commands_help_assistant_description">Ανοίξτε τον Βοηθό Google.</string>
   <string name="voice_commands_help_other_commands_title">Άλλες εντολές</string>
-  <string name="voice_commands_help_other_commands_description">Μεταβείτε στις ρυθμίσεις του TalkBack, αποκρύψτε την οθόνη, δείτε ενέργειες, προσθέστε προσαρμοσμένες ετικέτες και άλλα.</string>
+  <string name="voice_commands_help_other_commands_description">Μεταβείτε στις ρυθμίσεις του TalkBack FOSS, αποκρύψτε την οθόνη, δείτε ενέργειες, προσθέστε προσαρμοσμένες ετικέτες και άλλα.</string>
   <string name="voice_commands_help_label">Ετικέτα [υποβολή]</string>
   <string name="voice_commands_help_hide_screen_description">Αποκρύψτε την οθόνη σας, έτσι ώστε να μην είναι ορατή στους άλλους όταν βρίσκεστε σε δημόσιους χώρους.</string>
   <string name="voice_commands_help_show_screen_description">Αφού αποκρύψετε την οθόνη σας, μπορείτε να την επαναφέρετε σε κανονική κατάσταση.</string>

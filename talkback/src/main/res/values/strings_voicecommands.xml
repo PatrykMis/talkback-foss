@@ -212,10 +212,10 @@
   <string name="voice_commands_write">Write</string>
   <!-- Voice-shortcut command word to input text to editable ui. [CHAR_LIMIT=20] -->
   <string name="voice_commands_Spell">Spell</string>
-  <!-- Voice-shortcut command to launch TalkBack Settings. [CHAR_LIMIT=30] -->
-  <string name="voice_commands_talkback_settings">TalkBack Settings</string>
-  <!-- Voice-shortcut command to launch TalkBack Settings. [CHAR_LIMIT=30] -->
-  <string name="voice_commands_talkback_setting">TalkBack Setting</string>
+  <!-- Voice-shortcut command to launch TalkBack FOSS Settings. [CHAR_LIMIT=30] -->
+  <string name="voice_commands_talkback_settings">TalkBack FOSS Settings</string>
+  <!-- Voice-shortcut command to launch TalkBack FOSS Settings. [CHAR_LIMIT=30] -->
+  <string name="voice_commands_talkback_setting">TalkBack FOSS Setting</string>
   <!-- Voice-shortcut command to start screen search UI. [CHAR_LIMIT=30] -->
   <string name="voice_commands_screen_search">Screen search</string>
   <!-- Voice-shortcut command to start screen search UI. [CHAR_LIMIT=30] -->
@@ -387,7 +387,7 @@
   <!-- The page title of voice command - other commands. [CHAR_LIMIT=NONE] -->
   <string name="voice_commands_help_other_commands_title">Other commands</string>
   <!-- The description of voice command - other commands. [CHAR_LIMIT=NONE] -->
-  <string name="voice_commands_help_other_commands_description">Go to TalkBack settings, hide screen, see actions, add custom labels, and more</string>
+  <string name="voice_commands_help_other_commands_description">Go to TalkBack FOSS settings, hide screen, see actions, add custom labels, and more</string>
   <!-- The description of voice command - label commands. [CHAR_LIMIT=70] -->
   <string name="voice_commands_help_label">Label [submit]</string>
 

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="accessibility_tutorial_title">অ্যাক্সেসযোগ্যতার টিউটোরিয়াল</string>
-  <string name="title_pref_tutorial">TalkBack টিউটোরিয়াল</string>
-  <string name="tutorial_title">TalkBack টিউটোরিয়াল</string>
-  <string name="main_description">TalkBack হল একটি স্ক্রিন রিডার যা মূলত অন্ধ ও দৃষ্টিশক্তিহীন ব্যক্তিদের জন্য। কথ্য প্রতিক্রিয়া ব্যবহার করে এটি ডিভাইসের পারস্পরিক ক্রিয়ায় অনুমতি দেয়।</string>
-  <string name="turn_off_talkback">TalkBack বন্ধ করুন</string>
+  <string name="title_pref_tutorial">TalkBack FOSS টিউটোরিয়াল</string>
+  <string name="tutorial_title">TalkBack FOSS টিউটোরিয়াল</string>
+  <string name="main_description">TalkBack FOSS হল একটি স্ক্রিন রিডার যা মূলত অন্ধ ও দৃষ্টিশক্তিহীন ব্যক্তিদের জন্য। কথ্য প্রতিক্রিয়া ব্যবহার করে এটি ডিভাইসের পারস্পরিক ক্রিয়ায় অনুমতি দেয়।</string>
+  <string name="turn_off_talkback">TalkBack FOSS বন্ধ করুন</string>
   <string name="tutorial_start_lesson">শিখুন</string>
   <string name="tutorial_practice">অনুশীলন</string>
   <string name="tutorial_start_lesson_content">%1$d পাঠ শিখুন</string>
@@ -17,7 +17,7 @@
   <string name="tutorial_lesson_1_page2_description">আপনি শেষ যে আইটেমটি শুনেছেন সেটিকে সক্রিয় করতে, যে কোনো জায়গায় দুবার আলতো চাপ দিন। ৪ নং আইটেমটিকে খুঁজে এটিকে এখনই সক্রিয় করুন। এর পরে অবিরত রাখতে \'পরবর্তী\' বোতামটিকে সক্রিয় করুন।</string>
   <string name="tutorial_lesson_1_page2_complete_message">৪ নং আইটেমটিকে সক্রিয় করা হয়েছে। অবিরত রাখতে \'পরবর্তী\' বোতামটিকে খুঁজে সক্রিয় করুন</string>
   <string name="tutorial_lesson_1_page3_subtitle">পার্ট ৩: পাঠসমূহকে নেভিগেট করা হচ্ছে</string>
-  <string name="tutorial_lesson_1_page3_description">TalkBack এর পাঠগুলি একইভাবে সাজানো আছে। একেবারে ওপরের এলাকাতে পাঠ আছে, যা আপনি ঘুরে দেখতে পারেন ও যেকোনও সময় পড়তে পারেন। ওপরের বাঁ প্রান্তে একটি টিউটোরিয়াল হোম বোতামও আছে। মাঝখানটা হল অনুশীলনের এলাকা। বোতামের একটি প্রগতি সূচক এবং পাঠ নেভিগেশনের বোতামগুলি আছে। অব্যাহত রাখতে এখনই নেক্সট সক্রিয় করুন।</string>
+  <string name="tutorial_lesson_1_page3_description">TalkBack FOSS এর পাঠগুলি একইভাবে সাজানো আছে। একেবারে ওপরের এলাকাতে পাঠ আছে, যা আপনি ঘুরে দেখতে পারেন ও যেকোনও সময় পড়তে পারেন। ওপরের বাঁ প্রান্তে একটি টিউটোরিয়াল হোম বোতামও আছে। মাঝখানটা হল অনুশীলনের এলাকা। বোতামের একটি প্রগতি সূচক এবং পাঠ নেভিগেশনের বোতামগুলি আছে। অব্যাহত রাখতে এখনই নেক্সট সক্রিয় করুন।</string>
   <string name="tutorial_lesson_1_page4_subtitle">পার্ট ৪: অন্বেষণ করার জন্য সোয়াইপ করুন</string>
   <string name="tutorial_lesson_1_page4_description">এছাড়াও আপনি আপনার আঙ্গুল দিয়ে স্ক্রিন সোয়াইপ করার মাধ্যমে অন্বেষণ করতে পারবেন৷ সাধারণত বাঁ দিকে সোয়াইপ করার মাধ্যমে উপরের দিকে ও বাঁ দিকে অন্বেষণ করা যায় এবং ডান দিকে সোয়াইপ করার মাধ্যমে নিচের দিকে ও ডান দিকে অন্বেষণ করা যায়৷ এখন এটিকে চেষ্টা করে দেখুন৷</string>
   <string name="tutorial_lesson_1_practice_title">পার্ট ৫: অনুশীলন</string>
@@ -46,11 +46,11 @@
   <string name="tutorial_lesson_4_page2_description">আপনি এখন অক্ষর ধরে-ধরে পড়ছেন। নমুনা টেক্সটটি বেছে নিন, তারপরে অক্ষর ধরে-ধরে পড়তে নিচের দিকে সোয়াইপ করুন।</string>
   <string name="tutorial_lesson_4_practice_title">পার্ট ৩: অনুশীলন</string>
   <string name="tutorial_lesson_4_practice_description">আগে নিচে তারপর উপরে সোয়াইপ করার মাধ্যমে টেক্সট নেভিগেশন রেট পরিবর্তন করুন। নিচে সোয়াইপ করে নমুনা টেক্সটে পরের অক্ষর পড়ুন।</string>
-  <string name="tutorial_lesson_4_sample_text">TalkBack অনুশীলন করার জন্য এখানে কিছু নমুনা পাঠ্য রয়েছে৷ বিস্ময়ের সাথে লোকটি জিজ্ঞাসা করেছিল \"কানসাস কোথায়?\"৷ ডরোথি দুঃখের সাথে জবাব দিয়েছিল \"আমি জানি না\", \"কিন্তু এটি আমার বাড়ি এবং আমি নিশ্চিত এটি কোথাও না কোথাও রয়েছে৷\"\n\n\"খুব সম্ভবতঃ৷ ঠিক আছে, Oz সবকিছু করতে পারে; তাই আমার মনে হয় সে আপনার জন্য কানসাস খুঁজে দেবে৷ কিন্তু সবার আগে আপনাকে অবশ্যই তার সাথে দেখা করতে হবে এবং সেটা একটি কঠিন কাজ; মহান জাদুগরেরা সবার সাথে দেখা করতে চান না এবং তারা নিজের ইচ্ছে মত সব কিছু করে৷ কিন্তু আপনি কি চান?\" তিনি টোটোর সাথে বলতেই থাকলেন৷</string>
+  <string name="tutorial_lesson_4_sample_text">TalkBack FOSS অনুশীলন করার জন্য এখানে কিছু নমুনা পাঠ্য রয়েছে৷ বিস্ময়ের সাথে লোকটি জিজ্ঞাসা করেছিল \"কানসাস কোথায়?\"৷ ডরোথি দুঃখের সাথে জবাব দিয়েছিল \"আমি জানি না\", \"কিন্তু এটি আমার বাড়ি এবং আমি নিশ্চিত এটি কোথাও না কোথাও রয়েছে৷\"\n\n\"খুব সম্ভবতঃ৷ ঠিক আছে, Oz সবকিছু করতে পারে; তাই আমার মনে হয় সে আপনার জন্য কানসাস খুঁজে দেবে৷ কিন্তু সবার আগে আপনাকে অবশ্যই তার সাথে দেখা করতে হবে এবং সেটা একটি কঠিন কাজ; মহান জাদুগরেরা সবার সাথে দেখা করতে চান না এবং তারা নিজের ইচ্ছে মত সব কিছু করে৷ কিন্তু আপনি কি চান?\" তিনি টোটোর সাথে বলতেই থাকলেন৷</string>
   <string name="tutorial_lesson_5_title">পাঠ ৫: পাঠ্য সম্পাদনা করা</string>
   <string name="tutorial_lesson_5_short_description">একটি সম্পাদনা বাক্স সক্রিয় করুন, টাইপ করুন, একটি কার্সার সরান, পাঠ্য বেছে নিন ও পাঠ্য অনুযায়ী কাজ করুন</string>
   <string name="tutorial_lesson_5_page1_subtitle">পার্ট ১: একটি সম্পাদনা বাক্স সক্রিয় করুন</string>
-  <string name="tutorial_lesson_5_page1_description">TalkBack দিয়ে, আপনি টাইপ, নির্বাচন এবং টেক্সট সম্পাদনা করার জন্য একটি সম্পাদনা বাক্স ব্যবহার করতে পারেন। একটি সম্পাদনা বাক্স সক্রিয় করতে, এটিতে দুবার ট্যাপ করুন। আপনি একটি সম্পাদনা বাক্স সক্রিয় করার পরে, স্ক্রিনের নিচে একটি কীবোর্ড উপলভ্য হবে। আপনি ব্যাক বোতামে আলতো চেপে কীবোর্ড খারিজ করতে পারেন। এখনই সম্পাদনা বাক্স সক্রিয় করার চেষ্টা করুন। আপনি সম্পন্ন করার পরে, Next সক্রিয় করুন যা এখন কীবোর্ডের উপরে আছে।</string>
+  <string name="tutorial_lesson_5_page1_description">TalkBack FOSS দিয়ে, আপনি টাইপ, নির্বাচন এবং টেক্সট সম্পাদনা করার জন্য একটি সম্পাদনা বাক্স ব্যবহার করতে পারেন। একটি সম্পাদনা বাক্স সক্রিয় করতে, এটিতে দুবার ট্যাপ করুন। আপনি একটি সম্পাদনা বাক্স সক্রিয় করার পরে, স্ক্রিনের নিচে একটি কীবোর্ড উপলভ্য হবে। আপনি ব্যাক বোতামে আলতো চেপে কীবোর্ড খারিজ করতে পারেন। এখনই সম্পাদনা বাক্স সক্রিয় করার চেষ্টা করুন। আপনি সম্পন্ন করার পরে, Next সক্রিয় করুন যা এখন কীবোর্ডের উপরে আছে।</string>
   <string name="tutorial_lesson_5_page2_subtitle">পার্ট ২: একটি সম্পাদনা বাক্সে টাইপ করে লেখা</string>
   <string name="tutorial_lesson_5_page2_description">টাইপ করতে, সম্পাদনা বাক্স সক্রিয় করুন এবং অনস্ক্রীনের কীবোর্ড জুড়ে আপনার আঙ্গুল ঘোরান। আপনি যখন আপনার পছন্দের অক্ষরটি শুনবেন তখন এটিকে সক্রিয় করতে আপনার আঙ্গুল তুলুন। নিচে সম্পাদনা বাক্সের মধ্যে সক্রিয় করার ও টাইপ করার চেষ্টা করুন।</string>
   <string name="tutorial_lesson_5_page3_subtitle">পার্ট ৩: একটি কার্সারের ব্যবহার</string>
@@ -75,9 +75,9 @@
   <string name="tutorial_alert_dialog_exit">বেরিয়ে আসুন</string>
   <string name="tutorial_no_touch_explore_title">স্পর্শ দ্বারা অন্বেষণ করার প্রয়োজন আছে</string>
   <string name="tutorial_no_touch_explore_message">এই টিউটোরিয়ালটিকে স্পর্শ করে এক্সপ্লোর করার প্রয়োজন আছে৷ অনুগ্রহ করে টিউটোরিয়ালটিকে লঞ্চ করার আগে স্পর্শ করে এক্সপ্লোর করা সক্ষম করুন৷</string>
-  <string name="tutorial_service_inactive_title">TalkBack অক্ষম করা রয়েছে</string>
-  <string name="tutorial_service_inactive_message">এই টিউটোরিয়ালটিকে সক্ষম করার জন্য TalkBack এর প্রয়োজন আছে৷ অনুগ্রহ করে টিউটোরিয়ালটিকে লঞ্চ করার আগে TalkBack চালু করুন৷</string>
-  <string name="tutorial_service_suspended_title">TalkBack স্থগিত করা হয়েছে</string>
-  <string name="tutorial_service_suspended_message">প্রতিক্রিয়া বিরামে থাকাকালীন TalkBack টিউটোরিয়াল উপলব্ধ থাকে না৷ অনুগ্রহ করে TalkBack প্রতিক্রিয়াটির আবার চালান এবং অবিরত রাখতে টিউটোরিয়ালটি আবার লঞ্চ করুন৷</string>
+  <string name="tutorial_service_inactive_title">TalkBack FOSS অক্ষম করা রয়েছে</string>
+  <string name="tutorial_service_inactive_message">এই টিউটোরিয়ালটিকে সক্ষম করার জন্য TalkBack FOSS এর প্রয়োজন আছে৷ অনুগ্রহ করে টিউটোরিয়ালটিকে লঞ্চ করার আগে TalkBack FOSS চালু করুন৷</string>
+  <string name="tutorial_service_suspended_title">TalkBack FOSS স্থগিত করা হয়েছে</string>
+  <string name="tutorial_service_suspended_message">প্রতিক্রিয়া বিরামে থাকাকালীন TalkBack FOSS টিউটোরিয়াল উপলব্ধ থাকে না৷ অনুগ্রহ করে TalkBack FOSS প্রতিক্রিয়াটির আবার চালান এবং অবিরত রাখতে টিউটোরিয়ালটি আবার লঞ্চ করুন৷</string>
   <string name="shortcut_hear_lesson">মেনু বর্ণনা করে</string>
 </resources>

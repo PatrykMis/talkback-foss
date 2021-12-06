@@ -60,8 +60,8 @@
   <string name="voice_commands_dictate">Imlakkan</string>
   <string name="voice_commands_write">Tulis</string>
   <string name="voice_commands_Spell">Eja</string>
-  <string name="voice_commands_talkback_settings">Tetapan TalkBack</string>
-  <string name="voice_commands_talkback_setting">Tetapan TalkBack</string>
+  <string name="voice_commands_talkback_settings">Tetapan TalkBack FOSS</string>
+  <string name="voice_commands_talkback_setting">Tetapan TalkBack FOSS</string>
   <string name="voice_commands_screen_search">Carian skrin</string>
   <string name="voice_commands_search_on_screen">Cari pada skrin</string>
   <string name="voice_commands_copy">@android:string/copy</string>
@@ -139,7 +139,7 @@
   <string name="voice_commands_help_overview_description">Lihat apl terbaharu anda</string>
   <string name="voice_commands_help_assistant_description">Buka Google Assistant</string>
   <string name="voice_commands_help_other_commands_title">Perintah lain</string>
-  <string name="voice_commands_help_other_commands_description">Pergi ke tetapan TalkBack, sembunyikan skrin, lihat tindakan, tambah label tersuai dan banyak lagi</string>
+  <string name="voice_commands_help_other_commands_description">Pergi ke tetapan TalkBack FOSS, sembunyikan skrin, lihat tindakan, tambah label tersuai dan banyak lagi</string>
   <string name="voice_commands_help_label">Label [serah]</string>
   <string name="voice_commands_help_hide_screen_description">Sembunyikan paparan supaya skrin anda tidak dapat dilihat oleh orang lain di tempat awam</string>
   <string name="voice_commands_help_show_screen_description">Setelah menyembunyikan skrin anda, kembalikan skrin kepada keadaan biasa</string>

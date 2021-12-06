@@ -60,8 +60,8 @@
   <string name="voice_commands_dictate">Dicter</string>
   <string name="voice_commands_write">Écrire</string>
   <string name="voice_commands_Spell">Épeler</string>
-  <string name="voice_commands_talkback_settings">Paramètres TalkBack</string>
-  <string name="voice_commands_talkback_setting">Paramètre TalkBack</string>
+  <string name="voice_commands_talkback_settings">Paramètres TalkBack FOSS</string>
+  <string name="voice_commands_talkback_setting">Paramètre TalkBack FOSS</string>
   <string name="voice_commands_screen_search">Rechercher sur l\'écran</string>
   <string name="voice_commands_search_on_screen">Rechercher sur l\'écran</string>
   <string name="voice_commands_copy">@android:string/copy</string>
@@ -139,7 +139,7 @@
   <string name="voice_commands_help_overview_description">Afficher vos applications récentes</string>
   <string name="voice_commands_help_assistant_description">Ouvrir l\'Assistant Google</string>
   <string name="voice_commands_help_other_commands_title">Autres commandes</string>
-  <string name="voice_commands_help_other_commands_description">Accéder aux paramètres TalkBack, masquer l\'écran, voir les actions, ajouter des libellés personnalisés, etc.</string>
+  <string name="voice_commands_help_other_commands_description">Accéder aux paramètres TalkBack FOSS, masquer l\'écran, voir les actions, ajouter des libellés personnalisés, etc.</string>
   <string name="voice_commands_help_label">Libellé [envoyer]</string>
   <string name="voice_commands_help_hide_screen_description">Masquer l\'écran pour qu\'il ne soit pas visible dans les lieux publics</string>
   <string name="voice_commands_help_show_screen_description">Après avoir masqué l\'écran, rétablir l\'état normal</string>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="braille_ime_service_name">TalkBack Брайль баскычтобу</string>
+  <string name="braille_ime_service_name">TalkBack FOSS Брайль баскычтобу</string>
   <string name="switch_to_screen_away_announcement">Экранды ары каратып колдонуу режими</string>
   <string name="switch_to_tabletop_announcement">Столдун үстүндө колдонуу режими. Түзмөгүңүздү столго кубаттоо оюкчасын солго каратып коюңуз. Чекиттердин ордун өзгөртүү үчүн 6 манжаңыз менен экранды басып туруңуз.</string>
   <string name="braille_ime_hidden_announcement">Брайль баскычтобу жашырылды</string>
@@ -11,7 +11,7 @@
   <string name="switched_to_ueb_uncontracted_announcement">Бириктирилген Брайль англис шрифтине которулду</string>
   <string name="braille_ime_displayed_name">брайль баскычтобу</string>
   <string name="multiple_languages_braille_ime_displayed_name">брайль баскычтобу, %s</string>
-  <string name="input_view_caption">TalkBack Брайль баскычтобу – жардам алуу үчүн g.co/help/braille бөлүмүнө өтүңүз</string>
+  <string name="input_view_caption">TalkBack FOSS Брайль баскычтобу – жардам алуу үчүн g.co/help/braille бөлүмүнө өтүңүз</string>
   <string name="perform_action_next">Кийинки</string>
   <string name="perform_action_submitting">Текст тапшырылууда</string>
   <string name="calibration_step1_hold_left_finger_announcement">Чекиттердин ордун өзгөртүү. Алгач, сол колуңуздун чекиттери кайсы жерде болорун белгилеп алалы. Экранды сол колуңуздун 3 орто манжасы менен коё бербей басып туруңуз.</string>
@@ -79,17 +79,17 @@
     <item quantity="one">чекит %s</item>
     <item quantity="other">чекиттер %s</item>
   </plurals>
-  <string name="talkback_off_dialog_title">Брайль баскычтобун колдонуу үчүн TalkBack\'ти күйгүзүңүз</string>
+  <string name="talkback_off_dialog_title">Брайль баскычтобун колдонуу үчүн TalkBack FOSS\'ти күйгүзүңүз</string>
   <string name="talkback_off_dialog_positive_button">Атайын мүмкүнчүлүктөр жөндөөлөрүн күйгүзүү</string>
-  <string name="talkback_suspend_dialog_title">Брайль баскычтобун колдонуу үчүн TalkBack\'ти улантыңыз</string>
-  <string name="talkback_off_or_suspend_dialog_message">TalkBack күйгүзүлсө, экранды таптап, брайль символдорун киргизе аласыз.</string>
+  <string name="talkback_suspend_dialog_title">Брайль баскычтобун колдонуу үчүн TalkBack FOSS\'ти улантыңыз</string>
+  <string name="talkback_off_or_suspend_dialog_message">TalkBack FOSS күйгүзүлсө, экранды таптап, брайль символдорун киргизе аласыз.</string>
   <string name="next_keyboard">Кийинки баскычтоп</string>
   <string name="braille_tutorial_title">Брайль баскычтобун колдонууну үйрөткүч</string>
-  <string name="tutorial_intro_description">Брайль баскычтобу аркылуу экранды басып, 6 чекиттүү брайль алфавитин киргизе аласыз.\n\nУнификацияланган англис тилиндеги Брайль алфавитин колдонуп жатасыз. Терип жаткан тилди өзгөртүү үчүн TalkBack жөндөөлөрүнө өтүңүз.\n\nБрайль алфавити менен терүү үчүн телефонуңузду башкача колдонушуңуз керек.</string>
+  <string name="tutorial_intro_description">Брайль баскычтобу аркылуу экранды басып, 6 чекиттүү брайль алфавитин киргизе аласыз.\n\nУнификацияланган англис тилиндеги Брайль алфавитин колдонуп жатасыз. Терип жаткан тилди өзгөртүү үчүн TalkBack FOSS жөндөөлөрүнө өтүңүз.\n\nБрайль алфавити менен терүү үчүн телефонуңузду башкача колдонушуңуз керек.</string>
   <string name="next_step">Кийинки</string>
   <string name="leave_keyboard">Брайль баскычтобунан чыгуу</string>
-  <string name="hold_six_fingers_description">Брайль баскычтобу менен кадимки TalkBack жаңсоолорун колдоно албайсыз.\n\nБаштоо үчүн, терүүдө колдонулган 6 брайль чекиттеринин орундарын жөндөп алалы.</string>
-  <string name="rotate_orientation_description_1">Эми демейки TalkBack жаңсоолорун колдоно албайсыз. Брайль баскычтобун колдонуп жатканда TalkBack функциясы иштебейт.</string>
+  <string name="hold_six_fingers_description">Брайль баскычтобу менен кадимки TalkBack FOSS жаңсоолорун колдоно албайсыз.\n\nБаштоо үчүн, терүүдө колдонулган 6 брайль чекиттеринин орундарын жөндөп алалы.</string>
+  <string name="rotate_orientation_description_1">Эми демейки TalkBack FOSS жаңсоолорун колдоно албайсыз. Брайль баскычтобун колдонуп жатканда TalkBack FOSS функциясы иштебейт.</string>
   <string name="rotate_orientation_description_2">Баштоо үчүн телефондун экранын ары каратып кармаңыз.</string>
   <string name="tap_to_continue">Улантуу үчүн бир жерди басыңыз</string>
   <string name="instruction_type_letter_a_left_index_finger">сол колуңуздун сөөмөйү</string>
@@ -106,7 +106,7 @@
   <string name="result_swipe_right">БОШТУК</string>
   <string name="result_swipe_down_2_fingers">БАСКЫЧТОПТУ ЖАШЫРУУ</string>
   <string name="result_swipe_down_3_fingers">КИЙИНКИ БАСКЫЧТОП</string>
-  <string name="rotate_orientation_announcement">Эми демейки TalkBack жаңсоолорун колдоно албайсыз. Брайль баскычтобун колдонуп жатканда TalkBack функциясы иштебейт.\n\n%1$s</string>
+  <string name="rotate_orientation_announcement">Эми демейки TalkBack FOSS жаңсоолорун колдоно албайсыз. Брайль баскычтобун колдонуп жатканда TalkBack FOSS функциясы иштебейт.\n\n%1$s</string>
   <string name="rotate_orientation_inactive_announcement">Адегенде телефондун экранын ары каратып кармаңыз.\n\nЭми телефонуңузду туурасынан кармаңыз. Телефондун кыска жагынан кармаңыз. Оң колуңузга USB оюкчасы бар учун кармаңыз. 3 манжаңызды телефондун экранына коюп, чыпалак жана баш бармагыңыз менен телефонду кармап туруңуз.\n\nДаяр болгондо экранды эки жолу таптап коюңуз.\n\nБрайль баскычтобунан чыгуу үчүн экранды 3 манжаңыз менен ылдый сүрүңүз. Түпнуска баскытопко которуласыз.</string>
   <string name="rotate_orientation_continue_announcement">Телефонуңузду тигинен кармап турасыз. Улантуу үчүн телефонуңузду туурасынан, узун жагын ылдый каратып кармаңыз. Экранды ары каратып кармаңыз. Даяр болгондо улантуу үчүн экранды эки жолу таптап коюңуз.</string>
   <string name="type_letter_a_announcement_left_index_finger">сол колуңуздун сөөмөйү</string>
@@ -122,7 +122,7 @@
   <string name="swipe_down_3_fingers_announcement">Башка баскычтопко которулуу үчүн экранды 3 манжаңыз менен ылдый сүрүңүз. Азыр байкап көрүңүз.</string>
   <string name="swipe_down_3_fingers_completed_announcement">Кийинки баскычтоп. Адатта бул кийинки баскычтопко которот. Азырынча Брайль баскычтобу ачык бойдон калат, анткени сиз дагы эле үйрөткүчтөсүз.</string>
   <string name="swipe_up_3_fingers_announcement">Ошондой эле, телефонуңузду столдун үстүнө түз коюп, столдун үстүндө колдонуу режиминде терсеңиз болот. Үйрөткүчтү бүтүрүү үчүн, экранды 3 манжаңыз менен сүрүп, \"үйрөткүчтү бүтүрүү\" опциясын табыңыз</string>
-  <string name="open_context_menu_announcement">Опциялар менюсу ачык. Телефонуңузду экранын өзүңүзгө каратып буруңуз. Эми демейки TalkBack жаңсоолорун колдонуп, өтө берсеңиз болот. Көбүрөөк параметрлерди көрүү үчүн экранды оңго сүрүңүз.</string>
+  <string name="open_context_menu_announcement">Опциялар менюсу ачык. Телефонуңузду экранын өзүңүзгө каратып буруңуз. Эми демейки TalkBack FOSS жаңсоолорун колдонуп, өтө берсеңиз болот. Көбүрөөк параметрлерди көрүү үчүн экранды оңго сүрүңүз.</string>
   <string name="hold_six_fingers_announcement">%s\nТүзмөгүңүздү столдун үстүнө түз коюңуз. Андан кийин, экранды эки колуңуздун 3 орто манжасы менен сизге ыңгайлуу болгондой кылып коё бербей басып туруңуз.</string>
   <string name="hold_six_fingers_inactive_announcement">Түзмөгүңүздү столдун үстүнө түз коюңуз. Андан кийин, экранды эки колуңуздун 3 орто манжасы менен сизге ыңгайлуу болгондой кылып коё бербей басып туруңуз.</string>
   <string name="six_hold_announcement">Ошондой эле, телефонуңузду столдун үстүнө түз коюп, терсеңиз болот. Азыр байкап көрүңүз. Эгер жакын жерде стол жок болсо, ылдый сүрүп өткөрүп жибериңиз.</string>

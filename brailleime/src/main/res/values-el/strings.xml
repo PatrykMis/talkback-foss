@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="braille_ime_service_name">Πληκτρολόγιο μπράιγ TalkBack</string>
+  <string name="braille_ime_service_name">Πληκτρολόγιο μπράιγ TalkBack FOSS</string>
   <string name="switch_to_screen_away_announcement">Λειτουργία οθόνης στραμμένης προς τα έξω</string>
   <string name="switch_to_tabletop_announcement">Επιτραπέζια λειτουργία. Τοποθετήστε τη συσκευή σας με τη θύρα φόρτισης στα αριστερά. Για να ενημερώσετε τη θέση των κουκκίδων, πατήστε παρατεταμένα με έξι δάχτυλα.</string>
   <string name="braille_ime_hidden_announcement">Απόκρυψη πληκτρολογίου μπράιγ</string>
@@ -11,7 +11,7 @@
   <string name="switched_to_ueb_uncontracted_announcement">Έγινε εναλλαγή σε μη συμπτυγμένο πληκτρολόγιο UEB.</string>
   <string name="braille_ime_displayed_name">πληκτρολόγιο μπράιγ</string>
   <string name="multiple_languages_braille_ime_displayed_name">πληκτρολόγιο μπράιγ, %s</string>
-  <string name="input_view_caption">Πληκτρολόγιο μπράιγ TalkBack. Για βοήθεια, επισκεφτείτε τη διεύθυνση g.co/help/braille</string>
+  <string name="input_view_caption">Πληκτρολόγιο μπράιγ TalkBack FOSS. Για βοήθεια, επισκεφτείτε τη διεύθυνση g.co/help/braille</string>
   <string name="perform_action_next">Επόμενο</string>
   <string name="perform_action_submitting">Υποβολή κειμένου</string>
   <string name="calibration_step1_hold_left_finger_announcement">Ενημέρωση θέσης των κουκκίδων. Αρχικά, ας καταγράψουμε τις κουκκίδες στο αριστερό σας χέρι. Αγγίξτε παρατεταμένα στην οθόνη με τα τρία μεσαία δάχτυλα του αριστερού χεριού σας.</string>
@@ -79,17 +79,17 @@
     <item quantity="one">κουκκίδα %s</item>
     <item quantity="other">κουκκίδες %s</item>
   </plurals>
-  <string name="talkback_off_dialog_title">Ενεργοποιήστε το TalkBack για χρήση πληκτρολογίου μπράιγ</string>
+  <string name="talkback_off_dialog_title">Ενεργοποιήστε το TalkBack FOSS για χρήση πληκτρολογίου μπράιγ</string>
   <string name="talkback_off_dialog_positive_button">Ενεργοποιήστε το στις ρυθμίσεις προσβασιμότητας.</string>
-  <string name="talkback_suspend_dialog_title">Συνέχιση του TalkBack για χρήση πληκτρολογίου μπράιγ</string>
-  <string name="talkback_off_or_suspend_dialog_message">Όταν το TalkBack είναι ενεργοποιημένο, μπορείτε να πατήσετε στην οθόνη για εισαγωγή συμβόλων μπράιγ.</string>
+  <string name="talkback_suspend_dialog_title">Συνέχιση του TalkBack FOSS για χρήση πληκτρολογίου μπράιγ</string>
+  <string name="talkback_off_or_suspend_dialog_message">Όταν το TalkBack FOSS είναι ενεργοποιημένο, μπορείτε να πατήσετε στην οθόνη για εισαγωγή συμβόλων μπράιγ.</string>
   <string name="next_keyboard">Επόμενο πληκτρολόγιο</string>
   <string name="braille_tutorial_title">Οδηγός πληκτρολογίου μπράιγ</string>
-  <string name="tutorial_intro_description">Με το πληκτρολόγιο μπράιγ μπορείτε να πατήσετε στην οθόνη για να εισαγάγετε μπράιγ έξι κουκίδων.\n\nΧρησιμοποιείτε ενοποιημένα αγγλικά μπράιγ. Για να αλλάξετε τη γλώσσα πληκτρολόγησης, μεταβείτε στις ρυθμίσεις του TalkBack.\n\nΓια πληκτρολόγηση μπράιγ, πρέπει να κρατήσετε και να χρησιμοποιήσετε το τηλέφωνό σας με διαφορετικό τρόπο.</string>
+  <string name="tutorial_intro_description">Με το πληκτρολόγιο μπράιγ μπορείτε να πατήσετε στην οθόνη για να εισαγάγετε μπράιγ έξι κουκίδων.\n\nΧρησιμοποιείτε ενοποιημένα αγγλικά μπράιγ. Για να αλλάξετε τη γλώσσα πληκτρολόγησης, μεταβείτε στις ρυθμίσεις του TalkBack FOSS.\n\nΓια πληκτρολόγηση μπράιγ, πρέπει να κρατήσετε και να χρησιμοποιήσετε το τηλέφωνό σας με διαφορετικό τρόπο.</string>
   <string name="next_step">Επόμενο</string>
   <string name="leave_keyboard">Αποχώρηση από πληκτρολόγιο μπράιγ</string>
-  <string name="hold_six_fingers_description">Δεν θα μπορείτε να χρησιμοποιείτε τυπικές κινήσεις του TalkBack στο πληκτρολόγιο μπράιγ.\n\nΓια να ξεκινήσουμε, ας ρυθμίσουμε τη θέση των έξι κουκκίδων μπράιγ κατά την πληκτρολόγηση.</string>
-  <string name="rotate_orientation_description_1">Ξεκινώντας τώρα, δεν θα μπορείτε να χρησιμοποιήσετε κανονικές κινήσεις TalkBack. Το TalkBack δεν είναι διαθέσιμο ενώ χρησιμοποιείτε το πληκτρολόγιο μπράιγ.</string>
+  <string name="hold_six_fingers_description">Δεν θα μπορείτε να χρησιμοποιείτε τυπικές κινήσεις του TalkBack FOSS στο πληκτρολόγιο μπράιγ.\n\nΓια να ξεκινήσουμε, ας ρυθμίσουμε τη θέση των έξι κουκκίδων μπράιγ κατά την πληκτρολόγηση.</string>
+  <string name="rotate_orientation_description_1">Ξεκινώντας τώρα, δεν θα μπορείτε να χρησιμοποιήσετε κανονικές κινήσεις TalkBack FOSS. Το TalkBack FOSS δεν είναι διαθέσιμο ενώ χρησιμοποιείτε το πληκτρολόγιο μπράιγ.</string>
   <string name="rotate_orientation_description_2">Για να ξεκινήσετε, κρατήστε το τηλέφωνό σας με αυτόν τον τρόπο, με την οθόνη να κοιτάει προς την αντίθετη κατεύθυνση.</string>
   <string name="tap_to_continue">Πατήστε δύο φορές σε οποιοδήποτε σημείο για να συνεχίσετε.</string>
   <string name="instruction_type_letter_a_left_index_finger">αριστερό δείκτη</string>
@@ -106,7 +106,7 @@
   <string name="result_swipe_right">ΔΙΑΣΤΗΜΑ</string>
   <string name="result_swipe_down_2_fingers">ΑΠΟΚΡΥΨΗ ΠΛΗΚΤΡΟΛΟΓΙΟΥ</string>
   <string name="result_swipe_down_3_fingers">ΕΠΟΜΕΝΟ ΠΛΗΚΤΡΟΛΟΓΙΟ</string>
-  <string name="rotate_orientation_announcement">Ξεκινώντας τώρα, δεν θα μπορείτε να χρησιμοποιήσετε κανονικές κινήσεις TalkBack. Το TalkBack δεν είναι διαθέσιμο ενώ χρησιμοποιείτε το πληκτρολόγιο μπράιγ.\n\n%1$s</string>
+  <string name="rotate_orientation_announcement">Ξεκινώντας τώρα, δεν θα μπορείτε να χρησιμοποιήσετε κανονικές κινήσεις TalkBack FOSS. Το TalkBack FOSS δεν είναι διαθέσιμο ενώ χρησιμοποιείτε το πληκτρολόγιο μπράιγ.\n\n%1$s</string>
   <string name="rotate_orientation_inactive_announcement">Αρχικά, γυρίστε το τηλέφωνό σας έτσι ώστε η οθόνη σας να κοιτάει προς την αντίθετη κατεύθυνση.\n\nΣτη συνέχεια, περιστρέψτε το τηλέφωνό σας σε οριζόντια θέση. Τα χέρια σας πρέπει να πιάνουν τα άκρα του τηλεφώνου. Το δεξί σας χέρι θα πρέπει να κρατάει το άκρο με τη θύρα USB. Ακουμπήστε τα τρία μεσαία δάχτυλα του χεριού σας στην οθόνη και χρησιμοποιήστε το μικρό δάχτυλο και τον αντίχειρα για τη στήριξη του τηλεφώνου.\n\nΌταν είστε έτοιμοι, πατήστε δύο φορές στην οθόνη για να συνεχίσετε.\n\nΓια έξοδο από το πληκτρολόγιο μπράιγ, σύρετε προς τα κάτω προς το έδαφος με τρία δάχτυλα. Με αυτήν την ενέργεια επιστρέφετε στο αρχικό σας πληκτρολόγιο.</string>
   <string name="rotate_orientation_continue_announcement">Το τηλέφωνό σας είναι σε κατακόρυφη θέση. Για να συνεχίσετε, περιστρέψτε το τηλέφωνό σας σε οριζόντια θέση έτσι ώστε η μακριά πλευρά του να είναι από την πλευρά του εδάφους. Στη συνέχεια, γυρίστε την οθόνη έτσι ώστε να κοιτάει προς την αντίθετη κατεύθυνση. Όταν είστε έτοιμοι, πατήστε δύο φορές την οθόνη για να συνεχίσετε.</string>
   <string name="type_letter_a_announcement_left_index_finger">αριστερό δείκτη</string>
@@ -122,7 +122,7 @@
   <string name="swipe_down_3_fingers_announcement">Για να κάνετε εναλλαγή σε άλλο πληκτρολόγιο, σύρετε προς τα κάτω με τρία δάχτυλα. Δοκιμάστε το τώρα.</string>
   <string name="swipe_down_3_fingers_completed_announcement">Επόμενο πληκτρολόγιο. Συνήθως, με αυτόν τον τρόπο γίνεται εναλλαγή στο επόμενο πληκτρολόγιο. Αυτήν τη φορά, παραμένετε στο πληκτρολόγιο μπράιγ επειδή βρίσκεστε ακόμη στον οδηγό.</string>
   <string name="swipe_up_3_fingers_announcement">Επίσης, μπορείτε να πληκτρολογήσετε σε επιτραπέζια λειτουργία τοποθετώντας επίπεδα το τηλέφωνό σας σε ένα τραπέζι. Για να ολοκληρώσετε την ανάγνωση του οδηγού, σύρετε προς τα επάνω με τρία δάχτυλα και βρείτε την επιλογή ολοκλήρωσης της ανάγνωσης οδηγού.</string>
-  <string name="open_context_menu_announcement">Το μενού επιλογών είναι ανοικτό. Γυρίστε το τηλέφωνό σας από την άλλη έτσι ώστε να είναι στραμμένο προς τα εσάς και να το κρατάτε κανονικά. Μπορείτε πλέον να χρησιμοποιήσετε τυπικές κινήσεις TalkBack για πλοήγηση. Σύρετε δεξιά για να δείτε περισσότερες επιλογές.</string>
+  <string name="open_context_menu_announcement">Το μενού επιλογών είναι ανοικτό. Γυρίστε το τηλέφωνό σας από την άλλη έτσι ώστε να είναι στραμμένο προς τα εσάς και να το κρατάτε κανονικά. Μπορείτε πλέον να χρησιμοποιήσετε τυπικές κινήσεις TalkBack FOSS για πλοήγηση. Σύρετε δεξιά για να δείτε περισσότερες επιλογές.</string>
   <string name="hold_six_fingers_announcement">%s\nΤοποθετήστε επίπεδα τη συσκευή σας σε ένα τραπέζι. Στη συνέχεια, αγγίξτε παρατεταμένα την οθόνη με τα τρία μεσαία δάχτυλα κάθε χεριού σε μια θέση που σας βολεύει για πληκτρολόγηση.</string>
   <string name="hold_six_fingers_inactive_announcement">Τοποθετήστε επίπεδα τη συσκευή σας σε ένα τραπέζι. Στη συνέχεια, αγγίξτε παρατεταμένα την οθόνη με τα τρία μεσαία δάχτυλα κάθε χεριού σε μια θέση που σας βολεύει για πληκτρολόγηση.</string>
   <string name="six_hold_announcement">Επίσης, μπορείτε να πληκτρολογήσετε τοποθετώντας επίπεδα το τηλέφωνό σας σε ένα τραπέζι. Δοκιμάστε το τώρα. Εάν δεν βρίσκεστε κοντά σε ένα τραπέζι, σύρετε προς τα κάτω για παράβλεψη.</string>

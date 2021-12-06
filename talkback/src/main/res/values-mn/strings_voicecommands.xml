@@ -60,8 +60,8 @@
   <string name="voice_commands_dictate">Хэлж бичүүлэхийг эхлүүлэх</string>
   <string name="voice_commands_write">Бичих</string>
   <string name="voice_commands_Spell">Үсэглэх</string>
-  <string name="voice_commands_talkback_settings">TalkBack-н тохиргоо</string>
-  <string name="voice_commands_talkback_setting">TalkBack-н тохиргоо</string>
+  <string name="voice_commands_talkback_settings">TalkBack FOSS-н тохиргоо</string>
+  <string name="voice_commands_talkback_setting">TalkBack FOSS-н тохиргоо</string>
   <string name="voice_commands_screen_search">Дэлгэцийн хайлт</string>
   <string name="voice_commands_search_on_screen">Дэлгэцээс хайх</string>
   <string name="voice_commands_copy">@android:string/copy</string>
@@ -139,7 +139,7 @@
   <string name="voice_commands_help_overview_description">Саяхны аппуудаа хараарай</string>
   <string name="voice_commands_help_assistant_description">Google Туслахыг нээнэ</string>
   <string name="voice_commands_help_other_commands_title">Бусад тушаал</string>
-  <string name="voice_commands_help_other_commands_description">TalkBack-н тохиргоо руу очиж, дэлгэцийг нууж, үйлдлүүдийг харж, тусгай шошго нэмж, илүү ихийг хийнэ</string>
+  <string name="voice_commands_help_other_commands_description">TalkBack FOSS-н тохиргоо руу очиж, дэлгэцийг нууж, үйлдлүүдийг харж, тусгай шошго нэмж, илүү ихийг хийнэ</string>
   <string name="voice_commands_help_label">Шошголох [submit]</string>
   <string name="voice_commands_help_hide_screen_description">Дэлгэцийг нууснаар таны дэлгэц олон нийтийн газарт бусдад харагдахгүй</string>
   <string name="voice_commands_help_show_screen_description">Таны дэлгэцийг нуусны дараа хэвийн төлөвт нь буцаана</string>

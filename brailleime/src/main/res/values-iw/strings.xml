@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="braille_ime_service_name">‏מקלדת ברייל ל-TalkBack</string>
+  <string name="braille_ime_service_name">‏מקלדת ברייל ל-TalkBack FOSS</string>
   <string name="switch_to_screen_away_announcement">מצב \'המסך פונה כלפי חוץ\'</string>
   <string name="switch_to_tabletop_announcement">מצב \'על משטח\'. יש להציב את המכשיר כך ששקע הטעינה משמאל. לעדכון מיקום הנקודות, עליך ללחוץ לחיצה ארוכה באמצעות 6 אצבעות.</string>
   <string name="braille_ime_hidden_announcement">מקלדת הברייל מוסתרת</string>
@@ -11,7 +11,7 @@
   <string name="switched_to_ueb_uncontracted_announcement">‏הוחלפה לברייל לא מקוצר (UEB)</string>
   <string name="braille_ime_displayed_name">מקלדת ברייל</string>
   <string name="multiple_languages_braille_ime_displayed_name">מקלדת ברייל, %s</string>
-  <string name="input_view_caption">‏מקלדת ברייל ל-TalkBack - לעזרה, יש להיכנס אל g.co/help/braille</string>
+  <string name="input_view_caption">‏מקלדת ברייל ל-TalkBack FOSS - לעזרה, יש להיכנס אל g.co/help/braille</string>
   <string name="perform_action_next">הבא</string>
   <string name="perform_action_submitting">שליחת הטקסט מתבצעת</string>
   <string name="calibration_step1_hold_left_finger_announcement">מתבצע עדכון של מיקום הנקודות. תחילה עליך לתעד את הנקודות של יד שמאל. יש ללחוץ לחיצה ארוכה על המסך באמצעות 3 האצבעות האמצעיות של יד שמאל.</string>
@@ -81,17 +81,17 @@
     <item quantity="many">%s נקודות</item>
     <item quantity="other">%s נקודות</item>
   </plurals>
-  <string name="talkback_off_dialog_title">‏יש להפעיל את TalkBack כדי להשתמש במקלדת ברייל</string>
+  <string name="talkback_off_dialog_title">‏יש להפעיל את TalkBack FOSS כדי להשתמש במקלדת ברייל</string>
   <string name="talkback_off_dialog_positive_button">הפעלה בהגדרות הנגישות</string>
-  <string name="talkback_suspend_dialog_title">‏חזרה ל-TalkBack כדי להשתמש במקלדת ברייל</string>
-  <string name="talkback_off_or_suspend_dialog_message">‏כשהתכונה TalkBack מופעלת, ניתן להזין סמלי ברייל בהקשה על המסך.</string>
+  <string name="talkback_suspend_dialog_title">‏חזרה ל-TalkBack FOSS כדי להשתמש במקלדת ברייל</string>
+  <string name="talkback_off_or_suspend_dialog_message">‏כשהתכונה TalkBack FOSS מופעלת, ניתן להזין סמלי ברייל בהקשה על המסך.</string>
   <string name="next_keyboard">המקלדת הבאה</string>
   <string name="braille_tutorial_title">מדריך למקלדת ברייל</string>
-  <string name="tutorial_intro_description">‏באמצעות מקלדת הברייל אפשר להקיש על המסך כדי להזין ברייל של 6 נקודות.\n\nבמכשיר שלך נעשה שימוש במקלדת אנגלית אחידה לברייל. כדי להחליף שפת הקלדה, יש לעבור להגדרות TalkBack.‏\n\nכדי להקליד בברייל, יש להחזיק את הטלפון ולהשתמש בו בצורה שונה.</string>
+  <string name="tutorial_intro_description">‏באמצעות מקלדת הברייל אפשר להקיש על המסך כדי להזין ברייל של 6 נקודות.\n\nבמכשיר שלך נעשה שימוש במקלדת אנגלית אחידה לברייל. כדי להחליף שפת הקלדה, יש לעבור להגדרות TalkBack FOSS.‏\n\nכדי להקליד בברייל, יש להחזיק את הטלפון ולהשתמש בו בצורה שונה.</string>
   <string name="next_step">הבא</string>
   <string name="leave_keyboard">יציאה ממקלדת הברייל</string>
-  <string name="hold_six_fingers_description">‏אם משתמשים במקלדת ברייל, אין אפשרות להשתמש בתנועות רגילות של TalkBack‏.\n\nכדי להתחיל, עליך להגדיר את המיקום של 6 נקודות הברייל להקלדה.</string>
-  <string name="rotate_orientation_description_1">‏החל מעכשיו, לא ניתן יהיה להשתמש בתנועות הרגילות של TalkBack. תכונת TalkBack לא זמינה כשמשתמשים במקלדת הברייל.</string>
+  <string name="hold_six_fingers_description">‏אם משתמשים במקלדת ברייל, אין אפשרות להשתמש בתנועות רגילות של TalkBack FOSS‏.\n\nכדי להתחיל, עליך להגדיר את המיקום של 6 נקודות הברייל להקלדה.</string>
+  <string name="rotate_orientation_description_1">‏החל מעכשיו, לא ניתן יהיה להשתמש בתנועות הרגילות של TalkBack FOSS. תכונת TalkBack FOSS לא זמינה כשמשתמשים במקלדת הברייל.</string>
   <string name="rotate_orientation_description_2">כדי להתחיל, יש להחזיק את הטלפון כך, כשהמסך יפנה כלפי חוץ.</string>
   <string name="tap_to_continue">יש ללחוץ פעמיים במקום כלשהו כדי להמשיך</string>
   <string name="instruction_type_letter_a_left_index_finger">האצבע המורה השמאלית</string>
@@ -108,7 +108,7 @@
   <string name="result_swipe_right">רווח</string>
   <string name="result_swipe_down_2_fingers">הסתרת מקלדת</string>
   <string name="result_swipe_down_3_fingers">המקלדת הבאה</string>
-  <string name="rotate_orientation_announcement">‏החל מעכשיו, לא ניתן יהיה להשתמש בתנועות הרגילות של TalkBack. תכונת TalkBack לא זמינה כשמשתמשים במקלדת הברייל.\n\n%1$s</string>
+  <string name="rotate_orientation_announcement">‏החל מעכשיו, לא ניתן יהיה להשתמש בתנועות הרגילות של TalkBack FOSS. תכונת TalkBack FOSS לא זמינה כשמשתמשים במקלדת הברייל.\n\n%1$s</string>
   <string name="rotate_orientation_inactive_announcement">‏ראשית, מסובבים את הטלפון כך שהמסך יפנה כלפי חוץ.\n\nלאחר מכן, מסובבים את הטלפון למצב רוחבי (הקצוות הארוכים מקבילים לרצפה). יש להחזיק את הטלפון בידיים בקצוות הקצרים. על יד ימין להחזיק בקצה עם יציאת ה-USB. מניחים את 3 האצבעות האמצעיות על המסך, ומשתמשים בזרת ובאגודל כדי להחזיק את הטלפון.\n\nכשמוכנים, לוחצים פעמיים על המסך כדי להמשיך.\n\nליציאה ממקלדת הברייל, מחליקים למטה לכיוון הקרקע באמצעות 3 אצבעות. תנועה זו מחליפה בחזרה למקלדת המקורית.</string>
   <string name="rotate_orientation_continue_announcement">הטלפון ממוקם אנכית. כדי להמשיך, יש לסובב את הטלפון למצב רוחבי (הקצוות הארוכים מקבילים לרצפה). לאחר מכן, מסובבים את הטלפון כך שהמסך יפנה כלפי חוץ. כשמוכנים, לוחצים פעמיים על המסך כדי להמשיך.</string>
   <string name="type_letter_a_announcement_left_index_finger">האצבע המורה השמאלית</string>
@@ -124,7 +124,7 @@
   <string name="swipe_down_3_fingers_announcement">כדי להחליף למקלדת השנייה, מחליקים למטה באמצעות 3 אצבעות. כדאי לנסות עכשיו.</string>
   <string name="swipe_down_3_fingers_completed_announcement">המקלדת הבאה. בדרך כלל, תנועה זו תחליף למקלדת הבאה. הפעם, העבודה במקלדת הברייל תימשך מפני שהמדריך עדיין לא הסתיים.</string>
   <string name="swipe_up_3_fingers_announcement">אפשר גם להקליד במצב \'על פני שולחן\' על ידי הנחת הטלפון במצב שטוח על שולחן. כדי לסיים את המדריך, עליך להחליק כלפי מעלה באמצעות 3 אצבעות כדי למצוא את האפשרות \'סיום המדריך\'</string>
-  <string name="open_context_menu_announcement">‏תפריט האפשרויות פתוח. יש להפוך את הטלפון כך שהמסך יפנה אליך ולהחזיק אותו באופן רגיל. עכשיו ניתן להשתמש בתנועות TalkBack רגילות כדי לנווט. יש להחליק ימינה כדי לראות אפשרויות נוספות.</string>
+  <string name="open_context_menu_announcement">‏תפריט האפשרויות פתוח. יש להפוך את הטלפון כך שהמסך יפנה אליך ולהחזיק אותו באופן רגיל. עכשיו ניתן להשתמש בתנועות TalkBack FOSS רגילות כדי לנווט. יש להחליק ימינה כדי לראות אפשרויות נוספות.</string>
   <string name="hold_six_fingers_announcement">‏%s\nעליך להניח את המכשיר במצב שטוח על שולחן. לאחר מכן, יש ללחוץ לחיצה ארוכה על המסך באמצעות 3 האצבעות האמצעיות של כל יד במיקום שיהיה לך נוח להקליד בו.</string>
   <string name="hold_six_fingers_inactive_announcement">עליך להניח את המכשיר במצב שטוח על שולחן. לאחר מכן, יש ללחוץ לחיצה ארוכה על המסך באמצעות 3 האצבעות האמצעיות של כל יד במיקום שיהיה לך נוח להקליד בו.</string>
   <string name="six_hold_announcement">אפשר גם להקליד על ידי הנחת הטלפון במצב שטוח על שולחן. כדאי לנסות עכשיו. אם אין לידך שולחן, אפשר לדלג קדימה על ידי החלקה למטה.</string>

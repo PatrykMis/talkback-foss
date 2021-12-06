@@ -60,8 +60,8 @@
   <string name="voice_commands_dictate">Dicteren</string>
   <string name="voice_commands_write">Schrijven</string>
   <string name="voice_commands_Spell">Spellen</string>
-  <string name="voice_commands_talkback_settings">Instellingen voor TalkBack</string>
-  <string name="voice_commands_talkback_setting">Instelling voor TalkBack</string>
+  <string name="voice_commands_talkback_settings">Instellingen voor TalkBack FOSS</string>
+  <string name="voice_commands_talkback_setting">Instelling voor TalkBack FOSS</string>
   <string name="voice_commands_screen_search">Schermzoeken</string>
   <string name="voice_commands_search_on_screen">Zoeken op scherm</string>
   <string name="voice_commands_copy">@android:string/copy</string>
@@ -139,7 +139,7 @@
   <string name="voice_commands_help_overview_description">Bekijk je recente apps</string>
   <string name="voice_commands_help_assistant_description">Open de Google Assistent</string>
   <string name="voice_commands_help_other_commands_title">Andere opdrachten</string>
-  <string name="voice_commands_help_other_commands_description">Ga naar de TalkBack-instelling, verberg je scherm, bekijk acties, voeg aangepaste labels toe en meer</string>
+  <string name="voice_commands_help_other_commands_description">Ga naar de TalkBack FOSS-instelling, verberg je scherm, bekijk acties, voeg aangepaste labels toe en meer</string>
   <string name="voice_commands_help_label">[Indienen] labelen</string>
   <string name="voice_commands_help_hide_screen_description">Het scherm verbergen zodat anderen je scherm niet kunnen bekijken in openbare ruimten</string>
   <string name="voice_commands_help_show_screen_description">Nadat je het scherm hebt verborgen, kun je het terugzetten naar de normale status</string>

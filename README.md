@@ -26,7 +26,7 @@ There is also an issue tracker where various issues and improvements can be disc
 
 ## How to Build
 
-To build TalkBack, run `gradlew assembleRelease` command and sign the apk.
+To build TalkBack FOSS, run `gradlew assembleRelease` command and sign the apk.
 
 ## How to Install
 
@@ -34,10 +34,11 @@ Install the apk onto your Android device in the usual manner using adb.
 
 ## How to Run
 
-With the apk now installed on the device, the TalkBack service should now be
+With the apk now installed on the device, the TalkBack FOSS service should now be
 present under Settings -> Accessibility, and will be off by default. To turn it
 on, toggle the switch preference to the on position.
 
 Alternatively you can do it via ADB:
 
-> `adb shell settings put secure enabled_accessibility_services com.android.talkback/com.google.android.marvin.talkback.TalkBackService`
+> `adb shell settings put secure enabled_accessibility_services com.android.talkback_foss/com.google.android.marvin.talkback.TalkBackService`
+

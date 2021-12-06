@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="talkback_on">Aktibatuta dago TalkBack</string>
-  <string name="talkback_suspended">Eten egin da TalkBack</string>
-  <string name="talkback_resumed">Berrekin zaio TalkBack-i</string>
-  <string name="talkback_disabled">TalkBack desaktibatuta dago</string>
+  <string name="talkback_on">Aktibatuta dago TalkBack FOSS</string>
+  <string name="talkback_suspended">Eten egin da TalkBack FOSS</string>
+  <string name="talkback_resumed">Berrekin zaio TalkBack FOSS-i</string>
+  <string name="talkback_disabled">TalkBack FOSS desaktibatuta dago</string>
   <string name="spokenfeedback_on">Ahozko argibideak aktibatuta daude</string>
   <string name="spokenfeedback_suspended">Ahozko argibideak etenda daude</string>
   <string name="spokenfeedback_resumed">Ahozko argibideei berrekin zaie</string>

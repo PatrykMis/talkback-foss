@@ -60,8 +60,8 @@
   <string name="voice_commands_dictate">الإملاء الصوتي</string>
   <string name="voice_commands_write">كتابة</string>
   <string name="voice_commands_Spell">تهجئة</string>
-  <string name="voice_commands_talkback_settings">‏إعدادات TalkBack</string>
-  <string name="voice_commands_talkback_setting">‏ضبط TalkBack</string>
+  <string name="voice_commands_talkback_settings">‏إعدادات TalkBack FOSS</string>
+  <string name="voice_commands_talkback_setting">‏ضبط TalkBack FOSS</string>
   <string name="voice_commands_screen_search">بحث مباشر</string>
   <string name="voice_commands_search_on_screen">البحث على الشاشة</string>
   <string name="voice_commands_copy">@android:string/copy</string>
@@ -139,7 +139,7 @@
   <string name="voice_commands_help_overview_description">الاطّلاع على التطبيقات المُستخدَمة مؤخرًا</string>
   <string name="voice_commands_help_assistant_description">‏فتح \"مساعد Google\"</string>
   <string name="voice_commands_help_other_commands_title">طلبات أخرى</string>
-  <string name="voice_commands_help_other_commands_description">‏الانتقال إلى إعدادات TalkBack وتعتيم الشاشة وعرض الإجراءات وإضافة تصنيفات مخصصة والمزيد</string>
+  <string name="voice_commands_help_other_commands_description">‏الانتقال إلى إعدادات TalkBack FOSS وتعتيم الشاشة وعرض الإجراءات وإضافة تصنيفات مخصصة والمزيد</string>
   <string name="voice_commands_help_label">تصنيف [إرسال]</string>
   <string name="voice_commands_help_hide_screen_description">تعتيم الشاشة كي تصبح غير مرئية للآخرين في الأماكن العامة</string>
   <string name="voice_commands_help_show_screen_description">إعادة الشاشة إلى حالتها الطبيعية بعد تعتيمها</string>

@@ -60,8 +60,8 @@
   <string name="voice_commands_dictate">Diktēt</string>
   <string name="voice_commands_write">Rakstīt</string>
   <string name="voice_commands_Spell">Pareizrakstība</string>
-  <string name="voice_commands_talkback_settings">TalkBack iestatījumi</string>
-  <string name="voice_commands_talkback_setting">TalkBack iestatījums</string>
+  <string name="voice_commands_talkback_settings">TalkBack FOSS iestatījumi</string>
+  <string name="voice_commands_talkback_setting">TalkBack FOSS iestatījums</string>
   <string name="voice_commands_screen_search">Meklēšana ekrānā</string>
   <string name="voice_commands_search_on_screen">Meklēt ekrānā</string>
   <string name="voice_commands_copy">@android:string/copy</string>
@@ -139,7 +139,7 @@
   <string name="voice_commands_help_overview_description">Skatiet pēdējās izmantotās lietotnes.</string>
   <string name="voice_commands_help_assistant_description">Atveriet Google asistentu.</string>
   <string name="voice_commands_help_other_commands_title">Citas komandas</string>
-  <string name="voice_commands_help_other_commands_description">Pārejiet uz TalkBack iestatījumiem, paslēpiet ekrānu, skatiet darbības, pievienojiet pielāgotas iezīmes un veiciet citas darbības.</string>
+  <string name="voice_commands_help_other_commands_description">Pārejiet uz TalkBack FOSS iestatījumiem, paslēpiet ekrānu, skatiet darbības, pievienojiet pielāgotas iezīmes un veiciet citas darbības.</string>
   <string name="voice_commands_help_label">Pievienot iezīmi [iesniegt]</string>
   <string name="voice_commands_help_hide_screen_description">Paslēpiet displeju, lai jūsu ekrāns nebūtu redzams citām personām, kad atrodaties publiskās vietās.</string>
   <string name="voice_commands_help_show_screen_description">Pēc ekrāna paslēpšanas atjaunojiet tā parasto stāvokli.</string>

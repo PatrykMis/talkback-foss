@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="accessibility_tutorial_title">ઍક્સેસિબિલિટી ટ્યૂટૉરિઅલ</string>
-  <string name="title_pref_tutorial">TalkBack ટ્યૂટૉરિઅલ</string>
-  <string name="tutorial_title">TalkBack ટ્યૂટૉરિઅલ</string>
+  <string name="title_pref_tutorial">TalkBack FOSS ટ્યૂટૉરિઅલ</string>
+  <string name="tutorial_title">TalkBack FOSS ટ્યૂટૉરિઅલ</string>
   <string name="main_description">ટૉકબૅક એ મુખ્યત્વે અંધત્વ અને ઓછી દૃષ્ટિવાળા લોકો માટેનું એક સ્ક્રીન રીડર છે. તે બોલાયેલા પ્રતિસાદનો ઉપયોગ કરીને ઉપકરણ સાથે ક્રિયાપ્રતિક્રિયાની મંજૂરી આપે છે.</string>
   <string name="turn_off_talkback">ટૉકબૅક બંધ કરો</string>
   <string name="tutorial_start_lesson">જાણો</string>
@@ -31,7 +31,7 @@
   <string name="tutorial_lesson_3_title">પાઠ 3: ટૉકબૅક મેનૂ</string>
   <string name="tutorial_lesson_3_short_description">ટૉકબૅક મેનૂ</string>
   <string name="tutorial_lesson_3_page1_subtitle">ભાગ 1: ટૉકબૅક મેનૂ</string>
-  <string name="tutorial_lesson_3_page1_description">TalkBackમાં એક સંદર્ભ મેનૂ હોય છે. TalkBack મેનૂમાં હંમેશાં સમાન આદેશો શામેલ હોય છે. તમે એક ગતિમાં એક આંગળીને નીચે પછી જમણે લઈ જઈ, પછી તમારી આંગળી ઉઠાવી લઈને તેને સક્રિય કરી શકો છો. કોઈ અભ્યાસ વર્ઝનને હમણાં સક્રિય કરો.</string>
+  <string name="tutorial_lesson_3_page1_description">TalkBack FOSSમાં એક સંદર્ભ મેનૂ હોય છે. TalkBack FOSS મેનૂમાં હંમેશાં સમાન આદેશો શામેલ હોય છે. તમે એક ગતિમાં એક આંગળીને નીચે પછી જમણે લઈ જઈ, પછી તમારી આંગળી ઉઠાવી લઈને તેને સક્રિય કરી શકો છો. કોઈ અભ્યાસ વર્ઝનને હમણાં સક્રિય કરો.</string>
   <string name="tutorial_lesson_3_message">મેનૂ વિકલ્પો, સ્ક્રીનની મધ્યમાં ઊભી રીતે સૂચિબદ્ધ છે. અન્વેષણ કરવાનો પ્રયાસ કરો. જ્યારે તમે પૂર્ણ કરી લો, ત્યારે રદ કરો સક્રિય કરો.</string>
   <string name="tutorial_lesson_3_practice_title">ભાગ 2: અભ્યાસ</string>
   <string name="tutorial_lesson_3_practice_description">ટૉકબૅક મેનૂને સક્રિય કરવા માટે તમારી આંગળીને નીચે પછી જમણે અથવા ઉપર પછી જમણે લઈ જાઓ.</string>
@@ -50,7 +50,7 @@
   <string name="tutorial_lesson_5_title">પાઠ 5: ટેક્સ્ટમાં ફેરફાર કરો</string>
   <string name="tutorial_lesson_5_short_description">ફેરફાર કરો બૉક્સ સક્રિય કરવું, ટાઇપ કરવું, કર્સરને ખસેડવું, ટેક્સ્ટ પસંદ કરવી અને તેના પર ક્રિયા કરવી</string>
   <string name="tutorial_lesson_5_page1_subtitle">ભાગ 1: ફેરફાર કરો બૉક્સ સક્રિય કરવું</string>
-  <string name="tutorial_lesson_5_page1_description">TalkBack સાથે, તમે ટેક્સ્ટને ટાઇપ કરવા, પસંદ કરવા અને ફેરફાર કરવા માટે ફેરફાર કરો બૉક્સનો ઉપયોગ કરી શકો છો. ફેરફાર કરો બૉક્સને સક્રિય કરવા માટે, તેને બે વાર ટૅપ કરો. તમે ફેરફાર કરો બૉક્સને સક્રિય કરી લો તે પછી, સ્ક્રીનના તળિયે એક કીબોર્ડ ઉપલબ્ધ થશે. તમે પાછળ બટનને ટૅપ કરીને કીબોર્ડને છોડી દઈ શકો છો. હવે ફેરફાર કરો બૉક્સને સક્રિય કરવાનો પ્રયાસ કરો. જ્યારે તમે પૂર્ણ કરી લો ત્યારે, આગલું સક્રિય કરો, જે હવે કીબોર્ડની ઉપર છે.</string>
+  <string name="tutorial_lesson_5_page1_description">TalkBack FOSS સાથે, તમે ટેક્સ્ટને ટાઇપ કરવા, પસંદ કરવા અને ફેરફાર કરવા માટે ફેરફાર કરો બૉક્સનો ઉપયોગ કરી શકો છો. ફેરફાર કરો બૉક્સને સક્રિય કરવા માટે, તેને બે વાર ટૅપ કરો. તમે ફેરફાર કરો બૉક્સને સક્રિય કરી લો તે પછી, સ્ક્રીનના તળિયે એક કીબોર્ડ ઉપલબ્ધ થશે. તમે પાછળ બટનને ટૅપ કરીને કીબોર્ડને છોડી દઈ શકો છો. હવે ફેરફાર કરો બૉક્સને સક્રિય કરવાનો પ્રયાસ કરો. જ્યારે તમે પૂર્ણ કરી લો ત્યારે, આગલું સક્રિય કરો, જે હવે કીબોર્ડની ઉપર છે.</string>
   <string name="tutorial_lesson_5_page2_subtitle">ભાગ 2: સંપાદન બૉક્સમાં લખવું</string>
   <string name="tutorial_lesson_5_page2_description">ટાઇપ કરવા માટે, સંપાદન બૉક્સને સક્રિય કરો અને સમગ્ર ઑનસ્ક્રીન કીબોર્ડ પર તમારી આંગળીને ફેરવો. જ્યારે તમને ઇચ્છિત અક્ષર સંભળાય, ત્યારે તેને સક્રિય કરવા માટે તમારી આંગળીને ઉઠાવી લો. સક્રિય કરવાનો અને નીચેના સંપાદન બૉક્સમાં ટાઇપ કરવાનો પ્રયાસ કરો.</string>
   <string name="tutorial_lesson_5_page3_subtitle">ભાગ 3: કર્સરનો ઉપયોગ કરવો</string>
@@ -75,8 +75,8 @@
   <string name="tutorial_alert_dialog_exit">બહાર નીકળો</string>
   <string name="tutorial_no_touch_explore_title">સ્પર્શ કરીને શોધખોળ કરવું આવશ્યક છે</string>
   <string name="tutorial_no_touch_explore_message">આ ટ્યૂટૉરિઅલ માટે ટચ કરીને અન્વેષણ કરોની જરૂર છે. કૃપા કરીને ટ્યૂટૉરિઅલ લોંચ કરતાં પહેલાં ટચ કરીને અન્વેષણ કરોને સક્ષમ કરો.</string>
-  <string name="tutorial_service_inactive_title">TalkBack અક્ષમ કર્યું</string>
-  <string name="tutorial_service_inactive_message">આ ટ્યૂટૉરિઅલ માટે TalkBack ને સક્ષમ કરવાની જરૂર છે. કૃપા કરીને ટ્યૂટૉરિઅલને લૉન્ચ કરતા પહેલાં TalkBack ચાલુ કરો.</string>
+  <string name="tutorial_service_inactive_title">TalkBack FOSS અક્ષમ કર્યું</string>
+  <string name="tutorial_service_inactive_message">આ ટ્યૂટૉરિઅલ માટે TalkBack FOSS ને સક્ષમ કરવાની જરૂર છે. કૃપા કરીને ટ્યૂટૉરિઅલને લૉન્ચ કરતા પહેલાં TalkBack FOSS ચાલુ કરો.</string>
   <string name="tutorial_service_suspended_title">ટૉકબૅક સસ્પેન્ડ કર્યું</string>
   <string name="tutorial_service_suspended_message">પ્રતિસાદ થોભાવેલ હોય ત્યારે ટૉકબૅક ટ્યૂટૉરિઅલ ઉપલબ્ધ હોતું નથી. કૃપા કરીને ટૉકબૅક પ્રતિસાદ ફરી શરૂ કરો અને ચાલુ રાખવા માટે ટ્યૂટૉરિઅલને ફરીથી લૉન્ચ કરો.</string>
   <string name="shortcut_hear_lesson">મેનૂનું વર્ણન કરો</string>

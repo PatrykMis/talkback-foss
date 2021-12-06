@@ -60,8 +60,8 @@
   <string name="voice_commands_dictate">Dictate</string>
   <string name="voice_commands_write">Write</string>
   <string name="voice_commands_Spell">Spell</string>
-  <string name="voice_commands_talkback_settings">TalkBack settings</string>
-  <string name="voice_commands_talkback_setting">TalkBack setting</string>
+  <string name="voice_commands_talkback_settings">TalkBack FOSS settings</string>
+  <string name="voice_commands_talkback_setting">TalkBack FOSS setting</string>
   <string name="voice_commands_screen_search">Screen search</string>
   <string name="voice_commands_search_on_screen">Search on screen</string>
   <string name="voice_commands_copy">@android:string/copy</string>
@@ -139,7 +139,7 @@
   <string name="voice_commands_help_overview_description">See your recent apps</string>
   <string name="voice_commands_help_assistant_description">Open Google Assistant</string>
   <string name="voice_commands_help_other_commands_title">Other commands</string>
-  <string name="voice_commands_help_other_commands_description">Go to TalkBack settings, hide screen, see actions, add custom labels and more</string>
+  <string name="voice_commands_help_other_commands_description">Go to TalkBack FOSS settings, hide screen, see actions, add custom labels and more</string>
   <string name="voice_commands_help_label">Label [submit]</string>
   <string name="voice_commands_help_hide_screen_description">Hide the display so that your screen isn\'t visible to others in public places</string>
   <string name="voice_commands_help_show_screen_description">After hiding your screen, return it to a normal state</string>

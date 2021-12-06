@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="talkback_on">‏تشغيل TalkBack</string>
-  <string name="talkback_suspended">‏تم تعليق TalkBack</string>
-  <string name="talkback_resumed">‏تم استئناف TalkBack</string>
-  <string name="talkback_disabled">‏إيقاف TalkBack</string>
+  <string name="talkback_on">‏تشغيل TalkBack FOSS</string>
+  <string name="talkback_suspended">‏تم تعليق TalkBack FOSS</string>
+  <string name="talkback_resumed">‏تم استئناف TalkBack FOSS</string>
+  <string name="talkback_disabled">‏إيقاف TalkBack FOSS</string>
   <string name="spokenfeedback_on">تفعيل التعليقات والملاحظات المنطوقة</string>
   <string name="spokenfeedback_suspended">تم تعليق التعليقات والملاحظات المنطوقة</string>
   <string name="spokenfeedback_resumed">تم استئناف التعليقات والملاحظات المنطوقة</string>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="talkback_on">Talkback ჩართულია</string>
-  <string name="talkback_suspended">TalkBack შეჩერდა</string>
-  <string name="talkback_resumed">TalkBack განახლდა</string>
-  <string name="talkback_disabled">TalkBack გამორთულია</string>
+  <string name="talkback_suspended">TalkBack FOSS შეჩერდა</string>
+  <string name="talkback_resumed">TalkBack FOSS განახლდა</string>
+  <string name="talkback_disabled">TalkBack FOSS გამორთულია</string>
   <string name="spokenfeedback_on">გახმოვანებული უკუკავშირი ჩართულია</string>
   <string name="spokenfeedback_suspended">გახმოვანებული უკუკავშირი შეჩერებულია</string>
   <string name="spokenfeedback_resumed">გახმოვანებული უკუკავშირი განახლდა</string>

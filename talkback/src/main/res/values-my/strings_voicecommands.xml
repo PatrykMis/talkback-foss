@@ -60,8 +60,8 @@
   <string name="voice_commands_dictate">နှုတ်တိုက်ချပေးရန်</string>
   <string name="voice_commands_write">ရေးပါ</string>
   <string name="voice_commands_Spell">စာလုံးပေါင်းပါ</string>
-  <string name="voice_commands_talkback_settings">TalkBack ဆက်တင်များ</string>
-  <string name="voice_commands_talkback_setting">TalkBack ဆက်တင်</string>
+  <string name="voice_commands_talkback_settings">TalkBack FOSS ဆက်တင်များ</string>
+  <string name="voice_commands_talkback_setting">TalkBack FOSS ဆက်တင်</string>
   <string name="voice_commands_screen_search">မြင်လွှာတွင် ရှာဖွေပါ</string>
   <string name="voice_commands_search_on_screen">ဖန်သားပြင်တွင် ရှာဖွေပါ</string>
   <string name="voice_commands_copy">@android:string/copy</string>
@@ -139,7 +139,7 @@
   <string name="voice_commands_help_overview_description">လတ်တလော အက်ပ်များကို ကြည့်ပါ</string>
   <string name="voice_commands_help_assistant_description">Google Assistant ဖွင့်ပါ</string>
   <string name="voice_commands_help_other_commands_title">အခြား ကွန်မန်းများ</string>
-  <string name="voice_commands_help_other_commands_description">TalkBack ဆက်တင်များသို့ သွားပါ၊ ဖန်သားပြင်ကို ဝှက်ပါ၊ လုပ်ဆောင်ချက်များကို ကြည့်ပါ၊ စိတ်ကြိုက်အညွှန်းများကို ထည့်ပါ စသည်</string>
+  <string name="voice_commands_help_other_commands_description">TalkBack FOSS ဆက်တင်များသို့ သွားပါ၊ ဖန်သားပြင်ကို ဝှက်ပါ၊ လုပ်ဆောင်ချက်များကို ကြည့်ပါ၊ စိတ်ကြိုက်အညွှန်းများကို ထည့်ပါ စသည်</string>
   <string name="voice_commands_help_label">[ပေးပို့ရန်] ကို အညွှန်းတပ်ပါ</string>
   <string name="voice_commands_help_hide_screen_description">အများသုံးနေရာများတွင် အခြားသူများက သင့်ဖန်သားပြင်ကို မမြင်နိုင်စေရန် ၎င်းကို ဝှက်သည်</string>
   <string name="voice_commands_help_show_screen_description">သင့်ဖန်သားပြင်ကို ဝှက်ပေးပြီးနောက် ပုံမှန်အခြေအနေသို့ ပြန်ပြောင်းပေးသည်</string>

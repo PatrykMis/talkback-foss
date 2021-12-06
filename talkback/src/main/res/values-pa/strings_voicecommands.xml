@@ -60,8 +60,8 @@
   <string name="voice_commands_dictate">ਬੋਲ ਕੇ ਲਿਖਣਾ</string>
   <string name="voice_commands_write">ਲਿਖੋ</string>
   <string name="voice_commands_Spell">ਸ਼ਬਦ-ਜੋੜ</string>
-  <string name="voice_commands_talkback_settings">TalkBack ਸੈਟਿੰਗਾਂ</string>
-  <string name="voice_commands_talkback_setting">TalkBack ਸੈਟਿੰਗ</string>
+  <string name="voice_commands_talkback_settings">TalkBack FOSS ਸੈਟਿੰਗਾਂ</string>
+  <string name="voice_commands_talkback_setting">TalkBack FOSS ਸੈਟਿੰਗ</string>
   <string name="voice_commands_screen_search">ਸਕ੍ਰੀਨ ਖੋਜ</string>
   <string name="voice_commands_search_on_screen">ਸਕ੍ਰੀਨ \'ਤੇ ਖੋਜੋ</string>
   <string name="voice_commands_copy">@android:string/copy</string>
@@ -139,7 +139,7 @@
   <string name="voice_commands_help_overview_description">ਆਪਣੀਆਂ ਹਾਲੀਆ ਐਪਾਂ ਦੇਖੋ</string>
   <string name="voice_commands_help_assistant_description">Google Assistant ਖੋਲ੍ਹੋ</string>
   <string name="voice_commands_help_other_commands_title">ਹੋਰ ਆਦੇਸ਼</string>
-  <string name="voice_commands_help_other_commands_description">TalkBack ਸੈਟਿੰਗਾਂ \'ਤੇ ਜਾਓ, ਸਕ੍ਰੀਨ ਲੁਕਾਓ, ਕਾਰਵਾਈਆਂ ਦੇਖੋ, ਵਿਉਂਤਿਆ ਲੇਬਲ ਸ਼ਾਮਲ ਕਰੋ ਅਤੇ ਹੋਰ ਵੀ ਬਹੁਤ ਕੁਝ</string>
+  <string name="voice_commands_help_other_commands_description">TalkBack FOSS ਸੈਟਿੰਗਾਂ \'ਤੇ ਜਾਓ, ਸਕ੍ਰੀਨ ਲੁਕਾਓ, ਕਾਰਵਾਈਆਂ ਦੇਖੋ, ਵਿਉਂਤਿਆ ਲੇਬਲ ਸ਼ਾਮਲ ਕਰੋ ਅਤੇ ਹੋਰ ਵੀ ਬਹੁਤ ਕੁਝ</string>
   <string name="voice_commands_help_label">ਲੇਬਲਬੱਧ ਕਰੋ [ਸਪੁਰਦ ਕਰੋ]</string>
   <string name="voice_commands_help_hide_screen_description">ਡਿਸਪਲੇ ਲੁਕਾਓ, ਤਾਂ ਜੋ ਜਨਤਕ ਥਾਵਾਂ \'ਤੇ ਤੁਹਾਡੀ ਸਕ੍ਰੀਨ ਹੋਰਾਂ ਨੂੰ ਦਿਖਾਈ ਨਾ ਦੇਵੇ</string>
   <string name="voice_commands_help_show_screen_description">ਸਕ੍ਰੀਨ ਲੁਕਾਉਣ ਦੀ ਲੋੜ ਨਾ ਹੋਣ \'ਤੇ, ਇਸ ਨੂੰ ਆਮ ਸਥਿਤੀ ਵਿੱਚ ਵਾਪਸ ਲਿਆਓ</string>

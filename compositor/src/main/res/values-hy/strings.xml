@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="talkback_on">TalkBack-ը միացած է</string>
-  <string name="talkback_suspended">TalkBack-ը կասեցված է</string>
-  <string name="talkback_resumed">TalkBack-ը վերսկսվել է</string>
-  <string name="talkback_disabled">TalkBack-ն անջատած է</string>
+  <string name="talkback_on">TalkBack FOSS-ը միացած է</string>
+  <string name="talkback_suspended">TalkBack FOSS-ը կասեցված է</string>
+  <string name="talkback_resumed">TalkBack FOSS-ը վերսկսվել է</string>
+  <string name="talkback_disabled">TalkBack FOSS-ն անջատած է</string>
   <string name="spokenfeedback_on">Ձայնային արձագանքը միացված է</string>
   <string name="spokenfeedback_suspended">Ձայնային արձագանքը կասեցված է</string>
   <string name="spokenfeedback_resumed">Ձայնային արձագանքը վերսկսեց</string>

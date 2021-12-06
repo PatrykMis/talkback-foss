@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="braille_ime_service_name">TalkBack பிரெய்ல் கீபோர்டு</string>
+  <string name="braille_ime_service_name">TalkBack FOSS பிரெய்ல் கீபோர்டு</string>
   <string name="switch_to_screen_away_announcement">திரை எதிர்ப்பக்கம் பார்த்திருத்தல் பயன்முறை</string>
   <string name="switch_to_tabletop_announcement">டேபிள்டாப் பயன்முறை. சார்ஜிங் போர்ட் இடதுபுறத்தில் இருக்குமாறு மொபைலை வைக்கவும். புள்ளிகளின் நிலையைப் புதுப்பிக்க 6 விரல்களால் அழுத்தவும்.</string>
   <string name="braille_ime_hidden_announcement">பிரெய்ல் கீபோர்டு மறைக்கப்படுகிறது</string>
@@ -11,7 +11,7 @@
   <string name="switched_to_ueb_uncontracted_announcement">UEB விரிவான பயன்முறைக்கு மாற்றப்பட்டது</string>
   <string name="braille_ime_displayed_name">பிரெய்ல் கீபோர்டு</string>
   <string name="multiple_languages_braille_ime_displayed_name">பிரெய்ல் கீபோர்டு: %s</string>
-  <string name="input_view_caption">TalkBack பிரெய்ல் கீபோர்டு - உதவிக்கு g.co/help/braille என்ற தளத்திற்குச் செல்லவும்</string>
+  <string name="input_view_caption">TalkBack FOSS பிரெய்ல் கீபோர்டு - உதவிக்கு g.co/help/braille என்ற தளத்திற்குச் செல்லவும்</string>
   <string name="perform_action_next">அடுத்து</string>
   <string name="perform_action_submitting">உரை சமர்ப்பிக்கப்படுகிறது</string>
   <string name="calibration_step1_hold_left_finger_announcement">புள்ளியின் நிலையைப் புதுப்பிக்கிறது. முதலில் உங்கள் இடது கையிலுள்ள புள்ளிகளைப் பதிவு செய்வோம். இடது கையில் நடுவிலுள்ள 3 விரல்களால் திரையைத் தொட்டுப் பிடித்திருக்கவும்.</string>
@@ -79,17 +79,17 @@
     <item quantity="one">%s புள்ளி</item>
     <item quantity="other">%s புள்ளிகள்</item>
   </plurals>
-  <string name="talkback_off_dialog_title">பிரெய்ல் கீபோர்டைப் பயன்படுத்த TalkBackகை இயக்குங்கள்</string>
+  <string name="talkback_off_dialog_title">பிரெய்ல் கீபோர்டைப் பயன்படுத்த TalkBack FOSSகை இயக்குங்கள்</string>
   <string name="talkback_off_dialog_positive_button">அணுகல்தன்மை அமைப்புகளை ஆன் செய்</string>
-  <string name="talkback_suspend_dialog_title">பிரெய்ல் கீபோர்டைப் பயன்படுத்த TalkBackகை மீண்டும் இயக்குங்கள்</string>
-  <string name="talkback_off_or_suspend_dialog_message">TalkBack ஆன் செய்யப்பட்டிருக்கும்போது உங்கள் திரையைத் தட்டி பிரெய்ல் குறியீடுகளை உள்ளிடலாம்.</string>
+  <string name="talkback_suspend_dialog_title">பிரெய்ல் கீபோர்டைப் பயன்படுத்த TalkBack FOSSகை மீண்டும் இயக்குங்கள்</string>
+  <string name="talkback_off_or_suspend_dialog_message">TalkBack FOSS ஆன் செய்யப்பட்டிருக்கும்போது உங்கள் திரையைத் தட்டி பிரெய்ல் குறியீடுகளை உள்ளிடலாம்.</string>
   <string name="next_keyboard">அடுத்த கீபோர்டு</string>
   <string name="braille_tutorial_title">பிரெய்ல் கீபோர்டு பயிற்சி</string>
-  <string name="tutorial_intro_description">பிரெய்ல் கீபோர்டு மூலம் 6 புள்ளி பிரெய்லை உள்ளிட உங்கள் திரையைத் தட்டலாம்.\n\nஒருங்கிணைக்கப்பட்ட ஆங்கில பிரெய்லைப் பயன்படுத்துகிறீர்கள். உள்ளிடும் மொழியை மாற்ற TalkBack அமைப்புகளுக்குச் செல்லவும்.\n\nபிரெய்லில் உள்ளிட, உங்கள் மொபைலை வேறு விதமாகப் பிடித்துப் பயன்படுத்த வேண்டும்.</string>
+  <string name="tutorial_intro_description">பிரெய்ல் கீபோர்டு மூலம் 6 புள்ளி பிரெய்லை உள்ளிட உங்கள் திரையைத் தட்டலாம்.\n\nஒருங்கிணைக்கப்பட்ட ஆங்கில பிரெய்லைப் பயன்படுத்துகிறீர்கள். உள்ளிடும் மொழியை மாற்ற TalkBack FOSS அமைப்புகளுக்குச் செல்லவும்.\n\nபிரெய்லில் உள்ளிட, உங்கள் மொபைலை வேறு விதமாகப் பிடித்துப் பயன்படுத்த வேண்டும்.</string>
   <string name="next_step">அடுத்து</string>
   <string name="leave_keyboard">பிரெய்ல் கீபோர்டிலிருந்து வெளியேறு</string>
-  <string name="hold_six_fingers_description">பிரெய்ல் கீபோர்டில் வழக்கமான TalkBack சைகைகளை உங்களால் பயன்படுத்த முடியாது.\n\nதொடங்க, நீங்கள் உள்ளிடும்போது பயன்படுத்தும் 6 பிரெய்ல் புள்ளிகளின் நிலையை அமைப்போம்.</string>
-  <string name="rotate_orientation_description_1">இனி நீங்கள் வழக்கமான TalkBack சைகைகளைப் பயன்படுத்த முடியாது. பிரெய்ல் கீபோர்டைப் பயன்படுத்தும்போது TalkBackகைப் பயன்படுத்த முடியாது.</string>
+  <string name="hold_six_fingers_description">பிரெய்ல் கீபோர்டில் வழக்கமான TalkBack FOSS சைகைகளை உங்களால் பயன்படுத்த முடியாது.\n\nதொடங்க, நீங்கள் உள்ளிடும்போது பயன்படுத்தும் 6 பிரெய்ல் புள்ளிகளின் நிலையை அமைப்போம்.</string>
+  <string name="rotate_orientation_description_1">இனி நீங்கள் வழக்கமான TalkBack FOSS சைகைகளைப் பயன்படுத்த முடியாது. பிரெய்ல் கீபோர்டைப் பயன்படுத்தும்போது TalkBack FOSSகைப் பயன்படுத்த முடியாது.</string>
   <string name="rotate_orientation_description_2">தொடங்குவதற்கு மொபைலின் பின் பகுதியை நீங்கள் பார்க்கும் வகையில் இது போன்று பிடித்திருக்கவும்.</string>
   <string name="tap_to_continue">தொடர்வதற்கு எங்கே வேண்டுமானாலும் இருமுறை தட்டவும்</string>
   <string name="instruction_type_letter_a_left_index_finger">இடது ஆள்காட்டி விரல்</string>
@@ -106,7 +106,7 @@
   <string name="result_swipe_right">இடைவெளியைச் சேர்</string>
   <string name="result_swipe_down_2_fingers">கீபோர்டை மறை</string>
   <string name="result_swipe_down_3_fingers">அடுத்த கீபோர்டு</string>
-  <string name="rotate_orientation_announcement">இனி நீங்கள் வழக்கமான TalkBack சைகைகளைப் பயன்படுத்த முடியாது. பிரெய்ல் கீபோர்டைப் பயன்படுத்தும்போது TalkBackகைப் பயன்படுத்த முடியாது.\n\n%1$s</string>
+  <string name="rotate_orientation_announcement">இனி நீங்கள் வழக்கமான TalkBack FOSS சைகைகளைப் பயன்படுத்த முடியாது. பிரெய்ல் கீபோர்டைப் பயன்படுத்தும்போது TalkBack FOSSகைப் பயன்படுத்த முடியாது.\n\n%1$s</string>
   <string name="rotate_orientation_inactive_announcement">முதலில் மொபைலின் பின் பகுதியை நீங்கள் பார்க்கும் வகையில் அதைத் திருப்பவும்.\n\nமொபைலைக் கிடைமட்டமாக சுழற்றி லேண்ட்ஸ்கேப் நிலையில் பிடிக்கவும். மொபைலின் இரு குறுகிய பக்கங்களையும் உங்கள் கைகள் பிடித்திருக்க வேண்டும். உங்கள் வலது கை USB போர்ட்டுடன் நுனியைப் பிடித்திருக்க வேண்டும். உங்கள் 3 நடு விரல்களையும் திரையின் மீது வைத்து சுண்டு விரலையும் கட்டை விரலையும் பயன்படுத்தி மொபைலைத் தாங்கிப் பிடிக்கவும்.\n\nதயாரான பிறகு, தொடர திரையின் மீது இருமுறை தட்டவும்.\n\nபிரெய்ல் கீபோர்டில் இருந்து வெளியேற 3 விரல்கள் மூலம் கீழே தரையை நோக்கி ஸ்வைப் செய்யவும். இதனால் உங்களின் வழக்கமான கீபோர்டு தோன்றும்.</string>
   <string name="rotate_orientation_continue_announcement">உங்கள் மொபைல் செங்குத்தாக உள்ளது. தொடர்வதற்கு மொபைலின் நீளமான பக்கம் அடியில் இருக்குமாறு உங்கள் மொபைலைக் கிடைமட்டமாக சுழற்றவும். மொபைலின் பின் பகுதியை நீங்கள் பார்க்கும் வகையில் அதைத் திருப்பவும். தயாரான பிறகு, தொடர திரையை இருமுறை தட்டவும்.</string>
   <string name="type_letter_a_announcement_left_index_finger">இடது ஆள்காட்டி விரல்</string>
@@ -122,7 +122,7 @@
   <string name="swipe_down_3_fingers_announcement">வேறு கீபோர்டுக்கு மாற்ற 3 விரல்கள் மூலம் கீழ்நோக்கி ஸ்வைப் செய்யவும். இப்போதே முயல்க.</string>
   <string name="swipe_down_3_fingers_completed_announcement">அடுத்த கீபோர்டுக்குச் செல்லும். வழக்கமாக இது அடுத்த கீபோர்டுக்கு மாற்றும். நீங்கள் இன்னும் பயிற்சியில் இருப்பதால் பிரெய்ல் கீபோர்டிலேயே இருக்கிறீர்கள்.</string>
   <string name="swipe_up_3_fingers_announcement">டேபிள்டாப் பயன்முறையில், உங்கள் மொபைலை டேபிளின் மீது கிடைமட்டமாக வைத்தும் உள்ளிடலாம். இந்தப் பயிற்சியை நிறைவுசெய்ய, 3 விரல்களால் மேல்நோக்கி ஸ்வைப் செய்து \'பயிற்சியை நிறைவு செய்\' விருப்பத்தைக் கண்டறியவும்</string>
-  <string name="open_context_menu_announcement">விருப்பங்கள் மெனு திறக்கப்பட்டுள்ளது. உங்களைப் பார்க்குமாறு மொபைலைத் திருப்பி இயல்பாகப் பிடிக்கவும். இப்போது மேலும் கீழும் செல்வதற்கு, வழக்கமான TalkBack சைகைகளைப் பயன்படுத்தலாம். கூடுதல் விருப்பங்களைப் பார்க்க வலப்புறம் ஸ்வைப் செய்யவும்.</string>
+  <string name="open_context_menu_announcement">விருப்பங்கள் மெனு திறக்கப்பட்டுள்ளது. உங்களைப் பார்க்குமாறு மொபைலைத் திருப்பி இயல்பாகப் பிடிக்கவும். இப்போது மேலும் கீழும் செல்வதற்கு, வழக்கமான TalkBack FOSS சைகைகளைப் பயன்படுத்தலாம். கூடுதல் விருப்பங்களைப் பார்க்க வலப்புறம் ஸ்வைப் செய்யவும்.</string>
   <string name="hold_six_fingers_announcement">%s\nசாதனத்தை டேபிளின் மீது கிடைமட்டமாக வைக்கவும். பிறகு, உள்ளிடுவதற்கு வசதியான நிலையில் இரண்டு கைகளின் நடு 3 விரல்களால் திரையைத் தொட்டுப் பிடித்திருக்கவும்.</string>
   <string name="hold_six_fingers_inactive_announcement">சாதனத்தை டேபிளின் மீது கிடைமட்டமாக வைக்கவும். பிறகு, உள்ளிடுவதற்கு வசதியான நிலையில் இரண்டு கைகளின் நடு 3 விரல்களால் திரையைத் தொட்டுப் பிடித்திருக்கவும்.</string>
   <string name="six_hold_announcement">உங்கள் மொபைலை டேபிளின் மீது கிடைமட்டமாக வைத்தும் உள்ளிடலாம். இப்போதே முயலவும். அருகில் டேபிள் ஏதும் இல்லையென்றால், கீழ்நோக்கி ஸ்வைப் செய்து மேலே தொடரலாம்.</string>

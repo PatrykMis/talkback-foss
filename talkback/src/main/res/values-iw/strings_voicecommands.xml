@@ -60,8 +60,8 @@
   <string name="voice_commands_dictate">הכתבה</string>
   <string name="voice_commands_write">כתיבה</string>
   <string name="voice_commands_Spell">איות</string>
-  <string name="voice_commands_talkback_settings">‏הגדרות TalkBack</string>
-  <string name="voice_commands_talkback_setting">‏הגדרת TalkBack</string>
+  <string name="voice_commands_talkback_settings">‏הגדרות TalkBack FOSS</string>
+  <string name="voice_commands_talkback_setting">‏הגדרת TalkBack FOSS</string>
   <string name="voice_commands_screen_search">חיפוש מהמסך</string>
   <string name="voice_commands_search_on_screen">חיפוש במסך</string>
   <string name="voice_commands_copy">@android:string/copy</string>
@@ -139,7 +139,7 @@
   <string name="voice_commands_help_overview_description">הצגת האפליקציות האחרונות</string>
   <string name="voice_commands_help_assistant_description">‏פתיחת Google Assistant</string>
   <string name="voice_commands_help_other_commands_title">פקודות אחרות</string>
-  <string name="voice_commands_help_other_commands_description">‏להגדרות TalkBack, הסתרת מסך, הצגת פעולות, הוספת תוויות מותאמות אישית ועוד</string>
+  <string name="voice_commands_help_other_commands_description">‏להגדרות TalkBack FOSS, הסתרת מסך, הצגת פעולות, הוספת תוויות מותאמות אישית ועוד</string>
   <string name="voice_commands_help_label">הוספת תווית [שליחה]</string>
   <string name="voice_commands_help_hide_screen_description">הסתרת התצוגה כך שהמסך לא יהיה גלוי לאחרים במקומות ציבוריים</string>
   <string name="voice_commands_help_show_screen_description">אחרי הסתרת המסך, החזרה שלו למצב הרגיל</string>

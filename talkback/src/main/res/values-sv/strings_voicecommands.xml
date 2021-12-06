@@ -60,8 +60,8 @@
   <string name="voice_commands_dictate">Diktering</string>
   <string name="voice_commands_write">Skriv</string>
   <string name="voice_commands_Spell">Stava</string>
-  <string name="voice_commands_talkback_settings">Inställningar för TalkBack</string>
-  <string name="voice_commands_talkback_setting">Inställning för TalkBack</string>
+  <string name="voice_commands_talkback_settings">Inställningar för TalkBack FOSS</string>
+  <string name="voice_commands_talkback_setting">Inställning för TalkBack FOSS</string>
   <string name="voice_commands_screen_search">Skärmsökning</string>
   <string name="voice_commands_search_on_screen">Sök på skärmen</string>
   <string name="voice_commands_copy">@android:string/copy</string>
@@ -139,7 +139,7 @@
   <string name="voice_commands_help_overview_description">Se dina senaste appar</string>
   <string name="voice_commands_help_assistant_description">Öppna Google Assistent</string>
   <string name="voice_commands_help_other_commands_title">Andra kommandon</string>
-  <string name="voice_commands_help_other_commands_description">Öppna inställningarna för TalkBack, dölj skärmen, se åtgärder, lägg till anpassade etiketter med mera</string>
+  <string name="voice_commands_help_other_commands_description">Öppna inställningarna för TalkBack FOSS, dölj skärmen, se åtgärder, lägg till anpassade etiketter med mera</string>
   <string name="voice_commands_help_label">Sätt etikett [skicka]</string>
   <string name="voice_commands_help_hide_screen_description">Dölj skärmen så att andra omkring dig inte kan se den</string>
   <string name="voice_commands_help_show_screen_description">Du kan återställa skärmen till normalt läge när du har dolt den</string>

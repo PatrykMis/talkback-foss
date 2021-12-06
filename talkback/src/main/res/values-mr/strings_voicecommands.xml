@@ -60,8 +60,8 @@
   <string name="voice_commands_dictate">सांगा</string>
   <string name="voice_commands_write">लिहा</string>
   <string name="voice_commands_Spell">शब्दलेखन</string>
-  <string name="voice_commands_talkback_settings">TalkBack सेटिंग्ज</string>
-  <string name="voice_commands_talkback_setting">TalkBack सेटिंग</string>
+  <string name="voice_commands_talkback_settings">TalkBack FOSS सेटिंग्ज</string>
+  <string name="voice_commands_talkback_setting">TalkBack FOSS सेटिंग</string>
   <string name="voice_commands_screen_search">स्क्रीनवर शोधा</string>
   <string name="voice_commands_search_on_screen">स्क्रीनवर शोधा</string>
   <string name="voice_commands_copy">@android:string/copy</string>
@@ -139,7 +139,7 @@
   <string name="voice_commands_help_overview_description">तुमची अलीकडील ॲप्स पहा</string>
   <string name="voice_commands_help_assistant_description">Google Assistant उघडा</string>
   <string name="voice_commands_help_other_commands_title">इतर कमांड</string>
-  <string name="voice_commands_help_other_commands_description">TalkBack सेटिंग्जवर जा, स्क्रीन लपवा, कृती पहा, कस्टम लेबले जोडा आणि आणखी बरेच काही करा</string>
+  <string name="voice_commands_help_other_commands_description">TalkBack FOSS सेटिंग्जवर जा, स्क्रीन लपवा, कृती पहा, कस्टम लेबले जोडा आणि आणखी बरेच काही करा</string>
   <string name="voice_commands_help_label">लेबल [सबमिट करा]</string>
   <string name="voice_commands_help_hide_screen_description">डिस्प्ले लपवा जेणेकरून तुमची स्क्रीन सार्वजनिक ठिकाणी इतरांना दिसणार नाही</string>
   <string name="voice_commands_help_show_screen_description">तुमची स्क्रीन लपवल्यानंतर ती पुन्हा साधारण स्थितीवर आणा</string>

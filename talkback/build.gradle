@@ -8,7 +8,7 @@ dependencies {
     implementation project(':brailleime')
 }
 
-def talkbackMainPermission = '"com.android.talkback.permission.TALKBACK"'
+def talkbackMainPermission = '"com.android.talkback_foss.permission.TALKBACK"'
 
 android {
     defaultConfig {

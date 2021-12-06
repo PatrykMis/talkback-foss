@@ -60,8 +60,8 @@
   <string name="voice_commands_dictate">በቃል አስጽፍ</string>
   <string name="voice_commands_write">ይጻፉ</string>
   <string name="voice_commands_Spell">ድግምት</string>
-  <string name="voice_commands_talkback_settings">የTalkBack ቅንብሮች</string>
-  <string name="voice_commands_talkback_setting">የTalkBack ቅንብር</string>
+  <string name="voice_commands_talkback_settings">የTalkBack FOSS ቅንብሮች</string>
+  <string name="voice_commands_talkback_setting">የTalkBack FOSS ቅንብር</string>
   <string name="voice_commands_screen_search">የማያ ገጽ ፍለጋ</string>
   <string name="voice_commands_search_on_screen">ማያ ገጹ ላይ ይፈልጉ</string>
   <string name="voice_commands_copy">@android:string/copy</string>
@@ -139,7 +139,7 @@
   <string name="voice_commands_help_overview_description">የቅርብ ጊዜ መተግበሪያዎችዎን ይመልከቱ</string>
   <string name="voice_commands_help_assistant_description">Google ረዳትን ይክፈቱ</string>
   <string name="voice_commands_help_other_commands_title">ሌሎች ትዕዛዞች</string>
-  <string name="voice_commands_help_other_commands_description">ወደ የTalkBack ቅንብሮች ይሂዱ፣ ማያ ገጹን ይደብቁ፣ እርምጃዎችን ይመልከቱ፣ ብጁ መለያዎችን ያክሉ፣ እና ሌሎች</string>
+  <string name="voice_commands_help_other_commands_description">ወደ የTalkBack FOSS ቅንብሮች ይሂዱ፣ ማያ ገጹን ይደብቁ፣ እርምጃዎችን ይመልከቱ፣ ብጁ መለያዎችን ያክሉ፣ እና ሌሎች</string>
   <string name="voice_commands_help_label">መሰየሚያ [አስገባ]</string>
   <string name="voice_commands_help_hide_screen_description">በይፋዊ ቦታዎች ላይ ማያ ገጽዎን ለሌሎች እንዳይታይ ለማድረግ ማሳያውን ይደብቁ</string>
   <string name="voice_commands_help_show_screen_description">ማያ ገጽዎን ከደበቁት በኋላ ወደ መደበኛ ሁኔታ ይመልሱት</string>

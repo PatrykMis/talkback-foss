@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="braille_ime_service_name">ແປ້ນພິມອັກສອນນູນ TalkBack</string>
+  <string name="braille_ime_service_name">ແປ້ນພິມອັກສອນນູນ TalkBack FOSS</string>
   <string name="switch_to_screen_away_announcement">ໂໝດປິ່ນໜ້າຈໍອອກ</string>
   <string name="switch_to_tabletop_announcement">ໂໝດຕັ້ງໂຕະ. ວາງອຸປະກອນຂອງທ່ານໂດຍໃຫ້ຜອດສາກໄຟຢູ່ທາງຊ້າຍ. ໃຊ້ 6 ນິ້ວກົດໜ້າຈໍຄ້າງໄວ້ເພື່ອອັບເດດຕຳແໜ່ງຂອງຈຸດ.</string>
   <string name="braille_ime_hidden_announcement">ເຊື່ອງແປ້ນພິມອັກສອນນູນແລ້ວ</string>
@@ -11,7 +11,7 @@
   <string name="switched_to_ueb_uncontracted_announcement">ສະຫຼັບໄປໃຊ້ UEB ແບບບໍ່ມີສັນຍາແລ້ວ</string>
   <string name="braille_ime_displayed_name">ແປ້ນພິມອັກສອນນູນ</string>
   <string name="multiple_languages_braille_ime_displayed_name">ແປ້ນພິມອັກສອນນູນ, %s</string>
-  <string name="input_view_caption">ແປ້ນພິມອັກສອນນູນ TalkBack - ສຳລັບການຊ່ວຍເຫຼືອ, ກະລຸນາໄປທີ່ g.co/help/braille</string>
+  <string name="input_view_caption">ແປ້ນພິມອັກສອນນູນ TalkBack FOSS - ສຳລັບການຊ່ວຍເຫຼືອ, ກະລຸນາໄປທີ່ g.co/help/braille</string>
   <string name="perform_action_next">ຕໍ່ໄປ</string>
   <string name="perform_action_submitting">ກຳລັງສົ່ງຂໍ້ຄວາມ</string>
   <string name="calibration_step1_hold_left_finger_announcement">ກຳລັງອັບເດດຕຳແໜ່ງຂອງຈຸດ. ທຳອິດ, ມາບັນທຶກຈຸດທາງຊ້າຍມືຂອງທ່ານ. ແຕະໃສ່ໜ້າຈໍຄ້າງໄວ້ດ້ວຍນິ້ວກາງ 3 ນິ້ວຂອງມືຊ້າຍທ່ານ.</string>
@@ -79,17 +79,17 @@
     <item quantity="one">ຈຸດ %s</item>
     <item quantity="other">ຈຸດ %s</item>
   </plurals>
-  <string name="talkback_off_dialog_title">ເປີດໃຊ້ TalkBack ເພື່ອໃຊ້ແປ້ນພິມຕົວອັກສອນນູນ</string>
+  <string name="talkback_off_dialog_title">ເປີດໃຊ້ TalkBack FOSS ເພື່ອໃຊ້ແປ້ນພິມຕົວອັກສອນນູນ</string>
   <string name="talkback_off_dialog_positive_button">ເປີດໃຊ້ໄດ້ໃນການຕັ້ງຄ່າການຊ່ວຍເຂົ້າເຖິງ</string>
-  <string name="talkback_suspend_dialog_title">ສືບຕໍ່ TalkBack ເພື່ອໃຊ້ແປ້ນພິມອັກສອນນູນ</string>
-  <string name="talkback_off_or_suspend_dialog_message">ເມື່ອເປີດໃຊ້ TalkBack ແລ້ວ, ທ່ານຈະສາມາດແຕະໜ້າຈໍຂອງທ່ານເພື່ອພິມຕົວອັກສອນນູນໄດ້.</string>
+  <string name="talkback_suspend_dialog_title">ສືບຕໍ່ TalkBack FOSS ເພື່ອໃຊ້ແປ້ນພິມອັກສອນນູນ</string>
+  <string name="talkback_off_or_suspend_dialog_message">ເມື່ອເປີດໃຊ້ TalkBack FOSS ແລ້ວ, ທ່ານຈະສາມາດແຕະໜ້າຈໍຂອງທ່ານເພື່ອພິມຕົວອັກສອນນູນໄດ້.</string>
   <string name="next_keyboard">ແປ້ນພິມຕໍ່ໄປ</string>
   <string name="braille_tutorial_title">ການສອນການນຳໃຊ້ແປ້ນພິມຕົວອັກສອນນູນ</string>
-  <string name="tutorial_intro_description">ດ້ວຍແປ້ນພິມອັກສອນນູນ, ທ່ານສາມາດແຕະໃສ່ໜ້າຈໍຂອງທ່ານເພື່ອໃສ່ອັກສອນນູນ 6 ຈຸດໄດ້.\n\nທ່ານກຳລັງໃຊ້ອັກສອນນູນພາສາອັງກິດແບບຮວມ. ເພື່ອສະຫຼັບພາສາການພິມຂອງທ່ານ, ໃຫ້ໄປທີ່ການຕັ້ງຄ່າ TalkBack.\n\nເພື່ອພິມອັກສອນນູນ, ທ່ານຈະຕ້ອງຖື ແລະ ໃຊ້ໂທລະສັບຂອງທ່ານດ້ວຍວິທີອື່ນ.</string>
+  <string name="tutorial_intro_description">ດ້ວຍແປ້ນພິມອັກສອນນູນ, ທ່ານສາມາດແຕະໃສ່ໜ້າຈໍຂອງທ່ານເພື່ອໃສ່ອັກສອນນູນ 6 ຈຸດໄດ້.\n\nທ່ານກຳລັງໃຊ້ອັກສອນນູນພາສາອັງກິດແບບຮວມ. ເພື່ອສະຫຼັບພາສາການພິມຂອງທ່ານ, ໃຫ້ໄປທີ່ການຕັ້ງຄ່າ TalkBack FOSS.\n\nເພື່ອພິມອັກສອນນູນ, ທ່ານຈະຕ້ອງຖື ແລະ ໃຊ້ໂທລະສັບຂອງທ່ານດ້ວຍວິທີອື່ນ.</string>
   <string name="next_step">ຕໍ່ໄປ</string>
   <string name="leave_keyboard">ອອກຈາກແປ້ນພິມຕົວອັກສອນນູນ</string>
-  <string name="hold_six_fingers_description">ທ່ານຈະບໍ່ສາມາດໃຊ້ທ່າທາງ TalkBack ແບບປົກກະຕິໄດ້ໃນແປ້ນພິມອັກສອນນູນ.\n\nເພື່ອເລີ່ມຕົ້ນ, ໃຫ້ຕັ້ງຄ່າຕຳແໜ່ງຂອງຈຸດອັກສອນນູນ 6 ຈຸດເມື່ອທ່ານພິມ.</string>
-  <string name="rotate_orientation_description_1">ເລີ່ມຕົ້ນຕອນນີ້, ທ່ານຈະບໍ່ສາມາດໃຊ້ທ່າທາງ TalkBack ແບບທຳມະດາໄດ້ອີກ. TalkBack ຈະບໍ່ສາມາດໃຊ້ໄດ້ໃນລະຫວ່າງການນຳໃຊ້ແປ້ນພິມຕົວອັກສອນນູນ.</string>
+  <string name="hold_six_fingers_description">ທ່ານຈະບໍ່ສາມາດໃຊ້ທ່າທາງ TalkBack FOSS ແບບປົກກະຕິໄດ້ໃນແປ້ນພິມອັກສອນນູນ.\n\nເພື່ອເລີ່ມຕົ້ນ, ໃຫ້ຕັ້ງຄ່າຕຳແໜ່ງຂອງຈຸດອັກສອນນູນ 6 ຈຸດເມື່ອທ່ານພິມ.</string>
+  <string name="rotate_orientation_description_1">ເລີ່ມຕົ້ນຕອນນີ້, ທ່ານຈະບໍ່ສາມາດໃຊ້ທ່າທາງ TalkBack FOSS ແບບທຳມະດາໄດ້ອີກ. TalkBack FOSS ຈະບໍ່ສາມາດໃຊ້ໄດ້ໃນລະຫວ່າງການນຳໃຊ້ແປ້ນພິມຕົວອັກສອນນູນ.</string>
   <string name="rotate_orientation_description_2">ເພື່ອເລີ່ມຕົ້ນ, ໃຫ້ຖືໂທລະສັບຂອງທ່ານໄວ້ແບບນີ້, ໂດຍປິ່ນໜ້າຈໍອອກຈາກຕົວທ່ານ.</string>
   <string name="tap_to_continue">ແຕະສອງເທື່ອຢູ່ບ່ອນໃດກໍໄດ້ເພື່ອດຳເນີນການຕໍ່</string>
   <string name="instruction_type_letter_a_left_index_finger">ນິ້ວຊີ້ຊ້າຍ</string>
@@ -106,7 +106,7 @@
   <string name="result_swipe_right">ຍະຫວ່າງ</string>
   <string name="result_swipe_down_2_fingers">ເຊື່ອງແປ້ນພິມ</string>
   <string name="result_swipe_down_3_fingers">ແປ້ນພິມຕໍ່ໄປ</string>
-  <string name="rotate_orientation_announcement">ເລີ່ມຕົ້ນຕອນນີ້, ທ່ານຈະບໍ່ສາມາດໃຊ້ທ່າທາງ TalkBack ແບບທຳມະດາໄດ້ອີກ. ບໍ່ສາມາດໃຊ້ TalkBack ໄດ້ໃນເວລາທີ່ກຳລັງໃຊ້ແປ້ນພິມອັກສອນນູນ.\n\n%1$s</string>
+  <string name="rotate_orientation_announcement">ເລີ່ມຕົ້ນຕອນນີ້, ທ່ານຈະບໍ່ສາມາດໃຊ້ທ່າທາງ TalkBack FOSS ແບບທຳມະດາໄດ້ອີກ. ບໍ່ສາມາດໃຊ້ TalkBack FOSS ໄດ້ໃນເວລາທີ່ກຳລັງໃຊ້ແປ້ນພິມອັກສອນນູນ.\n\n%1$s</string>
   <string name="rotate_orientation_inactive_announcement">ທຳອິດ, ໃຫ້ປິ່ນໜ້າຈໍອອກຈາກຕົວທ່ານ.\n\nຕໍ່ໄປ, ໃຫ້ອຽງໂທລະສັບໃຫ້ຢູ່ໃນແນວນອນ. ຄວນໃຊ້ທັງສອງມືຈັບປາຍທາງຊ້າຍ ແລະ ຂວາຂອງໂທລະສັບໃຫ້ໝັ້ນຄົງ. ຄວນໃຊ້ມືຂວາຈັບສ່ວນປາຍຂອງຜອດ USB ໄວ້. ວາງນິ້ວຊີ້, ນິ້ວກາງ ແລະ ນິ້ວນາງທັງ 3 ນິ້ວຢູ່ໜ້າຈໍ ແລະ ໃຊ້ນິ້ວກ້ອຍກັບນິ້ວໂປ້ຮອງໂທລະສັບໄວ້.\n\nເມື່ອພ້ອມແລ້ວ, ໃຫ້ແຕະໜ້າຈໍສອງເທື່ອເພື່ອດຳເນີນການຕໍ່.\n\nເພື່ອອອກຈາກແປ້ນພິມຕົວອັກສອນນູນ, ໃຫ້ປັດລົງໄປຫາພື້ນທາງລຸ່ມດ້ວຍ 3 ນິ້ວ. ນີ້ຈະເປັນການສະຫຼັບກັບໄປຫາແປ້ນພິມເດີມຂອງທ່ານ.</string>
   <string name="rotate_orientation_continue_announcement">ໂທລະສັບຂອງທ່ານຢູ່ໃນແນວຕັ້ງຢູ່. ເພື່ອສືບຕໍ່, ໃຫ້ໝຸນໂທລະສັບຂອງທ່ານເປັນແນວນອນເພື່ອໃຫ້ລວງຍາວຢູ່ທາງລຸ່ມ. ຈາກນັ້ນປິ່ນໜ້າຈໍອອກຈາກຕົວທ່ານ. ເມື່ອພ້ອມແລ້ວ, ໃຫ້ແຕະສອງເທື່ອໃສ່ໜ້າຈໍເພື່ອດຳເນີນການຕໍ່.</string>
   <string name="type_letter_a_announcement_left_index_finger">ນິ້ວຊີ້ຊ້າຍ</string>
@@ -122,7 +122,7 @@
   <string name="swipe_down_3_fingers_announcement">ເພື່ອສະຫຼັບໄປໃຊ້ແປ້ນພິມອື່ນຂອງທ່ານ, ໃຫ້ປັດລົງດ້ວຍ 3 ນິ້ວ. ລອງໃຊ້ມັນດຽວນີ້.</string>
   <string name="swipe_down_3_fingers_completed_announcement">ແປ້ນພິມຕໍ່ໄປ. ໂດຍປົກກະຕິ, ນີ້ຈະເປັນການສະຫຼັບໄປໃຊ້ແປ້ນພິມຕໍ່ໄປ. ຕອນນີ້, ທ່ານຈະຢູ່ໃນແປ້ນພິມຕົວອັກສອນນູນເນື່ອງຈາກທ່າຍັງຄົງຢູ່ໃນການສອນການນຳໃຊ້ຢູ່.</string>
   <string name="swipe_up_3_fingers_announcement">ນອກຈາກນັ້ນ, ທ່ານຍັງສາມາດພິມໃນໂໝດຕັ້ງໂຕະໄດ້ໂດຍການວາງໂທລະສັບຂອງທ່ານໄວ້ໜ້າໂຕະນຳ. ເພື່ອສຳເລັດການສອນການນຳໃຊ້, ໃຫ້ປັດຂຶ້ນດ້ວຍ 3 ນິ້ວແລ້ວຊອກຫາຕົວເລືອກການສຳເລັດການສອນນຳໃຊ້</string>
-  <string name="open_context_menu_announcement">ເມນູຕົວເລືອກນີ້ເປີດຢູ່. ປີ້ນໂທລະສັບຂອງທ່ານກັບມາເພື່ອໃຫ້ມັນຫັນມາຫາທ່ານແລ້ວຖືມັນຕາມປົກກະຕິ. ຕອນນີ້ທ່ານຈະໃຊ້ທ່າທາງສຳຜັດ TalkBack ຕາມປົກກະຕິເພື່ອໄປຫາສ່ວນຕ່າງໆໄດ້. ປັດຂວາເພື່ອເບິ່ງຕົວເລືອກເພີ່ມເຕີມ.</string>
+  <string name="open_context_menu_announcement">ເມນູຕົວເລືອກນີ້ເປີດຢູ່. ປີ້ນໂທລະສັບຂອງທ່ານກັບມາເພື່ອໃຫ້ມັນຫັນມາຫາທ່ານແລ້ວຖືມັນຕາມປົກກະຕິ. ຕອນນີ້ທ່ານຈະໃຊ້ທ່າທາງສຳຜັດ TalkBack FOSS ຕາມປົກກະຕິເພື່ອໄປຫາສ່ວນຕ່າງໆໄດ້. ປັດຂວາເພື່ອເບິ່ງຕົວເລືອກເພີ່ມເຕີມ.</string>
   <string name="hold_six_fingers_announcement">%s\nວາງອຸປະກອນຂອງທ່ານນອນຮາບໄວ້ຢູ່ໂຕະ. ຈາກນັ້ນ, ແຕະໜ້າຈໍຄ້າງໄວ້ດ້ວຍນິ້ວກາງ 3 ນິ້ວໂດຍໃຊ້ມືແຕ່ລະຂ້າງໃນຕຳແໜ່ງທີ່ທ່ານພິມແລ້ວສະບາຍ.</string>
   <string name="hold_six_fingers_inactive_announcement">ວາງອຸປະກອນຂອງທ່ານໄວ້ໂຕະ. ຈາກນັ້ນ, ແຕະໜ້າຈໍຄ້າງໄວ້ດ້ວຍນິ້ວກາງ 3 ນິ້ວໂດຍໃຊ້ມືແຕ່ລະຂ້າງໃນຕຳແໜ່ງທີ່ທ່ານພິມແລ້ວສະບາຍ.</string>
   <string name="six_hold_announcement">ນອກຈາກນັ້ນ, ທ່ານຍັງສາມາດວາງໂທລະສັບຂອງທ່ານໄວ້ໂຕະໄດ້ນຳ. ລອງໃຊ້ມັນດຽວນີ້. ຫາກທ່ານບໍ່ມີໂຕະຢູ່ໃກ້ໆ, ໃຫ້ຂ້າມໄປໂດຍການປັດລົງ.</string>

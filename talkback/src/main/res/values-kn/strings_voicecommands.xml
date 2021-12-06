@@ -60,8 +60,8 @@
   <string name="voice_commands_dictate">ಹೇಳಿ ಬರೆಸಿ</string>
   <string name="voice_commands_write">ಬರೆಯಿರಿ</string>
   <string name="voice_commands_Spell">ಸ್ಪೆಲ್</string>
-  <string name="voice_commands_talkback_settings">TalkBack ಸೆಟ್ಟಿಂಗ್‍ಗಳು</string>
-  <string name="voice_commands_talkback_setting">TalkBack ಸೆಟ್ಟಿಂಗ್</string>
+  <string name="voice_commands_talkback_settings">TalkBack FOSS ಸೆಟ್ಟಿಂಗ್‍ಗಳು</string>
+  <string name="voice_commands_talkback_setting">TalkBack FOSS ಸೆಟ್ಟಿಂಗ್</string>
   <string name="voice_commands_screen_search">ಸ್ಕ್ರೀನ್ ಹುಡುಕಾಟ</string>
   <string name="voice_commands_search_on_screen">ಸ್ಕ್ರೀನ್‌ನ ಮೇಲೆ ಹುಡುಕಿ</string>
   <string name="voice_commands_copy">@android:string/copy</string>
@@ -139,7 +139,7 @@
   <string name="voice_commands_help_overview_description">ನಿಮ್ಮ ಇತ್ತೀಚಿನ ಆ್ಯಪ್‌ಗಳನ್ನು ನೋಡಿ</string>
   <string name="voice_commands_help_assistant_description">Google ಅಸಿಸ್ಟೆಂಟ್‌ ಅನ್ನು ತೆರೆಯಿರಿ</string>
   <string name="voice_commands_help_other_commands_title">ಇತರ ಕಮಾಂಡ್‌ಗಳು</string>
-  <string name="voice_commands_help_other_commands_description">TalkBack ಸೆಟ್ಟಿಂಗ್‌ಗಳಿಗೆ ಹೋಗಿ, ಸ್ಕ್ರೀನ್ ಮರೆಮಾಡಿ, ಕ್ರಿಯೆಗಳನ್ನು ನೋಡಿ, ಕಸ್ಟಮ್ ಲೇಬಲ್‌ಗಳನ್ನು ಸೇರಿಸಿ ಮತ್ತು ಇನ್ನಷ್ಟು</string>
+  <string name="voice_commands_help_other_commands_description">TalkBack FOSS ಸೆಟ್ಟಿಂಗ್‌ಗಳಿಗೆ ಹೋಗಿ, ಸ್ಕ್ರೀನ್ ಮರೆಮಾಡಿ, ಕ್ರಿಯೆಗಳನ್ನು ನೋಡಿ, ಕಸ್ಟಮ್ ಲೇಬಲ್‌ಗಳನ್ನು ಸೇರಿಸಿ ಮತ್ತು ಇನ್ನಷ್ಟು</string>
   <string name="voice_commands_help_label">ಲೇಬಲ್ [ಸಲ್ಲಿಸಿ]</string>
   <string name="voice_commands_help_hide_screen_description">ಡಿಸ್‌ಪ್ಲೇ ಅನ್ನು ಮರೆಮಾಡಿ, ಇದರಿಂದ ನಿಮ್ಮ ಸ್ಕ್ರೀನ್ ಸಾರ್ವಜನಿಕ ಸ್ಥಳಗಳಲ್ಲಿ ಇತರರಿಗೆ ಗೋಚರಿಸುವುದಿಲ್ಲ</string>
   <string name="voice_commands_help_show_screen_description">ನಿಮ್ಮ ಸ್ಕ್ರೀನ್‌ ಅನ್ನು ಮರೆಮಾಡಿದ ನಂತರ, ಅದನ್ನು ಸಾಮಾನ್ಯ ಸ್ಥಿತಿಗೆ ಹಿಂತಿರುಗಿಸಿ</string>

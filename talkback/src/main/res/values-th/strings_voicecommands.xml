@@ -60,8 +60,8 @@
   <string name="voice_commands_dictate">พิมพ์ตามเสียงอ่าน</string>
   <string name="voice_commands_write">เขียน</string>
   <string name="voice_commands_Spell">สะกด</string>
-  <string name="voice_commands_talkback_settings">การตั้งค่า TalkBack</string>
-  <string name="voice_commands_talkback_setting">การตั้งค่า TalkBack</string>
+  <string name="voice_commands_talkback_settings">การตั้งค่า TalkBack FOSS</string>
+  <string name="voice_commands_talkback_setting">การตั้งค่า TalkBack FOSS</string>
   <string name="voice_commands_screen_search">การค้นหาในหน้าจอ</string>
   <string name="voice_commands_search_on_screen">ค้นหาในหน้าจอ</string>
   <string name="voice_commands_copy">@android:string/copy</string>
@@ -139,7 +139,7 @@
   <string name="voice_commands_help_overview_description">ดูแอปล่าสุด</string>
   <string name="voice_commands_help_assistant_description">เปิด Google Assistant</string>
   <string name="voice_commands_help_other_commands_title">คำสั่งอื่นๆ</string>
-  <string name="voice_commands_help_other_commands_description">ไปที่การตั้งค่า TalkBack, ซ่อนหน้าจอ, ดูการทำงาน, เพิ่มป้ายกำกับที่กำหนดเอง และอื่นๆ</string>
+  <string name="voice_commands_help_other_commands_description">ไปที่การตั้งค่า TalkBack FOSS, ซ่อนหน้าจอ, ดูการทำงาน, เพิ่มป้ายกำกับที่กำหนดเอง และอื่นๆ</string>
   <string name="voice_commands_help_label">ติดป้ายกำกับ [ส่ง]</string>
   <string name="voice_commands_help_hide_screen_description">ซ่อนจอแสดงผลเพื่อไม่ให้ผู้อื่นมองเห็นหน้าจอของคุณในที่สาธารณะ</string>
   <string name="voice_commands_help_show_screen_description">หลังจากซ่อนหน้าจอแล้ว ให้กลับสู่สถานะปกติ</string>

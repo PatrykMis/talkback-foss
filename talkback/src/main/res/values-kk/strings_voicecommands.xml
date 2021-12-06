@@ -60,8 +60,8 @@
   <string name="voice_commands_dictate">Ауызша айту</string>
   <string name="voice_commands_write">Жазу</string>
   <string name="voice_commands_Spell">Емле</string>
-  <string name="voice_commands_talkback_settings">TalkBack параметрлері</string>
-  <string name="voice_commands_talkback_setting">TalkBack параметрі</string>
+  <string name="voice_commands_talkback_settings">TalkBack FOSS параметрлері</string>
+  <string name="voice_commands_talkback_setting">TalkBack FOSS параметрі</string>
   <string name="voice_commands_screen_search">Экраннан іздеу</string>
   <string name="voice_commands_search_on_screen">Экраннан іздеу</string>
   <string name="voice_commands_copy">@android:string/copy</string>
@@ -139,7 +139,7 @@
   <string name="voice_commands_help_overview_description">Соңғы қолданбаларды көріңіз.</string>
   <string name="voice_commands_help_assistant_description">Google Assistant қызметін ашыңыз.</string>
   <string name="voice_commands_help_other_commands_title">Басқа пәрмендер</string>
-  <string name="voice_commands_help_other_commands_description">TalkBack параметрлеріне өту, экранды жасыру, әрекеттерді көру, арнаулы белгілерді қосу және т.б.</string>
+  <string name="voice_commands_help_other_commands_description">TalkBack FOSS параметрлеріне өту, экранды жасыру, әрекеттерді көру, арнаулы белгілерді қосу және т.б.</string>
   <string name="voice_commands_help_label">[submit] белгісі</string>
   <string name="voice_commands_help_hide_screen_description">Дисплейді жасырыңыз, сонда қоғамдық орындарда экран басқаларға көрінбейтін болады.</string>
   <string name="voice_commands_help_show_screen_description">Экранды жасырып болғаннан кейін оны қалыпты күйге қайтарыңыз.</string>

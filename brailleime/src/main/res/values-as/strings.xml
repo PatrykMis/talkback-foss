@@ -82,7 +82,7 @@
   <string name="talkback_off_dialog_title">ব্ৰেইল কীব\'র্ড ব্যৱহাৰ কৰিবলৈ টকবেক অন কৰক</string>
   <string name="talkback_off_dialog_positive_button">সাধ্য সুবিধাৰ ছেটিংসমূহত অন কৰক</string>
   <string name="talkback_suspend_dialog_title">ব্ৰেইল কীব\'র্ড ব্যৱহাৰ কৰিবলৈ টকবেক পুনৰ আৰম্ভ কৰক</string>
-  <string name="talkback_off_or_suspend_dialog_message">TalkBack অন হৈ থকা অৱস্থাত আপুনি ব্ৰেইল প্ৰতীকসমূহ দিবলৈ আপোনাৰ স্ক্ৰীনখন টিপিব পাৰে।</string>
+  <string name="talkback_off_or_suspend_dialog_message">TalkBack FOSS অন হৈ থকা অৱস্থাত আপুনি ব্ৰেইল প্ৰতীকসমূহ দিবলৈ আপোনাৰ স্ক্ৰীনখন টিপিব পাৰে।</string>
   <string name="next_keyboard">পৰৱৰ্তী কীব\'র্ড ব্যৱহাৰ কৰক</string>
   <string name="braille_tutorial_title">ব্ৰেইল কীব\'র্ডৰ টিউট\'ৰিয়েল</string>
   <string name="tutorial_intro_description">ব্ৰেইল কীব’ৰ্ডখনৰ জৰিয়তে ৬-বিন্দুৰ ব্ৰেইল দিবলৈ আপুনি নিজৰ স্ক্ৰীনখন টিপিব পাৰে।\n\nআপুনি একীকৃত ইংৰাজী ব্ৰেইল ব্যৱহাৰ কৰি আছে। আপোনাৰ টাইপ কৰা ভাষা সলনি কৰিবলৈ টকবেকৰ ছেটিঙলৈ যাওক।\n\nব্ৰেইল টাইপ কৰিবলৈ আপুনি আপোনাৰ ফ’নটো বেলেগকৈ ধৰিব আৰু ব্যৱহাৰ কৰিব লাগিব।</string>

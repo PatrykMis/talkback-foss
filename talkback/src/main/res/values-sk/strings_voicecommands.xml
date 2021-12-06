@@ -60,8 +60,8 @@
   <string name="voice_commands_dictate">Diktovať</string>
   <string name="voice_commands_write">Zapísať</string>
   <string name="voice_commands_Spell">Hláskovať</string>
-  <string name="voice_commands_talkback_settings">Nastavenia aplikácie TalkBack</string>
-  <string name="voice_commands_talkback_setting">Nastavenie aplikácie TalkBack</string>
+  <string name="voice_commands_talkback_settings">Nastavenia aplikácie TalkBack FOSS</string>
+  <string name="voice_commands_talkback_setting">Nastavenie aplikácie TalkBack FOSS</string>
   <string name="voice_commands_screen_search">Priame vyhľadávanie</string>
   <string name="voice_commands_search_on_screen">Hľadať na obrazovke</string>
   <string name="voice_commands_copy">@android:string/copy</string>
@@ -139,7 +139,7 @@
   <string name="voice_commands_help_overview_description">Zobrazíte nedávne aplikácie</string>
   <string name="voice_commands_help_assistant_description">Otvoríte Asistenta Google</string>
   <string name="voice_commands_help_other_commands_title">Ďalšie príkazy</string>
-  <string name="voice_commands_help_other_commands_description">Môžete prejsť do nastavení aplikácie TalkBack, skryť obrazovku, zobraziť akcie, pridať vlastné štítky a vykonať ďalšie kroky</string>
+  <string name="voice_commands_help_other_commands_description">Môžete prejsť do nastavení aplikácie TalkBack FOSS, skryť obrazovku, zobraziť akcie, pridať vlastné štítky a vykonať ďalšie kroky</string>
   <string name="voice_commands_help_label">Štítok [odoslať]</string>
   <string name="voice_commands_help_hide_screen_description">Skryť obrazovku, aby ju na verejných miestach nevideli ostatní</string>
   <string name="voice_commands_help_show_screen_description">Po skrytí obrazovky ju môžete vrátiť do bežného stavu</string>

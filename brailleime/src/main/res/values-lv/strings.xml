@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="braille_ime_service_name">TalkBack Braila tastatūra</string>
+  <string name="braille_ime_service_name">TalkBack FOSS Braila tastatūra</string>
   <string name="switch_to_screen_away_announcement">Prom vērsta ekrāna režīms</string>
   <string name="switch_to_tabletop_announcement">Galda režīms. Novietojiet ierīci tā, lai uzlādes pieslēgvieta būtu vērsta pa kreisi. Lai mainītu punktu pozīciju, piespiediet sešus pirkstus un turiet.</string>
   <string name="braille_ime_hidden_announcement">Braila tastatūra ir paslēpta.</string>
@@ -11,7 +11,7 @@
   <string name="switched_to_ueb_uncontracted_announcement">Tastatūra pārslēgta uz nesaīsināto UEB</string>
   <string name="braille_ime_displayed_name">Braila tastatūra</string>
   <string name="multiple_languages_braille_ime_displayed_name">Braila tastatūra, %s</string>
-  <string name="input_view_caption">TalkBack Braila tastatūra. Lai saņemtu palīdzību, apmeklējiet vietni g.co/help/braille.</string>
+  <string name="input_view_caption">TalkBack FOSS Braila tastatūra. Lai saņemtu palīdzību, apmeklējiet vietni g.co/help/braille.</string>
   <string name="perform_action_next">Tālāk</string>
   <string name="perform_action_submitting">Teksta iesniegšana</string>
   <string name="calibration_step1_hold_left_finger_announcement">Notiek punktu pozīcijas atjaunināšana. Vispirms reģistrējiet kreisās rokas punktus. Pieskarieties ekrānam ar kreisās rokas trim vidējiem pirkstiem un turiet.</string>
@@ -80,17 +80,17 @@
     <item quantity="one">punkti %s</item>
     <item quantity="other">punkti %s</item>
   </plurals>
-  <string name="talkback_off_dialog_title">TalkBack ieslēgšana, lai izmantotu Braila tastatūru</string>
+  <string name="talkback_off_dialog_title">TalkBack FOSS ieslēgšana, lai izmantotu Braila tastatūru</string>
   <string name="talkback_off_dialog_positive_button">Ieslēgt pieejamības iestatījumos</string>
-  <string name="talkback_suspend_dialog_title">TalkBack darbības atsākšana, lai izmantotu Braila tastatūru</string>
-  <string name="talkback_off_or_suspend_dialog_message">Kad funkcija TalkBack ir ieslēgta, varat pieskarties ekrānam, lai ievadītu Braila raksta simbolus.</string>
+  <string name="talkback_suspend_dialog_title">TalkBack FOSS darbības atsākšana, lai izmantotu Braila tastatūru</string>
+  <string name="talkback_off_or_suspend_dialog_message">Kad funkcija TalkBack FOSS ir ieslēgta, varat pieskarties ekrānam, lai ievadītu Braila raksta simbolus.</string>
   <string name="next_keyboard">Nākamā tastatūra</string>
   <string name="braille_tutorial_title">Braila tastatūras pamācība</string>
-  <string name="tutorial_intro_description">Izmantojot Braila tastatūru, varat pieskarties ekrānam, lai ievadītu Braila raksta sešu punktu simbolus.\n\nJūs izmantojat vienoto angļu valodas Braila rakstu. Lai pārslēgtos uz savu rakstīšanas valodu, pārejiet uz TalkBack iestatījumiem.\n\nLai rakstītu Braila rakstā, tālrunis ir jātur un jāizmanto citādi.</string>
+  <string name="tutorial_intro_description">Izmantojot Braila tastatūru, varat pieskarties ekrānam, lai ievadītu Braila raksta sešu punktu simbolus.\n\nJūs izmantojat vienoto angļu valodas Braila rakstu. Lai pārslēgtos uz savu rakstīšanas valodu, pārejiet uz TalkBack FOSS iestatījumiem.\n\nLai rakstītu Braila rakstā, tālrunis ir jātur un jāizmanto citādi.</string>
   <string name="next_step">Tālāk</string>
   <string name="leave_keyboard">Braila tastatūras aizvēršana</string>
-  <string name="hold_six_fingers_description">Braila tastatūrā nevarēsiet izmantot parastos TalkBack žestus.\n\nLai sāktu darbu, rakstīšanai jāiestata Braila raksta sešu punktu pozīcija.</string>
-  <string name="rotate_orientation_description_1">No šī brīža jūs nevarēsiet izmantot parastos TalkBack žestus. Funkcija TalkBack nav pieejama, kamēr izmantojat Braila tastatūru.</string>
+  <string name="hold_six_fingers_description">Braila tastatūrā nevarēsiet izmantot parastos TalkBack FOSS žestus.\n\nLai sāktu darbu, rakstīšanai jāiestata Braila raksta sešu punktu pozīcija.</string>
+  <string name="rotate_orientation_description_1">No šī brīža jūs nevarēsiet izmantot parastos TalkBack FOSS žestus. Funkcija TalkBack FOSS nav pieejama, kamēr izmantojat Braila tastatūru.</string>
   <string name="rotate_orientation_description_2">Lai sāktu darbu, turiet tālruni, kā norādīts, ar ekrānu prom no sevis.</string>
   <string name="tap_to_continue">Lai turpinātu, jebkurā vietā veiciet dubultskārienu.</string>
   <string name="instruction_type_letter_a_left_index_finger">kreiso rādītājpirkstu</string>
@@ -107,7 +107,7 @@
   <string name="result_swipe_right">ATSTARPE</string>
   <string name="result_swipe_down_2_fingers">PASLĒPT TASTATŪRU</string>
   <string name="result_swipe_down_3_fingers">NĀKAMĀ TASTATŪRA</string>
-  <string name="rotate_orientation_announcement">No šī brīža jūs nevarēsiet izmantot parastos TalkBack žestus. Funkcija TalkBack nav pieejama, kamēr izmantojat Braila tastatūru.\n\n%1$s</string>
+  <string name="rotate_orientation_announcement">No šī brīža jūs nevarēsiet izmantot parastos TalkBack FOSS žestus. Funkcija TalkBack FOSS nav pieejama, kamēr izmantojat Braila tastatūru.\n\n%1$s</string>
   <string name="rotate_orientation_inactive_announcement">Vispirms pavērsiet tālruni ar ekrānu prom no sevis.\n\nPēc tam pagrieziet tālruni horizontāli ainavas pozīcijā. Rokām ir jāsatver tālruņa īsākās malas. Labajai rokai ir jātur mala, kurā ir USB pieslēgvieta. Turiet 3 vidējos pirkstus uz ekrāna, un pieturiet tālruni ar mazo pirkstiņu un īkšķi.\n\nKad esat gatavs, ekrānā veiciet dubultskārienu, lai turpinātu.\n\nLai aizvērtu Braila tastatūru, ar 3 pirkstiem velciet lejup uz zemi. Notiek pāreja uz sākotnējo tastatūru.</string>
   <string name="rotate_orientation_continue_announcement">Tālrunis ir vertikālā pozīcijā. Lai turpinātu, pagrieziet tālruni horizontāli ar garo malu apakšdaļā. Pēc tam pagrieziet ekrānu prom no sevis. Kad esat gatavs, ekrānā veiciet dubultskārienu, lai turpinātu.</string>
   <string name="type_letter_a_announcement_left_index_finger">Kreisajam rādītājpirkstam</string>
@@ -123,7 +123,7 @@
   <string name="swipe_down_3_fingers_announcement">Lai pārietu uz citu tastatūru, velciet lejup ar 3 pirkstiem. Izmēģiniet tūlīt!</string>
   <string name="swipe_down_3_fingers_completed_announcement">Nākamā tastatūra. Parasti ar šo darbību notiek pāreja uz nākamo tastatūru. Šoreiz joprojām tiek rādīta Braila tastatūra, jo izmantojat pamācību.</string>
   <string name="swipe_up_3_fingers_announcement">Varat rakstīt galda režīmā, novietojot tālruni plakaniski uz galda. Lai pabeigtu mācības, velciet augšup ar trim pirkstiem un atrodiet opciju Pabeigt pamācību.</string>
-  <string name="open_context_menu_announcement">Opciju izvēlne ir atvērta. Apvērsiet tālruni otrādi, lai tas būtu vērsts pret jums, un turiet to kā parasti. Tagad navigācijai varat izmantot parastus TalkBack žestus. Velciet pa labi, lai skatītu citas opcijas.</string>
+  <string name="open_context_menu_announcement">Opciju izvēlne ir atvērta. Apvērsiet tālruni otrādi, lai tas būtu vērsts pret jums, un turiet to kā parasti. Tagad navigācijai varat izmantot parastus TalkBack FOSS žestus. Velciet pa labi, lai skatītu citas opcijas.</string>
   <string name="hold_six_fingers_announcement">%s\nNovietojiet ierīci plakaniski uz galda. Pēc tam pieskarieties ekrānam ar abu roku trim vidējiem pirkstiem un turiet tos pozīcijā, kurā jums ir ērti rakstīt.</string>
   <string name="hold_six_fingers_inactive_announcement">Novietojiet ierīci plakaniski uz galda. Pēc tam pieskarieties ekrānam ar abu roku trim vidējiem pirkstiem un turiet tos pozīcijā, kurā jums ir ērti rakstīt.</string>
   <string name="six_hold_announcement">Varat rakstīt, novietojot tālruni plakaniski uz galda. Izmēģiniet tūlīt! Ja tuvumā nav galda, izlaidiet šo darbību, velkot lejup.</string>

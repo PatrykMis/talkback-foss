@@ -60,8 +60,8 @@
   <string name="voice_commands_dictate">ஒவ்வொரு வார்த்தையாகச் சொல்</string>
   <string name="voice_commands_write">எழுது</string>
   <string name="voice_commands_Spell">உச்சரி</string>
-  <string name="voice_commands_talkback_settings">TalkBack அமைப்புகள்</string>
-  <string name="voice_commands_talkback_setting">TalkBack அமைப்பு</string>
+  <string name="voice_commands_talkback_settings">TalkBack FOSS அமைப்புகள்</string>
+  <string name="voice_commands_talkback_setting">TalkBack FOSS அமைப்பு</string>
   <string name="voice_commands_screen_search">திரைத் தேடலைத் தொடங்கு</string>
   <string name="voice_commands_search_on_screen">திரையில் தேடு</string>
   <string name="voice_commands_copy">@android:string/copy</string>
@@ -139,7 +139,7 @@
   <string name="voice_commands_help_overview_description">உங்கள் சமீபத்திய ஆப்ஸைக் காட்டும்</string>
   <string name="voice_commands_help_assistant_description">Google Assistantடைத் திறக்கும்</string>
   <string name="voice_commands_help_other_commands_title">மற்ற கட்டளைகள்</string>
-  <string name="voice_commands_help_other_commands_description">TalkBack அமைப்புகளுக்குச் செல்லும், திரையை மறைக்கும், செயல்களைக் காட்டும், பிரத்தியேக லேபிள்களைச் சேர்க்கும் மற்றும் பலவற்றைச் செய்யும்</string>
+  <string name="voice_commands_help_other_commands_description">TalkBack FOSS அமைப்புகளுக்குச் செல்லும், திரையை மறைக்கும், செயல்களைக் காட்டும், பிரத்தியேக லேபிள்களைச் சேர்க்கும் மற்றும் பலவற்றைச் செய்யும்</string>
   <string name="voice_commands_help_label">லேபிளைச் [சமர்ப்பிக்கும்]</string>
   <string name="voice_commands_help_hide_screen_description">பொது இடங்களில் உங்கள் திரை பிறருக்குத் தெரியாமல் இருக்க திரையை மறைக்கும்</string>
   <string name="voice_commands_help_show_screen_description">திரையை மறைத்தபிறகு அதை இயல்பு நிலைக்குத் திருப்பும்</string>

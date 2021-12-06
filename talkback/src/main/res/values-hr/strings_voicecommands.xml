@@ -60,8 +60,8 @@
   <string name="voice_commands_dictate">Diktiranje</string>
   <string name="voice_commands_write">Piši</string>
   <string name="voice_commands_Spell">Slovkanje</string>
-  <string name="voice_commands_talkback_settings">Postavke TalkBacka</string>
-  <string name="voice_commands_talkback_setting">Postavka TalkBacka</string>
+  <string name="voice_commands_talkback_settings">Postavke TalkBack FOSSa</string>
+  <string name="voice_commands_talkback_setting">Postavka TalkBack FOSSa</string>
   <string name="voice_commands_screen_search">Pregled zaslona</string>
   <string name="voice_commands_search_on_screen">Pregledavanje zaslona</string>
   <string name="voice_commands_copy">@android:string/copy</string>
@@ -139,7 +139,7 @@
   <string name="voice_commands_help_overview_description">Pogledajte nedavne aplikacije</string>
   <string name="voice_commands_help_assistant_description">Otvorite Google asistenta</string>
   <string name="voice_commands_help_other_commands_title">Druge naredbe</string>
-  <string name="voice_commands_help_other_commands_description">Otvorite postavke TalkBacka, sakrijte zaslon, pogledajte radnje, dodajte prilagođene oznake i još mnogo toga</string>
+  <string name="voice_commands_help_other_commands_description">Otvorite postavke TalkBack FOSSa, sakrijte zaslon, pogledajte radnje, dodajte prilagođene oznake i još mnogo toga</string>
   <string name="voice_commands_help_label">Oznaka [submit]</string>
   <string name="voice_commands_help_hide_screen_description">Skriva zaslon kako ne bi bio vidljiv drugim ljudima na javnim mjestima</string>
   <string name="voice_commands_help_show_screen_description">Nakon što sakrijete zaslon, vratite ga u normalno stanje</string>

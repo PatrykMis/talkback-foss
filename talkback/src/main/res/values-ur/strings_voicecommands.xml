@@ -60,8 +60,8 @@
   <string name="voice_commands_dictate">لکھوائیں</string>
   <string name="voice_commands_write">لکھیں</string>
   <string name="voice_commands_Spell">املا</string>
-  <string name="voice_commands_talkback_settings">‏TalkBack کی ترتیبات</string>
-  <string name="voice_commands_talkback_setting">‏TalkBack کی ترتیب</string>
+  <string name="voice_commands_talkback_settings">‏TalkBack FOSS کی ترتیبات</string>
+  <string name="voice_commands_talkback_setting">‏TalkBack FOSS کی ترتیب</string>
   <string name="voice_commands_screen_search">اسکرین پر تلاش</string>
   <string name="voice_commands_search_on_screen">اسکرین پر تلاش کریں</string>
   <string name="voice_commands_copy">@android:string/copy</string>
@@ -139,7 +139,7 @@
   <string name="voice_commands_help_overview_description">اپنی حالیہ ایپس دیکھیں</string>
   <string name="voice_commands_help_assistant_description">‏Google اسسٹنٹ کھولیں</string>
   <string name="voice_commands_help_other_commands_title">دیگر کمانڈز</string>
-  <string name="voice_commands_help_other_commands_description">‏اسکرین کو چھپانے، کارروائیاں دیکھنے، حسب ضرورت لیبلز شامل کرنے اور بہت کچھ کرنے کے لیے TalkBack کی ترتیبات پر جائیں</string>
+  <string name="voice_commands_help_other_commands_description">‏اسکرین کو چھپانے، کارروائیاں دیکھنے، حسب ضرورت لیبلز شامل کرنے اور بہت کچھ کرنے کے لیے TalkBack FOSS کی ترتیبات پر جائیں</string>
   <string name="voice_commands_help_label">لیبل [جمع کرائیں]</string>
   <string name="voice_commands_help_hide_screen_description">ڈسپلے کو چھپائیں تاکہ آپ کی اسکرین عوامی مقامات پر دوسروں کو نظر نہ آئے</string>
   <string name="voice_commands_help_show_screen_description">اپنی اسکرین کو چھپانے کے بعد، اسے عام حالت میں واپس لے جائیں</string>

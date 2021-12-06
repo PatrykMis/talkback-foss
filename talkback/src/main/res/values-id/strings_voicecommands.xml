@@ -60,8 +60,8 @@
   <string name="voice_commands_dictate">Dikte</string>
   <string name="voice_commands_write">Tulis</string>
   <string name="voice_commands_Spell">Eja</string>
-  <string name="voice_commands_talkback_settings">Setelan TalkBack</string>
-  <string name="voice_commands_talkback_setting">Setelan TalkBack</string>
+  <string name="voice_commands_talkback_settings">Setelan TalkBack FOSS</string>
+  <string name="voice_commands_talkback_setting">Setelan TalkBack FOSS</string>
   <string name="voice_commands_screen_search">Cari cepat</string>
   <string name="voice_commands_search_on_screen">Telusuri di layar</string>
   <string name="voice_commands_copy">@android:string/copy</string>
@@ -139,7 +139,7 @@
   <string name="voice_commands_help_overview_description">Melihat aplikasi terbaru Anda</string>
   <string name="voice_commands_help_assistant_description">Membuka Asisten Google</string>
   <string name="voice_commands_help_other_commands_title">Perintah lainnya</string>
-  <string name="voice_commands_help_other_commands_description">Membuka setelan TalkBack, menyembunyikan layar, melihat tindakan, menambahkan label khusus, dan lainnya</string>
+  <string name="voice_commands_help_other_commands_description">Membuka setelan TalkBack FOSS, menyembunyikan layar, melihat tindakan, menambahkan label khusus, dan lainnya</string>
   <string name="voice_commands_help_label">Beri label [kirim]</string>
   <string name="voice_commands_help_hide_screen_description">Menyembunyikan tampilan sehingga layar tidak terlihat oleh orang lain di tempat umum</string>
   <string name="voice_commands_help_show_screen_description">Setelah menyembunyikan layar, mengembalikannya ke status normal</string>

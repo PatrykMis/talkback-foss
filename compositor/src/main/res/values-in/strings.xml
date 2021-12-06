@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="talkback_on">TalkBack aktif</string>
-  <string name="talkback_suspended">TalkBack ditangguhkan</string>
-  <string name="talkback_resumed">TalkBack dilanjutkan</string>
-  <string name="talkback_disabled">TalkBack nonaktif</string>
+  <string name="talkback_on">TalkBack FOSS aktif</string>
+  <string name="talkback_suspended">TalkBack FOSS ditangguhkan</string>
+  <string name="talkback_resumed">TalkBack FOSS dilanjutkan</string>
+  <string name="talkback_disabled">TalkBack FOSS nonaktif</string>
   <string name="spokenfeedback_on">Masukan Lisan aktif</string>
   <string name="spokenfeedback_suspended">Masukan Lisan ditangguhkan</string>
   <string name="spokenfeedback_resumed">Masukan Lisan dilanjutkan</string>

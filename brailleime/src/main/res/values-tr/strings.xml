@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="braille_ime_service_name">TalkBack braille klavye</string>
+  <string name="braille_ime_service_name">TalkBack FOSS braille klavye</string>
   <string name="switch_to_screen_away_announcement">Ekran karşıda modu</string>
   <string name="switch_to_tabletop_announcement">Masa üstünde modu. Cihazınızı, şarj noktası sol tarafa gelecek şekilde koyun. Nokta konumunu güncellemek için 6 parmağınızla ekranı basılı tutun.</string>
   <string name="braille_ime_hidden_announcement">Braille klavye gizlendi</string>
@@ -11,7 +11,7 @@
   <string name="switched_to_ueb_uncontracted_announcement">Kısaltılmamış UEB moduna geçildi</string>
   <string name="braille_ime_displayed_name">braille klavye</string>
   <string name="multiple_languages_braille_ime_displayed_name">braille klavye, %s</string>
-  <string name="input_view_caption">TalkBack braille klavye; yardım için g.co/help/braille adresini ziyaret edin</string>
+  <string name="input_view_caption">TalkBack FOSS braille klavye; yardım için g.co/help/braille adresini ziyaret edin</string>
   <string name="perform_action_next">Sonraki</string>
   <string name="perform_action_submitting">Metin gönderiliyor</string>
   <string name="calibration_step1_hold_left_finger_announcement">Nokta konumu güncelleniyor. İlk olarak sol elinizle dokunacağınız noktaları kaydedelim. Sol elinizin ortadaki 3 parmağıyla ekrana dokunup basılı tutun.</string>
@@ -79,17 +79,17 @@
     <item quantity="one">%s nokta</item>
     <item quantity="other">%s nokta</item>
   </plurals>
-  <string name="talkback_off_dialog_title">Braille klavye kullanmak için TalkBack\'i açma</string>
+  <string name="talkback_off_dialog_title">Braille klavye kullanmak için TalkBack FOSS\'i açma</string>
   <string name="talkback_off_dialog_positive_button">Erişilebilirlik ayarlarında aç</string>
-  <string name="talkback_suspend_dialog_title">Braille klavyesini kullanmak için TalkBack\'i devam ettirin</string>
-  <string name="talkback_off_or_suspend_dialog_message">TalkBack açıkken ekranınıza dokunarak braille sembolleri girebilirsiniz.</string>
+  <string name="talkback_suspend_dialog_title">Braille klavyesini kullanmak için TalkBack FOSS\'i devam ettirin</string>
+  <string name="talkback_off_or_suspend_dialog_message">TalkBack FOSS açıkken ekranınıza dokunarak braille sembolleri girebilirsiniz.</string>
   <string name="next_keyboard">Sonraki klavye</string>
   <string name="braille_tutorial_title">Braille klavye eğiticisi</string>
-  <string name="tutorial_intro_description">Braille klavye ile ekranınıza dokunarak 6 noktalı braille sembolleri girebilirsiniz\n\nUnified English Braille\'i kullanıyorsunuz. Kendi dilinize geçmek için TalkBack ayarlarına dönün.\n\nBraille dilinde yazmak için telefonu farklı bir şekilde tutup kullanmanız gerekiyor.</string>
+  <string name="tutorial_intro_description">Braille klavye ile ekranınıza dokunarak 6 noktalı braille sembolleri girebilirsiniz\n\nUnified English Braille\'i kullanıyorsunuz. Kendi dilinize geçmek için TalkBack FOSS ayarlarına dönün.\n\nBraille dilinde yazmak için telefonu farklı bir şekilde tutup kullanmanız gerekiyor.</string>
   <string name="next_step">Sonraki</string>
   <string name="leave_keyboard">Braille klavyeden çık</string>
-  <string name="hold_six_fingers_description">Braille klavyesinde normal TalkBack hareketlerini kullanamazsınız.\n\nBaşlamak için yazarken kullanacağınız 6 Braille noktasının konumunu ayarlayalım.</string>
-  <string name="rotate_orientation_description_1">Şu andan itibaren normal TalkBack hareketlerini kullanamayacaksınız. Braille klavye kullanılırken TalkBack kullanılamaz.</string>
+  <string name="hold_six_fingers_description">Braille klavyesinde normal TalkBack FOSS hareketlerini kullanamazsınız.\n\nBaşlamak için yazarken kullanacağınız 6 Braille noktasının konumunu ayarlayalım.</string>
+  <string name="rotate_orientation_description_1">Şu andan itibaren normal TalkBack FOSS hareketlerini kullanamayacaksınız. Braille klavye kullanılırken TalkBack FOSS kullanılamaz.</string>
   <string name="rotate_orientation_description_2">Başlamak için telefonunuzu ekranı size dönük olmayacak şekilde, gösterildiği gibi tutun.</string>
   <string name="tap_to_continue">Devam etmek için herhangi bir yere iki kez dokunun</string>
   <string name="instruction_type_letter_a_left_index_finger">sol işaret parmağınız</string>
@@ -106,7 +106,7 @@
   <string name="result_swipe_right">BOŞLUK</string>
   <string name="result_swipe_down_2_fingers">KLAVYEYİ GİZLE</string>
   <string name="result_swipe_down_3_fingers">SONRAKİ KLAVYE</string>
-  <string name="rotate_orientation_announcement">Şu andan itibaren normal TalkBack hareketlerini kullanamayacaksınız. Braille klavye kullanılırken TalkBack kullanılamaz.\n\n%1$s</string>
+  <string name="rotate_orientation_announcement">Şu andan itibaren normal TalkBack FOSS hareketlerini kullanamayacaksınız. Braille klavye kullanılırken TalkBack FOSS kullanılamaz.\n\n%1$s</string>
   <string name="rotate_orientation_inactive_announcement">Önce telefonunuzu ekranı size dönük olmayacak şekilde çevirin.\n\nSonra telefonu döndürerek yatay konuma getirin. Ellerinizle telefonu kısa kenarlarından tutuyor olmanız gerekir. Sağ eliniz USB bağlan noktasının olduğu ucu tutuyor olmalıdır. Küçük parmağınız ve başparmağınızla telefonu tutarken ortadaki üç parmağınızı ekrana koyun.\n\nHazır olduğunuzda devam etmek için ekrana iki kez dokunun.\n\nBraille klavyeden çıkmak için 3 parmağınızla ekranı yere doğru, aşağı yönde kaydırın. Bu hareket sizi orijinal klavyenize döndürür.</string>
   <string name="rotate_orientation_continue_announcement">Telefonunuz dikey konumda. Devam etmek için telefonunuzu uzun kenarı aşağı gelecek şekilde yatay yönde döndürün. Ardından ekranı size dönük olmayacak şekilde çevirin. Hazır olduğunuzda devam etmek için ekrana iki kez dokunun.</string>
   <string name="type_letter_a_announcement_left_index_finger">sol işaret parmağınız</string>
@@ -122,7 +122,7 @@
   <string name="swipe_down_3_fingers_announcement">Diğer klavyenize geçmek için 3 parmağınızla ekranı aşağı kaydırın. Şimdi deneyin.</string>
   <string name="swipe_down_3_fingers_completed_announcement">Sonraki klavye. Genellikle bu işlem, sonraki klavyeye geçilmesini sağlar. Hâlâ eğiticide olduğunuz için şu anda braille klavyede kalmaya devam ediyorsunuz.</string>
   <string name="swipe_up_3_fingers_announcement">Telefonunuzu masanın üzerine düz bir şekilde koyarak masa üstünde modunda da yazabilirsiniz. Eğiticiyi bitirmek için 3 parmağınızla ekranı sağa kaydırıp eğiticiyi bitir seçeneğini bulun</string>
-  <string name="open_context_menu_announcement">Seçenekler menüsü açıldı. Telefonunuzu kendinize doğru çevirip normal bir şekilde tutun. Artık gezinmek için normal TalkBack hareketlerini kullanabilirsiniz. Diğer seçenekleri görmek için sağa kaydırın.</string>
+  <string name="open_context_menu_announcement">Seçenekler menüsü açıldı. Telefonunuzu kendinize doğru çevirip normal bir şekilde tutun. Artık gezinmek için normal TalkBack FOSS hareketlerini kullanabilirsiniz. Diğer seçenekleri görmek için sağa kaydırın.</string>
   <string name="hold_six_fingers_announcement">%s\nCihazınızı düz bir şekilde masanın üzerine koyun. Ardından yazmak için rahat bir pozisyonda her iki elinizin ortadaki 3 parmağıyla ekrana dokunup basılı tutun.</string>
   <string name="hold_six_fingers_inactive_announcement">Cihazınızı düz bir şekilde masanın üzerine koyun. Ardından yazmak için rahat bir pozisyonda her iki elinizin ortadaki 3 parmağıyla ekrana dokunup basılı tutun.</string>
   <string name="six_hold_announcement">Cihazınızı düz bir şekilde masanın üzerine koyarak da yazabilirsiniz. Şimdi deneyin. Yakınınızda bir masa yoksa aşağı kaydırarak ileri atlayın.</string>

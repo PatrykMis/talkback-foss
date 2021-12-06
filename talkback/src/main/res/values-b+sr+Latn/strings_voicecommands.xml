@@ -60,8 +60,8 @@
   <string name="voice_commands_dictate">Diktiranje</string>
   <string name="voice_commands_write">Piši</string>
   <string name="voice_commands_Spell">Napiši</string>
-  <string name="voice_commands_talkback_settings">TalkBack podešavanja</string>
-  <string name="voice_commands_talkback_setting">TalkBack podešavanje</string>
+  <string name="voice_commands_talkback_settings">TalkBack FOSS podešavanja</string>
+  <string name="voice_commands_talkback_setting">TalkBack FOSS podešavanje</string>
   <string name="voice_commands_screen_search">Pretraga ekrana</string>
   <string name="voice_commands_search_on_screen">Pretraži na ekranu</string>
   <string name="voice_commands_copy">@android:string/copy</string>
@@ -139,7 +139,7 @@
   <string name="voice_commands_help_overview_description">Pogledajte nedavne aplikacije</string>
   <string name="voice_commands_help_assistant_description">Otvorite Google pomoćnik</string>
   <string name="voice_commands_help_other_commands_title">Druge komande</string>
-  <string name="voice_commands_help_other_commands_description">Idite u TalkBack podešavanja da biste sakrili ekran, pogledali radnje, dodali prilagođene oznake i drugo</string>
+  <string name="voice_commands_help_other_commands_description">Idite u TalkBack FOSS podešavanja da biste sakrili ekran, pogledali radnje, dodali prilagođene oznake i drugo</string>
   <string name="voice_commands_help_label">Oznaka [pošalji]</string>
   <string name="voice_commands_help_hide_screen_description">Sakriva ekran da drugi ljudi ne bi mogli da ga vide na javnim mestima</string>
   <string name="voice_commands_help_show_screen_description">Posle skrivanja ekrana vraća ga u normalno stanje</string>

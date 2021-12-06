@@ -99,7 +99,7 @@
   <string name="title_pref_category_manage_gestures">নিৰ্দেশসমূহ কাষ্টমাইজ কৰক</string>
   <string name="title_pref_manage_labels">উপযোগিতা অনুসৰি সৃষ্টি কৰা লেবেলসমূহ</string>
   <string name="title_pref_manage_customize_menus">মেনু কাষ্টমাইজ কৰক</string>
-  <string name="title_pref_category_context_menu">TalkBackৰ মেনু কাষ্টমাইজ কৰক</string>
+  <string name="title_pref_category_context_menu">TalkBack FOSSৰ মেনু কাষ্টমাইজ কৰক</string>
   <string name="title_pref_category_selector_menu">পঢ়াৰ নিয়ন্ত্ৰণ কাষ্টমাইজ কৰক</string>
   <string name="title_pref_category_navigation_menu">নেভিগেশ্বনৰ বিকল্পসমূহ সম্পাদনা কৰক</string>
   <string name="pref_category_context_menu_summary">টকবেকৰ মেনুখন ব্যৱহাৰ কৰিবলৈ ৩ টা আঙুলিৰে স্ক্ৰীনখনত টিপক। আপুনি ওপৰলৈ ছোৱাইপ কৰি সোঁফালে অথবা তললৈ ছোৱাইপ কৰি সোঁফালে ছোৱাইপ কৰিবও পাৰে।</string>
@@ -141,8 +141,8 @@
   <string name="keycombo_menu_select_keymap">কীমেপ বাছনি কৰক</string>
   <string name="keycombo_menu_reset_keymap">কীমেপ ৰিছেট কৰক</string>
   <string name="keycombo_menu_choose_trigger_modifier">সংশোধক কী বাছনি কৰক</string>
-  <string name="keycombo_menu_alert_title_trigger_modifier">TalkBackএ কীমেপ ৰিছেট কৰিব</string>
-  <string name="keycombo_menu_alert_message_trigger_modifier">TalkBackএ কীমেপ ৰিছেট কৰিব আৰু সংশোধক কীটোক %1$sলৈ পৰিৱৰ্তন কৰিব</string>
+  <string name="keycombo_menu_alert_title_trigger_modifier">TalkBack FOSSএ কীমেপ ৰিছেট কৰিব</string>
+  <string name="keycombo_menu_alert_message_trigger_modifier">TalkBack FOSSএ কীমেপ ৰিছেট কৰিব আৰু সংশোধক কীটোক %1$sলৈ পৰিৱৰ্তন কৰিব</string>
   <string name="keycombo_menu_announce_new_trigger_modifier">সংশোধক কীটো %1$sলৈ পৰিৱৰ্তন কৰা হ’ল</string>
   <string name="keycombo_menu_announce_active_keymap">%1$s এতিয়া সক্ৰিয় হৈ আছে।</string>
   <string name="keycombo_menu_announce_reset_keymap">কীমেপ ৰিছেট কৰা হ’ল।</string>
@@ -243,7 +243,7 @@
   <string name="title_pref_use_audio_focus">অডিঅ\' ডাকিং</string>
   <string name="summary_pref_use_audio_focus">কথা পতাৰ সময়ত অন্য অডিঅ\'ৰ ভলিউম কমাওক</string>
   <string name="title_pref_soundback_volume">ধ্বনি প্ৰতিক্ৰিয়াৰ ভলিউম</string>
-  <string name="title_pref_two_volume_button_long_click">TalkBack স্থগিত ৰাখক আৰু শ্বৰ্টকাট পুনৰ আৰম্ভ কৰক</string>
+  <string name="title_pref_two_volume_button_long_click">TalkBack FOSS স্থগিত ৰাখক আৰু শ্বৰ্টকাট পুনৰ আৰম্ভ কৰক</string>
   <string name="title_pref_dim_volume_three_clicks">স্ক্ৰীনৰ শ্বৰ্টকাট লুকুৱাওক</string>
   <string name="title_pref_category_miscellaneous_settings">বিবিধ</string>
   <string name="title_pref_category_developer_settings">বিকাশকর্তাৰ ছেটিংসমূহ</string>
@@ -261,7 +261,7 @@
   <string name="screen_dimmed">স্ক্ৰীনখন লুকুওৱা হৈছে</string>
   <string name="screen_brightness_restored">স্ক্ৰীনখন দেখুৱাই থকা হৈছে</string>
   <string name="screen_dimming_exit_instruction_line1">টকবেকৰ সাধ্য-সুবিধাৰ সেৱাই স্ক্ৰীনখন লুকুৱাইছে</string>
-  <string name="screen_dimming_exit_instruction_line2">TalkBackৰ মেনুখন খুলিবলৈ %1$s নিৰ্দেশটো দিয়ক, \"%2$s\" হাইলাইট কৰক আৰু তাৰ পাছত দুবাৰ টিপক।</string>
+  <string name="screen_dimming_exit_instruction_line2">TalkBack FOSSৰ মেনুখন খুলিবলৈ %1$s নিৰ্দেশটো দিয়ক, \"%2$s\" হাইলাইট কৰক আৰু তাৰ পাছত দুবাৰ টিপক।</string>
   <string name="shortcut_title_basic_navigation">প্ৰাথমিক নেভিগেশ্বন</string>
   <string name="shortcut_title_system_actions">ছিষ্টেমৰ কাৰ্যসমূহ</string>
   <string name="shortcut_title_reading_control">পঢ়া</string>
@@ -540,7 +540,7 @@
   <string name="dialog_title_dim_screen">স্ক্ৰীনখন লুকুৱাব নেকি?</string>
   <string name="dialog_message_dim_screen">গোপনীয়তা উন্নত কৰিবলৈ এইটোৱে ডিছপ্লে’ অফ কৰে আৰু সেয়েহে ৰাজহুৱা স্থানত থাকিলে আপোনাৰ স্ক্ৰীনখন অন্য লোকে দেখা নাপায়</string>
   <string name="talkback_built_in_gesture_change_details">এই সংস্কৰণৰ টকবেকত ডিফ’ল্ট সাধ্য সুবিধাৰ নিৰ্দেশসমূহত কৰা সালসলনিসমূহ অন্তৰ্ভুক্ত হয়।\n\nপ্ৰথমে ওপৰলৈ আৰু তাৰ পাছত তললৈ কৰা নিৰ্দেশে আপোনাক স্ক্ৰীনৰ প্ৰথম বস্তুলৈ আৰু তাৰ পাছত প্ৰথমে তললৈ আৰু পাছত ওপৰলৈ কৰা নিৰ্দেশে শেষৰ বস্তুলৈ যাবলৈ দিয়ে।\n\nকোনো বস্তুত ফ’কাছ কৰি তাৰ পাছত টকবেকৰ প্ৰসংগ মেনুৰ পৰা বিবৰণীৰ স্তৰ বাছনি কৰি পঢ়াৰ বিবৰণীৰ স্তৰ সলনি কৰিব পাৰি।\n\nআপুনি টকবেক ছেটিংসমূহত এই নিৰ্দেশসমূহে কৰা কাৰ্যসমূহ সলনি কৰিব পাৰে।</string>
-  <string name="talkback_built_in_gesture_change_details_45">TalkBackৰ এই সংস্কৰণত দিব্য়াংগসকলে ব্য়ৱহাৰ কৰিব পৰাকৈ আঙুলিৰ স্পৰ্শৰে নিৰ্দেশ কৰিব পৰা ডিফ\'ল্ট ব্য়ৱস্থালৈ পৰিৱৰ্তন কৰিব পৰা সুবিধা আছে। \n\n আঙুলিৰে ওপৰলৈ নিৰ্দেশ কৰিলে পূ্বৰ্ৱৰ্তী নেভিগেশ্বন ছেটিং আৰু আঙুলিৰে তললৈ নিৰ্দেশ কৰিলে পৰৱৰ্তী নেভিগেশ্বন ছেটিংলৈ লৈ যায়।</string>
+  <string name="talkback_built_in_gesture_change_details_45">TalkBack FOSSৰ এই সংস্কৰণত দিব্য়াংগসকলে ব্য়ৱহাৰ কৰিব পৰাকৈ আঙুলিৰ স্পৰ্শৰে নিৰ্দেশ কৰিব পৰা ডিফ\'ল্ট ব্য়ৱস্থালৈ পৰিৱৰ্তন কৰিব পৰা সুবিধা আছে। \n\n আঙুলিৰে ওপৰলৈ নিৰ্দেশ কৰিলে পূ্বৰ্ৱৰ্তী নেভিগেশ্বন ছেটিং আৰু আঙুলিৰে তললৈ নিৰ্দেশ কৰিলে পৰৱৰ্তী নেভিগেশ্বন ছেটিংলৈ লৈ যায়।</string>
   <string name="side_tap_shortcuts_removed_details">এই ছেটিংসমূহ নিৰ্ভৰযোগ্যতা সম্পৰ্কীয় সমস্যাসমূহৰ বাবে টকবেকৰ পৰা আঁতৰোৱা হৈছে:\n• ডিভাইচটোৰ নিৰ্দেশসমূহৰ কাষত টিপক\n• অবিৰতভাৱে পঢ়া আৰম্ভ কৰিবলৈ জোকাৰি দিয়ক</string>
   <string name="updown_downup_gestures_change_and_selector_always_on_details">পূর্বৱর্তী ছেটিংটো বাছনি কৰিবলৈ \"প্ৰথমে ওপৰলৈ ছোৱাইপ কৰি তাৰ পাছত তললৈ ছোৱাইপ কৰক\" নির্দেশটো পুনৰ আবণ্টন কৰা হৈছে।\nভইচ শ্বৰ্টকাটসমূহ আৰম্ভ কৰিবলৈ \"প্ৰথমে তললৈ ছোৱাইপ কৰি তাৰ পাছত ওপৰলৈ ছোৱাইপ কৰক\" নির্দেশটো পুনৰ আবণ্টন কৰা হৈছে\n\nবাছনিকর্তা সুবিধাটো সক্ষম কৰা হৈছে, স্ক্ৰীনখনত প্ৰথমে ওপৰলৈ ছোৱাইপ কৰি তাৰ পাছত তললৈ ছোৱাইপ কৰক, এটা ছেটিং বাছনি কৰিবলৈ ফিংগাৰপ্ৰিণ্ট ছেন্সৰত প্ৰথমে ওপৰলৈ ছোৱাইপ কৰি তাৰ পাছত তললৈ ছোৱাইপ কৰক। আৰু ছেটিংটো মিলাবলৈ স্ক্ৰীনখনত ওপৰলৈ অথবা তললৈ ছোৱাইপ কৰক।</string>
   <string name="button_accept_changed_gesture_mappings">আঙুলিৰ স্পৰ্শৰে দিয়া নিৰ্দেশসমূহ স্বীকাৰ কৰক</string>
@@ -647,10 +647,10 @@
   <string name="dialog_message_voice_commands">আপুনি এইসমূহ কৈ চাব পাৰে:\n\n• প্ৰতিলিপি কৰক\n• পৰৱৰ্তী বস্তুটোৰ পৰা পঢ়ক\n• [ছেভ] বিচাৰক\n• কওক [ক্ষিপ্ৰতাৰে]\n• টকবেকৰ ছেটিং\n\nআটাইবোৰ কণ্ঠস্বৰৰ নিৰ্দেশৰ এখন সূচীৰ বাবে \"%1$s\" বুলি কওক</string>
   <string name="start_voice_command">কণ্ঠস্বৰৰ নিৰ্দেশ ব্যৱহাৰ কৰক</string>
   <string name="dialog_title_pass_through_mode">ছিষ্টেমৰ নিৰ্দেশসমূহ ব্যৱহাৰ কৰিবলৈ টকবেকৰ নিৰ্দেশসমূহ এৰি যাওক</string>
-  <string name="dialog_message_pass_through_mode">আপুনি এটা সুৰযুক্ত ঘণ্টাধ্বনি শুনিলে, আপুনি TalkBackএ সমৰ্থন নকৰা এটা ছিষ্টেম নিৰ্দেশ ব্যৱহাৰ কৰিব পাৰে। এইটোক পাছ-থ্ৰু নিৰ্দেশ বুলি কোৱা হয়।</string>
+  <string name="dialog_message_pass_through_mode">আপুনি এটা সুৰযুক্ত ঘণ্টাধ্বনি শুনিলে, আপুনি TalkBack FOSSএ সমৰ্থন নকৰা এটা ছিষ্টেম নিৰ্দেশ ব্যৱহাৰ কৰিব পাৰে। এইটোক পাছ-থ্ৰু নিৰ্দেশ বুলি কোৱা হয়।</string>
   <string name="hint_type_search_term">সন্ধান কৰিবলগীয়া শব্দ টাইপ কৰক</string>
-  <string name="talkback_notification_channel_name">TalkBack</string>
-  <string name="talkback_notification_channel_description">TalkBackৰ জাননী চেনেল</string>
+  <string name="talkback_notification_channel_name">TalkBack FOSS</string>
+  <string name="talkback_notification_channel_description">TalkBack FOSSৰ জাননী চেনেল</string>
   <string name="pref_selector_summary">এটা ছেটিং বাছনি কৰিবলৈ %1$s। তাৰ পাছত ছেটিংটো মিলাবলৈ %2$s।</string>
   <string name="pref_selector_summary_two_select_gesture">এটা ছেটিং বাছনি কৰিবলৈ %1$s অথবা %2$s। তাৰ পাছত ছেটিংটো মিলাবলৈ %3$s।</string>
   <string name="assign_gestures">নিৰ্দেশসমূহ আবণ্টন কৰক</string>
@@ -663,7 +663,7 @@
   <string name="select_setting_hint">এটা বেলেগ ছেটিং বাছনি কৰিবলৈ %1$s</string>
   <string name="adjust_setting_hint">ছেটিংটো মিলাবলৈ %1$s</string>
   <string name="adjust_granularity_hint">%2$s হিচাপে পঢ়িবলৈ %1$s</string>
-  <string name="no_adjust_setting_gesture">এইটো ব্যৱহাৰ কৰিবলৈ TalkBackৰ ছেটিংসমূহলৈ যাওক আৰু \'%1$s\'ৰ বাবে এটা নিৰ্দেশ যোগ দিয়ক</string>
+  <string name="no_adjust_setting_gesture">এইটো ব্যৱহাৰ কৰিবলৈ TalkBack FOSSৰ ছেটিংসমূহলৈ যাওক আৰু \'%1$s\'ৰ বাবে এটা নিৰ্দেশ যোগ দিয়ক</string>
   <string name="switch_to_braille_keyboard_failure_msg">ব্ৰেইল কীব’র্ড অন কৰা হোৱা নাই। টকবেকৰ ছেটিঙলৈ যাওক, ব্ৰেইল কীব’র্ড ছেট আপ কৰক আৰু পুনৰ চেষ্টা কৰক।</string>
   <string name="training_page_number">%2$d খন পৃষ্ঠাৰ %1$d নম্বৰখন</string>
   <string name="training_back_button">পূৰ্বৱৰ্তী</string>
@@ -675,8 +675,8 @@
   <string name="exit_tutorial_title">টিউট’ৰিয়েল বন্ধ কৰিবনে?</string>
   <string name="exit_tutorial_content">আপুনি টকবেকৰ ছেটিঙত যিকোনো সময়তে ইয়ালৈ উভতি আহিব পাৰে।</string>
   <string name="stay_in_tutorial_button">টিউট’ৰিয়েলত থাকক</string>
-  <string name="welcome_to_updated_talkback_title">আপডে’ট কৰা TalkBackলৈ স্বাগতম</string>
-  <string name="welcome_to_updated_talkback_text_pre_r">আপুনি অধিক সৰল মেনু, কণ্ঠস্বৰেৰে নিয়ন্ত্ৰণ কৰা সুবিধা আৰু অধিক লাভ কৰিব।\n\nআপুনি পৰৱৰ্তী কেইখনমান স্ক্ৰীনত মুখ্য আপডে’ট আৰু সালসলনিসমূহৰ বিষয়ে জানিব। এই কাৰ্যটোৰ বাবে প্ৰায় ৩ মিনিট সময় লাগিব। \n\nআপুনি যিকোনো সময়তে TalkBackৰ ছেটিঙত এই তথ্যখিনি পৰ্যালোচনা কৰিব পাৰে।</string>
+  <string name="welcome_to_updated_talkback_title">আপডে’ট কৰা TalkBack FOSSলৈ স্বাগতম</string>
+  <string name="welcome_to_updated_talkback_text_pre_r">আপুনি অধিক সৰল মেনু, কণ্ঠস্বৰেৰে নিয়ন্ত্ৰণ কৰা সুবিধা আৰু অধিক লাভ কৰিব।\n\nআপুনি পৰৱৰ্তী কেইখনমান স্ক্ৰীনত মুখ্য আপডে’ট আৰু সালসলনিসমূহৰ বিষয়ে জানিব। এই কাৰ্যটোৰ বাবে প্ৰায় ৩ মিনিট সময় লাগিব। \n\nআপুনি যিকোনো সময়তে TalkBack FOSSৰ ছেটিঙত এই তথ্যখিনি পৰ্যালোচনা কৰিব পাৰে।</string>
   <string name="welcome_to_updated_talkback_text">আপুনি নতুন, অধিক সহজ নিৰ্দেশ, অধিক সৰল মেনু, কণ্ঠস্বৰেৰে নিয়ন্ত্ৰণ কৰা সুবিধা আৰু অধিক লাভ কৰিব।\n\nপৰৱৰ্তী কেইখনমান স্ক্ৰীনত আপুনি মুখ্য আপডে’ট আৰু সালসলনিসমূহৰ বিষয়ে জানিব। এই কাৰ্যটোৰ বাবে প্ৰায় ৫ মিনিট সময় লাগিব।\n\nআপুনি যিকোনো সময়তে টকবেকৰ ছেটিংসমূহত এই তথ্য পৰ্যালোচনা কৰিব পাৰে।</string>
   <string name="navigation_heading">নেভিগেশ্বন</string>
   <string name="setting_selector_heading">পঢ়াৰ নিয়ন্ত্ৰণ</string>
@@ -698,7 +698,7 @@
   <string name="new_shortcut_gesture_pause_or_play_media_subtext">অন্য এপ্‌সমূহে এটা ফ’ন কলৰ উত্তৰ দিয়া অথবা সমাপ্ত কৰাৰ দৰে কাৰ্যৰ বাবে হয়তো এই নিৰ্দেশটো ব্যৱহাৰ কৰিব পাৰে। এই নিৰ্দেশটো সকলো এপৰ দ্বাৰা সমৰ্থিত নহ’বও পাৰে।</string>
   <string name="new_shortcut_gesture_pause_media_announcement">মিডিয়া পজ অথবা প্লে’ কৰা হৈছে। সাধাৰণতে, এইটোৱে বৰ্তমানৰ ভিডিঅ’টো অথবা সংগীত প্লে’ অথবা পজ কৰিব। অব্যাহত ৰাখিবলৈ সোঁফালে ছোৱাইপ কৰক।</string>
   <string name="new_shortcut_gesture_play_media_announcement">মিডিয়া প্লে’ হৈ আছে। সাধাৰণতে, এইটোৱে বৰ্তমানৰ ভিডিঅ’টো অথবা সংগীত প্লে’ কৰিব। অব্যাহত ৰাখিবলৈ সোঁফালে ছোৱাইপ কৰক।</string>
-  <string name="new_shortcut_gesture_stop_speech_text">TalkBackএ সাময়িকভাবে কথা কোৱা বন্ধ কৰিবলৈ, ২ টা আঙুলিৰে টিপক।</string>
+  <string name="new_shortcut_gesture_stop_speech_text">TalkBack FOSSএ সাময়িকভাবে কথা কোৱা বন্ধ কৰিবলৈ, ২ টা আঙুলিৰে টিপক।</string>
   <string name="new_shortcut_gesture_stop_speech_announcement">টকবেকৰ কথন বন্ধ কৰা হৈছে। সাধাৰণতে, এইটোৱে টকবেকে বৰ্তমান কৈ থকা বাক্যাংশ বন্ধ কৰিব। অব্যাহত ৰাখিবলৈ সোঁফালে ছোৱাইপ কৰক।</string>
   <string name="new_shortcut_gesture_copy_text_text">পাঠৰ প্ৰতিলিপি কৰিবলৈ ৩ টা আঙুলিৰে দুবাৰ টিপক।</string>
   <string name="new_shortcut_gesture_copy_text_announcement">পাঠৰ প্ৰতিলিপি কৰা হৈছে। সাধাৰণতে, এইটোৱে আপুনি বাছনি কৰা পাঠৰ প্ৰতিলিপি কৰিব। অব্যাহত ৰাখিবলৈ সোঁফালে ছোৱাইপ কৰক।</string>
@@ -710,7 +710,7 @@
   <string name="new_shortcut_gesture_selection_mode_on_announcement">বাছনি কৰা ম’ড অন অথবা অফ হৈ আছে। সাধাৰণতে, এইটোৱে আপুনি এখন ইনপুট ক্ষেত্ৰৰ ভিতৰত থকাৰ সময়ত পাঠ বাছনি কৰা ম’ড আৰম্ভ অথবা বন্ধ কৰিব। অব্যাহত ৰাখিবলৈ সোঁফালে ছোৱাইপ কৰক।</string>
   <string name="new_shortcut_gesture_selection_mode_off_announcement">বাছনি কৰা ম’ড অফ হৈ আছে। সাধাৰণতে, এইটোৱে আপুনি এখন ইনপুট ক্ষেত্ৰৰ ভিতৰত থকাৰ সময়ত বাছনি কৰা ম’ড সমাপ্ত কৰিব। অব্যাহত ৰাখিবলৈ সোঁফালে ছোৱাইপ কৰক।</string>
   <string name="new_shortcut_gesture_reading_menu_text">পঢ়াৰ নিয়ন্ত্ৰণ ব্যৱহাৰ কৰিবলৈ, ৩ টা আঙুলিৰে বাওঁফালে অথবা সোঁফালে ছোৱাইপ কৰক। আপুনি ৩ টা আঙুলিৰে ওপৰলৈ অথবা তললৈ ছোৱাইপ কৰিবও পাৰে।</string>
-  <string name="new_shortcut_gesture_note">টোকা: আপুনি আপোনাৰ কিছুমান নিৰ্দেশ কাষ্টমাইজ কৰিছে, সেয়ে এই তথ্য সঠিক নহ’বও পাৰে। আপোনাৰ নিৰ্দেশসমূহ পৰ্যালোচনা কৰিবলৈ TalkBackৰ ছেটিঙলৈ যাওক।</string>
+  <string name="new_shortcut_gesture_note">টোকা: আপুনি আপোনাৰ কিছুমান নিৰ্দেশ কাষ্টমাইজ কৰিছে, সেয়ে এই তথ্য সঠিক নহ’বও পাৰে। আপোনাৰ নিৰ্দেশসমূহ পৰ্যালোচনা কৰিবলৈ TalkBack FOSSৰ ছেটিঙলৈ যাওক।</string>
   <string name="welcome_to_android11">Android 11 ত টকবেকলৈ স্বাগতম</string>
   <string name="welcome_to_android11_text">টকবেকক ক্ষিপ্ৰতাৰে আৰু সহজে ব্যৱহাৰ কৰিব পৰা কৰি তুলিবলৈ নতুন নিৰ্দেশসমূহ যোগ দিয়া হৈছে।\n\nএই স্ক্ৰীনখনত আপুনি নতুন নিৰ্দেশসমূহ ব্যৱহাৰ কৰি চাব পাৰে। আপুনি যিকোনো সময়তে টকবেকৰ ছেটিঙত এই তথ্যৰ পৰ্যালোচনা কৰিব পাৰে।</string>
   <string name="new_gesture_notification_title">টকবেকত নতুন নিৰ্দেশসমূহ</string>
@@ -805,7 +805,7 @@
   <string name="button_3">বুটাম ৩</string>
   <string name="button_4">বুটাম ৪</string>
   <string name="activated_view">%1$s সক্ৰিয় কৰা হ’ল</string>
-  <string name="talkback_inactive_title">TalkBack অক্ষম কৰা আছে</string>
-  <string name="talkback_inactive_message">এই টিউট’ৰিয়েলটোৰ বাবে TalkBack সক্ষম কৰা থাকিব লাগে। টিউট’ৰিয়েলটো আৰম্ভ কৰাৰ পূৰ্বে অনুগ্ৰহ কৰি TalkBack অন কৰক।</string>
+  <string name="talkback_inactive_title">TalkBack FOSS অক্ষম কৰা আছে</string>
+  <string name="talkback_inactive_message">এই টিউট’ৰিয়েলটোৰ বাবে TalkBack FOSS সক্ষম কৰা থাকিব লাগে। টিউট’ৰিয়েলটো আৰম্ভ কৰাৰ পূৰ্বে অনুগ্ৰহ কৰি TalkBack FOSS অন কৰক।</string>
   <string name="survey_closed">সমীক্ষাটো বন্ধ কৰা হৈছে</string>
 </resources>

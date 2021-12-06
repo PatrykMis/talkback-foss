@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="talkback_on">TalkBack қосулы</string>
-  <string name="talkback_suspended">TalkBack уақытша тоқтатылды</string>
-  <string name="talkback_resumed">TalkBack жалғастырылды</string>
-  <string name="talkback_disabled">TalkBack өшірулі</string>
+  <string name="talkback_on">TalkBack FOSS қосулы</string>
+  <string name="talkback_suspended">TalkBack FOSS уақытша тоқтатылды</string>
+  <string name="talkback_resumed">TalkBack FOSS жалғастырылды</string>
+  <string name="talkback_disabled">TalkBack FOSS өшірулі</string>
   <string name="spokenfeedback_on">Экрандағы мәтінді дыбыстау функциясы қосулы</string>
   <string name="spokenfeedback_suspended">Экрандағы мәтінді дыбыстау функциясы уақытша тоқтатылды</string>
   <string name="spokenfeedback_resumed">Экрандағы мәтінді дыбыстау функциясы жалғастырылды</string>

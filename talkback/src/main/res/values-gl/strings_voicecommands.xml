@@ -60,8 +60,8 @@
   <string name="voice_commands_dictate">Dita</string>
   <string name="voice_commands_write">Escribe</string>
   <string name="voice_commands_Spell">Deletrea</string>
-  <string name="voice_commands_talkback_settings">Configuración de TalkBack</string>
-  <string name="voice_commands_talkback_setting">Configuración de TalkBack</string>
+  <string name="voice_commands_talkback_settings">Configuración de TalkBack FOSS</string>
+  <string name="voice_commands_talkback_setting">Configuración de TalkBack FOSS</string>
   <string name="voice_commands_screen_search">Busca directa</string>
   <string name="voice_commands_search_on_screen">Busca na pantalla</string>
   <string name="voice_commands_copy">@android:string/copy</string>
@@ -139,7 +139,7 @@
   <string name="voice_commands_help_overview_description">Accede ás túas aplicacións recentes</string>
   <string name="voice_commands_help_assistant_description">Abre o Asistente de Google</string>
   <string name="voice_commands_help_other_commands_title">Outros comandos</string>
-  <string name="voice_commands_help_other_commands_description">Vai á configuración de TalkBack, oculta a pantalla, accede ás accións, engade etiquetas personalizadas e moito máis</string>
+  <string name="voice_commands_help_other_commands_description">Vai á configuración de TalkBack FOSS, oculta a pantalla, accede ás accións, engade etiquetas personalizadas e moito máis</string>
   <string name="voice_commands_help_label">Etiqueta [enviar]</string>
   <string name="voice_commands_help_hide_screen_description">Oculta a pantalla para que outras persoas non poidan vela en lugares públicos</string>
   <string name="voice_commands_help_show_screen_description">Devolve a pantalla ao seu estado normal despois de ocultala</string>

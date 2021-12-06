@@ -60,8 +60,8 @@
   <string name="voice_commands_dictate">ఆజ్ఞాపించు</string>
   <string name="voice_commands_write">వ్రాయి</string>
   <string name="voice_commands_Spell">తిరిగి చెప్పు</string>
-  <string name="voice_commands_talkback_settings">TalkBack సెట్టింగ్‌లు</string>
-  <string name="voice_commands_talkback_setting">TalkBack సెట్టింగ్</string>
+  <string name="voice_commands_talkback_settings">TalkBack FOSS సెట్టింగ్‌లు</string>
+  <string name="voice_commands_talkback_setting">TalkBack FOSS సెట్టింగ్</string>
   <string name="voice_commands_screen_search">స్క్రీన్ కంటెంట్ సెర్చ్</string>
   <string name="voice_commands_search_on_screen">స్క్రీన్‌లో సెర్చ్ చేయి</string>
   <string name="voice_commands_copy">@android:string/copy</string>
@@ -139,7 +139,7 @@
   <string name="voice_commands_help_overview_description">మీ ఇటీవలి యాప్‌లను చూడండి</string>
   <string name="voice_commands_help_assistant_description">Google Assistantను తెరుస్తుంది</string>
   <string name="voice_commands_help_other_commands_title">ఇతర కమాండ్‌లు</string>
-  <string name="voice_commands_help_other_commands_description">TalkBack సెట్టింగ్‌లకు వెళ్లు, స్క్రీన్‌ను దాచు, చర్యలను చూడండి, అనుకూల లేబుల్‌లను జోడించు, మరిన్ని</string>
+  <string name="voice_commands_help_other_commands_description">TalkBack FOSS సెట్టింగ్‌లకు వెళ్లు, స్క్రీన్‌ను దాచు, చర్యలను చూడండి, అనుకూల లేబుల్‌లను జోడించు, మరిన్ని</string>
   <string name="voice_commands_help_label">[సమర్పించు] లేబుల్</string>
   <string name="voice_commands_help_hide_screen_description">డిస్‌ప్లేను దాచండి, తద్వారా మీ స్క్రీన్ పబ్లిక్ ప్రదేశాలలో ఇతరులకు కనిపించదు</string>
   <string name="voice_commands_help_show_screen_description">స్క్రీన్‌ను దాచిన తర్వాత, దాన్ని తిరిగి సాధారణ స్థితికి తీసుకురండి</string>

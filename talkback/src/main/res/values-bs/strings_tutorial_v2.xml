@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="accessibility_tutorial_title">Vodič o pristupačnosti</string>
-  <string name="title_pref_tutorial">Vodič za TalkBack</string>
-  <string name="tutorial_title">Vodič za TalkBack</string>
-  <string name="main_description">TalkBack je čitač ekrana namijenjen prvenstveno slijepim i slabovidnim osobama. On omogućava interakciju s uređajem koristeći govorne povratne informacije.</string>
-  <string name="turn_off_talkback">Isključi TalkBack</string>
+  <string name="title_pref_tutorial">Vodič za TalkBack FOSS</string>
+  <string name="tutorial_title">Vodič za TalkBack FOSS</string>
+  <string name="main_description">TalkBack FOSS je čitač ekrana namijenjen prvenstveno slijepim i slabovidnim osobama. On omogućava interakciju s uređajem koristeći govorne povratne informacije.</string>
+  <string name="turn_off_talkback">Isključi TalkBack FOSS</string>
   <string name="tutorial_start_lesson">Učenje</string>
   <string name="tutorial_practice">Vježbanje</string>
   <string name="tutorial_start_lesson_content">naučite lekciju %1$d</string>
@@ -17,7 +17,7 @@
   <string name="tutorial_lesson_1_page2_description">Da aktivirate posljednju stavku koju ste čuli, dodirnite dvaput bilo gdje. Pronađite stavku 4 i aktivirajte je odmah. Nakon toga, za nastavak aktivirajte dugme Sljedeće.</string>
   <string name="tutorial_lesson_1_page2_complete_message">Stavka 4 je aktivirana. Da nastavite, pronađite i aktivirajte dugme Sljedeće</string>
   <string name="tutorial_lesson_1_page3_subtitle">3. dio: Kretanje kroz lekcije</string>
-  <string name="tutorial_lesson_1_page3_description">Lekcije za TalkBack su raspoređene na sličan način. Na vrhu se nalazi lekcija koju možete istraživati i čitati u svako doba. U gornjem lijevom uglu je i dugme Početak vodiča. U sredini je područje za vježbu. Na dnu su pokazivač napretka i dugmad za kretanje po lekciji. Aktivirajte Naprijed da nastavite.</string>
+  <string name="tutorial_lesson_1_page3_description">Lekcije za TalkBack FOSS su raspoređene na sličan način. Na vrhu se nalazi lekcija koju možete istraživati i čitati u svako doba. U gornjem lijevom uglu je i dugme Početak vodiča. U sredini je područje za vježbu. Na dnu su pokazivač napretka i dugmad za kretanje po lekciji. Aktivirajte Naprijed da nastavite.</string>
   <string name="tutorial_lesson_1_page4_subtitle">4. dio: Prevucite da biste istraživali</string>
   <string name="tutorial_lesson_1_page4_description">Također možete istraživati prevlačenjem prstom preko ekrana. Prevlačenjem lijevo općenito se istražuje gore i lijevo, dok prevlačenjem desno istražuje se dolje i desno. Probajte sada.</string>
   <string name="tutorial_lesson_1_practice_title">5. dio: Vježba</string>
@@ -46,11 +46,11 @@
   <string name="tutorial_lesson_4_page2_description">Sada čitate znak po znak. Odaberite uzorak teksta, a zatim prevucite nadolje da čitate znak po znak.</string>
   <string name="tutorial_lesson_4_practice_title">3. dio: Vježba</string>
   <string name="tutorial_lesson_4_practice_description">Promijenite brzinu kretanja kroz tekst prevlačenjem nadolje pa nagore. Pročitajte sljedeći znak u uzorku teksta prevlačenjem nadolje.</string>
-  <string name="tutorial_lesson_4_sample_text">Ovo je primjer teksta za vježbanje upotrebe aplikacije TalkBack \"Gdje je Kanzas?\", upitao je čovjek iznenađeno. \"Ne znam\", tugaljivo odgovori Dorothy, \"ali to je moj dom, i sigurno je negdje.\"\n\n.\"Vrlo moguće. Oz je svemoguć, pa sam pretpostavio da će ti pronaći Kanzas. Ali, prvo ga moraš vidjeti, što neće biti nimalo lako, jer taj Veliki čarobnjak ne voli da se viđa ni sa kim, i uglavnom radi na svoj način. A šta TI želiš?\" nastavi on, govoreći Totu.</string>
+  <string name="tutorial_lesson_4_sample_text">Ovo je primjer teksta za vježbanje upotrebe aplikacije TalkBack FOSS \"Gdje je Kanzas?\", upitao je čovjek iznenađeno. \"Ne znam\", tugaljivo odgovori Dorothy, \"ali to je moj dom, i sigurno je negdje.\"\n\n.\"Vrlo moguće. Oz je svemoguć, pa sam pretpostavio da će ti pronaći Kanzas. Ali, prvo ga moraš vidjeti, što neće biti nimalo lako, jer taj Veliki čarobnjak ne voli da se viđa ni sa kim, i uglavnom radi na svoj način. A šta TI želiš?\" nastavi on, govoreći Totu.</string>
   <string name="tutorial_lesson_5_title">Lekcija 5: Uređivanje teksta</string>
   <string name="tutorial_lesson_5_short_description">Aktiviranje okvira za uređivanje, kucanje, pomjeranje kursora, odabir i rad s tekstom</string>
   <string name="tutorial_lesson_5_page1_subtitle">1. dio: Aktiviranje okvira za uređivanje</string>
-  <string name="tutorial_lesson_5_page1_description">Uz TalkBack, možete koristiti okvir za uređivanje da biste kucali, birali i uređivali tekst. Da aktivirate okvir za uređivanje, dodirnite ga dvaput. Nakon što aktivirate okvir za uređivanje, na dnu ekrana imate na raspolaganju tastaturu. Tastaturu možete odbaciti dodirom na dugme Nazad. Probajte sada aktivirati okvir za uređivanje. Kada završite, aktivirajte dugme Naprijed, koje se nalazi iznad tastature.</string>
+  <string name="tutorial_lesson_5_page1_description">Uz TalkBack FOSS, možete koristiti okvir za uređivanje da biste kucali, birali i uređivali tekst. Da aktivirate okvir za uređivanje, dodirnite ga dvaput. Nakon što aktivirate okvir za uređivanje, na dnu ekrana imate na raspolaganju tastaturu. Tastaturu možete odbaciti dodirom na dugme Nazad. Probajte sada aktivirati okvir za uređivanje. Kada završite, aktivirajte dugme Naprijed, koje se nalazi iznad tastature.</string>
   <string name="tutorial_lesson_5_page2_subtitle">2. dio: Kucanje u okviru za uređivanje</string>
   <string name="tutorial_lesson_5_page2_description">Da biste kucali, aktivirajte okvir za uređivanje i pomjerajte prst preko tastature na ekranu. Kada čujete željeni znak, podignite prst da ga aktivirate. Probajte aktiviranje i kucanje u okviru za uređivanje ispod.</string>
   <string name="tutorial_lesson_5_page3_subtitle">3. dio: Upotreba kursora</string>
@@ -75,9 +75,9 @@
   <string name="tutorial_alert_dialog_exit">Izađi</string>
   <string name="tutorial_no_touch_explore_title">Potrebno je Istraživanje dodirom</string>
   <string name="tutorial_no_touch_explore_message">Za ovaj vodič potrebno je Istraživanje dodirom. Omogućite Istraživanje dodirom prije pokretanja vodiča.</string>
-  <string name="tutorial_service_inactive_title">TalkBack je onemogućen</string>
-  <string name="tutorial_service_inactive_message">Za ovaj vodič potrebno je da TalkBack bude omogućen. Uključite TalkBack prije pokretanja vodiča.</string>
-  <string name="tutorial_service_suspended_title">TalkBack je obustavljen</string>
-  <string name="tutorial_service_suspended_message">Vodič za TalkBack nije dostupan, a povratne informacije su pauzirane. Nastavite dobijati povratne informacije za TalkBack i ponovo pokrenite vodič da nastavite.</string>
+  <string name="tutorial_service_inactive_title">TalkBack FOSS je onemogućen</string>
+  <string name="tutorial_service_inactive_message">Za ovaj vodič potrebno je da TalkBack FOSS bude omogućen. Uključite TalkBack FOSS prije pokretanja vodiča.</string>
+  <string name="tutorial_service_suspended_title">TalkBack FOSS je obustavljen</string>
+  <string name="tutorial_service_suspended_message">Vodič za TalkBack FOSS nije dostupan, a povratne informacije su pauzirane. Nastavite dobijati povratne informacije za TalkBack FOSS i ponovo pokrenite vodič da nastavite.</string>
   <string name="shortcut_hear_lesson">Opiši meni</string>
 </resources>
