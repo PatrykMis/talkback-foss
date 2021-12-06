@@ -19,6 +19,7 @@ All changes are in the commits log. Below are the most important ones:
 * Various translations and typo fixes
 * added Gradle Wrapper to simplify build process on various systems
 * various improvements from [GrapheneOS](https://github.com/GrapheneOS/talkback) project by [Daniel Micay](https://github.com/thestinger)
+* Support for role=application web widgets/TV apps (credits to [Hugo](https://github.com/hugoholgersson)
 * updated dependencies which may fix potential security issues
 * Added more instructions in the readme
 
