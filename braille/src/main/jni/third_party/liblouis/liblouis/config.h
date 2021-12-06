@@ -21,7 +21,12 @@
 /* Define to the number of bits in type 'wint_t'. */
 /* #undef BITSIZEOF_WINT_T */
 
-/* Define to 1 if using 'alloca.c'. */
+/* Define to one of `_getb67', `GETB67', `getb67' for Cray-2 and Cray-YMP
+   systems. This function is required for `alloca.c' support on those systems.
+   */
+/* #undef CRAY_STACKSEG_END */
+
+/* Define to 1 if using `alloca.c'. */
 /* #undef C_ALLOCA */
 
 /* Define to 1 if // is a file system root distinct from /. */
@@ -92,7 +97,8 @@
    may be supplied by this distribution. */
 #define HAVE_ALLOCA 1
 
-/* Define to 1 if <alloca.h> works. */
+/* Define to 1 if you have <alloca.h> and it should be used (not on Ultrix).
+   */
 #define HAVE_ALLOCA_H 1
 
 /* Define to 1 if you have the declaration of `program_invocation_name', and
@@ -171,6 +177,9 @@
 /* Define if the 'malloc' function is POSIX compliant. */
 #define HAVE_MALLOC_POSIX 1
 
+/* Define to 1 if you have the <memory.h> header file. */
+#define HAVE_MEMORY_H 1
+
 /* Define to 1 if you have the `memset' function. */
 #define HAVE_MEMSET 1
 
@@ -206,13 +215,10 @@
 /* Define to 1 if you have the <stdint.h> header file. */
 #define HAVE_STDINT_H 1
 
-/* Define to 1 if you have the <stdio.h> header file. */
-#define HAVE_STDIO_H 1
-
 /* Define to 1 if you have the <stdlib.h> header file. */
 #define HAVE_STDLIB_H 1
 
-/* Define if you have `strerror_r'. */
+/* Define to 1 if you have the `strerror_r' function. */
 #define HAVE_STRERROR_R 1
 
 /* Define to 1 if you have the <strings.h> header file. */
@@ -275,9 +281,6 @@
 /* Define to 1 if you have the `_set_invalid_parameter_handler' function. */
 /* #undef HAVE__SET_INVALID_PARAMETER_HANDLER */
 
-/* Define if running the test suite so that test #27 works on MinGW. */
-/* #undef LT_MINGW_STATIC_TESTSUITE_HACK */
-
 /* Define to the sub-directory where libtool stores uninstalled libraries. */
 #define LT_OBJDIR ".libs/"
 
@@ -309,7 +312,7 @@
 /* #undef PACKAGE_PACKAGER_VERSION */
 
 /* Define to the full name and version of this package. */
-#define PACKAGE_STRING "Liblouis 3.19.0"
+#define PACKAGE_STRING "Liblouis 3.20.0"
 
 /* Define to the one symbol short name of this package. */
 #define PACKAGE_TARNAME "liblouis"
@@ -318,7 +321,7 @@
 #define PACKAGE_URL "http://www.liblouis.org"
 
 /* Define to the version of this package. */
-#define PACKAGE_VERSION "3.19.0"
+#define PACKAGE_VERSION "3.20.0"
 
 /* Define to l, ll, u, ul, ull, etc., as suitable for constants of type
    'ptrdiff_t'. */
@@ -343,9 +346,7 @@
 	STACK_DIRECTION = 0 => direction of growth unknown */
 /* #undef STACK_DIRECTION */
 
-/* Define to 1 if all of the C90 standard headers exist (not just the ones
-   required in a freestanding environment). This macro is provided for
-   backward compatibility; new code need not use it. */
+/* Define to 1 if you have the ANSI C header files. */
 #define STDC_HEADERS 1
 
 /* Define to 1 if strerror_r returns char *. */
@@ -425,7 +426,7 @@
 
 
 /* Version number of package */
-#define VERSION "3.19.0"
+#define VERSION "3.20.0"
 
 /* Define to l, ll, u, ul, ull, etc., as suitable for constants of type
    'wchar_t'. */
@@ -643,7 +644,7 @@
 /* Define to `int' if <sys/types.h> does not define. */
 /* #undef mode_t */
 
-/* Define as a signed integer type capable of holding a process identifier. */
+/* Define to `int' if <sys/types.h> does not define. */
 /* #undef pid_t */
 
 /* Define to the equivalent of the C99 'restrict' keyword, or to
