@@ -1,8 +1,8 @@
 // For building the open-source release of TalkBack.
 
 ext {
-    talkbackApplicationId = "com.android.talkback_foss"
-    talkbackMainPermission = "com.android.talkback_foss.permission.TALKBACK"
+    talkbackApplicationId = "com.android.talkbackfoss"
+    talkbackMainPermission = "com.android.talkbackfoss.permission.TALKBACK"
 }
 
 android {

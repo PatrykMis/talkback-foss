@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
   <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.android.talkback_foss"
+    package="com.android.talkbackfoss"
     >
 
   <!-- Strings with the format ${foo}, such as ${applicationId}, are called

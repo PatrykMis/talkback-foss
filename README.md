@@ -41,5 +41,5 @@ on, toggle the switch preference to the on position.
 
 Alternatively you can do it via ADB:
 
-> `adb shell settings put secure enabled_accessibility_services com.android.talkback_foss/com.google.android.marvin.talkback.TalkBackService`
+> `adb shell settings put secure enabled_accessibility_services com.android.talkbackfoss/com.google.android.marvin.talkback.TalkBackService`
 
