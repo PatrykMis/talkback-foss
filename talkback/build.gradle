@@ -9,3 +9,7 @@ dependencies {
     implementation project(':brailledisplay')
     implementation fileTree(dir: "src/main/libs", include: ["*.aar"])
 }
+
+android {
+    namespace "com.google.android.accessibility.talkback"
+}

@@ -5,3 +5,6 @@ dependencies {
     implementation project(':utils')
 }
 
+android {
+    namespace "com.google.android.accessibility.uiunderstanding"
+}

@@ -29,6 +29,7 @@ allprojects {
 android {
     compileSdk 33
     buildToolsVersion '33.0.1'
+    namespace talkbackApplicationId
     defaultConfig {
         applicationId talkbackApplicationId
         versionName "13.0"
@@ -42,7 +43,7 @@ android {
         exclude 'LICENSE'
         exclude 'README'
     }
-    lintOptions {
+    lint {
         checkReleaseBuilds false
         abortOnError false
     }
