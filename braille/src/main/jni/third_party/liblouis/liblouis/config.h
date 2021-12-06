@@ -32,6 +32,9 @@
 /* Define to 1 if // is a file system root distinct from /. */
 /* #undef DOUBLE_SLASH_IS_DISTINCT_ROOT */
 
+/* Enable macros */
+/* #undef ENABLE_MACROS */
+
 /* Define to a C preprocessor expression that evaluates to 1 or 0, depending
    whether the gnulib module fscanf shall be considered present. */
 #define GNULIB_FSCANF 1
@@ -309,7 +312,7 @@
 /* #undef PACKAGE_PACKAGER_VERSION */
 
 /* Define to the full name and version of this package. */
-#define PACKAGE_STRING "Liblouis 3.19.0"
+#define PACKAGE_STRING "Liblouis 3.20.0"
 
 /* Define to the one symbol short name of this package. */
 #define PACKAGE_TARNAME "liblouis"
@@ -318,7 +321,7 @@
 #define PACKAGE_URL "http://www.liblouis.org"
 
 /* Define to the version of this package. */
-#define PACKAGE_VERSION "3.19.0"
+#define PACKAGE_VERSION "3.20.0"
 
 /* Define to l, ll, u, ul, ull, etc., as suitable for constants of type
    'ptrdiff_t'. */
@@ -423,7 +426,7 @@
 
 
 /* Version number of package */
-#define VERSION "3.19.0"
+#define VERSION "3.20.0"
 
 /* Define to l, ll, u, ul, ull, etc., as suitable for constants of type
    'wchar_t'. */
