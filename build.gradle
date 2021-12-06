@@ -50,8 +50,8 @@ android {
 }
 
 task createTranslationTablesZip(type: Zip){
-    archiveName="translationtables.zip"
-    destinationDir = file('braille/src/main/res/raw/')
+    archiveFileName="translationtables.zip"
+    destinationDirectory = file('braille/src/main/res/raw/')
     from fileTree('./braille/src/main/tables/')
     into('liblouis/tables')
 }
