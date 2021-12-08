@@ -61,7 +61,7 @@
             android:key="@string/pref_show_context_menu_granularity_detail_setting_key"
             android:order="8"
             android:title="@string/title_pref_category_navigation_menu">
-            <intent android:action=".preference.TalkBackNavigationMenuPreferencesActivity" />
+            <intent android:action=".preference.TalkBackFOSSNavigationMenuPreferencesActivity" />
         </Preference>
     </PreferenceCategory>
     <PreferenceCategory
