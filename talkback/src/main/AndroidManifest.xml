@@ -140,7 +140,7 @@
             tools:ignore="ExportedActivity" >
             <!-- This preference activity can receive an implicit intent action -->
             <intent-filter>
-                <action android:name=".TalkBackShortcutPreferencesActivity" />
+                <action android:name=".TalkBackFOSSShortcutPreferencesActivity" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
@@ -165,7 +165,7 @@
             tools:ignore="ExportedActivity" >
             <!-- This preference activity can receive an implicit intent action -->
             <intent-filter>
-                <action android:name=".TalkBackKeyboardShortcutPreferencesActivity" />
+                <action android:name=".TalkBackFOSSKeyboardShortcutPreferencesActivity" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
@@ -182,7 +182,7 @@
             tools:ignore="ExportedActivity" >
             <!-- This preference activity can receive an implicit intent action -->
             <intent-filter>
-                <action android:name=".TalkBackVerbosityPreferencesActivity" />
+                <action android:name=".TalkBackFOSSVerbosityPreferencesActivity" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
@@ -197,7 +197,7 @@
             android:theme="@style/TalkBackSettings" >
             <!-- This preference activity can receive an implicit intent action -->
             <intent-filter>
-                <action android:name=".TalkBackDumpAccessibilityEventActivity" />
+                <action android:name=".TalkBackFOSSDumpAccessibilityEventActivity" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
@@ -213,7 +213,7 @@
             android:theme="@style/TalkBackSettings">
             <!-- This preference activity can receive an implicit intent action -->
             <intent-filter>
-                <action android:name=".preference.TalkBackCustomizeMenusPreferencesActivity" />
+                <action android:name=".preference.TalkBackFOSSCustomizeMenusPreferencesActivity" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
@@ -229,7 +229,7 @@
             android:theme="@style/TalkBackSettings">
             <!-- This preference activity can receive an implicit intent action -->
             <intent-filter>
-                <action android:name=".preference.TalkBackContextMenuPreferencesActivity" />
+                <action android:name=".preference.TalkBackFOSSContextMenuPreferencesActivity" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
@@ -245,7 +245,7 @@
             android:theme="@style/TalkBackSettings">
             <!-- This preference activity can receive an implicit intent action -->
             <intent-filter>
-                <action android:name=".preference.TalkBackNavigationMenuPreferencesActivity" />
+                <action android:name=".preference.TalkBackFOSSNavigationMenuPreferencesActivity" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
@@ -261,7 +261,7 @@
             android:theme="@style/TalkBackSettings">
             <!-- This preference activity can receive an implicit intent action -->
             <intent-filter>
-                <action android:name=".preference.TalkBackSelectorMenuPreferencesActivity" />
+                <action android:name=".preference.TalkBackFOSSSelectorMenuPreferencesActivity" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
@@ -277,7 +277,7 @@
             android:theme="@style/TalkBackSettings">
             <!-- This preference activity can receive an implicit intent action -->
             <intent-filter>
-                <action android:name=".preference.TalkBackSoundAndVibrationPreferencesActivity" />
+                <action android:name=".preference.TalkBackFOSSSoundAndVibrationPreferencesActivity" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
@@ -293,7 +293,7 @@
             android:theme="@style/TalkBackSettings">
             <!-- This preference activity can receive an implicit intent action -->
             <intent-filter>
-                <action android:name=".preference.TalkBackHelpPreferencesActivity" />
+                <action android:name=".preference.TalkBackFOSSHelpPreferencesActivity" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
@@ -309,7 +309,7 @@
             android:theme="@style/TalkBackSettings">
             <!-- This preference activity can receive an implicit intent action -->
             <intent-filter>
-                <action android:name=".preference.TalkBackAdvancedPreferencesActivity" />
+                <action android:name=".preference.TalkBackFOSSAdvancedPreferencesActivity" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
@@ -325,7 +325,7 @@
             android:theme="@style/TalkBackSettings">
             <!-- This preference activity can receive an implicit intent action -->
             <intent-filter>
-                <action android:name=".TalkBackDeveloperPreferencesActivity" />
+                <action android:name=".TalkBackFOSSDeveloperPreferencesActivity" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
@@ -359,7 +359,7 @@
             android:taskAffinity="com.google.android.accessibility.talkback.SettingsAffinity" >
             <!-- This preference activity can receive an implicit intent action -->
             <intent-filter>
-                <action android:name=".labeling.TalkBackSelectorPreferencesActivity" />
+                <action android:name=".labeling.TalkBackFOSSSelectorPreferencesActivity" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>

@@ -8,7 +8,7 @@
     <Preference
         android:key="@string/pref_manage_labels_key"
         android:title="@string/title_pref_manage_labels" >
-      <intent android:action=".labeling.TalkBackSelectorPreferencesActivity" />
+      <intent android:action=".labeling.TalkBackFOSSSelectorPreferencesActivity" />
     </Preference>
     <SwitchPreference
         android:defaultValue="@bool/pref_single_tap_default"
@@ -18,7 +18,7 @@
     <Preference
         android:key="@string/pref_category_manage_keyboard_shortcut_key"
         android:title="@string/title_pref_manage_keyboard_shortcuts" >
-      <intent android:action=".TalkBackKeyboardShortcutPreferencesActivity" />
+      <intent android:action=".TalkBackFOSSKeyboardShortcutPreferencesActivity" />
     </Preference>
     <SwitchPreference
         android:defaultValue="@bool/pref_resume_volume_buttons_long_click_default"
@@ -43,7 +43,7 @@
       android:key="@string/pref_category_developer_key"
       android:title="@string/title_pref_category_developer_settings"
       app:allowDividerAbove="true" >
-    <intent android:action=".TalkBackDeveloperPreferencesActivity" />
+    <intent android:action=".TalkBackFOSSDeveloperPreferencesActivity" />
   </Preference>
   <Preference
       android:key="@string/pref_policy_key"

@@ -36,7 +36,7 @@
         tools:ignore="ExportedActivity"
         >
       <intent-filter>
-        <action android:name=".BrailleImePreferencesActivity" />
+        <action android:name=".BrailleImeFOSSPreferencesActivity" />
         <category android:name="android.intent.category.DEFAULT" />
       </intent-filter>
     </activity>
