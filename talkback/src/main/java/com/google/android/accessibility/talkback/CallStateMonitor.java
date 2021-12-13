@@ -44,6 +44,7 @@ public class CallStateMonitor extends BroadcastReceiver {
       new IntentFilter(TelephonyManager.ACTION_PHONE_STATE_CHANGED);
 
   private final TalkBackService service;
+  private final boolean supportTelephony;
   private final TelephonyManager telephonyManager;
   private final List<CallStateChangedListener> callStateChangedListeners = new ArrayList<>();
 
@@ -52,6 +53,7 @@ public class CallStateMonitor extends BroadcastReceiver {
 
   public CallStateMonitor(TalkBackService context) {
     service = context;
+    supportTelephony = context.getPackageManager().hasSystemFeature("android.hardware.telephony");
     telephonyManager = (TelephonyManager) context.getSystemService(Context.TELEPHONY_SERVICE);
   }
 
@@ -91,7 +93,7 @@ public class CallStateMonitor extends BroadcastReceiver {
 
   /** Registers a callback to be invoked when phone call state changes. */
   public void addCallStateChangedListener(CallStateChangedListener listener) {
-    if (listener != null) {
+    if (listener != null && supportTelephony) {
       callStateChangedListeners.add(listener);
     }
   }
@@ -101,7 +103,7 @@ public class CallStateMonitor extends BroadcastReceiver {
    * ACTION_PHONE_STATE_CHANGED intent. This happens only if READ_PHONE_STATE permission is granted.
    */
   public void startMonitor() {
-    if (isStarted) {
+    if (isStarted || !supportTelephony) {
       return;
     }
     // Starting from M, permission model has changed, so that TalkBack is not granted with
@@ -121,7 +123,7 @@ public class CallStateMonitor extends BroadcastReceiver {
 
   /** Unregisters broadcast receiver and stop monitoring phone call state. */
   public void stopMonitor() {
-    if (isStarted) {
+    if (isStarted && supportTelephony) {
       LogUtils.d(TAG, "Stop monitoring call state.");
       service.unregisterReceiver(this);
       isStarted = false;
