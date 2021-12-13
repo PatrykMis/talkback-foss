@@ -138,7 +138,7 @@ public class VoiceActionMonitor implements EventFilter.VoiceActionDelegate {
       audioPlaybackMonitor.onResumeInfrastructure();
     }
     if (callStateMonitor != null) {
-      callStateMonitor.startMonitor();
+      callStateMonitor.startMonitoring();
     }
   }
 
@@ -148,7 +148,7 @@ public class VoiceActionMonitor implements EventFilter.VoiceActionDelegate {
       audioPlaybackMonitor.onSuspendInfrastructure();
     }
     if (callStateMonitor != null) {
-      callStateMonitor.stopMonitor();
+      callStateMonitor.stopMonitoring();
     }
   }
 
