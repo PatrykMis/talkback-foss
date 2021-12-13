@@ -102,7 +102,7 @@ public class CallStateMonitor extends BroadcastReceiver {
    * Starts monitoring phone call state by registering a broadcast receiver to listen to
    * ACTION_PHONE_STATE_CHANGED intent. This happens only if READ_PHONE_STATE permission is granted.
    */
-  public void startMonitor() {
+  public void startMonitoring() {
     if (isStarted || !supportTelephony) {
       return;
     }
@@ -122,7 +122,7 @@ public class CallStateMonitor extends BroadcastReceiver {
   }
 
   /** Unregisters broadcast receiver and stop monitoring phone call state. */
-  public void stopMonitor() {
+  public void stopMonitoring() {
     if (isStarted && supportTelephony) {
       LogUtils.d(TAG, "Stop monitoring call state.");
       service.unregisterReceiver(this);
