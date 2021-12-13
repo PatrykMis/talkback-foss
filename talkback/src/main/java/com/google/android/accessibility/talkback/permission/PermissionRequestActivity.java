@@ -25,7 +25,6 @@ import android.text.TextUtils;
 import androidx.core.app.ActivityCompat;
 import com.google.android.accessibility.talkback.R;
 import com.google.android.accessibility.talkback.utils.MaterialComponentUtils;
-import com.google.android.gms.annotation.Permissions;
 
 public class PermissionRequestActivity extends Activity {
     public static final String ACTION_DONE;
