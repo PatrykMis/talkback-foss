@@ -808,4 +808,7 @@
   <string name="talkback_inactive_title">Funzionalità TalkBack FOSS non attiva</string>
   <string name="talkback_inactive_message">Il tutorial richiede l\'attivazione di TalkBack FOSS. Prima di avviarlo, attiva TalkBack FOSS.</string>
   <string name="survey_closed">Sondaggio chiuso</string>
+  <string name="title_request_phone_permission">Consentire l\'accesso al telefono?</string>
+  <string name="message_request_phone_permission">Questo permette a TalkBack FOSS di ridurre gli annunci durante le chiamate</string>
+  <string name="continue_button">Continua</string>
 </resources>

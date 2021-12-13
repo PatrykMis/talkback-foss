@@ -808,4 +808,7 @@
   <string name="talkback_inactive_title">TalkBack FOSS Deaktiv edildi</string>
   <string name="talkback_inactive_message">Bu təlim videosu TalkBack FOSS\'in aktiv edilməsini tələb edir. Bu təlim videosunu başlatmazdan əvvəl, TalkBack FOSS\'i aktiv edin.</string>
   <string name="survey_closed">Sorğu bağlanıb</string>
+  <string name="title_request_phone_permission">Telefona girişə icazə verilsin?</string>
+  <string name="message_request_phone_permission">Bu, TalkBack FOSS-ə zəng edərkən elanları azaltmağa kömək edir</string>
+  <string name="continue_button">Davam edin</string>
 </resources>

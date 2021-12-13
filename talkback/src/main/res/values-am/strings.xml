@@ -808,4 +808,7 @@
   <string name="talkback_inactive_title">TalkBack FOSS ተሰናክሏል</string>
   <string name="talkback_inactive_message">ይሄ አጋዥ ስልጠና የTalkBack FOSS መንቃት ያስፈልገዋል። እባክዎ አጋዥ ስልጠናውን ከማስጀመርዎ በፊት TalkBack FOSSን ያብሩ።</string>
   <string name="survey_closed">የዳሰሳ ጥናቱ ተዘግቷል</string>
+  <string name="title_request_phone_permission">የስልክ መዳረሻ ይፈቀድ?</string>
+  <string name="message_request_phone_permission">ይህ ጥሪ ላይ በሚሆኑበት ጊዜ TalkBack FOSS ማስታወቂያዎችን እንዲቀንስ ይረዳዋል</string>
+  <string name="continue_button">ቀጥል</string>
 </resources>

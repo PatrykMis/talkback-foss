@@ -808,4 +808,7 @@
   <string name="talkback_inactive_title">Услугата TalkBack FOSS е деактивирана</string>
   <string name="talkback_inactive_message">За да се проведе това обучение, услугата TalkBack FOSS трябва да е активирана. Моля, включете я, преди да го стартирате.</string>
   <string name="survey_closed">Анкетата е затворена</string>
+  <string name="title_request_phone_permission">Да се разреши ли достъпа до телефона?</string>
+  <string name="message_request_phone_permission">Това помага на TalkBack FOSS да намали прекъсващите съобщения по време на обаждане</string>
+  <string name="continue_button">Напред</string>
 </resources>

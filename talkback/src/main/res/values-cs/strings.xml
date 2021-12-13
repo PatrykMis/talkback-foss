@@ -814,4 +814,7 @@
   <string name="talkback_inactive_title">Aplikace TalkBack FOSS je vypnutá</string>
   <string name="talkback_inactive_message">Tento výukový program vyžaduje aktivaci aplikace TalkBack FOSS. Před spuštěním výukového programu aplikaci TalkBack FOSS zapněte.</string>
   <string name="survey_closed">Průzkum byl ukončen</string>
+  <string name="title_request_phone_permission">Povolit přístup k telefonu?</string>
+  <string name="message_request_phone_permission">Toto oprávnění funkci TalkBack FOSS umožňuje snížit množství oznámení během hovorů</string>
+  <string name="continue_button">Pokračovat</string>
 </resources>

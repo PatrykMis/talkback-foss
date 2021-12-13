@@ -814,4 +814,7 @@
   <string name="talkback_inactive_title">Функция TalkBack FOSS отключена</string>
   <string name="talkback_inactive_message">Перед запуском руководства включите TalkBack FOSS.</string>
   <string name="survey_closed">Опрос закрыт</string>
+  <string name="title_request_phone_permission">Разрешить доступ к телефону?</string>
+  <string name="message_request_phone_permission">Это позволит TalkBack FOSS отключать некоторые подсказки во время звонка.</string>
+  <string name="continue_button">Продолжить</string>
 </resources>

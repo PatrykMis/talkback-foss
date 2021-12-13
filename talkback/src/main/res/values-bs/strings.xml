@@ -811,4 +811,7 @@
   <string name="talkback_inactive_title">TalkBack FOSS je onemogućen</string>
   <string name="talkback_inactive_message">Za ovaj vodič potrebno je da TalkBack FOSS bude omogućen. Uključite TalkBack FOSS prije pokretanja vodiča.</string>
   <string name="survey_closed">Anketa je zatvorena</string>
+  <string name="title_request_phone_permission">Dozvoliti pristup telefonu?</string>
+  <string name="message_request_phone_permission">To pomaže TalkBacku da smanji broj obavijesti tokom poziva</string>
+  <string name="continue_button">Nastavi</string>
 </resources>

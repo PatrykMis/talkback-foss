@@ -814,4 +814,7 @@
   <string name="talkback_inactive_title">TalkBack FOSS вимкнено</string>
   <string name="talkback_inactive_message">Перш ніж запустити цей навчальний посібник, увімкніть TalkBack FOSS.</string>
   <string name="survey_closed">Опитування закрито</string>
+  <string name="title_request_phone_permission">Надати доступ до телефона?</string>
+  <string name="message_request_phone_permission">Таким чином TalkBack FOSS зменшить кількість сповіщень під час дзвінків</string>
+  <string name="continue_button">Продовжити</string>
 </resources>

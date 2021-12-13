@@ -814,4 +814,7 @@
   <string name="talkback_inactive_title">Функцыя TalkBack FOSS выключана</string>
   <string name="talkback_inactive_message">Для выкарыстання гэтага дапаможніка патрабуецца ўключэнне функцыі TalkBack FOSS. Уключыце TalkBack FOSS перад яго запускам.</string>
   <string name="survey_closed">Апытанне закрыта</string>
+  <string name="title_request_phone_permission">Дазволіць доступ да тэлефона?</string>
+  <string name="message_request_phone_permission">Гэта дзеянне дапаможа TalkBack FOSS паменшыць колькасць апавяшчэнняў, якія будуць перашкаджаць падчас выкліку</string>
+  <string name="continue_button">Далей</string>
 </resources>

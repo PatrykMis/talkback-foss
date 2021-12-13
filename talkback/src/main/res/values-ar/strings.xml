@@ -820,4 +820,7 @@
   <string name="talkback_inactive_title">‏تم إيقاف TalkBack FOSS</string>
   <string name="talkback_inactive_message">‏يتطلب هذا الدليل التوجيهي تفعيل TalkBack FOSS. يُرجى تفعيل TalkBack FOSS قبل بدء الدليل التوجيهي.</string>
   <string name="survey_closed">تم إغلاق الاستطلاع.</string>
+  <string name="title_request_phone_permission">هل تريد السماح بالوصول إلى الهاتف؟</string>
+  <string name="message_request_phone_permission">‏يساعد هذا الإذن TalkBack FOSS في تقليل الإعلانات عندما تكون في مكالمة.</string>
+  <string name="continue_button">متابعة</string>
 </resources>

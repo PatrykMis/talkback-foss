@@ -808,4 +808,7 @@
   <string name="talkback_inactive_title">TalkBack FOSS অক্ষম কৰা আছে</string>
   <string name="talkback_inactive_message">এই টিউট’ৰিয়েলটোৰ বাবে TalkBack FOSS সক্ষম কৰা থাকিব লাগে। টিউট’ৰিয়েলটো আৰম্ভ কৰাৰ পূৰ্বে অনুগ্ৰহ কৰি TalkBack FOSS অন কৰক।</string>
   <string name="survey_closed">সমীক্ষাটো বন্ধ কৰা হৈছে</string>
+  <string name="title_request_phone_permission">ফ’ন এক্সেছ কৰাৰ অনুমতি দিবনে?</string>
+  <string name="message_request_phone_permission">আপুনি কল কৰি থাকোঁতে এই অনুমতিটোৱে TalkBack FOSSক ঘোষণা হ্ৰাস কৰাত সহায় কৰে</string>
+  <string name="continue_button">অব্যাহত ৰাখক</string>
 </resources>

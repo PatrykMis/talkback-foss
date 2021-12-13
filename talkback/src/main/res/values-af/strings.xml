@@ -808,4 +808,7 @@
   <string name="talkback_inactive_title">TalkBack FOSS is gedeaktiveer</string>
   <string name="talkback_inactive_message">Hierdie tutoriaal vereis dat TalkBack FOSS geaktiveer moet wees. Aktiveer asseblief TalkBack FOSS voordat jy die tutoriaal begin.</string>
   <string name="survey_closed">Opname is toegemaak</string>
+  <string name="title_request_phone_permission">Gee foontoegang?</string>
+      <string name="message_request_phone_permission">Dit help TalkBack FOSS om aankondigings te verminder wanneer jy besig is met \'n oproep</string>
+  <string name="continue_button">Gaan voort</string>
 </resources>

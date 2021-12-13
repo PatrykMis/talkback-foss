@@ -145,6 +145,15 @@
             </intent-filter>
         </activity>
 
+        <!-- TalkBack permission request -->
+        <activity
+            android:theme="@style/BlankActivityTheme"
+            android:name="com.google.android.accessibility.talkback.permission.PermissionRequestActivity"
+            android:exported="false"
+            android:excludeFromRecents="true"
+            android:noHistory="false" >
+        </activity>
+
         <!-- TalkBack Voice Commands Mic Activity Preference -->
         <activity
             android:name="com.google.android.accessibility.talkback.actor.voicecommands.SpeechRecognitionMicActivity"

@@ -808,4 +808,7 @@
   <string name="talkback_inactive_title">TalkBack FOSS বন্ধ করা রয়েছে</string>
   <string name="talkback_inactive_message">এই টিউটোরিয়াল চালু করতে TalkBack FOSS লাগবে। টিউটোরিয়াল লঞ্চ করার আগে TalkBack FOSS চালু করুন।</string>
   <string name="survey_closed">সমীক্ষা বন্ধ করা আছে</string>
+  <string name="title_request_phone_permission">ফোন অ্যাক্সেস করার অনুমতি দেবেন?</string>
+  <string name="message_request_phone_permission">আপনি কল করার সময় এটি টকব্যাকের ঘোষণা কমাতে সাহায্য করে।</string>
+  <string name="continue_button">চালিয়ে যান</string>
 </resources>

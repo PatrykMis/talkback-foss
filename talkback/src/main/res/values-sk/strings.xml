@@ -814,4 +814,7 @@
   <string name="talkback_inactive_title">Funkcia TalkBack FOSS je vypnutá</string>
   <string name="talkback_inactive_message">Tento návod vyžaduje, aby bola funkcia TalkBack FOSS zapnutá. Pred spustením návodu ju zapnite.</string>
   <string name="survey_closed">Prieskum je uzavretý</string>
+  <string name="title_request_phone_permission">Chcete povoliť prístup telefónu?</string>
+  <string name="message_request_phone_permission">Funkcii TalkBack FOSS to pomôže zredukovať oznamy počas hovoru</string>
+  <string name="continue_button">Pokračovať</string>
 </resources>

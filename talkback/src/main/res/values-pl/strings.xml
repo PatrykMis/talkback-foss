@@ -817,4 +817,7 @@
   <string name="talkback_inactive_title">Funkcja TalkBack FOSS jest wyłączona</string>
   <string name="talkback_inactive_message">Ten samouczek wymaga włączenia TalkBack FOSS. Zanim go uruchomisz, włącz tę funkcję.</string>
   <string name="survey_closed">Ankieta została zamknięta</string>
+  <string name="title_request_phone_permission">Zezwolić na dostęp do telefonu?</string>
+  <string name="message_request_phone_permission">Dzięki temu TalkBack FOSS ograniczy powiadomienia podczas połączeń telefonicznych</string>
+  <string name="continue_button">Dalej</string>
 </resources>

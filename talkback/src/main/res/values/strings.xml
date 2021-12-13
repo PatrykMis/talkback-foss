@@ -2268,4 +2268,7 @@
   <!-- For HaTS. -->
   <!-- Announce when a survey is closed. [CHAR_LIMIT=NONE]-->
   <string name="survey_closed">Survey closed</string>
+  <string name="title_request_phone_permission">Allow phone access?</string>
+  <string name="message_request_phone_permission">This helps TalkBack FOSS reduce announcements when you\'re on a call</string>
+  <string name="continue_button">Continue</string>
 </resources>
