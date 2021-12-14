@@ -233,6 +233,11 @@ public final class FeatureSupport {
     return BuildVersionUtils.isAtLeastR();
   }
 
+  /** Returns {@code true} if the device requires phone permission. */
+  public static boolean callStateRequiresPermission() {
+    return BuildVersionUtils.isAtLeastS();
+  }
+
   /** Returns {@code true} if the device has proximity sensor built-in. */
   public static boolean supportProximitySensor(Context context) {
     return ((SensorManager) context.getSystemService(SENSOR_SERVICE))

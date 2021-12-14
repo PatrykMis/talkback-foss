@@ -24,6 +24,7 @@ import android.content.IntentFilter;
 import android.content.pm.PackageManager;
 import android.content.SharedPreferences;
 import android.telephony.TelephonyManager;
+import android.text.TextUtils;
 import androidx.core.content.ContextCompat;
 import com.google.android.accessibility.talkback.permission.PermissionRequestActivity;
 import com.google.android.accessibility.utils.FeatureSupport;
@@ -57,12 +58,10 @@ public class CallStateMonitor extends BroadcastReceiver {
       context.unregisterReceiver(CallStateMonitor.this.permissionRequestReceiver);
       String[] permissions = intent.getStringArrayExtra(PermissionRequestActivity.PERMISSIONS);
       int[] grantResults = intent.getIntArrayExtra(PermissionRequestActivity.GRANT_RESULTS);
-      if (permissions == null || grantResults == null) {
-		      return;
-		    } else {
-        for (int i = 0; i < permissions.length; i++) {
+      if (!(permissions == null || grantResults == null)) {
+		              for (int i = 0; i < permissions.length; i++) {
           if (TextUtils.equals(permissions[i], Permissions.READ_PHONE_STATE) && grantResults[i] == 0) {
-            CallStateMonitor.startMonitoring();
+            CallStateMonitor.this.startMonitoring();
           }
         }
       }

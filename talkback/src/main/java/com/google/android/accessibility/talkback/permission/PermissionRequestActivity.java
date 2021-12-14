@@ -20,8 +20,8 @@ import android.app.Activity;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.app.AlertDialog;
 import android.text.TextUtils;
+import androidx.appcompat.app.AlertDialog;
 import androidx.core.app.ActivityCompat;
 import com.google.android.accessibility.talkback.R;
 import com.google.android.accessibility.talkback.utils.MaterialComponentUtils;
@@ -46,12 +46,16 @@ public class PermissionRequestActivity extends Activity {
                 ActivityCompat.requestPermissions(this, permissions, 1);
                 return;
             }
-            AlertDialog alertDialog = MaterialComponentUtils.alertDialogBuilder(this).setTitle(R.string.title_request_phone_permission).setMessage(R.string.message_request_phone_permission).setPositiveButton(R.string.continue_button, new DialogInterface.OnClickListener() {
+            AlertDialog alertDialog = MaterialComponentUtils.alertDialogBuilder(this)
+            .setTitle(R.string.title_request_phone_permission)
+            .setMessage(R.string.message_request_phone_permission)
+            .setPositiveButton(R.string.continue_button, new DialogInterface.OnClickListener() {
                 @Override
                 public final void onClick(DialogInterface dialogInterface, int i) {
                     PermissionRequestActivity.this.lambda$onResume$0$PermissionRequestActivity(dialogInterface, i);
                 }
-            }).setNegativeButton(17039360, (DialogInterface.OnClickListener) null).create();
+            })
+            .setNegativeButton(android.R.string.cancel, null).create();
             alertDialog.setCanceledOnTouchOutside(true);
             alertDialog.show();
         }
