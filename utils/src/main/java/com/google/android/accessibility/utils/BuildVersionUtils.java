@@ -60,4 +60,8 @@ public class BuildVersionUtils {
   public static boolean isAtLeastR() {
     return Build.VERSION.SDK_INT >= API_R || BuildCompat.isAtLeastR();
   }
+
+  public static boolean isAtLeastS() {
+    return Build.VERSION.SDK_INT >= 31 || BuildCompat.isAtLeastS();
+  }
 }
