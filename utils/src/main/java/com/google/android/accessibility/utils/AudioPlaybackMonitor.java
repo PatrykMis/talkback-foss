@@ -71,22 +71,18 @@ public class AudioPlaybackMonitor {
   @TargetApi(Build.VERSION_CODES.O)
   public AudioPlaybackMonitor(Context context) {
     audioManager = (AudioManager) context.getSystemService(Context.AUDIO_SERVICE);
-    if (BuildVersionUtils.isAtLeastO()) {
-      audioPlaybackCallback =
-          new AudioManager.AudioPlaybackCallback() {
-            @Override
-            public void onPlaybackConfigChanged(List<AudioPlaybackConfiguration> configs) {
-              super.onPlaybackConfigChanged(configs);
-              final boolean isPlaying = containsAudioPlaybackSources(configs);
-              if (listener != null && !AudioPlaybackMonitor.this.isPlaying && isPlaying) {
-                listener.onAudioPlaybackActivated();
-              }
-              AudioPlaybackMonitor.this.isPlaying = isPlaying;
+    audioPlaybackCallback =
+        new AudioManager.AudioPlaybackCallback() {
+          @Override
+          public void onPlaybackConfigChanged(List<AudioPlaybackConfiguration> configs) {
+            super.onPlaybackConfigChanged(configs);
+            final boolean isPlaying = containsAudioPlaybackSources(configs);
+            if (listener != null && !AudioPlaybackMonitor.this.isPlaying && isPlaying) {
+              listener.onAudioPlaybackActivated();
             }
-          };
-    } else {
-      audioPlaybackCallback = null;
-    }
+            AudioPlaybackMonitor.this.isPlaying = isPlaying;
+          }
+        };
   }
 
   public boolean isAudioPlaybackActive() {
@@ -98,9 +94,6 @@ public class AudioPlaybackMonitor {
   }
 
   public boolean isPlaybackSourceActive(PlaybackSource source) {
-    if (!BuildVersionUtils.isAtLeastO() || source == null) {
-      return false;
-    }
     List<AudioPlaybackConfiguration> configs = audioManager.getActivePlaybackConfigurations();
     for (AudioPlaybackConfiguration config : configs) {
       if (config.getAudioAttributes().getUsage() == source.getId()) {
@@ -131,9 +124,6 @@ public class AudioPlaybackMonitor {
 
   /** Returns status summary for logging only. */
   public String getStatusSummary() {
-    if (!BuildVersionUtils.isAtLeastO()) {
-      return "";
-    }
     String result = "";
     result += "[";
     for (PlaybackSource source : PlaybackSource.values()) {

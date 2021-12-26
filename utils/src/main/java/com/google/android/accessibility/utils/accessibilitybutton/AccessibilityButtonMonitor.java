@@ -308,14 +308,7 @@ public class AccessibilityButtonMonitor {
           }
           break;
         case MSG_CONFIRM_BUTTON_SUPPORTABILITY_DELAYED:
-          boolean isAvailable;
-          if (BuildVersionUtils.isAtLeastOMR1()) {
-            isAvailable = AccessibilityManager.isAccessibilityButtonSupported();
-          } else {
-            isAvailable =
-                AccessibilityServiceCompatUtils.isAccessibilityButtonAvailableCompat(
-                    parent.mService.getAccessibilityButtonController());
-          }
+          boolean isAvailable = AccessibilityManager.isAccessibilityButtonSupported();
           parent.mButtonState = isAvailable ? SUPPORTED : NOT_SUPPORTED;
           if (!mHasNotifiedSupportability) {
             LogUtils.d(

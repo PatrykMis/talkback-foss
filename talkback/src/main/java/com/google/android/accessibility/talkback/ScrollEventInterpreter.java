@@ -169,7 +169,7 @@ public class ScrollEventInterpreter implements AccessibilityEventListener {
    * Timeout to determine whether a scroll event could be resulted from the last scroll action.
    * REFERTO Extends the timeout for M devices due to late TYPE_VIEW_SCROLLED event.
    */
-  public static final int SCROLL_TIMEOUT_MS = BuildVersionUtils.isAtLeastN() ? 500 : 1000;
+  public static final int SCROLL_TIMEOUT_MS = 500;
 
   /** Undefined scroll position index. */
   private static final int INDEX_UNDEFINED = -1;

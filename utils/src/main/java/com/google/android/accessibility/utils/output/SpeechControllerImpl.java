@@ -1564,21 +1564,14 @@ public class SpeechControllerImpl implements SpeechController {
     }
 
     boolean useAudioFocus = mUseAudioFocus;
-    if (BuildVersionUtils.isAtLeastN()) {
-      List<AudioRecordingConfiguration> recordConfigurations =
-          mAudioManager.getActiveRecordingConfigurations();
-      if (recordConfigurations.size() != 0) {
-        useAudioFocus = false;
-      }
+    List<AudioRecordingConfiguration> recordConfigurations =
+        mAudioManager.getActiveRecordingConfigurations();
+    if (recordConfigurations.size() != 0) {
+      useAudioFocus = false;
     }
 
     if (useAudioFocus) {
-      if (BuildVersionUtils.isAtLeastO()) {
-        mAudioManager.requestAudioFocus(mAudioFocusRequest);
-      } else {
-        mAudioManager.requestAudioFocus(
-            mAudioFocusListener, DEFAULT_STREAM, AudioManager.AUDIOFOCUS_GAIN_TRANSIENT_MAY_DUCK);
-      }
+      mAudioManager.requestAudioFocus(mAudioFocusRequest);
     }
 
     if (mIsSpeaking) {
@@ -1606,11 +1599,7 @@ public class SpeechControllerImpl implements SpeechController {
     }
 
     if (mUseAudioFocus) {
-      if (BuildVersionUtils.isAtLeastO()) {
-        mAudioManager.abandonAudioFocusRequest(mAudioFocusRequest);
-      } else {
-        mAudioManager.abandonAudioFocus(mAudioFocusListener);
-      }
+      mAudioManager.abandonAudioFocusRequest(mAudioFocusRequest);
     }
 
     if (!mIsSpeaking) {
@@ -1985,17 +1974,14 @@ public class SpeechControllerImpl implements SpeechController {
       };
 
   @Nullable
-  private final AudioFocusRequest mAudioFocusRequest =
-      BuildVersionUtils.isAtLeastO()
-          ? new AudioFocusRequest.Builder(AudioManager.AUDIOFOCUS_GAIN_TRANSIENT_MAY_DUCK)
+  private final AudioFocusRequest mAudioFocusRequest = new AudioFocusRequest.Builder(AudioManager.AUDIOFOCUS_GAIN_TRANSIENT_MAY_DUCK)
               .setOnAudioFocusChangeListener(mAudioFocusListener, mHandler)
               .setAudioAttributes(
                   new AudioAttributes.Builder()
                       .setContentType(AudioAttributes.CONTENT_TYPE_SPEECH)
                       .setUsage(AudioAttributes.USAGE_ASSISTANCE_ACCESSIBILITY)
                       .build())
-              .build()
-          : null;
+              .build();
 
   /** An action that should be performed before a particular utterance index starts. */
   private static class UtteranceStartAction implements Comparable<UtteranceStartAction> {

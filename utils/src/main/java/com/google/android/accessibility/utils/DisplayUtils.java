@@ -69,14 +69,7 @@ public final class DisplayUtils {
     Configuration configuration = new Configuration(res.getConfiguration());
 
     /* get default display density */
-    if (BuildVersionUtils.isAtLeastN()) {
-      configuration.densityDpi = DisplayMetrics.DENSITY_DEVICE_STABLE;
-    } else {
-      WindowManager wm = (WindowManager) context.getSystemService(Context.WINDOW_SERVICE);
-      DisplayMetrics dm = new DisplayMetrics();
-      wm.getDefaultDisplay().getRealMetrics(dm);
-      configuration.densityDpi = dm.densityDpi;
-    }
+    configuration.densityDpi = DisplayMetrics.DENSITY_DEVICE_STABLE;
     configuration.setTo(configuration);
 
     return context.createConfigurationContext(configuration);

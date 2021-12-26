@@ -41,10 +41,7 @@ public class FeedbackController {
   private static final String TAG = "FeedbackController";
 
   /** Default stream for audio feedback. */
-  public static final int DEFAULT_STREAM =
-      BuildVersionUtils.isAtLeastO()
-          ? AudioManager.STREAM_ACCESSIBILITY
-          : AudioManager.STREAM_MUSIC;
+  public static final int DEFAULT_STREAM = AudioManager.STREAM_ACCESSIBILITY;
 
   /** Maximum number of concurrent audio streams. */
   private static final int MAX_STREAMS = 10;
