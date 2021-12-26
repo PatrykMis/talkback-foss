@@ -94,6 +94,9 @@ public class AudioPlaybackMonitor {
   }
 
   public boolean isPlaybackSourceActive(PlaybackSource source) {
+	   if (source == null) {
+		    return false;
+		  }
     List<AudioPlaybackConfiguration> configs = audioManager.getActivePlaybackConfigurations();
     for (AudioPlaybackConfiguration config : configs) {
       if (config.getAudioAttributes().getUsage() == source.getId()) {
