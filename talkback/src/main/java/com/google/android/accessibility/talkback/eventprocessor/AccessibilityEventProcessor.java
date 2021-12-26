@@ -58,12 +58,6 @@ public class AccessibilityEventProcessor {
   private static final String DUMP_EVENT_LOG_FORMAT = "A11yEventDumper: %s";
   private TalkBackListener testingListener;
 
-  /**
-   * Used to not drop TYPE_VIEW_ACCESSIBILITY_FOCUS_CLEARED for the below android versions to fix
-   * permissions dialog overlay
-   */
-  private static final boolean API_REQUIRES_PERMISSION_OVERLAY = !BuildVersionUtils.isAtLeastNMR1();
-
   /** Event types to drop after receiving a window state change. */
   public static final int AUTOMATIC_AFTER_STATE_CHANGE =
       AccessibilityEvent.TYPE_VIEW_FOCUSED
@@ -279,14 +273,6 @@ public class AccessibilityEventProcessor {
             lastClearedSourceId = -1;
             lastClearedWindowId = -1;
             lastClearA11yFocus = 0;
-          }
-          // The event needs to be sent to ProcessorPermissionDialogs
-          // to clear the overlay
-          if (source != null
-              && API_REQUIRES_PERMISSION_OVERLAY
-              && TextUtils.equals(
-                  ProcessorPermissionDialogs.ALLOW_BUTTON, source.getViewIdResourceName())) {
-            return false;
           }
         } catch (Exception e) {
           LogUtils.d(TAG, "Exception accessing field: " + e.toString());

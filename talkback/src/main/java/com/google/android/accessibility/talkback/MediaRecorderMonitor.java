@@ -64,24 +64,20 @@ public class MediaRecorderMonitor {
 
   public MediaRecorderMonitor(Context context) {
     audioManager = (AudioManager) context.getSystemService(Context.AUDIO_SERVICE);
-    if (BuildVersionUtils.isAtLeastN()) {
-      audioRecordingCallback =
-          new AudioRecordingCallback() {
-            @Override
-            public void onRecordingConfigChanged(List<AudioRecordingConfiguration> configs) {
-              super.onRecordingConfigChanged(configs);
-              isVoiceRecognitionActive =
-                  containsAudioSource(configs, AudioSource.VOICE_RECOGNITION);
-              final boolean isRecording = containsAudioSources(configs);
-              if (!MediaRecorderMonitor.this.isRecording && isRecording) {
-                listener.onMicrophoneActivated();
-              }
-              MediaRecorderMonitor.this.isRecording = isRecording;
+    audioRecordingCallback =
+        new AudioRecordingCallback() {
+          @Override
+          public void onRecordingConfigChanged(List<AudioRecordingConfiguration> configs) {
+            super.onRecordingConfigChanged(configs);
+            isVoiceRecognitionActive =
+                containsAudioSource(configs, AudioSource.VOICE_RECOGNITION);
+            final boolean isRecording = containsAudioSources(configs);
+            if (!MediaRecorderMonitor.this.isRecording && isRecording) {
+              listener.onMicrophoneActivated();
             }
-          };
-    } else {
-      audioRecordingCallback = null;
-    }
+            MediaRecorderMonitor.this.isRecording = isRecording;
+          }
+        };
   }
 
   public boolean isMicrophoneActive() {

@@ -923,34 +923,16 @@ public class CollectionState {
     return true;
   }
 
-  /**
-   * Don't compute headers if: (1) API level is pre-N, and (2) the collection root is not a
-   * descendant of a WebView, and (3) the collection root is itself a ListView or GridView.
-   *
-   * <p>Under these circumstances, the framework ListView/GridView will mark headers as non-headers
-   * and vice-versa.
-   */
   private static boolean shouldComputeHeaders(@NonNull AccessibilityNodeInfoCompat collectionRoot) {
-    if (Build.VERSION.SDK_INT < Build.VERSION_CODES.N) {
-      if (!AccessibilityNodeInfoUtils.hasMatchingAncestor(collectionRoot, FILTER_WEBVIEW)) {
-        // TODO: Convert to use Role.
-        // Bugs exist in specific classes, so check class names and not roles.
-        if (AccessibilityNodeInfoUtils.nodeIsListOrGrid(collectionRoot)) {
-          return false;
-        }
-      }
-    }
-
     return true;
   }
 
   /**
-   * Don't compute indices or row/column counts if: (1) API level is pre-N, (2) the collection root
-   * is not a descendant of a WebView, and (3) the collection root is not a pager.
+   * Don't compute indices or row/column counts if: (1) the collection root
+   * is not a descendant of a WebView, and (2) the collection root is not a pager.
    *
    * <p>Item indices are broken in some major first-party apps that use "spacer" items in
-   * collections; this check makes sure no apps in the wild are affected. TODO: Re-evaluate
-   * this check before N release to see if it needs to be extended to N.
+   * collections; this check makes sure no apps in the wild are affected.
    *
    * <p>Always compute for pagers. The ability to have pagers with collections was introduced after
    * these bugs, and visually pagers should not have "spacer" items.
@@ -960,12 +942,6 @@ public class CollectionState {
     if (Role.getRole(collectionRoot) == Role.ROLE_PAGER) {
       return true;
     }
-    if (Build.VERSION.SDK_INT < Build.VERSION_CODES.N) {
-      if (!AccessibilityNodeInfoUtils.hasMatchingAncestor(collectionRoot, FILTER_WEBVIEW)) {
-        return false;
-      }
-    }
-
     return true;
   }
 }

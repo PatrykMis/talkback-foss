@@ -43,11 +43,6 @@ public class BootReceiver extends BroadcastReceiver {
         service.onLockedBootCompleted(eventId);
         break;
       case Intent.ACTION_BOOT_COMPLETED:
-        if (!BuildVersionUtils.isAtLeastN()) {
-          // Pre-N devices will never get LOCKED_BOOT, so we need to do the locked-boot
-          // initialization here right before we do the unlocked-boot initialization.
-          service.onLockedBootCompleted(eventId);
-        }
         service.onUnlockedBootCompleted();
         break;
       default: // fall out

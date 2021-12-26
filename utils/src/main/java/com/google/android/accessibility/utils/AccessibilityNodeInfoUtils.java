@@ -1637,22 +1637,14 @@ public class AccessibilityNodeInfoUtils {
     // translation from the DOM to the AccessibilityNodeInfo.) To avoid labeling views that don't
     // support scrolling (e.g. REFERTO), check for the explicit presence of
     // AccessibilityActions.
-    if (BuildVersionUtils.isM() || BuildVersionUtils.isAtLeastN()) {
-      return supportsAnyAction(
-          node,
-          AccessibilityAction.ACTION_SCROLL_FORWARD,
-          AccessibilityAction.ACTION_SCROLL_BACKWARD,
-          AccessibilityAction.ACTION_SCROLL_DOWN,
-          AccessibilityAction.ACTION_SCROLL_UP,
-          AccessibilityAction.ACTION_SCROLL_RIGHT,
-          AccessibilityAction.ACTION_SCROLL_LEFT);
-    } else {
-      // Directional scrolling is not available pre-M.
-      return supportsAnyAction(
-          node,
-          AccessibilityAction.ACTION_SCROLL_FORWARD,
-          AccessibilityAction.ACTION_SCROLL_BACKWARD);
-    }
+    return supportsAnyAction(
+        node,
+        AccessibilityAction.ACTION_SCROLL_FORWARD,
+        AccessibilityAction.ACTION_SCROLL_BACKWARD,
+        AccessibilityAction.ACTION_SCROLL_DOWN,
+        AccessibilityAction.ACTION_SCROLL_UP,
+        AccessibilityAction.ACTION_SCROLL_RIGHT,
+        AccessibilityAction.ACTION_SCROLL_LEFT);
   }
 
   /**
@@ -1720,12 +1712,6 @@ public class AccessibilityNodeInfoUtils {
       parent = node.getParent();
       if (parent == null) {
         // Not a child node of anything.
-        return false;
-      }
-
-      // Certain scrollable views in M's Android TV SetupWraith are permanently broken and
-      // won't ever be fixed because the setup wizard is bundled. This affects <= M only.
-      if (!BuildVersionUtils.isAtLeastN() && FILTER_BROKEN_LISTS_TV_M.accept(parent)) {
         return false;
       }
 
@@ -2172,7 +2158,7 @@ public class AccessibilityNodeInfoUtils {
   @Nullable
   public static List<Rect> getTextLocations(
       AccessibilityNodeInfoCompat node, CharSequence text, int fromCharIndex, int toCharIndex) {
-    if (node == null || !BuildVersionUtils.isAtLeastO()) {
+    if (node == null) {
       return null;
     }
 
@@ -2217,7 +2203,7 @@ public class AccessibilityNodeInfoUtils {
   /** Returns true if the node supports text location data. */
   @TargetApi(Build.VERSION_CODES.O)
   public static boolean supportsTextLocation(AccessibilityNodeInfoCompat node) {
-    if (!BuildVersionUtils.isAtLeastO() || node == null) {
+    if (node == null) {
       return false;
     }
     AccessibilityNodeInfo info = node.unwrap();
@@ -2264,10 +2250,6 @@ public class AccessibilityNodeInfoUtils {
    * must recycle the node that is returned from this method.
    */
   public static AccessibilityNodeInfoCompat getAnchor(@Nullable AccessibilityNodeInfoCompat node) {
-    if (!BuildVersionUtils.isAtLeastN()) {
-      return null;
-    }
-
     if (node == null) {
       return null;
     }

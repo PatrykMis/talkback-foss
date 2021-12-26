@@ -1596,9 +1596,7 @@ public class TalkBackService extends AccessibilityService
     info.flags |= AccessibilityServiceInfo.FLAG_REPORT_VIEW_IDS;
     info.flags |= AccessibilityServiceInfo.FLAG_REQUEST_FILTER_KEY_EVENTS;
     info.flags |= AccessibilityServiceInfo.FLAG_RETRIEVE_INTERACTIVE_WINDOWS;
-    if (BuildVersionUtils.isAtLeastO()) {
-      info.flags |= AccessibilityServiceInfo.FLAG_ENABLE_ACCESSIBILITY_VOLUME;
-    }
+    info.flags |= AccessibilityServiceInfo.FLAG_ENABLE_ACCESSIBILITY_VOLUME;
     info.flags |= ExperimentalUtils.getAddtionalTalkBackServiceFlags();
     if (FeatureSupport.isMultiFingerGestureSupported()) {
       info.flags |=
@@ -1677,11 +1675,9 @@ public class TalkBackService extends AccessibilityService
       registerReceiver(televisionDPadManager, TelevisionDPadManager.getFilter());
     }
 
-    if (BuildVersionUtils.isAtLeastN()) {
-      MagnificationController magnificationController = getMagnificationController();
-      if (magnificationController != null && onMagnificationChangedListener != null) {
-        magnificationController.addListener(onMagnificationChangedListener);
-      }
+    MagnificationController magnificationController = getMagnificationController();
+    if (magnificationController != null && onMagnificationChangedListener != null) {
+      magnificationController.addListener(onMagnificationChangedListener);
     }
 
     if ((fingerprintGestureCallback != null) && (getFingerprintGestureController() != null)) {
@@ -1774,11 +1770,9 @@ public class TalkBackService extends AccessibilityService
     final NotificationManager nm = (NotificationManager) getSystemService(NOTIFICATION_SERVICE);
     nm.cancelAll();
 
-    if (BuildVersionUtils.isAtLeastN()) {
-      MagnificationController magnificationController = getMagnificationController();
-      if (magnificationController != null && onMagnificationChangedListener != null) {
-        magnificationController.removeListener(onMagnificationChangedListener);
-      }
+    MagnificationController magnificationController = getMagnificationController();
+    if (magnificationController != null && onMagnificationChangedListener != null) {
+      magnificationController.removeListener(onMagnificationChangedListener);
     }
 
     if ((fingerprintGestureCallback != null) && (getFingerprintGestureController() != null)) {

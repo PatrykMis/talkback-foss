@@ -63,26 +63,11 @@ public class AccessibilityWindowInfoUtils {
 
   /** Returns window bounds. */
   public static @Nullable Rect getBounds(AccessibilityWindowInfo window) {
-    if (BuildVersionUtils.isAtLeastO()) {
-      // Rely on window bounds in newer android. Root view may be larger than window, particularly
-      // for the split-screen window with launcher in window-2 position.
-      Rect bounds = new Rect();
-      window.getBoundsInScreen(bounds);
-      return bounds;
-    } else {
-      // Get bounds from root view, because some window bounds may be inaccurate on older android.
-      AccessibilityNodeInfo root = getRoot(window);
-      try {
-        if (root == null) {
-          return null;
-        }
-        Rect bounds = new Rect();
-        root.getBoundsInScreen(bounds);
-        return bounds;
-      } finally {
-        AccessibilityNodeInfoUtils.recycleNodes(root);
-      }
-    }
+    // Rely on window bounds. Root view may be larger than window, particularly
+    // for the split-screen window with launcher in window-2 position.
+    Rect bounds = new Rect();
+    window.getBoundsInScreen(bounds);
+    return bounds;
   }
 
   /**
@@ -106,7 +91,7 @@ public class AccessibilityWindowInfoUtils {
 
   @TargetApi(VERSION_CODES.O)
   public static boolean isPictureInPicture(@Nullable AccessibilityWindowInfo window) {
-    return BuildVersionUtils.isAtLeastO() && (window != null) && window.isInPictureInPictureMode();
+    return (window != null) && window.isInPictureInPictureMode();
   }
 
   public static boolean equals(AccessibilityWindowInfo window1, AccessibilityWindowInfo window2) {

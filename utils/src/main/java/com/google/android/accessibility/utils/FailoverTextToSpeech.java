@@ -317,44 +317,6 @@ public class FailoverTextToSpeech {
   /** Adjust volume if we are in a phone call and speaking with phone audio stream * */
   private float calculateVolumeAdjustment() {
     float multiple = 1.0f;
-
-    // Accessibility services will eventually have their own audio stream, making this
-    // adjustment unnecessary.
-    if (!BuildVersionUtils.isAtLeastN()) {
-
-      // If we are in a phone call...
-      // (Phone call state is often reported late, missing the first utterance.)
-      if (mTelephonyManager != null) {
-        int callState = mTelephonyManager.getCallState();
-        if (callState != TelephonyManager.CALL_STATE_IDLE) {
-          // find audio stream volumes
-          if (mAudioManager != null) {
-            int volumeMusic = mAudioManager.getStreamVolume(AudioManager.STREAM_MUSIC);
-            if (volumeMusic <= 0) {
-              return 0.0f;
-            }
-            int volumeVoice = mAudioManager.getStreamVolume(AudioManager.STREAM_VOICE_CALL);
-            int maxVolMusic = mAudioManager.getStreamMaxVolume(AudioManager.STREAM_MUSIC);
-            int maxVolVoice = mAudioManager.getStreamMaxVolume(AudioManager.STREAM_VOICE_CALL);
-            float volumeMusicFrac =
-                (maxVolMusic <= 0) ? -1.0f : (float) volumeMusic / (float) maxVolMusic;
-            float volumeVoiceCallFrac =
-                (maxVolVoice <= 0) ? -1.0f : (float) volumeVoice / (float) maxVolVoice;
-            // If phone volume is higher than talkback/media volume...
-            if (0.0f <= volumeMusicFrac && volumeMusicFrac < volumeVoiceCallFrac) {
-              // Reduce effective volume closer to media volume.
-              // The UI volume seekbars have an exponential effect on volume,
-              // but text-to-speech volume multiple has a linear effect.
-              // So take the Nth root of the volume difference to reduce speech
-              // volume multiplier exponentially, to match the volume seekbar effect.
-              float diff = volumeVoiceCallFrac - volumeMusicFrac;
-              float num_doubling_steps = diff / VOLUME_FRAC_PER_DOUBLING;
-              multiple = (float) Math.pow(2.0f, -num_doubling_steps);
-            }
-          }
-        }
-      }
-    }
     return multiple;
   }
 
@@ -391,7 +353,6 @@ public class FailoverTextToSpeech {
   public void stopAll() {
     try {
       allowDeviceSleep();
-      ensureQueueFlush();
       mTts.speak("", SPEECH_FLUSH_ALL, null);
     } catch (Exception e) {
       // Don't care, we're not speaking.
@@ -493,18 +454,7 @@ public class FailoverTextToSpeech {
     bundle.putInt(Engine.KEY_PARAM_STREAM, stream);
     bundle.putFloat(SpeechParam.VOLUME, volume);
 
-    ensureQueueFlush();
     return mTts.speak(text, SPEECH_FLUSH_ALL, bundle, utteranceId);
-  }
-
-  /**
-   * Flushes the TextToSpeech queue for fast speech queueing, needed only on Android M.
-   * REFERTO
-   */
-  private void ensureQueueFlush() {
-    if (BuildVersionUtils.isM()) {
-      mTts.speak("", TextToSpeech.QUEUE_FLUSH, null, null);
-    }
   }
 
   /**

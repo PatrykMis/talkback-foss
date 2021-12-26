@@ -72,15 +72,6 @@ public class DirectionalTraversalStrategy implements TraversalStrategy {
     mRootRectPadded.inset(fudge, fudge);
 
     processNodes(mRoot, false /* forceRefresh */);
-
-    // Before N, sometimes AccessibilityNodeInfo is not properly updated after transitions
-    // occur. This was fixed in a system framework change for N. REFERTO for context.
-    // To work-around, manually refresh AccessibilityNodeInfo if it initially
-    // looks like there's nothing to focus on.
-    if (mFocusables.isEmpty() && !BuildVersionUtils.isAtLeastN()) {
-      recycle(false /* recycleRoot */);
-      processNodes(mRoot, true /* forceRefresh */);
-    }
   }
 
   /**

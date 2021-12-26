@@ -196,15 +196,7 @@ public class AccessibilityEventUtils {
     // TODO: Find better way to handle volume slider.
     CharSequence packageName = event.getPackageName();
     CharSequence sourceClassName = event.getClassName();
-    boolean isVolumeInAndroidP =
-        BuildVersionUtils.isAtLeastP()
-            && TextUtils.equals(sourceClassName, VOLUME_CONTROLS_CLASS_IN_ANDROID_P);
-    boolean isVolumeInAndroidO =
-        BuildVersionUtils.isAtLeastO()
-            && (!BuildVersionUtils.isAtLeastP())
-            && TextUtils.equals(sourceClassName, VOLUME_DIALOG_CLASS_NAME);
-    return TextUtils.equals(SYSTEM_UI_PACKAGE_NAME, packageName)
-        && (isVolumeInAndroidO || isVolumeInAndroidP);
+    return TextUtils.equals(SYSTEM_UI_PACKAGE_NAME, packageName);
   }
 
   /** Returns whether the {@link AccessibilityEvent} contains {@link Notification} data. */
@@ -581,16 +573,15 @@ public class AccessibilityEventUtils {
   // Methods to get scroll data
 
   public static int getScrollDeltaX(AccessibilityEvent event) {
-    return BuildVersionUtils.isAtLeastP() ? event.getScrollDeltaX() : DELTA_UNDEFINED;
+    return event.getScrollDeltaX();
   }
 
   public static int getScrollDeltaY(AccessibilityEvent event) {
-    return BuildVersionUtils.isAtLeastP() ? event.getScrollDeltaY() : DELTA_UNDEFINED;
+    return event.getScrollDeltaY();
   }
 
   public static boolean hasValidScrollDelta(AccessibilityEvent event) {
-    return BuildVersionUtils.isAtLeastP()
-        && ((event.getScrollDeltaX() != DELTA_UNDEFINED)
+    return ((event.getScrollDeltaX() != DELTA_UNDEFINED)
             || (event.getScrollDeltaY() != DELTA_UNDEFINED));
   }
 }

@@ -100,9 +100,7 @@ public final class PreferenceSettingsUtils {
   public static void setPreferencesFromResource(
       PreferenceFragmentCompat preferenceFragment, @XmlRes int preferencesResId, String key) {
     // Set preferences to use device-protected storage.
-    if (BuildVersionUtils.isAtLeastN()) {
-      preferenceFragment.getPreferenceManager().setStorageDeviceProtected();
-    }
+    preferenceFragment.getPreferenceManager().setStorageDeviceProtected();
     preferenceFragment.setPreferencesFromResource(preferencesResId, key);
   }
 
@@ -113,9 +111,7 @@ public final class PreferenceSettingsUtils {
   public static void addPreferencesFromResource(
       PreferenceFragmentCompat preferenceFragment, @XmlRes int preferencesResId) {
     // Set preferences to use device-protected storage.
-    if (BuildVersionUtils.isAtLeastN()) {
-      preferenceFragment.getPreferenceManager().setStorageDeviceProtected();
-    }
+    preferenceFragment.getPreferenceManager().setStorageDeviceProtected();
     preferenceFragment.addPreferencesFromResource(preferencesResId);
   }
 
@@ -126,9 +122,7 @@ public final class PreferenceSettingsUtils {
   public static void addPreferencesFromResource(
       PreferenceFragment preferenceFragment, @XmlRes int preferencesResId) {
     // Set preferences to use device-protected storage.
-    if (BuildVersionUtils.isAtLeastN()) {
-      preferenceFragment.getPreferenceManager().setStorageDeviceProtected();
-    }
+    preferenceFragment.getPreferenceManager().setStorageDeviceProtected();
     preferenceFragment.addPreferencesFromResource(preferencesResId);
   }
 
