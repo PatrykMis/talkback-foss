@@ -46,7 +46,7 @@ class LibLouisTranslator implements Translator {
     File tablesDir;
     // Extract tables to device storage so we can read tables before device is unlocked after
     // reboot.
-      context = ContextCompat.createDeviceProtectedStorageContext(context);
+    context = ContextCompat.createDeviceProtectedStorageContext(context);
     File customTablesDir = context.getExternalFilesDir(/* type= */ null);
     File customTablesSubDir = new File(customTablesDir, "/liblouis/tables");
     File[] files = customTablesSubDir.listFiles();
