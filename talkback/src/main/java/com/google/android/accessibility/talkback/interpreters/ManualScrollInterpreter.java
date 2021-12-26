@@ -100,10 +100,6 @@ public class ManualScrollInterpreter implements ScrollEventHandler {
         return;
       }
 
-      // Match ancestor node. Before android-OMR1, need refresh to get viewIdResourceName.
-      if (!BuildVersionUtils.isAtLeastOMR1()) {
-        scrolledNode.refresh();
-      }
       if (!lastFocusNodePathDescription.containsNodeByHashAndIdentity(scrolledNode)) {
         return;
       }

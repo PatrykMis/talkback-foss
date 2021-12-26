@@ -373,10 +373,6 @@ public class TelevisionNavigationController implements ServiceKeyEventListener {
         if (!shouldProcessDPadKeyEvent) {
           return false;
         }
-        if (!BuildVersionUtils.isAtLeastN()) {
-          // For before N platforms, only handle when we are not ignoring UP/DOWN key
-          return !AccessibilityNodeInfoUtils.isOrHasMatchingAncestor(cursor, IGNORE_UP_DOWN_M);
-        }
         return true;
       case KeyEvent.KEYCODE_DPAD_LEFT:
       case KeyEvent.KEYCODE_DPAD_RIGHT:

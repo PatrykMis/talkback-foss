@@ -67,14 +67,6 @@ public class SharedKeyEvent {
    * @param keyEvent Event received from the system.
    */
   public static boolean onKeyEvent(Listener listener, KeyEvent keyEvent) {
-    if (BuildVersionUtils.isAtLeastN()) {
-      return listener.onKeyEventShared(keyEvent);
-    } else {
-      boolean handled = false;
-      for (Listener currentListener : sListeners) {
-        handled = currentListener.onKeyEventShared(keyEvent) || handled;
-      }
-      return handled;
-    }
+    return listener.onKeyEventShared(keyEvent);
   }
 }

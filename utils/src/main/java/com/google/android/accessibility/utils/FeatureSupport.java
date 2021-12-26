@@ -67,16 +67,16 @@ public final class FeatureSupport {
 
   /** Returns {@code true} if the device supports accessibility shortcut. */
   public static boolean hasAccessibilityShortcut(Context context) {
-    return isPhoneOrTablet(context) && BuildVersionUtils.isAtLeastO();
+    return isPhoneOrTablet(context);
   }
 
   public static boolean useSpeakPasswordsServicePref() {
-    return BuildVersionUtils.isAtLeastO();
+    return true;
   }
 
   /** Returns {@code true} for devices which have separate audio a11y stream. */
   public static boolean hasAccessibilityAudioStream(Context context) {
-    return BuildVersionUtils.isAtLeastO() && !isTv(context);
+    return !isTv(context);
   }
 
   /** Return whether fingerprint feature & fingerprint gesture is supported on this device. */
@@ -86,8 +86,7 @@ public final class FeatureSupport {
       return false;
     }
 
-    return BuildVersionUtils.isAtLeastO()
-        && context.getPackageManager().hasSystemFeature(PackageManager.FEATURE_FINGERPRINT)
+    return context.getPackageManager().hasSystemFeature(PackageManager.FEATURE_FINGERPRINT)
         && !isWatch(context);
   }
 
@@ -100,11 +99,11 @@ public final class FeatureSupport {
   }
 
   public static boolean supportsVolumeKeyShortcuts() {
-    return !BuildVersionUtils.isAtLeastO();
+    return false;
   }
 
   public static boolean disableAnimation() {
-    return BuildVersionUtils.isAtLeastP();
+    return true;
   }
 
   public static boolean supportReadClipboard() {
@@ -123,16 +122,16 @@ public final class FeatureSupport {
   }
 
   public static boolean supportNotificationChannel() {
-    return BuildVersionUtils.isAtLeastO();
+    return true;
   }
 
   public static boolean isHeadingWorks() {
-    return BuildVersionUtils.isAtLeastN();
+    return true;
   }
 
   /** Returns {@code true} if the device supports {@link AccessibilityWindowInfo#getTitle()}. */
   public static boolean supportGetTitleFromWindows() {
-    return BuildVersionUtils.isAtLeastN();
+    return true;
   }
 
   public static boolean supportSwitchToInputMethod() {
@@ -162,7 +161,7 @@ public final class FeatureSupport {
    * AccessibilityService#MagnificationController}.
    */
   public static boolean supportMagnificationController() {
-    return BuildVersionUtils.isAtLeastN();
+    return true;
   }
 
   /**
@@ -174,11 +173,11 @@ public final class FeatureSupport {
   // TODO: framework support onMagnificationChanged() for Window magnification at next
   // Android.
   public static boolean supportAnnounceMagnificationChanged() {
-    return BuildVersionUtils.isAtLeastN() && Build.VERSION.SDK_INT != BuildVersionUtils.API_S;
+    return Build.VERSION.SDK_INT != BuildVersionUtils.API_S;
   }
 
   public static boolean isBoundsScaledUpByMagnifier() {
-    return BuildVersionUtils.isAtLeastOMR1();
+    return true;
   }
 
   public static boolean supportMultiDisplay() {
@@ -239,7 +238,7 @@ public final class FeatureSupport {
    * @return {@code true} if the device supports change slider
    */
   public static boolean supportChangeSlider() {
-    return BuildVersionUtils.isAtLeastN();
+    return true;
   }
 
   /**
@@ -278,7 +277,7 @@ public final class FeatureSupport {
 
   /** Returns {@code true} if the device supports customizing bullet radius. */
   public static boolean customBulletRadius() {
-    return BuildVersionUtils.isAtLeastP();
+    return true;
   }
 
   /** Returns {@code true} if the device supports sending motion events of gestures. */
@@ -289,7 +288,7 @@ public final class FeatureSupport {
 
   /** Returns {@code true} if the device supports long version code. */
   public static boolean supportLongVersionCode() {
-    return BuildVersionUtils.isAtLeastP();
+    return true;
   }
 
   /**
@@ -301,7 +300,7 @@ public final class FeatureSupport {
    * @return {@code true} if the device supports accessibility button
    */
   public static boolean supportAccessibilityButton() {
-    return BuildVersionUtils.isAtLeastO();
+    return true;
   }
 
   /** Returns {@code true} if the device supports accessibility multi-display. */

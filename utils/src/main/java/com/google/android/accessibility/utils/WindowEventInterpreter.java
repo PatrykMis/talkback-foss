@@ -245,7 +245,7 @@ public class WindowEventInterpreter {
     this.service = service;
     boolean isArc = FeatureSupport.isArc();
     isSplitScreenModeAvailable =
-        BuildVersionUtils.isAtLeastN() && !FeatureSupport.isTv(service) && !isArc;
+        !FeatureSupport.isTv(service) && !isArc;
   }
 
   public void setReduceDelayPref(boolean reduceDelayPref) {
@@ -319,8 +319,7 @@ public class WindowEventInterpreter {
     if (event == null || event.getEventType() != AccessibilityEvent.TYPE_WINDOWS_CHANGED) {
       return false;
     }
-    if (BuildVersionUtils.isAtLeastP()
-        && ((event.getWindowChanges() & WINDOWS_CHANGE_TYPES_USED) == 0)) {
+    if (((event.getWindowChanges() & WINDOWS_CHANGE_TYPES_USED) == 0)) {
       return false;
     }
     return true;
@@ -431,14 +430,10 @@ public class WindowEventInterpreter {
     interpretation.setOriginalEvent(true);
     interpretation.setWindowIdFromEvent(AccessibilityEventUtils.getWindowId(event));
     if (event.getEventType() == AccessibilityEvent.TYPE_WINDOW_STATE_CHANGED) {
-      if (BuildVersionUtils.isAtLeastP()) {
-        interpretation.setChangeTypes(event.getContentChangeTypes());
-      }
+      interpretation.setChangeTypes(event.getContentChangeTypes());
     } else if (event.getEventType() == AccessibilityEvent.TYPE_WINDOWS_CHANGED) {
       areWindowsChanging = true;
-      if (BuildVersionUtils.isAtLeastP()) {
-        interpretation.setChangeTypes(event.getWindowChanges());
-      }
+      interpretation.setChangeTypes(event.getWindowChanges());
     }
 
     // Collect old window information into interpretation.
@@ -868,16 +863,11 @@ public class WindowEventInterpreter {
           }
           break;
         case AccessibilityWindowInfo.TYPE_ACCESSIBILITY_OVERLAY:
-          // From LMR1 to N, for Talkback we create a transparent a11y overlay on edit text when
-          // double click is performed. That is done so that we can adjust the cursor position to
-          // the end of the edit text instead of the center, which is the default behavior. This
-          // overlay should be ignored while detecting window changes.
-          boolean isOverlayOnEditTextSupported = !BuildVersionUtils.isAtLeastO();
           AccessibilityNodeInfo root = AccessibilityWindowInfoUtils.getRoot(window);
           boolean isTalkbackOverlay = (Role.getRole(root) == Role.ROLE_TALKBACK_EDIT_TEXT_OVERLAY);
           AccessibilityNodeInfoUtils.recycleNodes(root);
           // Only add overlay window not shown by talkback.
-          if (!isOverlayOnEditTextSupported || !isTalkbackOverlay) {
+          if (!isTalkbackOverlay) {
             accessibilityOverlayWindows.add(window);
             roleAssigned = true;
           }

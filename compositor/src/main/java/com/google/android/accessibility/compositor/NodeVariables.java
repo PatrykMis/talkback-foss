@@ -274,11 +274,6 @@ class NodeVariables implements ParseTree.VariableDelegate {
       case NODE_CHECKABLE:
         return mNode.isCheckable();
       case NODE_CHECKED:
-        // REFERTO. On M devices, the state of the switch is always the same until the
-        // focus changes. Refreshes the node before getting the state as a workaround.
-        if (BuildVersionUtils.isM()) {
-          mNode.refresh();
-        }
         return mNode.isChecked();
       case NODE_IS_VISIBLE:
         return AccessibilityNodeInfoUtils.isVisible(mNode);

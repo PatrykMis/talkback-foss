@@ -74,11 +74,7 @@ public class BrailleImeVibrator {
     if (!enabled) {
       return;
     }
-    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-      vibrator.vibrate(
-          VibrationEffect.createOneShot(vibrationType.duration, vibrationType.amplitude));
-    } else {
-      vibrator.vibrate(vibrationType.duration);
-    }
+    vibrator.vibrate(
+        VibrationEffect.createOneShot(vibrationType.duration, vibrationType.amplitude));
   }
 }

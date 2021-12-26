@@ -1740,9 +1740,7 @@ public class TalkBackService extends AccessibilityService
     info.flags |= AccessibilityServiceInfo.FLAG_REPORT_VIEW_IDS;
     info.flags |= AccessibilityServiceInfo.FLAG_REQUEST_FILTER_KEY_EVENTS;
     info.flags |= AccessibilityServiceInfo.FLAG_RETRIEVE_INTERACTIVE_WINDOWS;
-    if (BuildVersionUtils.isAtLeastO()) {
-      info.flags |= AccessibilityServiceInfo.FLAG_ENABLE_ACCESSIBILITY_VOLUME;
-    }
+    info.flags |= AccessibilityServiceInfo.FLAG_ENABLE_ACCESSIBILITY_VOLUME;
     info.flags |= ExperimentalUtils.getAddtionalTalkBackServiceFlags();
     if (FeatureSupport.isMultiFingerGestureSupported()) {
       info.flags |=

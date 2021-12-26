@@ -113,10 +113,6 @@ public class RuleCustomAction extends NodeMenuRule {
       ContextMenuItem item = ContextMenu.createMenuItem(service, Menu.NONE, id, Menu.NONE, label);
       item.setOnMenuItemClickListener(
           new CustomMenuItemClickListener(id, node, pipeline, analytics));
-      if ((Build.VERSION.SDK_INT == VERSION_CODES.O || Build.VERSION.SDK_INT == VERSION_CODES.O_MR1)
-          && deferToWindowsSrable) {
-        item.setDeferredType(DeferredType.WINDOWS_STABLE);
-      }
       item.setCheckable(false);
       menu.add(item);
     }

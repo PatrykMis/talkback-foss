@@ -1629,22 +1629,14 @@ public class AccessibilityNodeInfoUtils {
     // translation from the DOM to the AccessibilityNodeInfo.) To avoid labeling views that don't
     // support scrolling (e.g. REFERTO), check for the explicit presence of
     // AccessibilityActions.
-    if (BuildVersionUtils.isM() || BuildVersionUtils.isAtLeastN()) {
-      return supportsAnyAction(
-          node,
-          AccessibilityAction.ACTION_SCROLL_FORWARD,
-          AccessibilityAction.ACTION_SCROLL_BACKWARD,
-          AccessibilityAction.ACTION_SCROLL_DOWN,
-          AccessibilityAction.ACTION_SCROLL_UP,
-          AccessibilityAction.ACTION_SCROLL_RIGHT,
-          AccessibilityAction.ACTION_SCROLL_LEFT);
-    } else {
-      // Directional scrolling is not available pre-M.
-      return supportsAnyAction(
-          node,
-          AccessibilityAction.ACTION_SCROLL_FORWARD,
-          AccessibilityAction.ACTION_SCROLL_BACKWARD);
-    }
+    return supportsAnyAction(
+        node,
+        AccessibilityAction.ACTION_SCROLL_FORWARD,
+        AccessibilityAction.ACTION_SCROLL_BACKWARD,
+        AccessibilityAction.ACTION_SCROLL_DOWN,
+        AccessibilityAction.ACTION_SCROLL_UP,
+        AccessibilityAction.ACTION_SCROLL_RIGHT,
+        AccessibilityAction.ACTION_SCROLL_LEFT);
   }
 
   /**
@@ -1712,12 +1704,6 @@ public class AccessibilityNodeInfoUtils {
       parent = node.getParent();
       if (parent == null) {
         // Not a child node of anything.
-        return false;
-      }
-
-      // Certain scrollable views in M's Android TV SetupWraith are permanently broken and
-      // won't ever be fixed because the setup wizard is bundled. This affects <= M only.
-      if (!BuildVersionUtils.isAtLeastN() && FILTER_BROKEN_LISTS_TV_M.accept(parent)) {
         return false;
       }
 
@@ -2164,7 +2150,7 @@ public class AccessibilityNodeInfoUtils {
   @Nullable
   public static List<Rect> getTextLocations(
       AccessibilityNodeInfoCompat node, CharSequence text, int fromCharIndex, int toCharIndex) {
-    if (node == null || !BuildVersionUtils.isAtLeastO()) {
+    if (node == null) {
       return null;
     }
 
@@ -2209,7 +2195,7 @@ public class AccessibilityNodeInfoUtils {
   /** Returns true if the node supports text location data. */
   @TargetApi(Build.VERSION_CODES.O)
   public static boolean supportsTextLocation(AccessibilityNodeInfoCompat node) {
-    if (!BuildVersionUtils.isAtLeastO() || node == null) {
+    if (node == null) {
       return false;
     }
     AccessibilityNodeInfo info = node.unwrap();
@@ -2256,10 +2242,6 @@ public class AccessibilityNodeInfoUtils {
    * must recycle the node that is returned from this method.
    */
   public static AccessibilityNodeInfoCompat getAnchor(@Nullable AccessibilityNodeInfoCompat node) {
-    if (!BuildVersionUtils.isAtLeastN()) {
-      return null;
-    }
-
     if (node == null) {
       return null;
     }
@@ -2399,27 +2381,18 @@ public class AccessibilityNodeInfoUtils {
   private static HashMap<Integer, String> initActionIds() {
     HashMap<Integer, String> actionIdHashMap = new HashMap<>();
 
-    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
-      actionIdHashMap.put(
-          AccessibilityAction.ACTION_SHOW_ON_SCREEN.getId(), "ACTION_SHOW_ON_SCREEN");
-      actionIdHashMap.put(
-          AccessibilityAction.ACTION_SCROLL_TO_POSITION.getId(), "ACTION_SCROLL_TO_POSITION");
-      actionIdHashMap.put(AccessibilityAction.ACTION_SCROLL_UP.getId(), "ACTION_SCROLL_UP");
-      actionIdHashMap.put(AccessibilityAction.ACTION_SCROLL_LEFT.getId(), "ACTION_SCROLL_LEFT");
-      actionIdHashMap.put(AccessibilityAction.ACTION_SCROLL_DOWN.getId(), "ACTION_SCROLL_DOWN");
-      actionIdHashMap.put(AccessibilityAction.ACTION_SCROLL_RIGHT.getId(), "ACTION_SCROLL_RIGHT");
-      actionIdHashMap.put(AccessibilityAction.ACTION_CONTEXT_CLICK.getId(), "ACTION_CONTEXT_CLICK");
-    }
-    if (BuildVersionUtils.isAtLeastN()) {
-      actionIdHashMap.put(AccessibilityAction.ACTION_SET_PROGRESS.getId(), "ACTION_SET_PROGRESS");
-    }
-    if (BuildVersionUtils.isAtLeastO()) {
-      actionIdHashMap.put(AccessibilityAction.ACTION_MOVE_WINDOW.getId(), "ACTION_MOVE_WINDOW");
-    }
-    if (BuildVersionUtils.isAtLeastP()) {
-      actionIdHashMap.put(AccessibilityAction.ACTION_SHOW_TOOLTIP.getId(), "ACTION_SHOW_TOOLTIP");
-      actionIdHashMap.put(AccessibilityAction.ACTION_HIDE_TOOLTIP.getId(), "ACTION_HIDE_TOOLTIP");
-    }
+    actionIdHashMap.put(
+        AccessibilityAction.ACTION_SHOW_ON_SCREEN.getId(), "ACTION_SHOW_ON_SCREEN");
+    actionIdHashMap.put(
+        AccessibilityAction.ACTION_SCROLL_TO_POSITION.getId(), "ACTION_SCROLL_TO_POSITION");
+    actionIdHashMap.put(AccessibilityAction.ACTION_SCROLL_UP.getId(), "ACTION_SCROLL_UP");
+    actionIdHashMap.put(AccessibilityAction.ACTION_SCROLL_LEFT.getId(), "ACTION_SCROLL_LEFT");
+    actionIdHashMap.put(AccessibilityAction.ACTION_SCROLL_DOWN.getId(), "ACTION_SCROLL_DOWN");
+    actionIdHashMap.put(AccessibilityAction.ACTION_SCROLL_RIGHT.getId(), "ACTION_SCROLL_RIGHT");
+    actionIdHashMap.put(AccessibilityAction.ACTION_CONTEXT_CLICK.getId(), "ACTION_CONTEXT_CLICK");
+    actionIdHashMap.put(AccessibilityAction.ACTION_SHOW_TOOLTIP.getId(), "ACTION_SHOW_TOOLTIP");
+    actionIdHashMap.put(AccessibilityAction.ACTION_HIDE_TOOLTIP.getId(), "ACTION_HIDE_TOOLTIP");
+
     if (BuildVersionUtils.isAtLeastQ()) {
       actionIdHashMap.put(AccessibilityAction.ACTION_PAGE_RIGHT.getId(), "ACTION_PAGE_RIGHT");
       actionIdHashMap.put(AccessibilityAction.ACTION_PAGE_LEFT.getId(), "ACTION_PAGE_LEFT");

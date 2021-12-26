@@ -704,35 +704,6 @@ public class SearchScreenOverlay implements SearchObserver {
     // REFERTO. Because accessibility framework sent window changed events from
     // TextToSpeechOverlay and cause Screen search close, this is a work around not to show
     // TextToSpeechOverlay to lower the chance.
-    if (Build.VERSION.SDK_INT == Build.VERSION_CODES.O_MR1
-        || Build.VERSION.SDK_INT == Build.VERSION_CODES.O) {
-      ttsOverlayWasOn =
-          SharedPreferencesUtils.getBooleanPref(
-              SharedPreferencesUtils.getSharedPreferences(service),
-              service.getResources(),
-              R.string.pref_tts_overlay_key,
-              R.bool.pref_tts_overlay_default);
-      if (ttsOverlayWasOn) {
-        // Disable it if ttsOverlay was on before showing.
-        SharedPreferencesUtils.putBooleanPref(
-            SharedPreferencesUtils.getSharedPreferences(service),
-            service.getResources(),
-            R.string.pref_tts_overlay_key,
-            false);
-      }
-      // Turns off quick menu overlays when search screen is showing on Android O.
-      pipeline.returnFeedback(
-          EVENT_ID_UNTRACKED,
-          Feedback.talkBackUI(
-              TalkBackUI.Action.NOT_SUPPORT, SELECTOR_MENU_ITEM_OVERLAY_SINGLE_FINGER));
-      pipeline.returnFeedback(
-          EVENT_ID_UNTRACKED,
-          Feedback.talkBackUI(
-              TalkBackUI.Action.NOT_SUPPORT, SELECTOR_MENU_ITEM_OVERLAY_MULTI_FINGER));
-      pipeline.returnFeedback(
-          EVENT_ID_UNTRACKED,
-          Feedback.talkBackUI(TalkBackUI.Action.NOT_SUPPORT, SELECTOR_ITEM_ACTION_OVERLAY));
-    }
 
     // Updates initial focused window before overlay UI show up, for caching nodes info to search.
     findTargetWindow();

@@ -270,11 +270,7 @@ public class AccessibilityWindow {
     if (bare == null) {
       return null;
     }
-    if (BuildVersionUtils.isAtLeastO()) {
-      return bare.isInPictureInPictureMode();
-    } else {
-      return false;
-    }
+    return bare.isInPictureInPictureMode();
   }
 
   /** Returns the window id if available, otherwise returns {@code WINDOW_ID_UNKNOWN}. */

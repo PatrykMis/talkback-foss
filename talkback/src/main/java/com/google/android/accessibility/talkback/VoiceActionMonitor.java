@@ -18,7 +18,6 @@ package com.google.android.accessibility.talkback;
 
 import android.content.Context;
 import android.content.Intent;
-import android.os.Build;
 import android.telephony.TelephonyManager;
 import com.google.android.accessibility.compositor.EventFilter;
 import com.google.android.accessibility.utils.AudioPlaybackMonitor;
@@ -128,16 +127,12 @@ public class VoiceActionMonitor implements EventFilter.VoiceActionDelegate {
 
   public void onResumeInfrastructure() {
     mediaRecorderMonitor.onResumeInfrastructure();
-    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-      audioPlaybackMonitor.onResumeInfrastructure();
-    }
+    audioPlaybackMonitor.onResumeInfrastructure();
   }
 
   public void onSuspendInfrastructure() {
     mediaRecorderMonitor.onSuspendInfrastructure();
-    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-      audioPlaybackMonitor.onSuspendInfrastructure();
-    }
+    audioPlaybackMonitor.onSuspendInfrastructure();
   }
 
   public boolean isHeadphoneOn() {

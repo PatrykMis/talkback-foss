@@ -96,21 +96,11 @@ public class AccessibilityServiceCompatUtils {
   }
 
   public static List<AccessibilityWindowInfo> getWindows(AccessibilityService service) {
-    if (BuildVersionUtils.isAtLeastN()) {
-      // Use try/catch to fix REFERTO
-      try {
-        return service.getWindows();
-      } catch (SecurityException e) {
-        LogUtils.e(TAG, "SecurityException occurred at AccessibilityService#getWindows(): %s", e);
-        return Collections.emptyList();
-      }
-    }
-    // If build version is not isAtLeastN(), there is a chance of ClassCastException or
-    // NullPointerException.
+    // Use try/catch to fix REFERTO
     try {
       return service.getWindows();
-    } catch (Exception e) {
-      LogUtils.e(TAG, "Exception occurred at AccessibilityService#getWindows(): %s", e);
+    } catch (SecurityException e) {
+      LogUtils.e(TAG, "SecurityException occurred at AccessibilityService#getWindows(): %s", e);
       return Collections.emptyList();
     }
   }

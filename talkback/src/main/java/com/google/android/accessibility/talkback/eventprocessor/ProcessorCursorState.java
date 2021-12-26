@@ -56,7 +56,7 @@ import org.checkerframework.checker.nullness.qual.Nullable;
 public class ProcessorCursorState implements AccessibilityEventListener, OnDoubleTapListener {
   // Starting from Android O, a11y framework perform ACTION_CLICK on double-tap, thus there is no
   // need to block touch down/up event nor to manually perform click action.
-  private static final boolean SHOULD_HANDLE_TOUCH_EVENT = !BuildVersionUtils.isAtLeastO();
+  private static final boolean SHOULD_HANDLE_TOUCH_EVENT = false;
 
   private static String TAG = "ProcessorCursorState";
 

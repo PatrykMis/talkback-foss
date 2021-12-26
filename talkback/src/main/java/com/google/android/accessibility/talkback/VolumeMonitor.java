@@ -50,9 +50,7 @@ public class VolumeMonitor extends BroadcastReceiver {
     STREAM_NAMES.put(AudioManager.STREAM_ALARM, R.string.value_stream_alarm);
     STREAM_NAMES.put(AudioManager.STREAM_NOTIFICATION, R.string.value_stream_notification);
     STREAM_NAMES.put(AudioManager.STREAM_DTMF, R.string.value_stream_dtmf);
-    if (BuildVersionUtils.isAtLeastO()) {
-      STREAM_NAMES.put(AudioManager.STREAM_ACCESSIBILITY, R.string.value_stream_accessibility);
-    }
+    STREAM_NAMES.put(AudioManager.STREAM_ACCESSIBILITY, R.string.value_stream_accessibility);
   }
 
   /** Keep track of adjustments made by this class. */

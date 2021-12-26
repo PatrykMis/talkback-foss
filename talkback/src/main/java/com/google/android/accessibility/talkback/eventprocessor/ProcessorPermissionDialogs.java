@@ -39,15 +39,6 @@ import org.checkerframework.checker.nullness.qual.Nullable;
  * dialog will not work when an overlay (such as the screen dimming overlay) is present.
  */
 public class ProcessorPermissionDialogs implements AccessibilityEventListener, OnDoubleTapListener {
-
-  /**
-   * The permissions dialogs start to appear from M to N. For N_MR1, the overlay does not restrict
-   * the touch action on dim screen and starting from O, we don't need this workaround because
-   * framework performs ACTION_CLICK instead of mocking touch down/up actions when double tap on
-   * screen. Thus the target API level is M <= api level <= N.
-   */
-  private static final boolean IS_API_LEVEL_SUPPORTED = !BuildVersionUtils.isAtLeastNMR1();
-
   public static final String ALLOW_BUTTON =
       "com.android.packageinstaller:id/permission_allow_button";
 
@@ -73,14 +64,10 @@ public class ProcessorPermissionDialogs implements AccessibilityEventListener, O
   }
 
   public void onReloadPreferences(TalkBackService service) {
-    boolean supported = IS_API_LEVEL_SUPPORTED && NodeBlockingOverlay.isSupported(service);
-    if (registered && !supported) {
+    if (registered) {
       service.postRemoveEventListener(this);
       clearNode();
       registered = false;
-    } else if (!registered && supported) {
-      service.addEventListener(this);
-      registered = true;
     }
   }
 

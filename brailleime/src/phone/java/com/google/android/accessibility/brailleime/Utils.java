@@ -518,8 +518,7 @@ public class Utils {
    * is enabled.
    */
   public static boolean isNavigationBarLeftLocated(Context context) {
-    return Build.VERSION.SDK_INT > Build.VERSION_CODES.N
-        && !isFullGesturalNavigationEnabled(context)
+    return !isFullGesturalNavigationEnabled(context)
         && getDisplayRotationDegrees(context) == Surface.ROTATION_270;
   }
 

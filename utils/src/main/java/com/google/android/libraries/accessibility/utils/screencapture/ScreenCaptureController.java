@@ -76,11 +76,6 @@ public class ScreenCaptureController {
   }
 
   public ScreenCaptureController(Context context, Handler handler) {
-    if (Build.VERSION.SDK_INT < Build.VERSION_CODES.LOLLIPOP_MR1) {
-      this.context = null;
-      return;
-    }
-
     this.context = context;
     this.handler = handler;
     this.projectionManager =
@@ -105,10 +100,6 @@ public class ScreenCaptureController {
    *        authorization request.
    */
   public void authorizeCaptureAsync(final @Nullable AuthorizationListener listener) {
-    if (Build.VERSION.SDK_INT < Build.VERSION_CODES.LOLLIPOP_MR1) {
-      return;
-    }
-
     if (canRequestScreenCapture()) {
       LogUtils.w(TAG, "Authorization requested for previously authorized instance.");
       // Instance already authorized
@@ -147,10 +138,6 @@ public class ScreenCaptureController {
    * attempt to authorize this instance.
    */
   public void deauthorizeCapture() {
-    if (Build.VERSION.SDK_INT < Build.VERSION_CODES.LOLLIPOP_MR1) {
-      return;
-    }
-
     LogUtils.i(TAG, "Deauthorizing.");
     if (activeProjection != null) {
       activeProjection.unregisterCallback(projectionCallback);
@@ -171,10 +158,6 @@ public class ScreenCaptureController {
    * Deauthorizes capture and shuts down all resources managed by this instance.
    */
   public void shutdown() {
-    if (Build.VERSION.SDK_INT < Build.VERSION_CODES.LOLLIPOP_MR1) {
-      return;
-    }
-
     deauthorizeCapture();
   }
 
@@ -194,10 +177,6 @@ public class ScreenCaptureController {
    * @param listener A {@link CaptureListener} to be notified when screen capture has completed.
    */
   public void requestScreenCaptureAsync(final CaptureListener listener) {
-    if (Build.VERSION.SDK_INT < Build.VERSION_CODES.LOLLIPOP_MR1) {
-      return;
-    }
-
     if (!canRequestScreenCapture()) {
       requestManagedScreenCaptureAsync(listener);
       return;
