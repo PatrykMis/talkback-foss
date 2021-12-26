@@ -581,13 +581,8 @@ public class BrailleIme extends InputMethodService {
       // This api doesn't tell us switch succeed or not. Assume it switch successfully.
       switchInputMethod(inputMethodInfoId);
       succeeded = true;
-    } else if (BuildVersionUtils.isAtLeastP()) {
-      succeeded = switchToNextInputMethod(false);
     } else {
-      IBinder token = getWindow().getWindow().getAttributes().token;
-      InputMethodManager inputMethodManager =
-          (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
-      succeeded = inputMethodManager.switchToNextInputMethod(token, false);
+      succeeded = switchToNextInputMethod(false);
     }
     // REFERTO: Switch to next keyboard manually by giving ime id.
     if (!succeeded) {
