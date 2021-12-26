@@ -4,10 +4,6 @@ apply plugin: 'com.android.application'
 
 apply from: 'shared.gradle'
 
-ext {
-    ndkVersion = '23.1.7779620'
-}
-
 dependencies {
     implementation project(':talkback')
 }
@@ -47,7 +43,6 @@ android {
         exclude 'README'
         exclude 'TODO'
     }
-    ndkVersion ndkVersion
     lintOptions {
         checkReleaseBuilds false
         abortOnError false

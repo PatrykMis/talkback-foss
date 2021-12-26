@@ -2,9 +2,13 @@ apply plugin: 'com.android.library'
 apply from: "../shared.gradle"
 
 android {
+    ndkVersion "23.1.7779620"
     externalNativeBuild {
+        cmake {
+            version "3.22.1"
+        }
         ndkBuild {
-            path file('src/main/jni/Android.mk')
+            path file("src/main/jni/Android.mk")
         }
     }
 }
