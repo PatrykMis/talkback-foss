@@ -31,7 +31,6 @@ import com.google.android.accessibility.talkback.Pipeline;
 import com.google.android.accessibility.talkback.R;
 import com.google.android.accessibility.talkback.focusmanagement.AccessibilityFocusMonitor;
 import com.google.android.accessibility.talkback.imagecaption.CaptionRequest;
-import com.google.android.accessibility.talkback.imagecaption.CharacterCaptionRequest;
 import com.google.android.accessibility.talkback.imagecaption.RequestList;
 import com.google.android.accessibility.talkback.imagecaption.ScreenshotCaptureRequest;
 import com.google.android.accessibility.utils.AccessibilityNode;
@@ -54,8 +53,6 @@ public class ImageCaptioner {
   private final AccessibilityFocusMonitor accessibilityFocusMonitor;
 
   private final RequestList<ScreenshotCaptureRequest> screenshotRequests =
-      new RequestList<>(CAPTION_REQUEST_CAPACITY);
-  private final RequestList<CharacterCaptionRequest> characterCaptionRequests =
       new RequestList<>(CAPTION_REQUEST_CAPACITY);
 
   public ImageCaptioner(
@@ -120,7 +117,6 @@ public class ImageCaptioner {
               + StringBuilderUtils.joinFields(
                   StringBuilderUtils.optionalSubObj("result", result),
                   StringBuilderUtils.optionalSubObj("node", node)));
-      characterCaptionRequests.performNextRequest();
 
       if (TextUtils.isEmpty(result)) {
         return;
@@ -155,26 +151,15 @@ public class ImageCaptioner {
 
   @VisibleForTesting
   void addCaptionRequest(AccessibilityNodeInfoCompat node, Bitmap screenCapture) {
-    characterCaptionRequests.addRequest(
-        new CharacterCaptionRequest(
-            service,
-            node,
-            screenCapture,
-            /* onFinishListener= */ this::onCharacterCaptionFinish,
-            /* onErrorListener= */ (errorCode) -> {
-              LogUtils.v(TAG, "onError(), error=" + CaptionRequest.errorName(errorCode));
-              characterCaptionRequests.performNextRequest();
-            }));
   }
 
   @VisibleForTesting
   void clearRequests() {
     screenshotRequests.clear();
-    characterCaptionRequests.clear();
   }
 
   @VisibleForTesting
   int getWaitingCharacterCaptionRequestSize() {
-    return characterCaptionRequests.getWaitingRequestSize();
+    return 0;
   }
 }
