@@ -253,7 +253,7 @@ public class TextEventInterpreter {
    */
   private static boolean isJunkyCharacterReplacedByBulletInUnlockPinEntry(
       AccessibilityEvent event) {
-    if (event.getAddedCount() != 1)
+    if ((event.getAddedCount() != 1)
         || (event.getRemovedCount() != 1)) {
       return false;
     }
