@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="braille_ime_service_name">TalkBack-en braille-teklatua</string>
+  <string name="braille_ime_service_name">TalkBack FOSS-en braille-teklatua</string>
   <string name="switch_to_screen_away_announcement">Pantaila urrunduaren modua</string>
   <string name="switch_to_tabletop_announcement">Mahaigaineko modua. Jarri gailua kargatzeko ataka ezkerrean duela. Puntuen kokapena eguneratzeko, eduki sakatuta pantaila sei hatzekin.</string>
   <string name="braille_ime_hidden_announcement">Braille-teklatua ezkutatu da</string>
@@ -11,7 +11,7 @@
   <string name="switched_to_ueb_uncontracted_announcement">Braille-teklatu bateratu osora aldatu da</string>
   <string name="braille_ime_displayed_name">braille-teklatua</string>
   <string name="multiple_languages_braille_ime_displayed_name">braille-teklatua, %s</string>
-  <string name="input_view_caption">TalkBack-en braille-teklatua: laguntza lortzeko, joan g.co/help/braille helbidera</string>
+  <string name="input_view_caption">TalkBack FOSS-en braille-teklatua: laguntza lortzeko, joan g.co/help/braille helbidera</string>
   <string name="perform_action_next">Hurrengoa</string>
   <string name="perform_action_submitting">Testua bidaltzen</string>
   <string name="calibration_step1_hold_left_finger_announcement">Puntuen kokapena eguneratzen. Hasteko, ezkerreko eskuko puntuak erregistratuko ditugu. Eduki sakatuta pantaila ezkerreko eskuko erdiko hiru hatzekin.</string>
@@ -78,17 +78,17 @@
     <item quantity="one">%s puntu</item>
     <item quantity="other">%s puntu</item>
   </plurals>
-  <string name="talkback_off_dialog_title">Braille-teklatua erabiltzeko, aktibatu TalkBack</string>
+  <string name="talkback_off_dialog_title">Braille-teklatua erabiltzeko, aktibatu TalkBack FOSS</string>
   <string name="talkback_off_dialog_positive_button">Aktibatu erabilerraztasun-ezarpenetan</string>
-  <string name="talkback_suspend_dialog_title">Braille-teklatua erabiltzeko, aktibatu berriro TalkBack</string>
-  <string name="talkback_off_or_suspend_dialog_message">TalkBack aktibatuta dagoenean, sakatu pantaila braille-ikurrak idazteko.</string>
+  <string name="talkback_suspend_dialog_title">Braille-teklatua erabiltzeko, aktibatu berriro TalkBack FOSS</string>
+  <string name="talkback_off_or_suspend_dialog_message">TalkBack FOSS aktibatuta dagoenean, sakatu pantaila braille-ikurrak idazteko.</string>
   <string name="next_keyboard">Hurrengo teklatua</string>
   <string name="braille_tutorial_title">Braille-teklatuaren tutoriala</string>
-  <string name="tutorial_intro_description">Braille-teklatuarekin, sakatu pantaila sei puntuko braille-idazketa erabiltzeko.\n\nBraille-teklatu ingeles bateratua ari zara erabiltzen. Idazketa-hizkuntza aldatzeko, joan TalkBack-en ezarpenetara.\n\nBraille-ikurrak idazteko, telefonoa beste era batean hartu era erabili behar duzu.</string>
+  <string name="tutorial_intro_description">Braille-teklatuarekin, sakatu pantaila sei puntuko braille-idazketa erabiltzeko.\n\nBraille-teklatu ingeles bateratua ari zara erabiltzen. Idazketa-hizkuntza aldatzeko, joan TalkBack FOSS-en ezarpenetara.\n\nBraille-ikurrak idazteko, telefonoa beste era batean hartu era erabili behar duzu.</string>
   <string name="next_step">Hurrengoa</string>
   <string name="leave_keyboard">Irten braille-teklatutik</string>
-  <string name="hold_six_fingers_description">Ezingo dituzu erabili TalkBack-en ohiko keinuak braille-teklatuan.\n\nHasteko, idazten duzun bitartean sei braille-puntuak non egongo diren konfiguratuko dugu.</string>
-  <string name="rotate_orientation_description_1">Hemendik aurrera, ezin izango dituzu erabili TalkBack-en ohiko keinuak. TalkBack ez dago erabilgarri braille-teklatua erabiltzen duzun bitartean.</string>
+  <string name="hold_six_fingers_description">Ezingo dituzu erabili TalkBack FOSS-en ohiko keinuak braille-teklatuan.\n\nHasteko, idazten duzun bitartean sei braille-puntuak non egongo diren konfiguratuko dugu.</string>
+  <string name="rotate_orientation_description_1">Hemendik aurrera, ezin izango dituzu erabili TalkBack FOSS-en ohiko keinuak. TalkBack FOSS ez dago erabilgarri braille-teklatua erabiltzen duzun bitartean.</string>
   <string name="rotate_orientation_description_2">Hasteko, eutsi honela telefonoari, pantaila aurpegitik aldenduta dagoela.</string>
   <string name="tap_to_continue">Aurrera egiteko, sakatu pantaila birritan</string>
   <string name="instruction_type_letter_a_left_index_finger">ezkerreko hatz erakuslea</string>
@@ -105,7 +105,7 @@
   <string name="result_swipe_right">GEHITU ZURIUNEA</string>
   <string name="result_swipe_down_2_fingers">EZKUTATU TEKLATUA</string>
   <string name="result_swipe_down_3_fingers">HURRENGO TEKLATUA</string>
-  <string name="rotate_orientation_announcement">Hemendik aurrera, ezin izango dituzu erabili TalkBack-en ohiko keinuak. TalkBack ez dago erabilgarri braille-teklatua erabiltzen duzun bitartean.\n\n%1$s</string>
+  <string name="rotate_orientation_announcement">Hemendik aurrera, ezin izango dituzu erabili TalkBack FOSS-en ohiko keinuak. TalkBack FOSS ez dago erabilgarri braille-teklatua erabiltzen duzun bitartean.\n\n%1$s</string>
   <string name="rotate_orientation_inactive_announcement">Lehendabizi, aldendu pantaila eta jar ezazu aurrez aurre.\n\nGero, jarri telefonoa modu horizontalean. Heldu telefonoari alde laburretatik. Erabili eskuineko eskua USB ataka duen aldeari eusteko. Jarri erdiko hiru hatzak pantailaren gainean, eta erabili hatz txikia eta erpurua telefonoari heltzeko.\n\nPrest zaudenean, sakatu pantaila birritan aurrera egiteko.\n\nBraille-teklatutik irteteko, pasatu hiru hatz behera. Jatorrizko teklatura itzuliko zara horrela.</string>
   <string name="rotate_orientation_continue_announcement">Telefonoa modu bertikalean dago. Aurrera egiteko, biratu telefonoa horizontalki, alde luzea behean utzi arte. Aldendu pantaila eta jar ezazu aurrez aurre. Prest zaudenean, sakatu pantaila birritan aurrera egiteko.</string>
   <string name="type_letter_a_announcement_left_index_finger">ezkerreko hatz erakuslea</string>
@@ -121,7 +121,7 @@
   <string name="swipe_down_3_fingers_announcement">Beste teklatu batera aldatzeko, pasatu hiru hatz behera. Proba ezazu.</string>
   <string name="swipe_down_3_fingers_completed_announcement">Hurrengo teklatua. Normalean, hurrengo teklatura eramango zaitu eginbide horrek. Oraindik tutorialean zaudenez, braille-teklatuan geratuko zara oraingo honetan.</string>
   <string name="swipe_up_3_fingers_announcement">Telefonoa mahai baten gainean horizontalki jarrita ere idatz dezakezu mahaigaineko moduan. Tutoriala amaitzeko, pasatu hiru hatz gora, eta bilatu tutoriala amaitzeko aukera.</string>
-  <string name="open_context_menu_announcement">Irekita dago aukeren menua. Irauli telefonoa zuri begira jartzeko eta euts iezaiozu ohi bezala. Orain, TalkBack-en ohiko keinuak erabil ditzakezu nabigatzeko. Pasatu hatza eskuinera aukera gehiago ikusteko.</string>
+  <string name="open_context_menu_announcement">Irekita dago aukeren menua. Irauli telefonoa zuri begira jartzeko eta euts iezaiozu ohi bezala. Orain, TalkBack FOSS-en ohiko keinuak erabil ditzakezu nabigatzeko. Pasatu hatza eskuinera aukera gehiago ikusteko.</string>
   <string name="hold_six_fingers_announcement">%s\nJarri gailua mahai baten gainean horizontalki. Ondoren, eduki sakatuta pantaila esku bakoitzeko erdiko hiru hatzekin, idazteko erosoa iruditzen zaizun posizio batean.</string>
   <string name="hold_six_fingers_inactive_announcement">Jarri gailua mahai baten gainean horizontalki. Ondoren, eduki sakatuta pantaila esku bakoitzeko erdiko hiru hatzekin, idazteko erosoa iruditzen zaizun posizio batean.</string>
   <string name="six_hold_announcement">Telefonoa mahai baten gainean horizontalki jarrita ere idatz dezakezu. Proba ezazu. Ez baduzu mahairik gertu, egin aurrera hatza behera pasatuz.</string>

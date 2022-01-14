@@ -629,7 +629,7 @@
   <string name="value_tv_remote_mode_seek_control">स्लाइडर मोड</string>
   <string name="value_hint_tv_remote_mode_seek_control">मान बदलने के लिए तीर बटन दबाएं या खत्म करने के लिए चुनें दबाएं.</string>
   <string name="arc_android_window">ऐप्लिकेशन विंडो</string>
-  <string name="arc_talkback_activation_hint">TalkBack चालू है</string>
+  <string name="arc_talkback_activation_hint">TalkBack FOSS चालू है</string>
   <string name="arc_navigation_hint">स्क्रीन पर यहां वहां जाने के लिए तीर कुंजियों के साथ सर्च करें कुंजी दबाएं</string>
   <string name="arc_open_manage_keyboard_shortcuts_hint">शॉर्टकट की सूची देखने के लिए %1$s दबाएं</string>
   <string name="arc_open_talkback_settings_hint">टॉकबैक सेटिंग खोलने के लिए %1$s दबाएं</string>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="braille_ime_service_name">„TalkBack“ Brailio rašmenų klaviatūra</string>
+  <string name="braille_ime_service_name">„TalkBack FOSS“ Brailio rašmenų klaviatūra</string>
   <string name="switch_to_screen_away_announcement">Statusis režimas</string>
   <string name="switch_to_tabletop_announcement">Gulsčiasis režimas. Padėkite įrenginį, kad įkrovimo prievadas būtų kairėje. Kad atnaujintumėte taškų padėtį, palieskite šešiais pirštais.</string>
   <string name="braille_ime_hidden_announcement">Paslėpta Brailio rašmenų klaviatūra</string>
@@ -11,7 +11,7 @@
   <string name="switched_to_ueb_uncontracted_announcement">Perjungta į nesutrauktą UEB</string>
   <string name="braille_ime_displayed_name">Brailio rašmenų klaviatūra</string>
   <string name="multiple_languages_braille_ime_displayed_name">Brailio rašmenų klaviatūra, %s</string>
-  <string name="input_view_caption">„TalkBack“ Brailio rašmenų klaviatūra – jei reikia pagalbos, apsilankykite adresu g.co/help/braille</string>
+  <string name="input_view_caption">„TalkBack FOSS“ Brailio rašmenų klaviatūra – jei reikia pagalbos, apsilankykite adresu g.co/help/braille</string>
   <string name="perform_action_next">Kitas</string>
   <string name="perform_action_submitting">Pateikiamas tekstas</string>
   <string name="calibration_step1_hold_left_finger_announcement">Atnaujinama taškų padėtis. Pirmiausia įrašykime taškus kairiąja ranka. Paspauskite ir palaikykite ekraną trim viduriniais kairiosios rankos pirštais.</string>
@@ -80,17 +80,17 @@
     <item quantity="many">%s taško</item>
     <item quantity="other">%s taškų</item>
   </plurals>
-  <string name="talkback_off_dialog_title">„TalkBack“ įjungimas norint naudoti Brailio rašmenų klaviatūrą</string>
+  <string name="talkback_off_dialog_title">„TalkBack FOSS“ įjungimas norint naudoti Brailio rašmenų klaviatūrą</string>
   <string name="talkback_off_dialog_positive_button">Įjungti pritaikomumo nustatymuose</string>
-  <string name="talkback_suspend_dialog_title">„TalkBack“ atnaujinimas norint naudoti Brailio rašmenų klaviatūrą</string>
-  <string name="talkback_off_or_suspend_dialog_message">Kai „TalkBack“ įjungta, galite paliesti ekraną, kad įvestumėte Brailio rašmenų simbolius.</string>
+  <string name="talkback_suspend_dialog_title">„TalkBack FOSS“ atnaujinimas norint naudoti Brailio rašmenų klaviatūrą</string>
+  <string name="talkback_off_or_suspend_dialog_message">Kai „TalkBack FOSS“ įjungta, galite paliesti ekraną, kad įvestumėte Brailio rašmenų simbolius.</string>
   <string name="next_keyboard">Kita klaviatūra</string>
   <string name="braille_tutorial_title">Brailio rašmenų klaviatūros mokymo programa</string>
-  <string name="tutorial_intro_description">Naudodami Brailio rašmenų klaviatūrą galite vesti 6 taškų Brailio rašmenis paliesdami ekraną.\n\nNaudojate „Unified English Braille“. Jei norite perjungti teksto vedimo kalbą, eikite į „TalkBack“ nustatymus.\n\nJei norite vesti Brailio rašmenis, turite skirtingomis padėtimis laikyti ir naudoti telefoną.</string>
+  <string name="tutorial_intro_description">Naudodami Brailio rašmenų klaviatūrą galite vesti 6 taškų Brailio rašmenis paliesdami ekraną.\n\nNaudojate „Unified English Braille“. Jei norite perjungti teksto vedimo kalbą, eikite į „TalkBack FOSS“ nustatymus.\n\nJei norite vesti Brailio rašmenis, turite skirtingomis padėtimis laikyti ir naudoti telefoną.</string>
   <string name="next_step">Kitas</string>
   <string name="leave_keyboard">Išeiti iš Brailio rašmenų klaviatūros</string>
-  <string name="hold_six_fingers_description">Negalėsite naudoti įprastų „TalkBack“ gestų naudodami Brailio rašmenų klaviatūrą.\n\nJei norite pradėti, nustatykite šešių Brailio rašmenų taškų, naudojamų vedant tekstą, padėtį.</string>
-  <string name="rotate_orientation_description_1">Nuo dabar nebegalėsite naudoti įprastų „TalkBack“ gestų. „TalkBack“ nepasiekiama naudojant Brailio rašmenų klaviatūrą.</string>
+  <string name="hold_six_fingers_description">Negalėsite naudoti įprastų „TalkBack FOSS“ gestų naudodami Brailio rašmenų klaviatūrą.\n\nJei norite pradėti, nustatykite šešių Brailio rašmenų taškų, naudojamų vedant tekstą, padėtį.</string>
+  <string name="rotate_orientation_description_1">Nuo dabar nebegalėsite naudoti įprastų „TalkBack FOSS“ gestų. „TalkBack FOSS“ nepasiekiama naudojant Brailio rašmenų klaviatūrą.</string>
   <string name="rotate_orientation_description_2">Jei norite pradėti, laikykite telefoną, kaip parodyta, ekraną nukreipę nuo savęs.</string>
   <string name="tap_to_continue">Tęskite dukart palietę bet kurioje vietoje</string>
   <string name="instruction_type_letter_a_left_index_finger">kairės rankos smiliumi</string>
@@ -107,7 +107,7 @@
   <string name="result_swipe_right">TARPAS</string>
   <string name="result_swipe_down_2_fingers">SLĖPTI KLAVIATŪRĄ</string>
   <string name="result_swipe_down_3_fingers">KITA KLAVIATŪRA</string>
-  <string name="rotate_orientation_announcement">Nuo dabar nebegalėsite naudoti įprastų „TalkBack“ gestų. „TalkBack“ nepasiekiama naudojant Brailio rašmenų klaviatūrą.\n\n%1$s</string>
+  <string name="rotate_orientation_announcement">Nuo dabar nebegalėsite naudoti įprastų „TalkBack FOSS“ gestų. „TalkBack FOSS“ nepasiekiama naudojant Brailio rašmenų klaviatūrą.\n\n%1$s</string>
   <string name="rotate_orientation_inactive_announcement">Pirmiausia pasukite telefoną, kad ekranas būtų nukreiptas nuo jūsų.\n\nTada pasukite telefoną horizontaliai į gulsčią padėtį. Rankomis turėtumėte laikyti už trumpesnių telefono kraštų. Dešiniąja ranka laikykite už krašto, kuriame yra USB prievadas. Tris vidurinius pirštus laikykite virš telefono, o mažyliu ir nykščiu prilaikykite telefoną.\n\nKai būsite pasiruošę, tęskite dukart palietę ekraną.\n\nJei norite išeiti iš Brailio rašmenų klaviatūros, trim pirštais perbraukite žemyn iki apačios. Bus vėl įjungta pradinė klaviatūra.</string>
   <string name="rotate_orientation_continue_announcement">Telefonas vertikalioje padėtyje. Jei norite tęsti, pasukite telefoną horizontaliai, kad ilgasis kraštas būtų nukreiptas žemyn. Tada nukreipkite ekraną nuo savęs. Kai būsite pasiruošę, tęskite palietę ekraną du kartus.</string>
   <string name="type_letter_a_announcement_left_index_finger">Kairės rankos smilius</string>
@@ -123,7 +123,7 @@
   <string name="swipe_down_3_fingers_announcement">Jei norite perjungti į kitą klaviatūrą, perbraukite žemyn trim pirštais. Išbandykite dabar.</string>
   <string name="swipe_down_3_fingers_completed_announcement">Kita klaviatūra. Įprastai perjungiama kita klaviatūra. Šiuo metu vis tiek rodoma Brailio rašmenų klaviatūra, nes vis dar dalyvaujate mokymo programoje.</string>
   <string name="swipe_up_3_fingers_announcement">Taip pat galite vesti tekstą gulsčiuoju režimu padėję telefoną gulsčiai ant stalo. Jei norite užbaigti mokymo programą, perbraukite aukštyn trim pirštais ir suraskite mokymo programos užbaigimo parinktį</string>
-  <string name="open_context_menu_announcement">Parinkčių meniu atidarytas. Vėl apverskite telefoną, kad jis būtų atsuktas į jus, ir laikykite įprastai. Dabar galite naudoti įprastus „TalkBack“ gestus naršydami. Perbraukę dešinėn matysite daugiau parinkčių.</string>
+  <string name="open_context_menu_announcement">Parinkčių meniu atidarytas. Vėl apverskite telefoną, kad jis būtų atsuktas į jus, ir laikykite įprastai. Dabar galite naudoti įprastus „TalkBack FOSS“ gestus naršydami. Perbraukę dešinėn matysite daugiau parinkčių.</string>
   <string name="hold_six_fingers_announcement">%s\nPadėkite įrenginį gulsčiai ant stalo. Tada palieskite ir palaikykite ekraną trim viduriniais abiejų rankų pirštais tokioje padėtyje, kad būtų patogu vesti tekstą.</string>
   <string name="hold_six_fingers_inactive_announcement">Padėkite įrenginį gulsčiai ant stalo. Tada palieskite ir palaikykite ekraną trim viduriniais abiejų rankų pirštais tokioje padėtyje, kad būtų patogu vesti tekstą.</string>
   <string name="six_hold_announcement">Be to, galite vesti tekstą padėję telefoną gulsčiai ant stalo. Išbandykite dabar. Jei netoliese nėra stalo, praleiskite tai perbraukdami žemyn.</string>

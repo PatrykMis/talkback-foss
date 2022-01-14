@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="braille_ime_service_name">TalkBack-ի բրայլյան ստեղնաշար</string>
+  <string name="braille_ime_service_name">TalkBack FOSS-ի բրայլյան ստեղնաշար</string>
   <string name="switch_to_screen_away_announcement">Շրջած էկրանի ռեժիմ</string>
   <string name="switch_to_tabletop_announcement">Սեղանի ռեժիմ։ Դրեք ձեր սարքը լիցքավորման միացքով դեպի ձախ։ Կետերի դիրքը թարմացնելու համար 6 մատը սեղմած պահեք էկրանին։</string>
   <string name="braille_ime_hidden_announcement">Բրայլյան ստեղնաշարը թաքցված է</string>
@@ -11,7 +11,7 @@
   <string name="switched_to_ueb_uncontracted_announcement">Անցում կատարվեց UEB ստեղնաշարի հիմնական ռեժիմին</string>
   <string name="braille_ime_displayed_name">Բրայլյան ստեղնաշար</string>
   <string name="multiple_languages_braille_ime_displayed_name">Բրայլյան ստեղնաշար, %s</string>
-  <string name="input_view_caption">TalkBack-ի բրայլյան ստեղնաշարի մասին մանրամասն տեղեկությունների համար անցեք g.co/help/braille էջ։</string>
+  <string name="input_view_caption">TalkBack FOSS-ի բրայլյան ստեղնաշարի մասին մանրամասն տեղեկությունների համար անցեք g.co/help/braille էջ։</string>
   <string name="perform_action_next">Առաջ</string>
   <string name="perform_action_submitting">Տեքստն ուղարկվում է</string>
   <string name="calibration_step1_hold_left_finger_announcement">Կետերի դիրքի թարմացում։ Նախ գրանցեք ձախ ձեռքի կետերը։ Ձախ ձեռքի մեջտեղի 3 մատով սեղմած պահեք էկրանը։</string>
@@ -78,17 +78,17 @@
     <item quantity="one">կետեր %s</item>
     <item quantity="other">կետեր %s</item>
   </plurals>
-  <string name="talkback_off_dialog_title">Բրայլյան ստեղնաշարն օգտագործելու համար միացրեք TalkBack-ը</string>
+  <string name="talkback_off_dialog_title">Բրայլյան ստեղնաշարն օգտագործելու համար միացրեք TalkBack FOSS-ը</string>
   <string name="talkback_off_dialog_positive_button">Միացրեք այն հատուկ գործառույթների կարգավորումներում</string>
-  <string name="talkback_suspend_dialog_title">Բրայլյան ստեղնաշարն օգտագործելու համար նորից միացրեք TalkBack-ը</string>
-  <string name="talkback_off_or_suspend_dialog_message">Երբ TalkBack-ը միացված է, դուք կարող եք հպել ձեր էկրանին և մուտքագրել բրայլյան գրանշանները։</string>
+  <string name="talkback_suspend_dialog_title">Բրայլյան ստեղնաշարն օգտագործելու համար նորից միացրեք TalkBack FOSS-ը</string>
+  <string name="talkback_off_or_suspend_dialog_message">Երբ TalkBack FOSS-ը միացված է, դուք կարող եք հպել ձեր էկրանին և մուտքագրել բրայլյան գրանշանները։</string>
   <string name="next_keyboard">Հաջորդ ստեղնաշարը</string>
   <string name="braille_tutorial_title">Բրայլյան ստեղնաշարի ուղեցույց</string>
-  <string name="tutorial_intro_description">Բրայլյան ստեղնաշարի օգնությամբ կարող եք հպել ձեր էկրանին՝ 6-կետանոց բրայլյան գրանշաններ մուտքագրելու համար։\n\nԴուք օգտագործում եք Unified English Braille տարբերակը։ Մուտքագրման լեզուն փոխելու համար անցեք TalkBack-ի կարգավորումներ։\n\nԲրայլյան գրերով մուտքագրելու համար պետք է այլ կերպ պահեք և օգտագործեք հեռախոսը։</string>
+  <string name="tutorial_intro_description">Բրայլյան ստեղնաշարի օգնությամբ կարող եք հպել ձեր էկրանին՝ 6-կետանոց բրայլյան գրանշաններ մուտքագրելու համար։\n\nԴուք օգտագործում եք Unified English Braille տարբերակը։ Մուտքագրման լեզուն փոխելու համար անցեք TalkBack FOSS-ի կարգավորումներ։\n\nԲրայլյան գրերով մուտքագրելու համար պետք է այլ կերպ պահեք և օգտագործեք հեռախոսը։</string>
   <string name="next_step">Առաջ</string>
   <string name="leave_keyboard">Դուրս գալ բրայլյան ստեղնաշարից</string>
-  <string name="hold_six_fingers_description">Դուք չեք կարողանա օգտագործել TalkBack-ի սովորական ժեստերը բրայլյան ստեղնաշարի միջոցով։\n\nԵկեք կարգավորենք մուտքագրման համար անհրաժեշտ 6 բրայլյան կետերի դիրքը։</string>
-  <string name="rotate_orientation_description_1">Դուք այժմ չեք կարող օգտագործել TalkBack-ի սովորական ժեստերը։ Բրայլյան ստեղնաշարն օգտագործելու ժամանակ TalkBack-ը հասանելի չէ։</string>
+  <string name="hold_six_fingers_description">Դուք չեք կարողանա օգտագործել TalkBack FOSS-ի սովորական ժեստերը բրայլյան ստեղնաշարի միջոցով։\n\nԵկեք կարգավորենք մուտքագրման համար անհրաժեշտ 6 բրայլյան կետերի դիրքը։</string>
+  <string name="rotate_orientation_description_1">Դուք այժմ չեք կարող օգտագործել TalkBack FOSS-ի սովորական ժեստերը։ Բրայլյան ստեղնաշարն օգտագործելու ժամանակ TalkBack FOSS-ը հասանելի չէ։</string>
   <string name="rotate_orientation_description_2">Պտտեք հեռախոսի էկրանը հակառակ ուղղությամբ և բռնեք այնպես, ինչպես ցուցադրված է նկարում։</string>
   <string name="tap_to_continue">Կրկնակի հպեք՝ շարունակելու համար</string>
   <string name="instruction_type_letter_a_left_index_finger">ձախ ձեռքի ցուցամատ</string>
@@ -105,7 +105,7 @@
   <string name="result_swipe_right">ԲԱՑԱՏ</string>
   <string name="result_swipe_down_2_fingers">ԹԱՔՑՆԵԼ ՍՏԵՂՆԱՇԱՐԸ</string>
   <string name="result_swipe_down_3_fingers">ՀԱՋՈՐԴ ՍՏԵՂՆԱՇԱՐԸ</string>
-  <string name="rotate_orientation_announcement">Դուք այժմ չեք կարող օգտագործել TalkBack-ի սովորական ժեստերը։ Բրայլյան ստեղնաշարն օգտագործելու ժամանակ TalkBack-ը հասանելի չէ։\n\n%1$s</string>
+  <string name="rotate_orientation_announcement">Դուք այժմ չեք կարող օգտագործել TalkBack FOSS-ի սովորական ժեստերը։ Բրայլյան ստեղնաշարն օգտագործելու ժամանակ TalkBack FOSS-ը հասանելի չէ։\n\n%1$s</string>
   <string name="rotate_orientation_inactive_announcement">Նախ պտտեք հեռախոսի էկրանը հակառակ ուղղությամբ։\n\nԱյնուհետև փոխեք հեռախոսի դիրքը հորիզոնականի՝ բռնելով դրա երկու կարճ եզրերից։ Աջ ձեռքով պետք է բռնած լինեք USB միացքով եզրը։ Ձեր ցուցամատը, միջնամատն ու մատնեմատը միաժամանակ հպեք էկրանին՝ պահելով հեռախոսը ճկույթով և բութ մատով։\n\nԵրբ պատրաստ լինեք շարունակել, կրկնակի հպեք էկրանին։\n\nԲրայլյան ստեղնաշարը փակելու համար 3 մատը սահեցրեք վերևից ներքև (դեպի հատակը)։ Այդպիսով դուք կանցնեք սովորական ստեղնաշարին։</string>
   <string name="rotate_orientation_continue_announcement">Հեռախոսը ուղղաձիգ դիրքով է։ Շարունակելու համար հեռախոսը բռնեք հորիզոնական դիրքով։ Ապա պտտեք հեռախոսը հակառակ ուղղությամբ։ Երբ պատրաստ լինեք, շարունակելու համար կրկնակի հպեք էկրանին։</string>
   <string name="type_letter_a_announcement_left_index_finger">ձախ ձեռքի ցուցամատ</string>
@@ -121,7 +121,7 @@
   <string name="swipe_down_3_fingers_announcement">Հաջորդ էկրան անցնելու համար 3 մատը սահեցրեք ներքև։ Փորձեք հիմա։</string>
   <string name="swipe_down_3_fingers_completed_announcement">Հաջորդ ստեղնաշարը։ Այս գործողությամբ սովորաբար կարելի է անցնել հաջորդ ստեղնաշարին։ Այս անգամ բրայլյան ստեղնաշարը բացված կմնա, քանի որ դուք դեռ ուղեցույցում եք։</string>
   <string name="swipe_up_3_fingers_announcement">Դուք նաև կարող եք մուտքագրել սեղանի ռեժիմում՝ հեռախոսը դնելով սեղանին։ Ուղեցույցը փակելու համար 3 մատը սահեցրեք վերև և գտեք «Փակել ուղեցույցը» տարբերակը։</string>
-  <string name="open_context_menu_announcement">Կարգավորումների ընտրացանկը բաց է։ Շրջեք հեռախոսն ու բռնեք այն սովորական դիրքով։ Նավիգացիայի համար այժմ կարող եք օգտագործել TalkBack-ի սովորական ժեստերը։ Մատը սահեցրեք աջ՝ ավելի շատ տարբերակներ տեսնելու համար։</string>
+  <string name="open_context_menu_announcement">Կարգավորումների ընտրացանկը բաց է։ Շրջեք հեռախոսն ու բռնեք այն սովորական դիրքով։ Նավիգացիայի համար այժմ կարող եք օգտագործել TalkBack FOSS-ի սովորական ժեստերը։ Մատը սահեցրեք աջ՝ ավելի շատ տարբերակներ տեսնելու համար։</string>
   <string name="hold_six_fingers_announcement">%s\nՍարքը դրեք սեղանին։ Յուրաքանչյուր ձեռքի 3 մեջտեղի մատով սեղմած պահեք էկրանը մուտքագրման համար ձեզ հարմար դիրքով։</string>
   <string name="hold_six_fingers_inactive_announcement">Սարքը դրեք սեղանին։ Յուրաքանչյուր ձեռքի 3 մեջտեղի մատով սեղմած պահեք էկրանը մուտքագրման համար ձեզ հարմար դիրքով։</string>
   <string name="six_hold_announcement">Դուք նաև կարող եք մուտքագրել՝ հեռախոսը դնելով սեղանին։ Փորձեք հիմա։ Եթե մոտակայքում սեղան չկա, մատը սահեցրեք ներքև՝ այս քայլը բաց թողնելու համար։</string>

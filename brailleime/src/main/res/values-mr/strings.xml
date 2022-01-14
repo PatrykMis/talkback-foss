@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="braille_ime_service_name">TalkBack ब्रेल कीबोर्ड</string>
+  <string name="braille_ime_service_name">TalkBack FOSS ब्रेल कीबोर्ड</string>
   <string name="switch_to_screen_away_announcement">स्क्रीन अवे मोड</string>
   <string name="switch_to_tabletop_announcement">टेबलटॉप मोड. तुमचे डिव्हाइस चार्जिंग पोर्टसह डावीकडे ठेवा. बिंदूचे स्थान अपडेट करण्यासाठी, सहा बोटांनी धरा.</string>
   <string name="braille_ime_hidden_announcement">ब्रेल कीबोर्ड लपवला आहे</string>
@@ -11,7 +11,7 @@
   <string name="switched_to_ueb_uncontracted_announcement">UEB विस्तारितवर स्विच केले</string>
   <string name="braille_ime_displayed_name">ब्रेल कीबोर्ड</string>
   <string name="multiple_languages_braille_ime_displayed_name">ब्रेल कीबोर्ड, %s</string>
-  <string name="input_view_caption">TalkBack ब्रेल कीबोर्ड - मदतीसाठी, g.co/help/braille येथे भेट द्या</string>
+  <string name="input_view_caption">TalkBack FOSS ब्रेल कीबोर्ड - मदतीसाठी, g.co/help/braille येथे भेट द्या</string>
   <string name="perform_action_next">पुढील</string>
   <string name="perform_action_submitting">मजकूर सबमिट करत आहे</string>
   <string name="calibration_step1_hold_left_finger_announcement">बिंदूचे स्थान अपडेट करत आहे. सर्वप्रथम, तुमच्या डाव्या हाताचे बिंदू रेकॉर्ड करू या. तुमच्या डाव्या हाताच्या मधल्या तीन बोटांनी स्क्रीनला स्‍पर्श करा आणि धरून ठेवा.</string>
@@ -78,17 +78,17 @@
     <item quantity="one">बिंदू %s</item>
     <item quantity="other">बिंदू %s</item>
   </plurals>
-  <string name="talkback_off_dialog_title">ब्रेल कीबोर्ड वापरण्यासाठी TalkBack सुरू करा</string>
+  <string name="talkback_off_dialog_title">ब्रेल कीबोर्ड वापरण्यासाठी TalkBack FOSS सुरू करा</string>
   <string name="talkback_off_dialog_positive_button">अ‍ॅक्सेसिबिलिटी सेटिंग्जमध्ये सुरू करा</string>
-  <string name="talkback_suspend_dialog_title">ब्रेल कीबोर्ड वापरण्यासाठी TalkBack पुन्‍हा सुरू करा</string>
-  <string name="talkback_off_or_suspend_dialog_message">TalkBack सुरू असेल तेव्हा ब्रेल चिन्हे एंटर करण्यासाठी तुम्ही तुमच्या स्क्रीनवर टॅप करू शकता.</string>
+  <string name="talkback_suspend_dialog_title">ब्रेल कीबोर्ड वापरण्यासाठी TalkBack FOSS पुन्‍हा सुरू करा</string>
+  <string name="talkback_off_or_suspend_dialog_message">TalkBack FOSS सुरू असेल तेव्हा ब्रेल चिन्हे एंटर करण्यासाठी तुम्ही तुमच्या स्क्रीनवर टॅप करू शकता.</string>
   <string name="next_keyboard">पुढील कीबोर्ड</string>
   <string name="braille_tutorial_title">ब्रेल कीबोर्ड ट्यूटोरियल</string>
-  <string name="tutorial_intro_description">ब्रेल कीबोर्डसोबत, तुम्ही सहा बिंदू ब्रेल एंटर करण्यासाठी तुमच्या स्क्रीनवर टॅप करू शकता.\n\nतुम्ही युनिफाइड इंग्रजी ब्रेल वापरत आहात. तुमची टाइप करण्याची भाषा स्विच करण्यासाठी, TalkBack सेटिंग्ज वर जा.\n\nब्रेल टाइप करण्यासाठी, तुम्हाला तुमचा फोन वेगळ्या प्रकारे धरावा आणि वापरावा लागेल.</string>
+  <string name="tutorial_intro_description">ब्रेल कीबोर्डसोबत, तुम्ही सहा बिंदू ब्रेल एंटर करण्यासाठी तुमच्या स्क्रीनवर टॅप करू शकता.\n\nतुम्ही युनिफाइड इंग्रजी ब्रेल वापरत आहात. तुमची टाइप करण्याची भाषा स्विच करण्यासाठी, TalkBack FOSS सेटिंग्ज वर जा.\n\nब्रेल टाइप करण्यासाठी, तुम्हाला तुमचा फोन वेगळ्या प्रकारे धरावा आणि वापरावा लागेल.</string>
   <string name="next_step">पुढील</string>
   <string name="leave_keyboard">ब्रेल कीबोर्ड सोडा</string>
-  <string name="hold_six_fingers_description">तुम्ही ब्रेल कीबोर्डमध्ये नेहमीचे TalkBack जेश्चर वापरू शकणार नाही.\n\nसुरुवात करण्यासाठी, तुम्ही टाइप करत असताना सहा ब्रेल बिंदूंचे स्थान सेट अप करूया.</string>
-  <string name="rotate_orientation_description_1">आतापासून, तुम्हाला नेहमीची TalkBack जेश्चर वापरता येणार नाहीत. ब्रेल कीबोर्ड वापरत असताना TalkBack उपलब्ध नाही.</string>
+  <string name="hold_six_fingers_description">तुम्ही ब्रेल कीबोर्डमध्ये नेहमीचे TalkBack FOSS जेश्चर वापरू शकणार नाही.\n\nसुरुवात करण्यासाठी, तुम्ही टाइप करत असताना सहा ब्रेल बिंदूंचे स्थान सेट अप करूया.</string>
+  <string name="rotate_orientation_description_1">आतापासून, तुम्हाला नेहमीची TalkBack FOSS जेश्चर वापरता येणार नाहीत. ब्रेल कीबोर्ड वापरत असताना TalkBack FOSS उपलब्ध नाही.</string>
   <string name="rotate_orientation_description_2">सुरुवात करण्यासाठी, तुमचा फोन स्क्रीन तुमच्यापासून बाहेरच्या दिशेला असेल अशा प्रकारे धरा.</string>
   <string name="tap_to_continue">सुरू ठेवण्यासाठी कुठेही दोनदा टॅप करा</string>
   <string name="instruction_type_letter_a_left_index_finger">डावी तर्जनी</string>
@@ -105,7 +105,7 @@
   <string name="result_swipe_right">स्पेस</string>
   <string name="result_swipe_down_2_fingers">कीबोर्ड लपवा</string>
   <string name="result_swipe_down_3_fingers">पुढील कीबोर्ड</string>
-  <string name="rotate_orientation_announcement">आतापासून तुम्हाला नेहमीची TalkBack जेश्चर वापरता येणार नाहीत. ब्रेल कीबोर्ड वापरत असताना TalkBack उपलब्ध नाही.\n\n%1$s</string>
+  <string name="rotate_orientation_announcement">आतापासून तुम्हाला नेहमीची TalkBack FOSS जेश्चर वापरता येणार नाहीत. ब्रेल कीबोर्ड वापरत असताना TalkBack FOSS उपलब्ध नाही.\n\n%1$s</string>
   <string name="rotate_orientation_inactive_announcement">आधी तुमची फोन स्क्रीन तुमच्या विरूद्ध दिशेला असेल अशा प्रकारे वळवा.\n\nत्यानंतर फोन आडवा फिरवून लँडस्केप स्थितीत आणा. तुमच्या हातांनी फोनच्या लहान बाजू धरून ठेवली पाहिजे. तुमच्या उजव्या हाताने USB पोर्टचा मागील भाग धरा. तुमची मधील तीन बोटे स्क्रीनवर ठेवा आणि फोनला आधार देण्यासाठी तुमची करंगळी आणि अंगठा वापरा.\n\nतुम्ही तयार असल्यावर सुरू ठेवण्यासाठी स्क्रीनवर दोनदा टॅप करा.\n\nब्रेल कीबोर्डमधून बाहेर पडण्यासाठी तीन बोटांनी खाली स्वाइप करा. हे परत तुमच्या मूळ कीबोर्डवर स्विच करते.</string>
   <string name="rotate_orientation_continue_announcement">तुमचा फोन उभ्या स्थितीत आहे. सुरू ठेवण्यासाठी, तुमचा फोन लांब बाजू तळाशी येईल अशा प्रकारे आडवा फिरवा. त्यानंतर स्क्रीन तुमच्यापासून बाहेरच्या दिशेला वळवा. तुम्ही तयार असल्यावर, सुरू ठेवण्यासाठी स्क्रीनवर दोनदा टॅप करा.</string>
   <string name="type_letter_a_announcement_left_index_finger">डावी तर्जनी</string>
@@ -121,7 +121,7 @@
   <string name="swipe_down_3_fingers_announcement">तुमच्या दुसर्‍या कीबोर्डवर स्वाइप करण्यासाठी, तीन बोटांनी खाली स्वाइप करा. आता ते करून पहा.</string>
   <string name="swipe_down_3_fingers_completed_announcement">पुढील कीबोर्ड. सहसा, हे पुढील कीबोर्डवर स्विच करेल. या वेळी, तुम्ही अजून ट्युटोरियलमध्ये असल्यामुळे ब्रेल कीबोर्डवर राहिला आहात.</string>
   <string name="swipe_up_3_fingers_announcement">तुम्ही तुमचा फोन टेबलवर सपाट ठेवूनदेखील टेबलटॉप मोडमध्ये टाइप करू शकता. ट्यूटोरियल संपवण्यासाठी तीन बोटांनी वर स्वाइप करा आणि ट्यूटोरियल संपवा पर्याय शोधा</string>
-  <string name="open_context_menu_announcement">पर्याय मेनू खुला आहे. तुमचा फोन तुमच्याकडे फिरवा आणि तो नेहमीप्रमाणे धरा. नेव्हिगेट करण्यासाठी तुम्ही आता नेहमीची TalkBack जेश्चर वापरू शकता. अधिक पर्याय पाहण्यासाठी उजवीकडे स्वाइप करा.</string>
+  <string name="open_context_menu_announcement">पर्याय मेनू खुला आहे. तुमचा फोन तुमच्याकडे फिरवा आणि तो नेहमीप्रमाणे धरा. नेव्हिगेट करण्यासाठी तुम्ही आता नेहमीची TalkBack FOSS जेश्चर वापरू शकता. अधिक पर्याय पाहण्यासाठी उजवीकडे स्वाइप करा.</string>
   <string name="hold_six_fingers_announcement">%s\nतुमचे डिव्हाइस टेबलवर सपाट ठेवा. त्यानंतर, तुम्हाला टाइप करणे सोईचे होईल अशा स्थितीमध्ये प्रत्येक हाताच्या मधल्या तीन बोटांनी स्क्रीनवर स्‍पर्श करा आणि धरून ठेवा.</string>
   <string name="hold_six_fingers_inactive_announcement">तुमचे डिव्हाइस टेबलवर सपाट ठेवा. त्यानंतर, तुम्हाला टाइप करणे सोईचे होईल अशा स्थितीमध्ये प्रत्येक हाताच्या मधल्या तीन बोटांनी स्क्रीनवर स्‍पर्श करा आणि धरून ठेवा.</string>
   <string name="six_hold_announcement">तुम्ही टेबलवर तुमचा फोन सपाट ठेवूनदेखील टाइप करू शकता. आता करून पहा. तुमच्या जवळपास टेबल नसल्यास, खाली स्वाइप करून पुढे जा.</string>

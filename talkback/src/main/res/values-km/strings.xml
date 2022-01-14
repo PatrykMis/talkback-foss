@@ -110,8 +110,8 @@
   <string name="pref_category_selector_menu_summary_single_finger">ដើម្បី​ប្រើការគ្រប់គ្រង​ការអាន សូមអូស​ឡើងលើ រួច​ចុះក្រោម។</string>
   <string name="title_pref_manage_keyboard_shortcuts">ផ្លូវកាត់​ក្ដារ​ចុច</string>
   <string name="title_pref_export_custom_labels">នាំចេញស្លាកផ្ទាល់ខ្លួន</string>
-  <string name="title_pref_play_store">បើក TalkBack នៅ Play Store</string>
-  <string name="summary_pref_play_store">កំណែ TalkBack បច្ចុប្បន្ន៖ %1$s</string>
+  <string name="title_pref_play_store">បើក TalkBack FOSS នៅ Play Store</string>
+  <string name="summary_pref_play_store">កំណែ TalkBack FOSS បច្ចុប្បន្ន៖ %1$s</string>
   <string name="title_pref_help_and_feedback">ជំនួយ និងមតិកែលម្អ</string>
   <string name="pref_item_licenses">អាជ្ញាប័ណ្ណ​កម្មវិធី​កូដ​ចំហ</string>
   <string name="title_pref_help">ជំនួយ</string>
@@ -144,8 +144,8 @@
   <string name="keycombo_menu_select_keymap">ជ្រើសរើសផែនទីគ្រាប់ចុច</string>
   <string name="keycombo_menu_reset_keymap">កំណត់ផែនទីគ្រាប់ចុចឡើងវិញ</string>
   <string name="keycombo_menu_choose_trigger_modifier">ជ្រើសរើសគ្រាប់ចុចបន្សំ</string>
-  <string name="keycombo_menu_alert_title_trigger_modifier">TalkBack នឹងកំណត់ប្លង់គ្រាប់ចុចឡើងវិញ</string>
-  <string name="keycombo_menu_alert_message_trigger_modifier">TalkBack នឹងកំណត់ប្លង់គ្រាប់ចុចឡើងវិញ និងផ្លាស់ប្តូរគ្រាប់ចុចបន្សំទៅជា %1$s</string>
+  <string name="keycombo_menu_alert_title_trigger_modifier">TalkBack FOSS នឹងកំណត់ប្លង់គ្រាប់ចុចឡើងវិញ</string>
+  <string name="keycombo_menu_alert_message_trigger_modifier">TalkBack FOSS នឹងកំណត់ប្លង់គ្រាប់ចុចឡើងវិញ និងផ្លាស់ប្តូរគ្រាប់ចុចបន្សំទៅជា %1$s</string>
   <string name="keycombo_menu_announce_new_trigger_modifier">គ្រាប់ចុចបន្សំត្រូវបានផ្លាស់ប្តូរទៅជា %1$s</string>
   <string name="keycombo_menu_announce_active_keymap">%1$s ឥឡូវនេះសកម្ម</string>
   <string name="keycombo_menu_announce_reset_keymap">ផែនទីគ្រាប់ចុចត្រូវបានកំណត់ឡើងវិញ</string>
@@ -172,7 +172,7 @@
   <string name="keycombo_menu_global_home">ទំព័រដើម</string>
   <string name="keycombo_menu_global_recent">កម្មវិធីថ្មីៗ</string>
   <string name="keycombo_menu_global_notifications">ការជូនដំណឹង</string>
-  <string name="keycombo_menu_global_suspend">ផ្អាក ឬបន្ត TalkBack</string>
+  <string name="keycombo_menu_global_suspend">ផ្អាក ឬបន្ត TalkBack FOSS</string>
   <string name="keycombo_menu_global_play_pause_media">ចាក់ ឬផ្អាក​មេឌៀ</string>
   <string name="keycombo_menu_global_scroll_forward_reading_menu">ជ្រើសរើសការគ្រប់គ្រងការអានបន្ទាប់</string>
   <string name="keycombo_menu_global_scroll_backward_reading_menu">ជ្រើសរើសការគ្រប់គ្រងការអានមុន</string>
@@ -189,7 +189,7 @@
   <string name="keycombo_menu_other_custom_actions">បង្ហាញ​សកម្មភាព</string>
   <string name="keycombo_menu_other_language_options">បង្ហាញភាសាដែលបានដំឡើង</string>
   <string name="keycombo_menu_other_open_manage_keyboard_shortcuts">គ្រប់គ្រងផ្លូវកាត់ក្តារចុច</string>
-  <string name="keycombo_menu_other_open_talkback_settings">បើកការកំណត់ TalkBack</string>
+  <string name="keycombo_menu_other_open_talkback_settings">បើកការកំណត់ TalkBack FOSS</string>
   <string name="keycombo_menu_category_web">សកម្មភាពរុករកអ៊ីនធឺណិត</string>
   <string name="keycombo_menu_web_navigate_to_next_button">ទៅកាន់ប៊ូតុងបន្ទាប់</string>
   <string name="keycombo_menu_web_navigate_to_previous_button">ទៅកាន់ប៊ូតុងពីមុន</string>
@@ -252,7 +252,7 @@
   <string name="title_pref_use_audio_focus">ការធ្វើឱ្យស្ងាត់​សំឡេង</string>
   <string name="summary_pref_use_audio_focus">បន្ថយ​កម្រិត​សំឡេង​ផ្សេង​ទៀត​​​ពេលកំពុង​​អាន</string>
   <string name="title_pref_soundback_volume">កម្រិតសំឡេង​ប្រតិកម្ម</string>
-  <string name="title_pref_two_volume_button_long_click">ផ្លូវកាត់ផ្អាក និងបន្ត TalkBack</string>
+  <string name="title_pref_two_volume_button_long_click">ផ្លូវកាត់ផ្អាក និងបន្ត TalkBack FOSS</string>
   <string name="title_pref_dim_volume_three_clicks">លាក់​ផ្លូវកាត់​អេក្រង់</string>
   <string name="title_pref_category_miscellaneous_settings">ផ្សេងៗ</string>
   <string name="title_pref_category_developer_settings">ការ​កំណត់​​របស់​អ្នក​អភិវឌ្ឍន៍</string>
@@ -527,13 +527,13 @@
   <string name="pref_node_desc_order_entry_state_name_role_pos">រដ្ឋ ឈ្មោះ ប្រភេទ</string>
   <string name="pref_node_desc_order_entry_role_name_state_pos">ប្រភេទ ឈ្មោះ រដ្ឋ</string>
   <string name="pref_node_desc_order_entry_name_role_state_pos">ឈ្មោះ ប្រភេទ រដ្ឋ</string>
-  <string name="notification_title_talkback_gestures_changed">បាន​ប្ដូរ​កាយវិការ​ TalkBack</string>
+  <string name="notification_title_talkback_gestures_changed">បាន​ប្ដូរ​កាយវិការ​ TalkBack FOSS</string>
   <string name="notification_message_talkback_gestures_changed">ប៉ះ​ ដើម្បី​ពិនិត្យ​​​​ការ​ផ្លាស់ប្ដូរ​​ចំពោះ​​កាយវិការ​ភាព​ងាយស្រួល</string>
-  <string name="notification_title_talkback_suspended">បាន​ផ្អាក TalkBack</string>
+  <string name="notification_title_talkback_suspended">បាន​ផ្អាក TalkBack FOSS</string>
   <string name="notification_message_talkback_suspended">ចុចដើម្បីបន្ត</string>
   <string name="notification_tutorial_navigate_to_lession_1">ឈានចូលមេរៀនទី 1.ដោយស្វ័យប្រវត្តិ</string>
-  <string name="dialog_title_suspend_talkback">ផ្អាក TalkBack?</string>
-  <string name="dialog_message_suspend_talkback">តើ​អ្នក​ប្រាកដ​ជា​ចង់​ផ្អាក TalkBack ដែរទេ?\n\nនៅពេល​ដែល TalkBack ត្រូវ​បាន​ផ្អាក ឧបករណ៍​របស់​អ្នក​នឹង​មិន​ធ្វើ​ការអានជា​សំឡេង​ទេ ហើយមុខងារ​រក​​មើលដោយ​ប៉ះ​នឹង​ត្រូវ​បិទ។</string>
+  <string name="dialog_title_suspend_talkback">ផ្អាក TalkBack FOSS?</string>
+  <string name="dialog_message_suspend_talkback">តើ​អ្នក​ប្រាកដ​ជា​ចង់​ផ្អាក TalkBack FOSS ដែរទេ?\n\nនៅពេល​ដែល TalkBack FOSS ត្រូវ​បាន​ផ្អាក ឧបករណ៍​របស់​អ្នក​នឹង​មិន​ធ្វើ​ការអានជា​សំឡេង​ទេ ហើយមុខងារ​រក​​មើលដោយ​ប៉ះ​នឹង​ត្រូវ​បិទ។</string>
   <string name="message_resume_manual">អ្នក​អាច​បន្ត​ប្រើតបវិញពី​ផ្ទាំងពង្រីក​ការជូនដំណឹង</string>
   <string name="message_resume_screen_on">អ្នក​អាច​បន្ត​ប្រើតបវិញពី​ផ្ទាំងពង្រីក​ការជូនដំណឹង ឬដោយបើកអេក្រង់</string>
   <string name="message_resume_keyguard">អ្នក​អាច​បន្ត​ប្រើតបវិញពី​ផ្ទាំងពង្រីក​ការជូនដំណឹង ឬ​ដោយត្រឡប់​ទៅ​អេក្រង់ចាក់សោ</string>
@@ -548,7 +548,7 @@
   <string name="label_remove_dialog_text_app_name">តើ​អ្នក​ប្រាកដ​ជា​ចង់​លុប​ស្លាក \"%1$s\" នៅ​ក្នុង %2$s?</string>
   <string name="label_dialog_edit_hint">អត្ថបទ​ស្លាក</string>
   <string name="label_import">នាំចូលស្លាកផ្ទាល់ខ្លួន</string>
-  <string name="label_import_dialog_title">នាំចូលស្លាកផ្ទាល់ខ្លួនទៅ TalkBack</string>
+  <string name="label_import_dialog_title">នាំចូលស្លាកផ្ទាល់ខ្លួនទៅ TalkBack FOSS</string>
   <string name="label_import_dialog_message">ជ្រើសរើសថាតើអ្នកចង់បដិសេធ ឬរំលងស្លាកដែលមានស្រាប់នៅក្នុងករណីដែលមិនត្រូវគ្នា</string>
   <string name="label_import_dialog_skip">រំលង</string>
   <string name="label_import_dialog_override">បដិសេធ</string>
@@ -563,13 +563,13 @@
   <string name="no_apps_to_export_labels">រក​មិន​ឃើញ​កម្មវិធី​ដែល​ត្រូវនាំចេញ​ស្លាក​ទេ។</string>
   <string name="label_choose_app_to_import">ជ្រើសរើស​កម្មវិធី​ដែល​ត្រូវ​នាំចូល​ស្លាក៖</string>
   <string name="label_choose_app_to_export">ជ្រើសកម្មវិធីដើម្បីនាំចេញស្លាក៖</string>
-  <string name="talkback_gesture_change_details">កំណែ TalkBack នេះ​រួមមាន​ការ​ផ្លាស់ប្ដូរ​ទៅ​កាយវិការ​ភាព​ងាយស្រួល​លំនាំដើម។ សកម្មភាព​ដែល​បាន​ភ្ជាប់​ជា​មួយ​កាយវិការ​ទាំង​នេះ​អាច​ត្រូវ​បាន​ប្ដូរ​តាម​តម្រូវ​ការ​នៅ​ក្នុង​ការ​កំណត់ TalkBack ។ នៅ​ពេល​ការ​រុករក​ដោយ​ប៉ះ​ត្រូវ​បាន​បើក អ្នក​អាច​ប្រើ​កាយវិការ​ដូច​ខាង​ក្រោម​ដើម្បី​អនុវត្ត​សកម្មភាព​ជាក់លាក់។\n\n%1$s</string>
+  <string name="talkback_gesture_change_details">កំណែ TalkBack FOSS នេះ​រួមមាន​ការ​ផ្លាស់ប្ដូរ​ទៅ​កាយវិការ​ភាព​ងាយស្រួល​លំនាំដើម។ សកម្មភាព​ដែល​បាន​ភ្ជាប់​ជា​មួយ​កាយវិការ​ទាំង​នេះ​អាច​ត្រូវ​បាន​ប្ដូរ​តាម​តម្រូវ​ការ​នៅ​ក្នុង​ការ​កំណត់ TalkBack FOSS ។ នៅ​ពេល​ការ​រុករក​ដោយ​ប៉ះ​ត្រូវ​បាន​បើក អ្នក​អាច​ប្រើ​កាយវិការ​ដូច​ខាង​ក្រោម​ដើម្បី​អនុវត្ត​សកម្មភាព​ជាក់លាក់។\n\n%1$s</string>
   <string formatted="false" name="value_long_volume_pressed_suspend_talkback">ចុចប៊ូតុងកម្រិតសម្លេងឡើង និងចុះឲ្យយូរ</string>
   <string formatted="false" name="value_dim_volume_three_clicks">ចុចគ្រាប់ចុច​កម្រិតសំឡេង​ទាំងពីរ​បីដងឱ្យលឿន ដើម្បីលាក់ ឬបង្ហាញអេក្រង់</string>
   <string name="dialog_title_dim_screen">លាក់​អេក្រង់ឬ?</string>
   <string name="dialog_message_dim_screen">សកម្មភាពនេះ​បិទផ្ទាំងអេក្រង់ ដើម្បីកែលម្អ​ឯកជនភាព ដើម្បីកុំឱ្យ​អ្នកដទៃមើលឃើញ​អេក្រង់របស់អ្នក នៅពេល​ស្ថិតនៅតាម​ទីសាធារណៈ</string>
   <string name="talkback_built_in_gesture_change_details">កំណែរបស់មុខងារតបវិញនេះ​រួមមាន​ការផ្លាស់ប្ដូរ​ទៅលើចលនានៃ​ភាពងាយស្រួល​លំនាំដើម។\n\nចលនាឡើងលើរួចចុះក្រោម​នឹងអនុញ្ញាតឱ្យអ្នក​ផ្លាស់ទីទៅ​ធាតុដំបូង​នៅលើអេក្រង់ ហើយចលនា​ចុះក្រោមរួចឡើងលើនឹងផ្លាស់ទី​ទៅធាតុចុងក្រោយ។\n\nឥឡូវនេះ បន្សំការអានអាច​ត្រូវបានផ្លាស់ប្ដូដោយ​ផ្ដោតលើធាតុ បន្ទាប់មក​ជ្រើសរើសបន្សំ​ពីម៉ឺនុយបរិបទ​របស់មុខងារតបវិញ។\n\nអ្នកអាច​ផ្លាស់ប្ដូរ​សកម្មភាព​ដែលបានធ្វើឡើង​ដោយចលនាទាំងនេះ​នៅក្នុងការកំណត់​មុខងារតបវិញ។</string>
-  <string name="talkback_built_in_gesture_change_details_45">កំណែ TalkBack នេះរួមបញ្ចូលទាំងការផ្លាស់ប្តូរចំពោះកាយវិការបញ្ជាសម្រាប់លទ្ធភាពប្រើប្រាស់លំនាំដើម។\n\nឥឡូវនេះកាយវិការបញ្ជាឡើងបានផ្លាស់ទីទៅការកំណត់ការបញ្ជាពីមុន ហើយកាយវិការបញ្ជាចុះបានផ្លាស់ទីទៅការកំណត់ការបញ្ជាបន្ទាប់។</string>
+  <string name="talkback_built_in_gesture_change_details_45">កំណែ TalkBack FOSS នេះរួមបញ្ចូលទាំងការផ្លាស់ប្តូរចំពោះកាយវិការបញ្ជាសម្រាប់លទ្ធភាពប្រើប្រាស់លំនាំដើម។\n\nឥឡូវនេះកាយវិការបញ្ជាឡើងបានផ្លាស់ទីទៅការកំណត់ការបញ្ជាពីមុន ហើយកាយវិការបញ្ជាចុះបានផ្លាស់ទីទៅការកំណត់ការបញ្ជាបន្ទាប់។</string>
   <string name="side_tap_shortcuts_removed_details">ការកំណត់​ទាំងនេះ​ត្រូវបាន​លុបចេញ​ពី​មុខងារ​តបវិញ ដោយសារ​បញ្ហា​ទំនុក​ចិត្ត៖\n• ចុច​លើ​ចលនា​នៅចំហៀង​​ឧបករណ៍\n• គ្រវីដើម្បី​ចាប់ផ្ដើម​ការអាន​ឥតឈប់</string>
   <string name="updown_downup_gestures_change_and_selector_always_on_details">ចលនា \"អូស​ឡើងលើ រួច​ចុះក្រោម\" ត្រូវបាន​កំណត់​ឡើងវិញ ដើម្បី​ជ្រើសរើស​ការកំណត់​ពីមុន។\nចលនា \"អូស​ចុះក្រោម រួច​ឡើងលើ\" ត្រូវបានកំណត់ឡើងវិញ ដើម្បីចាប់ផ្ដើមផ្លូវកាត់សំឡេង។\n\nកម្មវិធីជ្រើសរើសត្រូវបានបើក សូមអូសឡើងលើ រួចចុះក្រោមនៅលើអេក្រង់ អូសឡើងលើ ឬចុះក្រោមនៅលើឧបករណ៍ចាប់ស្នាមម្រាមដៃ ដើម្បីជ្រើសរើសការកំណត់។ និងអូស​ឡើងលើ ឬចុះក្រោម​នៅលើ​អេក្រង់ ដើម្បី​កែតម្រូវ​ការកំណត់។</string>
   <string name="button_accept_changed_gesture_mappings">ទទួល​យក​កាយវិការ</string>
@@ -583,11 +583,11 @@
   <string name="dialog_title_enable_performance_stats">បើកដំណើរការស្ថិតិប្រតិបត្តិការដែរទេ?</string>
   <string name="dialog_message_enable_performance_stats">តើអ្នកប្រាកដថាចង់បើកស្ថិតិប្រតិបត្តិការដែរទេ?\n\nស្ថិតិប្រតិបត្តិការអាចនឹងប្រើអង្គចងចាំ និងថ្មច្រើនជាងមុន។</string>
   <string name="title_request_phone_permission">អនុញ្ញាត​ឱ្យចូលប្រើទូរសព្ទដែរទេ?</string>
-  <string name="message_request_phone_permission">ការធ្វើបែប​នេះជួយ TalkBack ក្នុងការកាត់បន្ថយ​ការប្រកាស នៅពេលអ្នក​កំពុងនិយាយទូរសព្ទ</string>
+  <string name="message_request_phone_permission">ការធ្វើបែប​នេះជួយ TalkBack FOSS ក្នុងការកាត់បន្ថយ​ការប្រកាស នៅពេលអ្នក​កំពុងនិយាយទូរសព្ទ</string>
   <string name="continue_button">បន្ត</string>
-  <string name="label_talkback_context_menu">ម៉ឺនុយ​បរិបទ​សកល​របស់ TalkBack</string>
-  <string name="permission_talkback_label">ពិនិត្យ TalkBack</string>
-  <string name="permission_talkback_desc">សិទ្ធិ​ក្នុង​ការ​ផ្ញើ​កាយវិការ​ទៅកាន់​ TalkBack និង​បន្ត​មតិយោបល់​ដែល​បាន​និយាយ។</string>
+  <string name="label_talkback_context_menu">ម៉ឺនុយ​បរិបទ​សកល​របស់ TalkBack FOSS</string>
+  <string name="permission_talkback_label">ពិនិត្យ TalkBack FOSS</string>
+  <string name="permission_talkback_desc">សិទ្ធិ​ក្នុង​ការ​ផ្ញើ​កាយវិការ​ទៅកាន់​ TalkBack FOSS និង​បន្ត​មតិយោបល់​ដែល​បាន​និយាយ។</string>
   <string name="links">តំណ</string>
   <string name="end_of_text">បញ្ចប់</string>
   <string name="start_of_page">គ្មាន %1$s ពីមុនទេ</string>
@@ -632,7 +632,7 @@
   <string name="arc_talkback_activation_hint">កម្មវិធី​តបវិញ​បាន​បើក</string>
   <string name="arc_navigation_hint">ចុចស្វែងរកដោយប្រើព្រួញដើម្បីរុករក</string>
   <string name="arc_open_manage_keyboard_shortcuts_hint">ចុច %1$s ដើម្បីមើលបញ្ជីផ្លូវកាត់</string>
-  <string name="arc_open_talkback_settings_hint">ចុច %1$s ដើម្បីបើកការកំណត់ TalkBack</string>
+  <string name="arc_open_talkback_settings_hint">ចុច %1$s ដើម្បីបើកការកំណត់ TalkBack FOSS</string>
   <string name="reset_user_language_preference">លំនាំដើម</string>
   <string name="title_pref_selector_settings">ឧបករណ៍ជ្រើសរើស</string>
   <string name="title_pref_selector_activation">ការបើកដំណើរការឧបករណ៍ជ្រើសរើស</string>

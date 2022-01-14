@@ -11,7 +11,7 @@
   <string name="switched_to_ueb_uncontracted_announcement">‏به حالت «بریل انگلیسی یکپارچه» (UEB) غیراختصاری رفتید</string>
   <string name="braille_ime_displayed_name">صفحه‌کلید بریل</string>
   <string name="multiple_languages_braille_ime_displayed_name">صفحه‌کلید بریل، %s</string>
-  <string name="input_view_caption">‏صفحه‌کلید بریل TalkBack - برای راهنمایی به g.co/help/braille بروید</string>
+  <string name="input_view_caption">‏صفحه‌کلید بریل TalkBack FOSS - برای راهنمایی به g.co/help/braille بروید</string>
   <string name="perform_action_next">بعدی</string>
   <string name="perform_action_submitting">درحال ارسال نوشتار</string>
   <string name="calibration_step1_hold_left_finger_announcement">درحال به‌روزرسانی موقعیت نقطه. ابتدا، بیایید نقطه‌ها را برای دست چپتان ثبت کنیم. با ۳ انگشت میانی دست چپتان، صفحه‌نمایش را لمس کنید و نگه دارید.</string>
@@ -78,17 +78,17 @@
     <item quantity="one">نقاط %s</item>
     <item quantity="other">نقاط %s</item>
   </plurals>
-  <string name="talkback_off_dialog_title">‏برای استفاده از صفحه‌کلید بریل، TalkBack را روشن کنید</string>
+  <string name="talkback_off_dialog_title">‏برای استفاده از صفحه‌کلید بریل، TalkBack FOSS را روشن کنید</string>
   <string name="talkback_off_dialog_positive_button">در تنظیمات دسترس‌پذیری روشن کنید</string>
-  <string name="talkback_suspend_dialog_title">‏برای استفاده از صفحه‌کلید بریل، سرویس TalkBack باید ازسرگرفته شود</string>
-  <string name="talkback_off_or_suspend_dialog_message">‏وقتی TalkBack روشن است، می‌توانید با ضربه زدن روی صفحه‌نمایشْ نمادهای بریل وارد کنید.</string>
+  <string name="talkback_suspend_dialog_title">‏برای استفاده از صفحه‌کلید بریل، سرویس TalkBack FOSS باید ازسرگرفته شود</string>
+  <string name="talkback_off_or_suspend_dialog_message">‏وقتی TalkBack FOSS روشن است، می‌توانید با ضربه زدن روی صفحه‌نمایشْ نمادهای بریل وارد کنید.</string>
   <string name="next_keyboard">صفحه‌کلید بعدی</string>
   <string name="braille_tutorial_title">آموزش گام‌به‌گام صفحه‌کلید بریل</string>
-  <string name="tutorial_intro_description">‏بااستفاده از صفحه‌کلید بریل می‌توانید با ضربه زدن روی صفحه‌نمایش، بریل ۶ نقطه‌ای وارد کنید.\n\nاز «بریل انگلیسی یکپارچه» استفاده می‌کنید. برای تغییر زبان تایپ، به تنظیمات TalkBack بروید.\n\nبرای تایپ بریل، باید تلفن را به‌صورت متفاوتی دردست بگیرید و استفاده کنید.</string>
+  <string name="tutorial_intro_description">‏بااستفاده از صفحه‌کلید بریل می‌توانید با ضربه زدن روی صفحه‌نمایش، بریل ۶ نقطه‌ای وارد کنید.\n\nاز «بریل انگلیسی یکپارچه» استفاده می‌کنید. برای تغییر زبان تایپ، به تنظیمات TalkBack FOSS بروید.\n\nبرای تایپ بریل، باید تلفن را به‌صورت متفاوتی دردست بگیرید و استفاده کنید.</string>
   <string name="next_step">بعدی</string>
   <string name="leave_keyboard">خروج از صفحه‌کلید بریل</string>
-  <string name="hold_six_fingers_description">‏در صفحه‌کلید بریل نمی‌توانید از اشاره‌های معمول TalkBack استفاده کنید.\n\nبرای شروع کار، بیایید موقعیت ۶ نقطه بریل را برای وقتی‌که تایپ می‌کنید تنظیم کنیم.</string>
-  <string name="rotate_orientation_description_1">‏از این به بعد نمی‌توانید از اشاره‌های TalkBack عادی استفاده کنید. TalkBack درحین استفاده از صفحه‌کلید بریل در دسترس نیست.</string>
+  <string name="hold_six_fingers_description">‏در صفحه‌کلید بریل نمی‌توانید از اشاره‌های معمول TalkBack FOSS استفاده کنید.\n\nبرای شروع کار، بیایید موقعیت ۶ نقطه بریل را برای وقتی‌که تایپ می‌کنید تنظیم کنیم.</string>
+  <string name="rotate_orientation_description_1">‏از این به بعد نمی‌توانید از اشاره‌های TalkBack FOSS عادی استفاده کنید. TalkBack FOSS درحین استفاده از صفحه‌کلید بریل در دسترس نیست.</string>
   <string name="rotate_orientation_description_2">برای شروع، تلفن را اینگونه در دست بگیرید: صفحه‌نمایش پشت به شما باشد.</string>
   <string name="tap_to_continue">برای ادامه، روی بخشی از صفحه دو ضربه سریع بزنید</string>
   <string name="instruction_type_letter_a_left_index_finger">انگشت اشاره چپ</string>
@@ -105,7 +105,7 @@
   <string name="result_swipe_right">فاصله</string>
   <string name="result_swipe_down_2_fingers">پنهان کردن صفحه‌کلید</string>
   <string name="result_swipe_down_3_fingers">صفحه‌کلید بعدی</string>
-  <string name="rotate_orientation_announcement">‏از این به بعد نمی‌توانید از اشاره‌های TalkBack عادی استفاده کنید. TalkBack درحین استفاده از صفحه‌کلید بریل در دسترس نیست.\n\n%1$s</string>
+  <string name="rotate_orientation_announcement">‏از این به بعد نمی‌توانید از اشاره‌های TalkBack FOSS عادی استفاده کنید. TalkBack FOSS درحین استفاده از صفحه‌کلید بریل در دسترس نیست.\n\n%1$s</string>
   <string name="rotate_orientation_inactive_announcement">‏ابتدا، تلفن را بچرخانید تا صفحه‌نمایش پشت به شما قرار گیرد.\n\nسپس، تلفن را افقی بچرخانید تا در حالت منظره قرار بگیرد. دستان شما باید لبه‌های کوتاه تلفن را گرفته باشند. دست راست شما باید انتهای پایینی با درگاه USB را گرفته باشد. ۳ انگشت وسط را روی صفحه‌نمایش قرار دهید و با انگشتان کوچک و شست تلفن را نگه دارید.\n\nوقتی آماده بودید، دو ضربه سریع روی صفحه‌نمایش بزنید تا کار را ادامه دهید. \n\nبرای خروج از صفحه‌کلید بریل، با ۳ انگشت تند به‌پایین (به‌طرف زمین) بکشید. با این کار به صفحه‌کلید اصلی برمی‌گردید.</string>
   <string name="rotate_orientation_continue_announcement">تلفن شما در موقعیت عمودی قرار دارد. برای ادامه، تلفن را طوری افقی بچرخانید که لبه بزرگ در پایین قرار بگیرد. سپس دوباره آن را بچرخانید تا صفحه‌نمایش پشت به شما قرار بگیرد. وقتی آماده بودید، دو ضربه سریع روی صفحه‌نمایش بزنید تا کار را ادامه دهید.</string>
   <string name="type_letter_a_announcement_left_index_finger">انگشت اشاره چپ</string>
@@ -121,7 +121,7 @@
   <string name="swipe_down_3_fingers_announcement">برای اینکه به صفحه‌کلید دیگری بروید، با ۳ انگشت تند به‌پایین بکشید. امتحان کنید.</string>
   <string name="swipe_down_3_fingers_completed_announcement">صفحه‌کلید بعدی. معمولاً با این کار به صفحه‌کلید بعدی می‌روید. این بار، در صفحه‌کلید بریل خواهید ماند چون هنوز در آموزش گام‌به‌گام هستید.</string>
   <string name="swipe_up_3_fingers_announcement">با صاف گذاشتن تلفن روی میز می‌توانید در حالت افقی روبه‌صورت هم تایپ کنید. برای تکمیل آموزش گام‌به‌گام، با ۳ انگشت تند به‌بالا بکشید و گزینه «تکمیل آموزش گام‌به‌گام» را پیدا کنید</string>
-  <string name="open_context_menu_announcement">‏منوی گزینه‌ها باز است. تلفنتان را بچرخانید تا به‌سمت شما قرار بگیرد و بتوانید آن را به‌صورت عادی نگه دارید. اکنون می‌توانید از اشاره‌های TalkBack عادی برای پیمایش استفاده کنید. برای دیدن گزینه‌های بیشتر، تند به‌راست بکشید.</string>
+  <string name="open_context_menu_announcement">‏منوی گزینه‌ها باز است. تلفنتان را بچرخانید تا به‌سمت شما قرار بگیرد و بتوانید آن را به‌صورت عادی نگه دارید. اکنون می‌توانید از اشاره‌های TalkBack FOSS عادی برای پیمایش استفاده کنید. برای دیدن گزینه‌های بیشتر، تند به‌راست بکشید.</string>
   <string name="hold_six_fingers_announcement">‏%s\nدستگاه را صاف روی میز قرار دهید. سپس، در موقعیتی که تایپ کردن برایتان راحت باشد، با ۳ انگشت میانی هر دو دست صفحه‌نمایش را لمس کنید و نگه دارید.</string>
   <string name="hold_six_fingers_inactive_announcement">دستگاه را صاف روی میز قرار دهید. سپس، در موقعیتی که تایپ کردن برایتان راحت باشد، با ۳ انگشت میانی هر دو دست صفحه‌نمایش را لمس کنید و نگه دارید.</string>
   <string name="six_hold_announcement">می‌توانید با صاف گذاشتن تلفن روی میز هم تایپ کنید. اکنون امتحان کنید. اگر در اطرافتان میزی وجود ندارد، با تند کشیدن به‌سمت پایین رد شوید و به مرحله بعدی بروید.</string>

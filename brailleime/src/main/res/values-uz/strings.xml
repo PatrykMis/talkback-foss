@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="braille_ime_service_name">TalkBack brayl klaviaturasi</string>
+  <string name="braille_ime_service_name">TalkBack FOSS brayl klaviaturasi</string>
   <string name="switch_to_screen_away_announcement">Ekran qarshisida rejimi</string>
   <string name="switch_to_tabletop_announcement">Stol usti rejimi. Qurilmani quvvatlash porti chapga qaragan holda joylang. Nuqta holatini yangilash uchun 6 ta barmoq bilan bosib turing.</string>
   <string name="braille_ime_hidden_announcement">Brayl klaviaturasi berkitildi</string>
@@ -11,7 +11,7 @@
   <string name="switched_to_ueb_uncontracted_announcement">Qisqartirilgan UEB rejimiga oʻtdingiz</string>
   <string name="braille_ime_displayed_name">brayl klaviaturasi</string>
   <string name="multiple_languages_braille_ime_displayed_name">brayl klaviaturasi, %s</string>
-  <string name="input_view_caption">TalkBack brayl klaviaturasi – batafsil: g.co/help/braille</string>
+  <string name="input_view_caption">TalkBack FOSS brayl klaviaturasi – batafsil: g.co/help/braille</string>
   <string name="perform_action_next">Keyingisi</string>
   <string name="perform_action_submitting">Matn kiritilmoqda</string>
   <string name="calibration_step1_hold_left_finger_announcement">Nuqta joylashuvi yangilanmoqda. Avval nuqtalarni chap qoʻlingizda yozib oling. Chap qoʻlingizning oʻrta 3 ta barmogʻi bilan ekranni bosib turing.</string>
@@ -78,17 +78,17 @@
     <item quantity="one">%s-nuqta</item>
     <item quantity="other">%s-nuqta</item>
   </plurals>
-  <string name="talkback_off_dialog_title">Brayl klaviaturasidan foydalanish uchun TalkBack xizmatini yoqing</string>
+  <string name="talkback_off_dialog_title">Brayl klaviaturasidan foydalanish uchun TalkBack FOSS xizmatini yoqing</string>
   <string name="talkback_off_dialog_positive_button">Maxsus imkoniyatlar sozlamalaridan yoqing</string>
-  <string name="talkback_suspend_dialog_title">Brayl klaviaturasidan foydalanish uchun TalkBack xizmatini qayta yoqing</string>
-  <string name="talkback_off_or_suspend_dialog_message">TalkBack ishga tushganda Brayl belgilarini kiritish uchun ekranni bosing.</string>
+  <string name="talkback_suspend_dialog_title">Brayl klaviaturasidan foydalanish uchun TalkBack FOSS xizmatini qayta yoqing</string>
+  <string name="talkback_off_or_suspend_dialog_message">TalkBack FOSS ishga tushganda Brayl belgilarini kiritish uchun ekranni bosing.</string>
   <string name="next_keyboard">Keyingi klaviatura</string>
   <string name="braille_tutorial_title">Brayl klaviaturasi darsligi</string>
-  <string name="tutorial_intro_description">Brayl klaviaturasi yordamida ekranni bosib, 6 nuqtali brayl kiritish mumkin.\n\nBirlashtirilgan Ingliz brayl yozuvi ishlatilmoqda. Matn kiritish tilini almashtirish uchun TalkBack sozlamalarini oching.\n\nBrayl yozuvida kiritish uchun telefonni oʻzgacha ushlab, ishlatish kerak boʻladi.</string>
+  <string name="tutorial_intro_description">Brayl klaviaturasi yordamida ekranni bosib, 6 nuqtali brayl kiritish mumkin.\n\nBirlashtirilgan Ingliz brayl yozuvi ishlatilmoqda. Matn kiritish tilini almashtirish uchun TalkBack FOSS sozlamalarini oching.\n\nBrayl yozuvida kiritish uchun telefonni oʻzgacha ushlab, ishlatish kerak boʻladi.</string>
   <string name="next_step">Keyingisi</string>
   <string name="leave_keyboard">Brayl klaviaturasidan chiqish</string>
-  <string name="hold_six_fingers_description">Brayl klaviaturasida oddiy TalkBack ishoralardan boshqa foydala olmaysiz.\n\nIshni boshlash uchun matn kiritishda 6 nuqtali brayl holatini sozlash kerak.</string>
-  <string name="rotate_orientation_description_1">Endi odatiy TalkBack ishoralarini ishlata olmaysiz. TalkBack funksiyasi brayl klaviaturasi yoniqligida ishlamaydi.</string>
+  <string name="hold_six_fingers_description">Brayl klaviaturasida oddiy TalkBack FOSS ishoralardan boshqa foydala olmaysiz.\n\nIshni boshlash uchun matn kiritishda 6 nuqtali brayl holatini sozlash kerak.</string>
+  <string name="rotate_orientation_description_1">Endi odatiy TalkBack FOSS ishoralarini ishlata olmaysiz. TalkBack FOSS funksiyasi brayl klaviaturasi yoniqligida ishlamaydi.</string>
   <string name="rotate_orientation_description_2">Boshlash uchun telefonni ekrani sizga teskari holatda tuting.</string>
   <string name="tap_to_continue">Davom etish uchun ekranni ikki marta bosing</string>
   <string name="instruction_type_letter_a_left_index_finger">chap koʻrsatkich barmoq</string>
@@ -105,7 +105,7 @@
   <string name="result_swipe_right">PROBEL</string>
   <string name="result_swipe_down_2_fingers">KLAVIATURANI YOPISH</string>
   <string name="result_swipe_down_3_fingers">KEYINGI KLAVIATURA</string>
-  <string name="rotate_orientation_announcement">Endi odatiy TalkBack ishoralarini ishlata olmaysiz. TalkBack funksiyasi brayl klaviaturasi yoniqligida ishlamaydi.\n\n%1$s</string>
+  <string name="rotate_orientation_announcement">Endi odatiy TalkBack FOSS ishoralarini ishlata olmaysiz. TalkBack FOSS funksiyasi brayl klaviaturasi yoniqligida ishlamaydi.\n\n%1$s</string>
   <string name="rotate_orientation_inactive_announcement">Avval telefonni ekrani sizga teskari holatda tuting.\n\nKeyin telefonni gorizontal holatga buring. Qoʻllaringiz bilan telefonning yon chekkalarini ushlang. Oʻng qoʻlingiz USB porti bor chekkani ushlashi kerak. 3-barmoqni ekranga joylang, chimchaloq va bosh barmoqlar telefonni tutib tursin.\n\nTayyor boʻlsangiz, ekranni ikki marta bosing.\n\nBrayl klaviaturasidan chiqish uchun 3 barmoq bilan pastga suring. Bu oddiy klaviaturani qaytaradi.</string>
   <string name="rotate_orientation_continue_announcement">Telefoningiz tik holatda. Davom etish uchun telefonni gorizontal holatga buring. Keyin ekranini sizga teskari holatda tuting. Tayyor boʻlsangiz, ekranni ikki marta bosing.</string>
   <string name="type_letter_a_announcement_left_index_finger">chap koʻrsatkich barmoq</string>
@@ -121,7 +121,7 @@
   <string name="swipe_down_3_fingers_announcement">Boshqa klaviaturaga almashtirish uchun 3 barmoq bilan pastga suring. Endi urinib koʻring.</string>
   <string name="swipe_down_3_fingers_completed_announcement">Keyingi klaviatura. Odatda bu keyingi klaviaturaga almashtiradi. Darslik yopilmagani uchun brayl klaviaturasi hali ham ochiq.</string>
   <string name="swipe_up_3_fingers_announcement">Telefoningizni stolga tekis yotqizish orqali stol usti rejimida ham yozishingiz mumkin. Darslikni tamomlash uchun 3 ta barmoq bilan tepaga suring va darslikni tamomlash parametrini toping.</string>
-  <string name="open_context_menu_announcement">Parametrlar menyusi ochiq. Telefonni buring va uni odatdagi kabi tuting. Endi telefonda odatiy TalkBack ishoralaridan foydalanish mumkin. Boshqa parametrlarni koʻrish uchun oʻngga suring.</string>
+  <string name="open_context_menu_announcement">Parametrlar menyusi ochiq. Telefonni buring va uni odatdagi kabi tuting. Endi telefonda odatiy TalkBack FOSS ishoralaridan foydalanish mumkin. Boshqa parametrlarni koʻrish uchun oʻngga suring.</string>
   <string name="hold_six_fingers_announcement">%s\nQurilmangizni stol ustiga tekis yotqizing. Keyin ekranni har bir qoʻl uchun yozishga qulay holatda oʻrta 3 ta barmoq bilan bosib turing.</string>
   <string name="hold_six_fingers_inactive_announcement">Qurilmangizni stol ustiga tekis yotqizing. Keyin ekranni har bir qoʻl uchun yozishga qulay holatda oʻrta 3 ta barmoq bilan bosib turing.</string>
   <string name="six_hold_announcement">Telefoningizni stolga tekis yotqizish orqali ham yozishingiz mumkin. Hoziroq sinang. Agar yoningizda stol boʻlmasa, pastga surish bilan oʻtkazib yuborishingiz mumkin.</string>

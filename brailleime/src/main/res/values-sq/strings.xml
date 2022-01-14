@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="braille_ime_service_name">Tastiera breil e TalkBack</string>
+  <string name="braille_ime_service_name">Tastiera breil e TalkBack FOSS</string>
   <string name="switch_to_screen_away_announcement">Modaliteti i \"Ekranit larg\"</string>
   <string name="switch_to_tabletop_announcement">Modaliteti i \"Tavolinës\". Vendose pajisjen me portën e karikimit në të majtë. Për të përditësuar pozicionin e pikës, mbaj të shtypur 6 gishta.</string>
   <string name="braille_ime_hidden_announcement">Tastiera breil është fshehur</string>
@@ -11,7 +11,7 @@
   <string name="switched_to_ueb_uncontracted_announcement">Kalove te modaliteti i pashkurtuar UEB</string>
   <string name="braille_ime_displayed_name">tastiera breil</string>
   <string name="multiple_languages_braille_ime_displayed_name">tastiera breil, %s</string>
-  <string name="input_view_caption">Tastiera breil e TalkBack - për ndihmë, vizito g.co/help/braille</string>
+  <string name="input_view_caption">Tastiera breil e TalkBack FOSS - për ndihmë, vizito g.co/help/braille</string>
   <string name="perform_action_next">Para</string>
   <string name="perform_action_submitting">Po dërgon tekst</string>
   <string name="calibration_step1_hold_left_finger_announcement">Pozicioni i pikës po përditësohet. Fillimisht, le të regjistrojmë pikat në dorën tënde të majtë. Prek dhe mbaj shtypur ekranin me 3 gishtat e mesit të dorës së majtë.</string>
@@ -78,17 +78,17 @@
     <item quantity="one">pika %s</item>
     <item quantity="other">pikat %s</item>
   </plurals>
-  <string name="talkback_off_dialog_title">Aktivizo TalkBack për të përdorur tastierën breil</string>
+  <string name="talkback_off_dialog_title">Aktivizo TalkBack FOSS për të përdorur tastierën breil</string>
   <string name="talkback_off_dialog_positive_button">Aktivizo cilësimet e qasshmërisë</string>
-  <string name="talkback_suspend_dialog_title">Vazhdo TalkBack për të përdorur tastierën breil</string>
-  <string name="talkback_off_or_suspend_dialog_message">Kur TalkBack është aktiv, mund të trokasësh në ekran për të futur simbole breil.</string>
+  <string name="talkback_suspend_dialog_title">Vazhdo TalkBack FOSS për të përdorur tastierën breil</string>
+  <string name="talkback_off_or_suspend_dialog_message">Kur TalkBack FOSS është aktiv, mund të trokasësh në ekran për të futur simbole breil.</string>
   <string name="next_keyboard">Tastiera tjetër</string>
   <string name="braille_tutorial_title">Udhëzuesi i tastierës breil</string>
-  <string name="tutorial_intro_description">Me tastierën breil, mund të trokasësh në ekran për të futur breil me 6 pika.\n\nPo përdor Unified English Braille. Për të ndryshuar gjuhën e shkrimit, shko te cilësimet e TalkBack.\n\nPër të shkruar në gjuhën breil, duhet ta mbash dhe ta përdorësh telefonin tënd ndryshe.</string>
+  <string name="tutorial_intro_description">Me tastierën breil, mund të trokasësh në ekran për të futur breil me 6 pika.\n\nPo përdor Unified English Braille. Për të ndryshuar gjuhën e shkrimit, shko te cilësimet e TalkBack FOSS.\n\nPër të shkruar në gjuhën breil, duhet ta mbash dhe ta përdorësh telefonin tënd ndryshe.</string>
   <string name="next_step">Para</string>
   <string name="leave_keyboard">Largohu nga tastiera breil</string>
-  <string name="hold_six_fingers_description">Nuk do të mund të përdorësh gjestet normale të TalkBack në tastierën breil.\n\nPër të filluar, le të konfigurojmë pozicionin e 6 pikave breil kur shkruan.</string>
-  <string name="rotate_orientation_description_1">Duke filluar nga tani, nuk do të mund të përdorësh gjestet e zakonshme të TalkBack. TalkBack nuk ofrohet kur përdor tastierën breil.</string>
+  <string name="hold_six_fingers_description">Nuk do të mund të përdorësh gjestet normale të TalkBack FOSS në tastierën breil.\n\nPër të filluar, le të konfigurojmë pozicionin e 6 pikave breil kur shkruan.</string>
+  <string name="rotate_orientation_description_1">Duke filluar nga tani, nuk do të mund të përdorësh gjestet e zakonshme të TalkBack FOSS. TalkBack FOSS nuk ofrohet kur përdor tastierën breil.</string>
   <string name="rotate_orientation_description_2">Për të filluar, mbaje telefonin në këtë mënyrë, me telefonin të drejtuar larg nga vetja jote.</string>
   <string name="tap_to_continue">Trokit dy herë diku për të vazhduar</string>
   <string name="instruction_type_letter_a_left_index_finger">gishtin tregues të dorës së majtë</string>
@@ -105,7 +105,7 @@
   <string name="result_swipe_right">HAPËSIRË</string>
   <string name="result_swipe_down_2_fingers">FSHIH TASTIERËN</string>
   <string name="result_swipe_down_3_fingers">TASTIERA TJETËR</string>
-  <string name="rotate_orientation_announcement">Duke filluar nga tani, nuk do të mund të përdorësh gjestet e zakonshme të TalkBack. TalkBack nuk ofrohet kur përdor tastierën breil.\n\n%1$s</string>
+  <string name="rotate_orientation_announcement">Duke filluar nga tani, nuk do të mund të përdorësh gjestet e zakonshme të TalkBack FOSS. TalkBack FOSS nuk ofrohet kur përdor tastierën breil.\n\n%1$s</string>
   <string name="rotate_orientation_inactive_announcement">Në fillim ktheje telefonin në mënyrë të tillë që ekrani të jetë drejtuar larg vetes sate.\n\nMë pas rrotulloje telefonin horizontalisht në pozicionin e peizazhit. Duart e tua duhet të kapin anët e shkurtra të telefonit. Dora jote e djathtë duhet të mbajë fundin me portën USB. Vendos 3 gishtat e mesit në ekran dhe përdor gishtin e vogël dhe gishtin e madh për të mbështetur telefonin.\n\nKur të jesh gati, trokit dy herë në ekran për të vazhduar.\n\nPër të dalë nga tastiera breil, rrëshqit shpejt poshtë drejt dyshemesë me 3 gishta. Kjo të kthen përsëri te tastiera jote fillestare.</string>
   <string name="rotate_orientation_continue_announcement">Telefoni yt është në pozicionin vertikal. Për të vazhduar, rrotulloje telefonin horizontalisht në mënyrë që ana e gjatë të jetë poshtë. Më pas ktheje ekranin të drejtuar larg vetes sate. Kur të jesh gati, trokit dy herë në ekran për të vazhduar.</string>
   <string name="type_letter_a_announcement_left_index_finger">Gishti tregues i dorës së majtë</string>
@@ -121,7 +121,7 @@
   <string name="swipe_down_3_fingers_announcement">Për të kaluar te tastiera tjetër, rrëshqit shpejt poshtë me 3 gishta. Provoje tani.</string>
   <string name="swipe_down_3_fingers_completed_announcement">Tastiera tjetër. Zakonisht me këtë do të kalohet te tastiera tjetër. Këtë herë po qëndron në tastierën breil pasi je ende brenda udhëzuesit.</string>
   <string name="swipe_up_3_fingers_announcement">Mund të shkruash gjithashtu në modalitetin \"Në tavolinë\" duke e vendosur telefonin rrafsh në tavolinë. Për të përfunduar udhëzuesin, rrëshqit shpejt lart me 3 gishta dhe gjej opsionin \"përfundo udhëzuesin\"</string>
-  <string name="open_context_menu_announcement">Menyja e opsioneve është e hapur. Përmbyse telefonin përsëri që ta kesh përballë dhe mbaje normalisht. Tani mund të përdorësh gjestet e zakonshme të TalkBack për të naviguar. Rrëshqit djathtas për të parë më shumë opsione.</string>
+  <string name="open_context_menu_announcement">Menyja e opsioneve është e hapur. Përmbyse telefonin përsëri që ta kesh përballë dhe mbaje normalisht. Tani mund të përdorësh gjestet e zakonshme të TalkBack FOSS për të naviguar. Rrëshqit djathtas për të parë më shumë opsione.</string>
   <string name="hold_six_fingers_announcement">%s\nVendose pajisjen rrafsh në tavolinë. Më pas, prek dhe mbaj ekranin me 3 gishtat e mesit të secilës dorë në një pozicion ku mund të shkruash në mënyrë komode.</string>
   <string name="hold_six_fingers_inactive_announcement">Vendose pajisjen rrafsh në tavolinë. Më pas, prek dhe mbaj ekranin me 3 gishtat e mesit të secilës dorë në një pozicion ku mund të shkruash në mënyrë komode.</string>
   <string name="six_hold_announcement">Mund të shkruash gjithashtu duke e vendosur telefonin rrafsh në tavolinë. Provoje tani. Nëse nuk ke një tavolinë në afërsi, kapërce përpara duke rrëshqitur poshtë shpejt.</string>

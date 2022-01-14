@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="braille_ime_service_name">Braillova klávesnica aplikácie TalkBack</string>
+  <string name="braille_ime_service_name">Braillova klávesnica aplikácie TalkBack FOSS</string>
   <string name="switch_to_screen_away_announcement">Režim obrátenia obrazovky</string>
   <string name="switch_to_tabletop_announcement">Stolový režim. Umiestnite zariadenie tak, aby bol nabíjací port vľavo. Umiestnenie bodiek aktualizujete pridržaním šiestich prstov na obrazovke.</string>
   <string name="braille_ime_hidden_announcement">Braillova klávesnica bola skrytá</string>
@@ -11,7 +11,7 @@
   <string name="switched_to_ueb_uncontracted_announcement">Prepnuté na úplnú verziu UEB</string>
   <string name="braille_ime_displayed_name">Braillova klávesnica</string>
   <string name="multiple_languages_braille_ime_displayed_name">Braillova klávesnica, %s</string>
-  <string name="input_view_caption">Braillova klávesnica aplikácie TalkBack – pomoc získate na g.co/help/braille</string>
+  <string name="input_view_caption">Braillova klávesnica aplikácie TalkBack FOSS – pomoc získate na g.co/help/braille</string>
   <string name="perform_action_next">Ďalej</string>
   <string name="perform_action_submitting">Odosiela sa text.</string>
   <string name="calibration_step1_hold_left_finger_announcement">Aktualizuje sa pozícia bodiek. Najprv zaznamenajme bodky ľavej ruky. Pridržte obrazovku strednými troma prstami ľavej ruky.</string>
@@ -80,17 +80,17 @@
     <item quantity="many">body %s</item>
     <item quantity="other">body %s</item>
   </plurals>
-  <string name="talkback_off_dialog_title">Ak chcete používať Braillovu klávesnicu, zapnite aplikáciu TalkBack</string>
+  <string name="talkback_off_dialog_title">Ak chcete používať Braillovu klávesnicu, zapnite aplikáciu TalkBack FOSS</string>
   <string name="talkback_off_dialog_positive_button">Zapnúť v nastaveniach dostupnosti</string>
-  <string name="talkback_suspend_dialog_title">Ak chcete použiť Braillovu klávesnicu, obnovte aplikáciu TalkBack</string>
-  <string name="talkback_off_or_suspend_dialog_message">Keď je aplikácia TalkBack zapnutá, môžete zadávať Braillove symboly klepaním na obrazovku.</string>
+  <string name="talkback_suspend_dialog_title">Ak chcete použiť Braillovu klávesnicu, obnovte aplikáciu TalkBack FOSS</string>
+  <string name="talkback_off_or_suspend_dialog_message">Keď je aplikácia TalkBack FOSS zapnutá, môžete zadávať Braillove symboly klepaním na obrazovku.</string>
   <string name="next_keyboard">Ďalšia klávesnica</string>
   <string name="braille_tutorial_title">Návod k Braillovej klávesnici</string>
   <string name="tutorial_intro_description">Braillova klávesnica umožňuje zadávať šesťbodové Braillovo písmo klepaním na obrazovku.\n\nPoužívate jednotné anglické Braillovo písmo. Jazyk písania môžete prepnúť v nastaveniach aplikácie.\n\nPri písaní Braillovým písmom je potrebné telefón držať a používať inak.</string>
   <string name="next_step">Ďalej</string>
   <string name="leave_keyboard">Opustiť Braillovu klávesnicu</string>
-  <string name="hold_six_fingers_description">Na Braillovej klávesnici nebudete môcť používať bežné gestá aplikácie TalkBack.\n\nZačnime nastavením umiestnenia šiestich braillových bodiek používaných pri písaní.</string>
-  <string name="rotate_orientation_description_1">Odteraz už nebudete môcť používať bežné gestá aplikácie TalkBack. TalkBack nebude počas používania Braillovej klávesnice k dispozícii.</string>
+  <string name="hold_six_fingers_description">Na Braillovej klávesnici nebudete môcť používať bežné gestá aplikácie TalkBack FOSS.\n\nZačnime nastavením umiestnenia šiestich braillových bodiek používaných pri písaní.</string>
+  <string name="rotate_orientation_description_1">Odteraz už nebudete môcť používať bežné gestá aplikácie TalkBack FOSS. TalkBack FOSS nebude počas používania Braillovej klávesnice k dispozícii.</string>
   <string name="rotate_orientation_description_2">Začnite uchopením telefónu týmto spôsobom, aby obrazovka smerovala od vás.</string>
   <string name="tap_to_continue">Pokračujte dvojitým klepnutím na ľubovoľné miesto na obrazovke</string>
   <string name="instruction_type_letter_a_left_index_finger">ľavým ukazovákom</string>
@@ -107,7 +107,7 @@
   <string name="result_swipe_right">MEDZERA</string>
   <string name="result_swipe_down_2_fingers">SKRYŤ KLÁVESNICU</string>
   <string name="result_swipe_down_3_fingers">ĎALŠIA KLÁVESNICA</string>
-  <string name="rotate_orientation_announcement">Odteraz už nebudete môcť používať bežné gestá aplikácie TalkBack. TalkBack nebude počas používania Braillovej klávesnice k dispozícii.\n\n%1$s</string>
+  <string name="rotate_orientation_announcement">Odteraz už nebudete môcť používať bežné gestá aplikácie TalkBack FOSS. TalkBack FOSS nebude počas používania Braillovej klávesnice k dispozícii.\n\n%1$s</string>
   <string name="rotate_orientation_inactive_announcement">Najprv obráťte telefón, aby obrazovka smerovala od vás.\n\nPotom ho vodorovne otočte na šírku. Rukami by ste mali držať krátke strany telefónu. Pravou rukou by ste mali držať stranu s portom USB. Položte tri prostredné prsty na obrazovku a malíčkom a palcom telefón podopierajte.\n\nPotom pokračujte dvojitým klepnutím na obrazovku.\n\nAk chcete Braillovu klávesnicu ukončiť, potiahnite troma prstami nadol smerom k zemi. Týmto prepnete na pôvodnú klávesnicu.</string>
   <string name="rotate_orientation_continue_announcement">Váš telefón je vo zvislej polohe. Ak chcete pokračovať, otočte ho vodorovne dlhým okrajom nadol. Potom obrazovku od seba odvráťte. Následne pokračujte dvojitým klepnutím na obrazovku.</string>
   <string name="type_letter_a_announcement_left_index_finger">Ľavý ukazovák</string>
@@ -123,7 +123,7 @@
   <string name="swipe_down_3_fingers_announcement">Ak chcete prepnúť na inú klávesnicu, potiahnite troma prstami nadol. Vyskúšajte to.</string>
   <string name="swipe_down_3_fingers_completed_announcement">Ďalšia klávesnica. Týmto postupom zvyčajne prepnete na ďalšiu klávesnicu. Braillova klávesnica zostane tentokrát otvorená, pretože máte stále otvorený návod.</string>
   <string name="swipe_up_3_fingers_announcement">V stolovom režime môžete tiež písať tak, že telefón položíte vodorovne na stôl. Návod ukončíte potiahnutím troma prstami nahor a nájdením možnosti ukončenia návodu</string>
-  <string name="open_context_menu_announcement">Ponuka možností je otvorená. Otočte telefón späť, aby obrazovka smerovala na vás, a držte ho ako obvykle. Teraz môžete navigovať bežnými gestami aplikácie TalkBack. Potiahnutím doprava zobrazíte ďalšie možnosti.</string>
+  <string name="open_context_menu_announcement">Ponuka možností je otvorená. Otočte telefón späť, aby obrazovka smerovala na vás, a držte ho ako obvykle. Teraz môžete navigovať bežnými gestami aplikácie TalkBack FOSS. Potiahnutím doprava zobrazíte ďalšie možnosti.</string>
   <string name="hold_six_fingers_announcement">%s\nPoložte zariadenie vodorovne na stôl. Potom pridržte stredné tri prsty oboch rúk na obrazovke v pozícii, v ktorej sa vám pohodlne píše.</string>
   <string name="hold_six_fingers_inactive_announcement">Položte zariadenie vodorovne na stôl. Potom pridržte stredné tri prsty oboch rúk na obrazovke v pozícii, v ktorej sa vám pohodlne píše.</string>
   <string name="six_hold_announcement">Môžete tiež písať položením telefónu vodorovne na stôl. Vyskúšajte to. Ak nemáte nablízku stôl, tento krok preskočte potiahnutím nadol.</string>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="braille_ime_service_name">Klawiatura brajlowska TalkBack</string>
+  <string name="braille_ime_service_name">Klawiatura brajlowska TalkBack FOSS</string>
   <string name="switch_to_screen_away_announcement">Tryb Ekran odsunięty</string>
   <string name="switch_to_tabletop_announcement">Tryb na stole. Połóż urządzenie tak, by port ładowania był po lewej stronie. Aby zmienić pozycję kropki, przytrzymaj ekran 6 palcami.</string>
   <string name="braille_ime_hidden_announcement">Ukryto klawiaturę brajlowską</string>
@@ -13,7 +13,7 @@
   <string name="switched_to_ueb_uncontracted_announcement">Przełączono na brajla integralnego</string>
   <string name="braille_ime_displayed_name">klawiatura brajlowska</string>
   <string name="multiple_languages_braille_ime_displayed_name">klawiatura brajlowska, %s</string>
-  <string name="input_view_caption">Klawiatura brajlowska TalkBack – aby uzyskać pomoc, kliknij g.co/help/braille</string>
+  <string name="input_view_caption">Klawiatura brajlowska TalkBack FOSS – aby uzyskać pomoc, kliknij g.co/help/braille</string>
   <string name="perform_action_next">Następne</string>
   <string name="perform_action_submitting">Przesyłanie tekstu</string>
   <string name="calibration_step1_hold_left_finger_announcement">Zmieniam pozycję kropki. Zacznijmy od zarejestrowania kropek w przypadku lewej ręki. Naciśnij i przytrzymaj ekran 3 środkowymi palcami lewej dłoni.</string>
@@ -83,17 +83,17 @@
     <item quantity="many">punkty %s</item>
     <item quantity="other">punkty %s</item>
   </plurals>
-  <string name="talkback_off_dialog_title">Włącz TalkBack, by używać klawiatury brajlowskiej</string>
+  <string name="talkback_off_dialog_title">Włącz TalkBack FOSS, by używać klawiatury brajlowskiej</string>
   <string name="talkback_off_dialog_positive_button">Włącz w ustawieniach ułatwień dostępu</string>
-  <string name="talkback_suspend_dialog_title">Wznów TalkBack, by używać klawiatury brajlowskiej</string>
-  <string name="talkback_off_or_suspend_dialog_message">Po włączeniu TalkBack możesz wstawiać symbole brajlowskie, klikając ekran.</string>
+  <string name="talkback_suspend_dialog_title">Wznów TalkBack FOSS, by używać klawiatury brajlowskiej</string>
+  <string name="talkback_off_or_suspend_dialog_message">Po włączeniu TalkBack FOSS możesz wstawiać symbole brajlowskie, klikając ekran.</string>
   <string name="next_keyboard">Następna klawiatura</string>
   <string name="braille_tutorial_title">Samouczek klawiatury brajlowskiej</string>
-  <string name="tutorial_intro_description">Korzystając z klawiatury brajlowskiej, możesz pisać 6-punktowym brajlem, klikając ekran.\n\nUżywasz kodu Unified English Braille. Aby przełączyć język pisania, otwórz ustawienia TalkBack.\n\nAby pisać brajlem, musisz inaczej trzymać telefon.</string>
+  <string name="tutorial_intro_description">Korzystając z klawiatury brajlowskiej, możesz pisać 6-punktowym brajlem, klikając ekran.\n\nUżywasz kodu Unified English Braille. Aby przełączyć język pisania, otwórz ustawienia TalkBack FOSS.\n\nAby pisać brajlem, musisz inaczej trzymać telefon.</string>
   <string name="next_step">Dalej</string>
   <string name="leave_keyboard">Zamknij klawiaturę brajlowską</string>
-  <string name="hold_six_fingers_description">Nie będzie można używać standardowych gestów TalkBack na klawiaturze brajlowskiej.\n\nAby rozpocząć, skonfiguruj pozycję 6 kropek brajlowskich używanych podczas pisania.</string>
-  <string name="rotate_orientation_description_1">Od teraz nie możesz korzystać ze standardowych gestów TalkBack. Gdy używasz klawiatury brajlowskiej, usługa TalkBack jest niedostępna.</string>
+  <string name="hold_six_fingers_description">Nie będzie można używać standardowych gestów TalkBack FOSS na klawiaturze brajlowskiej.\n\nAby rozpocząć, skonfiguruj pozycję 6 kropek brajlowskich używanych podczas pisania.</string>
+  <string name="rotate_orientation_description_1">Od teraz nie możesz korzystać ze standardowych gestów TalkBack FOSS. Gdy używasz klawiatury brajlowskiej, usługa TalkBack FOSS jest niedostępna.</string>
   <string name="rotate_orientation_description_2">Najpierw chwyć telefon w prezentowany sposób, odwracając ekran od siebie.</string>
   <string name="tap_to_continue">Kliknij dwukrotnie w dowolnym miejscu, by kontynuować</string>
   <string name="instruction_type_letter_a_left_index_finger">lewy palec wskazujący</string>
@@ -110,7 +110,7 @@
   <string name="result_swipe_right">SPACJA</string>
   <string name="result_swipe_down_2_fingers">UKRYJ KLAWIATURĘ</string>
   <string name="result_swipe_down_3_fingers">NASTĘPNA KLAWIATURA</string>
-  <string name="rotate_orientation_announcement">Od teraz nie możesz korzystać ze standardowych gestów TalkBack. Gdy używasz klawiatury brajlowskiej, usługa TalkBack jest niedostępna.\n\n%1$s</string>
+  <string name="rotate_orientation_announcement">Od teraz nie możesz korzystać ze standardowych gestów TalkBack FOSS. Gdy używasz klawiatury brajlowskiej, usługa TalkBack FOSS jest niedostępna.\n\n%1$s</string>
   <string name="rotate_orientation_inactive_announcement">Najpierw odwróć telefon ekranem od siebie.\n\nNastępnie obróć telefon i ustaw go poziomo. Trzymaj telefon za krótsze krawędzie. Prawą ręką trzymaj część, w której znajduje się port USB. Połóż 3 środkowe palce na ekranie, a kciukiem i małym palcem podpieraj telefon.\n\nGdy wszystko będzie gotowe, kliknij ekran dwukrotnie, by przejść dalej.\n\nAby zamknąć klawiaturę brajlowską, przesuń 3 palcami w dół. Spowoduje to przełączenie na pierwotną klawiaturę.</string>
   <string name="rotate_orientation_continue_announcement">Telefon jest ustawiony pionowo. Aby przejść dalej, obróć go w poziomie, tak by długa krawędź znalazła się na dole. Następnie odwróć ekran od siebie. Gdy wszystko będzie gotowe, kliknij ekran dwukrotnie, by przejść dalej.</string>
   <string name="type_letter_a_announcement_left_index_finger">lewy palec wskazujący</string>
@@ -126,7 +126,7 @@
   <string name="swipe_down_3_fingers_announcement">Aby przełączyć się na inną klawiaturę, przesuń 3 palcami w dół. Spróbuj to zrobić teraz.</string>
   <string name="swipe_down_3_fingers_completed_announcement">Następna klawiatura. Zwykle powoduje to przełączenie na następną klawiaturę. Tym razem klawiatura brajlowska pozostaje otwarta, ponieważ wciąż masz uruchomiony samouczek.</string>
   <string name="swipe_up_3_fingers_announcement">Możesz też pisać w trybie na płasko, gdy umieścisz telefon płasko na stole. Aby zakończyć samouczek, przesuń 3 palcami i znajdź odpowiednią opcję.</string>
-  <string name="open_context_menu_announcement">Menu opcji jest otwarte. Odwróć telefon do pozycji wyjściowej, by był skierowany w Twoją stronę. Trzymaj go normalnie. Możesz teraz korzystać przy nawigacji ze standardowych gestów TalkBack. Przesuń palcem w prawo, by wyświetlić więcej opcji.</string>
+  <string name="open_context_menu_announcement">Menu opcji jest otwarte. Odwróć telefon do pozycji wyjściowej, by był skierowany w Twoją stronę. Trzymaj go normalnie. Możesz teraz korzystać przy nawigacji ze standardowych gestów TalkBack FOSS. Przesuń palcem w prawo, by wyświetlić więcej opcji.</string>
   <string name="hold_six_fingers_announcement">%s\nPołóż urządzenie płasko na stole. Następnie naciśnij i przytrzymaj ekran 3 środkowymi palcami każdej dłoni w pozycji, która będzie dla Ciebie wygodna do pisania.</string>
   <string name="hold_six_fingers_inactive_announcement">Umieść urządzenie płasko na stole. Następnie naciśnij i przytrzymaj ekran 3 środkowymi palcami każdej dłoni w pozycji, która będzie dla Ciebie wygodna do pisania.</string>
   <string name="six_hold_announcement">Możesz też pisać, gdy położysz telefon płasko na stole. Spróbuj to zrobić teraz. Jeśli nie masz dostępu do stołu, pomiń ten krok, przesuwając palcem w dół.</string>

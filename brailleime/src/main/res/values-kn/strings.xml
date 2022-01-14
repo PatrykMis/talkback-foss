@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="braille_ime_service_name">TalkBack ಬ್ರೈಲ್‌ ಕೀಬೋರ್ಡ್</string>
+  <string name="braille_ime_service_name">TalkBack FOSS ಬ್ರೈಲ್‌ ಕೀಬೋರ್ಡ್</string>
   <string name="switch_to_screen_away_announcement">ಸ್ಕ್ರೀನ್-ಅವೇ ಮೋಡ್</string>
   <string name="switch_to_tabletop_announcement">ಟೇಬಲ್‍‍ಟಾಪ್ ಮೋಡ್. ನಿಮ್ಮ ಸಾಧನದ ಚಾರ್ಜಿಂಗ್ ಪೋರ್ಟ್ ಅನ್ನು ಎಡಕ್ಕೆ ಇರಿಸಿ. ಡಾಟ್ ಸ್ಥಾನವನ್ನು ಅಪ್‌ಡೇಟ್ ಮಾಡಲು, 6 ಬೆರಳುಗಳನ್ನು ಹಿಡಿದುಕೊಳ್ಳಿ.</string>
   <string name="braille_ime_hidden_announcement">ಬ್ರೈಲ್ ಕೀಬೋರ್ಡ್ ಮರೆಯಾಗಿದೆ</string>
@@ -11,7 +11,7 @@
   <string name="switched_to_ueb_uncontracted_announcement">ಒಪ್ಪಂದ ರಹಿತ UEB ‌ಗೆ ಬದಲಾಯಿಸಲಾಗಿದೆ</string>
   <string name="braille_ime_displayed_name">ಬ್ರೈಲ್ ಕೀಬೋರ್ಡ್</string>
   <string name="multiple_languages_braille_ime_displayed_name">ಬ್ರೈಲ್ ಕೀಬೋರ್ಡ್, %s</string>
-  <string name="input_view_caption">TalkBack ಬ್ರೈಲ್ ಕೀಬೋರ್ಡ್ - ಸಹಾಯಕ್ಕಾಗಿ, g.co/help/braille ಗೆ ಭೇಟಿ ನೀಡಿ</string>
+  <string name="input_view_caption">TalkBack FOSS ಬ್ರೈಲ್ ಕೀಬೋರ್ಡ್ - ಸಹಾಯಕ್ಕಾಗಿ, g.co/help/braille ಗೆ ಭೇಟಿ ನೀಡಿ</string>
   <string name="perform_action_next">ಮುಂದೆ</string>
   <string name="perform_action_submitting">ಪಠ್ಯವನ್ನು ಸಲ್ಲಿಸಲಾಗುತ್ತಿದೆ</string>
   <string name="calibration_step1_hold_left_finger_announcement">ಡಾಟ್ ಸ್ಥಾನವನ್ನು ಅಪ್‌ಡೇಟ್ ಮಾಡಲಾಗುತ್ತಿದೆ. ಮೊದಲು, ನಿಮ್ಮ ಎಡಗೈಯಲ್ಲಿನ ಡಾಟ್‌ಗಳನ್ನು ರೆಕಾರ್ಡ್ ಮಾಡೋಣ. ನಿಮ್ಮ ಎಡಗೈಯಲ್ಲಿನ ಮಧ್ಯದ 3 ಬೆರಳುಗಳಿಂದ ಸ್ಕ್ರೀನ್ ಅನ್ನು ಸ್ಪರ್ಶಿಸಿ ಮತ್ತು ಒತ್ತಿ ಹಿಡಿಯಿರಿ.</string>
@@ -78,17 +78,17 @@
     <item quantity="one">ಚುಕ್ಕೆಗಳು %s</item>
     <item quantity="other">ಚುಕ್ಕೆಗಳು %s</item>
   </plurals>
-  <string name="talkback_off_dialog_title">ಬ್ರೈಲ್ ಕೀಬೋರ್ಡ್ ಬಳಸಲು, TalkBack ಆನ್ ಮಾಡಿ</string>
+  <string name="talkback_off_dialog_title">ಬ್ರೈಲ್ ಕೀಬೋರ್ಡ್ ಬಳಸಲು, TalkBack FOSS ಆನ್ ಮಾಡಿ</string>
   <string name="talkback_off_dialog_positive_button">ಪ್ರವೇಶಿಸುವಿಕೆ ಸೆಟ್ಟಿಂಗ್‌ಗಳಲ್ಲಿ ಆನ್ ಮಾಡಿ</string>
-  <string name="talkback_suspend_dialog_title">ಬ್ರೈಲ್ ಕೀಬೋರ್ಡ್ ಬಳಸಲು, TalkBack ಪುನರಾರಂಭಿಸಿ</string>
-  <string name="talkback_off_or_suspend_dialog_message">TalkBack ಆನ್ ಆಗಿರುವಾಗ, ಬ್ರೈಲ್ ಚಿಹ್ನೆಗಳನ್ನು ನಮೂದಿಸಲು ನಿಮ್ಮ ಸ್ಕ್ರೀನ್ ಅನ್ನು ಟ್ಯಾಪ್ ಮಾಡಬಹುದು.</string>
+  <string name="talkback_suspend_dialog_title">ಬ್ರೈಲ್ ಕೀಬೋರ್ಡ್ ಬಳಸಲು, TalkBack FOSS ಪುನರಾರಂಭಿಸಿ</string>
+  <string name="talkback_off_or_suspend_dialog_message">TalkBack FOSS ಆನ್ ಆಗಿರುವಾಗ, ಬ್ರೈಲ್ ಚಿಹ್ನೆಗಳನ್ನು ನಮೂದಿಸಲು ನಿಮ್ಮ ಸ್ಕ್ರೀನ್ ಅನ್ನು ಟ್ಯಾಪ್ ಮಾಡಬಹುದು.</string>
   <string name="next_keyboard">ಮುಂದಿನ ಕೀಬೋರ್ಡ್</string>
   <string name="braille_tutorial_title">ಬ್ರೈಲ್ ಕೀಬೋರ್ಡ್ ಟುಟೋರಿಯಲ್</string>
-  <string name="tutorial_intro_description">ಬ್ರೈಲ್ ಕೀಬೋರ್ಡ್ ಜೊತೆಗೆ, 6-ಡಾಟ್‌ಗಳ ಬ್ರೈಲ್ ಅನ್ನು ನಮೂದಿಸಲು ನಿಮ್ಮ ಸ್ಕ್ರೀನ್ ಅನ್ನು ಟ್ಯಾಪ್ ಮಾಡಬಹುದು.\n\nಯೂನಿಫೈಡ್ ಇಂಗ್ಲಿಷ್ ಬ್ರೈಲ್ ಅನ್ನು ಬಳಸುತ್ತಿರುವಿರಿ. ಟೈಪಿಂಗ್ ಭಾಷೆಯನ್ನು ಬದಲಾಯಿಸಲು, TalkBack ಸೆಟ್ಟಿಂಗ್‌ಗಳಿಗೆ ಹೋಗಿ.\n\nಬ್ರೈಲ್ ಟೈಪ್ ಮಾಡಲು, ನಿಮ್ಮ ಫೋನ್ ಅನ್ನು ವಿಭಿನ್ನವಾಗಿ ಹಿಡಿದುಕೊಂಡು ಬಳಸಬೇಕಾಗುತ್ತದೆ.</string>
+  <string name="tutorial_intro_description">ಬ್ರೈಲ್ ಕೀಬೋರ್ಡ್ ಜೊತೆಗೆ, 6-ಡಾಟ್‌ಗಳ ಬ್ರೈಲ್ ಅನ್ನು ನಮೂದಿಸಲು ನಿಮ್ಮ ಸ್ಕ್ರೀನ್ ಅನ್ನು ಟ್ಯಾಪ್ ಮಾಡಬಹುದು.\n\nಯೂನಿಫೈಡ್ ಇಂಗ್ಲಿಷ್ ಬ್ರೈಲ್ ಅನ್ನು ಬಳಸುತ್ತಿರುವಿರಿ. ಟೈಪಿಂಗ್ ಭಾಷೆಯನ್ನು ಬದಲಾಯಿಸಲು, TalkBack FOSS ಸೆಟ್ಟಿಂಗ್‌ಗಳಿಗೆ ಹೋಗಿ.\n\nಬ್ರೈಲ್ ಟೈಪ್ ಮಾಡಲು, ನಿಮ್ಮ ಫೋನ್ ಅನ್ನು ವಿಭಿನ್ನವಾಗಿ ಹಿಡಿದುಕೊಂಡು ಬಳಸಬೇಕಾಗುತ್ತದೆ.</string>
   <string name="next_step">ಮುಂದೆ</string>
   <string name="leave_keyboard">ಬ್ರೈಲ್ ಕೀಬೋರ್ಡ್ ಅನ್ನು ತೊರೆಯಿರಿ</string>
-  <string name="hold_six_fingers_description">ನೀವು ಬ್ರೈಲ್ ಕೀಬೋರ್ಡ್‌ನಲ್ಲಿ ಸಾಮಾನ್ಯ TalkBack ಗೆಸ್ಚರ್‌ಗಳನ್ನು ಬಳಸಲು ಸಾಧ್ಯವಾಗುವುದಿಲ್ಲ.\n\nಪ್ರಾರಂಭಿಸಲು, ನೀವು ಟೈಪ್ ಮಾಡುವಾಗ 6 ಬ್ರೈಲ್ ಡಾಟ್‌ಗಳ ಸ್ಥಾನವನ್ನು ಸೆಟಪ್ ಮಾಡೋಣ.</string>
-  <string name="rotate_orientation_description_1">ಈಗಿನಿಂದ, ನಿಮಗೆ ಸಾಮಾನ್ಯ TalkBack ಗೆಸ್ಚರ್‌ಗಳನ್ನು ಬಳಸಲು ಸಾಧ್ಯವಾಗುವುದಿಲ್ಲ. ಬ್ರೈಲ್ ಕೀಬೋರ್ಡ್ ಬಳಸುವಾಗ TalkBack ಲಭ್ಯವಿರುವುದಿಲ್ಲ.</string>
+  <string name="hold_six_fingers_description">ನೀವು ಬ್ರೈಲ್ ಕೀಬೋರ್ಡ್‌ನಲ್ಲಿ ಸಾಮಾನ್ಯ TalkBack FOSS ಗೆಸ್ಚರ್‌ಗಳನ್ನು ಬಳಸಲು ಸಾಧ್ಯವಾಗುವುದಿಲ್ಲ.\n\nಪ್ರಾರಂಭಿಸಲು, ನೀವು ಟೈಪ್ ಮಾಡುವಾಗ 6 ಬ್ರೈಲ್ ಡಾಟ್‌ಗಳ ಸ್ಥಾನವನ್ನು ಸೆಟಪ್ ಮಾಡೋಣ.</string>
+  <string name="rotate_orientation_description_1">ಈಗಿನಿಂದ, ನಿಮಗೆ ಸಾಮಾನ್ಯ TalkBack FOSS ಗೆಸ್ಚರ್‌ಗಳನ್ನು ಬಳಸಲು ಸಾಧ್ಯವಾಗುವುದಿಲ್ಲ. ಬ್ರೈಲ್ ಕೀಬೋರ್ಡ್ ಬಳಸುವಾಗ TalkBack FOSS ಲಭ್ಯವಿರುವುದಿಲ್ಲ.</string>
   <string name="rotate_orientation_description_2">ಪ್ರಾರಂಭಿಸಲು, ಪರದೆಯು ನಿಮ್ಮಿಂದ ದೂರವಿರುವಂತೆ ನಿಮ್ಮ ಫೋನ್ ಅನ್ನು ಈ ರೀತಿಯಾಗಿ ಹಿಡಿದುಕೊಳ್ಳಿ.</string>
   <string name="tap_to_continue">ಮುಂದುವರಿಯಲು ಎಲ್ಲಿಯಾದರೂ ಡಬಲ್ ಟ್ಯಾಪ್ ಮಾಡಿ</string>
   <string name="instruction_type_letter_a_left_index_finger">ಎಡಗೈ ತೋರು ಬೆರಳು</string>
@@ -105,7 +105,7 @@
   <string name="result_swipe_right">ಸ್ಪೇಸ್</string>
   <string name="result_swipe_down_2_fingers">ಕೀಬೋರ್ಡ್ ಮರೆಮಾಡಿ</string>
   <string name="result_swipe_down_3_fingers">ಮುಂದಿನ ಕೀಬೋರ್ಡ್</string>
-  <string name="rotate_orientation_announcement">ಈಗಿನಿಂದ, ಸಾಮಾನ್ಯ TalkBack ಗೆಸ್ಚರ್‌ಗಳನ್ನು ಬಳಸಲು ನಿಮಗೆ ಸಾಧ್ಯವಾಗುವುದಿಲ್ಲ. ಬ್ರೈಲ್ ಕೀಬೋರ್ಡ್ ಬಳಸುವಾಗ TalkBack ಲಭ್ಯವಿರುವುದಿಲ್ಲ.\n\n%1$s</string>
+  <string name="rotate_orientation_announcement">ಈಗಿನಿಂದ, ಸಾಮಾನ್ಯ TalkBack FOSS ಗೆಸ್ಚರ್‌ಗಳನ್ನು ಬಳಸಲು ನಿಮಗೆ ಸಾಧ್ಯವಾಗುವುದಿಲ್ಲ. ಬ್ರೈಲ್ ಕೀಬೋರ್ಡ್ ಬಳಸುವಾಗ TalkBack FOSS ಲಭ್ಯವಿರುವುದಿಲ್ಲ.\n\n%1$s</string>
   <string name="rotate_orientation_inactive_announcement">ಮೊದಲು, ಪರದೆಯು ನಿಮ್ಮಿಂದ ದೂರವಿರುವಂತೆ ನಿಮ್ಮ ಫೋನ್ ಅನ್ನು ತಿರುಗಿಸಿ.\n\nಮುಂದೆ, ಫೋನ್ ಅನ್ನು ಲ್ಯಾಂಡ್‌ಸ್ಕೇಪ್ ಸ್ಥಾನಕ್ಕೆ ಅಡ್ಡಲಾಗಿ ತಿರುಗಿಸಿ. ನಿಮ್ಮ ಕೈಗಳು ಫೋನ್‌ನ ಸಣ್ಣ ತುದಿಗಳನ್ನು ಹಿಡಿದಿರಬೇಕು. ನಿಮ್ಮ ಬಲಗೈನಲ್ಲಿ USB ಪೋರ್ಟ್ ತುದಿಯನ್ನು ಹಿಡಿದಿರಬೇಕು. ನಿಮ್ಮ 3 ಮಧ್ಯದ ಬೆರಳುಗಳು ಪರದೆಯ ಮೇಲೆ ವಿರಮಿಸಲಿ ಮತ್ತು ಫೋನ್ ಅನ್ನು ನಿಮ್ಮ ಕಿರುಬೆರಳು ಮತ್ತು ಹೆಬ್ಬೆರಳುಗಳಿಂದ ಹಿಡಿಯಿರಿ.\n\nನೀವು ಸಿದ್ಧರಾದಾಗ, ಮುಂದುವರೆಯಲು ಪರದೆಯನ್ನು ಎರಡು ಬಾರಿ ಟ್ಯಾಪ್ ಮಾಡಿ.\n\nಬ್ರೈಲ್ ಕೀಬೋರ್ಡ್‌ನಿಂದ ನಿರ್ಗಮಿಸಲು, 3 ಬೆರಳುಗಳಿಂದ ನೆಲದ ಕಡೆಗೆ ಸ್ವೈಪ್ ಮಾಡಿ. ಇದು ನಿಮ್ಮ ಮೂಲ ಕೀಬೋರ್ಡ್‌ಗೆ ಪುನಃ ಬದಲಿಸುತ್ತದೆ.</string>
   <string name="rotate_orientation_continue_announcement">ನಿಮ್ಮ ಫೋನ್ ಲಂಬ ಸ್ಥಿತಿಯಲ್ಲಿದೆ. ಮುಂದುವರಿಯಲು, ನೀಳ ಭಾಗವು ಕೆಳಭಾಗದಲ್ಲಿ ಬರುವಂತೆ ನಿಮ್ಮ ಫೋನ್ ಅನ್ನು ಅಡ್ಡಲಾಗಿ ತಿರುಗಿಸಿ. ನಂತರ ನಿಮ್ಮಿಂದ ದೂರವಿರುವಂತೆ ಪರದೆಯನ್ನು ತಿರುಗಿಸಿ. ನೀವು ಸಿದ್ಧರಾದಾಗ, ಮುಂದುವರೆಯಲು ಪರದೆಯನ್ನು ಎರಡು ಬಾರಿ ಟ್ಯಾಪ್ ಮಾಡಿ.</string>
   <string name="type_letter_a_announcement_left_index_finger">ಎಡಗೈ ತೋರು ಬೆರಳು</string>
@@ -121,7 +121,7 @@
   <string name="swipe_down_3_fingers_announcement">ನಿಮ್ಮ ಮತ್ತೊಂದು ಕೀಬೋರ್ಡ್‌ಗೆ ಬದಲಿಸಲು, 3 ಬೆರಳುಗಳಿಂದ ಕೆಳಕ್ಕೆ ಸ್ವೈಪ್ ಮಾಡಿ. ಇದನ್ನು ಈಗ ಪ್ರಯತ್ನಿಸಿ.</string>
   <string name="swipe_down_3_fingers_completed_announcement">ಮುಂದಿನ ಕೀಬೋರ್ಡ್. ಸಾಮಾನ್ಯವಾಗಿ, ಇದು, ಮುಂದಿನ ಕೀಬೋರ್ಡ್‌ಗೆ ಬದಲಿಸುತ್ತದೆ. ಈ ಸಮಯದಲ್ಲಿ, ನೀವು ಇನ್ನೂ ಟುಟೋರಿಯಲ್‌ನಲ್ಲಿರುವ ಕಾರಣ ಬ್ರೈಲ್ ಕೀಬೋರ್ಡ್ ತೆರೆದೇ ಇರುತ್ತದೆ.</string>
   <string name="swipe_up_3_fingers_announcement">ನಿಮ್ಮ ಫೋನ್ ಅನ್ನು ಟೇಬಲ್ ಟಾಪ್ ಮೋಡ್‌ನಲ್ಲಿ ಫ್ಲಾಟ್ ಆಗಿ ಇರಿಸುವ ಮೂಲಕ ನೀವು ಟೈಪ್ ಕೂಡ ಮಾಡಬಹುದು. ಟುಟೋರಿಯಲ್ ಅನ್ನು ಪೂರ್ಣಗೊಳಿಸಲು, 3 ಬೆರಳುಗಳಿಂದ ಮೇಲಕ್ಕೆ ಸ್ವೈಪ್ ಮಾಡಿ ಮತ್ತು ಟುಟೋರಿಯಲ್ ಪೂರ್ಣಗೊಳಿಸಿ ಆಯ್ಕೆಯನ್ನು ಹುಡುಕಿ</string>
-  <string name="open_context_menu_announcement">ಆಯ್ಕೆಗಳ ಮೆನು ತೆರೆದಿದೆ. ನಿಮಗೆ ಎದುರಾಗಿರುವಂತೆ ನಿಮ್ಮ ಫೋನ್ ಹಿಂಭಾಗವನ್ನು ಫ್ಲಿಪ್ ಮಾಡಿ ಮತ್ತು ಅದನ್ನು ಸಹಜವಾಗಿ ಹಿಡಿದುಕೊಳ್ಳಿ. ನ್ಯಾವಿಗೇಟ್ ಮಾಡಲು ನೀವು ಈಗ ಸಾಮಾನ್ಯ TalkBack ಗೆಸ್ಚರ್‌ಗಳನ್ನು ಬಳಸಬಹುದು. ಇನ್ನಷ್ಟು ಆಯ್ಕೆಗಳನ್ನು ನೋಡಲು ಬಲಕ್ಕೆ ಸ್ವೈಪ್ ಮಾಡಿ.</string>
+  <string name="open_context_menu_announcement">ಆಯ್ಕೆಗಳ ಮೆನು ತೆರೆದಿದೆ. ನಿಮಗೆ ಎದುರಾಗಿರುವಂತೆ ನಿಮ್ಮ ಫೋನ್ ಹಿಂಭಾಗವನ್ನು ಫ್ಲಿಪ್ ಮಾಡಿ ಮತ್ತು ಅದನ್ನು ಸಹಜವಾಗಿ ಹಿಡಿದುಕೊಳ್ಳಿ. ನ್ಯಾವಿಗೇಟ್ ಮಾಡಲು ನೀವು ಈಗ ಸಾಮಾನ್ಯ TalkBack FOSS ಗೆಸ್ಚರ್‌ಗಳನ್ನು ಬಳಸಬಹುದು. ಇನ್ನಷ್ಟು ಆಯ್ಕೆಗಳನ್ನು ನೋಡಲು ಬಲಕ್ಕೆ ಸ್ವೈಪ್ ಮಾಡಿ.</string>
   <string name="hold_six_fingers_announcement">%s\nನಿಮ್ಮ ಸಾಧನವನ್ನು ಟೇಬಲ್ ಮೇಲೆ ಫ್ಲಾಟ್ ಆಗಿ ಇರಿಸಿ. ನಂತರ, ಟೈಪ್ ಮಾಡಲು ನಿಮಗೆ ಅನುಕೂಲಕರವಾದ ಸ್ಥಾನದಲ್ಲಿ ಪ್ರತಿ ಕೈಯಲ್ಲಿನ ಮಧ್ಯದ 3 ಬೆರಳುಗಳಿಂದ ಸ್ಕ್ರೀನ್ ಅನ್ನು ಸ್ಪರ್ಶಿಸಿ ಮತ್ತು ಒತ್ತಿ ಹಿಡಿಯಿರಿ.</string>
   <string name="hold_six_fingers_inactive_announcement">ನಿಮ್ಮ ಸಾಧನವನ್ನು ಟೇಬಲ್ ಮೇಲೆ ಫ್ಲಾಟ್ ಆಗಿ ಇರಿಸಿ. ನಂತರ, ಟೈಪ್ ಮಾಡಲು ನಿಮಗೆ ಅನುಕೂಲಕರವಾದ ಸ್ಥಾನದಲ್ಲಿ ಪ್ರತಿ ಕೈಯಲ್ಲಿನ ಮಧ್ಯದ 3 ಬೆರಳುಗಳಿಂದ ಸ್ಕ್ರೀನ್ ಅನ್ನು ಸ್ಪರ್ಶಿಸಿ ಮತ್ತು ಒತ್ತಿ ಹಿಡಿಯಿರಿ.</string>
   <string name="six_hold_announcement">ನಿಮ್ಮ ಫೋನ್ ಅನ್ನು ಟೇಬಲ್ ಮೇಲೆ ಫ್ಲಾಟ್ ಆಗಿ ಇರಿಸುವ ಮೂಲಕ ನೀವು ಟೈಪ್ ಕೂಡ ಮಾಡಬಹುದು. ಇದನ್ನು ಈಗ ಪ್ರಯತ್ನಿಸಿ. ನೀವು ಸಮೀಪದಲ್ಲಿ ಟೇಬಲ್ ಅನ್ನು ಹೊಂದಿಲ್ಲದಿದ್ದರೆ, ಕೆಳಗೆ ಸ್ವೈಪ್ ಮಾಡುವ ಮೂಲಕ ಮುಂದಕ್ಕೆ ಸ್ಕಿಪ್ ಮಾಡಿ.</string>

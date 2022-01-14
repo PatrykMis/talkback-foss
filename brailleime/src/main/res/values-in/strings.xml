@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="braille_ime_service_name">Keyboard braille TalkBack</string>
+  <string name="braille_ime_service_name">Keyboard braille TalkBack FOSS</string>
   <string name="switch_to_screen_away_announcement">Mode layar jauh</string>
   <string name="switch_to_tabletop_announcement">Mode di atas meja. Letakkan perangkat dengan posisi port pengisi daya di sebelah kiri. Untuk memperbarui posisi titik, tekan dan tahan dengan 6 jari.</string>
   <string name="braille_ime_hidden_announcement">Keyboard braille disembunyikan</string>
@@ -11,7 +11,7 @@
   <string name="switched_to_ueb_uncontracted_announcement">Dialihkan ke UEB tidak singkat</string>
   <string name="braille_ime_displayed_name">keyboard braille</string>
   <string name="multiple_languages_braille_ime_displayed_name">keyboard braille, %s</string>
-  <string name="input_view_caption">Keyboard braille TalkBack - untuk mendapatkan bantuan, buka g.co/help/braille</string>
+  <string name="input_view_caption">Keyboard braille TalkBack FOSS - untuk mendapatkan bantuan, buka g.co/help/braille</string>
   <string name="perform_action_next">Berikutnya</string>
   <string name="perform_action_submitting">Mengirim teks</string>
   <string name="calibration_step1_hold_left_finger_announcement">Memperbarui posisi titik. Pertama, mari rekam titik di tangan kiri. Sentuh lama layar dengan jari telunjuk, jari tengah, dan jari manis tangan kiri.</string>
@@ -78,17 +78,17 @@
     <item quantity="one">titik %s</item>
     <item quantity="other">titik %s</item>
   </plurals>
-  <string name="talkback_off_dialog_title">Mengaktifkan TalkBack untuk menggunakan keyboard braille</string>
+  <string name="talkback_off_dialog_title">Mengaktifkan TalkBack FOSS untuk menggunakan keyboard braille</string>
   <string name="talkback_off_dialog_positive_button">Aktifkan di setelan aksesibilitas</string>
-  <string name="talkback_suspend_dialog_title">Melanjutkan TalkBack untuk menggunakan keyboard braille</string>
-  <string name="talkback_off_or_suspend_dialog_message">Jika TalkBack aktif, Anda dapat mengetuk layar untuk memasukkan simbol braille.</string>
+  <string name="talkback_suspend_dialog_title">Melanjutkan TalkBack FOSS untuk menggunakan keyboard braille</string>
+  <string name="talkback_off_or_suspend_dialog_message">Jika TalkBack FOSS aktif, Anda dapat mengetuk layar untuk memasukkan simbol braille.</string>
   <string name="next_keyboard">Keyboard berikutnya</string>
   <string name="braille_tutorial_title">Tutorial keyboard braille</string>
-  <string name="tutorial_intro_description">Dengan keyboard braille, Anda dapat mengetuk layar untuk memasukkan braille 6 titik.\n\nAnda menggunakan Unified English Braille. Untuk beralih bahasa pengetikan, buka setelan TalkBack.\n\nUntuk mengetik braille, Anda harus menggenggam dan menggunakan ponsel dengan cara yang berbeda.</string>
+  <string name="tutorial_intro_description">Dengan keyboard braille, Anda dapat mengetuk layar untuk memasukkan braille 6 titik.\n\nAnda menggunakan Unified English Braille. Untuk beralih bahasa pengetikan, buka setelan TalkBack FOSS.\n\nUntuk mengetik braille, Anda harus menggenggam dan menggunakan ponsel dengan cara yang berbeda.</string>
   <string name="next_step">Berikutnya</string>
   <string name="leave_keyboard">Keluar dari keyboard braille</string>
-  <string name="hold_six_fingers_description">Anda tidak dapat menggunakan gestur TalkBack reguler di keyboard braille.\n\nUntuk memulai, mari siapkan posisi 6 titik braille saat Anda mengetik.</string>
-  <string name="rotate_orientation_description_1">Mulai sekarang, Anda tidak akan dapat menggunakan gestur TalkBack reguler. TalkBack tidak tersedia saat menggunakan keyboard braille.</string>
+  <string name="hold_six_fingers_description">Anda tidak dapat menggunakan gestur TalkBack FOSS reguler di keyboard braille.\n\nUntuk memulai, mari siapkan posisi 6 titik braille saat Anda mengetik.</string>
+  <string name="rotate_orientation_description_1">Mulai sekarang, Anda tidak akan dapat menggunakan gestur TalkBack FOSS reguler. TalkBack FOSS tidak tersedia saat menggunakan keyboard braille.</string>
   <string name="rotate_orientation_description_2">Untuk memulai, genggam ponsel dengan posisi layar yang membelakangi Anda.</string>
   <string name="tap_to_continue">Ketuk dua kali di mana saja untuk melanjutkan</string>
   <string name="instruction_type_letter_a_left_index_finger">jari telunjuk kiri</string>
@@ -105,7 +105,7 @@
   <string name="result_swipe_right">SPASI</string>
   <string name="result_swipe_down_2_fingers">SEMBUNYIKAN KEYBOARD</string>
   <string name="result_swipe_down_3_fingers">KEYBOARD BERIKUTNYA</string>
-  <string name="rotate_orientation_announcement">Mulai sekarang, Anda tidak akan dapat menggunakan gestur TalkBack reguler. TalkBack tidak tersedia saat menggunakan keyboard braille.\n\n%1$s</string>
+  <string name="rotate_orientation_announcement">Mulai sekarang, Anda tidak akan dapat menggunakan gestur TalkBack FOSS reguler. TalkBack FOSS tidak tersedia saat menggunakan keyboard braille.\n\n%1$s</string>
   <string name="rotate_orientation_inactive_announcement">Pertama, balik ponsel sehingga layarnya membelakangi Anda.\n\nSelanjutnya, putar ponsel secara horizontal ke posisi lanskap. Tangan Anda harus menggenggam bagian sisi pendek ponsel. Tangan kanan Anda harus menggenggam ujung dengan port USB. Letakkan 3 jari tengah pada layar, lalu gunakan jari kelingking dan jempol untuk menggenggam ponsel.\n\nSetelah siap, ketuk layar dua kali untuk melanjutkan.\n\nUntuk keluar dari keyboard braille, geser ke bawah dengan 3 jari. Tindakan ini akan mengalihkan Anda kembali ke keyboard asal.</string>
   <string name="rotate_orientation_continue_announcement">Ponsel Anda sedang dalam posisi vertikal. Untuk melanjutkan, putar ponsel Anda ke posisi horizontal sehingga sisi panjangnya berada di bagian bawah. Lalu balik layarnya sehingga membelakangi Anda. Setelah siap, ketuk layar dua kali untuk melanjutkan.</string>
   <string name="type_letter_a_announcement_left_index_finger">jari telunjuk kiri</string>
@@ -121,7 +121,7 @@
   <string name="swipe_down_3_fingers_announcement">Untuk beralih ke keyboard lain, geser ke bawah dengan 3 jari. Coba sekarang.</string>
   <string name="swipe_down_3_fingers_completed_announcement">Keyboard berikutnya. Biasanya, tindakan ini akan mengalihkan Anda ke keyboard berikutnya. Untuk saat ini, Anda tetap menggunakan keyboard braille karena Anda masih dalam tutorial.</string>
   <string name="swipe_up_3_fingers_announcement">Anda juga dapat mengetik menggunakan mode di atas meja dengan meletakkan ponsel di atas meja dalam posisi datar. Untuk menyelesaikan tutorial, geser ke atas dengan 3 jari dan cari opsi selesaikan tutorial</string>
-  <string name="open_context_menu_announcement">Menu opsi terbuka. Balik posisi ponsel agar menghadap Anda dan genggam seperti biasa. Sekarang Anda dapat menggunakan gestur TalkBack reguler untuk menavigasi. Geser ke kanan untuk melihat opsi lainnya.</string>
+  <string name="open_context_menu_announcement">Menu opsi terbuka. Balik posisi ponsel agar menghadap Anda dan genggam seperti biasa. Sekarang Anda dapat menggunakan gestur TalkBack FOSS reguler untuk menavigasi. Geser ke kanan untuk melihat opsi lainnya.</string>
   <string name="hold_six_fingers_announcement">%s\nLetakkan perangkat di atas meja dalam posisi datar. Lalu, sentuh lama layar dengan jari telunjuk, jari tengah, dan jari manis kedua tangan dalam posisi yang nyaman untuk mengetik.</string>
   <string name="hold_six_fingers_inactive_announcement">Letakkan perangkat di atas meja dalam posisi datar. Lalu, sentuh lama layar dengan jari telunjuk, jari tengah, dan jari manis kedua tangan dalam posisi yang nyaman untuk mengetik.</string>
   <string name="six_hold_announcement">Anda juga dapat mengetik dengan meletakkan ponsel di atas meja dalam posisi datar. Coba sekarang. Jika tidak ada meja, lewati terlebih dahulu dengan menggeser ke bawah.</string>

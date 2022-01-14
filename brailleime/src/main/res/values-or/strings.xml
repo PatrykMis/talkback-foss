@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="braille_ime_service_name">TalkBack ବ୍ରେଲି କୀବୋର୍ଡ</string>
+  <string name="braille_ime_service_name">TalkBack FOSS ବ୍ରେଲି କୀବୋର୍ଡ</string>
   <string name="switch_to_screen_away_announcement">ସ୍କ୍ରିନ୍-ଆୱେ ମୋଡ୍</string>
   <string name="switch_to_tabletop_announcement">ଟେବୁଲଟପ୍ ମୋଡ୍। ଆପଣଙ୍କ ଡିଭାଇସକୁ ଚାର୍ଜିଂ ପୋର୍ଟର ବାମ ପଟେ ରଖନ୍ତୁ। ଡଟର ଅବସ୍ଥିତି ଅପଡେଟ୍ କରିବାକୁ, 6ଟି ଆଙ୍ଗୁଠିରେ ଦବାଇ ଧରନ୍ତୁ।</string>
   <string name="braille_ime_hidden_announcement">ବ୍ରେଲି କୀବୋର୍ଡ ଲୁଚାଯାଇଛି</string>
@@ -11,7 +11,7 @@
   <string name="switched_to_ueb_uncontracted_announcement">UEB ଅନକଣ୍ଟ୍ରାକ୍ଟେଡ ମୋଡକୁ ସ୍ୱିଚ୍ କରାଯାଇଛି</string>
   <string name="braille_ime_displayed_name">ବ୍ରେଲି କୀବୋର୍ଡ</string>
   <string name="multiple_languages_braille_ime_displayed_name">ବ୍ରେଲି କୀବୋର୍ଡ, %s</string>
-  <string name="input_view_caption">TalkBack ବ୍ରେଲି କୀବୋର୍ଡ - ସାହାଯ୍ୟ ପାଇଁ g.co/help/brailleକୁ ଯାଆନ୍ତୁ</string>
+  <string name="input_view_caption">TalkBack FOSS ବ୍ରେଲି କୀବୋର୍ଡ - ସାହାଯ୍ୟ ପାଇଁ g.co/help/brailleକୁ ଯାଆନ୍ତୁ</string>
   <string name="perform_action_next">ପରବର୍ତ୍ତୀ</string>
   <string name="perform_action_submitting">ଟେକ୍ସଟ୍ ଦାଖଲ କରାଯାଉଛି</string>
   <string name="calibration_step1_hold_left_finger_announcement">ଡଟର ଅବସ୍ଥିତି ଅପଡେଟ୍ କରାଯାଉଛି। ପ୍ରଥମେ, ଚାଲନ୍ତୁ ଆପଣଙ୍କ ବାମ ହାତରେ ଥିବା ଡଟଗୁଡ଼ିକୁ ରେକର୍ଡ କରିବା। ଆପଣଙ୍କ ବାମ ହାତର ମଝି 3ଟି ଆଙ୍ଗୁଠିରେ ସ୍କ୍ରିନକୁ ସ୍ପର୍ଶ କରି ଧରି ରଖନ୍ତୁ।</string>
@@ -78,17 +78,17 @@
     <item quantity="one">%sଟି ଡଟ୍</item>
     <item quantity="other">%sଟି ଡଟ୍ସ</item>
   </plurals>
-  <string name="talkback_off_dialog_title">ବ୍ରେଲି କୀବୋର୍ଡ ବ୍ୟବହାର କରିବାକୁ TalkBack ଚାଲୁ କରନ୍ତୁ</string>
+  <string name="talkback_off_dialog_title">ବ୍ରେଲି କୀବୋର୍ଡ ବ୍ୟବହାର କରିବାକୁ TalkBack FOSS ଚାଲୁ କରନ୍ତୁ</string>
   <string name="talkback_off_dialog_positive_button">ଆକ୍ସେସିବିଲିଟୀ ସେଟିଂସରେ ଚାଲୁ କରନ୍ତୁ</string>
-  <string name="talkback_suspend_dialog_title">ବ୍ରେଲି କୀବୋର୍ଡ ବ୍ୟବହାର କରିବାକୁ TalkBack ପୁଣି ଆରମ୍ଭ କରନ୍ତୁ</string>
-  <string name="talkback_off_or_suspend_dialog_message">TalkBack ଚାଲୁ ଥିବା ବେଳେ, ବ୍ରେଲି ସିମ୍ବଲଗୁଡ଼ିକୁ ଲେଖିବାକୁ ଆପଣ ଆପଣଙ୍କ ସ୍କ୍ରିନରେ ଟାପ୍ କରିପାରିବେ।</string>
+  <string name="talkback_suspend_dialog_title">ବ୍ରେଲି କୀବୋର୍ଡ ବ୍ୟବହାର କରିବାକୁ TalkBack FOSS ପୁଣି ଆରମ୍ଭ କରନ୍ତୁ</string>
+  <string name="talkback_off_or_suspend_dialog_message">TalkBack FOSS ଚାଲୁ ଥିବା ବେଳେ, ବ୍ରେଲି ସିମ୍ବଲଗୁଡ଼ିକୁ ଲେଖିବାକୁ ଆପଣ ଆପଣଙ୍କ ସ୍କ୍ରିନରେ ଟାପ୍ କରିପାରିବେ।</string>
   <string name="next_keyboard">ପରବର୍ତ୍ତୀ କୀବୋର୍ଡ</string>
   <string name="braille_tutorial_title">ବ୍ରେଲି କୀବୋର୍ଡ ଟ୍ୟୁଟୋରିଆଲ୍</string>
-  <string name="tutorial_intro_description">ବ୍ରେଲି କୀବୋର୍ଡ ମାଧ୍ୟମରେ ଆପଣ 6-ଡଟ୍ ବ୍ରେଲି ଲେଖିବାକୁ ଆପଣଙ୍କ ସ୍କ୍ରିନରେ ଟାପ୍ କରିପାରିବେ।\n\nଆପଣ ୟୁନିଫାଏଡ୍ ଇଂରାଜୀ ବ୍ରେଲି ବ୍ୟବହାର କରୁଛନ୍ତି। ଆପଣଙ୍କ ଟାଇପିଂ ଭାଷା ପରିବର୍ତ୍ତନ କରିବାକୁ, TalkBack ସେଟିଂସକୁ ଯାଆନ୍ତୁ।\n\nବ୍ରେଲି ଟାଇପ୍ କରିବାକୁ, ଆପଣ ଆପଣଙ୍କ ଫୋନକୁ ଭିନ୍ନ ଭାବେ ଧରି ବ୍ୟବହାର କରିବା ଆବଶ୍ୟକ।</string>
+  <string name="tutorial_intro_description">ବ୍ରେଲି କୀବୋର୍ଡ ମାଧ୍ୟମରେ ଆପଣ 6-ଡଟ୍ ବ୍ରେଲି ଲେଖିବାକୁ ଆପଣଙ୍କ ସ୍କ୍ରିନରେ ଟାପ୍ କରିପାରିବେ।\n\nଆପଣ ୟୁନିଫାଏଡ୍ ଇଂରାଜୀ ବ୍ରେଲି ବ୍ୟବହାର କରୁଛନ୍ତି। ଆପଣଙ୍କ ଟାଇପିଂ ଭାଷା ପରିବର୍ତ୍ତନ କରିବାକୁ, TalkBack FOSS ସେଟିଂସକୁ ଯାଆନ୍ତୁ।\n\nବ୍ରେଲି ଟାଇପ୍ କରିବାକୁ, ଆପଣ ଆପଣଙ୍କ ଫୋନକୁ ଭିନ୍ନ ଭାବେ ଧରି ବ୍ୟବହାର କରିବା ଆବଶ୍ୟକ।</string>
   <string name="next_step">ପରବର୍ତ୍ତୀ</string>
   <string name="leave_keyboard">ବ୍ରେଲି କୀବୋର୍ଡରୁ ବାହାରି ଆସନ୍ତୁ</string>
-  <string name="hold_six_fingers_description">ଆପଣ ବ୍ରେଲି କୀବୋର୍ଡରେ ରେଗୁଲାର୍ TalkBack ଜେଶ୍ଚରଗୁଡ଼ିକ ବ୍ୟବହାର କରିବାକୁ ସକ୍ଷମ ହେବେ ନାହିଁ।\n\nଆରମ୍ଭ କରିବାକୁ, ଚାଲନ୍ତୁ ଆପଣ ଟାଇପ୍ କରିବା ସମୟରେ 6ଟି ବ୍ରେଲି ଡଟର ଅବସ୍ଥିତି ସେଟ୍ ଅପ୍ କରିବା।</string>
-  <string name="rotate_orientation_description_1">ବର୍ତ୍ତମାନ ଠାରୁ ଆପଣ ରେଗୁଲାର୍ TalkBack ଜେଶ୍ଚର୍ ବ୍ୟବହାର କରିପାରିବେ ନାହିଁ। ବ୍ରେଲି କୀବୋର୍ଡ ବ୍ୟବହାର କରିବା ସମୟରେ TalkBack ଉପଲବ୍ଧ ହେବ ନାହିଁ।</string>
+  <string name="hold_six_fingers_description">ଆପଣ ବ୍ରେଲି କୀବୋର୍ଡରେ ରେଗୁଲାର୍ TalkBack FOSS ଜେଶ୍ଚରଗୁଡ଼ିକ ବ୍ୟବହାର କରିବାକୁ ସକ୍ଷମ ହେବେ ନାହିଁ।\n\nଆରମ୍ଭ କରିବାକୁ, ଚାଲନ୍ତୁ ଆପଣ ଟାଇପ୍ କରିବା ସମୟରେ 6ଟି ବ୍ରେଲି ଡଟର ଅବସ୍ଥିତି ସେଟ୍ ଅପ୍ କରିବା।</string>
+  <string name="rotate_orientation_description_1">ବର୍ତ୍ତମାନ ଠାରୁ ଆପଣ ରେଗୁଲାର୍ TalkBack FOSS ଜେଶ୍ଚର୍ ବ୍ୟବହାର କରିପାରିବେ ନାହିଁ। ବ୍ରେଲି କୀବୋର୍ଡ ବ୍ୟବହାର କରିବା ସମୟରେ TalkBack FOSS ଉପଲବ୍ଧ ହେବ ନାହିଁ।</string>
   <string name="rotate_orientation_description_2">ଆରମ୍ଭ କରିବା ପାଇଁ, ଆପଣଙ୍କ ଫୋନର ସ୍କ୍ରିନକୁ ଆପଣଙ୍କ ମୁହଁ ଆଡ଼କୁ କରି ଦୂରେଇକି ଧରନ୍ତୁ।</string>
   <string name="tap_to_continue">ଜାରି ରଖିବା ପାଇଁ ଯେ କୌଣସି ସ୍ଥାନରେ ଦୁଇଥର ଟାପ୍ କରନ୍ତୁ</string>
   <string name="instruction_type_letter_a_left_index_finger">ବାମ ତର୍ଜନୀ</string>
@@ -105,7 +105,7 @@
   <string name="result_swipe_right">ସ୍ପେସ୍ ଦିଅନ୍ତୁ</string>
   <string name="result_swipe_down_2_fingers">କୀବୋର୍ଡ ଲୁଚାନ୍ତୁ</string>
   <string name="result_swipe_down_3_fingers">ପରବର୍ତ୍ତୀ କୀବୋର୍ଡ</string>
-  <string name="rotate_orientation_announcement">ବର୍ତ୍ତମାନ ଠାରୁ ଆପଣ ରେଗୁଲାର୍ TalkBack ଜେଶ୍ଚର୍ ବ୍ୟବହାର କରିପାରିବେ ନାହିଁ। ବ୍ରେଲି କୀବୋର୍ଡ ବ୍ୟବହାର କରିବା ସମୟରେ TalkBack ଉପଲବ୍ଧ ହେବ ନାହିଁ।\n\n%1$s</string>
+  <string name="rotate_orientation_announcement">ବର୍ତ୍ତମାନ ଠାରୁ ଆପଣ ରେଗୁଲାର୍ TalkBack FOSS ଜେଶ୍ଚର୍ ବ୍ୟବହାର କରିପାରିବେ ନାହିଁ। ବ୍ରେଲି କୀବୋର୍ଡ ବ୍ୟବହାର କରିବା ସମୟରେ TalkBack FOSS ଉପଲବ୍ଧ ହେବ ନାହିଁ।\n\n%1$s</string>
   <string name="rotate_orientation_inactive_announcement">ପ୍ରଥମେ, ଆପଣଙ୍କ ଫୋନକୁ ବୁଲାନ୍ତୁ, ଯେପରିକି ଏହାର ସ୍କ୍ରିନ୍ ଆପଣଙ୍କ ଆଡ଼କୁ ଦୂରେଇକି ରହିବ।\n\nଏହା ପରେ, ଲ୍ୟାଣ୍ଡସ୍କେପ୍ ସ୍ଥିତି ପାଇଁ ଫୋନକୁ ହରିଜୋଣ୍ଟାଲ୍ ଭାବେ ରୋଟେଟ୍ କରନ୍ତୁ। ଆପଣଙ୍କ ହାତ ସାହାଯ୍ୟରେ ଫୋନକୁ ଦୃଢ଼ ଭାବରେ ଧରି ରଖନ୍ତୁ। ଫୋନର ଶେଷ ଭାଗ USB ପୋର୍ଟ ପାଖରେ ଆପଣଙ୍କ ଡାହାଣ ହାତ ରହିବା ଉଚିତ। ବାକି 3 ମଝି ଆଙ୍ଗୁଠିକୁ ସ୍କ୍ରିନ୍ ଉପରେ ରଖନ୍ତୁ ଏବଂ ଆପଣଙ୍କ ଛୋଟ ଓ ବୁଢ଼ା ଆଙ୍ଗୁଠି ସାହାଯ୍ୟରେ ଫୋନକୁ ଦୃଢ଼ ଭାବରେ ଧରି ରଖନ୍ତୁ।\n\nଆପଣ ପ୍ରସ୍ତୁତ ହେଲେ ଜାରି ରଖିବାକୁ ସ୍କ୍ରିନରେ ଦୁଇଥର ଟାପ୍ କରନ୍ତୁ।\n\nବ୍ରେଲି କୀବୋର୍ଡରୁ ପ୍ରସ୍ଥାନ କରିବାକୁ 3 ଆଙ୍ଗୁଠି ସାହାଯ୍ୟରେ ତଲକୁ ସ୍ୱାଇପ୍ କରନ୍ତୁ। ଏହା ଦ୍ୱାରା ଆପଣ ଆପଣଙ୍କ ମୂଳ କୀବୋର୍ଡକୁ ଫେରିଯିବେ।</string>
   <string name="rotate_orientation_continue_announcement">ଆପଣଙ୍କ ଫୋନ୍ ଏକ ଭର୍ଟିକାଲ୍ ସ୍ଥିତିରେ ଅଛି। ଜାରି ରଖିବା ପାଇଁ ଆପଣଙ୍କ ଫୋନକୁ ହରିଜୋଣ୍ଟାଲ ଭାବେ ରୋଟେଟ୍ କରନ୍ତୁ, ଫଳରେ ଲମ୍ବା ସାଇଡ୍ ତଳକୁ ରହିବ। ତା\'ପରେ ସ୍କ୍ରିନକୁ ଆପଣଙ୍କ ମୁହଁ ଆଡ଼କୁ ଦୂରେଇକି ବୁଲାନ୍ତୁ। ଆପଣ ପ୍ରସ୍ତୁତ ହେଲେ, ଜାରି ରଖିବା ପାଇଁ ସ୍କ୍ରିନରେ ଦୁଇ ଥର ଟାପ୍ କରନ୍ତୁ।</string>
   <string name="type_letter_a_announcement_left_index_finger">ବାମ ତର୍ଜନୀ</string>
@@ -121,7 +121,7 @@
   <string name="swipe_down_3_fingers_announcement">ଆପଣଙ୍କର ଅନ୍ୟ କୀବୋର୍ଡକୁ ସ୍ୱିଚ୍ କରିବାକୁ 3 ଆଙ୍ଗୁଠି ସାହାଯ୍ୟରେ ତଳକୁ ସ୍ୱାଇପ୍ କରନ୍ତୁ। ଏବେ ଏହା ବ୍ୟବହାର କରି ଦେଖନ୍ତୁ।</string>
   <string name="swipe_down_3_fingers_completed_announcement">ପରବର୍ତ୍ତୀ କୀବୋର୍ଡ। ସାଧାରଣତଃ, ଏହା ପରବର୍ତ୍ତୀ କୀବୋର୍ଡକୁ ସ୍ୱିଚ୍ କରିବ। ଆପଣ ଏବେ ବି ଟ୍ୟୁଟୋରିଆଲର ବ୍ୟବହାର କରୁଥିବାରୁ, ବର୍ତ୍ତମାନ ଆପଣ ବ୍ରେଲୀ କୀବୋର୍ଡରେ ଅଛନ୍ତି।</string>
   <string name="swipe_up_3_fingers_announcement">ଆପଣ ଆପଣଙ୍କ ଫୋନକୁ ଏକ ଟେବୁଲ୍ ଉପରେ ଫ୍ଲାଟ୍ ରଖି ଟେବୁଲଟପ୍ ମୋଡରେ ମଧ୍ୟ ଟାଇପ୍ କରିପାରିବେ। ଟ୍ୟୁଟୋରିଆଲ୍ ପୂରା କରିବାକୁ, 3ଟି ଆଙ୍ଗୁଠିରେ ଉପରକୁ ସ୍ୱାଇପ୍ କରି ‘ଟ୍ୟୁଟୋରିଆଲ୍ ପୂରା କରନ୍ତୁ’ ବିକଳ୍ପ ଖୋଜନ୍ତୁ</string>
-  <string name="open_context_menu_announcement">ବିକଳ୍ପ ମେନୁ ଖୋଲା ଅଛି। ଆପଣଙ୍କ ଫୋନକୁ ପୁଣି ଫ୍ଲିପ୍ କରନ୍ତୁ ଯାହା ଫଳରେ ଏହା ଆପଣଙ୍କ ଆଡ଼କୁ ମୁହଁ କରି ରହିବ ଓ ଏହାକୁ ସାମାନ୍ୟ ଭାବେ ଧରନ୍ତୁ। ନାଭିଗେଟ୍ କରିବାକୁ ଆପଣ ବର୍ତ୍ତମାନ ରେଗୁଲାର୍ TalkBack ଜେଶ୍ଚରଗୁଡ଼ିକୁ ବ୍ୟବହାର କରିପାରିବେ। ଅଧିକ ବିକଳ୍ପ ଦେଖିବା ପାଇଁ ଡାହାଣକୁ ସ୍ୱାଇପ୍ କରନ୍ତୁ।</string>
+  <string name="open_context_menu_announcement">ବିକଳ୍ପ ମେନୁ ଖୋଲା ଅଛି। ଆପଣଙ୍କ ଫୋନକୁ ପୁଣି ଫ୍ଲିପ୍ କରନ୍ତୁ ଯାହା ଫଳରେ ଏହା ଆପଣଙ୍କ ଆଡ଼କୁ ମୁହଁ କରି ରହିବ ଓ ଏହାକୁ ସାମାନ୍ୟ ଭାବେ ଧରନ୍ତୁ। ନାଭିଗେଟ୍ କରିବାକୁ ଆପଣ ବର୍ତ୍ତମାନ ରେଗୁଲାର୍ TalkBack FOSS ଜେଶ୍ଚରଗୁଡ଼ିକୁ ବ୍ୟବହାର କରିପାରିବେ। ଅଧିକ ବିକଳ୍ପ ଦେଖିବା ପାଇଁ ଡାହାଣକୁ ସ୍ୱାଇପ୍ କରନ୍ତୁ।</string>
   <string name="hold_six_fingers_announcement">%s\nଆପଣଙ୍କ ଡିଭାଇସକୁ ଏକ ଟେବୁଲ୍ ଉପରେ ଫ୍ଲାଟ୍ ରଖନ୍ତୁ। ତା’ପରେ, ଆପଣଙ୍କ ପ୍ରତ୍ୟେକ ହାତର ମଝି 3ଟି ଆଙ୍ଗୁଠିରେ ସ୍କ୍ରିନକୁ ସ୍ପର୍ଶ କରି ଏପରି ଏକ ଅବସ୍ଥିତିରେ ଧରି ରଖନ୍ତୁ ଯାହା ଫଳରେ ଆପଣଙ୍କୁ ଟାଇପ୍ କରିବାକୁ ସହଜ ହେବ।</string>
   <string name="hold_six_fingers_inactive_announcement">ଆପଣଙ୍କ ଡିଭାଇସକୁ ଏକ ଟେବୁଲ୍ ଉପରେ ଫ୍ଲାଟ୍ ରଖନ୍ତୁ। ତା’ପରେ, ଆପଣଙ୍କ ପ୍ରତ୍ୟେକ ହାତର ମଝି 3ଟି ଆଙ୍ଗୁଠିରେ ସ୍କ୍ରିନକୁ ସ୍ପର୍ଶ କରି ଏପରି ଏକ ଅବସ୍ଥିତିରେ ଧରି ରଖନ୍ତୁ ଯାହା ଫଳରେ ଆପଣଙ୍କୁ ଟାଇପ୍ କରିବାକୁ ସହଜ ହେବ।</string>
   <string name="six_hold_announcement">ଆପଣ ଆପଣଙ୍କ ଫୋନକୁ ଏକ ଟେବୁଲ୍ ଉପରେ ଫ୍ଲାଟ୍ ରଖି ମଧ୍ୟ ଟାଇପ୍ କରିପାରିବେ। ଏବେ ଏହା ବ୍ୟବହାର କରି ଦେଖନ୍ତୁ। ଯଦି ଆପଣଙ୍କ ଆଖପାଖରେ ଏକ ଟେବୁଲ୍ ନାହିଁ, ତେବେ ତଳକୁ ସ୍ୱାଇପ୍ କରି ଆଗକୁ ବଢ଼ନ୍ତୁ।</string>

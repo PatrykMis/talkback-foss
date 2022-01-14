@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="braille_ime_service_name">TalkBack-punktskrifttastatur</string>
+  <string name="braille_ime_service_name">TalkBack FOSS-punktskrifttastatur</string>
   <string name="switch_to_screen_away_announcement">Skjerm vendt bort-modus</string>
   <string name="switch_to_tabletop_announcement">Skjerm vendt opp-modus. Plassér enheten med ladeporten til venstre. For å oppdatere punktposisjonen, hold seks fingre nede.</string>
   <string name="braille_ime_hidden_announcement">Punktskrifttastaturet er skjult</string>
@@ -11,7 +11,7 @@
   <string name="switched_to_ueb_uncontracted_announcement">Byttet til uforkortet UEB</string>
   <string name="braille_ime_displayed_name">punktskrifttastatur</string>
   <string name="multiple_languages_braille_ime_displayed_name">punktskrifttastatur, %s</string>
-  <string name="input_view_caption">TalkBack-punktskrifttastatur – du finner hjelp på g.co/help/braille</string>
+  <string name="input_view_caption">TalkBack FOSS-punktskrifttastatur – du finner hjelp på g.co/help/braille</string>
   <string name="perform_action_next">Neste</string>
   <string name="perform_action_submitting">Sender inn tekst</string>
   <string name="calibration_step1_hold_left_finger_announcement">Oppdaterer punktposisjonene. Først registrerer du punktene på venstre hånd. Trykk og hold på skjermen med de tre midterste fingrene på venstre hånd.</string>
@@ -78,17 +78,17 @@
     <item quantity="one">punkt %s</item>
     <item quantity="other">punkter %s</item>
   </plurals>
-  <string name="talkback_off_dialog_title">Slå på TalkBack for å bruke punktskrifttastatur</string>
+  <string name="talkback_off_dialog_title">Slå på TalkBack FOSS for å bruke punktskrifttastatur</string>
   <string name="talkback_off_dialog_positive_button">Slå på i tilgjengelighetsinnstillingene</string>
-  <string name="talkback_suspend_dialog_title">Gjenoppta TalkBack for å bruke punktskrifttastatur</string>
-  <string name="talkback_off_or_suspend_dialog_message">Når TalkBack er på, kan du trykke på skjermen for å skrive inn punktskriftsymboler.</string>
+  <string name="talkback_suspend_dialog_title">Gjenoppta TalkBack FOSS for å bruke punktskrifttastatur</string>
+  <string name="talkback_off_or_suspend_dialog_message">Når TalkBack FOSS er på, kan du trykke på skjermen for å skrive inn punktskriftsymboler.</string>
   <string name="next_keyboard">Neste tastatur</string>
   <string name="braille_tutorial_title">Veiledning for punktskrifttastatur</string>
-  <string name="tutorial_intro_description">Med punktskrifttastaturet kan du trykke på skjermen for å skrive inn punktskrift med seks punkter.\n\nDu bruker Unified English Braille. For å endre skriftspråk, gå til TalkBack-innstillingene.\n\nFor å skrive punktskrift må du holde og bruke telefonen på en annen måte.</string>
+  <string name="tutorial_intro_description">Med punktskrifttastaturet kan du trykke på skjermen for å skrive inn punktskrift med seks punkter.\n\nDu bruker Unified English Braille. For å endre skriftspråk, gå til TalkBack FOSS-innstillingene.\n\nFor å skrive punktskrift må du holde og bruke telefonen på en annen måte.</string>
   <string name="next_step">Neste</string>
   <string name="leave_keyboard">Lukk punktskrifttastaturet</string>
-  <string name="hold_six_fingers_description">Du kan ikke bruke vanlige TalkBack-bevegelser i punktskrifttastaturet.\n\nFor å komme i gang, la oss konfigurere posisjonen til de seks punktskriftpunktene når du skriver.</string>
-  <string name="rotate_orientation_description_1">Fra og med nå kan du ikke bruke vanlige TalkBack-bevegelser. TalkBack er ikke tilgjengelig når du bruker punktskrifttastaturet.</string>
+  <string name="hold_six_fingers_description">Du kan ikke bruke vanlige TalkBack FOSS-bevegelser i punktskrifttastaturet.\n\nFor å komme i gang, la oss konfigurere posisjonen til de seks punktskriftpunktene når du skriver.</string>
+  <string name="rotate_orientation_description_1">Fra og med nå kan du ikke bruke vanlige TalkBack FOSS-bevegelser. TalkBack FOSS er ikke tilgjengelig når du bruker punktskrifttastaturet.</string>
   <string name="rotate_orientation_description_2">For å starte, hold telefonen på denne måten, med skjermen vendt fra deg.</string>
   <string name="tap_to_continue">Dobbelttrykk hvor som helst for å fortsette</string>
   <string name="instruction_type_letter_a_left_index_finger">venstre pekefinger</string>
@@ -105,7 +105,7 @@
   <string name="result_swipe_right">MELLOMROM</string>
   <string name="result_swipe_down_2_fingers">SKJUL TASTATURET</string>
   <string name="result_swipe_down_3_fingers">NESTE TASTATUR</string>
-  <string name="rotate_orientation_announcement">Fra og med nå kan du ikke bruke vanlige TalkBack-bevegelser. TalkBack er ikke tilgjengelig når du bruker punktskrifttastaturet.\n\n%1$s</string>
+  <string name="rotate_orientation_announcement">Fra og med nå kan du ikke bruke vanlige TalkBack FOSS-bevegelser. TalkBack FOSS er ikke tilgjengelig når du bruker punktskrifttastaturet.\n\n%1$s</string>
   <string name="rotate_orientation_inactive_announcement">Først snur du telefonen, slik at skjermen er vendt bort fra deg.\n\nDeretter roterer du den til liggende (vannrett) posisjon. Hendene dine skal holde kortsidene av telefonen. Høyre hånd skal holde enden med USB-porten. Hvil de tre midterste fingrene på skjermen, og bruk lillefingeren og tommelen til å støtte telefonen.\n\nNår du er klar, dobbelttrykker du på skjermen for å fortsette.\n\nFor å lukke punktskrifttastaturet, sveip ned mot bakken med tre fingre. Da bytter du tilbake til det opprinnelige tastaturet.</string>
   <string name="rotate_orientation_continue_announcement">Telefonen er i stående (loddrett) posisjon. For å fortsette, rotér telefonen til liggende posisjon, slik at langsiden er nederst. Deretter snur du skjermen, slik at den er vendt bort fra deg. Når du er klar, dobbelttrykker du på skjermen for å fortsette.</string>
   <string name="type_letter_a_announcement_left_index_finger">venstre pekefinger</string>
@@ -121,7 +121,7 @@
   <string name="swipe_down_3_fingers_announcement">For å bytte til det andre tastaturet, sveip ned med tre fingre. Prøv nå.</string>
   <string name="swipe_down_3_fingers_completed_announcement">Neste tastatur. Dette bytter vanligvis til neste tastatur. Denne gangen holdes punktskrifttastaturet åpent fordi du fremdeles er i veiledningen.</string>
   <string name="swipe_up_3_fingers_announcement">Du kan også skrive i bordmodus ved å legge telefonen flatt på et bord. For å avslutte veiledningen, sveip opp med tre fingre og finn alternativet for å avslutte veiledningen</string>
-  <string name="open_context_menu_announcement">Alternativmenyen er åpen. Vend telefonen tilbake, slik at skjermen er vendt mot deg, og hold den som normalt. Nå kan du bruke vanlige TalkBack-bevegelser for å navigere. Sveip til høyre for å se flere alternativer.</string>
+  <string name="open_context_menu_announcement">Alternativmenyen er åpen. Vend telefonen tilbake, slik at skjermen er vendt mot deg, og hold den som normalt. Nå kan du bruke vanlige TalkBack FOSS-bevegelser for å navigere. Sveip til høyre for å se flere alternativer.</string>
   <string name="hold_six_fingers_announcement">%s\nLegg enheten flatt på et bord. Deretter trykker og holder du skjermen med de tre midterste fingrene på hver hånd i en posisjon som er komfortabel for skriving.</string>
   <string name="hold_six_fingers_inactive_announcement">Legg enheten flatt på et bord. Deretter trykker og holder du skjermen med de tre midterste fingrene på hver hånd i en posisjon som er komfortabel for skriving.</string>
   <string name="six_hold_announcement">Du kan også skrive ved å legge telefonen flatt på et bord. Prøv nå. Hvis du ikke har et bord i nærheten, kan du hoppe frem ved å sveipe ned.</string>
