@@ -6,7 +6,7 @@ ext {
 }
 
 android {
-    compileSdkVersion 'android-31'
+    compileSdkVersion 'android-32'
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_11
         targetCompatibility JavaVersion.VERSION_11
@@ -14,7 +14,7 @@ android {
     defaultConfig {
         vectorDrawables.useSupportLibrary = true
         multiDexEnabled true
-        minSdkVersion 23
+        minSdkVersion 28
     }
     flavorDimensions "target"
     productFlavors {
