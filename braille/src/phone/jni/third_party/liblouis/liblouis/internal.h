@@ -54,8 +54,6 @@ extern "C" {
 #endif
 
 #define NUMVAR 50
-#define EMPHMODECHARSSIZE 256
-#define NOEMPHCHARSSIZE 256
 #define LETSIGNSIZE 256
 // noletsignbefore and noletsignafter is hardly ever used and usually
 // only with very few chars, so it only needs a small array
@@ -75,10 +73,8 @@ typedef struct intCharTupple {
 
 #define MAXPASS 4
 #define MAXSTRING 2048
-#define MAX_MACRO_VAR 100  // maximal number of variable substitutions a macro can contain
-#define MAX_EMPH_CLASSES 10   // maximal number of emphasis classes
-#define MAX_MODES 6			  // maximal number of modes that can be handled
-#define MAX_SOURCE_FILES 100  // maximal number of files a table can consist of
+
+#define MAX_EMPH_CLASSES 10  // {emph_1...emph_10} in typeforms enum (liblouis.h)
 
 typedef unsigned int TranslationTableOffset;
 
@@ -102,7 +98,7 @@ typedef enum {
 	CTC_Sign = 0x80,
 	CTC_LitDigit = 0x100,
 	CTC_CapsMode = 0x200,
-	// bit 0x400 used to be taken by CTC_EmphMode
+	CTC_EmphMode = 0x400,
 	CTC_NumericMode = 0x800,
 	CTC_NumericNoContract = 0x1000,
 	CTC_SeqDelimiter = 0x2000,
@@ -208,17 +204,13 @@ typedef struct {
 } CharDotsMapping;
 
 typedef struct {
-	const char *sourceFile;
-	int sourceLine;
 	TranslationTableOffset next;
 	TranslationTableOffset definitionRule;
 	TranslationTableOffset otherRules;
 	TranslationTableCharacterAttributes attributes;
-	TranslationTableCharacterAttributes mode;
-	TranslationTableOffset compRule;
-	widechar value;
-	TranslationTableOffset basechar;
-	TranslationTableOffset linked;
+	widechar realchar;
+	widechar uppercase;
+	widechar lowercase;
 } TranslationTableCharacter;
 
 typedef enum { /* Op codes */
@@ -234,14 +226,6 @@ typedef enum { /* Op codes */
 	CTO_BegCapsPhrase,
 	CTO_EndCapsPhrase,
 	CTO_LenCapsPhrase,
-	CTO_ModeLetter,
-	CTO_BegModeWord,
-	CTO_EndModeWord,
-	CTO_BegMode,
-	CTO_EndMode,
-	CTO_BegModePhrase,
-	CTO_EndModePhrase,
-	CTO_LenModePhrase,
 	/* End of ordered opcodes */
 	CTO_LetterSign,
 	CTO_NoLetsignBefore,
@@ -271,8 +255,16 @@ typedef enum { /* Op codes */
 
 	CTO_CapsModeChars,
 	CTO_EmphModeChars,
-	CTO_NoEmphChars,
 	CTO_BegComp,
+	CTO_CompBegEmph1,
+	CTO_CompEndEmph1,
+	CTO_CompBegEmph2,
+	CTO_CompEndEmph2,
+	CTO_CompBegEmph3,
+	CTO_CompEndEmph3,
+	CTO_CompCapSign,
+	CTO_CompBegCaps,
+	CTO_CompEndCaps,
 	CTO_EndComp,
 	CTO_NoContractSign,
 	CTO_MultInd,
@@ -344,8 +336,6 @@ typedef enum { /* Op codes */
 	CTO_Match,
 	CTO_BackMatch,
 	CTO_Attribute,
-	CTO_Base,
-	CTO_Macro,
 	CTO_None,
 
 	/* More internal opcodes */
@@ -353,7 +343,8 @@ typedef enum { /* Op codes */
 	CTO_NumberRule,
 	CTO_NoContractRule,
 
-	/* Start of (16 x 8) internal opcodes values
+	/* Start of (11 x 9) internal opcodes values that match
+	 * {"singlelettercaps"..."lenemphphrase"}
 	 * Do not change the order of the following opcodes! */
 	CTO_CapsLetterRule,
 	CTO_BegCapsWordRule,
@@ -363,46 +354,6 @@ typedef enum { /* Op codes */
 	CTO_BegCapsPhraseRule,
 	CTO_EndCapsPhraseBeforeRule,
 	CTO_EndCapsPhraseAfterRule,
-	CTO_Mode2LetterRule,
-	CTO_BegMode2WordRule,
-	CTO_EndMode2WordRule,
-	CTO_BegMode2Rule,
-	CTO_EndMode2Rule,
-	CTO_BegMode2PhraseRule,
-	CTO_EndMode2PhraseBeforeRule,
-	CTO_EndMode2PhraseAfterRule,
-	CTO_Mode3LetterRule,
-	CTO_BegMode3WordRule,
-	CTO_EndMode3WordRule,
-	CTO_BegMode3Rule,
-	CTO_EndMode3Rule,
-	CTO_BegMode3PhraseRule,
-	CTO_EndMode3PhraseBeforeRule,
-	CTO_EndMode3PhraseAfterRule,
-	CTO_Mode4LetterRule,
-	CTO_BegMode4WordRule,
-	CTO_EndMode4WordRule,
-	CTO_BegMode4Rule,
-	CTO_EndMode4Rule,
-	CTO_BegMode4PhraseRule,
-	CTO_EndMode4PhraseBeforeRule,
-	CTO_EndMode4PhraseAfterRule,
-	CTO_Mode5LetterRule,
-	CTO_BegMode5WordRule,
-	CTO_EndMode5WordRule,
-	CTO_BegMode5Rule,
-	CTO_EndMode5Rule,
-	CTO_BegMode5PhraseRule,
-	CTO_EndMode5PhraseBeforeRule,
-	CTO_EndMode5PhraseAfterRule,
-	CTO_Mode6LetterRule,
-	CTO_BegMode6WordRule,
-	CTO_EndMode6WordRule,
-	CTO_BegMode6Rule,
-	CTO_EndMode6Rule,
-	CTO_BegMode6PhraseRule,
-	CTO_EndMode6PhraseBeforeRule,
-	CTO_EndMode6PhraseAfterRule,
 	CTO_Emph1LetterRule,
 	CTO_BegEmph1WordRule,
 	CTO_EndEmph1WordRule,
@@ -483,17 +434,24 @@ typedef enum { /* Op codes */
 	CTO_BegEmph10PhraseRule,
 	CTO_EndEmph10PhraseBeforeRule,
 	CTO_EndEmph10PhraseAfterRule,
-	/* End of ordered (16 x 8) internal opcodes */
+	/* End of ordered (10 x 9) internal opcodes */
 
 	CTO_BegCompRule,
+	CTO_CompBegEmph1Rule,
+	CTO_CompEndEmph1Rule,
+	CTO_CompBegEmph2Rule,
+	CTO_CompEndEmrh2Rule,
+	CTO_CompBegEmph3Rule,
+	CTO_CompEndEmph3Rule,
+	CTO_CompCapSignRule,
+	CTO_CompBegCapsRule,
+	CTO_CompEndCapsRule,
 	CTO_EndCompRule,
 	CTO_CapsNoContRule,
 	CTO_All
 } TranslationTableOpcode;
 
 typedef struct {
-	const char *sourceFile;
-	int sourceLine;
 	TranslationTableOffset charsnext;			/** next chars entry */
 	TranslationTableOffset dotsnext;			/** next dots entry */
 	TranslationTableCharacterAttributes after;  /** character types which must follow */
@@ -540,15 +498,6 @@ typedef struct RuleName {
 } RuleName;
 
 typedef struct {
-	/* either typeform or mode should be set, not both */
-	formtype typeform; /* corresponding value in "typeforms" enum */
-	TranslationTableCharacterAttributes mode; /* corresponding character attribute */
-	unsigned int value;						  /* bit field that contains a single "1" */
-	unsigned short
-			rule; /* emphasis rules (index in emphRules, emphModeChars and noEmphChars) */
-} EmphasisClass;
-
-typedef struct {
 	TranslationTableOffset tableSize;
 	TranslationTableOffset bytesUsed;
 	TranslationTableOffset charToDots[HASHNUM];
@@ -573,30 +522,25 @@ typedef struct { /* translation table */
 								   stored in `characterClasses', but this is slightly
 								   faster) */
 	int usesAttributeOrClass;	  /* 1 = attribute, 2 = class */
-	char *sourceFiles[MAX_SOURCE_FILES + 1];
 
 	/* needed for translation or other api functions */
-	int finalized;
 	int capsNoCont;
 	int numPasses;
 	int corrections;
 	int syllables;
 	int usesSequences;
 	int usesNumericMode;
-	int hasCapsModeChars;
+	int usesEmphMode;
 	TranslationTableOffset undefined;
 	TranslationTableOffset letterSign;
 	TranslationTableOffset numberSign;
 	TranslationTableOffset noContractSign;
 	widechar seqPatterns[SEQPATTERNSIZE];
-	char *emphClassNames[MAX_EMPH_CLASSES];
-	EmphasisClass emphClasses[MAX_EMPH_CLASSES];
-	EmphasisClass modes[MAX_MODES];
+	char *emphClasses[MAX_EMPH_CLASSES + 1];
 	int seqPatternsCount;
 	widechar seqAfterExpression[SEQPATTERNSIZE];
 	int seqAfterExpressionLength;
-	TranslationTableOffset emphRules[MAX_EMPH_CLASSES + MAX_MODES]
-									[9]; /* 9 is the size of the EmphCodeOffset enum */
+	TranslationTableOffset emphRules[MAX_EMPH_CLASSES + 1][9]; /* includes caps */
 	TranslationTableOffset begComp;
 	TranslationTableOffset endComp;
 	TranslationTableOffset hyphenStatesArray;
@@ -606,14 +550,9 @@ typedef struct { /* translation table */
 	int noLetsignCount;
 	widechar noLetsignAfter[LETSIGNAFTERSIZE];
 	int noLetsignAfterCount;
-	widechar emphModeChars[MAX_EMPH_CLASSES] /* does not include caps: capsmodechars are
-											  * currently stored as character attributes
-											  */
-						  [EMPHMODECHARSSIZE + 1];
-	widechar noEmphChars[MAX_EMPH_CLASSES] /* does not include caps */
-						[NOEMPHCHARSSIZE + 1];
 	TranslationTableOffset characters[HASHNUM]; /** Character definitions */
 	TranslationTableOffset dots[HASHNUM];		/** Dot definitions */
+	TranslationTableOffset compdotsPattern[256];
 	TranslationTableOffset forPassRules[MAXPASS + 1];
 	TranslationTableOffset backPassRules[MAXPASS + 1];
 	TranslationTableOffset forRules[HASHNUM];  /** chains of forward rules */
@@ -635,6 +574,20 @@ typedef enum {
 #define MAXPASSBUF 3
 
 typedef enum {
+	capsRule = 0,
+	emph1Rule = 1,
+	emph2Rule = 2,
+	emph3Rule = 3,
+	emph4Rule = 4,
+	emph5Rule = 5,
+	emph6Rule = 6,
+	emph7Rule = 7,
+	emph8Rule = 8,
+	emph9Rule = 9,
+	emph10Rule = 10
+} EmphRuleNumber;
+
+typedef enum {
 	begPhraseOffset = 0,
 	endPhraseBeforeOffset = 1,
 	endPhraseAfterOffset = 2,
@@ -650,8 +603,6 @@ typedef enum {
  * a single bit group for representing the emphasis classes allows us
  * to do simple bit operations. */
 
-/* fields contain sums of EmphasisClass.value */
-/* MAX_EMPH_CLASSES + MAX_MODES may not exceed 16 */
 typedef struct {
 	unsigned int begin : 16;
 	unsigned int end : 16;
@@ -659,11 +610,13 @@ typedef struct {
 	unsigned int symbol : 16;
 } EmphasisInfo;
 
+/* An emphasis class is a bit field that contains a single "1" */
+typedef unsigned int EmphasisClass;
+
 typedef enum { noEncoding, bigEndian, littleEndian, ascii8 } EncodingType;
 
 typedef struct {
 	const char *fileName;
-	const char *sourceFile;
 	FILE *in;
 	int lineNumber;
 	EncodingType encoding;
