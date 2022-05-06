@@ -27,7 +27,7 @@ There is also an issue tracker where various issues and improvements can be disc
 
 ## How to Build
 
-To build TalkBack, run `./build.sh`, which will produce an apk file; or, issue `gradlew assembleRelease` command and sign the apk.
+To build TalkBack, Issue `gradlew assembleRelease` command and sign the apk.
 
 ## How to Install
 
@@ -41,4 +41,4 @@ on, toggle the switch preference to the on position.
 
 Alternatively you can do it via ADB:
 
-> `adb shell settings put secure enabled_accessibility_services com.android.talkbackfoss/com.google.android.marvin.talkback.TalkBackService`
+<code>adb shell settings put secure enabled_accessibility_services com.android.talkbackfoss/com.google.android.marvin.talkback.TalkBackService</code>
