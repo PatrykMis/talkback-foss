@@ -21,7 +21,6 @@ import static com.google.android.accessibility.utils.Performance.EVENT_ID_UNTRAC
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
-import com.google.android.accessibility.utils.BuildVersionUtils;
 import com.google.android.accessibility.utils.Performance.EventId;
 
 public class BootReceiver extends BroadcastReceiver {

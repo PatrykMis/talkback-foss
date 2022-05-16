@@ -70,11 +70,6 @@ public final class SearchScreenOverlayLayout extends LinearLayout {
   @Override
   public void onPopulateAccessibilityEvent(AccessibilityEvent event) {
     super.onPopulateAccessibilityEvent(event);
-    // TODO: Keep the legacy code for android M and should be removed after.
-    if (!FeatureSupport.supportGetTitleFromWindows()
-        && event.getEventType() == AccessibilityEvent.TYPE_WINDOW_STATE_CHANGED) {
-      event.getText().add(getContext().getString(R.string.title_screen_search));
-    }
   }
 
   /**

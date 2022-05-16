@@ -110,7 +110,6 @@ public class TalkBackDeveloperPreferencesActivity extends PreferencesActivity {
       // Remove preferences for features that are not supported by device.
       checkReleaseBuild();
       checkTelevision();
-      checkReducedWindowDelaySupport();
       initTouchExplorationPreference();
 
       final Preference prefVersion =
@@ -193,14 +192,6 @@ public class TalkBackDeveloperPreferencesActivity extends PreferencesActivity {
       } else {
         PreferenceSettingsUtils.hidePreference(
             context, getPreferenceScreen(), R.string.pref_version_code_key);
-      }
-    }
-
-    /** Ensure window-delay setting does not appear on devices without animation toggle. */
-    private void checkReducedWindowDelaySupport() {
-      if (!FeatureSupport.disableAnimation()) {
-        PreferenceSettingsUtils.hidePreference(
-            context, getPreferenceScreen(), R.string.pref_reduce_window_delay_key);
       }
     }
 

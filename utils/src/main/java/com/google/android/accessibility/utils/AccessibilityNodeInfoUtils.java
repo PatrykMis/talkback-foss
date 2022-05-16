@@ -25,7 +25,6 @@ import static com.google.android.accessibility.utils.output.DiagnosticOverlayUti
 import android.annotation.TargetApi;
 import android.graphics.Rect;
 import android.graphics.RectF;
-import android.os.Build;
 import android.os.Bundle;
 import android.os.Parcelable;
 import androidx.core.view.accessibility.AccessibilityNodeInfoCompat;
@@ -2127,7 +2126,6 @@ public class AccessibilityNodeInfoUtils {
    * @param fromCharIndex start index of the queried text range.
    * @param toCharIndex end index of the queried text range.
    */
-  @TargetApi(Build.VERSION_CODES.O)
   @Nullable
   public static List<Rect> getTextLocations(
       AccessibilityNodeInfoCompat node, int fromCharIndex, int toCharIndex) {
@@ -2146,7 +2144,6 @@ public class AccessibilityNodeInfoUtils {
    * @param fromCharIndex start index of the queried text range.
    * @param toCharIndex end index of the queried text range.
    */
-  @TargetApi(Build.VERSION_CODES.O)
   @Nullable
   public static List<Rect> getTextLocations(
       AccessibilityNodeInfoCompat node, CharSequence text, int fromCharIndex, int toCharIndex) {
@@ -2193,7 +2190,6 @@ public class AccessibilityNodeInfoUtils {
   }
 
   /** Returns true if the node supports text location data. */
-  @TargetApi(Build.VERSION_CODES.O)
   public static boolean supportsTextLocation(AccessibilityNodeInfoCompat node) {
     if (node == null) {
       return false;
@@ -2360,7 +2356,6 @@ public class AccessibilityNodeInfoUtils {
     return node.getMovementGranularities();
   }
 
-  @TargetApi(Build.VERSION_CODES.O)
   public static CharSequence getHintText(AccessibilityNodeInfoCompat node) {
     CharSequence hintText = node.getHintText();
     if (TextUtils.isEmpty(hintText)) {
@@ -2495,7 +2490,7 @@ public class AccessibilityNodeInfoUtils {
         StringBuilderUtils.optionalTag("textEntryKey", isTextEntryKey(node)),
         StringBuilderUtils.optionalTag("scrollable", isScrollable(node)),
         StringBuilderUtils.optionalTag(
-            "heading", FeatureSupport.isHeadingWorks() && node.isHeading()),
+            "heading", node.isHeading()),
         StringBuilderUtils.optionalTag("collapsible", isCollapsible(node)),
         StringBuilderUtils.optionalTag("expandable", isExpandable(node)),
         StringBuilderUtils.optionalTag("dismissable", isDismissible(node)),
@@ -2741,16 +2736,6 @@ public class AccessibilityNodeInfoUtils {
   // TODO On pre-N devices, the framework ListView/GridView will mark non-headers
   // as headers. The workaround should be removed when TalkBack doesn't support android M.
   public static boolean isHeading(AccessibilityNodeInfoCompat node) {
-    if (!FeatureSupport.isHeadingWorks()) {
-      AccessibilityNodeInfoCompat collectionRoot = getCollectionRoot(node);
-      try {
-        if (nodeIsListOrGrid(collectionRoot) && !WebInterfaceUtils.isWebContainer(collectionRoot)) {
-          return false;
-        }
-      } finally {
-        AccessibilityNodeInfoUtils.recycleNodes(collectionRoot);
-      }
-    }
     return node.isHeading();
   }
 

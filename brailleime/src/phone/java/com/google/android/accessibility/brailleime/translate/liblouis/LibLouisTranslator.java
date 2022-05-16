@@ -28,7 +28,6 @@ import com.google.android.accessibility.brailleime.BrailleCharacter;
 import com.google.android.accessibility.brailleime.BrailleWord;
 import com.google.android.accessibility.brailleime.R;
 import com.google.android.accessibility.brailleime.translate.Translator;
-import com.google.android.accessibility.utils.BuildVersionUtils;
 import java.io.File;
 import java.util.LinkedHashMap;
 import java.util.List;

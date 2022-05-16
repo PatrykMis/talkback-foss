@@ -53,8 +53,7 @@ public class SettingsUtils {
    * false.
    */
   public static boolean isAnimationDisabled(Context context) {
-    return FeatureSupport.disableAnimation()
-        && (0 == getGlobalInt(context, Settings.Global.WINDOW_ANIMATION_SCALE))
+    return (0 == getGlobalInt(context, Settings.Global.WINDOW_ANIMATION_SCALE))
         && (0 == getGlobalInt(context, Settings.Global.TRANSITION_ANIMATION_SCALE))
         && (0 == getGlobalInt(context, Settings.Global.ANIMATOR_DURATION_SCALE));
   }

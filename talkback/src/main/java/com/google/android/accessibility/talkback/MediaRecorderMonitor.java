@@ -22,8 +22,6 @@ import android.media.AudioManager;
 import android.media.AudioManager.AudioRecordingCallback;
 import android.media.AudioRecordingConfiguration;
 import android.media.MediaRecorder;
-import android.os.Build;
-import com.google.android.accessibility.utils.BuildVersionUtils;
 import com.google.android.accessibility.utils.compat.media.AudioSystemCompatUtils;
 import java.util.List;
 import org.checkerframework.checker.nullness.qual.Nullable;
@@ -101,7 +99,6 @@ public class MediaRecorderMonitor {
     }
   }
 
-  @TargetApi(Build.VERSION_CODES.N)
   public void onResumeInfrastructure() {
     if (audioRecordingCallback != null) {
       isRecording = false;
@@ -109,7 +106,6 @@ public class MediaRecorderMonitor {
     }
   }
 
-  @TargetApi(Build.VERSION_CODES.N)
   public void onSuspendInfrastructure() {
     if (audioRecordingCallback != null) {
       audioManager.unregisterAudioRecordingCallback(audioRecordingCallback);
@@ -133,7 +129,6 @@ public class MediaRecorderMonitor {
     return result;
   }
 
-  @TargetApi(Build.VERSION_CODES.N)
   private boolean containsAudioSources(List<AudioRecordingConfiguration> configs) {
     if (configs == null) {
       return false;

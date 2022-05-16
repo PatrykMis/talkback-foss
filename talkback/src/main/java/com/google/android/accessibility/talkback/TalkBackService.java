@@ -1087,7 +1087,6 @@ public class TalkBackService extends AccessibilityService
   }
 
   /** Initialize {@link FingerprintGestureCallback} for detecting fingerprint gestures. */
-  @TargetApi(Build.VERSION_CODES.O)
   private void initializeFingerprintGestureCallback() {
     if (fingerprintGestureCallback != null || !FeatureSupport.isFingerprintSupported(this)) {
       return;
@@ -1168,8 +1167,7 @@ public class TalkBackService extends AccessibilityService
     // TODO: Make pipeline run Compositor, which returns speech feedback, no callback.
 
     onMagnificationChangedListener =
-        FeatureSupport.supportMagnificationController()
-            ? new OnMagnificationChangedListener() {
+            new OnMagnificationChangedListener() {
               private float lastScale = 1.0f;
 
               @Override
@@ -1194,8 +1192,7 @@ public class TalkBackService extends AccessibilityService
                       Performance.EVENT_ID_UNTRACKED);
                 }
               }
-            }
-            : null;
+            };
 
     analytics = new TalkBackAnalyticsImpl(this);
 
@@ -1390,12 +1387,9 @@ public class TalkBackService extends AccessibilityService
             this);
     accessibilityEventProcessor.setRingerModeAndScreenMonitor(ringerModeAndScreenMonitor);
 
-    // Only use speak-pass talkback-preference on android O+.
-    if (FeatureSupport.useSpeakPasswordsServicePref()) {
-      headphoneStateMonitor = new HeadphoneStateMonitor(this);
-      speakPasswordsManager =
-          new SpeakPasswordsManager(this, headphoneStateMonitor, globalVariables);
-    }
+    headphoneStateMonitor = new HeadphoneStateMonitor(this);
+    speakPasswordsManager =
+        new SpeakPasswordsManager(this, headphoneStateMonitor, globalVariables);
 
     ProcessorVolumeStream processorVolumeStream =
         new ProcessorVolumeStream(
@@ -1492,8 +1486,7 @@ public class TalkBackService extends AccessibilityService
     KeyboardLockMonitor keyboardLockMonitor = new KeyboardLockMonitor(compositor);
     keyEventListeners.add(keyboardLockMonitor);
 
-    if (Build.VERSION.SDK_INT >= TelevisionNavigationController.MIN_API_LEVEL
-        && FeatureSupport.isTv(this)) {
+    if (FeatureSupport.isTv(this)) {
       televisionNavigationController =
           new TelevisionNavigationController(
               this, accessibilityFocusMonitor, pipeline.getFeedbackReturner());
@@ -1830,11 +1823,9 @@ public class TalkBackService extends AccessibilityService
       registerReceiver(televisionDPadManager, TelevisionDPadManager.getFilter());
     }
 
-    if (FeatureSupport.supportMagnificationController()) {
-      MagnificationController magnificationController = getMagnificationController();
-      if (magnificationController != null && onMagnificationChangedListener != null) {
-        magnificationController.addListener(onMagnificationChangedListener);
-      }
+    MagnificationController magnificationController = getMagnificationController();
+    if (magnificationController != null && onMagnificationChangedListener != null) {
+      magnificationController.addListener(onMagnificationChangedListener);
     }
 
     if ((fingerprintGestureCallback != null) && (getFingerprintGestureController() != null)) {
@@ -1933,11 +1924,9 @@ public class TalkBackService extends AccessibilityService
     final NotificationManager nm = (NotificationManager) getSystemService(NOTIFICATION_SERVICE);
     nm.cancelAll();
 
-    if (FeatureSupport.supportMagnificationController()) {
-      MagnificationController magnificationController = getMagnificationController();
-      if (magnificationController != null && onMagnificationChangedListener != null) {
-        magnificationController.removeListener(onMagnificationChangedListener);
-      }
+    MagnificationController magnificationController = getMagnificationController();
+    if (magnificationController != null && onMagnificationChangedListener != null) {
+      magnificationController.removeListener(onMagnificationChangedListener);
     }
 
     if ((fingerprintGestureCallback != null) && (getFingerprintGestureController() != null)) {

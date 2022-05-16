@@ -26,7 +26,6 @@ import android.annotation.TargetApi;
 import android.content.pm.ApplicationInfo;
 import android.content.pm.PackageManager;
 import android.graphics.Rect;
-import android.os.Build;
 import android.os.Handler;
 import android.os.Message;
 import androidx.core.view.accessibility.AccessibilityNodeInfoCompat;
@@ -280,9 +279,6 @@ public class WindowEventInterpreter {
   }
 
   private @Nullable CharSequence getWindowTitleFromWindowInfo(int windowId) {
-    if (!FeatureSupport.supportGetTitleFromWindows()) {
-      return null;
-    }
     for (AccessibilityWindowInfo window : AccessibilityServiceCompatUtils.getWindows(service)) {
       if (window.getId() == windowId) {
         return AccessibilityWindowInfoUtils.getTitle(window);
@@ -365,12 +361,10 @@ public class WindowEventInterpreter {
   }
 
   /** Step 3: Extract data from window event and related APIs. */
-  @TargetApi(Build.VERSION_CODES.P)
   public void interpret(AccessibilityEvent event, @Nullable EventId eventId) {
     interpret(event, eventId, true);
   }
 
-  @TargetApi(Build.VERSION_CODES.P)
   public void interpret(AccessibilityEvent event, @Nullable EventId eventId, boolean allowEvent) {
     if (!isSupportedWindowsChange(event) && !isSupportedWindowStateChange(event)) {
       return;
@@ -780,7 +774,6 @@ public class WindowEventInterpreter {
    * work around to make them could be announced.
    */
   // TODO  : define the behavior of non-active floating windows in TalkBack
-  @TargetApi(Build.VERSION_CODES.O)
   private static boolean shouldAnnounceWindowStateChange(AccessibilityEvent event) {
     if (event.getEventType() != AccessibilityEvent.TYPE_WINDOW_STATE_CHANGED) {
       throw new IllegalStateException();
@@ -1391,7 +1384,6 @@ public class WindowEventInterpreter {
     return (strings.length() == 0) ? null : strings.toString();
   }
 
-  @TargetApi(Build.VERSION_CODES.P)
   private static String windowChangeTypesToString(int typesBitmask) {
     StringBuilder strings = new StringBuilder();
     if ((typesBitmask & AccessibilityEvent.WINDOWS_CHANGE_ADDED) != 0) {

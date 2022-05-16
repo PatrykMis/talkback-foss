@@ -15,7 +15,6 @@ import android.media.Image.Plane;
 import android.media.ImageReader;
 import android.media.projection.MediaProjection;
 import android.media.projection.MediaProjectionManager;
-import android.os.Build;
 import android.os.Handler;
 import android.os.Looper;
 import android.util.DisplayMetrics;
@@ -30,7 +29,6 @@ import java.nio.ByteBuffer;
  * Manages the capture of images from the device's frame buffer as {@link Bitmap}s via
  * {@link MediaProjection} APIs.
  */
-@TargetApi(Build.VERSION_CODES.LOLLIPOP_MR1)
 public class ScreenCaptureController {
 
   private static final String TAG = "ScreenCaptureController";

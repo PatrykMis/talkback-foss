@@ -22,8 +22,6 @@ import static com.google.android.accessibility.utils.Performance.EVENT_ID_UNTRAC
 
 import android.accessibilityservice.AccessibilityService;
 import android.content.Context;
-import android.os.Build;
-import android.os.Build.VERSION_CODES;
 import androidx.core.view.accessibility.AccessibilityNodeInfoCompat;
 import androidx.core.view.accessibility.AccessibilityNodeInfoCompat.AccessibilityActionCompat;
 import android.text.TextUtils;

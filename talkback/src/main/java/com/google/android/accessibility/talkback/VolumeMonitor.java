@@ -27,7 +27,6 @@ import android.os.Message;
 import android.telephony.TelephonyManager;
 import android.util.SparseIntArray;
 import androidx.annotation.VisibleForTesting;
-import com.google.android.accessibility.utils.BuildVersionUtils;
 import com.google.android.accessibility.utils.FeatureSupport;
 import com.google.android.accessibility.utils.Performance.EventId;
 import com.google.android.accessibility.utils.WeakReferenceHandler;

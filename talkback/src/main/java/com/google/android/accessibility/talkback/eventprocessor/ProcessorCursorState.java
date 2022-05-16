@@ -37,7 +37,6 @@ import com.google.android.accessibility.talkback.R;
 import com.google.android.accessibility.talkback.TalkBackService;
 import com.google.android.accessibility.utils.AccessibilityEventListener;
 import com.google.android.accessibility.utils.AccessibilityNodeInfoUtils;
-import com.google.android.accessibility.utils.BuildVersionUtils;
 import com.google.android.accessibility.utils.Performance.EventId;
 import com.google.android.accessibility.utils.Role;
 import com.google.android.accessibility.utils.output.FeedbackItem;
@@ -54,10 +53,6 @@ import org.checkerframework.checker.nullness.qual.Nullable;
  * double-tapped.
  */
 public class ProcessorCursorState implements AccessibilityEventListener, OnDoubleTapListener {
-  // Starting from Android O, a11y framework perform ACTION_CLICK on double-tap, thus there is no
-  // need to block touch down/up event nor to manually perform click action.
-  private static final boolean SHOULD_HANDLE_TOUCH_EVENT = false;
-
   private static String TAG = "ProcessorCursorState";
 
   /**
@@ -107,31 +102,9 @@ public class ProcessorCursorState implements AccessibilityEventListener, OnDoubl
         overlay.hide();
         saveFocusedNode(AccessibilityEventCompat.asRecord(event));
         break;
-      case AccessibilityEvent.TYPE_VIEW_FOCUSED:
-        // On pre Android O devices, double-tap on screen will interpreted as touch down and up
-        // action at the center of the focused node, which might set cursor to the middle of text if
-        // the text is long enough. TalkBack overrides the cursor position to be the end of the
-        // field to avoid the confusion of cursor movement. REFERTO for details.
-        if (SHOULD_HANDLE_TOUCH_EVENT) {
-          // Reset the EditText cursor because focusing will snap it to the middle.
-          resetNodeCursor(AccessibilityEventCompat.asRecord(event), eventId);
-        }
-        break;
       case AccessibilityEvent.TYPE_VIEW_SCROLLED:
         // Hide the overlay so it doesn't interfere with scrolling.
         overlay.hide();
-        break;
-      case AccessibilityEvent.TYPE_TOUCH_INTERACTION_START:
-        if (SHOULD_HANDLE_TOUCH_EVENT) {
-          // Show the overlay if the a11y-focused EditText is editing and we touch the screen.
-          touchStart(event, eventId);
-        }
-        break;
-      case AccessibilityEvent.TYPE_TOUCH_INTERACTION_END:
-        if (SHOULD_HANDLE_TOUCH_EVENT) {
-          // Hide the overlay when we stop touching the screen.
-          touchEnd(event, eventId);
-        }
         break;
       default: // fall out
     }

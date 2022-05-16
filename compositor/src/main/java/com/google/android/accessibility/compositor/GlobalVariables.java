@@ -381,11 +381,7 @@ public class GlobalVariables extends TimedFlags implements ParseTree.VariableDel
 
   /** Used internally and by TextEventInterpreter. */
   public boolean shouldSpeakPasswords() {
-    if (FeatureSupport.useSpeakPasswordsServicePref()) {
-      return mShouldSpeakPasswords;
-    } else {
-      return SettingsCompatUtils.SecureCompatUtils.shouldSpeakPasswords(mContext);
-    }
+    return mShouldSpeakPasswords;
   }
 
   @Override
@@ -403,7 +399,7 @@ public class GlobalVariables extends TimedFlags implements ParseTree.VariableDel
       case GLOBAL_SPEAK_PASS_FIELD_CONTENT:
         // Password field content is available only on android N-, and available only based on
         // system setting, regardless of headphones state.
-        return shouldSpeakPasswords() && !FeatureSupport.useSpeakPasswordsServicePref();
+        return false;
       case GLOBAL_USE_SINGLE_TAP:
         return mUseSingleTap;
       case GLOBAL_USE_AUTO_SELECT:
