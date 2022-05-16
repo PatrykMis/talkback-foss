@@ -21,7 +21,6 @@ import android.accessibilityservice.AccessibilityService.MagnificationController
 import android.annotation.TargetApi;
 import android.graphics.Rect;
 import android.graphics.Region;
-import android.os.Build;
 import androidx.core.view.accessibility.AccessibilityNodeInfoCompat;
 import android.text.TextUtils;
 import android.view.accessibility.AccessibilityEvent;
@@ -43,11 +42,7 @@ public class ProcessorMagnification implements AccessibilityEventListener {
   @Nullable private final MagnificationController magnificationController;
 
   public ProcessorMagnification(AccessibilityService service) {
-    if (FeatureSupport.supportMagnificationController()) {
-      magnificationController = service.getMagnificationController();
-    } else {
-      magnificationController = null;
-    }
+    magnificationController = service.getMagnificationController();
   }
 
   @Override
@@ -57,9 +52,6 @@ public class ProcessorMagnification implements AccessibilityEventListener {
 
   @Override
   public void onAccessibilityEvent(AccessibilityEvent event, EventId eventId) {
-    if (!FeatureSupport.supportMagnificationController()) {
-      return;
-    }
     AccessibilityNodeInfoCompat sourceNode = AccessibilityNodeInfoUtils.toCompat(event.getSource());
     try {
       // It’s unnecessary to recenter the magnifier if the focus is on the keyboard because Keyboard
@@ -76,7 +68,6 @@ public class ProcessorMagnification implements AccessibilityEventListener {
     }
   }
 
-  @TargetApi(Build.VERSION_CODES.N)
   private void recenterMagnifier(AccessibilityNodeInfoCompat node) {
     Rect sourceNodeBounds = new Rect();
     node.getBoundsInScreen(sourceNodeBounds);
@@ -90,27 +81,16 @@ public class ProcessorMagnification implements AccessibilityEventListener {
     float newMagCenterX;
     // From Android 8.1, the bounds are scaled up by magnification scale and the node position are
     // the offset of the magnifier. REFERTO
-    if (FeatureSupport.isBoundsScaledUpByMagnifier()) {
-      newMagCenterY =
-          magnificationController.getCenterY() + (sourceNodeBounds.top / magScale) - margin;
-      if (isLeftToRight(node)) {
-        // Aligns upper left corner of sourceNode and magnifier.
-        newMagCenterX =
-            magnificationController.getCenterX() + (sourceNodeBounds.left / magScale) - margin;
-      } else {
-        // Aligns upper right corner of sourceNode and magnifier.
-        newMagCenterX =
-            magnificationController.getCenterX() + (sourceNodeBounds.right / magScale) + margin;
-      }
+    newMagCenterY =
+        magnificationController.getCenterY() + (sourceNodeBounds.top / magScale) - margin;
+    if (isLeftToRight(node)) {
+      // Aligns upper left corner of sourceNode and magnifier.
+      newMagCenterX =
+          magnificationController.getCenterX() + (sourceNodeBounds.left / magScale) - margin;
     } else {
-      newMagCenterY = sourceNodeBounds.top + halfMagHeight - margin;
-      if (isLeftToRight(node)) {
-        // Aligns upper left corner of sourceNode and magnifier.
-        newMagCenterX = sourceNodeBounds.left + halfMagWidth - margin;
-      } else {
-        // Aligns upper right corner of sourceNode and magnifier.
-        newMagCenterX = sourceNodeBounds.right - halfMagWidth + margin;
-      }
+      // Aligns upper right corner of sourceNode and magnifier.
+      newMagCenterX =
+          magnificationController.getCenterX() + (sourceNodeBounds.right / magScale) + margin;
     }
     // Require that magnifier center is within magnifiable region
     float tolerance = 1.0f;

@@ -16,7 +16,6 @@
 
 package com.google.android.accessibility.utils;
 
-import android.os.Build;
 import android.os.LocaleList;
 import android.os.PersistableBundle;
 import androidx.core.view.accessibility.AccessibilityNodeInfoCompat;

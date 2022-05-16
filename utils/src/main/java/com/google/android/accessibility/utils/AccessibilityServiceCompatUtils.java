@@ -23,7 +23,6 @@ import android.accessibilityservice.FingerprintGestureController;
 import android.annotation.TargetApi;
 import android.content.ComponentName;
 import android.content.Context;
-import android.os.Build;
 import androidx.core.view.accessibility.AccessibilityNodeInfoCompat;
 import android.view.accessibility.AccessibilityManager;
 import android.view.accessibility.AccessibilityNodeInfo;
@@ -175,7 +174,6 @@ public class AccessibilityServiceCompatUtils {
    * @param fingerprintGestureId The fingerprint gesture Id
    * @return The string representative of the fingeprint gesture
    */
-  @TargetApi(Build.VERSION_CODES.O)
   public static String fingerprintGestureIdToString(int fingerprintGestureId) {
     switch (fingerprintGestureId) {
       case FingerprintGestureController.FINGERPRINT_GESTURE_SWIPE_LEFT:

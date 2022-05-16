@@ -36,19 +36,17 @@ public class NotificationUtils {
    * @param context The context.
    */
   private static void setupNotificationChannel(Context context) {
-    if (FeatureSupport.supportNotificationChannel()) {
-      NotificationManager notificationManager =
-          (NotificationManager) context.getSystemService(Context.NOTIFICATION_SERVICE);
-      NotificationChannel notificationChannel =
-          new NotificationChannel(
-              TALKBACK_CHANNEL_ID,
-              context.getString(R.string.talkback_notification_channel_name),
-              NotificationManager.IMPORTANCE_HIGH);
-      notificationChannel.setDescription(
-          context.getString(R.string.talkback_notification_channel_description));
-      notificationChannel.setSound(null, null);
-      notificationManager.createNotificationChannel(notificationChannel);
-    }
+    NotificationManager notificationManager =
+        (NotificationManager) context.getSystemService(Context.NOTIFICATION_SERVICE);
+    NotificationChannel notificationChannel =
+        new NotificationChannel(
+            TALKBACK_CHANNEL_ID,
+            context.getString(R.string.talkback_notification_channel_name),
+            NotificationManager.IMPORTANCE_HIGH);
+    notificationChannel.setDescription(
+        context.getString(R.string.talkback_notification_channel_description));
+    notificationChannel.setSound(null, null);
+    notificationManager.createNotificationChannel(notificationChannel);
   }
 
   /**

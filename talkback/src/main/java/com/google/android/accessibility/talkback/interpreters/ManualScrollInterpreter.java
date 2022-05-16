@@ -24,7 +24,6 @@ import com.google.android.accessibility.talkback.ScrollEventInterpreter.ScrollEv
 import com.google.android.accessibility.talkback.ScrollEventInterpreter.ScrollEventInterpretation;
 import com.google.android.accessibility.talkback.focusmanagement.record.NodePathDescription;
 import com.google.android.accessibility.utils.AccessibilityNodeInfoUtils;
-import com.google.android.accessibility.utils.BuildVersionUtils;
 import com.google.android.accessibility.utils.Performance.EventId;
 import com.google.android.accessibility.utils.traversal.TraversalStrategy;
 import com.google.auto.value.AutoValue;

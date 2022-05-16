@@ -144,25 +144,20 @@ public class TalkBackPreferencesActivity extends PreferencesActivity {
     }
 
     /**
-     * In versions O and above, assign a default value for speaking passwords without headphones to
+     * Assign a default value for speaking passwords without headphones to
      * the system setting for speaking passwords out loud. This way, if the user already wants the
      * system to speak speak passwords out loud, the user will see no change and passwords will
-     * continue to be spoken. In M and below, hide this preference.
+     * continue to be spoken.
      */
     private void updateSpeakPasswordsPreference() {
-      if (FeatureSupport.useSpeakPasswordsServicePref()) {
-        // Read talkback speak-passwords preference, with default to system preference.
-        boolean speakPassValue = SpeakPasswordsManager.getAlwaysSpeakPasswordsPref(context);
-        // Update talkback preference display to match read value.
-        TwoStatePreference prefSpeakPasswords =
-            (TwoStatePreference)
-                findPreferenceByResId(R.string.pref_speak_passwords_without_headphones);
-        if (prefSpeakPasswords != null) {
-          prefSpeakPasswords.setChecked(speakPassValue);
-        }
-      } else {
-        PreferenceSettingsUtils.hidePreference(
-            context, getPreferenceScreen(), R.string.pref_speak_passwords_without_headphones);
+      // Read talkback speak-passwords preference, with default to system preference.
+      boolean speakPassValue = SpeakPasswordsManager.getAlwaysSpeakPasswordsPref(context);
+      // Update talkback preference display to match read value.
+      TwoStatePreference prefSpeakPasswords =
+          (TwoStatePreference)
+              findPreferenceByResId(R.string.pref_speak_passwords_without_headphones);
+      if (prefSpeakPasswords != null) {
+        prefSpeakPasswords.setChecked(speakPassValue);
       }
     }
 

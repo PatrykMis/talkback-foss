@@ -6,13 +6,11 @@ import android.accessibilityservice.AccessibilityServiceInfo;
 import android.annotation.TargetApi;
 import android.content.Context;
 import android.hardware.display.DisplayManager;
-import android.os.Build;
 import android.os.Message;
 import androidx.annotation.NonNull;
 import android.view.Display;
 import android.view.accessibility.AccessibilityManager;
 import com.google.android.accessibility.utils.AccessibilityServiceCompatUtils;
-import com.google.android.accessibility.utils.BuildVersionUtils;
 import com.google.android.accessibility.utils.FeatureSupport;
 import com.google.android.accessibility.utils.WeakReferenceHandler;
 import com.google.android.libraries.accessibility.utils.log.LogUtils;
@@ -111,15 +109,8 @@ public class AccessibilityButtonMonitor {
     displayManager = (DisplayManager) mService.getSystemService(Context.DISPLAY_SERVICE);
   }
 
-  @TargetApi(Build.VERSION_CODES.O)
   public void initAccessibilityButton(@NonNull AccessibilityButtonMonitorCallback callback) {
     mCallback = callback;
-    if (!FeatureSupport.supportAccessibilityButton()) {
-      LogUtils.d(TAG, "Accessibility button is not supported for pre-O devices.");
-      // A11y button is not supported on pre-O devices.
-      mHandler.confirmAccessibilityButtonSupportability(false);
-      return;
-    }
 
     // Ensure the flag is added to AccessibilityServiceInfo.
     AccessibilityServiceInfo info = mService.getServiceInfo();
@@ -182,11 +173,7 @@ public class AccessibilityButtonMonitor {
     }
   }
 
-  @TargetApi(Build.VERSION_CODES.O)
   public void shutdown() {
-    if (!FeatureSupport.supportAccessibilityButton()) {
-      return;
-    }
     // Unregister callback from AccessibilityButtonController.
     if (FeatureSupport.supportAccessibilityMultiDisplay()) {
       displayManager.unregisterDisplayListener(displayListener);

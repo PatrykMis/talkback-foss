@@ -278,8 +278,7 @@ public class TalkBackPreferenceFilter {
       return true;
     }
 
-    if (hasFlag(pref.get(), SHOW_IF_VOLUME_KEY_SHORTCUT)
-        && !FeatureSupport.supportsVolumeKeyShortcuts()) {
+    if (hasFlag(pref.get(), SHOW_IF_VOLUME_KEY_SHORTCUT)) {
       return true;
     }
 

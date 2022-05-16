@@ -18,7 +18,6 @@ package com.google.android.accessibility.brailleime;
 
 import android.app.Service;
 import android.content.Context;
-import android.os.Build;
 import android.os.VibrationEffect;
 import android.os.Vibrator;
 

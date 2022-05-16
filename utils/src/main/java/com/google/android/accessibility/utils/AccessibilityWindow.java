@@ -17,7 +17,6 @@
 package com.google.android.accessibility.utils;
 
 import android.annotation.TargetApi;
-import android.os.Build;
 import androidx.annotation.Nullable;
 import androidx.core.view.accessibility.AccessibilityWindowInfoCompat;
 import android.view.accessibility.AccessibilityWindowInfo;
@@ -263,7 +262,6 @@ public class AccessibilityWindow {
   }
 
   /** Returns flag whether window is picture-in-picture, or null if flag not available. */
-  @TargetApi(Build.VERSION_CODES.O)
   @Nullable
   public final Boolean isInPictureInPictureMode() {
     AccessibilityWindowInfo bare = getBare();

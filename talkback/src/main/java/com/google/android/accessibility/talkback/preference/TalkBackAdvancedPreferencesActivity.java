@@ -135,14 +135,10 @@ public class TalkBackAdvancedPreferencesActivity extends PreferencesActivity {
     }
 
     private void updateDimingPreferenceStatus() {
-      // Log an error if the device supports volume key shortcuts (i.e. those running Android N or
-      // earlier) but the dim screen shortcut switch is not available. Don't exit the function
+      // Don't exit the function
       // because we still want to set up the other switch.
       final TwoStatePreference dimShortcutPreference =
           (TwoStatePreference) findPreference(getString(R.string.pref_dim_volume_three_clicks_key));
-      if (FeatureSupport.supportsVolumeKeyShortcuts() && dimShortcutPreference == null) {
-        LogUtils.e(TAG, "Expected switch for dim screen shortcut, but switch is not present.");
-      }
 
       if (dimShortcutPreference == null) {
         return;

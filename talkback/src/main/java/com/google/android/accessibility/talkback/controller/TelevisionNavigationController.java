@@ -33,7 +33,6 @@ import android.content.Intent;
 import android.content.IntentFilter;
 import android.content.SharedPreferences;
 import android.content.SharedPreferences.OnSharedPreferenceChangeListener;
-import android.os.Build;
 import android.os.Message;
 import android.os.SystemClock;
 import androidx.core.view.accessibility.AccessibilityNodeInfoCompat;
@@ -51,7 +50,6 @@ import com.google.android.accessibility.talkback.TvNavigation;
 import com.google.android.accessibility.talkback.focusmanagement.AccessibilityFocusMonitor;
 import com.google.android.accessibility.utils.AccessibilityNodeInfoUtils;
 import com.google.android.accessibility.utils.AccessibilityServiceCompatUtils;
-import com.google.android.accessibility.utils.BuildVersionUtils;
 import com.google.android.accessibility.utils.ClassLoadingCache;
 import com.google.android.accessibility.utils.FeatureSupport;
 import com.google.android.accessibility.utils.Filter;
@@ -78,7 +76,6 @@ import java.lang.annotation.RetentionPolicy;
  */
 public class TelevisionNavigationController implements ServiceKeyEventListener {
 
-  public static final int MIN_API_LEVEL = Build.VERSION_CODES.M;
   private static final String PRINT_TREE_DEBUG_ACTION =
       "com.google.android.accessibility.talkback.PRINT_TREE_DEBUG";
 

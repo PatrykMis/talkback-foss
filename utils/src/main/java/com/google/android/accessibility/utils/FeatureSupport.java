@@ -70,10 +70,6 @@ public final class FeatureSupport {
     return isPhoneOrTablet(context);
   }
 
-  public static boolean useSpeakPasswordsServicePref() {
-    return true;
-  }
-
   /** Returns {@code true} for devices which have separate audio a11y stream. */
   public static boolean hasAccessibilityAudioStream(Context context) {
     return !isTv(context);
@@ -98,14 +94,6 @@ public final class FeatureSupport {
     return (vibrator != null) && vibrator.hasVibrator();
   }
 
-  public static boolean supportsVolumeKeyShortcuts() {
-    return false;
-  }
-
-  public static boolean disableAnimation() {
-    return true;
-  }
-
   public static boolean supportReadClipboard() {
     return !BuildVersionUtils.isAtLeastQ();
   }
@@ -119,19 +107,6 @@ public final class FeatureSupport {
    */
   public static boolean canTakeScreenShotByAccessibilityService() {
     return BuildVersionUtils.isAtLeastR();
-  }
-
-  public static boolean supportNotificationChannel() {
-    return true;
-  }
-
-  public static boolean isHeadingWorks() {
-    return true;
-  }
-
-  /** Returns {@code true} if the device supports {@link AccessibilityWindowInfo#getTitle()}. */
-  public static boolean supportGetTitleFromWindows() {
-    return true;
   }
 
   public static boolean supportSwitchToInputMethod() {
@@ -157,14 +132,6 @@ public final class FeatureSupport {
   }
 
   /**
-   * Returns {@code true} if the device supports {@link
-   * AccessibilityService#MagnificationController}.
-   */
-  public static boolean supportMagnificationController() {
-    return true;
-  }
-
-  /**
    * Returns {@code true} if the device should announce magnification state when
    * onMagnificationChanged() is called. In S, window magnification is available but the
    * onMagnificationChanged listener doesn't support this yet. To prevent user confusing, this is
@@ -174,10 +141,6 @@ public final class FeatureSupport {
   // Android.
   public static boolean supportAnnounceMagnificationChanged() {
     return Build.VERSION.SDK_INT != BuildVersionUtils.API_S;
-  }
-
-  public static boolean isBoundsScaledUpByMagnifier() {
-    return true;
   }
 
   public static boolean supportMultiDisplay() {
@@ -231,15 +194,6 @@ public final class FeatureSupport {
     return BuildVersionUtils.isAtLeastS();
   }
 
-  /**
-   * Provides a Talkback menu item to manually enter or change a percentage value for seek controls.
-   * This functionality is only available on Android N and later. REFERTO.
-   *
-   * @return {@code true} if the device supports change slider
-   */
-  public static boolean supportChangeSlider() {
-    return true;
-  }
 
   /**
    * Returns {@code true} if the device supports {@link
@@ -288,18 +242,6 @@ public final class FeatureSupport {
 
   /** Returns {@code true} if the device supports long version code. */
   public static boolean supportLongVersionCode() {
-    return true;
-  }
-
-  /**
-   * Supports accessibility button from Android O. *
-   *
-   * <p><strong>Note:</strong> Caller should use {@link AccessibilityButtonMonitor} to know whether
-   * the button is available right now.
-   *
-   * @return {@code true} if the device supports accessibility button
-   */
-  public static boolean supportAccessibilityButton() {
     return true;
   }
 

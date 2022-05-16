@@ -29,7 +29,6 @@ import com.google.android.accessibility.talkback.NodeBlockingOverlay.OnDoubleTap
 import com.google.android.accessibility.talkback.Pipeline;
 import com.google.android.accessibility.talkback.TalkBackService;
 import com.google.android.accessibility.utils.AccessibilityEventListener;
-import com.google.android.accessibility.utils.BuildVersionUtils;
 import com.google.android.accessibility.utils.Performance.EventId;
 import org.checkerframework.checker.nullness.qual.Nullable;
 

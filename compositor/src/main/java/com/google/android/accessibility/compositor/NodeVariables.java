@@ -18,7 +18,6 @@ package com.google.android.accessibility.compositor;
 
 import android.annotation.TargetApi;
 import android.content.Context;
-import android.os.Build;
 import androidx.core.view.accessibility.AccessibilityNodeInfoCompat;
 import androidx.core.view.accessibility.AccessibilityNodeInfoCompat.AccessibilityActionCompat;
 import androidx.core.view.accessibility.AccessibilityNodeInfoCompat.RangeInfoCompat;
@@ -267,7 +266,6 @@ class NodeVariables implements ParseTree.VariableDelegate {
     }
   }
 
-  @TargetApi(Build.VERSION_CODES.O)
   @Override
   public boolean getBoolean(int variableId) {
     switch (variableId) {

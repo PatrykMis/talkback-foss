@@ -163,7 +163,7 @@ public class AccessibilityWindowInfoUtils {
    */
   @Nullable
   public static CharSequence getTitle(AccessibilityWindowInfo windowInfo) {
-    if (windowInfo != null && FeatureSupport.supportGetTitleFromWindows()) {
+    if (windowInfo != null) {
       return windowInfo.getTitle();
     }
     return null;

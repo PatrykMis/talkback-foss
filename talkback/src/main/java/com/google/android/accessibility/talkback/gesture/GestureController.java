@@ -55,7 +55,6 @@ import android.annotation.TargetApi;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.os.Build;
 import androidx.core.view.accessibility.AccessibilityNodeInfoCompat;
 import android.text.SpannableStringBuilder;
 import android.text.TextUtils;
@@ -165,7 +164,6 @@ public class GestureController {
    * @param gesture Fingerprint gesture Id
    * @return Mapped action shortcut
    */
-  @TargetApi(Build.VERSION_CODES.O)
   private String actionFromFingerprintGesture(int gesture) {
     SharedPreferences prefs = SharedPreferencesUtils.getSharedPreferences(service);
     switch (gesture) {

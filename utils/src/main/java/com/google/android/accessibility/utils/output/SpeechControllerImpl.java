@@ -29,7 +29,6 @@ import android.media.AudioAttributes;
 import android.media.AudioFocusRequest;
 import android.media.AudioManager;
 import android.media.AudioRecordingConfiguration;
-import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.SystemClock;
@@ -43,7 +42,6 @@ import android.text.style.ReplacementSpan;
 import android.text.style.TtsSpan;
 import android.util.Range;
 import androidx.annotation.IntDef;
-import com.google.android.accessibility.utils.BuildVersionUtils;
 import com.google.android.accessibility.utils.FailoverTextToSpeech;
 import com.google.android.accessibility.utils.FailoverTextToSpeech.SpeechParam;
 import com.google.android.accessibility.utils.FeatureSupport;
@@ -1557,7 +1555,6 @@ public class SpeechControllerImpl implements SpeechController {
    *
    * @see #handleSpeechCompleted(int status)
    */
-  @TargetApi(Build.VERSION_CODES.N)
   private void handleSpeechStarting() {
     for (SpeechController.Observer observer : mObservers) {
       observer.onSpeechStarting();

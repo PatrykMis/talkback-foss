@@ -28,31 +28,6 @@ public class BuildVersionUtils {
 
   // TODO: Use Build.VERSION_CODES.S when available.
   public static final int API_S = 31;
-
-  public static boolean isM() {
-    return Build.VERSION.SDK_INT == Build.VERSION_CODES.M;
-  }
-
-  public static boolean isAtLeastN() {
-    return Build.VERSION.SDK_INT >= Build.VERSION_CODES.N;
-  }
-
-  public static boolean isAtLeastNMR1() {
-    return Build.VERSION.SDK_INT >= Build.VERSION_CODES.N_MR1;
-  }
-
-  public static boolean isAtLeastO() {
-    return Build.VERSION.SDK_INT >= Build.VERSION_CODES.O;
-  }
-
-  public static boolean isAtLeastOMR1() {
-    return Build.VERSION.SDK_INT >= Build.VERSION_CODES.O_MR1;
-  }
-
-  public static boolean isAtLeastP() {
-    return Build.VERSION.SDK_INT >= Build.VERSION_CODES.P;
-  }
-
   public static boolean isAtLeastQ() {
     return Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q;
   }
