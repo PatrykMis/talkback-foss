@@ -42,3 +42,12 @@ on, toggle the switch preference to the on position.
 Alternatively you can do it via ADB:
 
 <code>adb shell settings put secure enabled_accessibility_services com.android.talkbackfoss/com.google.android.marvin.talkback.TalkBackService</code>
+
+## Versioning
+
+Versions are in form "v$UPSTREAM_VERSION_WITH_BUILD_NUMBER-$RELEASE" where:
+
+* $UPSTREAM is the public, visible version of upstream.
+* $RELEASE is a letter `f` followed by this fork's release.
+
+e.g. 12.1.0.397273158-f01 means first release based on upstream 12.1.0.397273158 version.
