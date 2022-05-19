@@ -12,7 +12,7 @@
 
 - [x] fix typos and partially translated strings for Polish language
 
-- [ ] Fix build warnings, including deprications
+- [ ] Fix build warnings, including deprecations
 
 - [x] migrate Groovy build system to fully Kotlin
 
