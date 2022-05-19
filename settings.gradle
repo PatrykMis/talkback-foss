@@ -1,6 +1,0 @@
-include ':talkback'
-include ':compositor'
-include ':utils'
-include ':proguard'
-include ':braille'
-include ':brailleime'
