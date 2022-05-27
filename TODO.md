@@ -12,11 +12,11 @@
 
 - [x] fix typos and partially translated strings for Polish language
 
-- [ ] Fix build warnings, including deprications
+- [ ] Fix build warnings, including deprecations
 
-- [ ] migrate Groovy build system to fully Kotlin
+- [x] migrate Groovy build system to fully Kotlin
 
-- [ ] create a development/support channel for communication like Matrix
+- [x] create a development/support channel for communication like Matrix
 
 - [ ] Optimize code
 
