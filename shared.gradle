@@ -6,7 +6,7 @@ ext {
 }
 
 android {
-    compileSdkVersion 'android-31'
+    compileSdkVersion 'android-32'
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_11
         targetCompatibility JavaVersion.VERSION_11
