@@ -1,0 +1,5 @@
+.gradle
+.DS_Store
+build
+**/build
+braille/translate/src/phone/res/
