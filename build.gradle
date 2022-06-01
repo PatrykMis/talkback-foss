@@ -43,7 +43,7 @@ android {
         exclude 'LICENSE'
         exclude 'README'
     }
-    lintOptions {
+    lint {
         checkReleaseBuilds false
         abortOnError false
     }

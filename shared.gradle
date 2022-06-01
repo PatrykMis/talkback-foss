@@ -6,7 +6,7 @@ ext {
 }
 
 android {
-    compileSdkVersion 'android-32'
+    compileSdk 32
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_11
         targetCompatibility JavaVersion.VERSION_11
@@ -25,7 +25,7 @@ android {
             dimension "target"
         }
     }
-    lintOptions {
+    lint {
         abortOnError false
     }
 }
