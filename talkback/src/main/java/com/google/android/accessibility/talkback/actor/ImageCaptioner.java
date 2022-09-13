@@ -60,7 +60,6 @@ import com.google.android.accessibility.talkback.icondetection.IconAnnotationsDe
 import com.google.android.accessibility.talkback.icondetection.IconDetectionModuleDownloadPrompter;
 import com.google.android.accessibility.talkback.icondetection.IconDetectionModuleDownloadPrompter.DownloadStateListener;
 import com.google.android.accessibility.talkback.imagecaption.CaptionRequest;
-import com.google.android.accessibility.talkback.imagecaption.CharacterCaptionRequest;
 import com.google.android.accessibility.talkback.imagecaption.IconDetectionRequest;
 import com.google.android.accessibility.talkback.imagecaption.RequestList;
 import com.google.android.accessibility.talkback.imagecaption.ScreenshotCaptureRequest;
@@ -115,8 +114,6 @@ public class ImageCaptioner extends Handler
   private int requestId = 0;
 
   private final RequestList<ScreenshotCaptureRequest> screenshotRequests =
-      new RequestList<>(CAPTION_REQUEST_CAPACITY);
-  private final RequestList<CharacterCaptionRequest> characterCaptionRequests =
       new RequestList<>(CAPTION_REQUEST_CAPACITY);
   private final RequestList<IconDetectionRequest> iconDetectionRequests =
       new RequestList<>(CAPTION_REQUEST_CAPACITY);
@@ -466,7 +463,6 @@ public class ImageCaptioner extends Handler
             + StringBuilderUtils.joinFields(
                 StringBuilderUtils.optionalSubObj("result", result),
                 StringBuilderUtils.optionalSubObj("node", node)));
-    characterCaptionRequests.performNextRequest();
 
     handleResult(id, node, OCR, result, isUserRequested);
     imageCaptionStorage.updateCharacterCaptionResult(node, result);
@@ -475,25 +471,6 @@ public class ImageCaptioner extends Handler
   @VisibleForTesting
   void addCaptionRequest(
       int id, AccessibilityNodeInfoCompat node, Bitmap screenCapture, boolean isUserRequested) {
-    characterCaptionRequests.addRequest(
-        new CharacterCaptionRequest(
-            id,
-            service,
-            node,
-            screenCapture,
-            /* onFinishListener= */ this::onCharacterCaptionFinish,
-            /* onErrorListener= */ (errorRequestId, errorNode, errorCode, userRequest) -> {
-              analytics.onImageCaptionEvent(IMAGE_CAPTION_EVENT_OCR_PERFORM_FAIL);
-              LogUtils.v(TAG, "onError(), error= %s", CaptionRequest.errorName(errorCode));
-              characterCaptionRequests.performNextRequest();
-              handleResult(
-                  errorRequestId,
-                  AccessibilityNode.obtainCopy(node),
-                  OCR,
-                  /* result= */ null,
-                  userRequest);
-            },
-            isUserRequested));
   }
 
   @VisibleForTesting
@@ -541,14 +518,13 @@ public class ImageCaptioner extends Handler
   @VisibleForTesting
   void clearRequests() {
     screenshotRequests.clear();
-    characterCaptionRequests.clear();
     iconDetectionRequests.clear();
     captionResults.clear();
   }
 
   @VisibleForTesting
   int getWaitingCharacterCaptionRequestSize() {
-    return characterCaptionRequests.getWaitingRequestSize();
+    return 0;
   }
 
   @VisibleForTesting

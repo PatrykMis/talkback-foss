@@ -25,8 +25,6 @@ import androidx.core.view.accessibility.AccessibilityNodeInfoCompat;
 import com.google.android.accessibility.talkback.ActorState;
 import com.google.android.accessibility.talkback.Feedback;
 import com.google.android.accessibility.talkback.Pipeline;
-import com.google.android.accessibility.talkback.PrimesController;
-import com.google.android.accessibility.talkback.PrimesController.Timer;
 import com.google.android.accessibility.talkback.focusmanagement.NavigationTarget;
 import com.google.android.accessibility.talkback.focusmanagement.interpreter.ScreenState;
 import com.google.android.accessibility.talkback.focusmanagement.record.AccessibilityFocusActionHistory;
@@ -71,7 +69,6 @@ public class FocusActorForScreenStateChange {
 
   private Pipeline.FeedbackReturner pipeline;
   private ActorState actorState;
-  private final PrimesController primesController;
 
   private final FocusFinder focusFinder;
 
@@ -79,8 +76,7 @@ public class FocusActorForScreenStateChange {
   // Construction methods
 
   public FocusActorForScreenStateChange(
-      FocusFinder focusFinder, PrimesController primesController) {
-    this.primesController = primesController;
+      FocusFinder focusFinder) {
     this.focusFinder = focusFinder;
   }
 
@@ -103,7 +99,6 @@ public class FocusActorForScreenStateChange {
       return false;
     }
 
-    primesController.startTimer(Timer.INITIAL_FOCUS_RESTORE);
     AccessibilityNodeInfoCompat root =
         AccessibilityWindowInfoUtils.getRootCompat(currentActiveWindow);
     if (root == null) {
@@ -150,7 +145,6 @@ public class FocusActorForScreenStateChange {
   /** Sets accessibility focus to EditText in the active window. */
   public boolean syncA11yFocusToInputFocusedEditText(ScreenState screenState, EventId eventId) {
 
-    primesController.startTimer(Timer.INITIAL_FOCUS_FOLLOW_INPUT);
     AccessibilityNodeInfoCompat inputFocusedNode = focusFinder.findFocusCompat(FOCUS_INPUT);
     AccessibilityWindowInfo currentActiveWindow = screenState.getActiveWindow();
     if (inputFocusedNode == null
@@ -172,7 +166,6 @@ public class FocusActorForScreenStateChange {
       return false;
     }
 
-    primesController.startTimer(Timer.INITIAL_FOCUS_FIRST_CONTENT);
     AccessibilityNodeInfoCompat root =
         AccessibilityWindowInfoUtils.getRootCompat(currentActiveWindow);
     if (root == null) {

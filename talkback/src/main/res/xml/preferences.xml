@@ -86,9 +86,5 @@
             android:title="@string/title_pref_advanced_settings"
             android:fragment="com.google.android.accessibility.talkback.preference.base.AdvancedSettingFragment" >
         </Preference>
-        <Preference
-            android:key="@string/pref_play_store_key"
-            android:title="@string/title_pref_play_store">
-        </Preference>
     </PreferenceCategory>
 </PreferenceScreen>
