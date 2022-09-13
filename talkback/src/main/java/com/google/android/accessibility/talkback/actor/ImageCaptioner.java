@@ -35,7 +35,6 @@ import com.google.android.accessibility.talkback.R;
 import com.google.android.accessibility.talkback.focusmanagement.AccessibilityFocusMonitor;
 import com.google.android.accessibility.talkback.icondetection.IconAnnotationsDetectorFactory;
 import com.google.android.accessibility.talkback.imagecaption.CaptionRequest;
-import com.google.android.accessibility.talkback.imagecaption.CharacterCaptionRequest;
 import com.google.android.accessibility.talkback.imagecaption.IconDetectionRequest;
 import com.google.android.accessibility.talkback.imagecaption.RequestList;
 import com.google.android.accessibility.talkback.imagecaption.ScreenshotCaptureRequest;
@@ -64,8 +63,6 @@ public class ImageCaptioner {
   private boolean iconAnnotationsDetectorStarted = false;
 
   private final RequestList<ScreenshotCaptureRequest> screenshotRequests =
-      new RequestList<>(CAPTION_REQUEST_CAPACITY);
-  private final RequestList<CharacterCaptionRequest> characterCaptionRequests =
       new RequestList<>(CAPTION_REQUEST_CAPACITY);
   private final RequestList<IconDetectionRequest> iconDetectionRequests =
       new RequestList<>(CAPTION_REQUEST_CAPACITY);
@@ -256,7 +253,6 @@ public class ImageCaptioner {
             + StringBuilderUtils.joinFields(
                 StringBuilderUtils.optionalSubObj("result", result),
                 StringBuilderUtils.optionalSubObj("node", node)));
-    characterCaptionRequests.performNextRequest();
 
     @Nullable
     AccessibilityNode focusedNode =
@@ -280,25 +276,6 @@ public class ImageCaptioner {
   @VisibleForTesting
   void addCaptionRequest(
       AccessibilityNodeInfoCompat node, Bitmap screenCapture, boolean isUserRequested) {
-    characterCaptionRequests.addRequest(
-        new CharacterCaptionRequest(
-            service,
-            node,
-            screenCapture,
-            /* onFinishListener= */ this::onCharacterCaptionFinish,
-            /* onErrorListener= */ (errorNode, errorCode, userRequest) -> {
-              LogUtils.v(TAG, "onError(), error= %s", CaptionRequest.errorName(errorCode));
-              characterCaptionRequests.performNextRequest();
-              @Nullable
-              AccessibilityNode focusedNode =
-                  AccessibilityNode.takeOwnership(
-                      accessibilityFocusMonitor.getAccessibilityFocus(
-                          /* useInputFocusIfEmpty= */ false));
-              if (userRequest && errorNode.equals(focusedNode)) {
-                returnNoResultFeedbackForUserRequest();
-              }
-            },
-            isUserRequested));
   }
 
   @VisibleForTesting
@@ -360,13 +337,12 @@ public class ImageCaptioner {
   @VisibleForTesting
   void clearRequests() {
     screenshotRequests.clear();
-    characterCaptionRequests.clear();
     iconDetectionRequests.clear();
   }
 
   @VisibleForTesting
   int getWaitingCharacterCaptionRequestSize() {
-    return characterCaptionRequests.getWaitingRequestSize();
+    return 0;
   }
 
   @VisibleForTesting

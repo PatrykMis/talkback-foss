@@ -79,7 +79,6 @@ import com.google.android.accessibility.compositor.Compositor;
 import com.google.android.accessibility.compositor.EventFilter;
 import com.google.android.accessibility.compositor.GlobalVariables;
 import com.google.android.accessibility.talkback.Feedback.DeviceInfo.Action;
-import com.google.android.accessibility.talkback.PrimesController.Timer;
 import com.google.android.accessibility.talkback.actor.AutoScrollActor;
 import com.google.android.accessibility.talkback.actor.DimScreenActor;
 import com.google.android.accessibility.talkback.actor.DirectionNavigationActor;
@@ -417,7 +416,6 @@ public class TalkBackService extends AccessibilityService
 
   private GestureShortcutMapping gestureShortcutMapping;
   private NodeMenuRuleProcessor nodeMenuRuleProcessor;
-  private PrimesController primesController;
   private SpeechLanguage speechLanguage;
   private boolean isBrailleKeyboardActivated;
   private ImageCaptioner imageCaptioner;
@@ -795,7 +793,6 @@ public class TalkBackService extends AccessibilityService
     }
     Performance perf = Performance.getInstance();
     EventId eventId = perf.onGestureEventReceived(gestureId);
-    primesController.startTimer(Timer.GESTURE_EVENT);
 
     analytics.onGesture(gestureId);
     feedbackController.playAuditory(R.raw.gesture_end, eventId);
@@ -806,7 +803,6 @@ public class TalkBackService extends AccessibilityService
     // Preceding event handling frequently initiates a framework action, which in turn
     // cascades a focus event, which in turn generates feedback.
     perf.onHandlerDone(eventId);
-    primesController.stopTimer(Timer.GESTURE_EVENT);
     return true;
   }
 
@@ -987,10 +983,6 @@ public class TalkBackService extends AccessibilityService
   protected void onServiceConnected() {
     LogUtils.v(TAG, "System bound to service.");
 
-    primesController = new PrimesController();
-    primesController.initialize(getApplication());
-    primesController.startTimer(Timer.START_UP);
-
     SharedPreferencesUtils.migrateSharedPreferences(this);
     prefs = SharedPreferencesUtils.getSharedPreferences(this);
     initializeInfrastructure();
@@ -1055,8 +1047,6 @@ public class TalkBackService extends AccessibilityService
         && !FeatureSupport.isWatch(getApplicationContext())) {
       OnboardingInitiator.showOnboardingIfNecessary(this);
     }
-
-    primesController.stopTimer(Timer.START_UP);
   }
 
   /**
@@ -1315,7 +1305,7 @@ public class TalkBackService extends AccessibilityService
                 feedbackController,
                 scroller,
                 focuser,
-                new FocusActorForScreenStateChange(focusFinder, primesController),
+                new FocusActorForScreenStateChange(focusFinder),
                 new FocusActorForTapAndTouchExploration(),
                 directionNavigationActor,
                 new SearchScreenNodeStrategy(/* observer= */ null, labelManager),
