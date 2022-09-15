@@ -28,6 +28,7 @@ allprojects {
 
 android {
     buildToolsVersion '32.0.0'
+    namespace "com.android.talkback"
     defaultConfig {
         applicationId talkbackApplicationId
         versionName "12.2"
