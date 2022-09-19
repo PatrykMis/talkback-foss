@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="talkback_on">TalkBack 已開啟</string>
-  <string name="talkback_suspended">已暫停 TalkBack</string>
-  <string name="talkback_resumed">已恢復 TalkBack</string>
-  <string name="talkback_disabled">TalkBack 已關閉</string>
+  <string name="talkback_on">TalkBack FOSS 已開啟</string>
+  <string name="talkback_suspended">已暫停 TalkBack FOSS</string>
+  <string name="talkback_resumed">已恢復 TalkBack FOSS</string>
+  <string name="talkback_disabled">TalkBack FOSS 已關閉</string>
   <string name="spokenfeedback_on">朗讀功能已經開咗</string>
   <string name="spokenfeedback_suspended">朗讀功能已經暫停</string>
   <string name="spokenfeedback_resumed">朗讀功能已經重新開咗</string>

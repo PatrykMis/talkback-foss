@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="braille_ime_service_name">TalkBack బ్రెయిలీ కీబోర్డ్</string>
+  <string name="braille_ime_service_name">TalkBack FOSS బ్రెయిలీ కీబోర్డ్</string>
   <string name="switch_to_screen_away_announcement">స్క్రీన్‌కు దూరంగా ఉన్నట్లు సూచించే మోడ్</string>
   <string name="switch_to_tabletop_announcement">టేబుల్‌టాప్ సెట్టింగ్ మోడ్. మీ పరికరాన్ని ఛార్జింగ్ పోర్ట్‌తో ఎడమవైపు ఉంచండి. డాట్ స్థానాన్ని అప్‌డేట్ చేయడానికి 6 వేళ్లను కిందకి ఉంచండి.</string>
   <string name="bring_ime_settings_page">వేరే కీబోర్డ్ ఏదీ ఎనేబుల్ చేయబడి లేదు, కీబోర్డ్ సెట్టింగ్‌లకు వెళ్ళండి</string>
   <string name="reminder_announcement">మరిన్ని ఆప్షన్‌ల కోసం 3 వేళ్ళతో పైకి స్వైప్ చేయండి</string>
   <string name="braille_ime_displayed_name">బ్రెయిలీ కీబోర్డ్</string>
   <string name="multiple_languages_braille_ime_displayed_name">బ్రెయిలీ కీబోర్డ్, %s</string>
-  <string name="input_view_caption">TalkBack బ్రెయిలీ కీబోర్డ్ - సహాయం కోసం, g.co/help/brailleను సందర్శించండి</string>
+  <string name="input_view_caption">TalkBack FOSS బ్రెయిలీ కీబోర్డ్ - సహాయం కోసం, g.co/help/brailleను సందర్శించండి</string>
   <string name="perform_action_next">తర్వాత</string>
   <string name="perform_action_submitting">వచనాన్ని సబ్మిట్ చేస్తోంది</string>
   <string name="calibration_step1_hold_left_finger_announcement">డాట్ స్థితిని అప్‌డేట్ చేస్తోంది. మొదట, మీ ఎడమ చేతి వైపు ఉన్న డాట్‌లను రికార్డ్ చేద్దాము. మీ ఎడమ చేతి మధ్య 3 వేళ్లతో స్క్రీన్‌ను నొక్కి, పట్టుకోండి.</string>
@@ -58,17 +58,17 @@
   <string name="done">పూర్తయింది</string>
   <string name="not_enough_touch_points_dialog_title">మీ పరికరం బ్రెయిలీ కీబోర్డ్‌కు సపోర్ట్ చేయదు</string>
   <string name="not_enough_touch_points_dialog_message">మీ పరికరం, తాకడానికి సరిపడినన్ని పాయింట్‌లకు సపోర్ట్ చేయదు. మరింత సమాచాచారం కోసం మీ పరికరాన్ని తయారు చేసిన కంపెనీని సంప్రదించండి.</string>
-  <string name="talkback_off_dialog_title">బ్రెయిలీ కీబోర్డ్‌ను ఉపయోగించడానికి TalkBackను ఆన్ చేయండి</string>
+  <string name="talkback_off_dialog_title">బ్రెయిలీ కీబోర్డ్‌ను ఉపయోగించడానికి TalkBack FOSSను ఆన్ చేయండి</string>
   <string name="talkback_off_dialog_positive_button">యాక్సెసిబిలిటీ సెట్టింగ్‌లను ఆన్ చేయండి</string>
-  <string name="talkback_suspend_dialog_title">బ్రెయిలీ కీబోర్డ్‌ను ఉపయోగించడానికి TalkBackను తిరిగి ఆన్ చేయండి</string>
-  <string name="talkback_off_or_suspend_dialog_message">TalkBack ఆన్‌లో ఉన్నపుడు, బ్రెయిలీ చిహ్నాలను ఎంటర్ చేయడానికి మీరు మీ స్క్రీన్‌పై ట్యాప్ చేయవచ్చు.</string>
+  <string name="talkback_suspend_dialog_title">బ్రెయిలీ కీబోర్డ్‌ను ఉపయోగించడానికి TalkBack FOSSను తిరిగి ఆన్ చేయండి</string>
+  <string name="talkback_off_or_suspend_dialog_message">TalkBack FOSS ఆన్‌లో ఉన్నపుడు, బ్రెయిలీ చిహ్నాలను ఎంటర్ చేయడానికి మీరు మీ స్క్రీన్‌పై ట్యాప్ చేయవచ్చు.</string>
   <string name="next_keyboard">తర్వాతి కీబోర్డ్</string>
   <string name="braille_tutorial_title">బ్రెయిలీ కీబోర్డ్ ట్యుటోరియల్</string>
-  <string name="tutorial_intro_description">బ్రెయిలీ కీబోర్డ్‌తో, మీరు 6-డాట్‌ల బ్రెయిలీని ఎంటర్ చేయడానికి మీ స్క్రీన్‌పై ట్యాప్ చేయవచ్చు.\n\nమీరు యూనిఫైడ్ ఇంగ్లీష్ బ్రెయిలీని ఉపయోగిస్తున్నారు. మీరు టైప్ చేసే భాషను స్విచ్ చేయడానికి, TalkBack సెట్టింగ్‌లకు వెళ్లండి.\n\nబ్రెయిలీలో టైప్ చేయడానికి, మీరు మీ ఫోన్‌ను వేరే విధంగా పట్టుకుని, ఉపయోగించాల్సి ఉంటుంది.</string>
+  <string name="tutorial_intro_description">బ్రెయిలీ కీబోర్డ్‌తో, మీరు 6-డాట్‌ల బ్రెయిలీని ఎంటర్ చేయడానికి మీ స్క్రీన్‌పై ట్యాప్ చేయవచ్చు.\n\nమీరు యూనిఫైడ్ ఇంగ్లీష్ బ్రెయిలీని ఉపయోగిస్తున్నారు. మీరు టైప్ చేసే భాషను స్విచ్ చేయడానికి, TalkBack FOSS సెట్టింగ్‌లకు వెళ్లండి.\n\nబ్రెయిలీలో టైప్ చేయడానికి, మీరు మీ ఫోన్‌ను వేరే విధంగా పట్టుకుని, ఉపయోగించాల్సి ఉంటుంది.</string>
   <string name="next_step">తర్వాత</string>
   <string name="leave_keyboard">బ్రెయిలీ కీబోర్డ్‌ను వదిలిపెట్టండి</string>
-  <string name="hold_six_fingers_description">మీరు బ్రెయిలీ కీబోర్డ్‌లో సాధారణ TalkBack సంజ్ఞలను ఉపయోగించలేరు.\n\nప్రారంభించడానికి, మీరు టైప్ చేసినప్పుడు 6 బ్రెయిలీ డాట్‌ల స్థానాన్ని ఏర్పాటు చేద్దాము.</string>
-  <string name="rotate_orientation_description_1">ఇప్పటి నుండి, మీరు సాధారణ TalkBack సంజ్ఞలను ఉపయోగించలేరు. బ్రెయిలీ కీబోర్డ్‌ను ఉపయోగిస్తున్నప్పుడు TalkBack అందుబాటులో ఉండదు.</string>
+  <string name="hold_six_fingers_description">మీరు బ్రెయిలీ కీబోర్డ్‌లో సాధారణ TalkBack FOSS సంజ్ఞలను ఉపయోగించలేరు.\n\nప్రారంభించడానికి, మీరు టైప్ చేసినప్పుడు 6 బ్రెయిలీ డాట్‌ల స్థానాన్ని ఏర్పాటు చేద్దాము.</string>
+  <string name="rotate_orientation_description_1">ఇప్పటి నుండి, మీరు సాధారణ TalkBack FOSS సంజ్ఞలను ఉపయోగించలేరు. బ్రెయిలీ కీబోర్డ్‌ను ఉపయోగిస్తున్నప్పుడు TalkBack అందుబాటులో ఉండదు.</string>
   <string name="rotate_orientation_description_2">ప్రారంభించడానికి, స్క్రీన్ మీ వైపు లేకుండా ఉండేలా, ఫోన్‌ను ఈ విధంగా పట్టుకోండి.</string>
   <string name="tap_to_continue">కొనసాగించడానికి ఎక్కడైనా రెండుసార్లు ట్యాప్ చేయండి</string>
   <string name="instruction_type_letter_a">\"A\" అక్షరాన్ని టైప్ చేయడానికి 1వ చుక్కను మీ ఎడమ చూపుడువేలితో ట్యాప్ చేయండి</string>
@@ -86,7 +86,7 @@
   <string name="result_swipe_down">కర్సర్ ముందుకు తరలించబడింది</string>
   <string name="result_swipe_down_2_fingers">కీబోర్డ్‌ను దాచడం</string>
   <string name="result_swipe_down_3_fingers">తర్వాతి కీబోర్డ్</string>
-  <string name="rotate_orientation_announcement">ఇప్పటి నుండి, మీరు సాధారణ TalkBack సంజ్ఞలను ఉపయోగించలేరు. బ్రెయిలీ కీబోర్డ్‌ను ఉపయోగిస్తున్నప్పుడు TalkBack అందుబాటులో ఉండదు.\n\n%1$s</string>
+  <string name="rotate_orientation_announcement">ఇప్పటి నుండి, మీరు సాధారణ TalkBack FOSS సంజ్ఞలను ఉపయోగించలేరు. బ్రెయిలీ కీబోర్డ్‌ను ఉపయోగిస్తున్నప్పుడు TalkBack అందుబాటులో ఉండదు.\n\n%1$s</string>
   <string name="rotate_orientation_inactive_announcement">మొదట, స్క్రీన్ మీ వైపు లేకుండా ఫోన్‌ను తిప్పి పట్టుకోండి.\n\nతర్వాత, ఫోన్‌ను ల్యాండ్‌స్కేప్ స్థితిలోకి సమతలంగా ఉండేలా తిప్పండి. ఫోన్‌ను, వెడల్పు తక్కువ ఉన్న వైపు, మీ చేతులతో గట్టిగా పట్టుకోండి. మీ కుడి చేయి USB పోర్ట్ ఉన్న వైపు పట్టుకుని ఉండాలి. చేతిలోని మధ్య 3 వేళ్ళను స్క్రీన్‌పై తాకేలా ఉంచి, చిటికెన వేలును, బొటనవేలును ఫోన్‌ను పట్టుకోవడానికి ఉపయోగించండి.\n\n మీరు సిద్ధంగా ఉన్నప్పుడు, కొనసాగించడానికి స్క్రీన్‌పై రెండుసార్లు ట్యాప్ చేయండి.\n\nబ్రెయిలీ కీబోర్డ్ నుండి బయటికి రావడానికి నేల వైపుగా 3 వేళ్ళతో కిందికి స్వైప్ చేయండి. దీనితో మీ అసలు కీబోర్డ్‌కు తిరిగి మారతారు.</string>
   <string name="rotate_orientation_continue_announcement">మీ ఫోన్ నిలువు స్థితిలో వుంది. కొనసాగించడానికి, మీ ఫోన్‌ను సమతలంగా తిప్పండి. దానివల్ల పొడవుగా ఉండే భాగం కింది వైపునకు వస్తుంది. తర్వాత స్క్రీన్‌ను మీ వైపునకు ఉంచకుండా తిప్పి పట్టుకోండి. మీరు సిద్ధంగా ఉన్నప్పుడు, కొనసాగించడానికి రెండుసార్లు ట్యాప్ చేయండి.</string>
   <string name="type_letter_a_announcement">స్క్రీన్‌ను మీ వైపునకు ఉంచకుండా తిప్పి పట్టుకోండి. మీ ఫోన్‌ను చేతిలోని మధ్య 3 వేళ్లు స్క్రీన్‌ను తాకి ఉండేలా, వెడల్పు తక్కువ ఉన్న వైపు, మీ రెండు చేతులతో గట్టిగా పట్టుకోండి.\n\nYour మీ ఎడమ చూపుడు వేలు 1వ చుక్కపై ఉండాలి. ఇప్పుడు, “A” అక్షరాన్ని టైప్ చేయడానికి 1వ చుక్కను ట్యాప్ చేయండి.</string>
@@ -102,7 +102,7 @@
   <string name="swipe_down_3_fingers_announcement">మీకున్న వేరొక కీబోర్డ్‌కు మారడానికి, 3 వేళ్ళతో కిందికి స్వైప్ చేయండి. దీన్ని ఇప్పుడే ట్రై చేయండి.</string>
   <string name="swipe_down_3_fingers_completed_announcement">తర్వాతి కీబోర్డ్. సాధారణంగా, ఇది తర్వాతి కీబోర్డ్‌కు మారుస్తుంది. ఇప్పుడు మాత్రం, మీరుండేది బ్రెయిలీ కీబోర్డ్‌లోనే. ఎందుకంటే మీరింకా ట్యుటోరియల్‌లోనే ఉన్నారు.</string>
   <string name="swipe_up_3_fingers_announcement">మీ ఫోన్‌ను టేబుల్‌పై ఫ్లాట్‌గా ఉంచడం ద్వారా మీరు టేబుల్‌టాప్ మోడ్‌లో కూడా టైప్ చేయవచ్చు. ట్యుటోరియల్‌ను ముగించడానికి 3 వేళ్లతో పైకి స్వైప్ చేసి, ముగింపు ట్యుటోరియల్ ఆప్షన్‌ను కనుగొనండి</string>
-  <string name="open_context_menu_announcement">ఆప్షన్‌ల మెనూ తెరిచి ఉంది. మీ ఫోన్‌ను వెనుకకు తిప్పండి, తద్వారా ఇది మీకు ఎదురుగా ఉంటుంది, అలాగే సాధారణంగా పట్టుకోండి. నావిగేట్ చేయడానికి మీరు ఇప్పుడు సాధారణ TalkBack సంజ్ఞలను ఉపయోగించవచ్చు. మరిన్ని ఆప్షన్‌లను చూడటానికి కుడివైపుకి స్వైప్ చేయండి.</string>
+  <string name="open_context_menu_announcement">ఆప్షన్‌ల మెనూ తెరిచి ఉంది. మీ ఫోన్‌ను వెనుకకు తిప్పండి, తద్వారా ఇది మీకు ఎదురుగా ఉంటుంది, అలాగే సాధారణంగా పట్టుకోండి. నావిగేట్ చేయడానికి మీరు ఇప్పుడు సాధారణ TalkBack FOSS సంజ్ఞలను ఉపయోగించవచ్చు. మరిన్ని ఆప్షన్‌లను చూడటానికి కుడివైపుకి స్వైప్ చేయండి.</string>
   <string name="hold_six_fingers_announcement">%s\nమీ పరికరాన్ని టేబుల్‌పై ఫ్లాట్‌గా ఉంచండి. తర్వాత, మీరు టైప్ చేయడానికి సౌకర్యంగా ఉండే స్థానంలో రెండు చేతుల యొక్క మధ్య 3 వేళ్లతో స్క్రీన్‌ను నొక్కి, పట్టుకోండి.</string>
   <string name="hold_six_fingers_inactive_announcement">మీ పరికరాన్ని టేబుల్‌పై ఫ్లాట్‌గా ఉంచండి. తర్వాత, మీరు టైప్ చేయడానికి సౌకర్యంగా ఉండే స్థానంలో రెండు చేతుల యొక్క మధ్య 3 వేళ్లతో స్క్రీన్‌ను నొక్కి, పట్టుకోండి.</string>
   <string name="finish_tutorial_announcement">బ్రెయిలీ కీబోర్డ్ చూపబడుతోంది. స్క్రీన్ మీ నుండి దూరంగా ఉండటానికి మీ ఫోన్‌ను తిప్పి పట్టుకోండి. ఫోన్‌ను ల్యాండ్‌స్కేప్ స్థితిలోకి సమతలంగా ఉండేటట్లు తిప్పండి. అప్పుడు టైప్ చేయడం ప్రారంభించండి.</string>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="talkback_on">TalkBack je uključen</string>
-  <string name="talkback_suspended">TalkBack je suspendovan</string>
-  <string name="talkback_resumed">Korišćenje TalkBack-a je nastavljeno</string>
-  <string name="talkback_disabled">TalkBack je isključen</string>
+  <string name="talkback_on">TalkBack FOSS je uključen</string>
+  <string name="talkback_suspended">TalkBack FOSS je suspendovan</string>
+  <string name="talkback_resumed">Korišćenje TalkBack FOSS-a je nastavljeno</string>
+  <string name="talkback_disabled">TalkBack FOSS je isključen</string>
   <string name="spokenfeedback_on">Govorne povratne informacije su uključene</string>
   <string name="spokenfeedback_suspended">Govorne povratne informacije su obustavljene</string>
   <string name="spokenfeedback_resumed">Govorne povratne informacije su nastavljene</string>

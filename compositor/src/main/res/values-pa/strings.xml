@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="talkback_on">TalkBack ਚਾਲੂ</string>
-  <string name="talkback_suspended">TalkBack ਮੁਅੱਤਲ ਕੀਤਾ ਗਿਆ</string>
-  <string name="talkback_resumed">TalkBack ਮੁੜ ਚਾਲੂ ਹੋ ਗਿਆ</string>
-  <string name="talkback_disabled">TalkBack ਬੰਦ ਹੈ</string>
+  <string name="talkback_on">TalkBack FOSS ਚਾਲੂ</string>
+  <string name="talkback_suspended">TalkBack FOSS ਮੁਅੱਤਲ ਕੀਤਾ ਗਿਆ</string>
+  <string name="talkback_resumed">TalkBack FOSS ਮੁੜ ਚਾਲੂ ਹੋ ਗਿਆ</string>
+  <string name="talkback_disabled">TalkBack FOSS ਬੰਦ ਹੈ</string>
   <string name="spokenfeedback_on">ਬੋਲੀ ਪ੍ਰਤੀਕਰਮ ਚਾਲੂ ਹੈ</string>
   <string name="spokenfeedback_suspended">ਬੋਲੀ ਪ੍ਰਤੀਕਰਮ ਨੂੰ ਮੁਅੱਤਲ ਕੀਤਾ ਗਿਆ ਹੈ</string>
   <string name="spokenfeedback_resumed">ਬੋਲੀ ਪ੍ਰਤੀਕਰਮ ਨੂੰ ਮੁੜ-ਚਾਲੂ ਕੀਤਾ ਗਿਆ</string>

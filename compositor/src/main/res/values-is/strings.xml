@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="talkback_on">Kveikt á TalkBack</string>
-  <string name="talkback_suspended">Lokað fyrir TalkBack</string>
-  <string name="talkback_resumed">Haldið áfram með TalkBack</string>
-  <string name="talkback_disabled">Slökkt á TalkBack</string>
+  <string name="talkback_on">Kveikt á TalkBack FOSS</string>
+  <string name="talkback_suspended">Lokað fyrir TalkBack FOSS</string>
+  <string name="talkback_resumed">Haldið áfram með TalkBack FOSS</string>
+  <string name="talkback_disabled">Slökkt á TalkBack FOSS</string>
   <string name="spokenfeedback_on">Kveikt á raddsvörun</string>
   <string name="spokenfeedback_suspended">Lokað fyrir raddsvörun</string>
   <string name="spokenfeedback_resumed">Opnað fyrir raddsvörun</string>

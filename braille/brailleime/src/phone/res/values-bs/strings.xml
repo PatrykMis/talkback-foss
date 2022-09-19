@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="braille_ime_service_name">TalkBackova tastatura s Braillevim pismom</string>
+  <string name="braille_ime_service_name">TalkBack FOSSova tastatura s Braillevim pismom</string>
   <string name="switch_to_screen_away_announcement">Način rada s ekranom okrenutim od korisnika</string>
   <string name="switch_to_tabletop_announcement">Način rada na stolu. Postavite uređaj tako da priključak za punjenje bude lijevo. Da ažurirate položaj tačaka, držite pritisnutim sa 6 prstiju.</string>
   <string name="bring_ime_settings_page">Nijedna druga tastatura nije omogućena. Idite u postavke za tastaturu</string>
   <string name="reminder_announcement">Prevucite prema gore s 3 prsta za više opcija</string>
   <string name="braille_ime_displayed_name">tastatura s Braillevim pismom</string>
   <string name="multiple_languages_braille_ime_displayed_name">tastatura s Braillevim pismom, %s</string>
-  <string name="input_view_caption">TalkBackova tastatura s Braillevim pismom. Za pomoć posjetite g.co/help/braille</string>
+  <string name="input_view_caption">TalkBack FOSSova tastatura s Braillevim pismom. Za pomoć posjetite g.co/help/braille</string>
   <string name="perform_action_next">Naprijed</string>
   <string name="perform_action_submitting">Slanje teksta</string>
   <string name="calibration_step1_hold_left_finger_announcement">Ažuriranje položaja tačaka. Prvo ćemo snimiti tačke na lijevoj ruci. Dodirnite i držite ekran s 3 srednja prsta lijeve ruke.</string>
@@ -58,17 +58,17 @@
   <string name="done">Gotovo</string>
   <string name="not_enough_touch_points_dialog_title">Vaš uređaj ne podržava tastaturu s Braillevim pismom</string>
   <string name="not_enough_touch_points_dialog_message">Vaš uređaj ne podržava dovoljno dodirnih tačaka. Za više informacija obratite se proizvođaču uređaja.</string>
-  <string name="talkback_off_dialog_title">Uključite TalkBack za korištenje tastature s Braillevim pismom</string>
+  <string name="talkback_off_dialog_title">Uključite TalkBack FOSS za korištenje tastature s Braillevim pismom</string>
   <string name="talkback_off_dialog_positive_button">Uključi u postavkama pristupačnosti</string>
-  <string name="talkback_suspend_dialog_title">Nastavite TalkBack da koristite tastaturu s Braillevim pismom</string>
-  <string name="talkback_off_or_suspend_dialog_message">Kada je TalkBack uključen, dodirom na ekran možete unositi Brailleve simbole.</string>
+  <string name="talkback_suspend_dialog_title">Nastavite TalkBack FOSS da koristite tastaturu s Braillevim pismom</string>
+  <string name="talkback_off_or_suspend_dialog_message">Kada je TalkBack FOSS uključen, dodirom na ekran možete unositi Brailleve simbole.</string>
   <string name="next_keyboard">Sljedeća tastatura</string>
   <string name="braille_tutorial_title">Vodič za tastaturu s Braillevim pismom</string>
-  <string name="tutorial_intro_description">Kada koristite tastaturu s Braillevim pismom, dodirom ekrana možete unijeti Braillev simbol od 6 tačaka.\n\nKoristite unificirano Braillevo pismo na engleskom jeziku. Da zamijenite jezik pisanja, idite u postavke TalkBacka.\n\nDa pišete na Braillevom pismu, morate drugačije držati i koristiti telefon.</string>
+  <string name="tutorial_intro_description">Kada koristite tastaturu s Braillevim pismom, dodirom ekrana možete unijeti Braillev simbol od 6 tačaka.\n\nKoristite unificirano Braillevo pismo na engleskom jeziku. Da zamijenite jezik pisanja, idite u postavke TalkBack FOSSa.\n\nDa pišete na Braillevom pismu, morate drugačije držati i koristiti telefon.</string>
   <string name="next_step">Dalje</string>
   <string name="leave_keyboard">Zatvori tastaturu s Braillevim pismom</string>
-  <string name="hold_six_fingers_description">Na tastaturi s Braillevim pismom nećete moći koristiti uobičajene pokrete za TalkBack.\n\nDa započnete, trebate postaviti položaj 6 tačaka Braillevog pisma dok pišete.</string>
-  <string name="rotate_orientation_description_1">Od sada nećete moći koristiti obične TalkBack pokrete. TalkBack nije dostupan dok koristite tastaturu s Braillevim pismom.</string>
+  <string name="hold_six_fingers_description">Na tastaturi s Braillevim pismom nećete moći koristiti uobičajene pokrete za TalkBack FOSS.\n\nDa započnete, trebate postaviti položaj 6 tačaka Braillevog pisma dok pišete.</string>
+  <string name="rotate_orientation_description_1">Od sada nećete moći koristiti obične TalkBack FOSS pokrete. TalkBack nije dostupan dok koristite tastaturu s Braillevim pismom.</string>
   <string name="rotate_orientation_description_2">Da započnete, držite telefon ovako, s ekranom okrenutim od vas.</string>
   <string name="tap_to_continue">Da nastavite, dodirnite dvaput bilo gdje</string>
   <string name="instruction_type_letter_a">Dodirnite tačku 1 lijevim kažiprstom da upišete slovo \"A\"</string>
@@ -86,7 +86,7 @@
   <string name="result_swipe_down">KURSOR JE PREMJEŠTEN UNAPRIJED</string>
   <string name="result_swipe_down_2_fingers">SAKRIVANJE TASTATURE</string>
   <string name="result_swipe_down_3_fingers">SLJEDEĆA TASTATURA</string>
-  <string name="rotate_orientation_announcement">Od sada nećete moći koristiti obične TalkBack pokrete. TalkBack nije dostupan dok koristite tastaturu s Braillevim pismom.\n\n%1$s</string>
+  <string name="rotate_orientation_announcement">Od sada nećete moći koristiti obične TalkBack FOSS pokrete. TalkBack nije dostupan dok koristite tastaturu s Braillevim pismom.\n\n%1$s</string>
   <string name="rotate_orientation_inactive_announcement">Prvo, okrenite telefon tako da je ekran usmjeren od vas.\n\nZatim okrenite telefon u vodoravni položaj. Vaše ruke trebaju držati kraće krajeve telefona. Desnom rukom trebate držati kraj s USB priključkom. Ostavite 3 srednja prsta na ekranu i pomoću malog prsta i palca pridržavajte telefon.\n\nKada ste spremni, dodirnite ekran dvaput da nastavite.\n\nDa zatvorite tastaturu s Braillevim pismom, prevucite prema dolje s 3 prsta. Time ćete se vratiti na početnu tastaturu.</string>
   <string name="rotate_orientation_continue_announcement">Vaš telefon je u uspravnom položaju. Da nastavite, okrenite telefon horizontalno s dužom stranom na dnu. Zatim okrenite ekran od sebe. Kada ste spremni, dodirnite ekran dvaput da nastavite.</string>
   <string name="type_letter_a_announcement">Držite ekran okrenutim od vas. Držite telefon s obje ruke za njegove kraće krajeve da bi srednja 3 prsta svake ruke mogla dotaći ekran.\n\nVaš lijevi kažiprst treba biti na tački 1. Sada, dodirnite tačku 1 da upišete slovo \"A\".</string>
@@ -102,7 +102,7 @@
   <string name="swipe_down_3_fingers_announcement">Da se prebacite na drugu tastaturu, prevucite prema dolje s 3 prsta. Isprobajte sada.</string>
   <string name="swipe_down_3_fingers_completed_announcement">Sljedeća tastatura. Ovako ćete obično preći na sljedeću tastaturu. Ovaj put ostajete na tastaturi s Braillevim pismom jer još uvijek koristite vodič.</string>
   <string name="swipe_up_3_fingers_announcement">Također možete pisati u načinu rada na stolu postavljanjem telefona ravno na stol. Da zatvorite vodič, prevucite s 3 prsta i pronađite opciju za zatvaranje vodiča</string>
-  <string name="open_context_menu_announcement">Ovaj meni s opcijama je otvoren. Okrenite telefon prema sebi i držite ga normalno. Sada možete koristiti uobičajene pokrete TalkBacka za navigaciju. Prevucite udesno da vidite više opcija.</string>
+  <string name="open_context_menu_announcement">Ovaj meni s opcijama je otvoren. Okrenite telefon prema sebi i držite ga normalno. Sada možete koristiti uobičajene pokrete TalkBack FOSSa za navigaciju. Prevucite udesno da vidite više opcija.</string>
   <string name="hold_six_fingers_announcement">%s\nPostavite uređaj ravno na stol. Zatim dodirnite i držite ekran s 3 srednja prsta obje ruke u položaju koji vam odgovara za pisanje.</string>
   <string name="hold_six_fingers_inactive_announcement">Postavite uređaj ravno na stol. Zatim dodirnite i držite ekran s 3 srednja prsta obje ruke u položaju koji vam odgovara za pisanje.</string>
   <string name="finish_tutorial_announcement">Prikazuje se tastatura s Braillevim pismom. Okrenite telefon tako da ekran bude okrenut od vas. Rotirajte telefon u vodoravni položaj. Zatim počnite pisati.</string>

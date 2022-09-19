@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="talkback_on">I-TalkBack ivuliwe</string>
-  <string name="talkback_suspended">I-TalkBack imiswe okwesikhashana</string>
-  <string name="talkback_resumed">I-TalkBack iqhutshwe kabusha</string>
-  <string name="talkback_disabled">I-TalkBack ivaliwe</string>
+  <string name="talkback_on">I-TalkBack FOSS ivuliwe</string>
+  <string name="talkback_suspended">I-TalkBack FOSS imiswe okwesikhashana</string>
+  <string name="talkback_resumed">I-TalkBack FOSS iqhutshwe kabusha</string>
+  <string name="talkback_disabled">I-TalkBack FOSS ivaliwe</string>
   <string name="spokenfeedback_on">Impendulo ekhulunywayo ivuliwe</string>
   <string name="spokenfeedback_suspended">Impendulo ekhulunywayo imiswe okwesikhashana</string>
   <string name="spokenfeedback_resumed">Impendulo ekhulunywayo iqaliswe kabusha</string>

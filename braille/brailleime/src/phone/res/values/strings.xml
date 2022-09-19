@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
   <!-- User-facing name of the Soft Braille IME. [CHAR_LIMIT=50] -->
-  <string name="braille_ime_service_name">TalkBack braille keyboard</string>
+  <string name="braille_ime_service_name">TalkBack FOSS braille keyboard</string>
   <!-- Audial announcement that plays when switching to screen-away mode. [CHAR_LIMIT=140] -->
   <string name="switch_to_screen_away_announcement">Screen-away mode</string>
   <!-- Audial announcement that plays when switching to tabletop mode. [CHAR_LIMIT=200] -->
@@ -15,7 +15,7 @@
   <!-- The braille ime display name for multiple languages selected. %s is the currently using braille language name. [CHAR_LIMIT=130] -->
   <string name="multiple_languages_braille_ime_displayed_name">braille keyboard, %s</string>
   <!-- Caption to help confused people to know what the app is. [CHAR LIMIT=100] -->
-  <string name="input_view_caption">TalkBack braille keyboard - for help, visit g.co/help/braille</string>
+  <string name="input_view_caption">TalkBack FOSS braille keyboard - for help, visit g.co/help/braille</string>
   <!-- Perform enter action: move to next field. [CHAR_LIMIT=50] -->
   <string name="perform_action_next">Next</string>
   <!-- Perform enter action: submitting. [CHAR_LIMIT=50] -->
@@ -126,18 +126,18 @@
   <!-- Not enough touch points dialog: message. [CHAR_LIMIT=200] -->
   <string name="not_enough_touch_points_dialog_message">Your device doesn’t support enough touch points. For more information, contact your device manufacturer.</string>
 
-  <!-- TalkBack off dialog. -->
-  <!-- Title of TalkBack off Dialog. [CHAR_LIMIT=100] -->
-  <string name="talkback_off_dialog_title">Turn on TalkBack to use braille keyboard</string>
-  <!-- Positive button of TalkBack off dialog. [CHAR_LIMIT=100] -->
+  <!-- TalkBack FOSS off dialog. -->
+  <!-- Title of TalkBack FOSS off Dialog. [CHAR_LIMIT=100] -->
+  <string name="talkback_off_dialog_title">Turn on TalkBack FOSS to use braille keyboard</string>
+  <!-- Positive button of TalkBack FOSS off dialog. [CHAR_LIMIT=100] -->
   <string name="talkback_off_dialog_positive_button">Turn on in accessibility settings</string>
 
-  <!-- TalkBack suspend dialog. -->
-  <!-- Title of TalkBack suspend Dialog. [CHAR_LIMIT=100] -->
-  <string name="talkback_suspend_dialog_title">Resume TalkBack to use braille keyboard</string>
+  <!-- TalkBack FOSS suspend dialog. -->
+  <!-- Title of TalkBack FOSS suspend Dialog. [CHAR_LIMIT=100] -->
+  <string name="talkback_suspend_dialog_title">Resume TalkBack FOSS to use braille keyboard</string>
 
-  <!-- Message of TalkBack off/suspend dialog. [CHAR_LIMIT=200] -->
-  <string name="talkback_off_or_suspend_dialog_message">When TalkBack is on, you can tap your screen to enter braille symbols.</string>
+  <!-- Message of TalkBack FOSS off/suspend dialog. [CHAR_LIMIT=200] -->
+  <string name="talkback_off_or_suspend_dialog_message">When TalkBack FOSS is on, you can tap your screen to enter braille symbols.</string>
   <!-- Switch to next keyboard. [CHAR_LIMIT=100] -->
   <string name="next_keyboard">Next keyboard</string>
 
@@ -145,15 +145,15 @@
   <!-- Tutorial title. [CHAR_LIMIT=100] -->
   <string name="braille_tutorial_title">Braille keyboard tutorial</string>
   <!-- Tutorial intro description. [CHAR_LIMIT=500] -->
-  <string name="tutorial_intro_description">With the braille keyboard, you can tap your screen to enter 6-dot braille.\n\nYou’re using Unified English Braille. To switch your typing language, go to TalkBack settings.\n\nTo type braille, you need to hold and use your phone differently.</string>
+  <string name="tutorial_intro_description">With the braille keyboard, you can tap your screen to enter 6-dot braille.\n\nYou’re using Unified English Braille. To switch your typing language, go to TalkBack FOSS settings.\n\nTo type braille, you need to hold and use your phone differently.</string>
   <!-- Title of a tutorial button that goes forward to next step. [CHAR_LIMIT=50] -->
   <string name="next_step">Next</string>
   <!-- Title of a tutorial button. [CHAR_LIMIT=100] -->
   <string name="leave_keyboard">Leave braille keyboard</string>
   <!-- Step of hold six fingers. [CHAR_LIMIT=400] -->
-  <string name="hold_six_fingers_description">You won’t be able to use regular TalkBack gestures in the braille keyboard.\n\nTo get started, let’s set up the position of the 6 braille dots when you type.</string>
+  <string name="hold_six_fingers_description">You won’t be able to use regular TalkBack FOSS gestures in the braille keyboard.\n\nTo get started, let’s set up the position of the 6 braille dots when you type.</string>
   <!-- Step of rotating to orientation landscape. [CHAR_LIMIT=400] -->
-  <string name="rotate_orientation_description_1">Starting now, you won’t be able to use regular TalkBack gestures. TalkBack isn’t available while using the braille keyboard.</string>
+  <string name="rotate_orientation_description_1">Starting now, you won’t be able to use regular TalkBack FOSS gestures. TalkBack isn’t available while using the braille keyboard.</string>
   <!-- Step of rotating to orientation landscape. [CHAR_LIMIT=400] -->
   <string name="rotate_orientation_description_2">To start, hold your phone like this, with the screen facing away from you.</string>
   <!-- Double tap to continue tutorial. [CHAR_LIMIT=100] -->
@@ -189,7 +189,7 @@
   <!-- Action of switching to next keyboard. [CHAR_LIMIT=40] -->
   <string name="result_swipe_down_3_fingers">NEXT KEYBOARD</string>
   <!-- Audial announcement that plays when in the rotate orientation state of tutorial. %1$s is a placeholder of another long announcement (See rotate_orientation_inactive_announcement). [CHAR LIMIT=2000] -->
-  <string name="rotate_orientation_announcement">Starting now, you won’t be able to use regular TalkBack gestures. TalkBack isn’t available while using the braille keyboard.\n\n%1$s</string>
+  <string name="rotate_orientation_announcement">Starting now, you won’t be able to use regular TalkBack FOSS gestures. TalkBack isn’t available while using the braille keyboard.\n\n%1$s</string>
   <!-- Audial announcement that plays when user is inactive in the rotate orientation state of tutorial. [CHAR LIMIT=1000] -->
   <string name="rotate_orientation_inactive_announcement">First, turn your phone so the screen is facing away from you.\n\nNext, rotate the phone horizontally to landscape position. Your hands should grip the short ends of the phone. Your right hand should hold the end with the USB port. Rest your 3 middle fingers on the screen, and use your pinky and thumb to support the phone.\n\nWhen you’re ready, double tap the screen to continue.\n\nTo exit braille keyboard, swipe down toward the ground with 3 fingers. This switches back to your original keyboard.</string>
   <!-- Audial announcement that plays when in the rotate orientation continue state of tutorial. [CHAR LIMIT=1000] -->
@@ -221,7 +221,7 @@
   <!-- Audial announcement that plays when in the swipe up 3 fingers state of tutorial. [CHAR LIMIT=500] -->
   <string name="swipe_up_3_fingers_announcement">You can also type in tabletop mode by placing your phone flat on a table. To finish the tutorial, swipe up with 3 fingers, and find the finish tutorial option</string>
   <!-- Audial announcement that plays when users open the context menu. [CHAR LIMIT=1000] -->
-  <string name="open_context_menu_announcement">The options menu is open. Flip your phone back so it’s facing you and hold it normally. You can now use regular TalkBack gestures to navigate. Swipe right to see more options.</string>
+  <string name="open_context_menu_announcement">The options menu is open. Flip your phone back so it’s facing you and hold it normally. You can now use regular TalkBack FOSS gestures to navigate. Swipe right to see more options.</string>
   <!-- Audial announcement that plays when in the hold six fingers state of tutorial. [CHAR LIMIT=500] -->
   <string name="hold_six_fingers_announcement">%s\nPlace your device flat on a table. Then, touch and hold the screen with the middle 3 fingers of each hand in a position that’s comfortable for you to type.</string>
   <!-- Audial announcement that plays when user is inactive in the hold six fingers state of tutorial. [CHAR LIMIT=500] -->

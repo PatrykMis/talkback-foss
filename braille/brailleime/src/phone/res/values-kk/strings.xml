@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="braille_ime_service_name">TalkBack Брайль пернетақтасы</string>
+  <string name="braille_ime_service_name">TalkBack FOSS Брайль пернетақтасы</string>
   <string name="switch_to_screen_away_announcement">Экранды ары қарату режимі</string>
   <string name="switch_to_tabletop_announcement">Үстел үсті режимі. Құрылғыны зарядтау порты сол жақта тұратындай қойыңыз. Нүктенің орнын өзгерту үшін 6 саусақпен басып тұрыңыз.</string>
   <string name="bring_ime_settings_page">Басқа пернетақта іске қосылмады, пернатақта параметрлеріне өтіңіз.</string>
   <string name="reminder_announcement">Қосымша параметрлер үшін 3 саусақпен жоғары сырғытыңыз.</string>
   <string name="braille_ime_displayed_name">Брайль пернетақтасы</string>
   <string name="multiple_languages_braille_ime_displayed_name">Брайль пернетақтасы, %s</string>
-  <string name="input_view_caption">TalkBack Брайль пернетақтасы – анықтама алу үшін g.co/help/braille бетіне өтіңіз.</string>
+  <string name="input_view_caption">TalkBack FOSS Брайль пернетақтасы – анықтама алу үшін g.co/help/braille бетіне өтіңіз.</string>
   <string name="perform_action_next">Келесі</string>
   <string name="perform_action_submitting">Мәтін жіберу</string>
   <string name="calibration_step1_hold_left_finger_announcement">Нүктенің орнын жаңарту. Алдымен нүктелерді сол қолмен жазып көрейік. Сол қолыңыздың ортаңғы 3 саусағымен экранды басып тұрыңыз.</string>
@@ -58,17 +58,17 @@
   <string name="done">Дайын</string>
   <string name="not_enough_touch_points_dialog_title">Құрылғыңыз Брайль пернетақтасын қолдамайды.</string>
   <string name="not_enough_touch_points_dialog_message">Құрылғыңыз жеткілікті түрту орындарын қолдамайды. Қосымша ақпарат алу үшін құрылғы өндірушісіне хабарласыңыз.</string>
-  <string name="talkback_off_dialog_title">Брайль пернетақтасын пайдалану үшін TalkBack функциясын іске қосыңыз.</string>
+  <string name="talkback_off_dialog_title">Брайль пернетақтасын пайдалану үшін TalkBack FOSS функциясын іске қосыңыз.</string>
   <string name="talkback_off_dialog_positive_button">\"Арнайы мүмкіндіктер\" параметрлерін іске қосу</string>
-  <string name="talkback_suspend_dialog_title">Брайль пернетақтасын пайдалану үшін TalkBack функциясын қолдана беріңіз.</string>
-  <string name="talkback_off_or_suspend_dialog_message">TalkBack қосылған кезде, Брайль таңбаларын енгізу үшін экранды түртіңіз.</string>
+  <string name="talkback_suspend_dialog_title">Брайль пернетақтасын пайдалану үшін TalkBack FOSS функциясын қолдана беріңіз.</string>
+  <string name="talkback_off_or_suspend_dialog_message">TalkBack FOSS қосылған кезде, Брайль таңбаларын енгізу үшін экранды түртіңіз.</string>
   <string name="next_keyboard">Келесі пернетақта</string>
   <string name="braille_tutorial_title">Брайль пернетақтасы оқулығы</string>
-  <string name="tutorial_intro_description">Брайль пернетақтасының көмегімен 6 нүктелі Брайль қарпін экранды түрту арқылы енгізе аласыз.\n\nUnified English Braille пайдаланудасыз. Теру тілін ауыстыру үшін TalkBack параметрлеріне өтіңіз.\n\nБрайль қарпін теру үшін телефоныңызды басқаша ұстап, пайдалануыңыз қажет.</string>
+  <string name="tutorial_intro_description">Брайль пернетақтасының көмегімен 6 нүктелі Брайль қарпін экранды түрту арқылы енгізе аласыз.\n\nUnified English Braille пайдаланудасыз. Теру тілін ауыстыру үшін TalkBack FOSS параметрлеріне өтіңіз.\n\nБрайль қарпін теру үшін телефоныңызды басқаша ұстап, пайдалануыңыз қажет.</string>
   <string name="next_step">Келесі</string>
   <string name="leave_keyboard">Брайль пернетақтасын жабу</string>
-  <string name="hold_six_fingers_description">Брайль пернетақтасында әдетте қолданатын TalkBack қимылдарын пайдалана алмайсыз.\n\nБастау үшін теру кезінде пайдаланатын 6 Брайль нүктелерінің орнын белгілеп алайық.</string>
-  <string name="rotate_orientation_description_1">Бұдан былай кәдімгі TalkBack қимылдарын пайдалана алмайсыз. TalkBack функциясы Брайль пернетақтасын пайдалану кезінде қолжетімді болмайды.</string>
+  <string name="hold_six_fingers_description">Брайль пернетақтасында әдетте қолданатын TalkBack FOSS қимылдарын пайдалана алмайсыз.\n\nБастау үшін теру кезінде пайдаланатын 6 Брайль нүктелерінің орнын белгілеп алайық.</string>
+  <string name="rotate_orientation_description_1">Бұдан былай кәдімгі TalkBack FOSS қимылдарын пайдалана алмайсыз. TalkBack функциясы Брайль пернетақтасын пайдалану кезінде қолжетімді болмайды.</string>
   <string name="rotate_orientation_description_2">Бастау үшін телефоныңыздың экранын әрі қаратып ұстаңыз.</string>
   <string name="tap_to_continue">Жалғастыру үшін кез келген жерді екі рет түртіңіз.</string>
   <string name="instruction_type_letter_a">\"A\" әрпін теру үшін сол сұқ саусағыңызбен 1 нүктесін түртіңіз.</string>
@@ -86,7 +86,7 @@
   <string name="result_swipe_down">КУРСОР АЛҒА ЖЫЛЖЫТЫЛДЫ.</string>
   <string name="result_swipe_down_2_fingers">ПЕРНЕТАҚТАНЫ ЖАСЫРУ</string>
   <string name="result_swipe_down_3_fingers">КЕЛЕСІ ПЕРНЕТАҚТА</string>
-  <string name="rotate_orientation_announcement">Бұдан былай кәдімгі TalkBack қимылдарын пайдалана алмайсыз. TalkBack функциясы Брайль пернетақтасын пайдалану кезінде қолжетімді болмайды.\n\n%1$s</string>
+  <string name="rotate_orientation_announcement">Бұдан былай кәдімгі TalkBack FOSS қимылдарын пайдалана алмайсыз. TalkBack функциясы Брайль пернетақтасын пайдалану кезінде қолжетімді болмайды.\n\n%1$s</string>
   <string name="rotate_orientation_inactive_announcement">Алдымен телефонды қосыңыз. Оның экраны әрі қарап тұруы керек.\n\nОдан кейін телефонды көлденеңінен бұрып, альбом қалпына келтіріңіз. Саусақтарыңыз телефонның шетінде болуы керек. Оң қолыңызбен USB портының шетінен ұстаңыз. 3 саусақ экранда, ал шынашақ пен бас бармақ телефонның шетінде.\n\nДайын болған кезде, экранды екі рет түртіңіз.\n\nБрайль пернетақтасын жабу үшін 3 саусақпен төмен қарай сырғытыңыз. Бастапқы пернетақтаға ораласыз.</string>
   <string name="rotate_orientation_continue_announcement">Телефон тік қалыпта. Жалғастыру үшін оны көлденең қалыпта ұстаңыз. Одан кейін экранды әрі қаратып ұстаңыз. Дайын болған кезде, экранды екі рет түртіңіз.</string>
   <string name="type_letter_a_announcement">Экранды әрі қаратып ұстаңыз. Ортаңғы 3 саусағыңыз экранды түрте алатындай етіп, телефонның шетінен екі қолыңызбен ұстаңыз.\n\nСол жақ сұқ саусағыңыз 1-нүктеде болуы керек. \"A\" әрпін теру үшін 1-нүктені түртіңіз.</string>
@@ -102,7 +102,7 @@
   <string name="swipe_down_3_fingers_announcement">Басқа пернетақтаға ауысу үшін 3 саусақпен төмен қарай сырғытыңыз. Қазір байқап көріңіз.</string>
   <string name="swipe_down_3_fingers_completed_announcement">Келесі пернетақта. Әдетте бұл пәрмен келесі пернетақтаға ауыстырады. Ал қазір сіз оқулықты ашып отырғандықтан, Брайль пернетақтасы да ашық болады.</string>
   <string name="swipe_up_3_fingers_announcement">Телефоныңызды үстелге жатқызып қою арқылы үстел үсті режимінде тере аласыз. Оқулықты жабу үшін 3 саусақпен жоғары сырғытыңыз және оқулықты жабу опциясын таңдаңыз.</string>
-  <string name="open_context_menu_announcement">Опциялар мәзірі ашық. Телефонды аударып, өзіңізге қаратыңыз да, әдеттегідей ұстаңыз. Телефонды қолдану үшін әдеттегі TalkBack қимылдарын пайдалана беруіңізге болады. Басқа опцияларды көру үшін оңға сырғытыңыз.</string>
+  <string name="open_context_menu_announcement">Опциялар мәзірі ашық. Телефонды аударып, өзіңізге қаратыңыз да, әдеттегідей ұстаңыз. Телефонды қолдану үшін әдеттегі TalkBack FOSS қимылдарын пайдалана беруіңізге болады. Басқа опцияларды көру үшін оңға сырғытыңыз.</string>
   <string name="hold_six_fingers_announcement">%s\nҚұрылғыңызды үстелге жатқызып қойыңыз. Содан кейін теруге ыңғайлы болатындай әр қолыңыздың ортаңғы 3 саусағын экранға қойыңыз.</string>
   <string name="hold_six_fingers_inactive_announcement">Құрылғыңызды үстелге жатқызып қойыңыз. Содан кейін теруге ыңғайлы болатындай әр қолыңыздың ортаңғы 3 саусағын экранға қойыңыз.</string>
   <string name="finish_tutorial_announcement">Брайль пернетақтасын көрсету. Телефонды аударып, экранын ары қаратыңыз. Телефонды көлденеңінен ұстаңыз. Содан кейін мәтін тере беруіңізге болады.</string>

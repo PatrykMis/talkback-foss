@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="talkback_on">TalkBack በርቷል</string>
-  <string name="talkback_suspended">TalkBack ታግዷል</string>
-  <string name="talkback_resumed">TalkBack ከቆመበት ቀጥሏል</string>
-  <string name="talkback_disabled">TalkBack ጠፍቷል</string>
+  <string name="talkback_on">TalkBack FOSS በርቷል</string>
+  <string name="talkback_suspended">TalkBack FOSS ታግዷል</string>
+  <string name="talkback_resumed">TalkBack FOSS ከቆመበት ቀጥሏል</string>
+  <string name="talkback_disabled">TalkBack FOSS ጠፍቷል</string>
   <string name="spokenfeedback_on">የሚነገር ግብረመልስ በርቷል</string>
   <string name="spokenfeedback_suspended">የሚነገር ግብረመልስ ታግዷል</string>
   <string name="spokenfeedback_resumed">የሚነገር ግብረመልስ ከቆመበት ቀጥሏል</string>

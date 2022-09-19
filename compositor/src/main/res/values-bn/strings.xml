@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="talkback_on">TalkBack চালু রয়েছে</string>
-  <string name="talkback_suspended">TalkBack সাসপেন্ড করা হয়েছে</string>
-  <string name="talkback_resumed">TalkBack আবার শুরু হয়েছে</string>
+  <string name="talkback_on">TalkBack FOSS চালু রয়েছে</string>
+  <string name="talkback_suspended">TalkBack FOSS সাসপেন্ড করা হয়েছে</string>
+  <string name="talkback_resumed">TalkBack FOSS আবার শুরু হয়েছে</string>
   <string name="talkback_disabled">টকব্যাক বন্ধ</string>
   <string name="spokenfeedback_on">মুখে বলা ফিডব্যাক চালু আছে</string>
   <string name="spokenfeedback_suspended">মুখে বলা ফিডব্যাক স্থগিত করা আছে</string>

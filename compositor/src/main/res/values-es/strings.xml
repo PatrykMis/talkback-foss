@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="talkback_on">TalkBack activado</string>
-  <string name="talkback_suspended">TalkBack suspendido</string>
-  <string name="talkback_resumed">TalkBack reanudado</string>
-  <string name="talkback_disabled">TalkBack desactivado</string>
+  <string name="talkback_on">TalkBack FOSS activado</string>
+  <string name="talkback_suspended">TalkBack FOSS suspendido</string>
+  <string name="talkback_resumed">TalkBack FOSS reanudado</string>
+  <string name="talkback_disabled">TalkBack FOSS desactivado</string>
   <string name="spokenfeedback_on">Mensajes de voz activados</string>
   <string name="spokenfeedback_suspended">Mensajes de voz suspendidos</string>
   <string name="spokenfeedback_resumed">Mensajes de voz reanudados</string>

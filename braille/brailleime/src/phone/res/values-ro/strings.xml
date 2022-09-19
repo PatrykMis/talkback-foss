@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="braille_ime_service_name">Tastatură Braille TalkBack</string>
+  <string name="braille_ime_service_name">Tastatură Braille TalkBack FOSS</string>
   <string name="switch_to_screen_away_announcement">Modul ecran întors cu spatele</string>
   <string name="switch_to_tabletop_announcement">Modul pe masă. Așezați dispozitivul cu portul de încărcare spre stânga. Ca să actualizați poziția punctului, apăsați cu șase degete.</string>
   <string name="bring_ime_settings_page">Nu există altă tastatură activată; accesați setările tastaturii</string>
   <string name="reminder_announcement">Glisați în sus cu trei degete pentru mai multe opțiuni</string>
   <string name="braille_ime_displayed_name">Tastatura Braille</string>
   <string name="multiple_languages_braille_ime_displayed_name">Tastatura Braille, %s</string>
-  <string name="input_view_caption">Tastatura Braille TalkBack – pentru ajutor, accesați g.co/help/braille</string>
+  <string name="input_view_caption">Tastatura Braille TalkBack FOSS – pentru ajutor, accesați g.co/help/braille</string>
   <string name="perform_action_next">Înainte</string>
   <string name="perform_action_submitting">Se trimite textul</string>
   <string name="calibration_step1_hold_left_finger_announcement">Se actualizează poziția punctului. Mai întâi, să înregistrăm punctele de pe mâna stângă. Atingeți lung ecranul cu cele trei degete din mijloc de la mâna stângă.</string>
@@ -58,17 +58,17 @@
   <string name="done">Gata</string>
   <string name="not_enough_touch_points_dialog_title">Dispozitivul dvs. nu acceptă tastatura Braille</string>
   <string name="not_enough_touch_points_dialog_message">Dispozitivul dvs. nu acceptă destule puncte tactile. Pentru mai multe informații, contactați producătorul dispozitivului.</string>
-  <string name="talkback_off_dialog_title">Activați TalkBack ca să folosiți tastatura Braille</string>
+  <string name="talkback_off_dialog_title">Activați TalkBack FOSS ca să folosiți tastatura Braille</string>
   <string name="talkback_off_dialog_positive_button">Activați în setările de accesibilitate</string>
-  <string name="talkback_suspend_dialog_title">Reluați TalkBack ca să folosiți tastatura Braille</string>
-  <string name="talkback_off_or_suspend_dialog_message">Când TalkBack este activat, puteți atinge ecranul ca să introduceți simboluri Braille.</string>
+  <string name="talkback_suspend_dialog_title">Reluați TalkBack FOSS ca să folosiți tastatura Braille</string>
+  <string name="talkback_off_or_suspend_dialog_message">Când TalkBack FOSS este activat, puteți atinge ecranul ca să introduceți simboluri Braille.</string>
   <string name="next_keyboard">Următoarea tastatură</string>
   <string name="braille_tutorial_title">Tutorial pentru tastatura Braille</string>
-  <string name="tutorial_intro_description">Cu tastatura Braille, puteți atinge ecranul pentru a introduce caractere Braille cu șase puncte.\n\nFolosiți Unified English Braille. Ca să schimbați limba de tastare, accesați setările TalkBack.\n\nCa să tastați în Braille, trebuie să țineți și să folosiți altfel telefonul.</string>
+  <string name="tutorial_intro_description">Cu tastatura Braille, puteți atinge ecranul pentru a introduce caractere Braille cu șase puncte.\n\nFolosiți Unified English Braille. Ca să schimbați limba de tastare, accesați setările TalkBack FOSS.\n\nCa să tastați în Braille, trebuie să țineți și să folosiți altfel telefonul.</string>
   <string name="next_step">Înainte</string>
   <string name="leave_keyboard">Părăsiți tastatura Braille</string>
-  <string name="hold_six_fingers_description">Nu veți putea folosi gesturi TalkBack obișnuite cu tastatura Braille.\n\nPentru început, să configurăm poziția celor șase puncte Braille când tastați.</string>
-  <string name="rotate_orientation_description_1">Începând de acum, nu veți mai putea folosi gesturi TalkBack obișnuite. TalkBack nu este disponibil în timp ce folosiți tastatura Braille.</string>
+  <string name="hold_six_fingers_description">Nu veți putea folosi gesturi TalkBack FOSS obișnuite cu tastatura Braille.\n\nPentru început, să configurăm poziția celor șase puncte Braille când tastați.</string>
+  <string name="rotate_orientation_description_1">Începând de acum, nu veți mai putea folosi gesturi TalkBack FOSS obișnuite. TalkBack nu este disponibil în timp ce folosiți tastatura Braille.</string>
   <string name="rotate_orientation_description_2">Pentru început, țineți telefonul așa, cu ecranul în direcția opusă dvs.</string>
   <string name="tap_to_continue">Atingeți de două ori oriunde ca să continuați</string>
   <string name="instruction_type_letter_a">Atingeți punctul 1 cu arătătorul stâng ca să introduceți litera „A”</string>
@@ -86,7 +86,7 @@
   <string name="result_swipe_down">AȚI MUTAT CURSORUL ÎNAINTE</string>
   <string name="result_swipe_down_2_fingers">ASCUNDEȚI TASTATURA</string>
   <string name="result_swipe_down_3_fingers">URMĂTOAREA TASTATURĂ</string>
-  <string name="rotate_orientation_announcement">Începând de acum, nu veți mai putea folosi gesturi TalkBack obișnuite. TalkBack nu este disponibil în timp ce folosiți tastatura Braille.\n\n%1$s</string>
+  <string name="rotate_orientation_announcement">Începând de acum, nu veți mai putea folosi gesturi TalkBack FOSS obișnuite. TalkBack nu este disponibil în timp ce folosiți tastatura Braille.\n\n%1$s</string>
   <string name="rotate_orientation_inactive_announcement">În primul rând, țineți telefonul cu ecranul în direcția opusă dvs.\n\nApoi rotiți-l orizontal, în poziția peisaj. Mâinile dvs. trebuie să țină laturile scurte ale telefonului. Trebuie să țineți capătul cu portul USB cu mâna dreaptă. Țineți cele trei degete din mijloc pe ecran și folosiți degetul mic și cel mare pentru a ține telefonul.\n\nCând sunteți gata, atingeți de două ori ecranul pentru a continua.\n\nCa să ieșiți din tastatura Braille, glisați în jos spre podea cu trei degete. Astfel, comutați înapoi la tastatura inițială.</string>
   <string name="rotate_orientation_continue_announcement">Telefonul dvs. este în poziție verticală. Ca să continuați, rotiți-l orizontal, astfel încât latura lungă să fie în partea de jos. Întoarceți ecranul în direcția opusă dvs. Când sunteți gata, atingeți de două ori ecranul pentru a continua.</string>
   <string name="type_letter_a_announcement">Țineți ecranul în direcția opusă dvs. Țineți ecranul cu ambele mâini, de laturile scurte ale telefonului, astfel încât să puteți atinge ecranul cu cele trei degete din mijloc.\n\nArătătorul stâng trebuie să fie pe punctul 1. Atingeți punctul 1 ca să introduceți litera „A”.</string>
@@ -102,7 +102,7 @@
   <string name="swipe_down_3_fingers_announcement">Ca să treceți la cealaltă tastatură, glisați în jos cu trei degete. Încercați acum.</string>
   <string name="swipe_down_3_fingers_completed_announcement">Următoarea tastatură. De obicei, acest lucru va trece la următoarea tastatură. De data aceasta, rămâneți în tastatura Braille, deoarece sunteți încă în tutorial.</string>
   <string name="swipe_up_3_fingers_announcement">Puteți tasta în modul Pe masă și dacă așezați telefonul pe o masă. Ca să terminați tutorialul, glisați în sus cu trei degete și găsiți opțiunea de terminare a tutorialului</string>
-  <string name="open_context_menu_announcement">Meniul de opțiuni este deschis. Întoarceți telefonul cu fața spre dvs. și țineți-l normal. Acum puteți folosi gesturi TalkBack obișnuite pentru a naviga. Glisați spre dreapta pentru a vedea mai multe opțiuni.</string>
+  <string name="open_context_menu_announcement">Meniul de opțiuni este deschis. Întoarceți telefonul cu fața spre dvs. și țineți-l normal. Acum puteți folosi gesturi TalkBack FOSS obișnuite pentru a naviga. Glisați spre dreapta pentru a vedea mai multe opțiuni.</string>
   <string name="hold_six_fingers_announcement">%s\nAșezați dispozitivul pe o masă. Apoi atingeți lung ecranul cu cele trei degete din mijloc ale fiecărei mâini, într-o poziție comodă pentru tastat.</string>
   <string name="hold_six_fingers_inactive_announcement">Așezați dispozitivul pe o masă. Apoi atingeți lung ecranul cu cele trei degete din mijloc ale fiecărei mâini, într-o poziție comodă pentru tastat.</string>
   <string name="finish_tutorial_announcement">Se afișează tastatura Braille. Întoarceți telefonul astfel încât ecranul să fie în direcția opusă dvs. Rotiți telefonul pe orizontală în poziția peisaj. Apoi începeți să tastați.</string>

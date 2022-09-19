@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="braille_ime_service_name">Брайлівська клавіатура TalkBack</string>
+  <string name="braille_ime_service_name">Брайлівська клавіатура TalkBack FOSS</string>
   <string name="switch_to_screen_away_announcement">Режим \"Екран від себе\"</string>
   <string name="switch_to_tabletop_announcement">Настільний режим. Поверніть пристрій зарядним портом ліворуч. Щоб оновити положення крапок, утримуйте екран шістьма пальцями.</string>
   <string name="bring_ime_settings_page">Інших клавіатур не ввімкнено, буде відкрито налаштування клавіатури.</string>
   <string name="reminder_announcement">Проведіть трьома пальцями вгору, щоб відкрити інші параметри</string>
   <string name="braille_ime_displayed_name">брайлівська клавіатура</string>
   <string name="multiple_languages_braille_ime_displayed_name">брайлівська клавіатура, %s</string>
-  <string name="input_view_caption">Брайлівська клавіатура TalkBack. Щоб дізнатися більше, відвідайте сторінку g.co/help/braille</string>
+  <string name="input_view_caption">Брайлівська клавіатура TalkBack FOSS. Щоб дізнатися більше, відвідайте сторінку g.co/help/braille</string>
   <string name="perform_action_next">Далі</string>
   <string name="perform_action_submitting">Надсилання тексту</string>
   <string name="calibration_step1_hold_left_finger_announcement">Оновлюється положення крапок. Спершу запишімо крапки ліворуч. Натисніть і втримуйте екран безіменним, середнім та вказівним пальцями лівої руки.</string>
@@ -58,17 +58,17 @@
   <string name="done">Готово</string>
   <string name="not_enough_touch_points_dialog_title">Ваш пристрій не підтримує брайлівську клавіатуру</string>
   <string name="not_enough_touch_points_dialog_message">Ваш пристрій підтримує недостатню кількість точок взаємодії. Щоб дізнатися більше, зв\'яжіться з виробником вашого пристрою.</string>
-  <string name="talkback_off_dialog_title">Увімкніть TalkBack, щоб використовувати брайлівську клавіатуру</string>
+  <string name="talkback_off_dialog_title">Увімкніть TalkBack FOSS, щоб використовувати брайлівську клавіатуру</string>
   <string name="talkback_off_dialog_positive_button">Увімкнути в налаштуваннях спеціальних можливостей</string>
-  <string name="talkback_suspend_dialog_title">Активувати TalkBack для використання брайлівської клавіатури</string>
-  <string name="talkback_off_or_suspend_dialog_message">Коли ввімкнено TalkBack, можна вводити брайлівські символи, торкаючись екрана.</string>
+  <string name="talkback_suspend_dialog_title">Активувати TalkBack FOSS для використання брайлівської клавіатури</string>
+  <string name="talkback_off_or_suspend_dialog_message">Коли ввімкнено TalkBack FOSS, можна вводити брайлівські символи, торкаючись екрана.</string>
   <string name="next_keyboard">Наступна клавіатура</string>
   <string name="braille_tutorial_title">Навчальний посібник до брайлівської клавіатури</string>
-  <string name="tutorial_intro_description">Коли ввімкнено брайлівську розкладку клавіатури, ви можете вводити шестикрапкові брайлівські символи, торкаючись екрана.\n\nЗараз використовується уніфікований англійський шрифт Брайля. Щоб змінити мову введення, перейдіть у налаштування TalkBack.\n\nЩоб вводити брайлівські символи, потрібно тримати й використовувати телефон по-іншому.</string>
+  <string name="tutorial_intro_description">Коли ввімкнено брайлівську розкладку клавіатури, ви можете вводити шестикрапкові брайлівські символи, торкаючись екрана.\n\nЗараз використовується уніфікований англійський шрифт Брайля. Щоб змінити мову введення, перейдіть у налаштування TalkBack FOSS.\n\nЩоб вводити брайлівські символи, потрібно тримати й використовувати телефон по-іншому.</string>
   <string name="next_step">Далі</string>
   <string name="leave_keyboard">Закрити брайлівську клавіатуру</string>
-  <string name="hold_six_fingers_description">Ви не зможете використовувати звичайні жести TalkBack із брайлівською клавіатурою.\n\nЩоб почати, налаштуємо положення шести брайлівських крапок для введення.</string>
-  <string name="rotate_orientation_description_1">Ви більше не зможете використовувати звичайні жести TalkBack. Функція TalkBack недоступна, коли використовується брайлівська клавіатура.</string>
+  <string name="hold_six_fingers_description">Ви не зможете використовувати звичайні жести TalkBack FOSS із брайлівською клавіатурою.\n\nЩоб почати, налаштуємо положення шести брайлівських крапок для введення.</string>
+  <string name="rotate_orientation_description_1">Ви більше не зможете використовувати звичайні жести TalkBack FOSS. Функція TalkBack недоступна, коли використовується брайлівська клавіатура.</string>
   <string name="rotate_orientation_description_2">Щоб розпочати, тримайте телефон екраном від себе.</string>
   <string name="tap_to_continue">Двічі торкніться екрана, щоб продовжити</string>
   <string name="instruction_type_letter_a">Натисніть крапку 1 лівим вказівним пальцем, щоб ввести букву \"A\"</string>
@@ -86,7 +86,7 @@
   <string name="result_swipe_down">КУРСОР ПЕРЕМІЩЕНО ВПЕРЕД</string>
   <string name="result_swipe_down_2_fingers">СХОВАТИ КЛАВІАТУРУ</string>
   <string name="result_swipe_down_3_fingers">НАСТУПНА КЛАВІАТУРА</string>
-  <string name="rotate_orientation_announcement">Ви більше не зможете використовувати звичайні жести TalkBack. Функція TalkBack недоступна, коли використовується брайлівська клавіатура.\n\n%1$s</string>
+  <string name="rotate_orientation_announcement">Ви більше не зможете використовувати звичайні жести TalkBack FOSS. Функція TalkBack недоступна, коли використовується брайлівська клавіатура.\n\n%1$s</string>
   <string name="rotate_orientation_inactive_announcement">Щоб розпочати, візьміть телефон екраном від себе.\n\nТепер поверніть його в горизонтальне положення та візьміть за коротші сторони корпусу. Сторона з USB-портом має бути в правій руці. Покладіть вказівний, середній і безіменний пальці кожної руки на екран. Підтримуйте телефон мізинцями й великими пальцями.\n\nКоли будете готові, двічі торкніться екрана, щоб продовжити.\n\nЩоб закрити брайлівську клавіатуру, проведіть трьома пальцями вниз. Ви перейдете до звичайної клавіатури.</string>
   <string name="rotate_orientation_continue_announcement">Ваш телефон у вертикальному положенні. Поверніть його в горизонтальне положення, довшим ребром донизу. Потім поверніть телефон екраном від себе. Коли будете готові, двічі торкніться екрана, щоб продовжити.</string>
   <string name="type_letter_a_announcement">Поверніть екран від себе. Тримайте телефон обома руками за торці, щоб вказівний, середній і безіменний пальці кожної руки могли торкатися екрана.\n\nЛівий вказівний палець має лежати на крапці 1. Тепер натисніть крапку 1, щоб ввести букву \"A\"</string>
@@ -102,7 +102,7 @@
   <string name="swipe_down_3_fingers_announcement">Щоб перейти до іншої клавіатури, проведіть трьома пальцями вниз. Спробуйте зараз.</string>
   <string name="swipe_down_3_fingers_completed_announcement">Наступна клавіатура. Зазвичай ця команда вмикає наступну клавіатуру, але зараз брайлівська клавіатура залишиться відкритою, оскільки ви ще не завершили навчання.</string>
   <string name="swipe_up_3_fingers_announcement">Ви також можете вводити текст у настільному режимі, поклавши телефон на стіл. Щоб завершити навчання, проведіть трьома пальцями вгору та знайдіть відповідний варіант</string>
-  <string name="open_context_menu_announcement">Відкрито меню параметрів. Переверніть телефон екраном до себе й тримайте його як зазвичай. Тепер ви можете використовувати звичайні жести TalkBack для навігації. Проведіть пальцем праворуч, щоб переглянути інші варіанти.</string>
+  <string name="open_context_menu_announcement">Відкрито меню параметрів. Переверніть телефон екраном до себе й тримайте його як зазвичай. Тепер ви можете використовувати звичайні жести TalkBack FOSS для навігації. Проведіть пальцем праворуч, щоб переглянути інші варіанти.</string>
   <string name="hold_six_fingers_announcement">%s\nПокладіть пристрій на стіл. Натисніть і втримуйте екран безіменним, середнім та вказівним пальцями кожної руки в тому положенні, у якому вам зручно вводити текст.</string>
   <string name="hold_six_fingers_inactive_announcement">Покладіть пристрій на стіл. Натисніть і втримуйте екран безіменним, середнім та вказівним пальцями кожної руки в тому положенні, у якому вам зручно вводити текст.</string>
   <string name="finish_tutorial_announcement">Показ брайлівської клавіатури. Тримайте телефон екраном від себе. Потім поверніть його горизонтально. Почніть вводити текст.</string>

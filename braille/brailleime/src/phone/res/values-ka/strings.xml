@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="braille_ime_service_name">TalkBack ბრაილის კლავიატურა</string>
+  <string name="braille_ime_service_name">TalkBack FOSS ბრაილის კლავიატურა</string>
   <string name="switch_to_screen_away_announcement">მიბრუნებული ეკრანის რეჟიმი</string>
   <string name="switch_to_tabletop_announcement">მაგიდის რეჟიმი. დადეთ თქვენი მოწყობილობა დასატენი პორტით მარცხნივ. წერტილის მდებარეობის გასაახლებლად, დააჭირეთ 6 თითით.</string>
   <string name="bring_ime_settings_page">სხვა კლავიატურა არ არის ჩართული, გადადით კლავიატურის პარამეტრებზე</string>
   <string name="reminder_announcement">მეტი ვარიანტის სანახავად გადაფურცლეთ ზემოთ 3 თითით</string>
   <string name="braille_ime_displayed_name">ბრაილის კლავიატურა</string>
   <string name="multiple_languages_braille_ime_displayed_name">ბრაილის კლავიატურა, %s</string>
-  <string name="input_view_caption">TalkBack ბრაილის კლავიატურა — დახმარებისთვის მოინახულეთ g.co/help/braille</string>
+  <string name="input_view_caption">TalkBack FOSS ბრაილის კლავიატურა — დახმარებისთვის მოინახულეთ g.co/help/braille</string>
   <string name="perform_action_next">შემდეგ</string>
   <string name="perform_action_submitting">მიმდინარეობს ტექსტის გაგზავნა</string>
   <string name="calibration_step1_hold_left_finger_announcement">მიმდინარეობს წერტილის მდებარეობის განახლება. თავდაპირველად, ჩავიწეროთ წერტილები თქვენი მარცხენა ხელით. ხანგრძლივად შეეხეთ ეკრანს თქვენი მარცხენა ხელის შუა 3 თითით.</string>
@@ -58,17 +58,17 @@
   <string name="done">მზადაა</string>
   <string name="not_enough_touch_points_dialog_title">თქვენს მოწყობილობას არ აქვს ბრაილის კლავიატურის მხარდაჭერა</string>
   <string name="not_enough_touch_points_dialog_message">თქვენს მოწყობილობას არ აქვს საკმარისი შეხების წერტილების მხარდაჭერა. მეტი ინფორმაციისთვის დაუკავშირდით თქვენი მოწყობილობის მწარმოებელს.</string>
-  <string name="talkback_off_dialog_title">TalkBack-ის ჩართვა ბრაილის კლავიატურის გამოსაყენებლად</string>
+  <string name="talkback_off_dialog_title">TalkBack FOSS-ის ჩართვა ბრაილის კლავიატურის გამოსაყენებლად</string>
   <string name="talkback_off_dialog_positive_button">ჩართვა მარტივი წვდომის პარამეტრებიდან</string>
-  <string name="talkback_suspend_dialog_title">TalkBack-ის განახლება ბრაილის კლავიატურის გამოსაყენებლად</string>
-  <string name="talkback_off_or_suspend_dialog_message">როდესაც TalkBack ჩართულია, შეგიძლიათ, შეეხოთ ეკრანს ბრაილის სიმბოლოების შესაყვანად.</string>
+  <string name="talkback_suspend_dialog_title">TalkBack FOSS-ის განახლება ბრაილის კლავიატურის გამოსაყენებლად</string>
+  <string name="talkback_off_or_suspend_dialog_message">როდესაც TalkBack FOSS ჩართულია, შეგიძლიათ, შეეხოთ ეკრანს ბრაილის სიმბოლოების შესაყვანად.</string>
   <string name="next_keyboard">შემდეგი კლავიატურა</string>
   <string name="braille_tutorial_title">ბრაილის კლავიატურის სახელმძღვანელო</string>
-  <string name="tutorial_intro_description">ბრაილის კლავიატურის მეშვეობით, შეგიძლიათ, შეეხოთ ეკრანს 6-წერტილიანი ბრაილის შესაყვანად.\n\nთქვენ ერთიანი ინგლისური ბრაილით სარგებლობთ. აკრეფის ენის გადასართავად გადადით TalkBack-ის პარამეტრებზე.\n\nბრაილით ასაკრეფად ტელეფონის დაჭერა და გამოყენება სხვაგვარად მოგიწევთ.</string>
+  <string name="tutorial_intro_description">ბრაილის კლავიატურის მეშვეობით, შეგიძლიათ, შეეხოთ ეკრანს 6-წერტილიანი ბრაილის შესაყვანად.\n\nთქვენ ერთიანი ინგლისური ბრაილით სარგებლობთ. აკრეფის ენის გადასართავად გადადით TalkBack FOSS-ის პარამეტრებზე.\n\nბრაილით ასაკრეფად ტელეფონის დაჭერა და გამოყენება სხვაგვარად მოგიწევთ.</string>
   <string name="next_step">შემდეგი</string>
   <string name="leave_keyboard">ბრაილის კლავიატურის დატოვება</string>
-  <string name="hold_six_fingers_description">თქვენ ვერ შეძლებთ TalkBack-ის ჩვეულებრივი ჟესტების გამოყენებას ბრაილის კლავიატურაზე.\n\nდასაწყებად, მოდით, განვსაზღვროთ ბრაილის 6 წერტილის მდებარეობა.</string>
-  <string name="rotate_orientation_description_1">ამიერიდან TalkBack-ის ჩვეულებრივ ჟესტებს ვეღარ გამოიყენებთ. TalkBack მიუწვდომელია ბრაილის კლავიატურის გამოყენების განმავლობაში.</string>
+  <string name="hold_six_fingers_description">თქვენ ვერ შეძლებთ TalkBack FOSS-ის ჩვეულებრივი ჟესტების გამოყენებას ბრაილის კლავიატურაზე.\n\nდასაწყებად, მოდით, განვსაზღვროთ ბრაილის 6 წერტილის მდებარეობა.</string>
+  <string name="rotate_orientation_description_1">ამიერიდან TalkBack FOSS-ის ჩვეულებრივ ჟესტებს ვეღარ გამოიყენებთ. TalkBack მიუწვდომელია ბრაილის კლავიატურის გამოყენების განმავლობაში.</string>
   <string name="rotate_orientation_description_2">დასაწყებად ტელეფონი დაიჭირეთ ასე, თქვენგან მიმართული ეკრანით.</string>
   <string name="tap_to_continue">გასაგრძელებლად ორმაგად შეეხეთ სადმე</string>
   <string name="instruction_type_letter_a">„ა“ ასოს დასაწერად შეეხეთ წერტილ 1-ს მარცხენა საჩვენებელი თითით</string>
@@ -86,7 +86,7 @@
   <string name="result_swipe_down">კურსორი გადაწეულია წინ</string>
   <string name="result_swipe_down_2_fingers">კლავიატურის დამალვა</string>
   <string name="result_swipe_down_3_fingers">შემდეგი კლავიატურა</string>
-  <string name="rotate_orientation_announcement">ამიერიდან TalkBack-ის ჩვეულებრივ ჟესტებს ვეღარ გამოიყენებთ. TalkBack მიუწვდომელია ბრაილის კლავიატურის გამოყენების განმავლობაში.\n\n%1$s</string>
+  <string name="rotate_orientation_announcement">ამიერიდან TalkBack FOSS-ის ჩვეულებრივ ჟესტებს ვეღარ გამოიყენებთ. TalkBack მიუწვდომელია ბრაილის კლავიატურის გამოყენების განმავლობაში.\n\n%1$s</string>
   <string name="rotate_orientation_inactive_announcement">თავდაპირველად, შეაბრუნეთ ტელეფონი ისე, რომ ეკრანი თქვენგან იყოს მიმართული.\n\nშემდეგ შეატრიალეთ ტელეფონი ჰორიზონტალურად, ლანდშაფტის პოზიციაზე. ხელებით ტელეფონის მოკლე კიდეები უნდა გეჭიროთ. მარჯვენა ხელით უნდა გეჭიროთ იმ ბოლო, რომელზეც USB პორტია მოთავსებული. დაადეთ 3 შუა თითი ეკრანს, ხოლო ნეკი და ცერი ტელეფონის საყრდენად გამოიყენეთ.\n\nროდესაც მზად იქნებით, ორმაგად შეეხეთ ეკრანს გასაგრძელებლად.\n\nბრაილის კლავიატურიდან გასასვლელად გადაფურცლეთ ქვემოთ, მიწისკენ, 3 თითით. ეს საწყის კლავიატურაზე დაგაბრუნებთ.</string>
   <string name="rotate_orientation_continue_announcement">თქვენი ტელეფონი ვერტიკალურ პოზიციაშია. გასაგრძელებლად შეატრიალეთ ტელეფონი ჰორიზონტალურად, ისე, რომ გრძელი მხარე ქვემოთ იყოს. შემდეგ შეაბრუნეთ ეკრანი თქვენგან შორს. როდესაც მზად იქნებით, ორმაგად შეეხეთ ეკრანს გასაგრძელებლად.</string>
   <string name="type_letter_a_announcement">ეკრანი თქვენგან მიმართულ მდგომარეობაში გეჭიროთ. გეჭიროთ ტელეფონი ორივე ხელით, ტელეფონის მოკლე კიდეებზე, ისე, რომ თითოეული ხელის 3 შუა თითი ეკრანს ეხებოდეს.\n\nმარცხენა საჩვენებელი თითი წერტილ 1-ზე უნდა იყოს. ახლა შეეხეთ წერტილ 1-ს „ა“ ასოს დასაწერად.</string>
@@ -102,7 +102,7 @@
   <string name="swipe_down_3_fingers_announcement">თქვენს სხვა კლავიატურაზე გადასართავად გადაფურცლეთ ქვემოთ 3 თითით. ცადეთ ახლავე.</string>
   <string name="swipe_down_3_fingers_completed_announcement">შემდეგი კლავიატურა. ჩვეულებრივ, ეს შემდეგ კლავიატურაზე გადართავს. ამჯერად ბრაილის კლავიატურაში დარჩებით, რადგან თქვენ ჯერ კიდევ სახელმძღვანელოში ხართ.</string>
   <string name="swipe_up_3_fingers_announcement">თქვენ ასევე შეგიძლიათ აკრიფოთ სამაგიდო რეჟიმის გამოყენებით, ტელეფონის მაგიდაზე ბრტყლად დადებით. სახელმძღვანელოს დასასრულებლად, გადაფურცლეთ 3 თითის გამოყენებით და იპოვეთ სახელმძღვანელოს დასრულების ვარიანტი</string>
-  <string name="open_context_menu_announcement">ვარიანტების მენიუ გახსნილია. ამოაბრუნეთ ტელეფონი ისე, რომ თქვენ გიყურებდეთ და დაიჭირეთ ჩვეულებრივ. ახლა შეგიძლიათ, ნავიგაციისთვის TalkBack-ის ჩვეულებრივი ჟესტები გამოიყენოთ. გადაფურცლეთ მარჯვნივ მეტი ვარიანტის სანახავად.</string>
+  <string name="open_context_menu_announcement">ვარიანტების მენიუ გახსნილია. ამოაბრუნეთ ტელეფონი ისე, რომ თქვენ გიყურებდეთ და დაიჭირეთ ჩვეულებრივ. ახლა შეგიძლიათ, ნავიგაციისთვის TalkBack FOSS-ის ჩვეულებრივი ჟესტები გამოიყენოთ. გადაფურცლეთ მარჯვნივ მეტი ვარიანტის სანახავად.</string>
   <string name="hold_six_fingers_announcement">%s\nმოათავსეთ თქვენი მოწყობილობა ბრტყლად მაგიდაზე. შემდეგ კი ხანგრძლივად შეეხეთ ეკრანს ორივე ხელის შუა 3 თითით, თქვენთვის ასაკრეფად კომფორტულ პოზიციაში.</string>
   <string name="hold_six_fingers_inactive_announcement">მოათავსეთ თქვენი მოწყობილობა ბრტყლად მაგიდაზე. შემდეგ კი ხანგრძლივად შეეხეთ ეკრანს ორივე ხელის შუა 3 თითით, თქვენთვის ასაკრეფად კომფორტულ პოზიციაში.</string>
   <string name="finish_tutorial_announcement">ნაჩვენებია ბრაილის კლავიატურა. შეაბრუნეთ ტელეფონი ისე, რომ ეკრანი თქვენგან იყოს მიმართული. შეატრიალეთ ტელეფონი ჰორიზონტალურად და დაიჭირეთ ლანდშაფტის პოზიციაში. ამის შემდეგ დაიწყეთ აკრეფა.</string>

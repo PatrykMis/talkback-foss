@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="braille_ime_service_name">Teclado em braille do TalkBack</string>
+  <string name="braille_ime_service_name">Teclado em braille do TalkBack FOSS</string>
   <string name="switch_to_screen_away_announcement">Modo tela de costas</string>
   <string name="switch_to_tabletop_announcement">Modo de mesa Coloque o dispositivo com a porta de carregamento para a esquerda. Para atualizar a posição dos pontos, pressione com seis dedos.</string>
   <string name="bring_ime_settings_page">Não há outro teclado ativado. Acesse as configurações de teclado</string>
   <string name="reminder_announcement">Para mais opções, deslize com três dedos para cima</string>
   <string name="braille_ime_displayed_name">teclado em braille</string>
   <string name="multiple_languages_braille_ime_displayed_name">teclado em braille, %s</string>
-  <string name="input_view_caption">Teclado em braille do TalkBack: para receber ajuda, acesse g.co/help/braille</string>
+  <string name="input_view_caption">Teclado em braille do TalkBack FOSS: para receber ajuda, acesse g.co/help/braille</string>
   <string name="perform_action_next">Próxima</string>
   <string name="perform_action_submitting">Enviando texto</string>
   <string name="calibration_step1_hold_left_finger_announcement">Atualizando posição dos pontos. Primeiro, vamos gravar os pontos da sua mão esquerda. Toque na tela com os três dedos do meio da mão esquerda e a mantenha pressionada.</string>
@@ -58,17 +58,17 @@
   <string name="done">Concluído</string>
   <string name="not_enough_touch_points_dialog_title">Seu dispositivo não é compatível com o teclado em braille</string>
   <string name="not_enough_touch_points_dialog_message">Seu dispositivo não é compatível com um número suficiente de pontos de toque. Para mais informações, entre em contato com o fabricante do dispositivo.</string>
-  <string name="talkback_off_dialog_title">Ative o TalkBack para usar o teclado em braille</string>
+  <string name="talkback_off_dialog_title">Ative o TalkBack FOSS para usar o teclado em braille</string>
   <string name="talkback_off_dialog_positive_button">Ative-o nas configurações de acessibilidade</string>
-  <string name="talkback_suspend_dialog_title">Retomar o TalkBack para usar o teclado em braille</string>
-  <string name="talkback_off_or_suspend_dialog_message">Quando o TalkBack estiver ativado, toque na tela para inserir símbolos em braille.</string>
+  <string name="talkback_suspend_dialog_title">Retomar o TalkBack FOSS para usar o teclado em braille</string>
+  <string name="talkback_off_or_suspend_dialog_message">Quando o TalkBack FOSS estiver ativado, toque na tela para inserir símbolos em braille.</string>
   <string name="next_keyboard">Próximo teclado</string>
   <string name="braille_tutorial_title">Tutorial do teclado em braille</string>
-  <string name="tutorial_intro_description">Com o teclado em braille, você pode tocar na tela para escrever em seis pontos.\n\nVocê está usando o Unified English Braille. Para mudar o idioma de digitação, acesse as configurações do TalkBack.\n\nPara digitar em braille, é necessário segurar e usar o smartphone de uma maneira diferente.</string>
+  <string name="tutorial_intro_description">Com o teclado em braille, você pode tocar na tela para escrever em seis pontos.\n\nVocê está usando o Unified English Braille. Para mudar o idioma de digitação, acesse as configurações do TalkBack FOSS.\n\nPara digitar em braille, é necessário segurar e usar o smartphone de uma maneira diferente.</string>
   <string name="next_step">Próxima</string>
   <string name="leave_keyboard">Sair do teclado em braille</string>
-  <string name="hold_six_fingers_description">Não é possível usar gestos normais do TalkBack no teclado em braille.\n\nPara começar, vamos configurar a posição dos seis pontos em braille na digitação.</string>
-  <string name="rotate_orientation_description_1">A partir de agora, não será possível usar os gestos normais do TalkBack. O TalkBack não está disponível durante o uso do teclado em braille.</string>
+  <string name="hold_six_fingers_description">Não é possível usar gestos normais do TalkBack FOSS no teclado em braille.\n\nPara começar, vamos configurar a posição dos seis pontos em braille na digitação.</string>
+  <string name="rotate_orientation_description_1">A partir de agora, não será possível usar os gestos normais do TalkBack FOSS. O TalkBack não está disponível durante o uso do teclado em braille.</string>
   <string name="rotate_orientation_description_2">Para começar, segure o smartphone desta forma, com a tela voltada para o lado oposto a você.</string>
   <string name="tap_to_continue">Toque duas vezes em qualquer lugar para continuar</string>
   <string name="instruction_type_letter_a">Toque no ponto 1 com o indicador esquerdo para digitar a letra \"A\"</string>
@@ -86,7 +86,7 @@
   <string name="result_swipe_down">CURSOR MOVIDO PARA FRENTE</string>
   <string name="result_swipe_down_2_fingers">OCULTAR TECLADO</string>
   <string name="result_swipe_down_3_fingers">PRÓXIMO TECLADO</string>
-  <string name="rotate_orientation_announcement">A partir de agora, não será possível usar os gestos normais do TalkBack. Esse recurso não está disponível durante o uso do teclado em braille.\n\n%1$s</string>
+  <string name="rotate_orientation_announcement">A partir de agora, não será possível usar os gestos normais do TalkBack FOSS. Esse recurso não está disponível durante o uso do teclado em braille.\n\n%1$s</string>
   <string name="rotate_orientation_inactive_announcement">Primeiro, vire a tela do smartphone para o lado oposto a você.\n\nEm seguida, gire o dispositivo horizontalmente para a posição paisagem. Suas mãos precisam estar segurando as extremidades menores do smartphone. Segure a extremidade da porta USB com a mão direita. Coloque os três dedos do meio na tela e use o dedo mínimo e o polegar para segurar o dispositivo.\n\nQuando estiver tudo pronto, toque duas vezes na tela para continuar.\n\nSe quiser sair do teclado em braille, deslize para baixo em direção ao chão com três dedos. Isso trará o teclado original de volta.</string>
   <string name="rotate_orientation_continue_announcement">O smartphone está na posição vertical. Para continuar, gire-o horizontalmente para que a extremidade maior fique para baixo. Em seguida, vire a tela para o lado oposto a você. Quando estiver tudo pronto, toque na tela duas vezes para continuar.</string>
   <string name="type_letter_a_announcement">Mantenha a tela virada para o lado oposto a você. Segure o smartphone com as duas mãos pelas extremidades menores de forma que os três dedos do meio de cada mão toquem na tela.\n\nSeu indicador esquerdo estará no ponto 1. Agora, toque no ponto 1 para digitar a letra \"A\".</string>
@@ -102,7 +102,7 @@
   <string name="swipe_down_3_fingers_announcement">Para alternar para outro teclado, deslize para baixo com três dedos. Faça um teste.</string>
   <string name="swipe_down_3_fingers_completed_announcement">Próximo teclado. Normalmente, isso alterna para o próximo teclado. Desta vez, vamos continuar no teclado em braille porque você ainda está fazendo o tutorial.</string>
   <string name="swipe_up_3_fingers_announcement">Também é possível digitar no modo de mesa colocando o smartphone com a tela para cima em uma mesa. Para sair do tutorial, deslize para cima com três dedos e procure a opção \"Concluir o tutorial\"</string>
-  <string name="open_context_menu_announcement">O menu \"opções\" está aberto. Vire a tela para você e segure o smartphone normalmente. Agora, você pode usar os gestos normais do TalkBack para navegar. Deslize para a direita para ver mais opções.</string>
+  <string name="open_context_menu_announcement">O menu \"opções\" está aberto. Vire a tela para você e segure o smartphone normalmente. Agora, você pode usar os gestos normais do TalkBack FOSS para navegar. Deslize para a direita para ver mais opções.</string>
   <string name="hold_six_fingers_announcement">%s\nColoque o dispositivo com a tela para cima em uma mesa. Em seguida, em uma posição que seja confortável para digitar, toque na tela com os três dedos do meio de cada mão e a mantenha pressionada.</string>
   <string name="hold_six_fingers_inactive_announcement">Coloque o dispositivo com a tela para cima em uma mesa. Em seguida, em uma posição que seja confortável para digitar, toque na tela com os três dedos do meio de cada mão e a mantenha pressionada.</string>
   <string name="finish_tutorial_announcement">Mostrando o teclado em braille. Gire o smartphone para que a tela fique voltada para você. Gire o smartphone para que ele fique na horizontal, a posição paisagem. Em seguida, comece a digitar.</string>

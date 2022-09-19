@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="braille_ime_service_name">የTalkBack ብሬይል ቁልፍ ሰሌዳ</string>
+  <string name="braille_ime_service_name">የTalkBack FOSS ብሬይል ቁልፍ ሰሌዳ</string>
   <string name="switch_to_screen_away_announcement">ማያ ገጽን ወደ ሌላ ማዞር ሁነታ</string>
   <string name="switch_to_tabletop_announcement">የቴብልቶፕ ሁነታ። መሣሪያዎን ከኃይል መሙያው ጋር በስተግራ ያስቀምጡ። የነጥብ አቀማመጥን ለማዘመን 6 ጣቶችን ወደ ተጭነው ይያዙ።</string>
   <string name="bring_ime_settings_page">ሌላ የነቃ ቁልፍ ሰሌዳ የለም፣ ወደ የቁልፍ ሰሌዳ ቅንብሮች ይሂዱ</string>
   <string name="reminder_announcement">ተጨማሪ አማራጮችን ለማግኘት በ3 ጣቶች ወደ ላይ ይጥረጉ</string>
   <string name="braille_ime_displayed_name">የብሬይል ቁልፍ ሰሌዳ</string>
   <string name="multiple_languages_braille_ime_displayed_name">የብሬይል ቁልፍ ሰሌዳ፣ %s</string>
-  <string name="input_view_caption">የTalkBack ብሬይል ቁልፍ ሰሌዳ - ለእገዛ g.co/help/brailleን ይጎብኙ</string>
+  <string name="input_view_caption">የTalkBack FOSS ብሬይል ቁልፍ ሰሌዳ - ለእገዛ g.co/help/brailleን ይጎብኙ</string>
   <string name="perform_action_next">ቀጣይ</string>
   <string name="perform_action_submitting">ጽሑፍን በማስገባት ላይ</string>
   <string name="calibration_step1_hold_left_finger_announcement">የነጥብ አቀማመጥን በማዘመን ላይ። መጀመሪያ በግራ እጅዎ በኩል ያሉትን ነጥቦች እንመዝግብ። በግራ እጅዎ ላይ ያሉት የመሃል 3 ጣቶችን በመጠቀም ማያ ገጹን ይንኩ እና ይያዙ።</string>
@@ -58,17 +58,17 @@
   <string name="done">ተከናውኗል</string>
   <string name="not_enough_touch_points_dialog_title">የእርስዎ መሣሪያ የብሬይል ቁልፍ ሰሌዳን አይደግፍም</string>
   <string name="not_enough_touch_points_dialog_message">የእርስዎ መሣሪያ በቂ የንክኪ ነጥቦችን አይደግፍም። ተጨማሪ መረጃ ለማግኜት የመሣሪያዎን አምራች ያነጋግሩ።</string>
-  <string name="talkback_off_dialog_title">የብሬይል ቁልፍ ሰሌዳን ለመጠቀም TalkBackን ያብሩ</string>
+  <string name="talkback_off_dialog_title">የብሬይል ቁልፍ ሰሌዳን ለመጠቀም TalkBack FOSSን ያብሩ</string>
   <string name="talkback_off_dialog_positive_button">በተደራሽነት ቅንብሮች ውስጥ ያብሩ</string>
-  <string name="talkback_suspend_dialog_title">የብሬይል ቁልፍ ሰሌዳን ለመጠቀም TalkBack ካቆመበት ይቀጥሉ</string>
-  <string name="talkback_off_or_suspend_dialog_message">TalkBack ሲበራ የብሬይል ምልክቶችን ለማስገባት ማያ ገጽዎን መታ ማድረግ ይችላሉ።</string>
+  <string name="talkback_suspend_dialog_title">የብሬይል ቁልፍ ሰሌዳን ለመጠቀም TalkBack FOSS ካቆመበት ይቀጥሉ</string>
+  <string name="talkback_off_or_suspend_dialog_message">TalkBack FOSS ሲበራ የብሬይል ምልክቶችን ለማስገባት ማያ ገጽዎን መታ ማድረግ ይችላሉ።</string>
   <string name="next_keyboard">ቀጣይ ቁልፍ ሰሌዳ</string>
   <string name="braille_tutorial_title">የብሬይ ቁልፍ ሰሌዳ አጋዥ ስልጠና</string>
-  <string name="tutorial_intro_description">በብሬይል ቁልፍ ሰሌዳ አማካኝነት ባለ6 ነጥብ ብሬይል ለማስገባት ማያ ገጽዎን መታ ማድረግ ይችላሉ።\n\nየተዋሃደ የእንግሊዝኛ ብሬይል እየተጠቀሙ ነው። የመተየቢያ ቋንቋዎን ለመለወጥ ወደ የTalkBack ቅንብሮች ይሂዱ።\n\nብሬይል ለመተየብ ስልክዎን በተለየ መንገድ መያዝና መጠቀም አለብዎት።</string>
+  <string name="tutorial_intro_description">በብሬይል ቁልፍ ሰሌዳ አማካኝነት ባለ6 ነጥብ ብሬይል ለማስገባት ማያ ገጽዎን መታ ማድረግ ይችላሉ።\n\nየተዋሃደ የእንግሊዝኛ ብሬይል እየተጠቀሙ ነው። የመተየቢያ ቋንቋዎን ለመለወጥ ወደ የTalkBack FOSS ቅንብሮች ይሂዱ።\n\nብሬይል ለመተየብ ስልክዎን በተለየ መንገድ መያዝና መጠቀም አለብዎት።</string>
   <string name="next_step">ቀጣይ</string>
   <string name="leave_keyboard">ከብሬይል ቁልፍ ሰሌዳ ውጣ</string>
-  <string name="hold_six_fingers_description">መደበኛ የTalkBack ጣት ምልክቶችን በብሬይል ቁልፍ ሰሌዳ ላይ መጠቀም አይችሉም።\n\nለመጀመር እርስዎ በሚተይቡበት ጊዜ ያለውን የ6 ብሬይል ነጥቦችን አቀማመጥ እናዋቅር።</string>
-  <string name="rotate_orientation_description_1">ከአሁን ጀምሮ መደበኛ የTalkBack ጣት ምልክቶችን መጠቀም አይችሉም። የብሬይል ቁልፍ ሰሌዳ እየተጠቀሙ ሳለ TalkBack አይገኝም።</string>
+  <string name="hold_six_fingers_description">መደበኛ የTalkBack FOSS ጣት ምልክቶችን በብሬይል ቁልፍ ሰሌዳ ላይ መጠቀም አይችሉም።\n\nለመጀመር እርስዎ በሚተይቡበት ጊዜ ያለውን የ6 ብሬይል ነጥቦችን አቀማመጥ እናዋቅር።</string>
+  <string name="rotate_orientation_description_1">ከአሁን ጀምሮ መደበኛ የTalkBack FOSS ጣት ምልክቶችን መጠቀም አይችሉም። የብሬይል ቁልፍ ሰሌዳ እየተጠቀሙ ሳለ TalkBack አይገኝም።</string>
   <string name="rotate_orientation_description_2">ለመጀመር ስልክዎን ማያ ገጹ ከእርስዎ ዘወር እንዲል አድርገው እንደዚህ አድርገው ይያዙት።</string>
   <string name="tap_to_continue">ለመቀጠል በማንኛውም ቦታ ላይ ሁለቴ መታ ያድርጉ</string>
   <string name="instruction_type_letter_a">የ«A» ፊደል ለመተየብ በአመልካች ጣትዎ ነጥብ 1ን መታ ያድርጉ</string>
@@ -86,7 +86,7 @@
   <string name="result_swipe_down">ጠቋሚ ወደፊት ተወስዷል</string>
   <string name="result_swipe_down_2_fingers">የቁልፍ ሰሌዳን ይደብቁ</string>
   <string name="result_swipe_down_3_fingers">ቀጣይ ቁልፍ ሰሌዳ</string>
-  <string name="rotate_orientation_announcement">ከአሁን ጀምሮ መደበኛ የTalkBack ጣት ምልክቶችን መጠቀም አይችሉም። የብሬይል ቁልፍ ሰሌዳ እየተጠቀሙ ሳለ TalkBack የማይገሕ አይገኝም።\n\n%1$s</string>
+  <string name="rotate_orientation_announcement">ከአሁን ጀምሮ መደበኛ የTalkBack FOSS ጣት ምልክቶችን መጠቀም አይችሉም። የብሬይል ቁልፍ ሰሌዳ እየተጠቀሙ ሳለ TalkBack የማይገሕ አይገኝም።\n\n%1$s</string>
   <string name="rotate_orientation_inactive_announcement">መጀመሪያ ማያ ገጽዎ ከእርስዎ ዞሮ እንደዚህ አድርገው ይያዙት።\n\nቀጥሎም ስልኩን በአግድመት ወደ የወርድ አቀማመጥ ያሽከርክሩት። የእርስዎ እጆች አጭሮቹን የስልኩን ክፍሎች መያዝ አለባቸው። ቀኝ እጅዎ የዩኤስቢ ወደቡ ያለበት ክፍል መያዝ አለበት። 3 የመሃል ጣቶችዎን በማያ ገጹ ላይ ያሳርፉ፣ እና ስልኩን ደግፈው ትንሿ እና አውራ ጣትዎን ይጠቀሙ።\n\nዝግጁ ሲሆኑ ለመቀጠል ማያ ገጹን ሁለቴ መታ ያድርጉት።\n\nከብሬይል ቁልፍ ሰሌዳ ለመውጣት በ3 ጣቶች ታች ወደ መሬት ይጥረጉ። ይህ ወደ የመጀመሪያው ቁልፍ ሰሌዳዎ መልሶ ይቀይራል።</string>
   <string name="rotate_orientation_continue_announcement">የእርስዎ ስልክ በአቀባዊ አቀማመጥ ላይ ነው ያለው። ለመቀጠል የስልኩ ረጅም ክፍል ከታች እንዲሆን ስልክዎን በአግድመት ያሽከርክሩት። ማያ ገጹ ከእርስዎ ዘወር እንዲል ያዙሩት። ዝግጁ ሲሆኑ ለመቀጠል ማያ ገጹን ሁለቴ መታ ያድርጉት።</string>
   <string name="type_letter_a_announcement">ማያ ገጹ ከእርስዎ ዘወር ብሎ እንደዞረ እንዳለ ያቆዩት። በሁለቱም እጆችዎ በስልኩ አጭር ክፍሎች ስልክዎን ይያዙት፣ በዚህም የእያንዳንዱ እጅ 3 የመሃል ጣቶች ማያ ገጹን መንካት ይችላሉ።\n\nየግራ አመልካች ጣትዎ በነጥብ 1 ላይ መሆን አለበት። አሁን የ«A» ፊደሉን ለመተየብ ነጥብ 1 መታ ያድርጉት።</string>
@@ -102,7 +102,7 @@
   <string name="swipe_down_3_fingers_announcement">ወደ ሌላኛው ቁልፍ ሰሌዳዎ ለመቀየር በ3 ጣቶች ወደ ታች ይጥረጉ። አሁኑኑ ይሞክሩት።</string>
   <string name="swipe_down_3_fingers_completed_announcement">ቀጣይ ቁልፍ ሰሌዳ። ይህ አብዛኛው ጊዜ ወደ ቀጣዩ ቁልፍ ሰሌዳ ይቀይራል። በዚህ ጊዜ እርስዎ አሁንም በአጋዥ ስልጠናው ላይ ስላሉ በብሬይል ቁልፍ ሰሌዳው ላይ ይቆያሉ።</string>
   <string name="swipe_up_3_fingers_announcement">እንዲሁም የእርስዎን ስልክ በጠረጴዛው ላይ ለጥ አድርጎ በማስቀመጥ በቴብልቶፕ ሁነታ መተየብ ይችላሉ። አጋዥ ሥልጠናውን ለመጨረስ በ3 ጣቶች ወደ ላይ ይጥረጉ፣ እና የአጋዥ ሥልጠና አማራጩን አጠናቅቅ የሚለውን ያግኙ</string>
-  <string name="open_context_menu_announcement">የአማራጮች ምናሌው ክፍት ነው። ስልክዎን ወደ እርስዎ እንዲዞር ይገልብጡት እና እንደ መደበኛ ይያዙት። ለመዳሰስ መደበኛ የTalkBack እጅ ምልክቶችን መጠቀም ይችላሉ። ተጨማሪ አማራጮችን ለማየት ወደ ቀኝ ያንሸራትቱ።</string>
+  <string name="open_context_menu_announcement">የአማራጮች ምናሌው ክፍት ነው። ስልክዎን ወደ እርስዎ እንዲዞር ይገልብጡት እና እንደ መደበኛ ይያዙት። ለመዳሰስ መደበኛ የTalkBack FOSS እጅ ምልክቶችን መጠቀም ይችላሉ። ተጨማሪ አማራጮችን ለማየት ወደ ቀኝ ያንሸራትቱ።</string>
   <string name="hold_six_fingers_announcement">%s\nየእርስዎን መሣሪያ በጠረጴዛው ላይ ለጥ አድርገው ያስቀምጡት። ከዚያ ለእርስዎ መተየብ በሚመችዎት የአያያዝ ሁኔታ ላይ የእያንዳንዱ እጅ 3 የመሃል ጣቶች ማያ ገጹን ይንኩ እና ይያዙ።</string>
   <string name="hold_six_fingers_inactive_announcement">የእርስዎን መሣሪያ በጠረጴዛው ላይ ለጥ አድርገው ያስቀምጡት። ከዚያ ለእርስዎ መተየብ በሚመችዎት የአያያዝ ሁኔታ ላይ የእያንዳንዱ እጅ 3 የመሃል ጣቶች ማያ ገጹን ይንኩ እና ይያዙ።</string>
   <string name="finish_tutorial_announcement">የብሬይል ቁልፍ ሰሌዳን በማሳየት ላይ ማያ ገጽዎ ከእርስዎ ዞሮ እንዲዞር ስልክዎን ያዙሩት። ስልኩን በአግድመት ወደ የወርድ አቀማመጥ ያሽከርክሩት። ከዚያ መተየብ ይጀምሩ።</string>

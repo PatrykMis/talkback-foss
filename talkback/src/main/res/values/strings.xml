@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!-- To aid tooling, any string-containing xml file in this project should have a filename beginning with "strings" -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="app_name" translatable="false">TalkBack</string>
+    <string name="app_name" translatable="false">TalkBack FOSS</string>
 
     <!--The human-readable name of this service. Do not translate. -->
-    <string name="talkback_title" translatable="false">TalkBack</string>
+    <string name="talkback_title" translatable="false">TalkBack FOSS</string>
 
     <!--
-      Source: A brief description of TalkBack.
+      Source: A brief description of TalkBack FOSS.
       Description: This is presented to the user on the accessibility settings view. [CHAR LIMIT=NONE]
     -->
     <string name="talkback_service_description">
-      When TalkBack is on, it provides spoken feedback so that you can use your device without looking at the screen. This can be helpful for people who are blind or have low vision.\n\nTo navigate using TalkBack:\n•  Swipe right or left to move between items\n•  Double-tap to activate an item\n•  Drag two fingers to scroll\n\nTo turn off TalkBack:\n•  Tap the switch. You’ll see a green outline. Double-tap the switch.\n•  On the confirmation message, tap OK. Then double-tap OK.
+      When TalkBack FOSS is on, it provides spoken feedback so that you can use your device without looking at the screen. This can be helpful for people who are blind or have low vision.\n\nTo navigate using TalkBack:\n•  Swipe right or left to move between items\n•  Double-tap to activate an item\n•  Drag two fingers to scroll\n\nTo turn off TalkBack:\n•  Tap the switch. You’ll see a green outline. Double-tap the switch.\n•  On the confirmation message, tap OK. Then double-tap OK.
     </string>
 
     <!-- TODO: Try to remove nbsp following li. -->
     <!--
-      Source: A html description of TalkBack for Android R and above.
+      Source: A html description of TalkBack FOSS for Android R and above.
       Description: This is presented in html to the user on the accessibility settings view. [CHAR_LIMIT=NONE]
     -->
     <string name="talkback_service_html_description">
-      <![CDATA[When Talkback is on, it provides spoken feedback so that you can use your device without looking at the screen. Talkback is intended for situations or people who have difficulty seeing the screen.<br><br><b>How to use Talkback</b><br>• Swipe right or left to move between items<br>• Double-tap to activate an item<br>• Drag 2 fingers to scroll<br><br><b>How to turn off Talkback</b><br><br><b>Volume Keys:</b> Press &amp\; hold both volume keys for a few seconds.<br><br><b>Settings</b><br>• Tap the <b>Use Talkback</b> switch. You&apos\;ll see a green outline. Double-tap the switch.<br>• On the confirmation message, tap stop. Then double-tap Stop.]]>
+      <![CDATA[When Talkback FOSS is on, it provides spoken feedback so that you can use your device without looking at the screen. Talkback is intended for situations or people who have difficulty seeing the screen.<br><br><b>How to use Talkback</b><br>• Swipe right or left to move between items<br>• Double-tap to activate an item<br>• Drag 2 fingers to scroll<br><br><b>How to turn off Talkback</b><br><br><b>Volume Keys:</b> Press &amp\; hold both volume keys for a few seconds.<br><br><b>Settings</b><br>• Tap the <b>Use Talkback</b> switch. You&apos\;ll see a green outline. Double-tap the switch.<br>• On the confirmation message, tap stop. Then double-tap Stop.]]>
     </string>
 
     <!--
-      Source: A brief summary of TalkBack.
+      Source: A brief summary of TalkBack FOSS.
       Description: This is presented to the user as subtext for the service preference on the accessibility settings view. [CHAR LIMIT=35]
     -->
     <string name="talkback_service_summary">Speak items on screen</string>
 
     <!--
-      Source: Title for the activity that manages TalkBack settings.
-      Description: This is presented to the user when managing TalkBack settings. [CHAR_LIMIT=NONE]
+      Source: Title for the activity that manages TalkBack FOSS settings.
+      Description: This is presented to the user when managing TalkBack FOSS settings. [CHAR_LIMIT=NONE]
     -->
-    <string name="talkback_preferences_title">TalkBack settings</string>
+    <string name="talkback_preferences_title">TalkBack FOSS settings</string>
     <!--
       Source: Title for the activity that manages Text to speech settings.
       Description: This is presented to the user when managing Text to speech settings. [CHAR LIMIT=NONE]
@@ -45,12 +45,12 @@
     -->
     <string name="language_options">Languages</string>
     <!--
-    Source: Title for the menu item of Talkback Menu that opens the dialog with TTS languages installed by the user.
+    Source: Title for the menu item of Talkback FOSS Menu that opens the dialog with TTS languages installed by the user.
     Description: This is presented to the user. [CHAR LIMIT="70"]
     -->
     <string name="spoken_language">Spoken language</string>
     <!--
-    Source: Title for the menu item of Talkback Menu that presents actions which can be performed by the user.
+    Source: Title for the menu item of Talkback FOSS Menu that presents actions which can be performed by the user.
     Description: This is presented to the user. [CHAR_LIMIT=70]
     -->
   <string name="actions">Actions</string>
@@ -62,23 +62,23 @@
     <!-- Subtitle for settings activity. Argument is version name. [CHAR_LIMIT="NONE"]-->
     <string name="talkback_preferences_subtitle">Version <xliff:g id="version_name">%1$s</xliff:g></string>
     <!--
-      Source: Title for the summary activity that manages TalkBack custom labels.
-      Description: This is presented to the user when viewing a summary of TalkBack custom labels. [CHAR LIMIT=NONE]
+      Source: Title for the summary activity that manages TalkBack FOSS custom labels.
+      Description: This is presented to the user when viewing a summary of TalkBack FOSS custom labels. [CHAR LIMIT=NONE]
     -->
     <string name="label_manager_summary_title">Manage Custom Labels</string>
     <!--
-      Source: Title for the activity that manages TalkBack custom labels for a specific package.
-      Description: This is presented to the user when managing TalkBack custom labels for a package. [CHAR LIMIT=NONE]
+      Source: Title for the activity that manages TalkBack FOSS custom labels for a specific package.
+      Description: This is presented to the user when managing TalkBack FOSS custom labels for a package. [CHAR LIMIT=NONE]
     -->
     <string name="label_manager_package_title">Manage Labels for <xliff:g id="applicationLabel" example="Gmail">%1$s</xliff:g></string>
     <!--
-      Source: Title for the activity that manages TalkBack custom labels.
+      Source: Title for the activity that manages TalkBack FOSS custom labels.
       Description: This is spoken to the user. [[CHAR_LIMIT=NONE]
     -->
     <string name="manage_label">Manage label</string>
 
     <!-- A message on the label manager package summary screen when there are no packages with labels. [CHAR_LIMIT=NONE] [BACKUP_MESSAGE_ID: 305927220428084385]-->
-    <string name="label_manager_no_packages_message">There are currently no custom labels. You can create one by navigating to an unlabeled image and then adding a label from the Talkback Menu.</string>
+    <string name="label_manager_no_packages_message">There are currently no custom labels. You can create one by navigating to an unlabeled image and then adding a label from the Talkback FOSS Menu.</string>
     <!-- A label for the timestamp of when a custom label was stored or last modified. -->
     <string name="label_manager_timestamp_text">Last modified <xliff:g id="timestamp" example="1/1/11 11:11 AM">%1$s</xliff:g></string>
     <!-- Label for search dialog. Argument is search text. This is shown on screen in a popup window. [CHAR_LIMIT=15]-->
@@ -156,7 +156,7 @@
       Description: Contains preferences for customizing audio. [CHAR LIMIT=25]
     -->
     <string name="title_pref_category_audio">Audio</string>
-    <!-- Title for preference that controls the volume of TalkBack's speech output. [CHAR LIMIT=25] -->
+    <!-- Title for preference that controls the volume of TalkBack FOSS's speech output. [CHAR LIMIT=25] -->
     <string name="title_pref_speech_volume">Speech volume</string>
     <!--
       Source: Preference for customizing how to speak when the screen is off.
@@ -247,7 +247,7 @@
     <string name="pref_speak_roles_title">Speak element type</string>
     <!--
       Source: Summary subtext for preference to speak roles of elements.
-      Description: Explains that TalkBack will speak the element type of a focused item. [CHAR LIMIT=NONE]
+      Description: Explains that TalkBack FOSS will speak the element type of a focused item. [CHAR LIMIT=NONE]
     -->
     <string name="pref_speak_roles_summary">For focused items</string>
 
@@ -269,7 +269,7 @@
     <string name="pref_speak_system_window_titles_title">Speak system windows</string>
     <!--
       Source: Summary subtext for preference to speak system window titles.
-      Description: Explains that TalkBack will speak the system window title of a focused item. [CHAR LIMIT=NONE]
+      Description: Explains that TalkBack FOSS will speak the system window title of a focused item. [CHAR LIMIT=NONE]
     -->
     <string name="pref_speak_system_window_titles_summary">When you switch to other system windows like the status bar, notifications, or volume controls</string>
 
@@ -284,38 +284,38 @@
     <string name="title_pref_single_tap">Single-tap to activate</string>
     <!-- Summary sub-text for single-tap activation. When enabled, the user can place accessibility focus on an item and activate it using a single tap, rather than the default double-tap. [CHAR LIMIT=NONE]-->
     <string name="summary_pref_single_tap">Tap once on a focused item to activate</string>
-    <!-- Label for the button to launch an activity for managing TalkBack's verbosity. [CHAR LIMIT=40] -->
+    <!-- Label for the button to launch an activity for managing TalkBack FOSS's verbosity. [CHAR LIMIT=40] -->
     <string name="pref_verbosity_title">Verbosity</string>
     <!--
       Source: Title of preference for speaking punctuation in the selector setting list.
       Description: The user can check or not check this. [CHAR LIMIT=40]
     -->
     <string name="pref_punctuation_title">Speak punctuation and symbols</string>
-    <!-- Label for the PreferenceScreen used to manage TalkBack's focus indicator. [CHAR LIMIT=40] -->
+    <!-- Label for the PreferenceScreen used to manage TalkBack FOSS's focus indicator. [CHAR LIMIT=40] -->
     <string name="title_pref_category_manage_focus_indicator">Customize Focus Indicator</string>
-    <!-- Label for the PreferenceScreen used to manage TalkBack's gesture mapping. [CHAR LIMIT=40] -->
+    <!-- Label for the PreferenceScreen used to manage TalkBack FOSS's gesture mapping. [CHAR LIMIT=40] -->
     <string name="title_pref_category_manage_gestures">Customize gestures</string>
-    <!-- Label for the button to launch an activity for managing TalkBack's custom view labels. [CHAR LIMIT=70] -->
+    <!-- Label for the button to launch an activity for managing TalkBack FOSS's custom view labels. [CHAR LIMIT=70] -->
     <string name="title_pref_manage_labels">Custom labels</string>
     <!-- Label for the button to launch an activity for managing custom menus. [CHAR LIMIT=70] -->
     <string name="title_pref_manage_customize_menus">Customize menus</string>
-    <!-- Label for the button to launch an activity for managing TalkBack's custom menus. [CHAR LIMIT=100] -->
-    <string name="title_pref_category_context_menu">Customize TalkBack menu</string>
-    <!-- Label for the button to launch an activity for managing TalkBack's custom menus. [CHAR LIMIT=100] -->
+    <!-- Label for the button to launch an activity for managing TalkBack FOSS's custom menus. [CHAR LIMIT=100] -->
+    <string name="title_pref_category_context_menu">Customize TalkBack FOSS menu</string>
+    <!-- Label for the button to launch an activity for managing TalkBack FOSS's custom menus. [CHAR LIMIT=100] -->
     <string name="title_pref_category_selector_menu">Customize reading controls</string>
-    <!-- Label for the button to launch an activity for managing TalkBack's navigation options menus. [CHAR LIMIT=100] -->
+    <!-- Label for the button to launch an activity for managing TalkBack FOSS's navigation options menus. [CHAR LIMIT=100] -->
     <string name="title_pref_category_navigation_menu">Edit navigation options</string>
-    <!-- Label for the button to launch an activity for managing TalkBack's keyboard shortcuts. [CHAR LIMIT=40] -->
+    <!-- Label for the button to launch an activity for managing TalkBack FOSS's keyboard shortcuts. [CHAR LIMIT=40] -->
     <!--
       Source: Summary subtext for talkback context menu setting.
-      Description: Explains how Talkback context menu is opened. [CHAR LIMIT=NONE]
+      Description: Explains how Talkback FOSS context menu is opened. [CHAR LIMIT=NONE]
     -->
-    <string name="pref_category_context_menu_summary">To use the TalkBack menu, tap the screen with 3 fingers. You can also swipe up then right, or swipe down then right.</string>
+    <string name="pref_category_context_menu_summary">To use the TalkBack FOSS menu, tap the screen with 3 fingers. You can also swipe up then right, or swipe down then right.</string>
     <!--
     Source: Summary subtext for talkback context menu setting.
-    Description: Explains how Talkback context menu is opened without multifinger support. [CHAR LIMIT=NONE]
+    Description: Explains how Talkback FOSS context menu is opened without multifinger support. [CHAR LIMIT=NONE]
     -->
-    <string name="pref_category_context_menu_summary_single_finger">To use the TalkBack menu, swipe down then right.</string>
+    <string name="pref_category_context_menu_summary_single_finger">To use the TalkBack FOSS menu, swipe down then right.</string>
     <!--
     Source: Summary subtext for quick menu setting.
     Description: Explains how quick menu is opened. [CHAR LIMIT=NONE]
@@ -330,9 +330,9 @@
     <!-- Label for the button to export custom labels data as a file. [CHAR LIMIT=40] -->
     <string name="title_pref_export_custom_labels">Export custom labels</string>
     <!-- Label for the button to open the Play Store page. -->
-    <string name="title_pref_play_store">Open TalkBack at the Play Store</string>
+    <string name="title_pref_play_store">Open TalkBack FOSS at the Play Store</string>
     <!-- Summary sub-text for the button to open the Play Store page. Argument is version number. -->
-    <string name="summary_pref_play_store">Current TalkBack Version: <xliff:g id="version_number">%1$s</xliff:g></string>
+    <string name="summary_pref_play_store">Current TalkBack FOSS Version: <xliff:g id="version_number">%1$s</xliff:g></string>
     <!-- Label for the button to show help and feedback menu [CHAR LIMIT=40] -->
     <string name="title_pref_help_and_feedback">Help &#38; feedback</string>
     <!-- The label of a settings item that displays legal information about the licenses used in this app. [CHAR LIMIT=NONE] -->
@@ -394,9 +394,9 @@
     <!-- Choose modifier key [CHAR LIMIT=40] -->
     <string name="keycombo_menu_choose_trigger_modifier">Choose modifier key</string>
     <!-- Title of alert dialog to reset keymap for changing trigger modifier [CHAR LIMIT=60] -->
-    <string name="keycombo_menu_alert_title_trigger_modifier">TalkBack will reset keymap</string>
+    <string name="keycombo_menu_alert_title_trigger_modifier">TalkBack FOSS will reset keymap</string>
     <!-- Message of alert dialog to reset keymap for changing trigger modifier [CHAR LIMIT=100] -->
-    <string name="keycombo_menu_alert_message_trigger_modifier">TalkBack will reset keymap and change modifier key to <xliff:g id="new_trigger_modifier" example="Alt">%1$s</xliff:g></string>
+    <string name="keycombo_menu_alert_message_trigger_modifier">TalkBack FOSS will reset keymap and change modifier key to <xliff:g id="new_trigger_modifier" example="Alt">%1$s</xliff:g></string>
     <!-- Announce that modifier key is changed -->
     <string name="keycombo_menu_announce_new_trigger_modifier">Modifier key has been changed to <xliff:g id="new_trigger_modifier" example="Alt">%1$s</xliff:g>.</string>
     <!-- Announce active keymap -->
@@ -449,8 +449,8 @@
     <string name="keycombo_menu_global_recent">Recent apps</string>
     <!-- Keyboard key combination assignment for Show Notifications action [CHAR LIMIT=40] -->
     <string name="keycombo_menu_global_notifications">Notifications</string>
-    <!-- Keyboard key combination assignment for Pause or resume TalkBack action [CHAR LIMIT=40] -->
-    <string name="keycombo_menu_global_suspend">Pause or resume TalkBack</string>
+    <!-- Keyboard key combination assignment for Pause or resume TalkBack FOSS action [CHAR LIMIT=40] -->
+    <string name="keycombo_menu_global_suspend">Pause or resume TalkBack FOSS</string>
     <!-- Keyboard key combination assignment for Play or pause action [CHAR LIMIT=60] -->
     <string name="keycombo_menu_global_play_pause_media">Play or pause media</string>
     <!-- Keyboard key combination assignment for selecting previous reading control action [CHAR LIMIT=90] -->
@@ -475,18 +475,18 @@
     <string name="keycombo_menu_other_read_from_next_item">Read from next item</string>
     <!-- Keyboard key combination assignment for Start item search action [CHAR LIMIT=40] -->
     <string name="keycombo_menu_other_toggle_search">Search the screen for an item</string>
-    <!-- Keyboard key combination assignment for Show Talkback Menu action
-    Talkback menu actions are related to whole application [CHAR LIMIT=130] [BACKUP_MESSAGE_ID: 8053375494161376217] -->
-    <string name="keycombo_menu_other_talkback_context_menu">Show Talkback Menu</string>
+    <!-- Keyboard key combination assignment for Show Talkback FOSS Menu action
+    Talkback FOSS menu actions are related to whole application [CHAR LIMIT=130] [BACKUP_MESSAGE_ID: 8053375494161376217] -->
+    <string name="keycombo_menu_other_talkback_context_menu">Show Talkback FOSS Menu</string>
     <!-- Keyboard key combination assignment for opening the list of custom actions [CHAR LIMIT=60] -->
     <string name="keycombo_menu_other_custom_actions">Show actions</string>
   <!-- Keyboard key combination assignment for opening the list of TTS languages installed by the user. [CHAR LIMIT=60] -->
   <string name="keycombo_menu_other_language_options">Show installed languages</string>
-    <!-- Keyboard key combination assignment for opening manage keyboard shortcuts of TalkBack
+    <!-- Keyboard key combination assignment for opening manage keyboard shortcuts of TalkBack FOSS
          settings [CHAR LIMIT=60] -->
     <string name="keycombo_menu_other_open_manage_keyboard_shortcuts">Manage keyboard shortcuts</string>
-    <!-- Keyboard key combination assignment for opening TalkBack settings [CHAR LIMIT=60] -->
-    <string name="keycombo_menu_other_open_talkback_settings">Open TalkBack settings</string>
+    <!-- Keyboard key combination assignment for opening TalkBack FOSS settings [CHAR LIMIT=60] -->
+    <string name="keycombo_menu_other_open_talkback_settings">Open TalkBack FOSS settings</string>
     <!-- Web navigation actions group name title [CHAR LIMIT=40] -->
     <string name="keycombo_menu_category_web">Web navigation actions</string>
     <!-- Keyboard key combination assignment for navigating to next button [CHAR LIMIT=40] -->
@@ -619,12 +619,12 @@
     -->
     <string name="title_pref_soundback">Sound feedback</string>
     <!--
-      Source: Title for the preference that causes TalkBack to decrease audio volume of other applications during speech output.
+      Source: Title for the preference that causes TalkBack FOSS to decrease audio volume of other applications during speech output.
       Description: The user can check or not check this. [CHAR LIMIT=35]
      -->
     <string name="title_pref_use_audio_focus">Audio ducking</string>
     <!--
-      Source: Description for the preference that causes TalkBack to decrease audio volume of other applications during speech output.
+      Source: Description for the preference that causes TalkBack FOSS to decrease audio volume of other applications during speech output.
       Description: Hint text for this checkable user preference. [CHAR LIMIT=80]
      -->
      <string name="summary_pref_use_audio_focus">Decrease other audio volume while speaking</string>
@@ -634,8 +634,8 @@
     -->
     <string name="title_pref_soundback_volume">Sound feedback volume</string>
 
-    <!-- Source: Preference to enable TalkBack suspend/resume shortcut -->
-    <string name="title_pref_two_volume_button_long_click">TalkBack suspend and resume shortcut</string>
+    <!-- Source: Preference to enable TalkBack FOSS suspend/resume shortcut -->
+    <string name="title_pref_two_volume_button_long_click">TalkBack FOSS suspend and resume shortcut</string>
 
     <!--
       Source: Preference category title.
@@ -695,7 +695,7 @@
     <string name="title_pref_log_overlay">Enable debug log overlay</string>
     <!--
       Source: Preference title.
-      Description: This preference allows the user to specify when TalkBack resumes from a suspended state
+      Description: This preference allows the user to specify when TalkBack FOSS resumes from a suspended state
     -->
     <string name="title_pref_resume_talkback">Resume from suspend</string>
     <!--
@@ -718,11 +718,11 @@
     <!--
       Text that is temporary displayed on the screen when user chose screen dimming option. [CHAR_LIMIT=NONE]
     -->
-    <string name="screen_dimming_exit_instruction_line1">TalkBack accessibility service has hidden the screen</string>
+    <string name="screen_dimming_exit_instruction_line1">TalkBack FOSS accessibility service has hidden the screen</string>
     <!--
       Text that is temporary displayed on the screen for showing the screen from hidden mode. [CHAR_LIMIT=NONE]
     -->
-    <string name="screen_dimming_exit_instruction_line2">Do gesture <xliff:g id="gesture" example="Tap with 3 fingers">%1$s</xliff:g> to open TalkBack menu, highlight \"<xliff:g id="menu item" example="show screen">%2$s</xliff:g>\", then double-tap.</string>
+    <string name="screen_dimming_exit_instruction_line2">Do gesture <xliff:g id="gesture" example="Tap with 3 fingers">%1$s</xliff:g> to open TalkBack FOSS menu, highlight \"<xliff:g id="menu item" example="show screen">%2$s</xliff:g>\", then double-tap.</string>
 
     <!-- Category for shortcuts related to basic navigation. [CHAR_LIMIT=40] -->
     <string name="shortcut_title_basic_navigation">Basic Navigation</string>
@@ -779,12 +779,12 @@
     <!-- Label for the shortcut that opens the editing menu. [CHAR_LIMIT=40] -->
     <string name="shortcut_editing">Show editing options</string>
     <!-- Label for the shortcut that opens the talkback context breakout menu [CHAR_LIMIT=100] -->
-    <string name="shortcut_talkback_breakout">Open TalkBack menu</string>
-    <!-- Label for the shortcut that pauses all feedback from TalkBack. [CHAR_LIMIT=40] -->
+    <string name="shortcut_talkback_breakout">Open TalkBack FOSS menu</string>
+    <!-- Label for the shortcut that pauses all feedback from TalkBack FOSS. [CHAR_LIMIT=40] -->
     <string name="shortcut_pause_feedback">Pause feedback</string>
-    <!-- Label for the shortcut that pauses all feedback from TalkBack. [CHAR_LIMIT=69] -->
+    <!-- Label for the shortcut that pauses all feedback from TalkBack FOSS. [CHAR_LIMIT=69] -->
     <string name="shortcut_pause_or_resume_feedback">Pause or resume speech</string>
-    <!-- Label for the shortcut that toggle voice feedback from TalkBack. [CHAR_LIMIT=72] -->
+    <!-- Label for the shortcut that toggle voice feedback from TalkBack FOSS. [CHAR_LIMIT=72] -->
     <string name="shortcut_toggle_voice_feedback">Turn speech on or off</string>
     <!-- Label for menu item that reads all on-screen content, starting from the top of the screen. [CHAR_LIMIT=40] -->
     <!--
@@ -826,8 +826,8 @@
     <string name="shortcut_perform_click_action">Tap</string>
     <!-- Label for the shortcut that performs long click on focused item action. [CHAR_LIMIT=60] -->
     <string name="shortcut_perform_long_click_action">Touch and hold</string>
-    <!-- Title for dialog with general TalkBack actions and focused node actions [CHAR_LIMIT=40] -->
-    <string name="talkback_menu_title">TalkBack menu</string>
+    <!-- Title for dialog with general TalkBack FOSS actions and focused node actions [CHAR_LIMIT=40] -->
+    <string name="talkback_menu_title">TalkBack FOSS menu</string>
   <!-- Label for the shortcut that opens the language option menu. [CHAR_LIMIT=40] -->
   <string name="shortcut_show_language_options">Change spoken language</string>
   <!--Label for the shortcut that selects the next setting [CHAR_LIMIT=100]-->
@@ -857,7 +857,7 @@
     <string name="shortcut_all_apps">All apps</string>
     <!-- Label for the shortcut that perform switch to braille keyboard action. [CHAR_LIMIT=40]-->
     <string name="shortcut_braille_keyboard">Switch to braille keyboard</string>
-    <!-- Label for the shortcut that launch Talkback tutorial action. [CHAR_LIMIT=40]-->
+    <!-- Label for the shortcut that launch Talkback FOSS tutorial action. [CHAR_LIMIT=40]-->
     <string name="shortcut_tutorial">Open tutorial</string>
     <!-- Label for the shortcut that launch gesture practicing page. [CHAR_LIMIT=40]-->
     <string name="shortcut_practice_gestures">Practice gestures</string>
@@ -928,8 +928,8 @@
     <string name="title_show_screen_search">Screen search</string>
     <!-- Label for the context menu containing voice commands. [CHAR_LIMIT=70] -->
     <string name="title_show_voice_commands">Voice commands</string>
-    <!-- Label for the context menu containing Talkback settings. [CHAR_LIMIT=70] -->
-    <string name="talkback_show_talkback_settings">TalkBack settings</string>
+    <!-- Label for the context menu containing Talkback FOSS settings. [CHAR_LIMIT=70] -->
+    <string name="talkback_show_talkback_settings">TalkBack FOSS settings</string>
 
     <!-- Label for the navigation menu containing other web navigation. [CHAR_LIMIT=100] -->
     <string name="title_other_web_navigation">Other web navigation</string>
@@ -964,25 +964,25 @@
     <!-- Summary for the menu item that lets the user change the read from next. [CHAR_LIMIT=NONE] -->
     <string name="summary_read_from_current">Starting from the next item, read all items on the screen</string>
     <!-- Summary for the menu item that lets the user copies the last spoken phrase. [CHAR_LIMIT=NONE] -->
-    <string name="summary_copy_last_spoken_phrase">Copy the last phrase TalkBack said to the clipboard so you can paste the text</string>
+    <string name="summary_copy_last_spoken_phrase">Copy the last phrase TalkBack FOSS said to the clipboard so you can paste the text</string>
     <!-- Summary for the menu item that lets the user spells the last spoken phrase. [CHAR_LIMIT=NONE] -->
-    <string name="summary_spell_last_spoken_phrase">Spell each letter of the last phrase that TalkBack said</string>
+    <string name="summary_spell_last_spoken_phrase">Spell each letter of the last phrase that TalkBack FOSS said</string>
     <!-- Summary for the menu item that lets the user repeats the last spoken phrase. [CHAR_LIMIT=NONE] -->
-    <string name="summary_repeat_last_spoken_phrase">Hear the last phrase that TalkBack said again</string>
+    <string name="summary_repeat_last_spoken_phrase">Hear the last phrase that TalkBack FOSS said again</string>
     <!-- Summary for user to performs screen search keyword. [CHAR_LIMIT=NONE] -->
     <string name="summary_perform_screen_search">Enter a search term to find that text on the screen</string>
     <!-- Summary for user to control talkback by voice. [CHAR_LIMIT=NONE] -->
-    <string name="summary_voice_commands">Control TalkBack with your voice</string>
+    <string name="summary_voice_commands">Control TalkBack FOSS with your voice</string>
     <!-- Summary for the context menu containing show or hide screen. [CHAR_LIMIT=NONE] -->
     <string name="summary_show_hide_screen">Hide the display so your screen is not visible to others in public places. After hiding your screen, return it to a normal state.</string>
-    <!-- Summary for the activity that manages TalkBack settings. [CHAR_LIMIT=NONE] -->
-    <string name="summary_talkback_preferences">Open TalkBack settings</string>
+    <!-- Summary for the activity that manages TalkBack FOSS settings. [CHAR_LIMIT=NONE] -->
+    <string name="summary_talkback_preferences">Open TalkBack FOSS settings</string>
     <!-- Summary for the menu item that opens the dialog with system actions available on device from R. [CHAR_LIMIT=NONE] -->
     <string name="summary_system_actions">Go to all apps and Quick Settings</string>
     <!-- Summary for user to adjust Text to Speech settings. [CHAR_LIMIT=NONE] -->
     <string name="summary_tts_settings">Open text-to-speech settings</string>
     <!-- Summary for user to suspend talkback. [CHAR_LIMIT=NONE] -->
-    <string name="summary_pause_feedback">Turn off TalkBack voice feedback</string>
+    <string name="summary_pause_feedback">Turn off TalkBack FOSS voice feedback</string>
     <!-- voice feedback message, when user tries an editing command or action on non-editable content. [CHAR_LIMIT=30] -->
     <string name="not_editable">Not editable</string>
     <!-- Summary for the navigation options menu or quick menu containing actions. [CHAR_LIMIT=190] -->
@@ -1012,7 +1012,7 @@
     <!-- Summary for the navigation options menu containing default granularity. [CHAR_LIMIT=NONE] -->
     <string name="summary_granularity_default">Read one item at a time</string>
     <!-- Summary for the quick menu containing speech rate. [CHAR_LIMIT=NONE] -->
-    <string name="summary_speech_rate">Change how quickly TalkBack speaks</string>
+    <string name="summary_speech_rate">Change how quickly TalkBack FOSS speaks</string>
     <!-- Summary for the quick menu containing verbosity. [CHAR_LIMIT=NONE] -->
     <string name="summary_selector_menu_verbosity">Change whether typed keys, usage hints, grid info, and other info is read aloud</string>
     <!-- Summary for the quick menu containing punctuation. [CHAR_LIMIT=NONE] -->
@@ -1026,7 +1026,7 @@
     <!-- Summary for the quick menu containing hide screen. [CHAR_LIMIT=NONE] -->
     <string name="summary_hide_screen">Hide the display so your screen is not visible to others when in public places</string>
     <!-- Summary for the quick menu containing audio ducking. [CHAR_LIMIT=NONE] -->
-    <string name="summary_audio_ducking">Lower volume of other audio playing when TalkBack speaks</string>
+    <string name="summary_audio_ducking">Lower volume of other audio playing when TalkBack FOSS speaks</string>
     <!-- Summary for the quick menu containing scrolling. [CHAR_LIMIT=NONE] -->
     <string name="summary_support_scroll_seq">Scroll forward or backward</string>
     <!-- Summary for the quick menu containing Accessibility volume change. [CHAR_LIMIT=NONE] -->
@@ -1178,11 +1178,11 @@
     <!-- Label for preference specifying a volume that's 25% of the system media volume. -->
     <string name="value_volume_25_percent" formatted="false">25% of media volume</string>
 
-    <!-- Label for preference specifying that TalkBack resumes from a suspended state when the screen turns on. -->
+    <!-- Label for preference specifying that TalkBack FOSS resumes from a suspended state when the screen turns on. -->
     <string name="value_resume_screen_on">When screen turns on</string>
-    <!-- Label for preference specifying that TalkBack resumes from a suspended state when the lock screen is shown. -->
+    <!-- Label for preference specifying that TalkBack FOSS resumes from a suspended state when the lock screen is shown. -->
     <string name="value_resume_keyguard">When lock screen is shown</string>
-    <!-- Label for preference specifying that TalkBack resumes from a suspended state only when the user manually turns it back on. -->
+    <!-- Label for preference specifying that TalkBack FOSS resumes from a suspended state only when the user manually turns it back on. -->
     <string name="value_resume_manual">From notification only</string>
     <!-- Label for typing mode user preference in which double-tap is needed to input any IME key. [CHAR LIMIT=NONE] -->
     <string name="value_type_confirmation_double_tap">Hold finger to select any key, then double-tap</string>
@@ -1204,55 +1204,55 @@
     <!-- Label for the preference specifying a very large amount of shake force is required to initiate the shake to read feature. -->
     <string name="value_shake_to_read_threshold_very_hard">Very hard</string>
 
-    <!-- Label for preference specifying that TalkBack should only speak keys that the user types with an on-screen keyboard. [CHAR_LIMIT=75]-->
+    <!-- Label for preference specifying that TalkBack FOSS should only speak keys that the user types with an on-screen keyboard. [CHAR_LIMIT=75]-->
     <string name="title_pref_keyboard_echo_on_screen">Keyboard echo: On-screen keyboard</string>
-    <!-- Label for preference specifying that TalkBack should only speak keys that the user types with a physical keyboard. [CHAR_LIMIT=75] -->
+    <!-- Label for preference specifying that TalkBack FOSS should only speak keys that the user types with a physical keyboard. [CHAR_LIMIT=75] -->
     <string name="title_pref_keyboard_echo_physical">Keyboard echo: Physical keyboard</string>
-    <!-- Label for preference specifying that TalkBack should not echo of keyboard input. [CHAR_LIMIT=15] -->
+    <!-- Label for preference specifying that TalkBack FOSS should not echo of keyboard input. [CHAR_LIMIT=15] -->
     <string name="value_keyboard_echo_none">None</string>
-    <!-- Label for preference specifying that TalkBack should echo of typed characters. [CHAR_LIMIT=30] -->
+    <!-- Label for preference specifying that TalkBack FOSS should echo of typed characters. [CHAR_LIMIT=30] -->
     <string name="value_keyboard_echo_characters_only">Characters</string>
-    <!-- Label for preference specifying that TalkBack should echo of typed words. [CHAR_LIMIT=15] -->
+    <!-- Label for preference specifying that TalkBack FOSS should echo of typed words. [CHAR_LIMIT=15] -->
     <string name="value_keyboard_echo_words_only">Words</string>
-    <!-- Label for preference specifying that TalkBack should echo of typed characters and words. [CHAR_LIMIT=60] -->
+    <!-- Label for preference specifying that TalkBack FOSS should echo of typed characters and words. [CHAR_LIMIT=60] -->
     <string name="value_keyboard_echo_characters_and_words">Characters and words</string>
 
-    <!-- Label for preference specifying that TalkBack should describe elements in order: state, name type. -->
+    <!-- Label for preference specifying that TalkBack FOSS should describe elements in order: state, name type. -->
     <string name="pref_node_desc_order_entry_state_name_role_pos">State, name, type</string>
-    <!-- Label for preference specifying that TalkBack should describe elements in order: type, name, state. -->
+    <!-- Label for preference specifying that TalkBack FOSS should describe elements in order: type, name, state. -->
     <string name="pref_node_desc_order_entry_role_name_state_pos">Type, name, state</string>
-    <!-- Label for preference specifying that TalkBack should describe elements in order: name, type, state. -->
+    <!-- Label for preference specifying that TalkBack FOSS should describe elements in order: name, type, state. -->
     <string name="pref_node_desc_order_entry_name_role_state_pos">Name, type, state</string>
 
     <!--
-      Source: Title of a notification that TalkBack's gestures have been changed.
+      Source: Title of a notification that TalkBack FOSS's gestures have been changed.
       Description: Displays a more detailed notification with information about gesture changes [CHAR_LIMIT=30]
     -->
-    <string name="notification_title_talkback_gestures_changed">TalkBack gestures changed</string>
+    <string name="notification_title_talkback_gestures_changed">TalkBack FOSS gestures changed</string>
 
     <!--
-      Source: Description of a notification that TalkBack's gestures have been changed.
+      Source: Description of a notification that TalkBack FOSS's gestures have been changed.
       Description: Displays a more detailed notification with information about gesture changes [CHAR_LIMIT=70]
     -->
     <string name="notification_message_talkback_gestures_changed">Tap to review changes to accessibility gestures</string>
 
 
-    <!-- Title of the notification displayed when TalkBack has been temporarily paused. -->
-    <string name="notification_title_talkback_suspended">TalkBack is suspended</string>
-    <!-- Message of the notification displayed when TalkBack has been temporarily paused. The user can tap the notification to resume TalkBack. -->
+    <!-- Title of the notification displayed when TalkBack FOSS has been temporarily paused. -->
+    <string name="notification_title_talkback_suspended">TalkBack FOSS is suspended</string>
+    <!-- Message of the notification displayed when TalkBack FOSS has been temporarily paused. The user can tap the notification to resume TalkBack. -->
     <string name="notification_message_talkback_suspended">Tap to resume</string>
 
 
-    <!-- Title for the alert shown when a user attempts to suspend TalkBack. -->
-    <string name="dialog_title_suspend_talkback">Suspend TalkBack?</string>
-    <!-- Message for the alert shown when a user attempts to suspend TalkBack, which also disables the Explore by Touch feature. -->
-    <string name="dialog_message_suspend_talkback">Are you sure you want to suspend TalkBack?\n\nWhile TalkBack is suspended, your device will not provide feedback and Explore by Touch will be disabled.</string>
-    <!-- Instructions for resuming TalkBack from suspend in "manual" resume mode, where the user can only resume from the notifications shade. -->
-    <string name="message_resume_manual">You can resume TalkBack from the notifications shade</string>
-    <!-- Instructions for resuming TalkBack from suspend in "screen on" resume mode, where the user can also resume by turning the screen on. -->
-    <string name="message_resume_screen_on">You can resume TalkBack from the notifications shade or by turning the screen on</string>
-    <!-- Instructions for resuming TalkBack from suspend in "keyguard" resume mode, where the user can also resume by showing the lock screen. -->
-    <string name="message_resume_keyguard">You can resume TalkBack from the notifications shade or by returning to the lock screen</string>
+    <!-- Title for the alert shown when a user attempts to suspend TalkBack FOSS. -->
+    <string name="dialog_title_suspend_talkback">Suspend TalkBack FOSS?</string>
+    <!-- Message for the alert shown when a user attempts to suspend TalkBack FOSS, which also disables the Explore by Touch feature. -->
+    <string name="dialog_message_suspend_talkback">Are you sure you want to suspend TalkBack FOSS?\n\nWhile TalkBack is suspended, your device will not provide feedback and Explore by Touch will be disabled.</string>
+    <!-- Instructions for resuming TalkBack FOSS from suspend in "manual" resume mode, where the user can only resume from the notifications shade. -->
+    <string name="message_resume_manual">You can resume TalkBack FOSS from the notifications shade</string>
+    <!-- Instructions for resuming TalkBack FOSS from suspend in "screen on" resume mode, where the user can also resume by turning the screen on. -->
+    <string name="message_resume_screen_on">You can resume TalkBack FOSS from the notifications shade or by turning the screen on</string>
+    <!-- Instructions for resuming TalkBack FOSS from suspend in "keyguard" resume mode, where the user can also resume by showing the lock screen. -->
+    <string name="message_resume_keyguard">You can resume TalkBack FOSS from the notifications shade or by returning to the lock screen</string>
     <!-- Checkbox label for the preference in the suspend dialog that keeps the warning shown for future suspensions. -->
     <string name="show_suspend_warning_label">Always show this warning</string>
 
@@ -1270,7 +1270,7 @@
     <string name="label_dialog_edit_hint">Label text</string>
     <!-- Text that appears in the label management menu item, that allow user to import custom labels to talkback -->
     <string name="label_import">Import custom labels</string>
-    <string name="label_import_dialog_title">Import custom labels to TalkBack</string>
+    <string name="label_import_dialog_title">Import custom labels to TalkBack FOSS</string>
     <string name="label_import_dialog_message">Choose whether you want to override or skip existing labels in the case of conflict</string>
     <string name="label_import_dialog_skip">Skip</string>
     <string name="label_import_dialog_override">Override</string>
@@ -1291,10 +1291,10 @@
     <string name="label_choose_app_to_import">Choose application to import labels:</string>
     <string name="label_choose_app_to_export">Choose application to export labels:</string>
     <!--
-      Source: Description of a notification that TalkBack's gestures have been changed.
+      Source: Description of a notification that TalkBack FOSS's gestures have been changed.
       Description: Displays a more detailed notification with information about gesture changes [CHAR LIMIT=NONE]
      -->
-    <string name="talkback_gesture_change_details">This version of TalkBack includes changes to the default accessibility gestures.  The actions associated with these gestures can be customized within TalkBack settings.  When Explore by touch is enabled, you can use the following gestures to perform certain actions.\n\n<xliff:g id="mappings">%1$s</xliff:g></string>
+    <string name="talkback_gesture_change_details">This version of TalkBack FOSS includes changes to the default accessibility gestures.  The actions associated with these gestures can be customized within TalkBack settings.  When Explore by touch is enabled, you can use the following gestures to perform certain actions.\n\n<xliff:g id="mappings">%1$s</xliff:g></string>
 
     <!-- Label for preference specifying Suspend/Resume action is assigned for long press 2 volume buttons. -->
     <string name="value_long_volume_pressed_suspend_talkback" formatted="false">Long press volume up and down keys</string>
@@ -1306,21 +1306,21 @@
 
 
     <!--
-      Source: Description of a notification that some of TalkBack's built-in gestures have been changed.
+      Source: Description of a notification that some of TalkBack FOSS's built-in gestures have been changed.
       Description: Displays a more detailed notification with information about gesture changes [CHAR LIMIT=NONE]
      -->
-    <string name="talkback_built_in_gesture_change_details">This version of TalkBack includes changes to the default accessibility gestures.\n\nThe up-then-down gesture will allow you to move to the first item on the screen, and the down-then-up gesture will move to the last item.\n\nThe reading granularity can now be changed by focusing an item, then selecting a granularity from the talkback context menu.\n\nYou can change the actions performed by these gestures in TalkBack Settings.</string>
+    <string name="talkback_built_in_gesture_change_details">This version of TalkBack FOSS includes changes to the default accessibility gestures.\n\nThe up-then-down gesture will allow you to move to the first item on the screen, and the down-then-up gesture will move to the last item.\n\nThe reading granularity can now be changed by focusing an item, then selecting a granularity from the talkback context menu.\n\nYou can change the actions performed by these gestures in TalkBack Settings.</string>
 
     <!--
-      Source: Description of a notification that TalkBack's built-in swipe-up and swipe-down gestures have been changed in TalkBack 4.5.
+      Source: Description of a notification that TalkBack FOSS's built-in swipe-up and swipe-down gestures have been changed in TalkBack 4.5.
       Description: Displays a more detailed notification with information about gesture changes [CHAR LIMIT=NONE]
      -->
-    <string name="talkback_built_in_gesture_change_details_45">This version of TalkBack includes changes to the default accessibility gestures.\n\nThe up gesture now moves to the previous navigation setting, and the down gesture now moves to the next navigation setting.</string>
+    <string name="talkback_built_in_gesture_change_details_45">This version of TalkBack FOSS includes changes to the default accessibility gestures.\n\nThe up gesture now moves to the previous navigation setting, and the down gesture now moves to the next navigation setting.</string>
 
     <!--
-      Notification that TalkBack's side-tap and shake shortcuts have been removed. [CHAR_LIMIT=1300]
+      Notification that TalkBack FOSS's side-tap and shake shortcuts have been removed. [CHAR_LIMIT=1300]
      -->
-    <string name="side_tap_shortcuts_removed_details">These settings are removed from TalkBack, due to reliability issues:\n• Tap on side of device gestures\n• Shake to start continuous reading</string>
+    <string name="side_tap_shortcuts_removed_details">These settings are removed from TalkBack FOSS, due to reliability issues:\n• Tap on side of device gestures\n• Shake to start continuous reading</string>
 
     <!-- Label for the gesture change notificaiton dialog button to accept the suggested gesture mapping -->
     <string name="button_accept_changed_gesture_mappings">Accept gestures</string>
@@ -1328,10 +1328,10 @@
     <!-- Label for the gesture change notificaiton dialog button to customize the gesture mapping -->
     <string name="button_customize_gesture_mappings">Customize gestures</string>
 
-    <!-- Label for the "disable all" button in TalkbackDumpA11yEventActivity. Clicking on the button will toggle all the switches to "off" in DumpA11yEvent preference setting.  -->
+    <!-- Label for the "disable all" button in Talkback FOSSDumpA11yEventActivity. Clicking on the button will toggle all the switches to "off" in DumpA11yEvent preference setting.  -->
     <string name="button_disable_all_events">Disable all</string>
 
-    <!-- Label for the "enable all" button in TalkbackDumpA11yEventActivity. Clicking on the button will toggle all the switches to "on" in DumpA11yEvent preference setting. -->
+    <!-- Label for the "enable all" button in Talkback FOSSDumpA11yEventActivity. Clicking on the button will toggle all the switches to "on" in DumpA11yEvent preference setting. -->
     <string name="button_enable_all_events">Enable all</string>
 
     <!-- Title for the dialog shown when a user attempts to disable Explore by Touch.  -->
@@ -1356,18 +1356,18 @@
     <string name="dialog_ok_buggon_extend_log_level">Yes, enable verbose logging </string>
 
 
-  <!-- Title for requesting phone permission in TalkBack. [CHAR LIMIT=NONE] -->
+  <!-- Title for requesting phone permission in TalkBack FOSS. [CHAR LIMIT=NONE] -->
     <string name="title_request_phone_permission">Allow phone access?</string>
-    <!-- Message for requesting phone permission in TalkBack. It tells the reason for the users. [CHAR LIMIT=NONE] -->
-    <string name="message_request_phone_permission">This helps TalkBack reduce announcements when you\'re on a call</string>
+    <!-- Message for requesting phone permission in TalkBack FOSS. It tells the reason for the users. [CHAR LIMIT=NONE] -->
+    <string name="message_request_phone_permission">This helps TalkBack FOSS reduce announcements when you\'re on a call</string>
     <!-- Label for continue button. [CHAR_LIMIT=30] -->
     <string name="continue_button">Continue</string>
 
-    <!-- Label for the permission that allows an application to control TalkBack. -->
-    <string name="permission_talkback_label">Control TalkBack</string>
+    <!-- Label for the permission that allows an application to control TalkBack FOSS. -->
+    <string name="permission_talkback_label">Control TalkBack FOSS</string>
 
-    <!-- Description for the permission that allows an application to control TalkBack. -->
-    <string name="permission_talkback_desc">Permission to send gestures to TalkBack and resume spoken feedback.</string>
+    <!-- Description for the permission that allows an application to control TalkBack FOSS. -->
+    <string name="permission_talkback_desc">Permission to send gestures to TalkBack FOSS and resume spoken feedback.</string>
 
     <!-- Label for the sub-menu that contains URLs and email addresses extracted from the currently focused text. -->
     <string name="links">Links</string>
@@ -1466,26 +1466,26 @@
     -->
     <string name="arc_android_window">Application window</string>
   <!--
-    Arc: Hint to notify user that user is navigating with TalkBack. On Arc, both ChromeVox and
-    TalkBack are used for spoken feedback. [CHAR LIMIT=NONE]
+    Arc: Hint to notify user that user is navigating with TalkBack FOSS. On Arc, both ChromeVox and
+    TalkBack FOSS are used for spoken feedback. [CHAR LIMIT=NONE]
   -->
-  <string name="arc_talkback_activation_hint">TalkBack on</string>
+  <string name="arc_talkback_activation_hint">TalkBack FOSS on</string>
     <!--
       Arc: Navigation hint. In arc, user can navigate with search key and arrow keys. This is spoken
       when user has focused into android window. [CHAR LIMIT=NONE]
     -->
     <string name="arc_navigation_hint">Press search with arrows to navigate</string>
     <!--
-      Arc: Hint to open manage keyboard shortcuts of TalkBack settings. User can open the settings
+      Arc: Hint to open manage keyboard shortcuts of TalkBack FOSS settings. User can open the settings
       by keyboard shortcut to see the list of shortcuts. This is spoken when user has focused into
       android window. [CHAR LIMIT=NONE]
     -->
     <string name="arc_open_manage_keyboard_shortcuts_hint">Press <xliff:g id="keyCombo" example="Search+K">%1$s</xliff:g> to see the list of shortcuts</string>
     <!--
-      Arc: Hint to open TalkBack settings by using keyboard shortcut. This is spoken when focus has
+      Arc: Hint to open TalkBack FOSS settings by using keyboard shortcut. This is spoken when focus has
       moved into Android window. [CHAR LIMIT=NONE]
     -->
-    <string name="arc_open_talkback_settings_hint">Press <xliff:g id="keyCombo" example="Search+0">%1$s</xliff:g> to open TalkBack settings</string>
+    <string name="arc_open_talkback_settings_hint">Press <xliff:g id="keyCombo" example="Search+0">%1$s</xliff:g> to open TalkBack FOSS settings</string>
 
   <!-- Value used to reset the user language preference to default [CHAR LIMIT=40] -->
   <string name="reset_user_language_preference">Default</string>
@@ -1593,25 +1593,25 @@
   <string name="always_show_this_message_label">Always show this message</string>
 
   <!-- Title for voice commands, first-time use dialog [CHAR_LIMIT=80] -->
-  <string name="dialog_title_voice_commands">Use voice commands to control TalkBack</string>
+  <string name="dialog_title_voice_commands">Use voice commands to control TalkBack FOSS</string>
   <!-- Message for voice commands, first-time use dialog [CHAR_LIMIT=NONE] -->
-  <string name="dialog_message_voice_commands">Here are some things you can say:\n\n• Copy\n• Read from next item\n• Find [save]\n• Speak [faster]\n• TalkBack settings\n\nSay \"<xliff:g example="help" id="voice_help_cmd">%1$s</xliff:g>\" for a list of all voice commands</string>
+  <string name="dialog_message_voice_commands">Here are some things you can say:\n\n• Copy\n• Read from next item\n• Find [save]\n• Speak [faster]\n• TalkBack FOSS settings\n\nSay \"<xliff:g example="help" id="voice_help_cmd">%1$s</xliff:g>\" for a list of all voice commands</string>
   <!-- Label for use voice commands, first-time use dialog [CHAR_LIMIT=40] -->
   <string name="start_voice_command">Use voice commands</string>
 
   <!-- Title for pass through mode, first-time use dialog. [CHAR_LIMIT=NONE] -->
-  <string name="dialog_title_pass_through_mode">Skip TalkBack gestures to use system gestures</string>
+  <string name="dialog_title_pass_through_mode">Skip TalkBack FOSS gestures to use system gestures</string>
   <!-- Message for pass-through mode tutorial. [CHAR_LIMIT=NONE] [BACKUP_MESSAGE_ID: 2757739143933456348]-->
-  <string name="dialog_message_pass_through_mode">When you hear a chime, you can use a system gesture that isn\'t supported by TalkBack. This is known as a pass-through gesture.</string>
+  <string name="dialog_message_pass_through_mode">When you hear a chime, you can use a system gesture that isn\'t supported by TalkBack FOSS. This is known as a pass-through gesture.</string>
 
 
   <!-- Used to hint user to type search term in EditText field [CHAR_LIMIT=NONE] -->
   <string name="hint_type_search_term">Search term</string>
 
-  <!-- Notification channel name of Talkback. [CHAR_LIMIT=40] -->
-  <string name="talkback_notification_channel_name">TalkBack</string>
-  <!-- Notification channel description of Talkback. [CHAR_LIMIT=42] -->
-  <string name="talkback_notification_channel_description">The Notification Channel of TalkBack</string>
+  <!-- Notification channel name of Talkback FOSS. [CHAR_LIMIT=40] -->
+  <string name="talkback_notification_channel_name">TalkBack FOSS</string>
+  <!-- Notification channel description of Talkback FOSS. [CHAR_LIMIT=42] -->
+  <string name="talkback_notification_channel_description">The Notification Channel of TalkBack FOSS</string>
 
   <!-- For selector summary. -->
   <!--
@@ -1641,10 +1641,10 @@
   <!-- Usage hint for how to read the screen (such as reading a single word at a time). This is spoken to the user. [CHAR_LIMIT=180] -->
   <string name="adjust_granularity_hint"><xliff:g example="swipe up" id="adjust_granularity_gesture">%1$s</xliff:g> to read by <xliff:g example="words" id="granularity">%2$s</xliff:g></string>
   <!-- Usage hint for how to assign gesture for the quick menu. This is spoken to the user. [CHAR_LIMIT=280] -->
-  <string name="no_adjust_setting_gesture">To use this, go to TalkBack settings and add a gesture for \'<xliff:g example="selected setting next action">%1$s</xliff:g>\'</string>
+  <string name="no_adjust_setting_gesture">To use this, go to TalkBack FOSS settings and add a gesture for \'<xliff:g example="selected setting next action">%1$s</xliff:g>\'</string>
 
   <!-- Announced when can't switching to braille keyboard . [CHAR_LIMIT=150] -->
-  <string name="switch_to_braille_keyboard_failure_msg">Braille keyboard isn\'t turned on. Go to TalkBack settings, set up Braille keyboard, and try again.</string>
+  <string name="switch_to_braille_keyboard_failure_msg">Braille keyboard isn\'t turned on. Go to TalkBack FOSS settings, set up Braille keyboard, and try again.</string>
   <!-- Announced when the popup window is shown. [CHAR_LIMIT=50]-->
   <string name="suggestions_window_available">Suggestions available</string>
   <!-- Announced when the popup window is shown. The user can performs a quick gesture to navigate to the suggestions window. [CHAR_LIMIT=150]-->
@@ -1665,56 +1665,56 @@
   <string name="training_navigate_up">Navigate up</string>
 
   <!-- For on-boarding. -->
-  <!-- A item in settings page to introduce TalkBack new features. [CHAR_LIMIT=NONE]-->
-  <string name="new_feature_in_talkback_title">New features in TalkBack</string>
+  <!-- A item in settings page to introduce TalkBack FOSS new features. [CHAR_LIMIT=NONE]-->
+  <string name="new_feature_in_talkback_title">New features in TalkBack FOSS</string>
   <!-- The title of a dialog that is shown when exiting the tutorial. [CHAR_LIMIT=45]-->
   <string name="exit_tutorial_title">Close tutorial?</string>
   <!-- The content of the exit dialog. [CHAR_LIMIT=NONE]-->
-  <string name="exit_tutorial_content">You can come back to it anytime in TalkBack settings.</string>
+  <string name="exit_tutorial_content">You can come back to it anytime in TalkBack FOSS settings.</string>
   <!-- The text of the button that is for staying in tutorial. [CHAR_LIMIT=50]-->
   <string name="stay_in_tutorial_button">Stay in tutorial</string>
-  <!-- For welcome to the update TalkBack page in on-boarding. -->
-  <!-- The page title of welcome to updated TalkBack. [CHAR_LIMIT=NONE]-->
-  <string name="welcome_to_updated_talkback_title">Welcome to the updated TalkBack</string>
+  <!-- For welcome to the update TalkBack FOSS page in on-boarding. -->
+  <!-- The page title of welcome to updated TalkBack FOSS. [CHAR_LIMIT=NONE]-->
+  <string name="welcome_to_updated_talkback_title">Welcome to the updated TalkBack FOSS</string>
   <!-- The content of welcome page for pre-Android-R devices. [CHAR_LIMIT=NONE]-->
-  <string name="welcome_to_updated_talkback_text_pre_r">You will get simpler menus, voice control, and more.\n\nYou will learn about key updates and changes in the next few screens. This will take about 3 minutes. \n\nYou can review this information in TalkBack settings at any time.</string>
+  <string name="welcome_to_updated_talkback_text_pre_r">You will get simpler menus, voice control, and more.\n\nYou will learn about key updates and changes in the next few screens. This will take about 3 minutes. \n\nYou can review this information in TalkBack FOSS settings at any time.</string>
   <!-- The content of welcome page for Android-R and above devices. [CHAR_LIMIT=NONE]-->
-  <string name="welcome_to_updated_talkback_text">You will get new, easier gestures, simpler menus, voice control, and more.\n\nYou will learn about key updates and changes in the next few screens. This will take about 5 minutes.\n\nYou can review this information in TalkBack settings at any time.</string>
+  <string name="welcome_to_updated_talkback_text">You will get new, easier gestures, simpler menus, voice control, and more.\n\nYou will learn about key updates and changes in the next few screens. This will take about 5 minutes.\n\nYou can review this information in TalkBack FOSS settings at any time.</string>
   <!-- For navigation and setting selector page in on-boarding. -->
   <!-- Navigation subtitle. The translation should be the same as "navigation" in jump_between_headings_text and jump_between_headings_text_pre_r.[CHAR_LIMIT=NONE]-->
   <string name="navigation_heading">Navigation</string>
   <!-- Setting selector subtitle. [CHAR_LIMIT=NONE]-->
   <string name="setting_selector_heading">Reading controls</string>
   <!-- The text to introduce how to trigger setting selector for pre-Android-R devices. [CHAR_LIMIT=NONE]-->
-  <string name="setting_selector_text_pre_r">These shortcuts can help you quickly change settings, like switching your navigation from characters to words or changing TalkBack\'s speech rate.\n\nStep 1: Swipe down and then up to select the next reading control.\n\nStep 2: Swipe down to move the navigation focus forward or adjust a reading control down.</string>
+  <string name="setting_selector_text_pre_r">These shortcuts can help you quickly change settings, like switching your navigation from characters to words or changing TalkBack FOSS\'s speech rate.\n\nStep 1: Swipe down and then up to select the next reading control.\n\nStep 2: Swipe down to move the navigation focus forward or adjust a reading control down.</string>
   <!-- The text to introduce how to trigger setting selector for Android-R or above devices. [CHAR_LIMIT=NONE]-->
-  <string name="setting_selector_text">These shortcuts can help you quickly change settings, like switching your navigation from characters to words or changing TalkBack\'s speech rate.\n\nStep 1: Swipe right with 3 fingers to select the next reading control.\n\nStep 2: Swipe down with 1 finger to move the navigation focus forward or adjust a reading control down.</string>
+  <string name="setting_selector_text">These shortcuts can help you quickly change settings, like switching your navigation from characters to words or changing TalkBack FOSS\'s speech rate.\n\nStep 1: Swipe right with 3 fingers to select the next reading control.\n\nStep 2: Swipe down with 1 finger to move the navigation focus forward or adjust a reading control down.</string>
   <!-- The text to try setting selector. [CHAR_LIMIT=NONE]-->
   <string name="try_setting_selector_gesture">Try it now. Swipe right with 3 fingers.</string>
   <!-- The text to try setting selector for Android-R or above devices. [CHAR_LIMIT=NONE]-->
   <string name="try_setting_selector_gesture_pre_r">Try it now. Swipe down and then up.</string>
   <!-- The text to introduce how to customize setting selector item. [CHAR_LIMIT=NONE]-->
-  <string name="customize_setting_selector_text">You can also reverse either of these gestures.\n\nSwipe left with 3 fingers to select the previous reading control.\n\nSwipe up with 1 finger to move the navigation focus backward or adjust a reading control up.\n\nYou can customize your reading controls in TalkBack settings.</string>
+  <string name="customize_setting_selector_text">You can also reverse either of these gestures.\n\nSwipe left with 3 fingers to select the previous reading control.\n\nSwipe up with 1 finger to move the navigation focus backward or adjust a reading control up.\n\nYou can customize your reading controls in TalkBack FOSS settings.</string>
   <!-- The text to introduce how to customize setting selector item for pre-Android-R devices. [CHAR_LIMIT=NONE]-->
-  <string name="customize_setting_selector_text_pre_r">You can also reverse either of these gestures.\n\nSwipe up and then down to select the previous reading control.\n\nSwipe up to move the navigation focus up or adjust a reading control up.\n\nYou can customize your reading controls in TalkBack settings.</string>
+  <string name="customize_setting_selector_text_pre_r">You can also reverse either of these gestures.\n\nSwipe up and then down to select the previous reading control.\n\nSwipe up to move the navigation focus up or adjust a reading control up.\n\nYou can customize your reading controls in TalkBack FOSS settings.</string>
   <!-- For more new gestures in on-boarding. -->
   <!-- The title of new features page. [CHAR_LIMIT=NONE]-->
   <string name="more_new_feature_title">More new features</string>
   <!-- The text to introduce new context menu for pre-android-r devices. [CHAR_LIMIT=NONE]-->
-  <string name="more_new_feature_context_menu_text_pre_r">Global and local context menus, used to help you find settings and controls, are now united in a single TalkBack menu.\n\nYour existing gestures, such as swipe down and then right, will still take you to the new united menu.</string>
+  <string name="more_new_feature_context_menu_text_pre_r">Global and local context menus, used to help you find settings and controls, are now united in a single TalkBack FOSS menu.\n\nYour existing gestures, such as swipe down and then right, will still take you to the new united menu.</string>
   <!-- The text to introduce new context menu for android-r or above devices. [CHAR_LIMIT=NONE]-->
-  <string name="more_new_feature_context_menu_text">Global and local context menus, used to help you find settings and controls, are now united in a single TalkBack menu. You can open it by tapping with 3 fingers. Try it now.\n\nYour existing gestures will still take you to the new united menu: swipe down and then right.</string>
+  <string name="more_new_feature_context_menu_text">Global and local context menus, used to help you find settings and controls, are now united in a single TalkBack FOSS menu. You can open it by tapping with 3 fingers. Try it now.\n\nYour existing gestures will still take you to the new united menu: swipe down and then right.</string>
   <!-- The text to introduce voice command. [CHAR_LIMIT=NONE]-->
-  <string name="more_new_feature_voice_command_text_with_actual_gesture">Now you can use your voice to control TalkBack quickly. To try it, <xliff:g example="swipe right then up">%1$s</xliff:g>.</string>
+  <string name="more_new_feature_voice_command_text_with_actual_gesture">Now you can use your voice to control TalkBack FOSS quickly. To try it, <xliff:g example="swipe right then up">%1$s</xliff:g>.</string>
   <!-- The text to introduce voice command. [CHAR_LIMIT=NONE]-->
-  <string name="more_new_feature_voice_command_default_text">Now you can use your voice to control TalkBack quickly. Go to TalkBack settings to set up a gesture for voice command.</string>
+  <string name="more_new_feature_voice_command_default_text">Now you can use your voice to control TalkBack FOSS quickly. Go to TalkBack settings to set up a gesture for voice command.</string>
   <!-- The text to introduce braille keyboard. [CHAR_LIMIT=NONE]-->
-  <string name="more_new_feature_braille_keyboard_text">TalkBack now includes a braille keyboard so you can type faster with braille. To try it, go to TalkBack settings.</string>
+  <string name="more_new_feature_braille_keyboard_text">TalkBack FOSS now includes a braille keyboard so you can type faster with braille. To try it, go to TalkBack settings.</string>
   <!-- For new shortcut gestures page in on-boarding -->
   <!-- The title of new shortcut gestures page. [CHAR_LIMIT=NONE]-->
   <string name="new_shortcut_gesture_title">New gestures</string>
   <!-- The text to introduce new shortcut gestures. [CHAR_LIMIT=NONE]-->
-  <string name="new_shortcut_gesture_text">New gestures have been added to make TalkBack faster and easier to use.\n\nOn this screen, you can try the new gestures.</string>
+  <string name="new_shortcut_gesture_text">New gestures have been added to make TalkBack FOSS faster and easier to use.\n\nOn this screen, you can try the new gestures.</string>
   <!-- The text to introduce how to pause or play media. [CHAR_LIMIT=NONE]-->
   <string name="new_shortcut_gesture_pause_or_play_media_text">To pause or play media in a video or music app, double-tap with 2 fingers. Try it now.</string>
   <!-- The text to introduce how to pause or play media. [CHAR_LIMIT=NONE]-->
@@ -1724,13 +1724,13 @@
   Description: This is spoken to the user. In RTL language, "right" and "left" shoud be translated reverse. [CHAR_LIMIT=NONE] TODO: The resource name can be changed to new_shortcut_gesture_pause_or_play_media_announcement.
   -->
   <string name="new_shortcut_gesture_pause_media_announcement">Media paused or playing. Usually, this will pause or play the current video or music. Swipe right to continue.</string>
-  <!-- The text to introduce how to stop TalkBack speech. [CHAR_LIMIT=NONE]-->
-  <string name="new_shortcut_gesture_stop_speech_text">To stop TalkBack from talking temporarily, tap with 2 fingers.</string>
+  <!-- The text to introduce how to stop TalkBack FOSS speech. [CHAR_LIMIT=NONE]-->
+  <string name="new_shortcut_gesture_stop_speech_text">To stop TalkBack FOSS from talking temporarily, tap with 2 fingers.</string>
   <!--
-  Source: Announces when TalkBack speech stopped.
+  Source: Announces when TalkBack FOSS speech stopped.
   Description: This is spoken to the user. In RTL language, "right" and "left" shoud be translated reverse. [CHAR_LIMIT=NONE]
   -->
-  <string name="new_shortcut_gesture_stop_speech_announcement">TalkBack speech stopped. Usually, this will stop the current phrase that TalkBack is saying. Swipe right to continue.</string>
+  <string name="new_shortcut_gesture_stop_speech_announcement">TalkBack FOSS speech stopped. Usually, this will stop the current phrase that TalkBack is saying. Swipe right to continue.</string>
   <!-- The text to introduce how to copy text. This is spoken to the user. [CHAR_LIMIT=NONE]-->
   <string name="new_shortcut_gesture_copy_text_text">To copy text, double-tap with 3 fingers.</string>
   <!--
@@ -1762,23 +1762,23 @@
   <!-- The text to introduce how to use reading controls. [CHAR_LIMIT=NONE]-->
   <string name="new_shortcut_gesture_reading_menu_text">To use the reading controls, swipe left or right with 3 fingers. You can also swipe up or down with 3 fingers.</string>
   <!-- A text to notify that gestures might not be correct because some gestures are customized. [CHAR_LIMIT=NONE]-->
-  <string name="new_shortcut_gesture_note">Note: You have customized some of your gestures, so this information may not be accurate. To review your gestures, go to TalkBack settings.</string>
+  <string name="new_shortcut_gesture_note">Note: You have customized some of your gestures, so this information may not be accurate. To review your gestures, go to TalkBack FOSS settings.</string>
   <!-- For welcome page when user updates to R. -->
-  <!-- The title of welcome to TalkBack on Android 11 page. [CHAR_LIMIT=NONE]-->
-  <string name="welcome_to_android11">Welcome to TalkBack on Android 11</string>
-  <!-- The text about what's new in TalkBack on Android 11. [CHAR_LIMIT=NONE]-->
-  <string name="welcome_to_android11_text">New gestures have been added to make TalkBack faster and easier to use.\n\nOn this screen, you can try the new gestures. You can review this information in TalkBack settings at any time.</string>
-  <!-- The title of notification that to notify TalkBack supports new gestures. [CHAR_LIMIT=NONE]-->
-  <string name="new_gesture_notification_title">New gestures in TalkBack</string>
-  <!-- The content text of notification that to notify TalkBack supports new gestures. [CHAR_LIMIT=NONE]-->
-  <string name="new_gesture_notification_content">Tap to learn how to use TalkBack faster with new gestures.</string>
+  <!-- The title of welcome to TalkBack FOSS on Android 11 page. [CHAR_LIMIT=NONE]-->
+  <string name="welcome_to_android11">Welcome to TalkBack FOSS on Android 11</string>
+  <!-- The text about what's new in TalkBack FOSS on Android 11. [CHAR_LIMIT=NONE]-->
+  <string name="welcome_to_android11_text">New gestures have been added to make TalkBack FOSS faster and easier to use.\n\nOn this screen, you can try the new gestures. You can review this information in TalkBack settings at any time.</string>
+  <!-- The title of notification that to notify TalkBack FOSS supports new gestures. [CHAR_LIMIT=NONE]-->
+  <string name="new_gesture_notification_title">New gestures in TalkBack FOSS</string>
+  <!-- The content text of notification that to notify TalkBack FOSS supports new gestures. [CHAR_LIMIT=NONE]-->
+  <string name="new_gesture_notification_content">Tap to learn how to use TalkBack FOSS faster with new gestures.</string>
   <!-- Announces when user dump the node tree log. This is spoken to the user. [CHAR_LIMIT=NONE]-->
   <string name="dump_node_tree_description">Node tree has been printed to logs.</string>
   <!-- The hint description provided to users to report gesture issues. [CHAR_LIMIT=NONE]-->
   <string name="report_gesture_description">Here are gestures performed recently, please report which gesture is wrong and what is expected.</string>
-  <!-- For New TalkBack 12.2 onboarding -->
-  <!-- The content of welcome to TalkBack 12.2 page. [CHAR_LIMIT=NONE]-->
-  <string name="update_welcome_12_2">You will get simplified volume controls, quicker action controls, and more.\n\nYou will learn about key updates and changes in the next few screens. This will take about 5 minutes.\n\nYou can review this information in TalkBack settings at any time.</string>
+  <!-- For New TalkBack FOSS 12.2 onboarding -->
+  <!-- The content of welcome to TalkBack FOSS 12.2 page. [CHAR_LIMIT=NONE]-->
+  <string name="update_welcome_12_2">You will get simplified volume controls, quicker action controls, and more.\n\nYou will learn about key updates and changes in the next few screens. This will take about 5 minutes.\n\nYou can review this information in TalkBack FOSS settings at any time.</string>
   <!-- The title of volume control changes page. [CHAR_LIMIT=NONE]-->
   <string name="volume_control_changes_title">Volume control changes</string>
   <!-- The text to explain how to use volume keys to control the text cursor. [CHAR_LIMIT=NONE]-->
@@ -1786,7 +1786,7 @@
   <!-- The title of text in images page. [CHAR_LIMIT=NONE]-->
   <string name="text_in_images_title">Text in images</string>
   <!-- The text to explain how the text-in-images feature works. The translation of "Describe text in image" should be the same as title_image_caption. [CHAR_LIMIT=NONE]-->
-  <string name="text_in_images_text">You can get more detail about text in images automatically or when you need it.\n\nFor images that do not have a label: TalkBack will automatically read the text that appears.\n\nFor all images: Open the TalkBack menu and select \"Describe text in image\".\n\nImages stay on your device and are never sent to Google. This means you can use both of these features without an internet connection.</string>
+  <string name="text_in_images_text">You can get more detail about text in images automatically or when you need it.\n\nFor images that do not have a label: TalkBack FOSS will automatically read the text that appears.\n\nFor all images: Open the TalkBack menu and select \"Describe text in image\".\n\nImages stay on your device and are never sent to Google. This means you can use both of these features without an internet connection.</string>
   <!-- The title of window navigation page. [CHAR_LIMIT=NONE]-->
   <string name="window_navigation_title">Window navigation</string>
   <!-- The text to explain how to navigate between windows. [CHAR_LIMIT=NONE]-->
@@ -1795,31 +1795,31 @@
   <string name="window_navigation_text_pre_r">You can switch between different sections on your screen, like the notification bar, main content, and keyboard.\n\nTo use window navigation, swipe down and then up. Keep going until you have selected window navigation. To navigate to the window, swipe down.</string>
 
   <!-- For tutorial. -->
-  <!-- An item in settings page to explain how to use TalkBack. [CHAR_LIMIT=25]-->
+  <!-- An item in settings page to explain how to use TalkBack FOSS. [CHAR_LIMIT=25]-->
   <string name="tutorial_entry_point_title">Tutorial</string>
   <!-- For welcome page in tutorial. -->
-  <!-- The title of welcoming to use TalkBack. [CHAR_LIMIT=NONE]-->
-  <string name="welcome_to_talkback_title">Welcome to TalkBack</string>
+  <!-- The title of welcoming to use TalkBack FOSS. [CHAR_LIMIT=NONE]-->
+  <string name="welcome_to_talkback_title">Welcome to TalkBack FOSS</string>
   <!--
-  Source: The text of introducing TalkBack.
+  Source: The text of introducing TalkBack FOSS.
   Description: In RTL language, "right" and "left" shoud be translated reverse. [CHAR_LIMIT=NONE]
   -->
-  <string name="welcome_to_talkback_text">TalkBack is a screen reader intended for situations or people who have difficulty seeing the screen. It gives you spoken feedback so that you can use your device without looking at the screen.\n\nYou can turn TalkBack on or off by holding both volume keys for several seconds.\n\nWhen TalkBack is on, the focused item on the screen is spoken out loud.\n\nSwiping right will move to the next item, and swiping left will move to the previous item.\n\nSwipe right now to find the next button.</string>
+  <string name="welcome_to_talkback_text">TalkBack FOSS is a screen reader intended for situations or people who have difficulty seeing the screen. It gives you spoken feedback so that you can use your device without looking at the screen.\n\nYou can turn TalkBack on or off by holding both volume keys for several seconds.\n\nWhen TalkBack is on, the focused item on the screen is spoken out loud.\n\nSwiping right will move to the next item, and swiping left will move to the previous item.\n\nSwipe right now to find the next button.</string>
   <!-- For touch explore page in tutorial. -->
   <!-- The title of exploring by touch page. [CHAR_LIMIT=NONE] -->
   <string name="explore_by_touch_title">Explore by touch</string>
-  <!-- The text to explain how to use TalkBack via touch explore. [CHAR_LIMIT=NONE]-->
+  <!-- The text to explain how to use TalkBack FOSS via touch explore. [CHAR_LIMIT=NONE]-->
   <string name="explore_by_touch_text">You can focus on an item by dragging your finger across the screen.\n\nTry this now by touching the screen and dragging toward the bottom left corner until you find the next button.</string>
   <!-- For scrolling page in tutorial. -->
   <!-- The title of scrolling page. [CHAR_LIMIT=NONE]-->
   <string name="scrolling_title">Scrolling</string>
-  <!-- The text to explain how to use TalkBack to scroll page. [CHAR_LIMIT=NONE]-->
+  <!-- The text to explain how to use TalkBack FOSS to scroll page. [CHAR_LIMIT=NONE]-->
   <string name="scrolling_text">You can scroll by swiping with 2 fingers.\n\nTry this now by swiping up with 2 fingers until you scroll to the bottom of the list items.</string>
   <!-- For gestures page in tutorial. -->
   <!-- The title of gestures page. [CHAR_LIMIT=NONE]-->
   <string name="gestures_title">System actions</string>
-  <!-- The text to introduce some useful gestures in TalkBack. [CHAR_LIMIT=NONE]-->
-  <string name="gestures_text">To perform any system action, add 1 finger to the system gesture.\n\nThis means when using TalkBack, you can go Home by swiping up with 2 fingers instead of 1.\n\nTrying these gestures now will close the tutorial. You may want to wait until you have completed the tutorial.</string>
+  <!-- The text to introduce some useful gestures in TalkBack FOSS. [CHAR_LIMIT=NONE]-->
+  <string name="gestures_text">To perform any system action, add 1 finger to the system gesture.\n\nThis means when using TalkBack FOSS, you can go Home by swiping up with 2 fingers instead of 1.\n\nTrying these gestures now will close the tutorial. You may want to wait until you have completed the tutorial.</string>
   <!-- The text to explain how to go Home via gesture. [CHAR_LIMIT=NONE]-->
   <string name="gestures_home_text">To go Home, swipe up from the bottom of your screen with 2 fingers.</string>
   <!-- The text to explain how to go to the recent apps via gesture. [CHAR_LIMIT=NONE]-->
@@ -1835,21 +1835,21 @@
   <!-- For menus page in tutorial. -->
   <!-- The title of menus page. [CHAR_LIMIT=NONE]-->
   <string name="menus_title">Menu and controls</string>
-  <!-- The text to introduce TalkBack menu and how to open it via multi-fingers gestures. [CHAR_LIMIT=NONE]-->
-  <string name="menus_talkback_menu_text">The TalkBack menu includes settings and controls that you may need often.\n\nOpen the TalkBack menu now by tapping the screen with 3 fingers.</string>
-  <!-- The text to introduce TalkBack menu and how to open it via single finger gestures. [CHAR_LIMIT=NONE]-->
-  <string name="menus_talkback_menu_text_pre_r">The TalkBack menu includes settings and controls that you may need often.\n\nOpen the TalkBack menu now by swiping down then right.</string>
+  <!-- The text to introduce TalkBack FOSS menu and how to open it via multi-fingers gestures. [CHAR_LIMIT=NONE]-->
+  <string name="menus_talkback_menu_text">The TalkBack FOSS menu includes settings and controls that you may need often.\n\nOpen the TalkBack menu now by tapping the screen with 3 fingers.</string>
+  <!-- The text to introduce TalkBack FOSS menu and how to open it via single finger gestures. [CHAR_LIMIT=NONE]-->
+  <string name="menus_talkback_menu_text_pre_r">The TalkBack FOSS menu includes settings and controls that you may need often.\n\nOpen the TalkBack menu now by swiping down then right.</string>
   <!-- The text to introduce how to adjust reading settings quickly via multi-fingers gestures. [CHAR_LIMIT=NONE]-->
-  <string name="menus_selector_text">These shortcuts can help you quickly change settings, like switching your navigation from characters to words or changing TalkBack\'s speech rate.\n\nTo quickly change your reading controls, swipe left with 3 fingers or swipe right with 3 fingers.\n\nYou can customize the TalkBack menu and your reading controls later in TalkBack settings.</string>
+  <string name="menus_selector_text">These shortcuts can help you quickly change settings, like switching your navigation from characters to words or changing TalkBack FOSS\'s speech rate.\n\nTo quickly change your reading controls, swipe left with 3 fingers or swipe right with 3 fingers.\n\nYou can customize the TalkBack menu and your reading controls later in TalkBack settings.</string>
   <!-- The text to introduce how to adjust reading settings quickly via single finger gestures. [CHAR_LIMIT=NONE]-->
-  <string name="menus_selector_text_pre_r">These shortcuts can help you quickly change settings, like switching your navigation from characters to words or changing TalkBack\'s speech rate.\n\nTo quickly change your reading controls, swipe down and then back up.\n\nYou can customize the TalkBack menu and your reading controls later in TalkBack settings.</string>
+  <string name="menus_selector_text_pre_r">These shortcuts can help you quickly change settings, like switching your navigation from characters to words or changing TalkBack FOSS\'s speech rate.\n\nTo quickly change your reading controls, swipe down and then back up.\n\nYou can customize the TalkBack menu and your reading controls later in TalkBack settings.</string>
   <!-- The title of all set page. [CHAR_LIMIT=NONE]-->
   <string name="all_set_title">All set!</string>
   <!-- The text to notify user tutorial is finished. [CHAR_LIMIT=NONE]-->
-  <string name="all_set_text">You are ready to use TalkBack.\n\nKeep learning about other topics now, or review this info anytime in TalkBack settings.</string>
+  <string name="all_set_text">You are ready to use TalkBack FOSS.\n\nKeep learning about other topics now, or review this info anytime in TalkBack settings.</string>
   <!-- For tutorial index page. -->
   <!-- The title of talkback tutorial. [CHAR_LIMIT=NONE] -->
-  <string name="talkback_tutorial_title">TalkBack tutorial</string>
+  <string name="talkback_tutorial_title">TalkBack FOSS tutorial</string>
   <!--
   Source: The description on the tutorial index page.
   Description: In RTL language, "right" and "left" shoud be translated reverse. [CHAR_LIMIT=NONE]
@@ -1870,7 +1870,7 @@
   <!-- The text of voice commands on the index page. [CHAR_LIMIT=NONE]-->
   <string name="voice_commands_link_text">Voice commands</string>
   <!-- The subtext of voice commands on the index page. [CHAR_LIMIT=NONE]-->
-  <string name="voice_commands_link_subtext">Control TalkBack with your voice</string>
+  <string name="voice_commands_link_subtext">Control TalkBack FOSS with your voice</string>
   <!-- The text of practice gestures on the index page. [CHAR_LIMIT=NONE]-->
   <string name="practice_gestures_link_text">Practice gestures</string>
   <!-- The subtext of practice gestures on the index page. [CHAR_LIMIT=NONE]-->
@@ -1889,29 +1889,29 @@
   <!-- The description about how to type text. [CHAR_LIMIT=NONE]-->
   <string name="typing_text_text">Move your finger across the keyboard. When you hear the letter you want to type, lift your finger.\n\nTry activating the text box below and type your name.</string>
   <!-- The description about how to type with braille keyboard. [CHAR_LIMIT=NONE]-->
-  <string name="typing_text_with_braille_keyboard_text">You can also type with the braille keyboard. Find it in TalkBack settings.</string>
+  <string name="typing_text_with_braille_keyboard_text">You can also type with the braille keyboard. Find it in TalkBack FOSS settings.</string>
   <!-- The title of moving cursor page. [CHAR_LIMIT=NONE]-->
   <string name="moving_cursor_title">Moving the cursor</string>
   <!-- The description about how to move cursor. [CHAR_LIMIT=NONE]-->
   <string name="moving_cursor_text">When you have activated a text box, you can move the cursor between letters by swiping up or down.\n\nTry it in the text box below.</string>
   <!-- The text in edit box to try some editing actions, like copy and paste. [CHAR_LIMIT=NONE]-->
-  <string name="edit_box_text">Welcome to TalkBack</string>
+  <string name="edit_box_text">Welcome to TalkBack FOSS</string>
   <!-- The title of selecting text from edit box. [CHAR_LIMIT=NONE]-->
   <string name="selecting_text_title">Selecting text</string>
   <!-- The description about how to select the text via gesture. [CHAR_LIMIT=NONE]-->
   <string name="selecting_text_text">In a text box, move the cursor to the beginning of the text you want to select.\n\nDouble-tap and hold with 2 fingers to start selection mode. Then move the cursor to the end of the text. Double-tap and hold with 2 fingers again to end selection mode.\n\nTry to select the word \"Welcome\" in the text box below.</string>
   <!-- The description about how to select the text via gesture. [CHAR_LIMIT=NONE]-->
-  <string name="selecting_text_text_pre_r">In a text box, move the cursor to the beginning of the text you want to select.\n\nSwipe down and then right to open the TalkBack menu. Double-tap actions and then start selection mode. Move the cursor to the end of the text.\n\nOpen the TalkBack menu again, then double-tap actions to end selection mode.\n\nTry to select the word \"Welcome\" in the text box below.</string>
+  <string name="selecting_text_text_pre_r">In a text box, move the cursor to the beginning of the text you want to select.\n\nSwipe down and then right to open the TalkBack FOSS menu. Double-tap actions and then start selection mode. Move the cursor to the end of the text.\n\nOpen the TalkBack menu again, then double-tap actions to end selection mode.\n\nTry to select the word \"Welcome\" in the text box below.</string>
   <!-- The title of coping, cutting and pasting text. [CHAR_LIMIT=NONE]-->
   <string name="copy_cut_paste_title">Copy, cut, and paste</string>
   <!-- The description about how to copy text. [CHAR_LIMIT=NONE]-->
   <string name="copy_text">After selecting text, double-tap actions and then copy.\n\nTry to copy a word in the text box below.</string>
   <!-- The description about how to cut or paste text. [CHAR_LIMIT=NONE]-->
-  <string name="cut_paste_text">To cut or paste text, open the TalkBack menu and double-tap actions.\n\nTo paste text, triple-tap with 3 fingers.\n\nTry to paste a word in the text box below.</string>
+  <string name="cut_paste_text">To cut or paste text, open the TalkBack FOSS menu and double-tap actions.\n\nTo paste text, triple-tap with 3 fingers.\n\nTry to paste a word in the text box below.</string>
   <!-- The description about how to copy text. [CHAR_LIMIT=NONE]-->
-  <string name="copy_text_pre_r">After selecting text, you can copy it in the TalkBack menu. Swipe down and then right to open the TalkBack menu. Double-tap editing options and then copy.\n\nTry to copy a word in the text box below.</string>
+  <string name="copy_text_pre_r">After selecting text, you can copy it in the TalkBack FOSS menu. Swipe down and then right to open the TalkBack menu. Double-tap editing options and then copy.\n\nTry to copy a word in the text box below.</string>
   <!-- The description about how to cut or paste text. [CHAR_LIMIT=NONE]-->
-  <string name="cut_paste_text_pre_r">To cut or paste text, open the TalkBack menu and double-tap editing options.\n\nTry to paste a word in the text box below.</string>
+  <string name="cut_paste_text_pre_r">To cut or paste text, open the TalkBack FOSS menu and double-tap editing options.\n\nTry to paste a word in the text box below.</string>
   <!-- The text in edit box to give a hint to the user. [CHAR_LIMIT=140]-->
   <string name="edit_box_hint_paste_text">Paste text here</string>
   <!-- For reading navigation pages in tutorial. -->
@@ -1982,14 +1982,14 @@
   <!-- The title of voice commands page. [CHAR_LIMIT=NONE] -->
   <string name="voice_commands_title">Voice commands</string>
   <!-- The description about how to use voice command. [CHAR_LIMIT=NONE]-->
-  <string name="voice_commands_text">You can use your voice to control TalkBack quickly.\n\nFor example, say a command to change navigation, jump to the next heading, copy text, and more.\n\nTo try it now, swipe right and then up.</string>
+  <string name="voice_commands_text">You can use your voice to control TalkBack FOSS quickly.\n\nFor example, say a command to change navigation, jump to the next heading, copy text, and more.\n\nTo try it now, swipe right and then up.</string>
   <!-- For practice gestures pages in tutorial. -->
   <!-- The title of practicing gesture page. [CHAR_LIMIT=NONE]-->
   <string name="practice_gestures_title">Practice gestures</string>
   <!-- The description about how to try gestures. [CHAR_LIMIT=NONE]-->
-  <string name="practice_gestures_text">Try any TalkBack gesture on this screen to hear what that gesture does.\n\nTap the screen with 2 fingers. Keep practicing by tapping once, twice, or three times with 2, 3, or 4 fingers.\n\nYou can also double-tap and hold with 2, 3, or 4 fingers.</string>
+  <string name="practice_gestures_text">Try any TalkBack FOSS gesture on this screen to hear what that gesture does.\n\nTap the screen with 2 fingers. Keep practicing by tapping once, twice, or three times with 2, 3, or 4 fingers.\n\nYou can also double-tap and hold with 2, 3, or 4 fingers.</string>
   <!-- The description about how to try gestures. [CHAR_LIMIT=NONE]-->
-  <string name="practice_gestures_text_pre_r">Try any TalkBack gesture on this screen to hear what that gesture does.\n\nTry any gesture where two swipes form a right angle. For example, swipe down and then right, without lifting your finger in between.</string>
+  <string name="practice_gestures_text_pre_r">Try any TalkBack FOSS gesture on this screen to hear what that gesture does.\n\nTry any gesture where two swipes form a right angle. For example, swipe down and then right, without lifting your finger in between.</string>
   <!-- The text of the first button which lets users try jumping between controls in tutorial. [CHAR_LIMIT=NONE]-->
   <string name="button_1">Button 1</string>
   <!-- The text of the second button which lets users try jumping between controls in tutorial. [CHAR_LIMIT=NONE]-->
@@ -2000,10 +2000,10 @@
   <string name="button_4">Button 4</string>
   <!-- The text is shown on the Toast when the view, like button or link, is clicked. The toast is to notify users that they activate a button or a link. [CHAR_LIMIT=NONE]-->
   <string name="activated_view">Activated <xliff:g example="button">%1$s</xliff:g></string>
-  <!-- Alert dialog title for when the user starts the TalkBack tutorial but TalkBack is inactive. [CHAR_LIMIT=60] -->
-  <string name="talkback_inactive_title">TalkBack Disabled</string>
-  <!-- Alert message for when the user starts the TalkBack tutorial but TalkBack is inactive. [CHAR_LIMIT=NONE] -->
-  <string name="talkback_inactive_message">This tutorial requires TalkBack to be enabled. Please turn TalkBack on before launching the tutorial.</string>
+  <!-- Alert dialog title for when the user starts the TalkBack FOSS tutorial but TalkBack is inactive. [CHAR_LIMIT=60] -->
+  <string name="talkback_inactive_title">TalkBack FOSS Disabled</string>
+  <!-- Alert message for when the user starts the TalkBack FOSS tutorial but TalkBack is inactive. [CHAR_LIMIT=NONE] -->
+  <string name="talkback_inactive_message">This tutorial requires TalkBack FOSS to be enabled. Please turn TalkBack on before launching the tutorial.</string>
 
   <!-- Welcome page items for Wear. [CHAR_LIMIT=NONE] -->
   <string name="watch_swipe_left_right_text">Swipe right or left to move between items</string>
