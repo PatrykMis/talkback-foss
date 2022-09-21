@@ -34,15 +34,15 @@ dependencies {
 
     // Google common
     implementation 'com.google.guava:guava:31.1-android'
-    implementation 'com.google.android.gms:play-services-mlkit-text-recognition:18.0.1'
-    implementation 'com.google.android.material:material:1.6.1'
+    implementation 'com.google.android.gms:play-services-mlkit-text-recognition:18.0.2'
+    implementation 'com.google.android.material:material:1.7.0'
 
     // Support library
-    implementation 'androidx.annotation:annotation:1.4.0'
+    implementation 'androidx.annotation:annotation:1.5.0'
     implementation 'androidx.appcompat:appcompat:1.5.1'
     implementation 'androidx.collection:collection:1.2.0'
     implementation 'androidx.core:core:1.9.0'
-    implementation 'androidx.fragment:fragment:1.5.2'
+    implementation 'androidx.fragment:fragment:1.5.4'
 
     def lifecycle_version = "2.5.1"
     implementation "androidx.lifecycle:lifecycle-viewmodel:$lifecycle_version"
@@ -53,7 +53,7 @@ dependencies {
     implementation 'androidx.viewpager2:viewpager2:1.0.0'
 
     // Nullable
-    implementation 'org.checkerframework:checker-qual:3.25.0'
+    implementation 'org.checkerframework:checker-qual:3.26.0'
 
     // Auto-value
     implementation 'com.google.auto.value:auto-value-annotations:1.9'
