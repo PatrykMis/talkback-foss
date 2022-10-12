@@ -15,12 +15,10 @@ Matrix: [#talkback-foss:matrix.org](https://matrix.to/#/#talkback-foss:matrix.or
 All changes are in the commits log. Below are the most important ones:
 
 * Removed unnecessary Google dependencies and permissions (credits to [Tad](https://github.com/SkewedZeppelin) from [DivestOS](https://github.com/Divested-Mobile/talkback/) project)
-* Braille input: Added support for French and Polish braille tables
 * Various translations and typo fixes
 * added Gradle Wrapper to simplify build process on various systems
 * various improvements from [GrapheneOS](https://github.com/GrapheneOS/talkback) project by [Daniel Micay](https://github.com/thestinger)
-* Support for role=application web widgets/TV apps (credits to [Hugo](https://github.com/hugoholgersson)
-* updated dependencies which may fix potential security issues
+* updated dependencies which may fix bugs and potential security issues
 * Added more instructions in the readme
 
 There is also an issue tracker where various issues and improvements can be discussed. Unfortunately, the upstream code is not beeing updated too often.
@@ -41,7 +39,7 @@ on, toggle the switch preference to the on position.
 
 Alternatively you can do it via ADB:
 
-<code>adb shell settings put secure enabled_accessibility_services com.android.talkbackfoss/com.google.android.marvin.talkback.TalkBackService</code>
+<code>adb shell settings put secure enabled_accessibility_services app.talkbackfoss/com.google.android.marvin.talkback.TalkBackService</code>
 
 ## Versioning
 
