@@ -35,8 +35,8 @@ android {
         versionName "12.2"
         versionCode 1
         manifestPlaceholders = [talkbackMainPermission:talkbackMainPermission]
-        minSdkVersion 26
-        targetSdkVersion 31
+        minSdk 26
+        targetSdk 32
         testInstrumentationRunner 'android.test.InstrumentationTestRunner'
         multiDexEnabled true
     }
