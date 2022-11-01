@@ -47,9 +47,17 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
+    dependenciesInfo {
+        includeInApk false
+        includeInBundle false
+    }
     packagingOptions {
         exclude 'LICENSE'
         exclude 'README'
+        exclude 'DebugProbesKt.bin'
+        exclude 'META-INF/**.version'
+        exclude 'kotlin-tooling-metadata.json'
+        exclude 'kotlin/**.kotlin_builtins'
     }
     lint {
         checkReleaseBuilds false
