@@ -22,7 +22,7 @@ tasks.withType<org.jetbrains.kotlin.gradle.tasks.KotlinCompile>().configureEach 
 
 dependencies {
     implementation("org.jetbrains.kotlin:kotlin-gradle-plugin")
-    implementation("com.android.tools.build:gradle-api:7.2.1")
+    implementation("com.android.tools.build:gradle-api:7.4.0")
     gradleApi()
     implementation("com.android.tools.build:gradle:7.2.1")
 }
