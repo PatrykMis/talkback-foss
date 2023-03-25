@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="talkback_on">TalkBack on</string>
-  <string name="talkback_disabled">TalkBack: OFF</string>
+  <string name="talkback_on">TalkBack FOSS on</string>
+  <string name="talkback_disabled">TalkBack FOSS: OFF</string>
   <string name="spokenfeedback_on">音声フィードバックはオンです</string>
   <string name="spokenfeedback_suspended">音声フィードバックは停止中です</string>
   <string name="spokenfeedback_resumed">音声フィードバックを再開しました</string>

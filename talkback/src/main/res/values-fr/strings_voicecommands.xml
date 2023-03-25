@@ -56,8 +56,8 @@
   <string name="voice_commands_dictate">Dicter</string>
   <string name="voice_commands_write">Écrire</string>
   <string name="voice_commands_Spell">Épeler</string>
-  <string name="voice_commands_talkback_settings">Paramètres TalkBack</string>
-  <string name="voice_commands_talkback_setting">Paramètre TalkBack</string>
+  <string name="voice_commands_talkback_settings">Paramètres TalkBack FOSS</string>
+  <string name="voice_commands_talkback_setting">Paramètre TalkBack FOSS</string>
   <string name="voice_commands_screen_search">Rechercher sur l\'écran</string>
   <string name="voice_commands_search_on_screen">Rechercher sur l\'écran</string>
   <string name="voice_commands_copy">@android:string/copy</string>
@@ -105,7 +105,7 @@
   <string name="voice_commands_help_title">Présentation des commandes vocales</string>
   <string name="voice_commands_help_description">Pour utiliser les commandes vocales, balayez l\'écran vers la droite, puis vers le haut. Pour afficher cette liste de commandes, dites \"Aide\" ou \"Que puis-je dire\" à tout moment.</string>
   <string name="voice_commands_help_hint">Pour des résultats optimaux, utilisez la même formulation que sur les écrans suivants.</string>
-  <string name="voice_command_screen_locked_hint">Les commandes vocales ne sont pas disponibles lorsque l\'écran est verrouillé. Pour utiliser le menu TalkBack à la place, %1$s.</string>
+  <string name="voice_command_screen_locked_hint">Les commandes vocales ne sont pas disponibles lorsque l\'écran est verrouillé. Pour utiliser le menu TalkBack FOSS à la place, %1$s.</string>
   <string name="voice_commands_during_setup_hint">Les commandes vocales ne sont pas disponibles pendant la configuration.</string>
   <string name="voice_commands_help_reading_controls_title">@string/shortcut_title_reading_control</string>
   <string name="voice_commands_help_reading_controls_description">Modifier la manière dont vous lisez le contenu de l\'écran actuel</string>
@@ -136,7 +136,7 @@
   <string name="voice_commands_help_overview_description">Afficher vos applications récentes</string>
   <string name="voice_commands_help_assistant_description">Ouvrir l\'Assistant Google</string>
   <string name="voice_commands_help_other_commands_title">Autres commandes</string>
-  <string name="voice_commands_help_other_commands_description">Accéder aux paramètres TalkBack, masquer l\'écran, voir les actions, ajouter des libellés personnalisés, etc.</string>
+  <string name="voice_commands_help_other_commands_description">Accéder aux paramètres TalkBack FOSS, masquer l\'écran, voir les actions, ajouter des libellés personnalisés, etc.</string>
   <string name="voice_commands_help_label">Libellé [envoyer]</string>
   <string name="voice_commands_help_hide_screen_description">Masquer l\'écran pour qu\'il ne soit pas visible dans les lieux publics</string>
   <string name="voice_commands_help_show_screen_description">Après avoir masqué l\'écran, rétablir l\'état normal</string>

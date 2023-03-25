@@ -56,8 +56,8 @@
   <string name="voice_commands_dictate">พิมพ์ตามเสียงอ่าน</string>
   <string name="voice_commands_write">เขียน</string>
   <string name="voice_commands_Spell">สะกด</string>
-  <string name="voice_commands_talkback_settings">การตั้งค่า TalkBack</string>
-  <string name="voice_commands_talkback_setting">การตั้งค่า TalkBack</string>
+  <string name="voice_commands_talkback_settings">การตั้งค่า TalkBack FOSS</string>
+  <string name="voice_commands_talkback_setting">การตั้งค่า TalkBack FOSS</string>
   <string name="voice_commands_screen_search">การค้นหาในหน้าจอ</string>
   <string name="voice_commands_search_on_screen">ค้นหาในหน้าจอ</string>
   <string name="voice_commands_copy">@android:string/copy</string>
@@ -105,7 +105,7 @@
   <string name="voice_commands_help_title">ภาพรวมคำสั่งเสียง</string>
   <string name="voice_commands_help_description">หากต้องการใช้คำสั่งเสียง ให้เลื่อนไปทางขวาแล้วขึ้น พูดว่า \"ความช่วยเหลือ\" หรือ \"ฉันพูดอะไรได้บ้าง\" ได้ทุกเมื่อสำหรับรายการคำสั่งนี้</string>
   <string name="voice_commands_help_hint">พูดข้อความตามที่ระบุในหน้าจอต่อไปนี้เพื่อให้ได้ผลลัพธ์ที่ดีที่สุด</string>
-  <string name="voice_command_screen_locked_hint">ใช้คำสั่งเสียงขณะหน้าจอล็อกอยู่ไม่ได้ หากต้องการใช้เมนู TalkBack แทน ให้%1$s</string>
+  <string name="voice_command_screen_locked_hint">ใช้คำสั่งเสียงขณะหน้าจอล็อกอยู่ไม่ได้ หากต้องการใช้เมนู TalkBack FOSS แทน ให้%1$s</string>
   <string name="voice_commands_during_setup_hint">ใช้คำสั่งเสียงขณะตั้งค่าไม่ได้</string>
   <string name="voice_commands_help_reading_controls_title">@string/shortcut_title_reading_control</string>
   <string name="voice_commands_help_reading_controls_description">เปลี่ยนวิธีอ่านเนื้อหาในหน้าจอที่เปิดอยู่</string>
@@ -136,7 +136,7 @@
   <string name="voice_commands_help_overview_description">ดูแอปล่าสุด</string>
   <string name="voice_commands_help_assistant_description">เปิด Google Assistant</string>
   <string name="voice_commands_help_other_commands_title">คำสั่งอื่นๆ</string>
-  <string name="voice_commands_help_other_commands_description">ไปที่การตั้งค่า TalkBack, ซ่อนหน้าจอ, ดูการทำงาน, เพิ่มป้ายกำกับที่กำหนดเอง และอื่นๆ</string>
+  <string name="voice_commands_help_other_commands_description">ไปที่การตั้งค่า TalkBack FOSS, ซ่อนหน้าจอ, ดูการทำงาน, เพิ่มป้ายกำกับที่กำหนดเอง และอื่นๆ</string>
   <string name="voice_commands_help_label">ติดป้ายกำกับ [ส่ง]</string>
   <string name="voice_commands_help_hide_screen_description">ซ่อนจอแสดงผลเพื่อไม่ให้ผู้อื่นมองเห็นหน้าจอของคุณในที่สาธารณะ</string>
   <string name="voice_commands_help_show_screen_description">หลังจากซ่อนหน้าจอแล้ว ให้กลับสู่สถานะปกติ</string>

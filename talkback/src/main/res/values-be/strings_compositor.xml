@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="talkback_on">TalkBack уключаны</string>
-  <string name="talkback_disabled">TalkBack адключаны</string>
+  <string name="talkback_on">TalkBack FOSS уключаны</string>
+  <string name="talkback_disabled">TalkBack FOSS адключаны</string>
   <string name="spokenfeedback_on">Галасавая зваротная сувязь уключана</string>
   <string name="spokenfeedback_suspended">Галасавая зваротная сувязь прыпынена</string>
   <string name="spokenfeedback_resumed">Галасавая зваротная сувязь адноўлена</string>

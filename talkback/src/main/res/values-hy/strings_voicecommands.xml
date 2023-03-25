@@ -56,8 +56,8 @@
   <string name="voice_commands_dictate">Թելադրել</string>
   <string name="voice_commands_write">Գրել</string>
   <string name="voice_commands_Spell">Թելադրել</string>
-  <string name="voice_commands_talkback_settings">TalkBack-ի կարգավորումներ</string>
-  <string name="voice_commands_talkback_setting">TalkBack-ի կարգավորումներ</string>
+  <string name="voice_commands_talkback_settings">TalkBack FOSS-ի կարգավորումներ</string>
+  <string name="voice_commands_talkback_setting">TalkBack FOSS-ի կարգավորումներ</string>
   <string name="voice_commands_screen_search">Որոնել էկրանին</string>
   <string name="voice_commands_search_on_screen">Որոնել էկրանին</string>
   <string name="voice_commands_copy">@android:string/copy</string>
@@ -105,7 +105,7 @@
   <string name="voice_commands_help_title">Ձայնային հրահանգների համայնապատկեր</string>
   <string name="voice_commands_help_description">Ձայնային հրահանգներ օգտագործելու համար մատը սահեցրեք աջ, ապա վերև։ Այս հրահանգների ցանկը տեսնելու համար ցանկացած պահի ասեք «help» (օգնություն) կամ «what can I say?» (ի՞նչ կարող եմ ասել)։</string>
   <string name="voice_commands_help_hint">Որպեսզի հրահանգներն աշխատեն, արտասանեք դրանք այնպես, ինչպես նշված են հաջորդ էկրաններում։</string>
-  <string name="voice_command_screen_locked_hint">Ձայնային հրահանգները հասանելի չեն, երբ էկրանը կողպված է։ Փոխարենը օգտագործեք TalkBack-ի ընտրացանկը՝ կատարելով «%1$s» ժեստը։</string>
+  <string name="voice_command_screen_locked_hint">Ձայնային հրահանգները հասանելի չեն, երբ էկրանը կողպված է։ Փոխարենը օգտագործեք TalkBack FOSS-ի ընտրացանկը՝ կատարելով «%1$s» ժեստը։</string>
   <string name="voice_commands_during_setup_hint">Ձայնային հրահանգները հասանելի չեն կարգավորման ընթացքում։</string>
   <string name="voice_commands_help_reading_controls_title">@string/shortcut_title_reading_control</string>
   <string name="voice_commands_help_reading_controls_description">Ընթերցման պարամետրերի կարգավորում ընթացիկ էկրանին</string>
@@ -136,7 +136,7 @@
   <string name="voice_commands_help_overview_description">Դիտել վերջերս օգտագործած հավելվածները</string>
   <string name="voice_commands_help_assistant_description">Բացել Google Օգնականը</string>
   <string name="voice_commands_help_other_commands_title">Այլ հրահանգներ</string>
-  <string name="voice_commands_help_other_commands_description">Անցնել TalkBack-ի կարգավորումներ, խամրեցնել էկրանը, դիտել գործողությունները, ավելացնել անհատականացված պիտակներ և ավելին</string>
+  <string name="voice_commands_help_other_commands_description">Անցնել TalkBack FOSS-ի կարգավորումներ, խամրեցնել էկրանը, դիտել գործողությունները, ավելացնել անհատականացված պիտակներ և ավելին</string>
   <string name="voice_commands_help_label">Պիտակ [ուղարկել]</string>
   <string name="voice_commands_help_hide_screen_description">Թաքցնել էկրանը, որպեսզի այն տեսանելի չլինի կողմնակի անձանց՝ հանրային վայրերում</string>
   <string name="voice_commands_help_show_screen_description">Էկրանը թաքցնելուց հետո վերադարձնում է այն սովորական վիճակի</string>

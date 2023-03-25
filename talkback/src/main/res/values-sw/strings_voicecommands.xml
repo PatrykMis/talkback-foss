@@ -56,8 +56,8 @@
   <string name="voice_commands_dictate">Toa imla</string>
   <string name="voice_commands_write">Andika</string>
   <string name="voice_commands_Spell">Endeleza</string>
-  <string name="voice_commands_talkback_settings">Mipangilio ya TalkBack</string>
-  <string name="voice_commands_talkback_setting">Mipangilio ya TalkBack</string>
+  <string name="voice_commands_talkback_settings">Mipangilio ya TalkBack FOSS</string>
+  <string name="voice_commands_talkback_setting">Mipangilio ya TalkBack FOSS</string>
   <string name="voice_commands_screen_search">Utafutaji kwenye skrini</string>
   <string name="voice_commands_search_on_screen">Tafuta kwenye skrini</string>
   <string name="voice_commands_copy">@android:string/copy</string>
@@ -105,7 +105,7 @@
   <string name="voice_commands_help_title">Muhtasari wa amri ya sauti</string>
   <string name="voice_commands_help_description">Ili utumie amri za sauti, telezesha kidole kulia kisha juu. Tamka \"Usaidizi\" au \"Ninaweza kusema nini?\" wakati wowote ili upate orodha hii ya amri.</string>
   <string name="voice_commands_help_hint">Kwa matokeo bora, tamka maneno kamili yaliyoorodheshwa kwenye skrini zinazofuata.</string>
-  <string name="voice_command_screen_locked_hint">Amri za sauti hazipatikani wakati skrini imefungwa. Ili utumie menyu ya TalkBack badala yake, %1$s.</string>
+  <string name="voice_command_screen_locked_hint">Amri za sauti hazipatikani wakati skrini imefungwa. Ili utumie menyu ya TalkBack FOSS badala yake, %1$s.</string>
   <string name="voice_commands_during_setup_hint">Amri za sauti hazipatikani wakati wa kuweka mipangilio.</string>
   <string name="voice_commands_help_reading_controls_title">@string/shortcut_title_reading_control</string>
   <string name="voice_commands_help_reading_controls_description">Badilisha jinsi unavyosoma maudhui kwenye skrini ya sasa</string>
@@ -136,7 +136,7 @@
   <string name="voice_commands_help_overview_description">Angalia programu zako za hivi majuzi</string>
   <string name="voice_commands_help_assistant_description">Fungua Programu ya Mratibu wa Google</string>
   <string name="voice_commands_help_other_commands_title">Amri zingine</string>
-  <string name="voice_commands_help_other_commands_description">Nenda kwenye mipangilio ya TalkBack, ficha skrini, angalia vitendo na lebo maalum na zaidi</string>
+  <string name="voice_commands_help_other_commands_description">Nenda kwenye mipangilio ya TalkBack FOSS, ficha skrini, angalia vitendo na lebo maalum na zaidi</string>
   <string name="voice_commands_help_label">Weka lebo [submit]</string>
   <string name="voice_commands_help_hide_screen_description">Ficha skrini yako ili isionekane kwa wengine ukiwa katika maeneo ya umma</string>
   <string name="voice_commands_help_show_screen_description">Baada ya kuficha skrini yako, irejeshe katika hali ya kawaida</string>

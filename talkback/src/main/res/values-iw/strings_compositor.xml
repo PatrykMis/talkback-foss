@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="talkback_on">‏TalkBack מופעל</string>
-  <string name="talkback_disabled">‏TalkBack מושבת</string>
+  <string name="talkback_on">‏TalkBack FOSS מופעל</string>
+  <string name="talkback_disabled">‏TalkBack FOSS מושבת</string>
   <string name="spokenfeedback_on">קורא מסך קולי מופעל</string>
   <string name="spokenfeedback_suspended">קורא מסך קולי מושעה</string>
   <string name="spokenfeedback_resumed">קורא מסך קולי מופעל מחדש</string>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="braille_ime_service_name">TalkBack-brailletastatur</string>
+  <string name="braille_ime_service_name">TalkBack FOSS-brailletastatur</string>
   <string name="switch_to_screen_away_announcement">Tilstanden Skærm vendt væk</string>
   <string name="switch_to_tabletop_announcement">Tilstanden Skærm vendt op. Placer enheden, så opladerporten vender mod venstre. Hold seks fingre nede for at opdatere punkternes placering.</string>
   <string name="bring_ime_settings_page">Ingen andre tastaturer er aktiveret. Gå til indstillingerne for tastatur</string>
@@ -10,7 +10,7 @@
   <string name="switched_to_ueb_uncontracted_announcement">Der er skiftet til uforkortet UEB</string>
   <string name="braille_ime_displayed_name">brailletastatur</string>
   <string name="multiple_languages_braille_ime_displayed_name">brailletastatur, %s</string>
-  <string name="input_view_caption">TalkBack-braille-tastatur – du kan få hjælp på g.co/help/braille</string>
+  <string name="input_view_caption">TalkBack FOSS-braille-tastatur – du kan få hjælp på g.co/help/braille</string>
   <string name="perform_action_next">Næste</string>
   <string name="perform_action_submitting">Indsender tekst</string>
   <string name="calibration_step1_hold_left_finger_announcement">Opdaterer punkternes placering. Lad os starte med at registrere punkterne på din venstre hånd. Hold de tre midterste fingre på din venstre hånd nede på skærmen.</string>
@@ -73,17 +73,17 @@
     <item quantity="one">punktet %s</item>
     <item quantity="other">punkterne %s</item>
   </plurals>
-  <string name="talkback_off_dialog_title">Aktivér TalkBack for at bruge braille-tastaturet</string>
+  <string name="talkback_off_dialog_title">Aktivér TalkBack FOSS for at bruge braille-tastaturet</string>
   <string name="talkback_off_dialog_positive_button">Aktivér funktionen i indstillingerne for hjælpefunktioner</string>
-  <string name="talkback_suspend_dialog_title">Aktivér TalkBack igen for at bruge braille-tastaturet</string>
-  <string name="talkback_off_or_suspend_dialog_message">Når TalkBack er aktiveret, kan du trykke på din skærm for at indtaste braille-tegn</string>
+  <string name="talkback_suspend_dialog_title">Aktivér TalkBack FOSS igen for at bruge braille-tastaturet</string>
+  <string name="talkback_off_or_suspend_dialog_message">Når TalkBack FOSS er aktiveret, kan du trykke på din skærm for at indtaste braille-tegn</string>
   <string name="next_keyboard">Næste tastatur</string>
   <string name="braille_tutorial_title">Selvstudie til braille-tastatur</string>
-  <string name="tutorial_intro_description">Med brailletastaturet kan du trykke på din skærm for at indtaste 6-punkts braille.\n\nDu bruger i øjeblikket Unified English Braille. Hvis du vil skifte dit indtastningssprog, skal du gå til TalkBack-indstillinger.\n\nHvis du vil skrive braille, skal du holde og bruge din telefon på en anden måde.</string>
+  <string name="tutorial_intro_description">Med brailletastaturet kan du trykke på din skærm for at indtaste 6-punkts braille.\n\nDu bruger i øjeblikket Unified English Braille. Hvis du vil skifte dit indtastningssprog, skal du gå til TalkBack FOSS-indstillinger.\n\nHvis du vil skrive braille, skal du holde og bruge din telefon på en anden måde.</string>
   <string name="next_step">Næste</string>
   <string name="leave_keyboard">Luk braille-tastatur</string>
-  <string name="hold_six_fingers_description">Du kan ikke bruge almindelige TalkBack-bevægelser på braille-tastaturet.\n\nLad os starte med at konfigurere placeringen af de seks braille-punkter, når du skriver.</string>
-  <string name="rotate_orientation_description_1">Fra nu af kan du ikke bruge almindelige TalkBack-bevægelser. TalkBack er ikke tilgængelig, når du bruger braille-tastaturet.</string>
+  <string name="hold_six_fingers_description">Du kan ikke bruge almindelige TalkBack FOSS-bevægelser på braille-tastaturet.\n\nLad os starte med at konfigurere placeringen af de seks braille-punkter, når du skriver.</string>
+  <string name="rotate_orientation_description_1">Fra nu af kan du ikke bruge almindelige TalkBack FOSS-bevægelser. TalkBack FOSS er ikke tilgængelig, når du bruger braille-tastaturet.</string>
   <string name="rotate_orientation_description_2">For at komme i gang skal du holde din telefon sådan, med skærmen vendt væk fra dig selv.</string>
   <string name="tap_to_continue">Tryk to gange et vilkårligt sted for at fortsætte</string>
   <string name="instruction_type_letter_a_left_index_finger">venstre pegefinger</string>
@@ -99,7 +99,7 @@
   <string name="result_swipe_right">MELLEMRUM</string>
   <string name="result_swipe_down_2_fingers">SKJUL TASTATURET</string>
   <string name="result_swipe_down_3_fingers">NÆSTE TASTATUR</string>
-  <string name="rotate_orientation_announcement">Du kan nu ikke længere bruge almindelige TalkBack-bevægelser. TalkBack er ikke tilgængelig, når du bruger braille-tastaturet.\n\n%1$s</string>
+  <string name="rotate_orientation_announcement">Du kan nu ikke længere bruge almindelige TalkBack FOSS-bevægelser. TalkBack FOSS er ikke tilgængelig, når du bruger braille-tastaturet.\n\n%1$s</string>
   <string name="rotate_orientation_inactive_announcement">Først skal du vende din telefon, så skærmen vender væk fra dig selv.\n\nDerefter skal du rotere telefonen til liggende format. Dine hænder skal holde om telefonens korte sider. Højre hånd skal holde om den ende, hvor USB-porten er. Lad dine tre midterste fingre hvile på skærmen, og brug din lillefinger og tommelfinger til at holde telefonen.\n\nNår du er klar, skal du trykke to gange på skærmen for at fortsætte.\n\nHvis du vil lukke braille-tastaturet, skal du stryge nedad mod jorden med tre fingre. Dermed skiftes der tilbage til dit oprindelige tastatur.</string>
   <string name="rotate_orientation_continue_announcement">Din telefon er i stående format. Hvis du vil fortsætte, skal du rotere din telefon til liggende format, så den lange side vender nedad. Derefter skal du vende skærmen væk fra dig selv. Når du er klar, skal du trykke to gange på skærmen for at fortsætte.</string>
   <string name="type_letter_a_announcement_left_index_finger">venstre pegefinger</string>
@@ -115,7 +115,7 @@
   <string name="swipe_down_3_fingers_announcement">Hvis du vil skifte til dit andet tastatur, skal du stryge nedad med tre fingre. Prøv det nu.</string>
   <string name="swipe_down_3_fingers_completed_announcement">Næste tastatur. Dette skifter normalt til det næste tastatur. I øjeblikket beholder du braille-tastaturet, fordi du stadig er i selvstudiet.</string>
   <string name="swipe_up_3_fingers_announcement">Du kan også skrive i tilstanden Skærm vendt op ved at placere din telefon fladt på et bord. Hvis du vil afslutte selvstudiet, skal du stryge opad med tre fingre og finde muligheden for at afslutte selvstudiet.</string>
-  <string name="open_context_menu_announcement">Indstillingsmenuen er åben. Vend din telefon om igen, så den er rettet mod dig, og hold den normalt. Du kan nu bruge almindelige TalkBack-bevægelser til at navigere på telefonen. Stryg til højre for at se flere valgmuligheder.</string>
+  <string name="open_context_menu_announcement">Indstillingsmenuen er åben. Vend din telefon om igen, så den er rettet mod dig, og hold den normalt. Du kan nu bruge almindelige TalkBack FOSS-bevægelser til at navigere på telefonen. Stryg til højre for at se flere valgmuligheder.</string>
   <string name="hold_six_fingers_announcement">%s\nLæg din enhed fladt på et bord. Derefter skal du holde nede på skærmen med de tre midterste fingre på hver hånd i en position, der er behagelig for dig at skrive i.</string>
   <string name="hold_six_fingers_inactive_announcement">Læg din enhed fladt på et bord. Derefter skal du holde nede på skærmen med de tre midterste fingre på hver hånd i en position, der er behagelig for dig at skrive i.</string>
   <string name="finish_tutorial_announcement">Viser braille-tastaturet. Vend din telefon, så skærmen vender væk fra dig. Drej telefonen vandret, så den er i liggende format. Du kan nu begynde at skrive.</string>

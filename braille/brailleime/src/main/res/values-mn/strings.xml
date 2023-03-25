@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="braille_ime_service_name">TalkBack брайл гар</string>
+  <string name="braille_ime_service_name">TalkBack FOSS брайл гар</string>
   <string name="switch_to_screen_away_announcement">Дэлгэцээс хол байх горим</string>
   <string name="switch_to_tabletop_announcement">Ширээн дээр тавих горим. Цэнэглэх порттой төхөөрөмжөө зүүн тийш байрлуулна уу. Цэгийн байрлалыг шинэчлэхийн тулд 6 хуруугаараа удаан дарна уу.</string>
   <string name="bring_ime_settings_page">Идэвхжүүлсэн өөр гар байхгүй байна, гарын тохиргоо руу очно уу</string>
@@ -10,7 +10,7 @@
   <string name="switched_to_ueb_uncontracted_announcement">Товчлоогүй UEB рүү сэлгэсэн</string>
   <string name="braille_ime_displayed_name">брайл гар</string>
   <string name="multiple_languages_braille_ime_displayed_name">брайл гар, %s</string>
-  <string name="input_view_caption">TalkBack брайл гар - тусламж хэрэгтэй бол g.co/help/braille холбоосоор зочилно уу</string>
+  <string name="input_view_caption">TalkBack FOSS брайл гар - тусламж хэрэгтэй бол g.co/help/braille холбоосоор зочилно уу</string>
   <string name="perform_action_next">Дараах</string>
   <string name="perform_action_submitting">Текстийг илгээх</string>
   <string name="calibration_step1_hold_left_finger_announcement">Цэгийн байрлалыг шинэчилж байна. Эхлээд таны зүүн гар дээрх цэгүүдийг бичицгээе. Зүүн гарынхаа дундах 3 хуруугаар дэлгэцэд хүрээд удаан дарна уу.</string>
@@ -73,17 +73,17 @@
     <item quantity="one">цэг %s</item>
     <item quantity="other">цэгүүд %s</item>
   </plurals>
-  <string name="talkback_off_dialog_title">Брайл гарыг ашиглахын тулд TalkBack-г асаах</string>
+  <string name="talkback_off_dialog_title">Брайл гарыг ашиглахын тулд TalkBack FOSS-г асаах</string>
   <string name="talkback_off_dialog_positive_button">Хандалтын тохиргоонд асаах</string>
-  <string name="talkback_suspend_dialog_title">Брайл гарыг ашиглахын тулд TalkBack-г үргэлжлүүлэх</string>
-  <string name="talkback_off_or_suspend_dialog_message">TalkBack асаалттай үед та брайл тэмдэгтийг оруулахын тулд дэлгэц дээрээ товших боломжтой.</string>
+  <string name="talkback_suspend_dialog_title">Брайл гарыг ашиглахын тулд TalkBack FOSS-г үргэлжлүүлэх</string>
+  <string name="talkback_off_or_suspend_dialog_message">TalkBack FOSS асаалттай үед та брайл тэмдэгтийг оруулахын тулд дэлгэц дээрээ товших боломжтой.</string>
   <string name="next_keyboard">Дараагийн гар</string>
   <string name="braille_tutorial_title">Брайл гарын практик хичээл</string>
-  <string name="tutorial_intro_description">Та брайл гарын тусламжтай 6 цэгт брайлыг оруулахын тулд дэлгэцээ товшиж болно.\n\nТа англи хэлний нэгтгэсэн брайлыг ашиглаж байна. Та бичих хэлээ сэлгэхийн тулд TalkBack-н тохиргоо руу очно уу.\n\nБрайлаар бичихийн тулд утсаа өөрөөр барьж, ашиглах шаардлагатай.</string>
+  <string name="tutorial_intro_description">Та брайл гарын тусламжтай 6 цэгт брайлыг оруулахын тулд дэлгэцээ товшиж болно.\n\nТа англи хэлний нэгтгэсэн брайлыг ашиглаж байна. Та бичих хэлээ сэлгэхийн тулд TalkBack FOSS-н тохиргоо руу очно уу.\n\nБрайлаар бичихийн тулд утсаа өөрөөр барьж, ашиглах шаардлагатай.</string>
   <string name="next_step">Дараах</string>
   <string name="leave_keyboard">Брайл гарыг орхих</string>
-  <string name="hold_six_fingers_description">Та брайл гар дээр энгийн TalkBack зангаа ашиглах боломжгүй болно.\n\nЭхлүүлэхийн тулд 6 брайлын байрлалыг таныг бичих үед тохируулцгаая.</string>
-  <string name="rotate_orientation_description_1">Одооноос та TalkBack-н энгийн зангааг ашиглах боломжгүй болно. TalkBack нь брайл гарыг ашиглах үед боломжгүй байна.</string>
+  <string name="hold_six_fingers_description">Та брайл гар дээр энгийн TalkBack FOSS зангаа ашиглах боломжгүй болно.\n\nЭхлүүлэхийн тулд 6 брайлын байрлалыг таныг бичих үед тохируулцгаая.</string>
+  <string name="rotate_orientation_description_1">Одооноос та TalkBack FOSS-н энгийн зангааг ашиглах боломжгүй болно. TalkBack FOSS нь брайл гарыг ашиглах үед боломжгүй байна.</string>
   <string name="rotate_orientation_description_2">Эхлүүлэхийн тулд дэлгэцийг нь цааш харуулж, утсаа ингэж барина уу.</string>
   <string name="tap_to_continue">Үргэлжлүүлэхийн тулд аль нэг хэсэгт хоёр товшино уу</string>
   <string name="instruction_type_letter_a_left_index_finger">зүүн гарын долоовор хуруу</string>
@@ -99,7 +99,7 @@
   <string name="result_swipe_right">ЗАЙ</string>
   <string name="result_swipe_down_2_fingers">ГАРЫГ НУУХ</string>
   <string name="result_swipe_down_3_fingers">ДАРААГИЙН ГАР</string>
-  <string name="rotate_orientation_announcement">Одооноос та TalkBack-н энгийн зангааг ашиглах боломжгүй болно. TalkBack нь брайл гарыг ашиглах үед боломжгүй байна.\n\n%1$s</string>
+  <string name="rotate_orientation_announcement">Одооноос та TalkBack FOSS-н энгийн зангааг ашиглах боломжгүй болно. TalkBack FOSS нь брайл гарыг ашиглах үед боломжгүй байна.\n\n%1$s</string>
   <string name="rotate_orientation_inactive_announcement">Эхлээд дэлгэцийг нь цааш харуулж, утсаа эргүүлнэ үү.\n\nДараа нь утсыг хэвтээ чигт эргүүлж, хөндлөн байрлалд оруулна уу. Таны гар утасны богино ирмэгийг атгаж байх ёстой. Таны баруун гар USB порттой ирмэгийг барьж байх ёстой. Дундах 3 хуруугаа дэлгэц дээр тавьж, утас барихдаа чигчий болон эрхий хуруугаа ашиглана уу.\n\nТа бэлэн болсон үедээ үргэлжлүүлэхийн тулд дэлгэц дээр хоёр товшино уу.\n\nБрайл гараас гарахын тулд 3 хуруугаар газар луу доош шударна уу. Энэ нь таны анхны гар луу буцааж сэлгэдэг.</string>
   <string name="rotate_orientation_continue_announcement">Таны утас босоо байрлалд байна. Үргэлжлүүлэхийн тулд урт тал нь доор байхаар утсаа хэвтээ чигт эргүүлнэ үү. Дараа нь дэлгэцийг нь цааш харуулж эргүүлнэ үү. Та бэлэн болсон үедээ үргэлжлүүлэхийн тулд дэлгэц дээр хоёр товшино уу.</string>
   <string name="type_letter_a_announcement_left_index_finger">зүүн гарын долоовор хуруу</string>
@@ -115,7 +115,7 @@
   <string name="swipe_down_3_fingers_announcement">Өөр гар луугаа сэлгэхийн тулд 3 хуруугаар доош шударна уу. Одоо туршиж үзээрэй.</string>
   <string name="swipe_down_3_fingers_completed_announcement">Дараагийн гар Энэ нь ихэвчлэн дараагийн гар луу сэлгэнэ. Та практик хичээл дээр байсаар байгаа тул энэ удаад брайл гар дээр байна.</string>
   <string name="swipe_up_3_fingers_announcement">Та түүнчлэн утсаа ширээн дээр тэгшхэн байрлуулан ширээн дээр тавих горимд бичих боломжтой. Практик хичээлийг дуусгахын тулд 3 хуруугаар дээш шударч, практик хичээлийг дуусгах сонголтыг олно уу</string>
-  <string name="open_context_menu_announcement">Сонголтын цэс нээлттэй байна. Утсаа буцааж хөнтөрч, өөр лүүгээ харуулаад ердийнхөөр барина уу. Та одоо шилжихийн тулд TalkBack-н энгийн зангааг ашиглах боломжтой. Бусад сонголтыг харахын тулд баруун тийш шударна уу.</string>
+  <string name="open_context_menu_announcement">Сонголтын цэс нээлттэй байна. Утсаа буцааж хөнтөрч, өөр лүүгээ харуулаад ердийнхөөр барина уу. Та одоо шилжихийн тулд TalkBack FOSS-н энгийн зангааг ашиглах боломжтой. Бусад сонголтыг харахын тулд баруун тийш шударна уу.</string>
   <string name="hold_six_fingers_announcement">%s\nТөхөөрөмжөө ширээн дээр тэгшхэн байрлуулна уу. Дараа нь бичихэд эвтэйхэн байрлалдаа хоёр гарын дундах 3 хуруугаараа дэлгэцэд хүрээд удаан дарна уу.</string>
   <string name="hold_six_fingers_inactive_announcement">Төхөөрөмжөө ширээн дээр тэгшхэн байрлуулна уу. Дараа нь бичихэд эвтэйхэн байрлалдаа хоёр гарын дундах 3 хуруугаараа дэлгэцэд хүрээд удаан дарна уу.</string>
   <string name="finish_tutorial_announcement">Брайл гарыг харуулж байна. Утсаа эргүүлж, дэлгэцийг нь цааш харуулна уу. Хөндлөн байрлалд оруулахын тулд утсаа хэвтээ байдлаар эргүүлнэ үү. Дараа нь бичиж эхэлнэ үү.</string>

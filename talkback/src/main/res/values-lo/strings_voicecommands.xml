@@ -56,8 +56,8 @@
   <string name="voice_commands_dictate">ສັ່ງດ້ວຍສຽງ</string>
   <string name="voice_commands_write">ຂຽນ</string>
   <string name="voice_commands_Spell">ສະກົດຄຳ</string>
-  <string name="voice_commands_talkback_settings">ການຕັ້ງຄ່າ TalkBack</string>
-  <string name="voice_commands_talkback_setting">ການຕັ້ງຄ່າ TalkBack</string>
+  <string name="voice_commands_talkback_settings">ການຕັ້ງຄ່າ TalkBack FOSS</string>
+  <string name="voice_commands_talkback_setting">ການຕັ້ງຄ່າ TalkBack FOSS</string>
   <string name="voice_commands_screen_search">ຊອກຫາໃນໜ້າຈໍ</string>
   <string name="voice_commands_search_on_screen">ຊອກຫາຢູ່ໜ້າຈໍ</string>
   <string name="voice_commands_copy">@android:string/copy</string>
@@ -105,7 +105,7 @@
   <string name="voice_commands_help_title">ພາບຮວມຄຳສັ່ງສຽງ</string>
   <string name="voice_commands_help_description">ເພື່ອໃຊ້ຄຳສັ່ງສຽງ, ໃຫ້ປັດຂວາແລ້ວປັດຂຶ້ນ. ໃຫ້ເວົ້າວ່າ \"ຊ່ວຍເຫຼືອ\" ຫຼື \"ຂ້ອຍເວົ້າຫຍັງໄດ້ແດ່?\" ຕອນໃດກໍໄດ້ເພື່ອເບິ່ງລາຍຊື່ຄຳສັ່ງຕ່າງໆ.</string>
   <string name="voice_commands_help_hint">ເພື່ອໃຫ້ໄດ້ຜົນດີທີ່ສຸດ, ໃຫ້ເວົ້າຄຳສັບກົງກັບທີ່ມີໃນລາຍຊື່ຢູ່ໜ້າຈໍຕໍ່ໄປນີ້.</string>
-  <string name="voice_command_screen_locked_hint">ບໍ່ສາມາດໃຊ້ຄຳສັ່ງສຽງໄດ້ໃນເວລາທີ່ລັອກໜ້າຈໍໄວ້ຢູ່. ເພື່ອໃຊ້ເມນູ TalkBack ແທນ, %1$s.</string>
+  <string name="voice_command_screen_locked_hint">ບໍ່ສາມາດໃຊ້ຄຳສັ່ງສຽງໄດ້ໃນເວລາທີ່ລັອກໜ້າຈໍໄວ້ຢູ່. ເພື່ອໃຊ້ເມນູ TalkBack FOSS ແທນ, %1$s.</string>
   <string name="voice_commands_during_setup_hint">ບໍ່ສາມາດໃຊ້ຄຳສັ່ງສຽງໃນລະຫວ່າງການຕັ້ງຄ່າໄດ້.</string>
   <string name="voice_commands_help_reading_controls_title">@string/shortcut_title_reading_control</string>
   <string name="voice_commands_help_reading_controls_description">ປ່ຽນວິທີທີ່ທ່ານອ່ານເນື້ອຫາຢູ່ໜ້າຈໍປັດຈຸບັນ</string>
@@ -136,7 +136,7 @@
   <string name="voice_commands_help_overview_description">ເບິ່ງແອັບຫຼ້າສຸດຂອງທ່ານ</string>
   <string name="voice_commands_help_assistant_description">ເປີດຜູ້ຊ່ວຍ Google</string>
   <string name="voice_commands_help_other_commands_title">ຄຳສັ່ງອື່ນໆ</string>
-  <string name="voice_commands_help_other_commands_description">ໄປທີ່ການຕັ້ງຄ່າ TalkBack, ເຊື່ອງໜ້າຈໍ, ເບິ່ງຄຳສັ່ງ, ເພີ່ມປ້າຍກຳກັບກຳນົດເອງ ແລະ ອື່ນໆ</string>
+  <string name="voice_commands_help_other_commands_description">ໄປທີ່ການຕັ້ງຄ່າ TalkBack FOSS, ເຊື່ອງໜ້າຈໍ, ເບິ່ງຄຳສັ່ງ, ເພີ່ມປ້າຍກຳກັບກຳນົດເອງ ແລະ ອື່ນໆ</string>
   <string name="voice_commands_help_label">ປ້າຍກຳກັບ [submit]</string>
   <string name="voice_commands_help_hide_screen_description">ເຊື່ອງການສະແດງຜົນເພື່ອບໍ່ໃຫ້ຄົນອື່ນເຫັນໜ້າຈໍຂອງທ່ານໃນສະຖານທີ່ສາທາລະນະ</string>
   <string name="voice_commands_help_show_screen_description">ຫຼັງຈາກການເຊື່ອງໜ້າຈໍຂອງທ່ານແລ້ວ, ໃຫ້ປ່ຽນມັນກັບໄປສູ່ສະຖານະປົກກະຕິ</string>

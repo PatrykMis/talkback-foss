@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="braille_ime_service_name">TalkBack tastatura sa Brajevom azbukom</string>
+  <string name="braille_ime_service_name">TalkBack FOSS tastatura sa Brajevom azbukom</string>
   <string name="braille_ime_bd_mode_name">Unos na Brajevom ekranu</string>
   <string name="switch_to_screen_away_announcement">Režim rada sa ekranom nadole</string>
   <string name="switch_to_tabletop_announcement">Stoni režim. Postavite uređaj tako da port za punjenje bude levo. Da biste ažurirali položaj tačaka, pritisnite i držite sa 6 prstiju.</string>
@@ -64,17 +64,17 @@
   <string name="gesture_open_context_menu">Da biste pronašli <b>pomoć i druge opcije</b>, prevucite nagore pomoću 3 prsta</string>
   <string name="not_enough_touch_points_dialog_title">Uređaj ne podržava tastaturu sa Brajevom azbukom</string>
   <string name="not_enough_touch_points_dialog_message">Uređaj ne podržava dovoljno dodirnih tačaka. Više informacija potražite od proizvođača uređaja.</string>
-  <string name="talkback_off_dialog_title">Uključite TalkBack da biste koristili tastaturu sa Brajevom azbukom</string>
+  <string name="talkback_off_dialog_title">Uključite TalkBack FOSS da biste koristili tastaturu sa Brajevom azbukom</string>
   <string name="talkback_off_dialog_positive_button">Uključi u podešavanjima pristupačnosti</string>
-  <string name="talkback_suspend_dialog_title">Nastavite da koristite TalkBack da biste koristili tastaturu sa Brajevom azbukom</string>
-  <string name="talkback_off_or_suspend_dialog_message">Kada je TalkBack uključen, možete da dodirnete ekran da biste unosili Brajeve simbole.</string>
+  <string name="talkback_suspend_dialog_title">Nastavite da koristite TalkBack FOSS da biste koristili tastaturu sa Brajevom azbukom</string>
+  <string name="talkback_off_or_suspend_dialog_message">Kada je TalkBack FOSS uključen, možete da dodirnete ekran da biste unosili Brajeve simbole.</string>
   <string name="next_keyboard">Sledeća tastatura</string>
   <string name="braille_tutorial_title">Vodič za tastaturu sa Brajevom azbukom</string>
-  <string name="tutorial_intro_description">Uz tastaturu sa Brajevom azbukom možete da dodirnete ekran da biste uneli Brajev znak od 6 tačaka.\n\nKoristite jedinstvenu Brajevu azbuku za engleski. Da biste promenili jezik za unos teksta, idite u podešavanja TalkBack-a.\n\nDa biste unosili Brajeve znakove, morate da držite i koristite telefon drugačije.</string>
+  <string name="tutorial_intro_description">Uz tastaturu sa Brajevom azbukom možete da dodirnete ekran da biste uneli Brajev znak od 6 tačaka.\n\nKoristite jedinstvenu Brajevu azbuku za engleski. Da biste promenili jezik za unos teksta, idite u podešavanja TalkBack FOSS-a.\n\nDa biste unosili Brajeve znakove, morate da držite i koristite telefon drugačije.</string>
   <string name="next_step">Dalje</string>
   <string name="leave_keyboard">Zatvori tastaturu sa Brajevom azbukom</string>
-  <string name="hold_six_fingers_description">Nećete moći da koristite standardne TalkBack pokrete na tastaturi sa Brajevom azbukom.\n\nDa biste započeli, podesite položaj 6 tačaka za korišćenje Brajeve azbuke pri unosu teksta.</string>
-  <string name="rotate_orientation_description_1">Od sada više nećete moći da koristite uobičajene TalkBack pokrete. TalkBack nije dostupan kada koristite tastatururu sa Brajevom azbukom.</string>
+  <string name="hold_six_fingers_description">Nećete moći da koristite standardne TalkBack FOSS pokrete na tastaturi sa Brajevom azbukom.\n\nDa biste započeli, podesite položaj 6 tačaka za korišćenje Brajeve azbuke pri unosu teksta.</string>
+  <string name="rotate_orientation_description_1">Od sada više nećete moći da koristite uobičajene TalkBack FOSS pokrete. TalkBack FOSS nije dostupan kada koristite tastatururu sa Brajevom azbukom.</string>
   <string name="rotate_orientation_description_2">Da biste započeli, držite telefon ovako, tako da je ekran okrenut od vas.</string>
   <string name="tap_to_continue">Dvaput dodirnite bilo gde da biste nastavili</string>
   <string name="instruction_type_letter_a">Dodirnite 1. tačku levim kažiprstom da biste uneli slovo A</string>
@@ -92,7 +92,7 @@
   <string name="result_swipe_down">POMERILI STE KURSOR UNAPRED</string>
   <string name="result_swipe_down_2_fingers">SAKRIJ TASTATURU</string>
   <string name="result_swipe_down_3_fingers">SLEDEĆA TASTATURA</string>
-  <string name="rotate_orientation_announcement">Od sada više nećete moći da koristite uobičajene TalkBack pokrete. TalkBack nije dostupan kada koristite tastaturu sa Brajevom azbukom.\n\n%1$s</string>
+  <string name="rotate_orientation_announcement">Od sada više nećete moći da koristite uobičajene TalkBack FOSS pokrete. TalkBack FOSS nije dostupan kada koristite tastaturu sa Brajevom azbukom.\n\n%1$s</string>
   <string name="rotate_orientation_inactive_announcement">Prvo okrenite telefon tako da je ekran okrenut od vas.\n\nZatim rotirajte telefon horizontalno u vodoravan položaj. Ruke bi trebalo da obuhvataju kratke krajeve telefona. Desna ruka bi trebalo da drži kraj sa USB portom. Položite srednja 3 prsta na ekran i pridržavajte telefon pomoću malog prsta i palca.\n\nKada budete spremni, dvaput dodirnite ekran da biste nastavili.\n\nDa biste zatvorili tastaturu sa Brajevom azbukom, prevucite nadole prema tlu pomoću 3 prsta. Time se vraćate na prvobitnu tastaturu.</string>
   <string name="rotate_orientation_continue_announcement">Telefon je u vertikalnom položaju. Da biste nastavili, rotirajte telefon horizontalno tako da duža strana bude na dnu. Zatim okrenite ekran tako da bude okrenut od vas. Kada budete spremni, dvaput dodirnite ekran da biste nastavili.</string>
   <string name="type_letter_a_announcement">Neka ekran ostane okrenut od vas. Držite telefon obema rukama za kratke ivice telefona tako da srednja 3 prsta svake ruke mogu da dodirnu ekran.\n\nLevi kažiprst bi trebalo da bude na 1. tački. Sada dodirnite 1. tačku da biste uneli slovo A.</string>
@@ -108,7 +108,7 @@
   <string name="swipe_down_3_fingers_announcement">Da biste prešli na drugu tastaturu, prevucite nadole pomoću 3 prsta. Isprobajte.</string>
   <string name="swipe_down_3_fingers_completed_announcement">Sledeća tastatura. Ovim se obično prelazi na sledeću tastaturu. Ovaj put ostajete na tastaturi sa Brajevom azbukom zato što ste još uvek u vodiču.</string>
   <string name="swipe_up_3_fingers_announcement">Možete i da unosite tekst u stonom režimu tako što ćete postaviti telefon ravno na sto. Da biste dovršili vodič, prevucite nagore pomoću 3 prsta i pronađite opciju Dovrši vodič</string>
-  <string name="open_context_menu_announcement">Meni sa opcijama je otvoren. Obrnite telefon tako da je okrenut ka vama i držite ga normalno. Sada možete da koristite uobičajene TalkBack pokrete za kretanje. Prevucite udesno da biste videli još opcija.</string>
+  <string name="open_context_menu_announcement">Meni sa opcijama je otvoren. Obrnite telefon tako da je okrenut ka vama i držite ga normalno. Sada možete da koristite uobičajene TalkBack FOSS pokrete za kretanje. Prevucite udesno da biste videli još opcija.</string>
   <string name="hold_six_fingers_announcement">%s\nPostavite uređaj ravno na sto. Zatim dodirnite i zadržite ekran pomoću srednja 3 prsta obe ruke u položaju za unos teksta koji vam je udoban.</string>
   <string name="hold_six_fingers_inactive_announcement">Postavite uređaj ravno na sto. Zatim dodirnite i zadržite ekran pomoću srednja 3 prsta obe ruke u položaju za unos teksta koji vam je udoban.</string>
   <string name="finish_tutorial_announcement">Prikazuje se tastatura sa Brajevom azbukom. Okrenite telefon tako da je ekran okrenut od vas. Rotirajte telefon horizontalno u vodoravan položaj. Zatim počnite sa unosom teksta.</string>

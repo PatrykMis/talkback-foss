@@ -56,8 +56,8 @@
   <string name="voice_commands_dictate">Dikte</string>
   <string name="voice_commands_write">Tulis</string>
   <string name="voice_commands_Spell">Eja</string>
-  <string name="voice_commands_talkback_settings">Setelan TalkBack</string>
-  <string name="voice_commands_talkback_setting">Setelan TalkBack</string>
+  <string name="voice_commands_talkback_settings">Setelan TalkBack FOSS</string>
+  <string name="voice_commands_talkback_setting">Setelan TalkBack FOSS</string>
   <string name="voice_commands_screen_search">Cari cepat</string>
   <string name="voice_commands_search_on_screen">Telusuri di layar</string>
   <string name="voice_commands_copy">@android:string/copy</string>
@@ -105,7 +105,7 @@
   <string name="voice_commands_help_title">Ringkasan perintah suara</string>
   <string name="voice_commands_help_description">Untuk menggunakan perintah suara, geser ke kanan lalu ke atas. Ucapkan \"Bantuan\" atau \"Apa yang bisa saya ucapkan?\" kapan saja untuk melihat daftar perintah ini.</string>
   <string name="voice_commands_help_hint">Untuk hasil terbaik, ucapkan kata yang sama persis dengan yang tercantum di daftar pada layar berikut.</string>
-  <string name="voice_command_screen_locked_hint">Perintah suara tidak tersedia saat layar dikunci. Untuk menggunakan menu TalkBack, %1$s.</string>
+  <string name="voice_command_screen_locked_hint">Perintah suara tidak tersedia saat layar dikunci. Untuk menggunakan menu TalkBack FOSS, %1$s.</string>
   <string name="voice_commands_during_setup_hint">Perintah suara tidak tersedia selama penyiapan.</string>
   <string name="voice_commands_help_reading_controls_title">@string/shortcut_title_reading_control</string>
   <string name="voice_commands_help_reading_controls_description">Mengubah cara Anda membaca konten di layar saat ini</string>
@@ -136,7 +136,7 @@
   <string name="voice_commands_help_overview_description">Melihat aplikasi terbaru Anda</string>
   <string name="voice_commands_help_assistant_description">Membuka Asisten Google</string>
   <string name="voice_commands_help_other_commands_title">Perintah lainnya</string>
-  <string name="voice_commands_help_other_commands_description">Membuka setelan TalkBack, menyembunyikan layar, melihat tindakan, menambahkan label khusus, dan lainnya</string>
+  <string name="voice_commands_help_other_commands_description">Membuka setelan TalkBack FOSS, menyembunyikan layar, melihat tindakan, menambahkan label khusus, dan lainnya</string>
   <string name="voice_commands_help_label">Beri label [kirim]</string>
   <string name="voice_commands_help_hide_screen_description">Menyembunyikan tampilan sehingga layar tidak terlihat oleh orang lain di tempat umum</string>
   <string name="voice_commands_help_show_screen_description">Setelah menyembunyikan layar, mengembalikannya ke status normal</string>

@@ -56,8 +56,8 @@
   <string name="voice_commands_dictate">Diktēt</string>
   <string name="voice_commands_write">Rakstīt</string>
   <string name="voice_commands_Spell">Pareizrakstība</string>
-  <string name="voice_commands_talkback_settings">TalkBack iestatījumi</string>
-  <string name="voice_commands_talkback_setting">TalkBack iestatījums</string>
+  <string name="voice_commands_talkback_settings">TalkBack FOSS iestatījumi</string>
+  <string name="voice_commands_talkback_setting">TalkBack FOSS iestatījums</string>
   <string name="voice_commands_screen_search">Meklēšana ekrānā</string>
   <string name="voice_commands_search_on_screen">Meklēt ekrānā</string>
   <string name="voice_commands_copy">@android:string/copy</string>
@@ -105,7 +105,7 @@
   <string name="voice_commands_help_title">Balss komandu kopsavilkums</string>
   <string name="voice_commands_help_description">Lai izmantotu balss komandas, velciet pa labi un pēc tam — augšup. Lai iegūtu šo komandu sarakstu, jebkurā laikā sakiet “Palīdzība” vai “Ko varu pateikt?”.</string>
   <string name="voice_commands_help_hint">Lai gūtu vislabākos rezultātus, izrunājiet precīzas komandas, kas norādītas nākamajos ekrānos.</string>
-  <string name="voice_command_screen_locked_hint">Kad ekrāns ir bloķēts, balss komandas nav pieejamas. Lai to vietā izmantotu TalkBack izvēlni, lietojiet šādu žestu: %1$s.</string>
+  <string name="voice_command_screen_locked_hint">Kad ekrāns ir bloķēts, balss komandas nav pieejamas. Lai to vietā izmantotu TalkBack FOSS izvēlni, lietojiet šādu žestu: %1$s.</string>
   <string name="voice_commands_during_setup_hint">Iestatīšanas laikā balss komandas nav pieejamas.</string>
   <string name="voice_commands_help_reading_controls_title">@string/shortcut_title_reading_control</string>
   <string name="voice_commands_help_reading_controls_description">Mainiet satura lasīšanas veidu pašreizējā ekrānā.</string>
@@ -136,7 +136,7 @@
   <string name="voice_commands_help_overview_description">Skatiet pēdējās izmantotās lietotnes.</string>
   <string name="voice_commands_help_assistant_description">Atveriet Google asistentu.</string>
   <string name="voice_commands_help_other_commands_title">Citas komandas</string>
-  <string name="voice_commands_help_other_commands_description">Pārejiet uz TalkBack iestatījumiem, paslēpiet ekrānu, skatiet darbības, pievienojiet pielāgotas iezīmes un veiciet citas darbības.</string>
+  <string name="voice_commands_help_other_commands_description">Pārejiet uz TalkBack FOSS iestatījumiem, paslēpiet ekrānu, skatiet darbības, pievienojiet pielāgotas iezīmes un veiciet citas darbības.</string>
   <string name="voice_commands_help_label">Pievienot iezīmi [iesniegt]</string>
   <string name="voice_commands_help_hide_screen_description">Paslēpiet displeju, lai jūsu ekrāns nebūtu redzams citām personām, kad atrodaties publiskās vietās.</string>
   <string name="voice_commands_help_show_screen_description">Pēc ekrāna paslēpšanas atjaunojiet tā parasto stāvokli.</string>

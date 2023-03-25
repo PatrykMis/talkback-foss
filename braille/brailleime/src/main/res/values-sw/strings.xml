@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="braille_ime_service_name">Kibodi ya nukta nundu ya TalkBack</string>
+  <string name="braille_ime_service_name">Kibodi ya nukta nundu ya TalkBack FOSS</string>
   <string name="switch_to_screen_away_announcement">Hali ya skrini kuangalia mbele</string>
   <string name="switch_to_tabletop_announcement">Hali ya juu ya meza. Weka kifaa chako na uelekeze mlango wa kuchaji upande wa kushoto. Ili usasishe nafasi za nukta nundu, shikilia kwa vidole sita.</string>
   <string name="bring_ime_settings_page">Hujawasha kibodi nyingine, nenda kwenye mipangilio ya kibodi</string>
@@ -10,7 +10,7 @@
   <string name="switched_to_ueb_uncontracted_announcement">Inatumia UEB ya gredi ya kwanza</string>
   <string name="braille_ime_displayed_name">kibodi ya nukta nundu</string>
   <string name="multiple_languages_braille_ime_displayed_name">kibodi ya nukta nundu, %s</string>
-  <string name="input_view_caption">Kibodi ya TalkBack ya nukta nundu - kwa usaidizi, tembelea g.co/help/braille</string>
+  <string name="input_view_caption">Kibodi ya TalkBack FOSS ya nukta nundu - kwa usaidizi, tembelea g.co/help/braille</string>
   <string name="perform_action_next">Endelea</string>
   <string name="perform_action_submitting">Inatuma maandishi</string>
   <string name="calibration_step1_hold_left_finger_announcement">Inasasisha nafasi ya nukta nundu. Kwanza, hebu turekodi nukta nundu za mkono wako wa kushoto. Gusa na ushikilie skrini ukitumia vidole vitatu vya kati vya mkono wako wa kushoto.</string>
@@ -73,17 +73,17 @@
     <item quantity="one">nukta nundu ya %s</item>
     <item quantity="other">nukta nundu za %s</item>
   </plurals>
-  <string name="talkback_off_dialog_title">Washa TalkBack ili utumie kibodi ya nukta nundu</string>
+  <string name="talkback_off_dialog_title">Washa TalkBack FOSS ili utumie kibodi ya nukta nundu</string>
   <string name="talkback_off_dialog_positive_button">Washa katika mipangilio ya ufikivu</string>
-  <string name="talkback_suspend_dialog_title">Endelea kutumia TalkBack ili utumie kibodi ya nukta nundu</string>
-  <string name="talkback_off_or_suspend_dialog_message">Ukiwasha TalkBack, unaweza kugusa skrini yako ili uweke ishara za nukta nundu.</string>
+  <string name="talkback_suspend_dialog_title">Endelea kutumia TalkBack FOSS ili utumie kibodi ya nukta nundu</string>
+  <string name="talkback_off_or_suspend_dialog_message">Ukiwasha TalkBack FOSS, unaweza kugusa skrini yako ili uweke ishara za nukta nundu.</string>
   <string name="next_keyboard">Kibodi inayofuata</string>
   <string name="braille_tutorial_title">Mafunzo ya kibodi ya nukta nundu</string>
-  <string name="tutorial_intro_description">Ukitumia kibodi ya nukta nundu, unaweza kugusa skrini yako ili uweke nukta nundu ya nukta sita.\n\nUnatumia Nukta nundu ya Kiingereza Jumuishi. Ili ubadilishe lugha yako ya kuandika, nenda kwenye mipangilio ya TalkBack.\n\nIli uandike kwa kutumia nukta nundu, unahitaji kushika na kutumia simu yako kwa njia tofauti.</string>
+  <string name="tutorial_intro_description">Ukitumia kibodi ya nukta nundu, unaweza kugusa skrini yako ili uweke nukta nundu ya nukta sita.\n\nUnatumia Nukta nundu ya Kiingereza Jumuishi. Ili ubadilishe lugha yako ya kuandika, nenda kwenye mipangilio ya TalkBack FOSS.\n\nIli uandike kwa kutumia nukta nundu, unahitaji kushika na kutumia simu yako kwa njia tofauti.</string>
   <string name="next_step">Nenda mbele</string>
   <string name="leave_keyboard">Ondoka kwenye kibodi ya nukta nundu</string>
-  <string name="hold_six_fingers_description">Hutaweza kutumia ishara za kawaida za TalkBack katika kibodi ya nukta nundu.\n\nIli uanze, hebu tuweke nafasi ya nukta nundu sita unapoandika.</string>
-  <string name="rotate_orientation_description_1">Kuanzia sasa, hutaweza kutumia ishara za kawaida za TalkBack. Kipengele cha TalkBack hakipatikani unapotumia kibodi ya nukta nundu.</string>
+  <string name="hold_six_fingers_description">Hutaweza kutumia ishara za kawaida za TalkBack FOSS katika kibodi ya nukta nundu.\n\nIli uanze, hebu tuweke nafasi ya nukta nundu sita unapoandika.</string>
+  <string name="rotate_orientation_description_1">Kuanzia sasa, hutaweza kutumia ishara za kawaida za TalkBack FOSS. Kipengele cha TalkBack FOSS hakipatikani unapotumia kibodi ya nukta nundu.</string>
   <string name="rotate_orientation_description_2">Ili uanze, shika simu yako hivi, skrini ikiwa imeangalia kinyume na ulipo.</string>
   <string name="tap_to_continue">Gusa mara mbili mahali popote ili uendelee</string>
   <string name="instruction_type_letter_a_left_index_finger">kidole cha shahada cha mkono wa kushoto</string>
@@ -99,7 +99,7 @@
   <string name="result_swipe_right">NAFASI</string>
   <string name="result_swipe_down_2_fingers">FICHA KIBODI</string>
   <string name="result_swipe_down_3_fingers">KIBODI INAYOFUATA</string>
-  <string name="rotate_orientation_announcement">Kuanzia sasa, hutaweza kutumia ishara za kawaida za TalkBack. Kipengele cha TalkBack hakipatikani unapotumia kibodi ya nukta nundu.\n\n%1$s</string>
+  <string name="rotate_orientation_announcement">Kuanzia sasa, hutaweza kutumia ishara za kawaida za TalkBack FOSS. Kipengele cha TalkBack FOSS hakipatikani unapotumia kibodi ya nukta nundu.\n\n%1$s</string>
   <string name="rotate_orientation_inactive_announcement">Kwanza, geuza simu yako ili skrini iangalie kinyume na ulipo.\n\nKisha, zungusha simu ikae katika mkao wa mlalo. Mikono yako inafaa kushikilia kingo fupi za simu. Mkono wako wa kulia unafaa kushikilia ukingo wenye mlango wa USB. Weka vidole vyako vitatu vya kati kwenye skrini na utumie kidole cha mwisho na cha gumba kushikilia simu.\n\nUkiwa tayari, gusa skrini mara mbili ili uendelee.\n\nIli ufunge kibodi ya nukta nundu, telezesha vidole vitatu chini ukielekeza sakafuni. Hatua hii hukurejesha kwenye kibodi yako halisi.</string>
   <string name="rotate_orientation_continue_announcement">Simu yako iko katika mkao wima. Ili uendelee, zungusha simu yako kwa njia ya mlalo ili upande mrefu uwe chini. Kisha uigeuze skrini iangalie kinyume na ulipo. Ukiwa tayari, gusa skrini mara mbili ili uendelee.</string>
   <string name="type_letter_a_announcement_left_index_finger">kidole cha shahada cha mkono wa kushoto</string>
@@ -115,7 +115,7 @@
   <string name="swipe_down_3_fingers_announcement">Kubadilisha ili utumie kibodi yako nyingine, telezesha chini vidole vitatu. Ijaribu sasa.</string>
   <string name="swipe_down_3_fingers_completed_announcement">Kibodi inayofuata. Kwa kawaida hatua hii itabadilisha ifungue kibodi inayofuata. Wakati huu, unaendelea kutumia kibodi ya nukta nundu kwa sababu ungali kwenye mafunzo.</string>
   <string name="swipe_up_3_fingers_announcement">Unaweza pia kuandika katika hali ya juu ya meza kwa kuilaza simu yako mezani. Ili ukamilishe mafunzo, telezesha vidole vitatu juu kisha utafute chaguo la kukamilisha mafunzo</string>
-  <string name="open_context_menu_announcement">Menyu ya chaguo imefunguliwa. Geuza simu yako ili skrini ikuangalie na uishike kama kawaida. Sasa unaweza kusogeza kwa kutumia ishara za kawaida za TalkBack. Telezesha kidole kulia ili uone chaguo zaidi.</string>
+  <string name="open_context_menu_announcement">Menyu ya chaguo imefunguliwa. Geuza simu yako ili skrini ikuangalie na uishike kama kawaida. Sasa unaweza kusogeza kwa kutumia ishara za kawaida za TalkBack FOSS. Telezesha kidole kulia ili uone chaguo zaidi.</string>
   <string name="hold_six_fingers_announcement">%s\nLaza kifaa chako mezani. Kisha gusa na ushikilie skrini ukitumia vidole vitatu vya kati vya kila mkono katika mkao unaokuruhusu uandike vizuri.</string>
   <string name="hold_six_fingers_inactive_announcement">Laza kifaa chako mezani. Kisha gusa na ushikilie skrini ukitumia vidole vitatu vya kati vya kila mkono katika mkao unaokuruhusu uandike vizuri.</string>
   <string name="finish_tutorial_announcement">Inaonyesha kibodi ya nukta nundu. Geuza simu yako ili skrini iangalie kinyume na ulipo. Zungusha simu ikae katika mkao wa mlalo. Kisha uanze kuandika.</string>

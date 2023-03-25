@@ -56,8 +56,8 @@
   <string name="voice_commands_dictate">Диктирај</string>
   <string name="voice_commands_write">Напиши</string>
   <string name="voice_commands_Spell">Буква по буква</string>
-  <string name="voice_commands_talkback_settings">Поставки за TalkBack</string>
-  <string name="voice_commands_talkback_setting">Поставки за TalkBack</string>
+  <string name="voice_commands_talkback_settings">Поставки за TalkBack FOSS</string>
+  <string name="voice_commands_talkback_setting">Поставки за TalkBack FOSS</string>
   <string name="voice_commands_screen_search">Пребарување на екранот</string>
   <string name="voice_commands_search_on_screen">Пребарај на екранот</string>
   <string name="voice_commands_copy">@android:string/copy</string>
@@ -105,7 +105,7 @@
   <string name="voice_commands_help_title">Преглед на гласовните наредби</string>
   <string name="voice_commands_help_description">За користење на гласовните наредби, повлечете надесно, па нагоре. Кажете „Help“ (Помош) или „What can I say?“ (Што може да кажам?) кога ќе сакате да се прикаже списоков со наредби.</string>
   <string name="voice_commands_help_hint">За најдобри резултати, точно изговорете ги наредбите наведени на следниве екрани.</string>
-  <string name="voice_command_screen_locked_hint">Гласовните наредби не се достапни додека екранот е заклучен. За да го користите менито на TalkBack, %1$s.</string>
+  <string name="voice_command_screen_locked_hint">Гласовните наредби не се достапни додека екранот е заклучен. За да го користите менито на TalkBack FOSS, %1$s.</string>
   <string name="voice_commands_during_setup_hint">Гласовните наредби не се достапни при поставувањето.</string>
   <string name="voice_commands_help_reading_controls_title">@string/shortcut_title_reading_control</string>
   <string name="voice_commands_help_reading_controls_description">Променете го начинот на читање содржини на тековниот екран</string>
@@ -136,7 +136,7 @@
   <string name="voice_commands_help_overview_description">Видете ги неодамнешните апликации</string>
   <string name="voice_commands_help_assistant_description">Отворете го „Помошникот на Google“</string>
   <string name="voice_commands_help_other_commands_title">Други наредби</string>
-  <string name="voice_commands_help_other_commands_description">Одете во поставките за TalkBack, скријте го екранот, видете ги дејствата, додајте приспособени етикети и друго</string>
+  <string name="voice_commands_help_other_commands_description">Одете во поставките за TalkBack FOSS, скријте го екранот, видете ги дејствата, додајте приспособени етикети и друго</string>
   <string name="voice_commands_help_label">Етикета [испрати]</string>
   <string name="voice_commands_help_hide_screen_description">Сокријте го екранот за да не биде видлив за другите на јавни места</string>
   <string name="voice_commands_help_show_screen_description">По скривањето на екранот, вратете го во нормалната состојба</string>

@@ -56,8 +56,8 @@
   <string name="voice_commands_dictate">口述</string>
   <string name="voice_commands_write">撰寫</string>
   <string name="voice_commands_Spell">拼字</string>
-  <string name="voice_commands_talkback_settings">TalkBack 設定</string>
-  <string name="voice_commands_talkback_setting">TalkBack 設定</string>
+  <string name="voice_commands_talkback_settings">TalkBack FOSS 設定</string>
+  <string name="voice_commands_talkback_setting">TalkBack FOSS 設定</string>
   <string name="voice_commands_screen_search">螢幕搜尋</string>
   <string name="voice_commands_search_on_screen">搵畫面內容</string>
   <string name="voice_commands_copy">@android:string/copy</string>
@@ -105,7 +105,7 @@
   <string name="voice_commands_help_title">語音指令概覽</string>
   <string name="voice_commands_help_description">如要使用語音指令，請先向右再向上滑動。想查看此指令清單時，只要說出「說明」或「我可以用邊啲語音指令」即可。</string>
   <string name="voice_commands_help_hint">為獲得最佳效果，請確實說出後續畫面列出的文字內容。</string>
-  <string name="voice_command_screen_locked_hint">螢幕鎖定時無法使用語音指令。如要改用 TalkBack 選單，請%1$s。</string>
+  <string name="voice_command_screen_locked_hint">螢幕鎖定時無法使用語音指令。如要改用 TalkBack FOSS 選單，請%1$s。</string>
   <string name="voice_commands_during_setup_hint">設定期間無法使用語音指令。</string>
   <string name="voice_commands_help_reading_controls_title">@string/shortcut_title_reading_control</string>
   <string name="voice_commands_help_reading_controls_description">變更目前畫面上的內容朗讀方式</string>
@@ -136,7 +136,7 @@
   <string name="voice_commands_help_overview_description">查看最近使用的應用程式</string>
   <string name="voice_commands_help_assistant_description">開啟「Google 助理」</string>
   <string name="voice_commands_help_other_commands_title">其他指令</string>
-  <string name="voice_commands_help_other_commands_description">前往 TalkBack 設定、隱藏畫面、查看操作、新增自訂標籤等</string>
+  <string name="voice_commands_help_other_commands_description">前往 TalkBack FOSS 設定、隱藏畫面、查看操作、新增自訂標籤等</string>
   <string name="voice_commands_help_label">加上 [提交] 標籤</string>
   <string name="voice_commands_help_hide_screen_description">隱藏螢幕，在公共場所時其他人便無法看螢幕畫面</string>
   <string name="voice_commands_help_show_screen_description">如果已隱藏螢幕，則可將螢幕恢復成正常狀態</string>

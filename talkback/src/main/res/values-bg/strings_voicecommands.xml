@@ -56,8 +56,8 @@
   <string name="voice_commands_dictate">Диктуване</string>
   <string name="voice_commands_write">Писане</string>
   <string name="voice_commands_Spell">Изписване</string>
-  <string name="voice_commands_talkback_settings">Настройки на TalkBack</string>
-  <string name="voice_commands_talkback_setting">Настройка на TalkBack</string>
+  <string name="voice_commands_talkback_settings">Настройки на TalkBack FOSS</string>
+  <string name="voice_commands_talkback_setting">Настройка на TalkBack FOSS</string>
   <string name="voice_commands_screen_search">Търсене в екрана</string>
   <string name="voice_commands_search_on_screen">Търсене на екрана</string>
   <string name="voice_commands_copy">@android:string/copy</string>
@@ -105,7 +105,7 @@
   <string name="voice_commands_help_title">Общ преглед на гласовите команди</string>
   <string name="voice_commands_help_description">За да използвате гласови команди, прекарайте пръст надясно и след това нагоре. Кажете „Help“ или „What can I say?“ по всяко време, за да видите този списък с команди.</string>
   <string name="voice_commands_help_hint">За най-добри резултати произнасяйте командите точно както са посочени на следващите екрани.</string>
-  <string name="voice_command_screen_locked_hint">Гласовите команди не са налице, докато екранът е заключен. За да използвате менюто на TalkBack вместо това, %1$s.</string>
+  <string name="voice_command_screen_locked_hint">Гласовите команди не са налице, докато екранът е заключен. За да използвате менюто на TalkBack FOSS вместо това, %1$s.</string>
   <string name="voice_commands_during_setup_hint">Гласовите команди не са налице по време на настройването.</string>
   <string name="voice_commands_help_reading_controls_title">@string/shortcut_title_reading_control</string>
   <string name="voice_commands_help_reading_controls_description">Промяна на начина, по който се чете съдържанието на текущия екран</string>
@@ -136,7 +136,7 @@
   <string name="voice_commands_help_overview_description">Преглед на скорошните ви приложения</string>
   <string name="voice_commands_help_assistant_description">Отваряне на Google Асистент</string>
   <string name="voice_commands_help_other_commands_title">Други команди</string>
-  <string name="voice_commands_help_other_commands_description">Отваряне на настройките на TalkBack, затъмняване на екрана, преглед на действията, добавяне на персонализирани етикети и др.</string>
+  <string name="voice_commands_help_other_commands_description">Отваряне на настройките на TalkBack FOSS, затъмняване на екрана, преглед на действията, добавяне на персонализирани етикети и др.</string>
   <string name="voice_commands_help_label">Етикет за [submit]</string>
   <string name="voice_commands_help_hide_screen_description">Затъмняване на екрана, за да не е видим за други хора на обществени места</string>
   <string name="voice_commands_help_show_screen_description">Възстановяване на нормалното състояние на екрана след затъмняване</string>

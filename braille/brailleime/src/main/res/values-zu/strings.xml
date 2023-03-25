@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="braille_ime_service_name">Ikhibhodi ye-TalkBack braille</string>
+  <string name="braille_ime_service_name">Ikhibhodi ye-TalkBack FOSS braille</string>
   <string name="switch_to_screen_away_announcement">Imodi yokuba kude nesikrini</string>
   <string name="switch_to_tabletop_announcement">Imodi ye-tabletop. Beka idivayisi yakho nembobo yokushaja ngakwesokunxele. Ukuze ubuyekeze ukuma kwechashazi, cindezela iminwe eyi-6.</string>
   <string name="bring_ime_settings_page">Ayikho enye ikhibhodi enikwe amandla, iya kuzilungiselelo zekhibhodi</string>
@@ -10,7 +10,7 @@
   <string name="switched_to_ueb_uncontracted_announcement">Ishintshele kwi-UEB engenayo inkontileka</string>
   <string name="braille_ime_displayed_name">ikhibhodi ye-braille</string>
   <string name="multiple_languages_braille_ime_displayed_name">ikhibhodi ye-braille, %s</string>
-  <string name="input_view_caption">Ikhobhodi ye-TalkBack - ukuthola usizo, vakashela ku-g.co/help/braille</string>
+  <string name="input_view_caption">Ikhobhodi ye-TalkBack FOSS - ukuthola usizo, vakashela ku-g.co/help/braille</string>
   <string name="perform_action_next">Okulandelayo</string>
   <string name="perform_action_submitting">Ukuthumela umbhalo</string>
   <string name="calibration_step1_hold_left_finger_announcement">Ibuyekeza indawo yechashazi. Okokuqala, ake sirekhode amachashazi asesandleni sakho esingakwesokunxele. Thinta uphinde ubambe isikrini ngeminwe engaphakathi emi-3 yesandla sakho esingakwesokunxele.</string>
@@ -73,17 +73,17 @@
     <item quantity="one">amachashazi %s</item>
     <item quantity="other">amachashazi %s</item>
   </plurals>
-  <string name="talkback_off_dialog_title">Vula i-TalkBack ukusebenzisa ikhibhodi ye-braille</string>
+  <string name="talkback_off_dialog_title">Vula i-TalkBack FOSS ukusebenzisa ikhibhodi ye-braille</string>
   <string name="talkback_off_dialog_positive_button">Vula izilungiselelo zokufinyeleleka</string>
-  <string name="talkback_suspend_dialog_title">Qhubeka ne-TalkBack ukuze usebenzise ikhibhothi ye-braille</string>
-  <string name="talkback_off_or_suspend_dialog_message">Uma i-TalkBack ivuliwe, ungathepha isikrini sakho ukuze ufake amasimbuli e-braille.</string>
+  <string name="talkback_suspend_dialog_title">Qhubeka ne-TalkBack FOSS ukuze usebenzise ikhibhothi ye-braille</string>
+  <string name="talkback_off_or_suspend_dialog_message">Uma i-TalkBack FOSS ivuliwe, ungathepha isikrini sakho ukuze ufake amasimbuli e-braille.</string>
   <string name="next_keyboard">Ikhibhodi elandelayo</string>
   <string name="braille_tutorial_title">Okokufundisa kwekhibhodi ye-braille</string>
-  <string name="tutorial_intro_description">Ngekhibhodi ye-braille, ungathepha isikrini sakho ukuze ufake i-braille yamachashazi ayi-6.\n\nAwusebenzisi i-Unified English Braille. Ukuze ushintshe ulimi lwakho lokuthayipha, iya kumasethingi e-TalkBack.\n\nUkuze uthayiphe i-braille, kudingeka ubambe futhi usebenzise ifoni yakho ngokwehlukile.</string>
+  <string name="tutorial_intro_description">Ngekhibhodi ye-braille, ungathepha isikrini sakho ukuze ufake i-braille yamachashazi ayi-6.\n\nAwusebenzisi i-Unified English Braille. Ukuze ushintshe ulimi lwakho lokuthayipha, iya kumasethingi e-TalkBack FOSS.\n\nUkuze uthayiphe i-braille, kudingeka ubambe futhi usebenzise ifoni yakho ngokwehlukile.</string>
   <string name="next_step">Okulandelayo</string>
   <string name="leave_keyboard">Shiya ikhibhodi ye-braille</string>
-  <string name="hold_six_fingers_description">Ngeke ukwazi ukusebenzisa ukuthinta kwe-TalkBack okuvamile kwikhibhodi ye-braille.\n\nUkuze uqalise, asisethe ukuma kwamachashazi we-braille ayi-6 lapho uthayipha.</string>
-  <string name="rotate_orientation_description_1">Kusuka manje, ngeke ukwazi ukusebenzisa ukuthinta okuvamile kwe-TalkBack. I-TalkBack ayitholakali lapho usebenzisa ikhibhodi ye-braille.</string>
+  <string name="hold_six_fingers_description">Ngeke ukwazi ukusebenzisa ukuthinta kwe-TalkBack FOSS okuvamile kwikhibhodi ye-braille.\n\nUkuze uqalise, asisethe ukuma kwamachashazi we-braille ayi-6 lapho uthayipha.</string>
+  <string name="rotate_orientation_description_1">Kusuka manje, ngeke ukwazi ukusebenzisa ukuthinta okuvamile kwe-TalkBack FOSS. I-TalkBack FOSS ayitholakali lapho usebenzisa ikhibhodi ye-braille.</string>
   <string name="rotate_orientation_description_2">Ukuqala, bamba ifoni yakho ngale ndlela, isikrini sibheke kude nawe.</string>
   <string name="tap_to_continue">Thepha kabili noma yikuphi ukuqhubeka</string>
   <string name="instruction_type_letter_a_left_index_finger">inkomba yomunwe wesobunxele</string>
@@ -99,7 +99,7 @@
   <string name="result_swipe_right">ISIKHALA</string>
   <string name="result_swipe_down_2_fingers">FIHLA IKHIBHODI</string>
   <string name="result_swipe_down_3_fingers">IKHIBHODI ELANDELAYO</string>
-  <string name="rotate_orientation_announcement">Kusukela manje, ngeke ukwazi ukusebenzisa ukuthinta okuvamile kwe-TalkBack. I-TalkBack ayitholakali uma usebenzisa ikhibhodi ye-braille.\n\n%1$s</string>
+  <string name="rotate_orientation_announcement">Kusukela manje, ngeke ukwazi ukusebenzisa ukuthinta okuvamile kwe-TalkBack FOSS. I-TalkBack FOSS ayitholakali uma usebenzisa ikhibhodi ye-braille.\n\n%1$s</string>
   <string name="rotate_orientation_inactive_announcement">Okokuqala, jikisa ifoni yakho ukuze isikrini sibheke kude nawe.\n\Okulandelayo, zungezisa ifoni ngokuvundlile ukuze ibe ukuma okundlaleke ngobubanzi. Izandla zakho kufanele zibambe amaphethelo amafushane wefoni. Isandla sakho sokudla kufanele sibambe ekugcineni ngembobo ye-USB. Phumuza iminwe yakho engaphakathi engu-3 kusikrini, futhi usebenzise ucikicane nesithupha sakho ukusekela ifoni.\n\nLapho usukulungele, thepha kabili kusikrini ukuze uqhubeke.\n\nUkuphuma kukhibhodi ye-braille, swayipha ngenzansi kuya phansi ngeminwe engu-3. Lokhu kushintshela kwikhibhodi yakho evamile.</string>
   <string name="rotate_orientation_continue_announcement">Ifoni yakho iqondile. Ukuze uqhubeke, zungezisa ifoni yakho ivundle ukuze uhlangothi olude lube ngenzansi. Lokhu kujikisa isikrini ukuze singabheki ngakuwe. Lapho usukulungele, thepha kabili isikrini ukuze uqhubeke.</string>
   <string name="type_letter_a_announcement_left_index_finger">inkomba yomunwe wesobunxele</string>
@@ -115,7 +115,7 @@
   <string name="swipe_down_3_fingers_announcement">Ukushintshela kwenye ikhibhodi yakho, swayipha ngenzansi ngeminwe engu-3. Izame manje.</string>
   <string name="swipe_down_3_fingers_completed_announcement">Ikhibhodi elandelayo. Ngokuvamile, lokhu kushintshela kwibhodi elandelayo. Manje, uzohlala kukhibhodi ye-braille ngoba usephakathi nokokufundisa.</string>
   <string name="swipe_up_3_fingers_announcement">Ungase futhi uthayiphe kumodi ye-tabletop ngokubeka ifoni yakho phansi etafuleni. Ukuze uqedele okokufundisa, swayipha phezulu ngeminwe emi-3, bese uthola inketho yokokufundisa yokuqedela</string>
-  <string name="open_context_menu_announcement">Imenyu yezinketho ivuliwe. Jikisa ifoni yakho ibeke ngakuwe bese uyibamba ngendlela evamile. Manje usungakwazi ukusebenzisa ukuthinta kwe-TalkBack ukuzulazula. Swayiphela ngakwesokudla ukuze ubone izinketho ezengeziwe.</string>
+  <string name="open_context_menu_announcement">Imenyu yezinketho ivuliwe. Jikisa ifoni yakho ibeke ngakuwe bese uyibamba ngendlela evamile. Manje usungakwazi ukusebenzisa ukuthinta kwe-TalkBack FOSS ukuzulazula. Swayiphela ngakwesokudla ukuze ubone izinketho ezengeziwe.</string>
   <string name="hold_six_fingers_announcement">%s\nBeka phansi idivayisi yakho etafuleni. Bese, uthinta uphinde ubambe isikrini ngeminwe emi-3 engaphakathi yesandla ngasinye ngokuma okhululeke ukuthayipha ngakho.</string>
   <string name="hold_six_fingers_inactive_announcement">Beka phansi idivayisi yakho etafuleni. Bese, uthinta uphinde ubambe isikrini ngeminwe emi-3 engaphakathi yesandla ngasinye ngokuma okhululeke ukuthayipha ngakho.</string>
   <string name="finish_tutorial_announcement">Ibonisa ikhibhodi ye-braille. Jikisa ifoni yakho ukuze isikrini sibheke kude nawe. Zungezisa ifoni ngokuvundlile ngokuma kokwakheka kwezwe. Bese uqala ukuthayipha.</string>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="braille_ime_service_name">‏لوحة مفاتيح برايل TalkBack</string>
+  <string name="braille_ime_service_name">‏لوحة مفاتيح برايل TalkBack FOSS</string>
   <string name="switch_to_screen_away_announcement">وضع \"الشاشة البعيدة\"</string>
   <string name="switch_to_tabletop_announcement">وضع \"الشاشة المسطحة\": ضَع الجهاز بشكل مسطح واحرِص على أن يكون منفذ الشحن إلى جهة اليسار. لتعديل موضع النقاط، يُرجى الضغط مع الاستمرار بستة أصابع.</string>
   <string name="bring_ime_settings_page">ليس هناك أي لوحة مفاتيح أخرى مفعَّلة، انتقِل إلى إعدادات لوحة المفاتيح.</string>
@@ -10,7 +10,7 @@
   <string name="switched_to_ueb_uncontracted_announcement">تم التبديل إلى لغة برايل الإنجليزية الموحدة غير المختصرة.</string>
   <string name="braille_ime_displayed_name">لوحة مفاتيح برايل</string>
   <string name="multiple_languages_braille_ime_displayed_name">لوحة مفاتيح برايل، %s</string>
-  <string name="input_view_caption">‏لوحة مفاتيح برايل TalkBack، للحصول على مساعدة، يُرجى الانتقال إلى g.co/help/braille.</string>
+  <string name="input_view_caption">‏لوحة مفاتيح برايل TalkBack FOSS، للحصول على مساعدة، يُرجى الانتقال إلى g.co/help/braille.</string>
   <string name="perform_action_next">التالي</string>
   <string name="perform_action_submitting">إرسال النص</string>
   <string name="calibration_step1_hold_left_finger_announcement">تعديل موضع النقاط: لنبدأ أولاً بتسجيل موضع النقاط لأصابع يدك اليسرى. انقر مع الاستمرار على الشاشة بالأصابع الثلاثة الوسطى من يدك اليسرى.</string>
@@ -77,17 +77,17 @@
     <item quantity="many">%s نقطة</item>
     <item quantity="other">%s نقطة</item>
   </plurals>
-  <string name="talkback_off_dialog_title">‏تفعيل TalkBack لاستخدام لوحة مفاتيح برايل</string>
+  <string name="talkback_off_dialog_title">‏تفعيل TalkBack FOSS لاستخدام لوحة مفاتيح برايل</string>
   <string name="talkback_off_dialog_positive_button">تفعيل الميزة في إعدادات سهولة الاستخدام</string>
-  <string name="talkback_suspend_dialog_title">‏استئناف تفعيل ميزة TalkBack لاستخدام لوحة مفاتيح برايل</string>
-  <string name="talkback_off_or_suspend_dialog_message">‏عندما تكون ميزة TalkBack مفعَّلة، يمكنك النقر على الشاشة لإدخال رموز برايل.</string>
+  <string name="talkback_suspend_dialog_title">‏استئناف تفعيل ميزة TalkBack FOSS لاستخدام لوحة مفاتيح برايل</string>
+  <string name="talkback_off_or_suspend_dialog_message">‏عندما تكون ميزة TalkBack FOSS مفعَّلة، يمكنك النقر على الشاشة لإدخال رموز برايل.</string>
   <string name="next_keyboard">لوحة المفاتيح التالية</string>
   <string name="braille_tutorial_title">الدليل التوجيهي للوحة مفاتيح برايل</string>
-  <string name="tutorial_intro_description">‏باستخدام لوحة مفاتيح برايل، يمكنك النقر على الشاشة لإدخال رموز برايل المكونة من 6 نقاط.\n\nأنت تستخدم لغة برايل الإنجليزية الموحدة. لتبديل لغة الكتابة، انتقِل إلى إعدادات TalkBack.‏\n\nللكتابة بلغة برايل، يجب مسك الهاتف واستخدامه بطريقة مختلفة.</string>
+  <string name="tutorial_intro_description">‏باستخدام لوحة مفاتيح برايل، يمكنك النقر على الشاشة لإدخال رموز برايل المكونة من 6 نقاط.\n\nأنت تستخدم لغة برايل الإنجليزية الموحدة. لتبديل لغة الكتابة، انتقِل إلى إعدادات TalkBack FOSS.‏\n\nللكتابة بلغة برايل، يجب مسك الهاتف واستخدامه بطريقة مختلفة.</string>
   <string name="next_step">الخطوة التالية</string>
   <string name="leave_keyboard">مغادرة لوحة مفاتيح برايل</string>
-  <string name="hold_six_fingers_description">‏لن تتمكن من استخدام إيماءات TalkBack المعتادة في لوحة مفاتيح برايل\n\n.للبدء، يجب ضبط موضع 6 نقاط للغة برايل عند الكتابة.</string>
-  <string name="rotate_orientation_description_1">‏اعتبارًا من الآن، لن تتمكن من استخدام إيماءات TalkBack العادية. ميزة TalkBack غير متاحة أثناء استخدام لوحة مفاتيح برايل.</string>
+  <string name="hold_six_fingers_description">‏لن تتمكن من استخدام إيماءات TalkBack FOSS المعتادة في لوحة مفاتيح برايل\n\n.للبدء، يجب ضبط موضع 6 نقاط للغة برايل عند الكتابة.</string>
+  <string name="rotate_orientation_description_1">‏اعتبارًا من الآن، لن تتمكن من استخدام إيماءات TalkBack FOSS العادية. ميزة TalkBack FOSS غير متاحة أثناء استخدام لوحة مفاتيح برايل.</string>
   <string name="rotate_orientation_description_2">للبدء، امسِك هاتفك بهذه الطريقة بحيث لا تكون الشاشة مواجهة لك.</string>
   <string name="tap_to_continue">انقر مرتين في أي مكان للمتابعة.</string>
   <string name="instruction_type_letter_a_left_index_finger">إصبع السبابة الأيسر</string>
@@ -103,7 +103,7 @@
   <string name="result_swipe_right">مسافة</string>
   <string name="result_swipe_down_2_fingers">إخفاء لوحة المفاتيح</string>
   <string name="result_swipe_down_3_fingers">لوحة المفاتيح التالية</string>
-  <string name="rotate_orientation_announcement">‏اعتبارًا من الآن، لا يمكن استخدام إيماءات TalkBack العادية لأنّ ميزة TalkBack غير متاحة أثناء استخدام لوحة مفاتيح برايل.\n\n%1$s</string>
+  <string name="rotate_orientation_announcement">‏اعتبارًا من الآن، لا يمكن استخدام إيماءات TalkBack FOSS العادية لأنّ ميزة TalkBack FOSS غير متاحة أثناء استخدام لوحة مفاتيح برايل.\n\n%1$s</string>
   <string name="rotate_orientation_inactive_announcement">‏أولاً، يجب قلب الهاتف بحيث لا تكون الشاشة مواجهة لحامل الجهاز.\n\nبعد ذلك، يُرجى حمل الهاتف أفقيًا. يجب إمساك الهاتف من أقصى الجانبين، على أن تكون يدك اليمنى من الجانب المزوّد بمنفذ USB. يُرجى وضع الأصابع الثلاثة الوسطى على الشاشة، واستخدام الخنصر والإبهام لتثبيت الهاتف.\n\nبعد ذلك، يكفي النقر مرتين على الشاشة للمتابعة.\n\nلإغلاق لوحة مفاتيح برايل، يُرجى التمرير سريعًا للأسفل بثلاثة أصابع. سيؤدي هذا الإجراء إلى العودة إلى لوحة المفاتيح الأصلية.</string>
   <string name="rotate_orientation_continue_announcement">هاتفك في الوضع الرأسي. للمتابعة، قم بتدوير الهاتف أفقيًا بحيث يكون الجانب الطويل في الأسفل ثم قم بتدوير الشاشة مع توجيهها بعيدًا عنك. عندما تكون مستعدًا، انقر مرتين على الشاشة للمتابعة.</string>
   <string name="type_letter_a_announcement_left_index_finger">إصبع السبابة الأيسر</string>
@@ -119,7 +119,7 @@
   <string name="swipe_down_3_fingers_announcement">للتبديل إلى لوحة مفاتيح أخرى، مرّر سريعًا للأسفل بثلاثة أصابع. جرِّب الآن.</string>
   <string name="swipe_down_3_fingers_completed_announcement">لوحة المفاتيح التالية: سيؤدي هذا الإجراء عادةً إلى التبديل إلى لوحة المفاتيح التالية. في الوقت الحالي، لن تغادر لوحة مفاتيح برايل لأنك لا تزال في الدليل التوجيهي.</string>
   <string name="swipe_up_3_fingers_announcement">يمكنك أيضًا الكتابة في وضع \"الشاشة المسطحة\" عن طريق وضع هاتفك مسطحًا على طاولة. لإنهاء الدليل التوجيهي، مرِّر سريعًا للأعلى بثلاثة أصابع وابحث عن خيار إنهائه.</string>
-  <string name="open_context_menu_announcement">‏تم فتح قائمة الخيارات. أدِر هاتفك مرة أخرى بحيث تكون الشاشة مواجهة لك وامسِكه بطريقة طبيعية. يمكنك الآن استخدام الإيماءات العادية في TalkBack للتنقل. مرِّر سريعًا لليسار لعرض المزيد من الخيارات.</string>
+  <string name="open_context_menu_announcement">‏تم فتح قائمة الخيارات. أدِر هاتفك مرة أخرى بحيث تكون الشاشة مواجهة لك وامسِكه بطريقة طبيعية. يمكنك الآن استخدام الإيماءات العادية في TalkBack FOSS للتنقل. مرِّر سريعًا لليسار لعرض المزيد من الخيارات.</string>
   <string name="hold_six_fingers_announcement">‏%s\nضَع جهازك بشكل مسطح على الطاولة ثم انقر مع الاستمرار على الشاشة بأصابعك الثلاثة الوسطى في كل يد في الموضع الذي يريحك في الكتابة.</string>
   <string name="hold_six_fingers_inactive_announcement">ضَع جهازك بشكل مسطح على الطاولة ثم انقر مع الاستمرار على الشاشة بأصابعك الثلاثة الوسطى في كل يد في الموضع الذي يريحك في الكتابة.</string>
   <string name="finish_tutorial_announcement">إظهار لوحة مفاتيح برايل: يجب قلب الهاتف بحيث لا تكون الشاشة مواجهة لك. بعد ذلك، يُرجى حمل الهاتف أفقيًا ثم بدء الكتابة.</string>

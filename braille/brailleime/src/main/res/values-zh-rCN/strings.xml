@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="braille_ime_service_name">TalkBack 盲文键盘</string>
+  <string name="braille_ime_service_name">TalkBack FOSS 盲文键盘</string>
   <string name="switch_to_screen_away_announcement">屏幕朝外模式</string>
   <string name="switch_to_tabletop_announcement">桌面模式。请将设备放在桌面上，保持充电端口朝左。如需更新圆点位置，请用 6 根手指按住屏幕。</string>
   <string name="bring_ime_settings_page">未启用任何其他键盘，请转至键盘设置</string>
@@ -10,7 +10,7 @@
   <string name="switched_to_ueb_uncontracted_announcement">键盘已切换至通用英语盲文 (UEB) 非简写模式</string>
   <string name="braille_ime_displayed_name">盲文键盘</string>
   <string name="multiple_languages_braille_ime_displayed_name">盲文键盘，%s</string>
-  <string name="input_view_caption">TalkBack 盲文键盘 - 如需帮助，请访问 g.co/help/braille</string>
+  <string name="input_view_caption">TalkBack FOSS 盲文键盘 - 如需帮助，请访问 g.co/help/braille</string>
   <string name="perform_action_next">继续</string>
   <string name="perform_action_submitting">正在提交文本</string>
   <string name="calibration_step1_hold_left_finger_announcement">正在更新圆点位置。首先，记录左手的圆点位置。请用左手中间的 3 根手指轻触并按住屏幕。</string>
@@ -73,17 +73,17 @@
     <item quantity="one">%s 点</item>
     <item quantity="other">%s 点</item>
   </plurals>
-  <string name="talkback_off_dialog_title">开启 TalkBack 即可使用盲文键盘</string>
+  <string name="talkback_off_dialog_title">开启 TalkBack FOSS 即可使用盲文键盘</string>
   <string name="talkback_off_dialog_positive_button">在无障碍设置中开启</string>
-  <string name="talkback_suspend_dialog_title">恢复启用 TalkBack 以使用盲文键盘</string>
-  <string name="talkback_off_or_suspend_dialog_message">开启 TalkBack 后，只需点按屏幕即可输入盲文符号。</string>
+  <string name="talkback_suspend_dialog_title">恢复启用 TalkBack FOSS 以使用盲文键盘</string>
+  <string name="talkback_off_or_suspend_dialog_message">开启 TalkBack FOSS 后，只需点按屏幕即可输入盲文符号。</string>
   <string name="next_keyboard">下一个键盘</string>
   <string name="braille_tutorial_title">盲文键盘教程</string>
-  <string name="tutorial_intro_description">使用盲文键盘时，您只需点按屏幕即可输入 6 点式盲文。\n\n您目前使用的是通用英语盲文。如需切换输入语言，请转到 TalkBack 设置。\n\n输入盲文时，手机的握持和使用方式会有所不同。</string>
+  <string name="tutorial_intro_description">使用盲文键盘时，您只需点按屏幕即可输入 6 点式盲文。\n\n您目前使用的是通用英语盲文。如需切换输入语言，请转到 TalkBack FOSS 设置。\n\n输入盲文时，手机的握持和使用方式会有所不同。</string>
   <string name="next_step">下一步</string>
   <string name="leave_keyboard">退出盲文键盘</string>
-  <string name="hold_six_fingers_description">您无法在盲文键盘中使用常规的 TalkBack 手势。\n\n若要开始使用盲文键盘，请先设置 6 个盲文圆点的位置，以便输入盲文。</string>
-  <string name="rotate_orientation_description_1">从现在开始，您将无法使用常规的 TalkBack 手势。使用盲文键盘时，TalkBack 不可用。</string>
+  <string name="hold_six_fingers_description">您无法在盲文键盘中使用常规的 TalkBack FOSS 手势。\n\n若要开始使用盲文键盘，请先设置 6 个盲文圆点的位置，以便输入盲文。</string>
+  <string name="rotate_orientation_description_1">从现在开始，您将无法使用常规的 TalkBack FOSS 手势。使用盲文键盘时，TalkBack FOSS 不可用。</string>
   <string name="rotate_orientation_description_2">首先，按这种方式握持手机并将屏幕背对着您。</string>
   <string name="tap_to_continue">在任意位置点按两次即可继续</string>
   <string name="instruction_type_letter_a_left_index_finger">左手食指</string>
@@ -99,7 +99,7 @@
   <string name="result_swipe_right">空格</string>
   <string name="result_swipe_down_2_fingers">隐藏键盘</string>
   <string name="result_swipe_down_3_fingers">下一个键盘</string>
-  <string name="rotate_orientation_announcement">从现在开始，您将无法使用常规的 TalkBack 手势。使用盲文键盘时，TalkBack 不可用。\n\n%1$s</string>
+  <string name="rotate_orientation_announcement">从现在开始，您将无法使用常规的 TalkBack FOSS 手势。使用盲文键盘时，TalkBack FOSS 不可用。\n\n%1$s</string>
   <string name="rotate_orientation_inactive_announcement">首先，翻转手机，让屏幕背对着您。\n\n接下来，将手机旋转至水平方向，使其处于横屏模式。您的双手应握紧手机的两个短边。您的右手应握持有 USB 端口的一边。将中间的三根手指放在屏幕上，并使用小指和拇指支撑手机。\n\n当您准备就绪后，点按两次屏幕以继续操作。\n\n要退出盲文键盘，请用三根手指向下滑动。此操作会切换回您原来的键盘。</string>
   <string name="rotate_orientation_continue_announcement">您的手机处于竖屏模式。要继续操作，请将手机旋转至水平方向，使长边位于底部。接下来，翻转手机，让屏幕背对着您。当您准备就绪后，点按两次屏幕以继续操作。</string>
   <string name="type_letter_a_announcement_left_index_finger">左手食指</string>
@@ -115,7 +115,7 @@
   <string name="swipe_down_3_fingers_announcement">要切换至其他键盘，请用三根手指向下滑动。立即尝试。</string>
   <string name="swipe_down_3_fingers_completed_announcement">下一个键盘。通常，此操作将会切换至下一个键盘。此时，系统会继续显示盲文键盘，因为您仍在教程中。</string>
   <string name="swipe_up_3_fingers_announcement">您也可以将手机平放在桌子上，在桌面模式下输入盲文。若要结束本教程，请用 3 根手指向上滑动，找到“完成教程”选项</string>
-  <string name="open_context_menu_announcement">选项菜单已打开。请将手机翻转回来，让屏幕面对着您，并用正常方式握持手机。您现在可以使用常规的 TalkBack 手势进行导航。向右滑动可查看更多选项。</string>
+  <string name="open_context_menu_announcement">选项菜单已打开。请将手机翻转回来，让屏幕面对着您，并用正常方式握持手机。您现在可以使用常规的 TalkBack FOSS 手势进行导航。向右滑动可查看更多选项。</string>
   <string name="hold_six_fingers_announcement">%s\n将您的设备平放在桌子上。然后，将每只手的中间 3 根手指放在屏幕上，轻触并按住您方便输入盲文的位置。</string>
   <string name="hold_six_fingers_inactive_announcement">将您的设备平放在桌子上。然后，将每只手的中间 3 根手指放在屏幕上，轻触并按住您方便输入盲文的位置。</string>
   <string name="finish_tutorial_announcement">目前显示的是盲文键盘。请翻转手机，让屏幕背对着您。将手机旋转至水平方向，使其处于横屏模式。然后开始输入。</string>

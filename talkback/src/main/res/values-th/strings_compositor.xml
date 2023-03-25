@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="talkback_on">เปิด TalkBack</string>
-  <string name="talkback_disabled">ปิด TalkBack อยู่</string>
+  <string name="talkback_on">เปิด TalkBack FOSS</string>
+  <string name="talkback_disabled">ปิด TalkBack FOSS อยู่</string>
   <string name="spokenfeedback_on">เปิดการอธิบายและอ่านออกเสียงอยู่</string>
   <string name="spokenfeedback_suspended">ระงับการอธิบายและอ่านออกเสียงแล้ว</string>
   <string name="spokenfeedback_resumed">การอธิบายและอ่านออกเสียงกลับมาทำงานอีกครั้งแล้ว</string>

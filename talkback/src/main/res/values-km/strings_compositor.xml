@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="talkback_on">TalkBack បានបើក</string>
+  <string name="talkback_on">TalkBack FOSS បានបើក</string>
   <string name="talkback_disabled">មុខងារតបវិញបានបិទ</string>
   <string name="spokenfeedback_on">ការអានអេក្រង់បានបើក</string>
   <string name="spokenfeedback_suspended">បានផ្អាកការអានអេក្រង់</string>

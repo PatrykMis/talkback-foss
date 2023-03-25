@@ -56,8 +56,8 @@
   <string name="voice_commands_dictate">Ditar</string>
   <string name="voice_commands_write">Escrever</string>
   <string name="voice_commands_Spell">Soletrar</string>
-  <string name="voice_commands_talkback_settings">Configurações do TalkBack</string>
-  <string name="voice_commands_talkback_setting">Configuração do TalkBack</string>
+  <string name="voice_commands_talkback_settings">Configurações do TalkBack FOSS</string>
+  <string name="voice_commands_talkback_setting">Configuração do TalkBack FOSS</string>
   <string name="voice_commands_screen_search">Pesquisa direta</string>
   <string name="voice_commands_search_on_screen">Pesquisar na tela</string>
   <string name="voice_commands_copy">@android:string/copy</string>
@@ -105,7 +105,7 @@
   <string name="voice_commands_help_title">Visão geral dos comandos de voz</string>
   <string name="voice_commands_help_description">Para usar comandos de voz, deslize para a direita e depois para cima. Diga \"Ajuda\" ou \"O que posso dizer?\" a qualquer momento para ver a lista de comandos.</string>
   <string name="voice_commands_help_hint">Para ter resultados melhores, diga as palavras exatas listadas nas próximas telas.</string>
-  <string name="voice_command_screen_locked_hint">Os comandos de voz ficam indisponíveis quando a tela está bloqueada. Para usar o menu do TalkBack, %1$s.</string>
+  <string name="voice_command_screen_locked_hint">Os comandos de voz ficam indisponíveis quando a tela está bloqueada. Para usar o menu do TalkBack FOSS, %1$s.</string>
   <string name="voice_commands_during_setup_hint">Os comandos de voz não estão disponíveis durante a configuração.</string>
   <string name="voice_commands_help_reading_controls_title">@string/shortcut_title_reading_control</string>
   <string name="voice_commands_help_reading_controls_description">Mude como o conteúdo é lido na tela atual</string>
@@ -136,7 +136,7 @@
   <string name="voice_commands_help_overview_description">Veja seus apps recentes</string>
   <string name="voice_commands_help_assistant_description">Abra o Google Assistente</string>
   <string name="voice_commands_help_other_commands_title">Outros comandos</string>
-  <string name="voice_commands_help_other_commands_description">Vá até as configurações do TalkBack, oculte a tela, veja ações, adicione etiquetas personalizadas, entre outros</string>
+  <string name="voice_commands_help_other_commands_description">Vá até as configurações do TalkBack FOSS, oculte a tela, veja ações, adicione etiquetas personalizadas, entre outros</string>
   <string name="voice_commands_help_label">Crie um marcador [enviar]</string>
   <string name="voice_commands_help_hide_screen_description">Ocultar a tela para que ela não fique visível em lugares públicos</string>
   <string name="voice_commands_help_show_screen_description">Após ocultar sua tela, retorne-a para o estado normal</string>

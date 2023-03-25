@@ -56,8 +56,8 @@
   <string name="voice_commands_dictate">音声入力</string>
   <string name="voice_commands_write">作成</string>
   <string name="voice_commands_Spell">スペル</string>
-  <string name="voice_commands_talkback_settings">TalkBack の設定</string>
-  <string name="voice_commands_talkback_setting">TalkBack の設定</string>
+  <string name="voice_commands_talkback_settings">TalkBack FOSS の設定</string>
+  <string name="voice_commands_talkback_setting">TalkBack FOSS の設定</string>
   <string name="voice_commands_screen_search">画面検索</string>
   <string name="voice_commands_search_on_screen">画面検索</string>
   <string name="voice_commands_copy">@android:string/copy</string>
@@ -105,7 +105,7 @@
   <string name="voice_commands_help_title">音声コマンドの概要</string>
   <string name="voice_commands_help_description">音声コマンドを使用するには、右にスワイプしてから上にスワイプしてください。このコマンドリストは「ヘルプ」または「何と言えばいいですか」と言うことでいつでも確認できます。</string>
   <string name="voice_commands_help_hint">次の画面に表示されるフレーズを正確に言うことをおすすめします。</string>
-  <string name="voice_command_screen_locked_hint">画面がロックされている間は、音声コマンドは利用できません。代わりに TalkBack メニューを使用してください（%1$s）</string>
+  <string name="voice_command_screen_locked_hint">画面がロックされている間は、音声コマンドは利用できません。代わりに TalkBack FOSS メニューを使用してください（%1$s）</string>
   <string name="voice_commands_during_setup_hint">セットアップ中は音声コマンドを使用できません。</string>
   <string name="voice_commands_help_reading_controls_title">@string/shortcut_title_reading_control</string>
   <string name="voice_commands_help_reading_controls_description">現在の画面上のコンテンツを読み上げる方法を変更します</string>
@@ -136,7 +136,7 @@
   <string name="voice_commands_help_overview_description">最近使ったアプリが表示されます</string>
   <string name="voice_commands_help_assistant_description">Google アシスタントを開きます</string>
   <string name="voice_commands_help_other_commands_title">その他のコマンド</string>
-  <string name="voice_commands_help_other_commands_description">TalkBack の設定に移動する、画面を非表示にする、アクションを表示する、カスタムラベルを追加することなどを行えます</string>
+  <string name="voice_commands_help_other_commands_description">TalkBack FOSS の設定に移動する、画面を非表示にする、アクションを表示する、カスタムラベルを追加することなどを行えます</string>
   <string name="voice_commands_help_label">[submit] ラベルを付ける</string>
   <string name="voice_commands_help_hide_screen_description">ディスプレイを非表示にし、公共の場で画面を他人に見られないようにします</string>
   <string name="voice_commands_help_show_screen_description">画面を隠す必要がなくなったら、通常の状態に戻してください</string>

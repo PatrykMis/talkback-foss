@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="braille_ime_service_name">Teclat braille de TalkBack</string>
+  <string name="braille_ime_service_name">Teclat braille de TalkBack FOSS</string>
   <string name="braille_ime_bd_mode_name">Introducció de la pantalla braille</string>
   <string name="switch_to_screen_away_announcement">Mode amb pantalla allunyada</string>
   <string name="switch_to_tabletop_announcement">Mode de taula. Posa el dispositiu amb el port de càrrega a l\'esquerra. Actualitza la posició dels punts mantenint premuda la pantalla amb 6 dits.</string>
@@ -8,7 +8,7 @@
   <string name="reminder_announcement">Fes lliscar tres dits cap amunt per accedir a més opcions</string>
   <string name="braille_ime_displayed_name">teclat braille</string>
   <string name="multiple_languages_braille_ime_displayed_name">teclat braille, %s</string>
-  <string name="input_view_caption">Teclat braille de TalkBack; per obtenir ajuda, visita g.co/help/braille</string>
+  <string name="input_view_caption">Teclat braille de TalkBack FOSS; per obtenir ajuda, visita g.co/help/braille</string>
   <string name="perform_action_next">Següent</string>
   <string name="perform_action_submitting">S\'està enviant el text</string>
   <string name="calibration_step1_hold_left_finger_announcement">S\'està actualitzant la posició dels punts. Primer, grava els punts a la teva mà esquerra. Mantén premuda la pantalla amb els 3 dits centrals de la mà esquerra.</string>
@@ -64,17 +64,17 @@
   <string name="gesture_open_context_menu">Per <b>accedir a l\'ajuda i a altres opcions</b>, fes lliscar tres dits cap amunt</string>
   <string name="not_enough_touch_points_dialog_title">El dispositiu no és compatible amb el teclat braille</string>
   <string name="not_enough_touch_points_dialog_message">El dispositiu no admet prou punts tàctils. Per obtenir més informació, contacta amb el fabricant del dispositiu.</string>
-  <string name="talkback_off_dialog_title">Activa TalkBack per fer servir el teclat braille</string>
+  <string name="talkback_off_dialog_title">Activa TalkBack FOSS per fer servir el teclat braille</string>
   <string name="talkback_off_dialog_positive_button">Activa a la configuració d\'accessibilitat</string>
-  <string name="talkback_suspend_dialog_title">Reprèn TalkBack per fer servir el teclat braille</string>
-  <string name="talkback_off_or_suspend_dialog_message">Quan TalkBack està activat, pots tocar la pantalla per introduir símbols braille.</string>
+  <string name="talkback_suspend_dialog_title">Reprèn TalkBack FOSS per fer servir el teclat braille</string>
+  <string name="talkback_off_or_suspend_dialog_message">Quan TalkBack FOSS està activat, pots tocar la pantalla per introduir símbols braille.</string>
   <string name="next_keyboard">Teclat següent</string>
   <string name="braille_tutorial_title">Tutorial del teclat braille</string>
-  <string name="tutorial_intro_description">Amb el teclat braille, pots tocar la pantalla per introduir braille de sis punts.\n\nEstàs utilitzant l\'anglès braille unificat. Per canviar l\'idioma d\'escriptura, ves a la configuració de TalkBack.\n\nPer escriure en braille, has d\'agafar i fer servir el telèfon d\'una altra manera.</string>
+  <string name="tutorial_intro_description">Amb el teclat braille, pots tocar la pantalla per introduir braille de sis punts.\n\nEstàs utilitzant l\'anglès braille unificat. Per canviar l\'idioma d\'escriptura, ves a la configuració de TalkBack FOSS.\n\nPer escriure en braille, has d\'agafar i fer servir el telèfon d\'una altra manera.</string>
   <string name="next_step">Següent</string>
   <string name="leave_keyboard">Surt del teclat braille</string>
-  <string name="hold_six_fingers_description">Al teclat braille no podràs utilitzar els gestos habituals de TalkBack.\n\nPer començar, has de configurar la posició dels 6 punts de braille per escriure.</string>
-  <string name="rotate_orientation_description_1">A partir d\'ara, no podràs continuar fent servir els gestos normals de TalkBack. TalkBack no està disponible mentre fas servir el teclat braille.</string>
+  <string name="hold_six_fingers_description">Al teclat braille no podràs utilitzar els gestos habituals de TalkBack FOSS.\n\nPer començar, has de configurar la posició dels 6 punts de braille per escriure.</string>
+  <string name="rotate_orientation_description_1">A partir d\'ara, no podràs continuar fent servir els gestos normals de TalkBack FOSS. TalkBack FOSS no està disponible mentre fas servir el teclat braille.</string>
   <string name="rotate_orientation_description_2">Per començar, agafa el telèfon així, amb la pantalla mirant en direcció oposada a tu.</string>
   <string name="tap_to_continue">Fes doble toc en qualsevol lloc per continuar</string>
   <string name="instruction_type_letter_a">Toca el punt 1 amb el dit índex esquerre per escriure la lletra \"A\"</string>
@@ -92,7 +92,7 @@
   <string name="result_swipe_down">EL CURSOR S\'HA MOGUT ENDAVANT</string>
   <string name="result_swipe_down_2_fingers">AMAGA EL TECLAT</string>
   <string name="result_swipe_down_3_fingers">TECLAT SEGÜENT</string>
-  <string name="rotate_orientation_announcement">A partir d\'ara, no podràs continuar fent servir els gestos normals de TalkBack. TalkBack no està disponible mentre fas servir el teclat braille.\n\n%1$s</string>
+  <string name="rotate_orientation_announcement">A partir d\'ara, no podràs continuar fent servir els gestos normals de TalkBack FOSS. TalkBack FOSS no està disponible mentre fas servir el teclat braille.\n\n%1$s</string>
   <string name="rotate_orientation_inactive_announcement">Primer, gira el telèfon perquè la pantalla miri en direcció oposada a tu.\n\nA continuació, gira el telèfon per col·locar-lo en posició horitzontal. Has d\'agafar el telèfon amb les mans als extrems curts. Amb la mà dreta has d\'agafar l\'extrem on hi ha el port USB. Deixa els tres dits del mig a la pantalla i fes servir el dit petit i el polze per aguantar el telèfon.\n\nQuan estiguis a punt, fes doble toc a la pantalla per continuar.\n\nPer sortir del teclat braille, fes lliscar tres dits cap avall en direcció al terra. D\'aquesta manera, es tornarà a obrir el teclat original.</string>
   <string name="rotate_orientation_continue_announcement">El telèfon està en posició vertical. Per continuar, gira el telèfon horitzontalment de manera que la banda llarga sigui a la part inferior. Després, gira la pantalla perquè miri en direcció oposada a tu. Quan estiguis a punt, fes doble toc a la pantalla per continuar.</string>
   <string name="type_letter_a_announcement">Mantén la pantalla en direcció oposada a tu. Agafa el telèfon amb totes dues mans per les bandes curtes del telèfon, de manera que els tres dits del mig de cada mà toquin la pantalla.\n\nEl dit índex esquerre hauria de ser al punt 1. Ara, toca el punt 1 per escriure la lletra \"A\".</string>
@@ -108,7 +108,7 @@
   <string name="swipe_down_3_fingers_announcement">Per canviar a l\'altre teclat, fes lliscar tres dits cap avall. Prova-ho ara.</string>
   <string name="swipe_down_3_fingers_completed_announcement">Teclat següent. Normalment, aquesta acció canviarà al teclat següent. Aquesta vegada, continuaràs al teclat braille perquè encara ets al tutorial.</string>
   <string name="swipe_up_3_fingers_announcement">També pots escriure en mode de taula si col·loques el telèfon pla en una taula. Per acabar el tutorial, fes lliscar 3 dits cap amunt i cerca l\'opció per finalitzar.</string>
-  <string name="open_context_menu_announcement">El menú d\'opcions està obert. Torna a girar el telèfon perquè miri cap a tu i agafa\'l com fas habitualment. Ara pots fer servir els gestos de TalkBack normals per navegar. Llisca cap a la dreta per veure més opcions.</string>
+  <string name="open_context_menu_announcement">El menú d\'opcions està obert. Torna a girar el telèfon perquè miri cap a tu i agafa\'l com fas habitualment. Ara pots fer servir els gestos de TalkBack FOSS normals per navegar. Llisca cap a la dreta per veure més opcions.</string>
   <string name="hold_six_fingers_announcement">%s\nCol·loca el dispositiu pla en una taula. A continuació, mantén premuda la pantalla amb els 3 dits centrals de cada mà en una posició que sigui còmoda per escriure.</string>
   <string name="hold_six_fingers_inactive_announcement">Col·loca el dispositiu pla en una taula. A continuació, mantén premuda la pantalla amb els 3 dits centrals de cada mà en una posició que sigui còmoda per escriure.</string>
   <string name="finish_tutorial_announcement">Es mostra el teclat braille. Gira el telèfon perquè la pantalla miri en direcció oposada a tu. Gira el telèfon per col·locar-lo en posició horitzontal. A continuació, comença a escriure.</string>

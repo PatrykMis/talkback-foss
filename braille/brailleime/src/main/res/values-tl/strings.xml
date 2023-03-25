@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="braille_ime_service_name">Braille keyboard ng TalkBack</string>
+  <string name="braille_ime_service_name">Braille keyboard ng TalkBack FOSS</string>
   <string name="switch_to_screen_away_announcement">Screen-away mode</string>
   <string name="switch_to_tabletop_announcement">Tabletop mode. Ilagay ang iyong device nang nasa kaliwa ang charging port. Para i-update ang posisyon ng dot, i-hold gamit ang 6 na daliri.</string>
   <string name="bring_ime_settings_page">Kung walang iba pang naka-enable na keyboard, pumunta sa mga setting ng keyboard</string>
@@ -10,7 +10,7 @@
   <string name="switched_to_ueb_uncontracted_announcement">Lumipat sa UEB uncontracted</string>
   <string name="braille_ime_displayed_name">braille keyboard</string>
   <string name="multiple_languages_braille_ime_displayed_name">braille keyboard, %s</string>
-  <string name="input_view_caption">Braille keyboard ng TalkBack - para sa tulong, bisitahin ang g.co/help/braille</string>
+  <string name="input_view_caption">Braille keyboard ng TalkBack FOSS - para sa tulong, bisitahin ang g.co/help/braille</string>
   <string name="perform_action_next">Susunod</string>
   <string name="perform_action_submitting">Isinusumite ang text</string>
   <string name="calibration_step1_hold_left_finger_announcement">Ina-update ang posisyon ng dot. Una, i-record natin ang mga dot sa iyong kaliwang kamay. Pindutin nang matagal ang screen gamit ang gitnang 3 daliri ng iyong kaliwang kamay.</string>
@@ -73,17 +73,17 @@
     <item quantity="one">dot %s</item>
     <item quantity="other">dot %s</item>
   </plurals>
-  <string name="talkback_off_dialog_title">I-on ang TalkBack para magamit ang braille keyboard</string>
+  <string name="talkback_off_dialog_title">I-on ang TalkBack FOSS para magamit ang braille keyboard</string>
   <string name="talkback_off_dialog_positive_button">I-on sa mga setting ng accessibility</string>
-  <string name="talkback_suspend_dialog_title">Magpatuloy sa TalkBack para magamit ang braille keyboard</string>
-  <string name="talkback_off_or_suspend_dialog_message">Kapag naka-on ang TalkBack, puwede mong i-tap ang iyong screen para maglagay ng mga simbolo ng braille.</string>
+  <string name="talkback_suspend_dialog_title">Magpatuloy sa TalkBack FOSS para magamit ang braille keyboard</string>
+  <string name="talkback_off_or_suspend_dialog_message">Kapag naka-on ang TalkBack FOSS, puwede mong i-tap ang iyong screen para maglagay ng mga simbolo ng braille.</string>
   <string name="next_keyboard">Susunod na keyboard</string>
   <string name="braille_tutorial_title">Tutorial ng braille keyboard</string>
-  <string name="tutorial_intro_description">Gamit ang braille keyboard, puwede mong i-tap ang iyong screen para maglagay ng 6-dot braille.\n\nUnified English Braille ang ginagamit mo. Para lumipat sa iyong wika sa pag-type, pumunta sa mga setting ng TalkBack.\n\nPara mag-type ng braille, kailangan mong hawakan at gamitin ang iyong telepono sa ibang paraan.</string>
+  <string name="tutorial_intro_description">Gamit ang braille keyboard, puwede mong i-tap ang iyong screen para maglagay ng 6-dot braille.\n\nUnified English Braille ang ginagamit mo. Para lumipat sa iyong wika sa pag-type, pumunta sa mga setting ng TalkBack FOSS.\n\nPara mag-type ng braille, kailangan mong hawakan at gamitin ang iyong telepono sa ibang paraan.</string>
   <string name="next_step">Susunod</string>
   <string name="leave_keyboard">Umalis sa braille keyboard</string>
-  <string name="hold_six_fingers_description">Hindi mo magagamit ang mga regular na galaw ng TalkBack sa braille keyboard.\n\nPara magsimula, i-set up natin ang posisyon ng 6 na braille dot kapag nagta-type ka.</string>
-  <string name="rotate_orientation_description_1">Simula ngayon, hindi ka na makakagamit ng mga regular na galaw sa TalkBack. Hindi available ang TalkBack kapag ginagamit ang braille keyboard.</string>
+  <string name="hold_six_fingers_description">Hindi mo magagamit ang mga regular na galaw ng TalkBack FOSS sa braille keyboard.\n\nPara magsimula, i-set up natin ang posisyon ng 6 na braille dot kapag nagta-type ka.</string>
+  <string name="rotate_orientation_description_1">Simula ngayon, hindi ka na makakagamit ng mga regular na galaw sa TalkBack FOSS. Hindi available ang TalkBack FOSS kapag ginagamit ang braille keyboard.</string>
   <string name="rotate_orientation_description_2">Para magsimula, hawakan ang iyong telepono tulad ng nasa larawan, nang nakatalikod sa iyo ang screen.</string>
   <string name="tap_to_continue">Mag-double tap kahit saan para magpatuloy</string>
   <string name="instruction_type_letter_a_left_index_finger">kaliwang hintuturo</string>
@@ -99,7 +99,7 @@
   <string name="result_swipe_right">SPACE</string>
   <string name="result_swipe_down_2_fingers">ITAGO ANG KEYBOARD</string>
   <string name="result_swipe_down_3_fingers">SUSUNOD NA KEYBOARD</string>
-  <string name="rotate_orientation_announcement">Simula ngayon, hindi ka na makakagamit ng mga regular na galaw sa TalkBack. Hindi available ang TalkBack habang ginagamit ang braille keyboard.\n\n%1$s</string>
+  <string name="rotate_orientation_announcement">Simula ngayon, hindi ka na makakagamit ng mga regular na galaw sa TalkBack FOSS. Hindi available ang TalkBack FOSS habang ginagamit ang braille keyboard.\n\n%1$s</string>
   <string name="rotate_orientation_inactive_announcement">Una, i-flip ang iyong telepono nang sa gayon ay nakatalikod sa iyo ang screen mo.\n\nPagkatapos, i-rotate pahalang ang telepono papunta sa landscape na posisyon. Ang maiikling gilid ng telepono dapat ang hawak ng iyong mga kamay. Ang dulong may USB port dapat ang hawak ng iyong kanang kamay. Idikit ang iyong 3 gitnang daliri sa screen, at gamitin ang hinliliit at hinlalaki mo para hindi malaglag ang telepono.\n\nKapag handa ka na, i-double tap ang screen para magpatuloy.\n\nPara lumabas sa braille keyboard, mag-swipe pababa sa lupa gamit ang 3 daliri. Ibabalik nito ang orihinal mong keyboard.</string>
   <string name="rotate_orientation_continue_announcement">Nakapatayo ang iyong telepono. Para magpatuloy, i-rotate pahalang ang iyong telepono nang sa gayon ay nasa ibaba ang mahabang gilid. Pagkatapos ay italikod sa iyo ang screen. Kapag handa ka na, i-double tap ang screen para magpatuloy.</string>
   <string name="type_letter_a_announcement_left_index_finger">kaliwang hintuturo</string>
@@ -115,7 +115,7 @@
   <string name="swipe_down_3_fingers_announcement">Para lumipat sa isa mo pang keyboard, mag-swipe pababa gamit ang 3 daliri. Subukan ito ngayon.</string>
   <string name="swipe_down_3_fingers_completed_announcement">Susunod na keyboard. Karaniwan nitong ililipat ang keyboard sa susunod na keyboard. Sa ngayon, mananatili ka sa braille keyboard dahil nasa tutorial ka pa.</string>
   <string name="swipe_up_3_fingers_announcement">Puwede ka ring mag-type sa tabletop mode sa pamamagitan ng paglalapag ng iyong telepono nang naka-flat sa mesa. Para tapusin ang tutorial, mag-swipe pataas gamit ang 3 daliri, at hanapin ang opsyong tapusin ang tutorial</string>
-  <string name="open_context_menu_announcement">Bukas na ang menu ng mga opsyon. Baliktarin ang iyong telepono para nakaharap ito sa iyo at hawakan ito gaya ng nakasanayan. Magagamit mo na ang mga regular na galaw sa TalkBack para mag-navigate. Mag-swipe pakanan para makakita ng higit pang opsyon.</string>
+  <string name="open_context_menu_announcement">Bukas na ang menu ng mga opsyon. Baliktarin ang iyong telepono para nakaharap ito sa iyo at hawakan ito gaya ng nakasanayan. Magagamit mo na ang mga regular na galaw sa TalkBack FOSS para mag-navigate. Mag-swipe pakanan para makakita ng higit pang opsyon.</string>
   <string name="hold_six_fingers_announcement">%s\nIlapag ang iyong device nang naka-flat sa mesa. Pagkatapos, pindutin nang matagal ang screen gamit ang gitnang 3 daliri ng bawat kamay sa posisyong kumportable kang makakapag-type.</string>
   <string name="hold_six_fingers_inactive_announcement">Ilapag ang iyong device nang naka-flat sa mesa. Pagkatapos, pindutin nang matagal ang screen gamit ang gitnang 3 daliri ng bawat kamay sa posisyong kumportable kang makakapag-type.</string>
   <string name="finish_tutorial_announcement">Ipinapakita ang braille keyboard. Hawakan ang telepono mo nang nakatalikod sa iyo ang screen. I-rotate ang telepono nang pahalang papunta sa landscape na posisyon. Pagkatapos ay magsimulang mag-type.</string>

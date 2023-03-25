@@ -56,8 +56,8 @@
   <string name="voice_commands_dictate">الإملاء الصوتي</string>
   <string name="voice_commands_write">كتابة</string>
   <string name="voice_commands_Spell">تهجئة</string>
-  <string name="voice_commands_talkback_settings">‏إعدادات TalkBack</string>
-  <string name="voice_commands_talkback_setting">‏ضبط TalkBack</string>
+  <string name="voice_commands_talkback_settings">‏إعدادات TalkBack FOSS</string>
+  <string name="voice_commands_talkback_setting">‏ضبط TalkBack FOSS</string>
   <string name="voice_commands_screen_search">بحث مباشر</string>
   <string name="voice_commands_search_on_screen">البحث على الشاشة</string>
   <string name="voice_commands_copy">@android:string/copy</string>
@@ -105,7 +105,7 @@
   <string name="voice_commands_help_title">نظرة عامة على الطلب الصوتي</string>
   <string name="voice_commands_help_description">لاستخدام الطلبات الصوتية، يُرجى التمرير سريعًا لليسار ثم للأعلى. وما عليك سوى قول \"مساعدة\" أو \"ما الذي يمكنني قوله؟\" في أي وقت للاطّلاع على قائمة الطلبات هذه.</string>
   <string name="voice_commands_help_hint">للحصول على أفضل النتائج، ننصحك بقول العبارات كما ترد بالضبط في الشاشات التالية.</string>
-  <string name="voice_command_screen_locked_hint">‏لا تتوفّر الطلبات الصوتية عندما تكون الشاشة مقفلة. لاستخدام قائمة Talkback بدلاً من ذلك، عليك %1$s.</string>
+  <string name="voice_command_screen_locked_hint">‏لا تتوفّر الطلبات الصوتية عندما تكون الشاشة مقفلة. لاستخدام قائمة TalkBack FOSS بدلاً من ذلك، عليك %1$s.</string>
   <string name="voice_commands_during_setup_hint">لا تتوفّر الطلبات الصوتية أثناء ضبط الإعدادات.</string>
   <string name="voice_commands_help_reading_controls_title">@string/shortcut_title_reading_control</string>
   <string name="voice_commands_help_reading_controls_description">تغيير كيفية قراءة المحتوى في الشاشة الحالية</string>
@@ -136,7 +136,7 @@
   <string name="voice_commands_help_overview_description">الاطّلاع على التطبيقات المُستخدَمة مؤخرًا</string>
   <string name="voice_commands_help_assistant_description">‏فتح \"مساعد Google\"</string>
   <string name="voice_commands_help_other_commands_title">طلبات أخرى</string>
-  <string name="voice_commands_help_other_commands_description">‏الانتقال إلى إعدادات TalkBack وتعتيم الشاشة وعرض الإجراءات وإضافة تصنيفات مخصصة والمزيد</string>
+  <string name="voice_commands_help_other_commands_description">‏الانتقال إلى إعدادات TalkBack FOSS وتعتيم الشاشة وعرض الإجراءات وإضافة تصنيفات مخصصة والمزيد</string>
   <string name="voice_commands_help_label">تصنيف [إرسال]</string>
   <string name="voice_commands_help_hide_screen_description">تعتيم الشاشة كي تصبح غير مرئية للآخرين في الأماكن العامة</string>
   <string name="voice_commands_help_show_screen_description">إعادة الشاشة إلى حالتها الطبيعية بعد تعتيمها</string>

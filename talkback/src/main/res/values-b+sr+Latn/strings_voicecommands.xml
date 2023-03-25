@@ -56,8 +56,8 @@
   <string name="voice_commands_dictate">Diktiranje</string>
   <string name="voice_commands_write">Piši</string>
   <string name="voice_commands_Spell">Napiši</string>
-  <string name="voice_commands_talkback_settings">Podešavanja TalkBack-a</string>
-  <string name="voice_commands_talkback_setting">Podešavanje TalkBack-a</string>
+  <string name="voice_commands_talkback_settings">Podešavanja TalkBack FOSS-a</string>
+  <string name="voice_commands_talkback_setting">Podešavanje TalkBack FOSS-a</string>
   <string name="voice_commands_screen_search">Pretraga ekrana</string>
   <string name="voice_commands_search_on_screen">Pretraži na ekranu</string>
   <string name="voice_commands_copy">@android:string/copy</string>
@@ -105,7 +105,7 @@
   <string name="voice_commands_help_title">Pregled glasovnih komandi</string>
   <string name="voice_commands_help_description">Da biste koristili glasovne komande, prevucite udesno, pa nagore. Recite „Pomoć“ ili „Šta mogu da kažem“ u bilo kom trenutku da biste videli ovu listu komandi.</string>
   <string name="voice_commands_help_hint">Za najbolje rezultate tačno izgovorite reči prikazane na sledećim ekranima.</string>
-  <string name="voice_command_screen_locked_hint">Glasovne komande nisu dostupne dok je ekran zaključan. Da biste koristili TalkBack meni, %1$s.</string>
+  <string name="voice_command_screen_locked_hint">Glasovne komande nisu dostupne dok je ekran zaključan. Da biste koristili TalkBack FOSS meni, %1$s.</string>
   <string name="voice_commands_during_setup_hint">Glasovne komande nisu dostupne tokom podešavanja.</string>
   <string name="voice_commands_help_reading_controls_title">@string/shortcut_title_reading_control</string>
   <string name="voice_commands_help_reading_controls_description">Promenite način na koji čitate sadržaj na trenutnom ekranu</string>
@@ -136,7 +136,7 @@
   <string name="voice_commands_help_overview_description">Pogledajte nedavne aplikacije</string>
   <string name="voice_commands_help_assistant_description">Otvorite Google pomoćnik</string>
   <string name="voice_commands_help_other_commands_title">Druge komande</string>
-  <string name="voice_commands_help_other_commands_description">Idite u TalkBack podešavanja da biste sakrili ekran, pogledali radnje, dodali prilagođene oznake i drugo</string>
+  <string name="voice_commands_help_other_commands_description">Idite u TalkBack FOSS podešavanja da biste sakrili ekran, pogledali radnje, dodali prilagođene oznake i drugo</string>
   <string name="voice_commands_help_label">Oznaka [pošalji]</string>
   <string name="voice_commands_help_hide_screen_description">Sakriva ekran da drugi ljudi ne bi mogli da ga vide na javnim mestima</string>
   <string name="voice_commands_help_show_screen_description">Posle skrivanja ekrana vraća ga u normalno stanje</string>

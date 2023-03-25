@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="talkback_on">TalkBack päällä</string>
-  <string name="talkback_disabled">TalkBack poistettu käytöstä</string>
+  <string name="talkback_on">TalkBack FOSS päällä</string>
+  <string name="talkback_disabled">TalkBack FOSS poistettu käytöstä</string>
   <string name="spokenfeedback_on">Äänipalaute käytössä</string>
   <string name="spokenfeedback_suspended">Äänipalaute jäädytetty</string>
   <string name="spokenfeedback_resumed">Äänipalaute palautettu käyttöön</string>

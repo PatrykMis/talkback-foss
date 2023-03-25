@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="braille_ime_service_name">ក្ដារចុច​អក្សរស្ទាប TalkBack</string>
+  <string name="braille_ime_service_name">ក្ដារចុច​អក្សរស្ទាប TalkBack FOSS</string>
   <string name="braille_ime_bd_mode_name">ការបញ្ចូលលើឧបករណ៍បង្ហាញអក្សរស្ទាប</string>
   <string name="switch_to_screen_away_announcement">មុខងារ​បែរអេក្រង់​ចេញ</string>
   <string name="switch_to_tabletop_announcement">មុខងារដាក់លើតុ។ ដាក់​ឧបករណ៍​ដែលមានរន្ធ​សាកថ្ម​របស់អ្នក​ទៅខាងឆ្វេង​។ ដើម្បីធ្វើបច្ចុប្បន្នភាព​ទីតាំងចំណុច សូមសង្កត់ដោយប្រើម្រាមដៃ 6។</string>
@@ -8,7 +8,7 @@
   <string name="reminder_announcement">អូសឡើងលើ​ដោយប្រើ​ម្រាមដៃ 3 សម្រាប់​ជម្រើស​ច្រើនទៀត</string>
   <string name="braille_ime_displayed_name">ក្ដារចុច​អក្សរស្ទាប</string>
   <string name="multiple_languages_braille_ime_displayed_name">ក្ដារចុច​អក្សរស្ទាប, %s</string>
-  <string name="input_view_caption">ក្ដារចុច​អក្សរស្ទាប TalkBack - សម្រាប់​ជំនួយ សូមចូល​ទៅកាន់ g.co/help/braille</string>
+  <string name="input_view_caption">ក្ដារចុច​អក្សរស្ទាប TalkBack FOSS - សម្រាប់​ជំនួយ សូមចូល​ទៅកាន់ g.co/help/braille</string>
   <string name="perform_action_next">បន្ទាប់</string>
   <string name="perform_action_submitting">កំពុង​ដាក់បញ្ជូន​អត្ថបទ</string>
   <string name="calibration_step1_hold_left_finger_announcement">កំពុង​ធ្វើបច្ចុប្បន្នភាព​ទីតាំងចំណុច​។ ដំបូង សូមថតចំណុច​នៅលើដៃឆ្វេង​របស់អ្នក។ ចុចអេក្រង់​ឱ្យជាប់ដោយប្រើម្រាមដៃកណ្ដាល 3 នៃដៃឆ្វេងរបស់អ្នក។</string>
@@ -64,7 +64,7 @@
   <string name="gesture_open_context_menu">សម្រាប់<b>ជំនួយ និង​ជម្រើស​ផ្សេងទៀត</b> សូមអូស​ឡើងលើ​ដោយប្រើ​ម្រាមដៃ 3</string>
   <string name="not_enough_touch_points_dialog_title">ឧបករណ៍​របស់អ្នក​មិនស្គាល់​ក្ដារចុច​អក្សរស្ទាបទេ</string>
   <string name="not_enough_touch_points_dialog_message">ឧបករណ៍​របស់អ្នក​មិនស្គាល់​ចំណុចប៉ះ​គ្រប់គ្រាន់ទេ។ សម្រាប់​ព័ត៌មាន​បន្ថែម សូម​ទាក់ទង​ក្រុមហ៊ុនផលិត​ឧបករណ៍​របស់អ្នក។</string>
-  <string name="talkback_off_dialog_title">បើក TalkBack ដើម្បីប្រើ​ក្ដារចុច​អក្សរស្ទាប</string>
+  <string name="talkback_off_dialog_title">បើក TalkBack FOSS ដើម្បីប្រើ​ក្ដារចុច​អក្សរស្ទាប</string>
   <string name="talkback_off_dialog_positive_button">បើក​ការកំណត់​ភាពងាយស្រួល</string>
   <string name="talkback_suspend_dialog_title">បន្ត​មុខងារ​តបវិញ ដើម្បីប្រើ​ក្ដារចុច​អក្សរស្ទាប</string>
   <string name="talkback_off_or_suspend_dialog_message">នៅពេលបើក​មុខងារតបវិញ អ្នកអាច​ចុចអេក្រង់​របស់អ្នក ដើម្បី​បញ្ចូល​និមិត្តសញ្ញា​អក្សរស្ទាប។</string>

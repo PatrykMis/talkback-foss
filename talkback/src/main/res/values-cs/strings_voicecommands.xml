@@ -56,8 +56,8 @@
   <string name="voice_commands_dictate">Diktovat</string>
   <string name="voice_commands_write">Psát</string>
   <string name="voice_commands_Spell">Hláskovat</string>
-  <string name="voice_commands_talkback_settings">Nastavení aplikace TalkBack</string>
-  <string name="voice_commands_talkback_setting">Nastavení aplikace TalkBack</string>
+  <string name="voice_commands_talkback_settings">Nastavení aplikace TalkBack FOSS</string>
+  <string name="voice_commands_talkback_setting">Nastavení aplikace TalkBack FOSS</string>
   <string name="voice_commands_screen_search">Přímé vyhledávání</string>
   <string name="voice_commands_search_on_screen">Vyhledat na obrazovce</string>
   <string name="voice_commands_copy">@android:string/copy</string>
@@ -105,7 +105,7 @@
   <string name="voice_commands_help_title">Přehled hlasových příkazů</string>
   <string name="voice_commands_help_description">Pokud chcete použít hlasové příkazy, přejeďte prstem doprava a poté nahoru. Tento seznam příkazů kdykoli vyvoláte, když řeknete „nápověda“ nebo „co můžu říct“.</string>
   <string name="voice_commands_help_hint">Nejlepších výsledků dosáhnete, když budete používat příkazy uvedené na následujících obrazovkách.</string>
-  <string name="voice_command_screen_locked_hint">Na zamčené obrazovce nejsou hlasové příkazy k dispozici. Pokud chcete použít nabídku TalkBack, %1$s.</string>
+  <string name="voice_command_screen_locked_hint">Na zamčené obrazovce nejsou hlasové příkazy k dispozici. Pokud chcete použít nabídku TalkBack FOSS, %1$s.</string>
   <string name="voice_commands_during_setup_hint">Hlasové příkazy nejsou během nastavování k dispozici.</string>
   <string name="voice_commands_help_reading_controls_title">@string/shortcut_title_reading_control</string>
   <string name="voice_commands_help_reading_controls_description">Změna způsobu čtení obsahu na aktuální obrazovce</string>
@@ -136,7 +136,7 @@
   <string name="voice_commands_help_overview_description">Zobrazení nedávných aplikací</string>
   <string name="voice_commands_help_assistant_description">Otevření Asistenta Google</string>
   <string name="voice_commands_help_other_commands_title">Další příkazy</string>
-  <string name="voice_commands_help_other_commands_description">Přechod do nastavení aplikace TalkBack, skrytí obrazovek, zobrazení akcí, přidání vlastních štítků a další</string>
+  <string name="voice_commands_help_other_commands_description">Přechod do nastavení aplikace TalkBack FOSS, skrytí obrazovek, zobrazení akcí, přidání vlastních štítků a další</string>
   <string name="voice_commands_help_label">Označit slovo [odeslat]</string>
   <string name="voice_commands_help_hide_screen_description">Skrýt obrazovku, aby ji na veřejných místech neviděli ostatní lidé</string>
   <string name="voice_commands_help_show_screen_description">Po skrytí obrazovku vrátí do běžného stavu</string>

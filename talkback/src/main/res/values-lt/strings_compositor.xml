@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="talkback_on">„TalkBack“ įjungta</string>
-  <string name="talkback_disabled">„TalkBack“ išjungta</string>
+  <string name="talkback_on">„TalkBack FOSS“ įjungta</string>
+  <string name="talkback_disabled">„TalkBack FOSS“ išjungta</string>
   <string name="spokenfeedback_on">Ekrano skaitymas balsu įjungtas</string>
   <string name="spokenfeedback_suspended">Ekrano skaitymas balsu laikinai sustabdytas</string>
   <string name="spokenfeedback_resumed">Ekrano skaitymas balsu tęsiamas</string>

@@ -56,8 +56,8 @@
   <string name="voice_commands_dictate">Диктувати</string>
   <string name="voice_commands_write">Записати</string>
   <string name="voice_commands_Spell">Вимовити</string>
-  <string name="voice_commands_talkback_settings">Налаштування TalkBack</string>
-  <string name="voice_commands_talkback_setting">Налаштування TalkBack</string>
+  <string name="voice_commands_talkback_settings">Налаштування TalkBack FOSS</string>
+  <string name="voice_commands_talkback_setting">Налаштування TalkBack FOSS</string>
   <string name="voice_commands_screen_search">Пошук на екрані</string>
   <string name="voice_commands_search_on_screen">Шукати на екрані</string>
   <string name="voice_commands_copy">@android:string/copy</string>
@@ -105,7 +105,7 @@
   <string name="voice_commands_help_title">Огляд голосових команд</string>
   <string name="voice_commands_help_description">Щоб активувати голосові команди, проведіть по екрану праворуч, а потім угору. Щоб переглянути цей список команд, промовте будь-коли \"Допомога\" або \"Що можна сказати\".</string>
   <string name="voice_commands_help_hint">Щоб отримати найкращі результати, промовте точну фразу з наведених на екранах нижче.</string>
-  <string name="voice_command_screen_locked_hint">Голосові команди недоступні, коли екран заблоковано. Щоб скористатися натомість меню TalkBack, виконайте таку дію: %1$s.</string>
+  <string name="voice_command_screen_locked_hint">Голосові команди недоступні, коли екран заблоковано. Щоб скористатися натомість меню TalkBack FOSS, виконайте таку дію: %1$s.</string>
   <string name="voice_commands_during_setup_hint">Голосові команди недоступні під час налаштування.</string>
   <string name="voice_commands_help_reading_controls_title">@string/shortcut_title_reading_control</string>
   <string name="voice_commands_help_reading_controls_description">Змінити спосіб читання контенту на цьому екрані</string>
@@ -136,7 +136,7 @@
   <string name="voice_commands_help_overview_description">Переглянути останні додатки</string>
   <string name="voice_commands_help_assistant_description">Відкрити Google Асистент</string>
   <string name="voice_commands_help_other_commands_title">Інші команди</string>
-  <string name="voice_commands_help_other_commands_description">Перейти до налаштувань TalkBack, приховати екран, відкрити дії, додати cпеціальні мітки тощо</string>
+  <string name="voice_commands_help_other_commands_description">Перейти до налаштувань TalkBack FOSS, приховати екран, відкрити дії, додати cпеціальні мітки тощо</string>
   <string name="voice_commands_help_label">Позначити термін [надіслати]</string>
   <string name="voice_commands_help_hide_screen_description">Приховувати вміст екрана від сторонніх людей у громадських місцях</string>
   <string name="voice_commands_help_show_screen_description">Повернути прихований екран до звичайного стану</string>

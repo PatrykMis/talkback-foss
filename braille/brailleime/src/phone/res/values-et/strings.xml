@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="braille_ime_service_name">TalkBacki Braille\' klaviatuur</string>
+  <string name="braille_ime_service_name">TalkBack FOSSi Braille\' klaviatuur</string>
   <string name="braille_ime_bd_mode_name">Braille\' ekraani sisestus</string>
   <string name="switch_to_screen_away_announcement">Režiim Ekraan eemal</string>
   <string name="switch_to_tabletop_announcement">Režiim Laual. Asetage seade nii, et laadimisport jääb vasakule. Punkti asendi värskendamiseks hoidke kuut sõrme all.</string>
@@ -8,7 +8,7 @@
   <string name="reminder_announcement">Lisavalikute avamiseks pühkige kolme sõrmega üles</string>
   <string name="braille_ime_displayed_name">Braille\' klaviatuur</string>
   <string name="multiple_languages_braille_ime_displayed_name">Braille\' klaviatuur, %s</string>
-  <string name="input_view_caption">TalkBacki Braille\' klaviatuur – abi saamiseks minge aadressile g.co/help/braille</string>
+  <string name="input_view_caption">TalkBack FOSSi Braille\' klaviatuur – abi saamiseks minge aadressile g.co/help/braille</string>
   <string name="perform_action_next">Järgmine</string>
   <string name="perform_action_submitting">Teksti esitamine</string>
   <string name="calibration_step1_hold_left_finger_announcement">Punkti asendi värskendamine. Esmalt salvestame teie vasaku käe punktid. Puudutage oma vasaku käe kolme keskmise sõrmega pikalt ekraani.</string>
@@ -64,17 +64,17 @@
   <string name="gesture_open_context_menu"><b>Abi ja muude valikute</b> avamiseks pühkige kolme sõrmega üles</string>
   <string name="not_enough_touch_points_dialog_title">Teie seade ei toeta Braille\' klaviatuuri</string>
   <string name="not_enough_touch_points_dialog_message">Teie seade ei toeta piisavalt puutepunkte. Lisateabe saamiseks võtke ühendust seadme tootjaga.</string>
-  <string name="talkback_off_dialog_title">Braille\' klaviatuuri kasutamiseks lülitage TalkBack sisse</string>
+  <string name="talkback_off_dialog_title">Braille\' klaviatuuri kasutamiseks lülitage TalkBack FOSS sisse</string>
   <string name="talkback_off_dialog_positive_button">Lülita see juurdepääsetavuse seadetes sisse</string>
-  <string name="talkback_suspend_dialog_title">Braille\' klaviatuuri kasutamiseks aktiveerige taas TalkBack</string>
-  <string name="talkback_off_or_suspend_dialog_message">Kui TalkBack on sees, võite puudutada ekraani, et sisestada Braille\' sümboleid.</string>
+  <string name="talkback_suspend_dialog_title">Braille\' klaviatuuri kasutamiseks aktiveerige taas TalkBack FOSS</string>
+  <string name="talkback_off_or_suspend_dialog_message">Kui TalkBack FOSS on sees, võite puudutada ekraani, et sisestada Braille\' sümboleid.</string>
   <string name="next_keyboard">Järgmine klaviatuur</string>
   <string name="braille_tutorial_title">Braille\' klaviatuuri õpetus</string>
-  <string name="tutorial_intro_description">Braille\' klaviatuuriga võite puudutada ekraani, et sisestada kuue punktiga Braille\' kirja.\n\nKasutate ühendatud inglise punktkirja. Sisestuskeele muutmiseks avage TalkBacki seaded.\n\nBraille\' kirja sisestamiseks peate telefoni hoidma ja kasutama teistmoodi.</string>
+  <string name="tutorial_intro_description">Braille\' klaviatuuriga võite puudutada ekraani, et sisestada kuue punktiga Braille\' kirja.\n\nKasutate ühendatud inglise punktkirja. Sisestuskeele muutmiseks avage TalkBack FOSSi seaded.\n\nBraille\' kirja sisestamiseks peate telefoni hoidma ja kasutama teistmoodi.</string>
   <string name="next_step">Edasi</string>
   <string name="leave_keyboard">Sule Braille\' klaviatuur</string>
-  <string name="hold_six_fingers_description">Braille\' klaviatuuriga ei saa tavapäraseid TalkBacki liigutusi kasutada.\n\nAlustamiseks seadistame kuue Braille\' punkti asendi, mille abil saate teksti sisestada.</string>
-  <string name="rotate_orientation_description_1">Nüüdsest ei saa te enam kasutada tavapäraseid TalkBacki liigutusi. TalkBack ei ole Braille\' klaviatuuri kasutamise ajal saadaval.</string>
+  <string name="hold_six_fingers_description">Braille\' klaviatuuriga ei saa tavapäraseid TalkBack FOSSi liigutusi kasutada.\n\nAlustamiseks seadistame kuue Braille\' punkti asendi, mille abil saate teksti sisestada.</string>
+  <string name="rotate_orientation_description_1">Nüüdsest ei saa te enam kasutada tavapäraseid TalkBack FOSSi liigutusi. TalkBack FOSS ei ole Braille\' klaviatuuri kasutamise ajal saadaval.</string>
   <string name="rotate_orientation_description_2">Alustamiseks hoidke telefoni nii, et ekraan oleks suunaga teist eemale.</string>
   <string name="tap_to_continue">Jätkamiseks topeltpuudutage</string>
   <string name="instruction_type_letter_a">Tähe A sisestamiseks puudutage vasaku nimetissõrmega punkti 1</string>
@@ -92,7 +92,7 @@
   <string name="result_swipe_down">KURSORIT LIIGUTATI EDASI</string>
   <string name="result_swipe_down_2_fingers">PEIDA KLAVIATUUR</string>
   <string name="result_swipe_down_3_fingers">JÄRGMINE KLAVIATUUR</string>
-  <string name="rotate_orientation_announcement">Nüüdsest ei saa te enam kasutada tavapäraseid TalkBacki liigutusi. TalkBack ei ole Braille\' klaviatuuri kasutamise ajal saadaval.\n\n%1$s</string>
+  <string name="rotate_orientation_announcement">Nüüdsest ei saa te enam kasutada tavapäraseid TalkBack FOSSi liigutusi. TalkBack FOSS ei ole Braille\' klaviatuuri kasutamise ajal saadaval.\n\n%1$s</string>
   <string name="rotate_orientation_inactive_announcement">Esmalt pöörake oma telefoni, nii et ekraan oleks suunaga teist eemal.\n\nSeejärel pöörake telefon horisontaalasendisse. Hoidke telefoni lühematest servadest. Teie parem käsi peab telefoni hoidma otsast, kus asub USB-port. Asetage kolm keskmist sõrme ekraanile ning toetage telefoni pöidla ja väikese sõrmega.\n\nKui olete valmis, puudutage jätkamiseks ekraani.\n\nBraille\' klaviatuuri sulgemiseks pühkige kolme sõrmega allapoole. See aktiveerib taas algse klaviatuuri.</string>
   <string name="rotate_orientation_continue_announcement">Telefon on vertikaalasendis. Jätkamiseks pöörake telefon horisontaalasendisse, nii et pikem serv on all. Seejärel pöörake telefoni, nii et ekraan oleks suunaga teist eemal. Kui olete valmis, topeltpuudutage ekraani, et jätkata.</string>
   <string name="type_letter_a_announcement">Hoidke telefoni nii, et ekraan oleks suunaga teist eemale. Hoidke telefoni mõlema käega lühematest servadest, nii et saaksite mõlema käe kolme keskmise sõrmega ekraani puudutada.\n\nVasak nimetissõrm peaks olema punktil 1. Nüüd puudutage punkti 1, et sisestada täht A.</string>
@@ -108,7 +108,7 @@
   <string name="swipe_down_3_fingers_announcement">Teise klaviatuuri aktiveerimiseks pühkige kolme sõrmega alla. Proovige kohe.</string>
   <string name="swipe_down_3_fingers_completed_announcement">Järgmine klaviatuur. Tavaliselt aktiveerib see järgmise klaviatuuri. Praegu jääb Braille\' klaviatuur aktiivseks, kuna õpetus on veel pooleli.</string>
   <string name="swipe_up_3_fingers_announcement">Režiimis Laual saate teksti sisestada ka siis, kui asetate telefoni lauale. Õpetuse lõpetamiseks pühkige kolme sõrmega üles ja leidke valik Lõpeta õpetus</string>
-  <string name="open_context_menu_announcement">Valikute menüü on avatud. Pöörake telefon uuesti ümber, et selle ekraan oleks suunatud teie poole, ja hoidke seda tavapäraselt. Nüüd saate navigeerimiseks kasutada tavapäraseid TalkBacki liigutusi. Lisavalikute nägemiseks pühkige paremale.</string>
+  <string name="open_context_menu_announcement">Valikute menüü on avatud. Pöörake telefon uuesti ümber, et selle ekraan oleks suunatud teie poole, ja hoidke seda tavapäraselt. Nüüd saate navigeerimiseks kasutada tavapäraseid TalkBack FOSSi liigutusi. Lisavalikute nägemiseks pühkige paremale.</string>
   <string name="hold_six_fingers_announcement">%s\nAsetage telefon lauale. Seejärel puudutage mõlema käe kolme keskmise sõrmega pikalt ekraani asendis, milles teil on mugav teksti sisestada.</string>
   <string name="hold_six_fingers_inactive_announcement">Asetage telefon lauale. Seejärel puudutage mõlema käe kolme keskmise sõrmega pikalt ekraani asendis, milles teil on mugav teksti sisestada.</string>
   <string name="finish_tutorial_announcement">Kuvatud on Braille\' klaviatuur. Pöörake telefon nii, et ekraan oleks teist eemale suunatud. Pöörake telefon horisontaalasendisse. Seejärel alustage sisestamist.</string>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="braille_ime_service_name">Bàn phím chữ nổi TalkBack</string>
+  <string name="braille_ime_service_name">Bàn phím chữ nổi TalkBack FOSS</string>
   <string name="braille_ime_bd_mode_name">Nhập bằng màn hình chữ nổi</string>
   <string name="switch_to_screen_away_announcement">Chế độ màn hình hướng ra ngoài</string>
   <string name="switch_to_tabletop_announcement">Chế độ trên mặt bàn. Đặt thiết bị sao cho cổng sạc ở bên trái. Nhấn và giữ bằng 6 ngón tay để cập nhật vị trí dấu chấm.</string>
@@ -8,7 +8,7 @@
   <string name="reminder_announcement">Vuốt lên bằng 3 ngón tay để xem thêm tùy chọn</string>
   <string name="braille_ime_displayed_name">bàn phím chữ nổi</string>
   <string name="multiple_languages_braille_ime_displayed_name">bàn phím chữ nổi, %s</string>
-  <string name="input_view_caption">Bàn phím chữ nổi TalkBack – để được trợ giúp, hãy truy cập vào g.co/help/braille</string>
+  <string name="input_view_caption">Bàn phím chữ nổi TalkBack FOSS – để được trợ giúp, hãy truy cập vào g.co/help/braille</string>
   <string name="perform_action_next">Tiếp theo</string>
   <string name="perform_action_submitting">Đang gửi văn bản</string>
   <string name="calibration_step1_hold_left_finger_announcement">Đang cập nhật vị trí dấu chấm. Trước tiên, hãy ghi lại các dấu chấm trên tay trái. Chạm và giữ màn hình bằng 3 ngón giữa của tay trái.</string>
@@ -64,17 +64,17 @@
   <string name="gesture_open_context_menu">Để được <b>trợ giúp và xem các tùy chọn khác</b>, hãy vuốt lên bằng 3 ngón tay</string>
   <string name="not_enough_touch_points_dialog_title">Thiết bị của bạn không hỗ trợ bàn phím chữ nổi</string>
   <string name="not_enough_touch_points_dialog_message">Thiết bị của bạn không hỗ trợ đầy đủ điểm cảm ứng. Để biết thêm thông tin, hãy liên hệ với nhà sản xuất thiết bị của bạn.</string>
-  <string name="talkback_off_dialog_title">Bật TalkBack để dùng bàn phím chữ nổi</string>
+  <string name="talkback_off_dialog_title">Bật TalkBack FOSS để dùng bàn phím chữ nổi</string>
   <string name="talkback_off_dialog_positive_button">Bật trong phần cài đặt hỗ trợ tiếp cận</string>
-  <string name="talkback_suspend_dialog_title">Tiếp tục TalkBack để dùng bàn phím chữ nổi</string>
-  <string name="talkback_off_or_suspend_dialog_message">Khi TalkBack đang bật, bạn có thể nhấn vào màn hình để nhập các biểu tượng chữ nổi.</string>
+  <string name="talkback_suspend_dialog_title">Tiếp tục TalkBack FOSS để dùng bàn phím chữ nổi</string>
+  <string name="talkback_off_or_suspend_dialog_message">Khi TalkBack FOSS đang bật, bạn có thể nhấn vào màn hình để nhập các biểu tượng chữ nổi.</string>
   <string name="next_keyboard">Bàn phím tiếp theo</string>
   <string name="braille_tutorial_title">Hướng dẫn dùng bàn phím chữ nổi</string>
-  <string name="tutorial_intro_description">Với bàn phím chữ nổi, bạn có thể nhấn vào màn hình để nhập chữ nổi qua 6 dấu chấm.\n\nBạn đang dùng Chữ nổi tiếng Anh hợp nhất. Để chuyển đổi ngôn ngữ nhập, hãy chuyển đến phần cài đặt TalkBack.\n\nĐể nhập chữ nổi, bạn cần phải cầm và dùng điện thoại của mình theo cách riêng.</string>
+  <string name="tutorial_intro_description">Với bàn phím chữ nổi, bạn có thể nhấn vào màn hình để nhập chữ nổi qua 6 dấu chấm.\n\nBạn đang dùng Chữ nổi tiếng Anh hợp nhất. Để chuyển đổi ngôn ngữ nhập, hãy chuyển đến phần cài đặt TalkBack FOSS.\n\nĐể nhập chữ nổi, bạn cần phải cầm và dùng điện thoại của mình theo cách riêng.</string>
   <string name="next_step">Tiếp theo</string>
   <string name="leave_keyboard">Thoát khỏi bàn phím chữ nổi</string>
-  <string name="hold_six_fingers_description">Bạn sẽ không thể dùng các cử chỉ TalkBack thông thường với bàn phím chữ nổi.\n\nĐể bắt đầu, hãy thiết lập vị trí của 6 dấu chấm chữ nổi khi bạn nhập.</string>
-  <string name="rotate_orientation_description_1">Kể từ giờ, bạn sẽ không thể dùng các cử chỉ TalkBack thông thường nữa. TalkBack không hoạt động khi bạn dùng bàn phím chữ nổi.</string>
+  <string name="hold_six_fingers_description">Bạn sẽ không thể dùng các cử chỉ TalkBack FOSS thông thường với bàn phím chữ nổi.\n\nĐể bắt đầu, hãy thiết lập vị trí của 6 dấu chấm chữ nổi khi bạn nhập.</string>
+  <string name="rotate_orientation_description_1">Kể từ giờ, bạn sẽ không thể dùng các cử chỉ TalkBack FOSS thông thường nữa. TalkBack FOSS không hoạt động khi bạn dùng bàn phím chữ nổi.</string>
   <string name="rotate_orientation_description_2">Để bắt đầu, hãy cầm điện thoại như mô tả, với màn hình hướng ra phía ngoài.</string>
   <string name="tap_to_continue">Nhấn đúp vào vị trí bất kỳ để tiếp tục</string>
   <string name="instruction_type_letter_a">Dùng ngón tay trỏ trái nhấn vào dấu chấm 1 để nhập chữ \"A\"</string>
@@ -92,7 +92,7 @@
   <string name="result_swipe_down">ĐÃ DI CHUYỂN CON TRỎ VỀ PHÍA TRƯỚC</string>
   <string name="result_swipe_down_2_fingers">ẨN BÀN PHÍM</string>
   <string name="result_swipe_down_3_fingers">BÀN PHÍM TIẾP THEO</string>
-  <string name="rotate_orientation_announcement">Kể từ giờ, bạn sẽ không thể dùng các cử chỉ TalkBack thông thường nữa. TalkBack không hoạt động khi bạn dùng bàn phím chữ nổi.\n\n%1$s</string>
+  <string name="rotate_orientation_announcement">Kể từ giờ, bạn sẽ không thể dùng các cử chỉ TalkBack FOSS thông thường nữa. TalkBack FOSS không hoạt động khi bạn dùng bàn phím chữ nổi.\n\n%1$s</string>
   <string name="rotate_orientation_inactive_announcement">Trước tiên, hãy xoay điện thoại sao cho màn hình hướng ra phía ngoài.\n\nTiếp đến, hãy xoay điện thoại sao cho điện thoại nằm ngang. Hai tay bạn cầm vào hai cạnh ngắn của điện thoại. Tay phải bạn cầm vào cạnh có cổng USB. Đặt 3 ngón tay giữa trên màn hình, dùng ngón cái và ngón út để đỡ điện thoại.\n\nKhi đã sẵn sàng, hãy nhấn đúp vào màn hình để tiếp tục.\n\nĐể thoát khỏi bàn phím chữ nổi, hãy vuốt xuống dưới bằng 3 ngón tay. Thao tác này sẽ chuyển lại về bàn phím ban đầu.</string>
   <string name="rotate_orientation_continue_announcement">Bạn đang cầm điện thoại theo chiều dọc. Để tiếp tục, hãy xoay ngang điện thoại sao cho cạnh dài ở phía dưới cùng. Sau đó, xoay màn hình hướng ra phía ngoài. Khi bạn đã sẵn sàng, hãy nhấn đúp vào màn hình để tiếp tục.</string>
   <string name="type_letter_a_announcement">Giữ sao cho màn hình hướng ra phía ngoài. Cầm vào phần cạnh ngắn của điện thoại bằng cả 2 tay sao cho 3 ngón giữa của mỗi bàn tay có thể chạm vào màn hình.\n\nNgón trỏ trái nên đặt ở vị trí dấu chấm 1. Giờ đây, hãy nhấn vào dấu chấm 1 để nhập chữ “A”.</string>
@@ -108,7 +108,7 @@
   <string name="swipe_down_3_fingers_announcement">Để chuyển sang bàn phím khác, hãy vuốt xuống bằng 3 ngón tay. Thử ngay.</string>
   <string name="swipe_down_3_fingers_completed_announcement">Bàn phím tiếp theo. Thông thường, thao tác này sẽ chuyển sang bàn phím tiếp theo. Lúc này, bạn đang dùng bàn phím chữ nổi vì vẫn đang ở chế độ hướng dẫn.</string>
   <string name="swipe_up_3_fingers_announcement">Bạn cũng có thể nhập ở chế độ trên mặt bàn bằng cách đặt điện thoại nằm trên bàn. Để kết thúc phần hướng dẫn, hãy vuốt lên bằng 3 ngón tay rồi tìm tùy chọn kết thúc phần hướng dẫn</string>
-  <string name="open_context_menu_announcement">Trình đơn tùy chọn đang mở. Lật lại điện thoại sao cho màn hình hướng về phía bạn và cầm như bình thường. Bây giờ, bạn có thể dùng các cử chỉ TalkBack thông thường để thao tác. Vuốt sang phải để xem thêm các tùy chọn.</string>
+  <string name="open_context_menu_announcement">Trình đơn tùy chọn đang mở. Lật lại điện thoại sao cho màn hình hướng về phía bạn và cầm như bình thường. Bây giờ, bạn có thể dùng các cử chỉ TalkBack FOSS thông thường để thao tác. Vuốt sang phải để xem thêm các tùy chọn.</string>
   <string name="hold_six_fingers_announcement">%s\nĐặt thiết bị nằm trên bàn. Sau đó, chạm và giữ màn hình bằng 3 ngón giữa của mỗi bàn tay ở vị trí mà bạn cảm thấy thoải mái khi nhập.</string>
   <string name="hold_six_fingers_inactive_announcement">Đặt thiết bị nằm trên bàn. Sau đó, chạm và giữ màn hình bằng 3 ngón giữa của mỗi bàn tay ở vị trí mà bạn cảm thấy thoải mái khi nhập.</string>
   <string name="finish_tutorial_announcement">Đang hiển thị bàn phím chữ nổi. Xoay điện thoại sao cho màn hình hướng ra phía ngoài. Xoay điện thoại sao cho điện thoại nằm ngang. Sau đó, hãy bắt đầu nhập.</string>

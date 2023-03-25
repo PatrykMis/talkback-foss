@@ -56,8 +56,8 @@
   <string name="voice_commands_dictate">Начать диктовку</string>
   <string name="voice_commands_write">Текст</string>
   <string name="voice_commands_Spell">Голос</string>
-  <string name="voice_commands_talkback_settings">Настройки TalkBack</string>
-  <string name="voice_commands_talkback_setting">Настройка TalkBack</string>
+  <string name="voice_commands_talkback_settings">Настройки TalkBack FOSS</string>
+  <string name="voice_commands_talkback_setting">Настройка TalkBack FOSS</string>
   <string name="voice_commands_screen_search">Поиск по экрану</string>
   <string name="voice_commands_search_on_screen">Поиск на экране</string>
   <string name="voice_commands_copy">@android:string/copy</string>
@@ -105,7 +105,7 @@
   <string name="voice_commands_help_title">Обзор голосовых команд</string>
   <string name="voice_commands_help_description">Чтобы использовать голосовые команды, смахните вправо и вверх. Для доступа к списку команд скажите \"Справка\" или \"Что я могу сказать?\".</string>
   <string name="voice_commands_help_hint">Чтобы команды работали, произносите их так, как указано на последующих экранах.</string>
-  <string name="voice_command_screen_locked_hint">Когда экран заблокирован, голосовые команды недоступны. Чтобы использовать меню TalkBack, %1$s.</string>
+  <string name="voice_command_screen_locked_hint">Когда экран заблокирован, голосовые команды недоступны. Чтобы использовать меню TalkBack FOSS, %1$s.</string>
   <string name="voice_commands_during_setup_hint">Во время настройки голосовые команды недоступны.</string>
   <string name="voice_commands_help_reading_controls_title">@string/shortcut_title_reading_control</string>
   <string name="voice_commands_help_reading_controls_description">Настройка параметров чтения на текущем экране.</string>
@@ -136,7 +136,7 @@
   <string name="voice_commands_help_overview_description">Просмотр недавно открытых приложений.</string>
   <string name="voice_commands_help_assistant_description">Открыть приложение \"Google Ассистент\".</string>
   <string name="voice_commands_help_other_commands_title">Другие команды</string>
-  <string name="voice_commands_help_other_commands_description">Переход в настройки TalkBack, затемнение экрана, просмотр действий, добавление пользовательских меток и многое другое.</string>
+  <string name="voice_commands_help_other_commands_description">Переход в настройки TalkBack FOSS, затемнение экрана, просмотр действий, добавление пользовательских меток и многое другое.</string>
   <string name="voice_commands_help_label">Добавить ярлык [Отправить]</string>
   <string name="voice_commands_help_hide_screen_description">Отключение экрана. Окружающим не будет видно, что на нем изображено.</string>
   <string name="voice_commands_help_show_screen_description">Возвращение отключенного экрана в нормальный режим.</string>

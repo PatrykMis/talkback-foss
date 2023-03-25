@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="talkback_on">TalkBack është aktiv</string>
-  <string name="talkback_disabled">TalkBack joaktiv</string>
+  <string name="talkback_on">TalkBack FOSS është aktiv</string>
+  <string name="talkback_disabled">TalkBack FOSS joaktiv</string>
   <string name="spokenfeedback_on">Komentet me zë janë aktive</string>
   <string name="spokenfeedback_suspended">Komentet me zë janë pezulluar</string>
   <string name="spokenfeedback_resumed">Komentet me zë vazhduan</string>

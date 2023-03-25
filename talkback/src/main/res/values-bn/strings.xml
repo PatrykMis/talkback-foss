@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="talkback_service_description">\'টকব্যাক\' ফিচার চালু করা থাকলে, পড়ে শোনানোর সুবিধা ব্যবহার করে স্ক্রিনের দিকে না তাকিয়েই ডিভাইস অ্যাক্সেস করতে পারবেন। দৃষ্টিহীন অথবা দেখতে অসুবিধা হয় এমন মানুষদের এতে সুবিধা হয়।\n\nটকব্যাকে ব্রেইল সমর্থন রয়েছে এবং ব্রেইল ডিসপ্লের সাথে কানেক্ট করতে আপনাকে সাহায্য করতে ব্লুটুথ ব্যবহার করে।\n\nTalkBack ব্যবহার করে নেভিগেট করতে:\n•  ডানদিকে অথবা বাঁদিকে সোয়াইপ করে এক আইটেম থেকে অন্যটিতে যান\n•  কোনও আইটেম চালু করতে তাতে ডবল ট্যাপ করুন\n•  স্ক্রল করতে স্ক্রিনে দুটি আঙুল টেনে আনুন\n\nTalkBack বন্ধ করতে:\n•  সুইচে ট্যাপ করুন। আপনি সবুজ রঙয়ের আউটলাইন দেখতে পাবেন। সুইচ ডবল ট্যাপ করুন।\n•  কনফার্মেশন মেসেজ পেলে, \'ঠিক আছে\' বোতামে ট্যাপ করুন। এরপর, \'ঠিক আছে\' বোতামে ডবল ট্যাপ করুন।</string>
+  <string name="talkback_service_description">\'টকব্যাক\' ফিচার চালু করা থাকলে, পড়ে শোনানোর সুবিধা ব্যবহার করে স্ক্রিনের দিকে না তাকিয়েই ডিভাইস অ্যাক্সেস করতে পারবেন। দৃষ্টিহীন অথবা দেখতে অসুবিধা হয় এমন মানুষদের এতে সুবিধা হয়।\n\nটকব্যাকে ব্রেইল সমর্থন রয়েছে এবং ব্রেইল ডিসপ্লের সাথে কানেক্ট করতে আপনাকে সাহায্য করতে ব্লুটুথ ব্যবহার করে।\n\nTalkBack FOSS ব্যবহার করে নেভিগেট করতে:\n•  ডানদিকে অথবা বাঁদিকে সোয়াইপ করে এক আইটেম থেকে অন্যটিতে যান\n•  কোনও আইটেম চালু করতে তাতে ডবল ট্যাপ করুন\n•  স্ক্রল করতে স্ক্রিনে দুটি আঙুল টেনে আনুন\n\nTalkBack FOSS বন্ধ করতে:\n•  সুইচে ট্যাপ করুন। আপনি সবুজ রঙয়ের আউটলাইন দেখতে পাবেন। সুইচ ডবল ট্যাপ করুন।\n•  কনফার্মেশন মেসেজ পেলে, \'ঠিক আছে\' বোতামে ট্যাপ করুন। এরপর, \'ঠিক আছে\' বোতামে ডবল ট্যাপ করুন।</string>
   <string name="talkback_service_html_description">\'টকব্যাক\' ফিচার চালু করা থাকলে, পড়ে শোনানোর সুবিধা ব্যবহার করে স্ক্রিনের দিকে না তাকিয়েই ডিভাইস অ্যাক্সেস করতে পারবেন। স্ক্রিনের দিতে তাকাতে আপনার অসুবিধা হলে বা যাদের তাকাতে অসুবিধা হয়, \'টকব্যাক\' ফিচার তাদের জন্য ব্যবহার করা হয়।&lt;br&gt;&lt;br&gt;টকব্যাকে ব্রেইল সমর্থন রয়েছে এবং ব্রেইল ডিসপ্লের সাথে কানেক্ট করতে আপনাকে সাহায্য করতে ব্লুটুথ ব্যবহার করে।&lt;br&gt;&lt;br&gt;&lt;b&gt;\'টকব্যাক\' ফিচার কীভাবে ব্যবহার করবেন&lt;/b&gt;&lt;br&gt;• একটি আইটেম থেকে অপরটিতে বদল করতে ডানদিকে বা বাঁদিকে সোয়াইপ করুন&lt;br&gt;• আইটেম অ্যাক্টিভেট করতে ডবল ট্যাপ করুন&lt;br&gt;• স্ক্রল করতে ২টি আঙুল দিয়ে টেনে আনুন&lt;br&gt;&lt;br&gt;&lt;b&gt;\'টকব্যাক\' ফিচার কীভাবে বন্ধ করবেন&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;ভলিউম কী:&lt;/b&gt; প্রেস করে &amp;amp\; ধরে থাকুন।&lt;br&gt;&lt;br&gt;&lt;b&gt;সেটিংস&lt;/b&gt;&lt;br&gt;• এরপর &lt;b&gt;\'টকব্যাক\' ফিচার ব্য়বহার করুন&lt;/b&gt; সুইচ ট্যাপ করুন। আপনি&amp;apos\;ll একটি সবুজ আউটলাইন দেখতে পাবেন। সুইচ ডবল ট্যাপ করুন।&lt;br&gt;• কনফার্মেশন মেসেজে \'বন্ধ করুন\' বোতামে ট্যাপ করুন। এরপর, \'বন্ধ করুন\' বোতামে ডবল ট্যাপ করুন।</string>
   <string name="talkback_service_summary">স্ক্রিনের আইটেমগুলি শুনতে চাই</string>
   <string name="talkback_preferences_title">টকব্যাক সেটিংস</string>
@@ -77,8 +77,8 @@
   <string name="pref_category_selector_menu_summary_single_finger">পড়া সংক্রান্ত কন্ট্রোল ফিচার ব্যবহার করার জন্য, প্রথমে উপরের দিকে তারপর নিচের দিকে সোয়াইপ করুন।</string>
   <string name="title_pref_manage_keyboard_shortcuts">কিবোর্ড শর্টকাটগুলি</string>
   <string name="title_pref_export_custom_labels">কাস্টম লেবেলগুলি রপ্তানি করুন</string>
-  <string name="title_pref_play_store">Play স্টোরে TalkBack খুলুন</string>
-  <string name="summary_pref_play_store">TalkBack এর বর্তমান ভার্সন: %1$s</string>
+  <string name="title_pref_play_store">Play স্টোরে TalkBack FOSS খুলুন</string>
+  <string name="summary_pref_play_store">TalkBack FOSS এর বর্তমান ভার্সন: %1$s</string>
   <string name="title_pref_help_and_feedback">সহায়তা ও মতামত</string>
   <string name="pref_item_licenses">ওপেন সোর্স লাইসেন্সগুলি</string>
   <string name="title_pref_help">সহায়তা</string>
@@ -106,8 +106,8 @@
   <string name="keycombo_menu_select_keymap">একটি কীম্যাপ বাছুন</string>
   <string name="keycombo_menu_reset_keymap">কীম্যাপ রিসেট করুন</string>
   <string name="keycombo_menu_choose_trigger_modifier">সংশোধক কী বেছে নিন</string>
-  <string name="keycombo_menu_alert_title_trigger_modifier">TalkBack কীম্যাপকে রিসেট করবে</string>
-  <string name="keycombo_menu_alert_message_trigger_modifier">TalkBack কীম্যাপকে রিসেট করবে এবং সংশোধক কী পরিবর্তন করে %1$s করবে</string>
+  <string name="keycombo_menu_alert_title_trigger_modifier">TalkBack FOSS কীম্যাপকে রিসেট করবে</string>
+  <string name="keycombo_menu_alert_message_trigger_modifier">TalkBack FOSS কীম্যাপকে রিসেট করবে এবং সংশোধক কী পরিবর্তন করে %1$s করবে</string>
   <string name="keycombo_menu_announce_new_trigger_modifier">সংশোধক কী পরিবর্তন করে %1$s করা হয়েছে৷</string>
   <string name="keycombo_menu_announce_active_keymap">%1$s এখন সক্রিয়।</string>
   <string name="keycombo_menu_announce_reset_keymap">কীম্যাপ রিসেট করা হয়েছে।</string>
@@ -150,7 +150,7 @@
   <string name="keycombo_menu_other_custom_actions">অ্যাকশনগুলি দেখুন</string>
   <string name="keycombo_menu_other_language_options">ইনস্টল করা ভাষাগুলি দেখুন</string>
   <string name="keycombo_menu_other_open_manage_keyboard_shortcuts">কীবোর্ড শর্টকাটগুলি পরিচালনা করুন</string>
-  <string name="keycombo_menu_other_open_talkback_settings">TalkBack সেটিংস খুলুন</string>
+  <string name="keycombo_menu_other_open_talkback_settings">TalkBack FOSS সেটিংস খুলুন</string>
   <string name="keycombo_menu_category_web">ওয়েবে নেভিগেশান অ্যাকশনগুলি</string>
   <string name="keycombo_menu_web_navigate_to_next_button">পরবর্তী বোতামে নেভিগেট করুন</string>
   <string name="keycombo_menu_web_navigate_to_previous_button">পূর্ববর্তী বোতামে নেভিগেট করুন</string>
@@ -245,7 +245,7 @@
   <string name="summary_pref_icon_detection_uninstalling">আনইনস্টল হচ্ছে...</string>
   <string name="screen_dimmed">স্ক্রিন লুকানো হয়েছে</string>
   <string name="screen_brightness_restored">স্ক্রিন দেখানো হচ্ছে</string>
-  <string name="screen_dimming_exit_instruction_line1">TalkBack অ্যাক্সেসযোগ্যতা পরিষেবা চালু আছে বলে স্ক্রিন লুকানো হয়েছে</string>
+  <string name="screen_dimming_exit_instruction_line1">TalkBack FOSS অ্যাক্সেসযোগ্যতা পরিষেবা চালু আছে বলে স্ক্রিন লুকানো হয়েছে</string>
   <string name="screen_dimming_exit_instruction_line2">টকব্যাক মেনু খুলতে জেসচার ব্যবহার %1$s করুন, \"%2$s\" হাইলাইট করুন, তারপরে ডবল ট্যাপ করুন।</string>
   <string name="shortcut_title_basic_navigation">প্রাথমিক নেভিগেশন</string>
   <string name="shortcut_title_system_actions">সিস্টেম সংক্রান্ত অ্যাকশন</string>
@@ -474,7 +474,7 @@
   <string name="pref_node_desc_order_entry_state_name_role_pos">রাজ্য, নাম, প্রকার</string>
   <string name="pref_node_desc_order_entry_role_name_state_pos">প্রকার, নাম, রাজ্য</string>
   <string name="pref_node_desc_order_entry_name_role_state_pos">নাম, প্রকার, রাজ্য</string>
-  <string name="notification_title_talkback_gestures_changed">TalkBack ইঙ্গিতগুলি পরিবর্তন করা হয়েছে</string>
+  <string name="notification_title_talkback_gestures_changed">TalkBack FOSS ইঙ্গিতগুলি পরিবর্তন করা হয়েছে</string>
   <string name="notification_message_talkback_gestures_changed">অ্যাক্সেসযোগ্যতার অঙ্গভঙ্গিগুলিতে হওয়া পরিবর্তনগুলি পর্যালোচনা করতে আলতো চাপুন</string>
   <string name="always_show_warning_checkbox">সবসময় এই সতর্কবার্তা দেখান</string>
   <string name="label_dialog_title_add">লেবেল যোগ করুন</string>
@@ -484,7 +484,7 @@
   <string name="label_dialog_text">এই এলিমেন্টের লেবেল হিসেবে ব্যবহারের জন্য কিছু লিখুন\nঅভ্যন্তরীণ দৃশ্যের নাম: %1$s</string>
   <string name="label_dialog_edit_hint">লেবেলের পাঠ্য</string>
   <string name="label_import">কাস্টম লেবেলগুলি আমদানি করুন</string>
-  <string name="label_import_dialog_title">TalkBack এ কাস্টম লেবেলগুলি আমদানি করুন</string>
+  <string name="label_import_dialog_title">TalkBack FOSS এ কাস্টম লেবেলগুলি আমদানি করুন</string>
   <string name="label_import_dialog_message">কোনো দ্বন্দ্বের ক্ষেত্রে আপনি বিদ্যমান লেবেলগুলি ওভাররাইড করতে বা এড়িয়ে যেতে চান কি না নির্দিষ্ট করুন</string>
   <string name="label_import_dialog_skip">এড়িয়ে যান</string>
   <string name="label_import_dialog_override">ওভাররাইড করুন</string>
@@ -499,12 +499,12 @@
   <string name="no_apps_to_export_labels">লেবেলগুলি রপ্তানি করার মত কোনো অ্যাপ্লিকেশান খুঁজে পাওয়া যায় নি।</string>
   <string name="label_choose_app_to_import">লেবেলগুলি আমদানি করার জন্য অ্যাপ্লিকেশান বেছে নিন:</string>
   <string name="label_choose_app_to_export">লেবেলগুলি রপ্তানি করতে অ্যাপ্লিকেশান চয়্ন করুন:</string>
-  <string name="talkback_gesture_change_details">TalkBack এর এই সংস্করণে ডিফল্ট অ্যাক্সেসযোগ্যতা অঙ্গভঙ্গিগুলিতে করা পরিবর্তনগুলি রয়েছে৷ এইসব অঙ্গভঙ্গির সঙ্গে থাকা ক্রিয়াগুলি TalkBack সেটিংসে কাস্টমাইজ করা যেতে পারে৷ যখন স্পর্শের মাধ্যমে অন্বেষণ সক্ষমিত তখন আপনি কিছু ক্রিয়ার কার্য সম্পাদন করতে আপনি নিম্নলিখিত অঙ্গভঙ্গিগুলি ব্যবহার করতে পারেন৷\n\n%1$s</string>
+  <string name="talkback_gesture_change_details">TalkBack FOSS এর এই সংস্করণে ডিফল্ট অ্যাক্সেসযোগ্যতা অঙ্গভঙ্গিগুলিতে করা পরিবর্তনগুলি রয়েছে৷ এইসব অঙ্গভঙ্গির সঙ্গে থাকা ক্রিয়াগুলি TalkBack FOSS সেটিংসে কাস্টমাইজ করা যেতে পারে৷ যখন স্পর্শের মাধ্যমে অন্বেষণ সক্ষমিত তখন আপনি কিছু ক্রিয়ার কার্য সম্পাদন করতে আপনি নিম্নলিখিত অঙ্গভঙ্গিগুলি ব্যবহার করতে পারেন৷\n\n%1$s</string>
   <string name="dialog_title_dim_screen">স্ক্রিন লুকাবেন?</string>
   <string name="dialog_message_dim_screen">এটি গোপনীয়তার বিষয়টি উন্নত করার জন্য প্রদর্শনটি বন্ধ করে দেয় যাতে সর্বজনীন জায়গায় আপনার স্ক্রিনটি বাকিরা যেন দেখতে না পায়</string>
   <string name="talkback_built_in_gesture_change_details">\'টকব্যাক\' ফিচারের এই ভার্সনে ডিফল্ট অ্যাক্সেসিবিলিটি জেসচারে করা পরিবর্তনগুলি অন্তর্ভুক্ত রয়েছে।\n\nউপরে-তারপর-নিচে যাওয়ার জেসচার আপনাকে স্ক্রিনের প্রথম আইটেমে যেতে দেবে এবং নিচে-তারপর-উপরে যাওয়ার জেসচারের মাধ্যমে আপনি শেষ আইটেমে যেতে পারবেন।\n\nএকটি আইটেমে ফোকাস করে ও তারপরে টকব্যাক কন্টেক্সট মেনু থেকে গ্র্যানুলারিটি বেছে নিয়ে রিডিং গ্র্যানুলারিটি এখন পরিবর্তন করা যেতে পারে।\n\nআপনি \'টকব্যাক\' সেটিংসে এইসব জেসচারের মাধ্যমে করা অ্যাকশনগুলি পরিবর্তন করতে পারেন।</string>
-  <string name="talkback_built_in_gesture_change_details_45">TalkBack এর এই ভার্সনটিতে ডিফল্ট অ্যাক্সেসযোগ্যতার ইঙ্গিততে পরিবর্তনগুলি অন্তর্ভুক্ত আছে। \n\nউপরের ইঙ্গিতটি এখন পূর্ববর্তী নেভিগেশন সেটিং এ সরানো হয়েছে এবং নীচের ইঙ্গিত এখন পরবর্তী নেভিগেশন সেটিং এ সরানো হয়েছে।</string>
-  <string name="side_tap_shortcuts_removed_details">নির্ভরযোগ্যতা সংক্রান্ত সমস্যার জন্য, TalkBack থেকে এই সেটিংস সরিয়ে দেওয়া হয়েছে:\n• ডিভাইস জেসচারের পাশে ট্যাপ করুন\n• ক্রমাগত পড়া চালিয়ে যাওয়ার জন্য ডিভাইসটি ঝাঁকান</string>
+  <string name="talkback_built_in_gesture_change_details_45">TalkBack FOSS এর এই ভার্সনটিতে ডিফল্ট অ্যাক্সেসযোগ্যতার ইঙ্গিততে পরিবর্তনগুলি অন্তর্ভুক্ত আছে। \n\nউপরের ইঙ্গিতটি এখন পূর্ববর্তী নেভিগেশন সেটিং এ সরানো হয়েছে এবং নীচের ইঙ্গিত এখন পরবর্তী নেভিগেশন সেটিং এ সরানো হয়েছে।</string>
+  <string name="side_tap_shortcuts_removed_details">নির্ভরযোগ্যতা সংক্রান্ত সমস্যার জন্য, TalkBack FOSS থেকে এই সেটিংস সরিয়ে দেওয়া হয়েছে:\n• ডিভাইস জেসচারের পাশে ট্যাপ করুন\n• ক্রমাগত পড়া চালিয়ে যাওয়ার জন্য ডিভাইসটি ঝাঁকান</string>
   <string name="button_accept_changed_gesture_mappings">অঙ্গভঙ্গিগুলি স্বীকার করুন</string>
   <string name="button_customize_gesture_mappings">অঙ্গভঙ্গিগুলি কাস্টমাইজ করুন</string>
   <string name="button_disable_all_events">সবগুলি অক্ষম করুন</string>
@@ -561,7 +561,7 @@
   <string name="arc_talkback_activation_hint">টকব্যাক চালু রয়েছে</string>
   <string name="arc_navigation_hint">নেভিগেট করতে সার্চ এবং তীর কীগুলিকে একসাথে টিপুন</string>
   <string name="arc_open_manage_keyboard_shortcuts_hint">শর্টকাটের তালিকা দেখতে %1$s টিপুন</string>
-  <string name="arc_open_talkback_settings_hint">TalkBack সেটিংস খুলতে %1$s টিপুন</string>
+  <string name="arc_open_talkback_settings_hint">TalkBack FOSS সেটিংস খুলতে %1$s টিপুন</string>
   <string name="reset_user_language_preference">ডিফল্ট</string>
   <string name="title_pref_selector_speech_rate">ভাষ্যের হার</string>
   <string name="title_pref_selector_verbosity">ভার্বোসিটি</string>
@@ -596,8 +596,8 @@
   <string name="dialog_title_pass_through_mode">সিস্টেম জেসচার ব্যবহার করার জন্য টকব্যাক জেসচার এড়িয়ে যান</string>
   <string name="dialog_message_pass_through_mode">চাইম শুনলে, আপনি একটি সিস্টেম জেসচার ব্যবহার করতে পারবেন যা টকব্যাক ফিচারে ব্যবহার করা যায় না। এটিকে \'পাস-থ্রু\' জেসচার বলে।</string>
   <string name="hint_type_search_term">সার্চে ব্যবহৃত শব্দ</string>
-  <string name="talkback_notification_channel_name">TalkBack</string>
-  <string name="talkback_notification_channel_description">TalkBack-এর বিজ্ঞপ্তি চ্যানেল</string>
+  <string name="talkback_notification_channel_name">TalkBack FOSS</string>
+  <string name="talkback_notification_channel_description">TalkBack FOSS-এর বিজ্ঞপ্তি চ্যানেল</string>
   <string name="pref_selector_summary">সেটিং বেছে নিতে %1$s। তারপরে সেটিং অ্যাডজাস্ট করতে %2$s।</string>
   <string name="speech_rate_change">স্পিচ রেট %1$d%%</string>
   <string name="punctuation_state">যতিচিহ্ন %1$s</string>
@@ -762,8 +762,8 @@
   <string name="button_3">বোতাম ৩</string>
   <string name="button_4">বোতাম ৪</string>
   <string name="activated_view">%1$s অ্যাক্টিভ আছে</string>
-  <string name="talkback_inactive_title">TalkBack বন্ধ করা রয়েছে</string>
-  <string name="talkback_inactive_message">এই টিউটোরিয়াল চালু করতে TalkBack লাগবে। টিউটোরিয়াল লঞ্চ করার আগে TalkBack চালু করুন।</string>
+  <string name="talkback_inactive_title">TalkBack FOSS বন্ধ করা রয়েছে</string>
+  <string name="talkback_inactive_message">এই টিউটোরিয়াল চালু করতে TalkBack FOSS লাগবে। টিউটোরিয়াল লঞ্চ করার আগে TalkBack FOSS চালু করুন।</string>
   <string name="watch_swipe_left_right_text">একটি আইটেম থেকে আর একটি আইটেমে যাওয়ার জন্য বাঁদিকে অথবা ডানদিকে সোয়াইপ করুন</string>
   <string name="watch_double_tap_text">কোনও আইটেমকে সক্রিয় করতে ডবল ট্যাপ করুন</string>
   <string name="watch_2_finger_scroll_text">স্ক্রল করার জন্য ২টি আঙুল দিয়ে টানুন</string>

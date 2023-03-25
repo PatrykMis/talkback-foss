@@ -56,8 +56,8 @@
   <string name="voice_commands_dictate">Oʻqib berish</string>
   <string name="voice_commands_write">Yozish</string>
   <string name="voice_commands_Spell">Ovoz</string>
-  <string name="voice_commands_talkback_settings">TalkBack sozlamalari</string>
-  <string name="voice_commands_talkback_setting">TalkBack sozlamasi</string>
+  <string name="voice_commands_talkback_settings">TalkBack FOSS sozlamalari</string>
+  <string name="voice_commands_talkback_setting">TalkBack FOSS sozlamasi</string>
   <string name="voice_commands_screen_search">Ekrandan qidirish</string>
   <string name="voice_commands_search_on_screen">Ekranda qidirish</string>
   <string name="voice_commands_copy">@android:string/copy</string>
@@ -105,7 +105,7 @@
   <string name="voice_commands_help_title">Ovozli buyruqlar bilan tanishish</string>
   <string name="voice_commands_help_description">Ovozli buyruqlardan foydalanish uchun avval oʻngga, keyin tepaga suring. Buyruqlar roʻyxatini istalgan vaqtida ochish uchun “Yordam“ yoki “Nima deyishim mumkin?” deng</string>
   <string name="voice_commands_help_hint">Buyruqlar bajarilish uchun quyidagi ekranda koʻrsatilganidek talaffuz qiling.</string>
-  <string name="voice_command_screen_locked_hint">Ovozli buyruqlar qulflangan ekranda ishlamaydi. Oʻrniga TalkBack menyusidan foydalanish uchun %1$s.</string>
+  <string name="voice_command_screen_locked_hint">Ovozli buyruqlar qulflangan ekranda ishlamaydi. Oʻrniga TalkBack FOSS menyusidan foydalanish uchun %1$s.</string>
   <string name="voice_commands_during_setup_hint">Ovozli buyruqlar sozlash paytida ishlamaydi.</string>
   <string name="voice_commands_help_reading_controls_title">@string/shortcut_title_reading_control</string>
   <string name="voice_commands_help_reading_controls_description">Joriy ekranda kontentni oʻqish parametrlarini sozlash</string>
@@ -136,7 +136,7 @@
   <string name="voice_commands_help_overview_description">Oxirgi ochilgan ilovalarni koʻrish</string>
   <string name="voice_commands_help_assistant_description">Google Assistentni ochish</string>
   <string name="voice_commands_help_other_commands_title">Boshqa buyruqlar</string>
-  <string name="voice_commands_help_other_commands_description">TalkBack sozlamalarini ochish, ekranni qoraytirish, amallarni koʻrish va boshqa belgilarni kiritish</string>
+  <string name="voice_commands_help_other_commands_description">TalkBack FOSS sozlamalarini ochish, ekranni qoraytirish, amallarni koʻrish va boshqa belgilarni kiritish</string>
   <string name="voice_commands_help_label">[Yuborish] yorligʻi</string>
   <string name="voice_commands_help_hide_screen_description">Jamoat joylarida ekrandagi kontent boshqalarga koʻrinmasligi uchun ekranni berkitish</string>
   <string name="voice_commands_help_show_screen_description">Ekran berkitilgandan keyin uni normal holatga qaytarish</string>

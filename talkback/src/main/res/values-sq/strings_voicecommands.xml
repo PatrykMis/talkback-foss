@@ -56,8 +56,8 @@
   <string name="voice_commands_dictate">Dikto</string>
   <string name="voice_commands_write">Shkruaj</string>
   <string name="voice_commands_Spell">Shkruaj</string>
-  <string name="voice_commands_talkback_settings">Cilësimet e TalkBack</string>
-  <string name="voice_commands_talkback_setting">Cilësimi i TalkBack</string>
+  <string name="voice_commands_talkback_settings">Cilësimet e TalkBack FOSS</string>
+  <string name="voice_commands_talkback_setting">Cilësimi i TalkBack FOSS</string>
   <string name="voice_commands_screen_search">Kërkimi i ekranit</string>
   <string name="voice_commands_search_on_screen">Kërko në ekran</string>
   <string name="voice_commands_copy">@android:string/copy</string>
@@ -105,7 +105,7 @@
   <string name="voice_commands_help_title">Përmbledhja e komandave zanore</string>
   <string name="voice_commands_help_description">Për të përdorur komandat zanore, rrëshqit shpejt djathtas dhe më pas lart. Thuaj \"Ndihmë\" ose \"Çfarë mund të them?\" në çdo kohë për këtë listë komandash.</string>
   <string name="voice_commands_help_hint">Për rezultatet më të mira, thuaj me saktësi fjalët e listuara në ekranet vijuese.</string>
-  <string name="voice_command_screen_locked_hint">Komandat zanore nuk ofrohen kur ekrani është i kyçur. Për të përdorur më mirë menynë TalkBack, %1$s.</string>
+  <string name="voice_command_screen_locked_hint">Komandat zanore nuk ofrohen kur ekrani është i kyçur. Për të përdorur më mirë menynë TalkBack FOSS, %1$s.</string>
   <string name="voice_commands_during_setup_hint">Komandat zanore nuk ofrohen gjatë konfigurimit.</string>
   <string name="voice_commands_help_reading_controls_title">@string/shortcut_title_reading_control</string>
   <string name="voice_commands_help_reading_controls_description">Ndrysho mënyrën e leximit të përmbajtjes në ekranin aktual</string>
@@ -136,7 +136,7 @@
   <string name="voice_commands_help_overview_description">Shiko aplikacionet e tua të fundit</string>
   <string name="voice_commands_help_assistant_description">Hap \"Asistentin e Google\"</string>
   <string name="voice_commands_help_other_commands_title">Komandat e tjera</string>
-  <string name="voice_commands_help_other_commands_description">Shko te cilësimet e TalkBack, fshih ekranin, shiko veprimet, shto etiketa të personalizuara etj.</string>
+  <string name="voice_commands_help_other_commands_description">Shko te cilësimet e TalkBack FOSS, fshih ekranin, shiko veprimet, shto etiketa të personalizuara etj.</string>
   <string name="voice_commands_help_label">[Dërgo] etiketën</string>
   <string name="voice_commands_help_hide_screen_description">Fshih ekranin në mënyrë që ekrani yt të mos jetë i dukshëm për të tjerët në vende publike</string>
   <string name="voice_commands_help_show_screen_description">Pasi ta fshehësh ekranin, ktheje atë në gjendje normale</string>

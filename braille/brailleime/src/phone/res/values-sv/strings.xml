@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="braille_ime_service_name">Punktskriftstangentbord för TalkBack</string>
+  <string name="braille_ime_service_name">Punktskriftstangentbord för TalkBack FOSS</string>
   <string name="braille_ime_bd_mode_name">Inmatning via punktskriftsskärm</string>
   <string name="switch_to_screen_away_announcement">Bortvänt läge</string>
   <string name="switch_to_tabletop_announcement">Bordsläge. Placera enheten med laddningsporten till vänster. Håll ned sex fingrar för att uppdatera punktpositionerna.</string>
@@ -8,7 +8,7 @@
   <string name="reminder_announcement">Svep uppåt med tre fingrar för fler alternativ</string>
   <string name="braille_ime_displayed_name">punktskriftstangentbord</string>
   <string name="multiple_languages_braille_ime_displayed_name">punktskriftstangentbord för %s</string>
-  <string name="input_view_caption">Punktskriftstangentbord för TalkBack – besök g.co/help/braille om du behöver hjälp</string>
+  <string name="input_view_caption">Punktskriftstangentbord för TalkBack FOSS – besök g.co/help/braille om du behöver hjälp</string>
   <string name="perform_action_next">Nästa</string>
   <string name="perform_action_submitting">Texten skickas</string>
   <string name="calibration_step1_hold_left_finger_announcement">Uppdaterar punktpositionerna. Börja med att registrera punkterna på vänster hand. Tryck länge på skärmen med de mellersta tre fingrarna på vänster hand.</string>
@@ -64,17 +64,17 @@
   <string name="gesture_open_context_menu">Svep uppåt med tre fingrar för <b>hjälp och andra alternativ</b></string>
   <string name="not_enough_touch_points_dialog_title">Enheten har inte stöd för punktskriftstangentbord</string>
   <string name="not_enough_touch_points_dialog_message">Enheten har inte stöd för tryckpunkter. Kontakta enhetens tillverkare om du vill veta mer.</string>
-  <string name="talkback_off_dialog_title">Aktivera TalkBack för att använda punktskriftstangentbordet</string>
+  <string name="talkback_off_dialog_title">Aktivera TalkBack FOSS för att använda punktskriftstangentbordet</string>
   <string name="talkback_off_dialog_positive_button">Aktivera tillgänglighetsinställningarna</string>
-  <string name="talkback_suspend_dialog_title">Återuppta TalkBack om du vill använda punktskriftstangentbordet</string>
-  <string name="talkback_off_or_suspend_dialog_message">När TalkBack är på kan du skriva punktskriftstecken genom att trycka på skärmen.</string>
+  <string name="talkback_suspend_dialog_title">Återuppta TalkBack FOSS om du vill använda punktskriftstangentbordet</string>
+  <string name="talkback_off_or_suspend_dialog_message">När TalkBack FOSS är på kan du skriva punktskriftstecken genom att trycka på skärmen.</string>
   <string name="next_keyboard">Nästa tangentbord</string>
   <string name="braille_tutorial_title">Självstudier för punktskriftstangentbord</string>
-  <string name="tutorial_intro_description">Med punktskriftstangentbordet kan du skriva med sexpunkters punktskrift genom att trycka på skärmen.\n\nDu använder Unified English Braille. Om du vill ändra skrivspråk öppnar du TalkBack-inställningarna.\n\nDu måste hålla och använda telefonen på ett annat sätt när du skriver med punktskrift.</string>
+  <string name="tutorial_intro_description">Med punktskriftstangentbordet kan du skriva med sexpunkters punktskrift genom att trycka på skärmen.\n\nDu använder Unified English Braille. Om du vill ändra skrivspråk öppnar du TalkBack FOSS-inställningarna.\n\nDu måste hålla och använda telefonen på ett annat sätt när du skriver med punktskrift.</string>
   <string name="next_step">Nästa</string>
   <string name="leave_keyboard">Lämna punktskriftstangentbordet</string>
-  <string name="hold_six_fingers_description">Du kan inte använda vanliga TalkBack-rörelser med punktskriftstangentbordet.\n\nKom igång genom att konfigurera positionen för de sex punkterna du använder för att skriva.</string>
-  <string name="rotate_orientation_description_1">Från och med nu kan du inte längre använda de vanliga TalkBack-rörelserna. TalkBack är inte tillgängligt när du använder punktskriftstangentbordet.</string>
+  <string name="hold_six_fingers_description">Du kan inte använda vanliga TalkBack FOSS-rörelser med punktskriftstangentbordet.\n\nKom igång genom att konfigurera positionen för de sex punkterna du använder för att skriva.</string>
+  <string name="rotate_orientation_description_1">Från och med nu kan du inte längre använda de vanliga TalkBack FOSS-rörelserna. TalkBack FOSS är inte tillgängligt när du använder punktskriftstangentbordet.</string>
   <string name="rotate_orientation_description_2">Börja genom att hålla telefonen så här, med skärmen vänd bort från dig.</string>
   <string name="tap_to_continue">Tryck snabbt två gånger var som helst för att fortsätta</string>
   <string name="instruction_type_letter_a">Tryck på punkt 1 med vänster pekfinger för att skriva bokstaven A</string>
@@ -92,7 +92,7 @@
   <string name="result_swipe_down">MARKÖREN FLYTTADES FRAMÅT</string>
   <string name="result_swipe_down_2_fingers">DÖLJ TANGENTBORDET</string>
   <string name="result_swipe_down_3_fingers">NÄSTA TANGENTBORD</string>
-  <string name="rotate_orientation_announcement">Från och med nu kan du inte längre använda de vanliga TalkBack-rörelserna. TalkBack är inte tillgängligt när punktskriftstangentbordet används.\n\n%1$s</string>
+  <string name="rotate_orientation_announcement">Från och med nu kan du inte längre använda de vanliga TalkBack FOSS-rörelserna. TalkBack FOSS är inte tillgängligt när punktskriftstangentbordet används.\n\n%1$s</string>
   <string name="rotate_orientation_inactive_announcement">Först vänder du på telefonen så att skärmen är vänd bort från dig.\n\nSedan roterar du telefonen från stående till liggande läge. Du ska hålla händerna på telefonens kortändar. Håll änden där USB-porten sitter i höger hand. Ha de tre mellersta fingrarna på skärmen och använd lillfingret och tummen som stöd för telefonen.\n\nNär du är redo trycker du snabbt två gånger på skärmen för att fortsätta.\n\nOm du vill stänga punktskriftstangentbordet sveper du ned mot marken med tre fingrar. På så sätt får du tillbaka det ursprungliga tangentbordet.</string>
   <string name="rotate_orientation_continue_announcement">Telefonen är i stående läge. Om du vill fortsätta roterar du telefonen till liggande läge, så att den långa sidan är vänd nedåt. Vänd sedan skärmen bort från dig. När du är redo trycker du snabbt två gånger på skärmen för att fortsätta.</string>
   <string name="type_letter_a_announcement">Håll skärmen bortvänd. Håll i telefonen med båda händerna på kortsidorna, så att de mellersta tre fingrarna på varje hand kan trycka på skärmen.\n\nVänster pekfinger ska vara på punkt 1. Nu trycker du på punkt 1 för att skriva bokstaven A.</string>
@@ -108,7 +108,7 @@
   <string name="swipe_down_3_fingers_announcement">Svep nedåt med tre fingrar om du vill byta till ditt andra tangentbord Testa nu.</string>
   <string name="swipe_down_3_fingers_completed_announcement">Nästa tangentbord. Detta byter vanligtvis till nästa tangentbord. Den här gången har du kvar punktskriftstangentbordet eftersom självstudiematerialet används.</string>
   <string name="swipe_up_3_fingers_announcement">Du kan även skriva i bordsläget genom att lägga telefonen på ett bord. Om du vill avsluta självstudierna sveper du uppåt med tre fingrar och hittar alternativet</string>
-  <string name="open_context_menu_announcement">Alternativmenyn är öppen. Vänd på telefonen igen så att du har skärmen mot dig och håll telefonen som vanligt. Du kan nu använda vanliga TalkBack-rörelser för att navigera. Om du sveper åt höger visas fler alternativ.</string>
+  <string name="open_context_menu_announcement">Alternativmenyn är öppen. Vänd på telefonen igen så att du har skärmen mot dig och håll telefonen som vanligt. Du kan nu använda vanliga TalkBack FOSS-rörelser för att navigera. Om du sveper åt höger visas fler alternativ.</string>
   <string name="hold_six_fingers_announcement">%s\nLägg enheten på ett bord. Sedan trycker du länge på skärmen med de mellersta tre fingrarna på varje hand i en behaglig skrivposition.</string>
   <string name="hold_six_fingers_inactive_announcement">Lägg enheten på ett bord. Sedan trycker du länge på skärmen med de mellersta tre fingrarna på varje hand i en behaglig skrivposition.</string>
   <string name="finish_tutorial_announcement">Visa punktskriftstangentbordet. Vänd på telefonen så att du har skärmen vänd bort från dig. Rotera telefonen från stående till liggande läge. Börja sedan skriva.</string>

@@ -56,8 +56,8 @@
   <string name="voice_commands_dictate">კარნახი</string>
   <string name="voice_commands_write">წერა</string>
   <string name="voice_commands_Spell">შელოცვა</string>
-  <string name="voice_commands_talkback_settings">TalkBack-ის პარამეტრები</string>
-  <string name="voice_commands_talkback_setting">TalkBack-ის პარამეტრი</string>
+  <string name="voice_commands_talkback_settings">TalkBack FOSS-ის პარამეტრები</string>
+  <string name="voice_commands_talkback_setting">TalkBack FOSS-ის პარამეტრი</string>
   <string name="voice_commands_screen_search">ეკრანზე ძიება</string>
   <string name="voice_commands_search_on_screen">ეკრანზე ძიება</string>
   <string name="voice_commands_copy">@android:string/copy</string>
@@ -105,7 +105,7 @@
   <string name="voice_commands_help_title">ხმოვანი ბრძანების გადახედვა</string>
   <string name="voice_commands_help_description">ხმოვანი ბრძანებების გამოსაყენებლად ჯერ გადაფურცლეთ მარჯვნივ, შემდეგ კი ზევით. თქვით „დამეხმარე“ ან „რისი თქმა შემიძლია“ ნებისმიერ დროს, რათა მიიღოთ ბრძანებათა ეს სია.</string>
   <string name="voice_commands_help_hint">საუკეთესო შედეგების მისაღებად, ზუსტად თქვით ის, რაც მითითებულია მომდევნო ეკრანებზე.</string>
-  <string name="voice_command_screen_locked_hint">ხმოვანი ბრძანებები არ არის ხელმისაწვდომი ჩაკეტილ ეკრანზე. მის ნაცვლად TalkBack მენიუს გამოსაყენებლად %1$s.</string>
+  <string name="voice_command_screen_locked_hint">ხმოვანი ბრძანებები არ არის ხელმისაწვდომი ჩაკეტილ ეკრანზე. მის ნაცვლად TalkBack FOSS მენიუს გამოსაყენებლად %1$s.</string>
   <string name="voice_commands_during_setup_hint">ხმოვანი ბრძანებები მიუწვდომელია დაყენების დროს.</string>
   <string name="voice_commands_help_reading_controls_title">@string/shortcut_title_reading_control</string>
   <string name="voice_commands_help_reading_controls_description">შეცვალეთ კონტენტის წაკითხვის წესები მიმდინარე ეკრანზე</string>
@@ -136,7 +136,7 @@
   <string name="voice_commands_help_overview_description">იხილეთ თქვენი ბოლოდროინდელი აპები</string>
   <string name="voice_commands_help_assistant_description">Google ასისტენტის გახსნა</string>
   <string name="voice_commands_help_other_commands_title">სხვა ბრძანებები</string>
-  <string name="voice_commands_help_other_commands_description">გადადით TalkBack-ის პარამეტრებზე, დამალეთ ეკრანი, იხილეთ მოქმედებები, დაამატეთ მორგებული ლეიბლები და სხვა</string>
+  <string name="voice_commands_help_other_commands_description">გადადით TalkBack FOSS-ის პარამეტრებზე, დამალეთ ეკრანი, იხილეთ მოქმედებები, დაამატეთ მორგებული ლეიბლები და სხვა</string>
   <string name="voice_commands_help_label">ლეიბლი [submit]</string>
   <string name="voice_commands_help_hide_screen_description">დამალეთ გამოსახულება, რომ ეკრანი არ იყოს სხვებისთვის საჯაროდ ხილული</string>
   <string name="voice_commands_help_show_screen_description">ეკრანის დამალვის შემდეგ დააბრუნეთ ის ჩვეულ მდგომარეობაში</string>

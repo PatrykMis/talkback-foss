@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="talkback_on">TalkBack ಆನ್</string>
-  <string name="talkback_disabled">TalkBack ಆಫ್ ಮಾಡಲಾಗಿದೆ</string>
+  <string name="talkback_on">TalkBack FOSS ಆನ್</string>
+  <string name="talkback_disabled">TalkBack FOSS ಆಫ್ ಮಾಡಲಾಗಿದೆ</string>
   <string name="spokenfeedback_on">ಓದಿ ಹೇಳಬಹುದಾದ ಪ್ರತಿಕ್ರಿಯೆ ಆನ್ ಆಗಿದೆ</string>
   <string name="spokenfeedback_suspended">ಓದಿ ಹೇಳಬಹುದಾದ ಪ್ರತಿಕ್ರಿಯೆಯನ್ನು ಅಮಾನತುಗೊಳಿಸಲಾಗಿದೆ</string>
   <string name="spokenfeedback_resumed">ಓದಿ ಹೇಳಬಹುದಾದ ಪ್ರತಿಕ್ರಿಯೆಯನ್ನು ಮರುಪ್ರಾರಂಭಿಸಲಾಗಿದೆ</string>

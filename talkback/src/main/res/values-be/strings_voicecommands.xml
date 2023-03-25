@@ -56,8 +56,8 @@
   <string name="voice_commands_dictate">Дыктаваць</string>
   <string name="voice_commands_write">Пісаць</string>
   <string name="voice_commands_Spell">Напісаць</string>
-  <string name="voice_commands_talkback_settings">Налады TalkBack</string>
-  <string name="voice_commands_talkback_setting">Налада TalkBack</string>
+  <string name="voice_commands_talkback_settings">Налады TalkBack FOSS</string>
+  <string name="voice_commands_talkback_setting">Налада TalkBack FOSS</string>
   <string name="voice_commands_screen_search">Пошук на экране</string>
   <string name="voice_commands_search_on_screen">Шукаць на экране</string>
   <string name="voice_commands_copy">@android:string/copy</string>
@@ -105,7 +105,7 @@
   <string name="voice_commands_help_title">Агляд галасавой каманды</string>
   <string name="voice_commands_help_description">Каб выкарыстоўваць галасавыя каманды, правядзіце пальцам управа, затым уверх. Для паказу гэтага спіса каманд скажыце \"Даведка\" ці \"Што сказаць?\".</string>
   <string name="voice_commands_help_hint">Каб дасягнуць найлепшых вынікаў, вымаўляйце словы так, як паказана на наступных экранах.</string>
-  <string name="voice_command_screen_locked_hint">Пры заблакіраваным экране галасавыя каманды недаступныя. Каб замест іх скарыстайць меню TalkBack, %1$s.</string>
+  <string name="voice_command_screen_locked_hint">Пры заблакіраваным экране галасавыя каманды недаступныя. Каб замест іх скарыстайць меню TalkBack FOSS, %1$s.</string>
   <string name="voice_commands_during_setup_hint">У час наладжвання галасавыя каманды недаступныя.</string>
   <string name="voice_commands_help_reading_controls_title">@string/shortcut_title_reading_control</string>
   <string name="voice_commands_help_reading_controls_description">Змяніць чытанне змесціва на цяперашнім экране</string>
@@ -136,7 +136,7 @@
   <string name="voice_commands_help_overview_description">Праглядайце нядаўнія праграмы</string>
   <string name="voice_commands_help_assistant_description">Адкрыць Памочніка Google</string>
   <string name="voice_commands_help_other_commands_title">Іншыя каманды</string>
-  <string name="voice_commands_help_other_commands_description">Пераход да налад TalkBack, зацямненне экрана, прагляд дзеянняў, даданне карыстальніцкіх метак і многае іншае</string>
+  <string name="voice_commands_help_other_commands_description">Пераход да налад TalkBack FOSS, зацямненне экрана, прагляд дзеянняў, даданне карыстальніцкіх метак і многае іншае</string>
   <string name="voice_commands_help_label">Дадай метку [адпраў]</string>
   <string name="voice_commands_help_hide_screen_description">Выключэнне дысплэя, каб экран стаў нябачным для іншых у грамадскіх месцах</string>
   <string name="voice_commands_help_show_screen_description">Вяртанне экрана ў звычайны стан пасля зацямнення</string>

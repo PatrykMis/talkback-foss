@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="braille_ime_service_name">TalkBack braille keyboard</string>
+  <string name="braille_ime_service_name">TalkBack FOSS braille keyboard</string>
   <string name="switch_to_screen_away_announcement">Screen-away mode</string>
   <string name="switch_to_tabletop_announcement">Tabletop mode. Place your device with the charging port to the left. To update dot position, hold down six fingers.</string>
   <string name="bring_ime_settings_page">There is no other keyboard enabled – go to keyboard settings</string>
@@ -10,7 +10,7 @@
   <string name="switched_to_ueb_uncontracted_announcement">Switched to UEB uncontracted</string>
   <string name="braille_ime_displayed_name">braille keyboard</string>
   <string name="multiple_languages_braille_ime_displayed_name">braille keyboard, %s</string>
-  <string name="input_view_caption">TalkBack braille keyboard – for help, visit g.co/help/braille</string>
+  <string name="input_view_caption">TalkBack FOSS braille keyboard – for help, visit g.co/help/braille</string>
   <string name="perform_action_next">Next</string>
   <string name="perform_action_submitting">Submitting text</string>
   <string name="calibration_step1_hold_left_finger_announcement">Updating dot position. First, let’s record the dots on your left hand. Touch and hold the screen with the middle three fingers of your left hand.</string>
@@ -73,17 +73,17 @@
     <item quantity="one">dot %s</item>
     <item quantity="other">dots %s</item>
   </plurals>
-  <string name="talkback_off_dialog_title">Turn on TalkBack to use braille keyboard</string>
+  <string name="talkback_off_dialog_title">Turn on TalkBack FOSS to use braille keyboard</string>
   <string name="talkback_off_dialog_positive_button">Turn on in accessibility settings</string>
-  <string name="talkback_suspend_dialog_title">Resume TalkBack to use braille keyboard</string>
-  <string name="talkback_off_or_suspend_dialog_message">When TalkBack is on, you can tap your screen to enter braille symbols.</string>
+  <string name="talkback_suspend_dialog_title">Resume TalkBack FOSS to use braille keyboard</string>
+  <string name="talkback_off_or_suspend_dialog_message">When TalkBack FOSS is on, you can tap your screen to enter braille symbols.</string>
   <string name="next_keyboard">Next keyboard</string>
   <string name="braille_tutorial_title">Braille keyboard tutorial</string>
-  <string name="tutorial_intro_description">With the braille keyboard, you can tap your screen to enter 6-dot braille.\n\nYou’re using Unified English Braille. To switch your typing language, go to TalkBack settings.\n\nTo type braille, you need to hold and use your phone differently.</string>
+  <string name="tutorial_intro_description">With the braille keyboard, you can tap your screen to enter 6-dot braille.\n\nYou’re using Unified English Braille. To switch your typing language, go to TalkBack FOSS settings.\n\nTo type braille, you need to hold and use your phone differently.</string>
   <string name="next_step">Next</string>
   <string name="leave_keyboard">Leave braille keyboard</string>
-  <string name="hold_six_fingers_description">You won’t be able to use regular TalkBack gestures in the braille keyboard.\n\nTo get started, let’s set up the position of the six braille dots when you type.</string>
-  <string name="rotate_orientation_description_1">Starting now, you won’t be able to use regular TalkBack gestures. TalkBack isn’t available while using the braille keyboard.</string>
+  <string name="hold_six_fingers_description">You won’t be able to use regular TalkBack FOSS gestures in the braille keyboard.\n\nTo get started, let’s set up the position of the six braille dots when you type.</string>
+  <string name="rotate_orientation_description_1">Starting now, you won’t be able to use regular TalkBack FOSS gestures. TalkBack FOSS isn’t available while using the braille keyboard.</string>
   <string name="rotate_orientation_description_2">To start, hold your phone like this, with the screen facing away from you.</string>
   <string name="tap_to_continue">Double tap anywhere to continue</string>
   <string name="instruction_type_letter_a_left_index_finger">left index finger</string>
@@ -99,7 +99,7 @@
   <string name="result_swipe_right">SPACE</string>
   <string name="result_swipe_down_2_fingers">HIDE KEYBOARD</string>
   <string name="result_swipe_down_3_fingers">NEXT KEYBOARD</string>
-  <string name="rotate_orientation_announcement">Starting now, you won’t be able to use regular TalkBack gestures. TalkBack isn’t available while using the braille keyboard.\n\n%1$s</string>
+  <string name="rotate_orientation_announcement">Starting now, you won’t be able to use regular TalkBack FOSS gestures. TalkBack FOSS isn’t available while using the braille keyboard.\n\n%1$s</string>
   <string name="rotate_orientation_inactive_announcement">First, turn your phone so that the screen is facing away from you.\n\nNext, rotate the phone horizontally to landscape position. Your hands should grip the short ends of the phone. Your right hand should hold the end with the USB port. Rest your three middle fingers on the screen, and use your little finger and thumb to support the phone.\n\nWhen you’re ready, double tap the screen to continue.\n\nTo exit braille keyboard, swipe down toward the ground with three fingers. This switches back to your original keyboard.</string>
   <string name="rotate_orientation_continue_announcement">Your phone is in a vertical position. To continue, rotate your phone horizontally so that the long side is on the bottom. Then turn the screen to face away from you. When you’re ready, double tap the screen to continue.</string>
   <string name="type_letter_a_announcement_left_index_finger">left index finger</string>
@@ -115,7 +115,7 @@
   <string name="swipe_down_3_fingers_announcement">To switch to your other keyboard, swipe down with three fingers. Try it now.</string>
   <string name="swipe_down_3_fingers_completed_announcement">Next keyboard. Usually, this will switch to the next keyboard. This time, you’re staying in the braille keyboard because you’re still in the tutorial.</string>
   <string name="swipe_up_3_fingers_announcement">You can also type in tabletop mode by placing your phone flat on a table. To finish the tutorial, swipe up with three fingers, and find the finish tutorial option</string>
-  <string name="open_context_menu_announcement">The options menu is open. Flip your phone back so that it’s facing you and hold it normally. You can now use regular TalkBack gestures to navigate. Swipe right to see more options.</string>
+  <string name="open_context_menu_announcement">The options menu is open. Flip your phone back so that it’s facing you and hold it normally. You can now use regular TalkBack FOSS gestures to navigate. Swipe right to see more options.</string>
   <string name="hold_six_fingers_announcement">%s\nPlace your device flat on a table. Then, touch and hold the screen with the middle three fingers of each hand in a position that’s comfortable for you to type.</string>
   <string name="hold_six_fingers_inactive_announcement">Place your device flat on a table. Then, touch and hold the screen with the middle three fingers of each hand in a position that’s comfortable for you to type.</string>
   <string name="finish_tutorial_announcement">Showing braille keyboard. Turn your phone so that the screen is facing away from you. Rotate the phone horizontally to landscape position. Then start typing.</string>

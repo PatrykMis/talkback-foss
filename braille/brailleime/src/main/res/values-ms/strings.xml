@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="braille_ime_service_name">Papan kekunci braille TalkBack</string>
+  <string name="braille_ime_service_name">Papan kekunci braille TalkBack FOSS</string>
   <string name="switch_to_screen_away_announcement">Mod skrin jauh</string>
   <string name="switch_to_tabletop_announcement">Mod atas meja. Letakkan peranti anda dengan port pengecas di sebelah kiri. Untuk mengemas kini kedudukan titik, tekan 6 jari.</string>
   <string name="bring_ime_settings_page">Tiada papan kekunci lain yang telah didayakan, pergi ke tetapan papan kekunci</string>
@@ -10,7 +10,7 @@
   <string name="switched_to_ueb_uncontracted_announcement">Bertukar kepada UEB panjang</string>
   <string name="braille_ime_displayed_name">papan kekunci braille</string>
   <string name="multiple_languages_braille_ime_displayed_name">papan kekunci braille, %s</string>
-  <string name="input_view_caption">Papan kekunci braille TalkBack - untuk mendapatkan bantuan, lawati g.co/help/braille</string>
+  <string name="input_view_caption">Papan kekunci braille TalkBack FOSS - untuk mendapatkan bantuan, lawati g.co/help/braille</string>
   <string name="perform_action_next">Seterusnya</string>
   <string name="perform_action_submitting">Menyerahkan teks</string>
   <string name="calibration_step1_hold_left_finger_announcement">Mengemas kini kedudukan titik. Mula-mula, mari rakam titik di sebelah kiri anda. Sentuh dan tahan skrin dengan 3 jari tengah tangan kiri anda.</string>
@@ -73,17 +73,17 @@
     <item quantity="one">titik %s</item>
     <item quantity="other">titik %s</item>
   </plurals>
-  <string name="talkback_off_dialog_title">Hidupkan TalkBack untuk menggunakan papan kekunci braille</string>
+  <string name="talkback_off_dialog_title">Hidupkan TalkBack FOSS untuk menggunakan papan kekunci braille</string>
   <string name="talkback_off_dialog_positive_button">Hidupkan tetapan kebolehaksesan</string>
-  <string name="talkback_suspend_dialog_title">Sambung semula TalkBack untuk menggunakan papan kekunci braille</string>
-  <string name="talkback_off_or_suspend_dialog_message">Apabila TalkBack dihidupkan, anda boleh mengetik skrin untuk memasukkan simbol braille.</string>
+  <string name="talkback_suspend_dialog_title">Sambung semula TalkBack FOSS untuk menggunakan papan kekunci braille</string>
+  <string name="talkback_off_or_suspend_dialog_message">Apabila TalkBack FOSS dihidupkan, anda boleh mengetik skrin untuk memasukkan simbol braille.</string>
   <string name="next_keyboard">Papan kekunci seterusnya</string>
   <string name="braille_tutorial_title">Tutorial papan kekunci Braille</string>
-  <string name="tutorial_intro_description">Dengan papan kekunci braille, anda boleh mengetik skrin untuk memasukkan braille 6 titik.\n\nAnda menggunakan Unified English Braille. Untuk menukar bahasa menaip anda, pergi ke tetapan TalkBack.\n\nUntuk menaip braille, anda perlu memegang dan menggunakan telefon anda dengan cara yang berbeza.</string>
+  <string name="tutorial_intro_description">Dengan papan kekunci braille, anda boleh mengetik skrin untuk memasukkan braille 6 titik.\n\nAnda menggunakan Unified English Braille. Untuk menukar bahasa menaip anda, pergi ke tetapan TalkBack FOSS.\n\nUntuk menaip braille, anda perlu memegang dan menggunakan telefon anda dengan cara yang berbeza.</string>
   <string name="next_step">Seterusnya</string>
   <string name="leave_keyboard">Tinggalkan papan kekunci braille</string>
-  <string name="hold_six_fingers_description">Anda tidak dapat menggunakan gerak isyarat TalkBack biasa dalam papan kekunci braille.\n\nUntuk memulakan, mari sediakan kedudukan 6 titik braille apabila anda menaip.</string>
-  <string name="rotate_orientation_description_1">Mulai sekarang, anda tidak akan dapat menggunakan gerak isyarat biasa TalkBack. TalkBack tidak tersedia semasa menggunakan papan kekunci braille.</string>
+  <string name="hold_six_fingers_description">Anda tidak dapat menggunakan gerak isyarat TalkBack FOSS biasa dalam papan kekunci braille.\n\nUntuk memulakan, mari sediakan kedudukan 6 titik braille apabila anda menaip.</string>
+  <string name="rotate_orientation_description_1">Mulai sekarang, anda tidak akan dapat menggunakan gerak isyarat biasa TalkBack FOSS. TalkBack FOSS tidak tersedia semasa menggunakan papan kekunci braille.</string>
   <string name="rotate_orientation_description_2">Untuk bermula, pegang telefon anda seperti ini, dengan skrin membelakangi anda.</string>
   <string name="tap_to_continue">Dwiketik di mana-mana untuk meneruskan tutorial</string>
   <string name="instruction_type_letter_a_left_index_finger">jari telunjuk kiri</string>
@@ -99,7 +99,7 @@
   <string name="result_swipe_right">RUANG</string>
   <string name="result_swipe_down_2_fingers">SEMBUNYIKAN PAPAN KEKUNCI</string>
   <string name="result_swipe_down_3_fingers">PAPAN KEKUNCI SETERUSNYA</string>
-  <string name="rotate_orientation_announcement">Mulai sekarang, anda tidak akan dapat menggunakan gerak isyarat TalkBack yang biasa. TalkBack tidak tersedia semasa menggunakan papan kekunci braille.\n\n%1$s</string>
+  <string name="rotate_orientation_announcement">Mulai sekarang, anda tidak akan dapat menggunakan gerak isyarat TalkBack FOSS yang biasa. TalkBack FOSS tidak tersedia semasa menggunakan papan kekunci braille.\n\n%1$s</string>
   <string name="rotate_orientation_inactive_announcement">Mula-mula, pusingkan telefon anda supaya skrin membelakangi anda.\n\nSeterusnya, putarkan telefon secara mendatar kepada kedudukan landskap. Tangan anda seharusnya mencengkam kedua-dua hujung pendek telefon. Tangan kanan anda seharusnya memegang hujung yang terdapat port USB. Letakkan 3 jari tengah anda pada skrin dan gunakan jari kelengkeng serta ibu jari untuk menyokong telefon.\n\nSetelah bersedia, dwiketik skrin untuk meneruskan penggunaan.\n\nUntuk keluar daripada papan kekunci braille, leret ke arah lantai di sebelah bawah menggunakan 3 jari. Tindakan ini menukar papan kekunci kembali kepada papan kekunci asal.</string>
   <string name="rotate_orientation_continue_announcement">Telefon anda dalam kedudukan menegak. Untuk meneruskan, pusingkan telefon secara mendatar supaya bahagian panjang terletak di sebelah bawah. Kemudian, pusingkan skrin supaya membelakangi anda. Apabila anda bersedia, dwiketik skrin untuk meneruskan.</string>
   <string name="type_letter_a_announcement_left_index_finger">jari telunjuk kiri</string>
@@ -115,7 +115,7 @@
   <string name="swipe_down_3_fingers_announcement">Untuk bertukar kepada papan kekunci anda yang lain, leret ke bawah menggunakan 3 jari. Cubalah sekarang.</string>
   <string name="swipe_down_3_fingers_completed_announcement">Papan kekunci seterusnya Biasanya, tindakan ini akan menukar papan kekunci kepada papan kekunci yang seterusnya. Pada masa ini, anda kekal menggunakan papan kekunci braille kerana anda masih dalam tutorial.</string>
   <string name="swipe_up_3_fingers_announcement">Anda juga boleh menaip dalam mod atas meja dengan meletakkan telefon anda mendatar atas meja. Untuk menyelesaikan tutorial, leret ke atas dengan 3 jari dan cari pilihan selesai tutorial</string>
-  <string name="open_context_menu_announcement">Menu pilihan dibuka. Terbalikkan telefon anda supaya telefon itu berhadapan dengan anda dan pegang telefon seperti biasa. Kini, anda boleh menggunakan gerak isyarat TalkBack biasa untuk menavigasi. Leret ke kanan untuk melihat lebih banyak pilihan.</string>
+  <string name="open_context_menu_announcement">Menu pilihan dibuka. Terbalikkan telefon anda supaya telefon itu berhadapan dengan anda dan pegang telefon seperti biasa. Kini, anda boleh menggunakan gerak isyarat TalkBack FOSS biasa untuk menavigasi. Leret ke kanan untuk melihat lebih banyak pilihan.</string>
   <string name="hold_six_fingers_announcement">%s\nLetakkan peranti anda mendatar di atas meja. Kemudian, sentuh dan tahan skrin dengan 3 jari tengah setiap tangan dalam kedudukan yang selesa untuk anda taip.</string>
   <string name="hold_six_fingers_inactive_announcement">Letakkan peranti anda mendatar di atas meja. Kemudian, sentuh dan tahan skrin dengan 3 jari tengah setiap tangan dalam kedudukan yang selesa untuk anda taip.</string>
   <string name="finish_tutorial_announcement">Menunjukkan papan kekunci braille. Pusingkan telefon anda supaya skrin membelakangi anda. Pusingkan telefon secara mendatar kepada kedudukan landskap. Kemudian, mula taip.</string>

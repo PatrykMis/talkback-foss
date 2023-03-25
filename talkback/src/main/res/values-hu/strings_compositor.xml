@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="talkback_on">TalkBack bekapcsolva</string>
-  <string name="talkback_disabled">TalkBack kikapcsolva</string>
+  <string name="talkback_on">TalkBack FOSS bekapcsolva</string>
+  <string name="talkback_disabled">TalkBack FOSS kikapcsolva</string>
   <string name="spokenfeedback_on">Hangos visszajelzés bekapcsolva</string>
   <string name="spokenfeedback_suspended">Hangos visszajelzés szüneteltetve</string>
   <string name="spokenfeedback_resumed">Hangos visszajelzés folytatva</string>

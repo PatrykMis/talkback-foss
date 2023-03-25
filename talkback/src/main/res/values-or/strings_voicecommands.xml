@@ -56,8 +56,8 @@
   <string name="voice_commands_dictate">ଆଦେଶ ଦିଅନ୍ତୁ</string>
   <string name="voice_commands_write">ଲେଖନ୍ତୁ</string>
   <string name="voice_commands_Spell">ସ୍ପେଲ୍ କରନ୍ତୁ</string>
-  <string name="voice_commands_talkback_settings">TalkBack ସେଟିଂସ୍</string>
-  <string name="voice_commands_talkback_setting">TalkBack ସେଟିଂ</string>
+  <string name="voice_commands_talkback_settings">TalkBack FOSS ସେଟିଂସ୍</string>
+  <string name="voice_commands_talkback_setting">TalkBack FOSS ସେଟିଂ</string>
   <string name="voice_commands_screen_search">ସ୍କ୍ରିନ୍ ସନ୍ଧାନ</string>
   <string name="voice_commands_search_on_screen">ସ୍କ୍ରିନରେ ସନ୍ଧାନ କରନ୍ତୁ</string>
   <string name="voice_commands_copy">@android:string/copy</string>
@@ -105,7 +105,7 @@
   <string name="voice_commands_help_title">ଭଏସ୍ କମାଣ୍ଡ ଓଭରଭିଉ</string>
   <string name="voice_commands_help_description">ଭଏସ୍ କମାଣ୍ଡଗୁଡ଼ିକୁ ବ୍ୟବହାର କରିବା ପାଇଁ, ପ୍ରଥମେ ଡାହାଣକୁ ତା\'ପରେ ଉପରକୁ ସ୍ୱାଇପ୍ କରନ୍ତୁ। ଏହି କମାଣ୍ଡଗୁଡ଼ିକର ତାଲିକା ପାଇଁ ଯେ କୌଣସି ସମୟରେ \"ସାହାଯ୍ୟ\" କିମ୍ବା \"ମୁଁ କ’ଣ କହିପାରିବି?\" କୁହନ୍ତୁ।</string>
   <string name="voice_commands_help_hint">ସର୍ବୋତ୍ତମ ଫଳାଫଳଗୁଡ଼ିକ ପାଇଁ ନିମ୍ନ ସ୍କ୍ରିନରେ ତାଲିକାଭୁକ୍ତ ଶବ୍ଦଗୁଡ଼ିକ ସଠିକ୍ ଭାବରେ କୁହନ୍ତୁ।</string>
-  <string name="voice_command_screen_locked_hint">ସ୍କ୍ରିନ୍ ଲକ୍ ଥିବା ସମୟରେ ଭଏସ୍ କମାଣ୍ଡଗୁଡ଼ିକ ଉପଲବ୍ଧ ନଥାଏ। ଏହା ପରିବର୍ତ୍ତେ TalkBack ମେନୁକୁ ବ୍ୟବହାର କରିବା ପାଇଁ, %1$s।</string>
+  <string name="voice_command_screen_locked_hint">ସ୍କ୍ରିନ୍ ଲକ୍ ଥିବା ସମୟରେ ଭଏସ୍ କମାଣ୍ଡଗୁଡ଼ିକ ଉପଲବ୍ଧ ନଥାଏ। ଏହା ପରିବର୍ତ୍ତେ TalkBack FOSS ମେନୁକୁ ବ୍ୟବହାର କରିବା ପାଇଁ, %1$s।</string>
   <string name="voice_commands_during_setup_hint">ସେଟଅପ ସମୟରେ ଭଏସ କମାଣ୍ଡଗୁଡ଼ିକ ଉପଲବ୍ଧ ନୁହେଁ।</string>
   <string name="voice_commands_help_reading_controls_title">@string/shortcut_title_reading_control</string>
   <string name="voice_commands_help_reading_controls_description">ବର୍ତ୍ତମାନର ସ୍କ୍ରିନରେ ଥିବା ବିଷୟବସ୍ତୁକୁ ଆପଣ କିପରି ପଢ଼ିବେ, ତାହା ବଦଳାନ୍ତୁ</string>
@@ -136,7 +136,7 @@
   <string name="voice_commands_help_overview_description">ଆପଣଙ୍କ ବର୍ତ୍ତମାନର ଆପଗୁଡ଼ିକୁ ଦେଖନ୍ତୁ</string>
   <string name="voice_commands_help_assistant_description">Google Assistant ଖୋଲନ୍ତୁ</string>
   <string name="voice_commands_help_other_commands_title">ଅନ୍ୟ କମାଣ୍ଡଗୁଡ଼ିକ</string>
-  <string name="voice_commands_help_other_commands_description">TalkBack ସେଟିଂସକୁ ଯାଆନ୍ତୁ, ସ୍କ୍ରିନ୍ ଲୁଚାନ୍ତୁ, କାର୍ଯ୍ୟଗୁଡ଼ିକ ଦେଖନ୍ତୁ, କଷ୍ଟମ୍ ଲେବଲ୍ ଯୋଗ କରନ୍ତୁ ଏବଂ ଆହୁରି ଅନେକ କିଛି କରନ୍ତୁ</string>
+  <string name="voice_commands_help_other_commands_description">TalkBack FOSS ସେଟିଂସକୁ ଯାଆନ୍ତୁ, ସ୍କ୍ରିନ୍ ଲୁଚାନ୍ତୁ, କାର୍ଯ୍ୟଗୁଡ଼ିକ ଦେଖନ୍ତୁ, କଷ୍ଟମ୍ ଲେବଲ୍ ଯୋଗ କରନ୍ତୁ ଏବଂ ଆହୁରି ଅନେକ କିଛି କରନ୍ତୁ</string>
   <string name="voice_commands_help_label">ଲେବଲ୍ [ଦାଖଲ କରନ୍ତୁ]</string>
   <string name="voice_commands_help_hide_screen_description">ଡିସପ୍ଲେ ଲୁଚାନ୍ତୁ ଯାହା ଫଳରେ ସାର୍ବଜନୀନ ସ୍ଥାନଗୁଡ଼ିକରେ ଆପଣଙ୍କ ସ୍କ୍ରିନ୍ ଅନ୍ୟମାନଙ୍କୁ ଦେଖାଯିବ ନାହିଁ</string>
   <string name="voice_commands_help_show_screen_description">ଆପଣଙ୍କ ସ୍କ୍ରିନ୍ ଲୁଚାଇବା ପରେ, ଏହାକୁ ସାମାନ୍ୟ ସ୍ଥିତିକୁ ଫେରାନ୍ତୁ</string>

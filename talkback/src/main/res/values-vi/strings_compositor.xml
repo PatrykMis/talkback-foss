@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="talkback_on">Bật TalkBack</string>
-  <string name="talkback_disabled">TalkBack tắt</string>
+  <string name="talkback_on">Bật TalkBack FOSS</string>
+  <string name="talkback_disabled">TalkBack FOSS tắt</string>
   <string name="spokenfeedback_on">Phản hồi bằng giọng nói bật</string>
   <string name="spokenfeedback_suspended">Phản hồi bằng giọng nói bị tạm ngưng</string>
   <string name="spokenfeedback_resumed">Phản hồi bằng giọng nói đã được tiếp tục</string>

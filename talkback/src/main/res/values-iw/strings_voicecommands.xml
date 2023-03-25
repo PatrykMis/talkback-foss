@@ -56,8 +56,8 @@
   <string name="voice_commands_dictate">הכתבה</string>
   <string name="voice_commands_write">כתיבה</string>
   <string name="voice_commands_Spell">איות</string>
-  <string name="voice_commands_talkback_settings">‏הגדרות TalkBack</string>
-  <string name="voice_commands_talkback_setting">‏הגדרת TalkBack</string>
+  <string name="voice_commands_talkback_settings">‏הגדרות TalkBack FOSS</string>
+  <string name="voice_commands_talkback_setting">‏הגדרת TalkBack FOSS</string>
   <string name="voice_commands_screen_search">חיפוש מהמסך</string>
   <string name="voice_commands_search_on_screen">חיפוש במסך</string>
   <string name="voice_commands_copy">@android:string/copy</string>
@@ -105,7 +105,7 @@
   <string name="voice_commands_help_title">סקירה כללית של הפקודות הקוליות</string>
   <string name="voice_commands_help_description">‏כדי להשתמש בפקודות קוליות, יש להחליק שמאלה ואז למעלה. בכל שלב אפשר לומר \"Help\" או \"What can I say?‎\" לקבלת הרשימה של כל הפקודות.</string>
   <string name="voice_commands_help_hint">כדי לקבל את התוצאות הטובות ביותר, יש לומר בדיוק את הניסוח שרשום במסכים הבאים.</string>
-  <string name="voice_command_screen_locked_hint">‏הפקודות הקוליות לא זמינות כשהמסך נעול. כדי להשתמש בתפריט של TalkBack במקום זאת, מבצעים %1$s.</string>
+  <string name="voice_command_screen_locked_hint">‏הפקודות הקוליות לא זמינות כשהמסך נעול. כדי להשתמש בתפריט של TalkBack FOSS במקום זאת, מבצעים %1$s.</string>
   <string name="voice_commands_during_setup_hint">הפקודות הקוליות לא זמינות במהלך ההגדרה.</string>
   <string name="voice_commands_help_reading_controls_title">@string/shortcut_title_reading_control</string>
   <string name="voice_commands_help_reading_controls_description">שינוי אופן ההקראה של התוכן במסך הנוכחי</string>
@@ -136,7 +136,7 @@
   <string name="voice_commands_help_overview_description">הצגת האפליקציות האחרונות</string>
   <string name="voice_commands_help_assistant_description">‏פתיחת Google Assistant</string>
   <string name="voice_commands_help_other_commands_title">פקודות אחרות</string>
-  <string name="voice_commands_help_other_commands_description">‏להגדרות TalkBack, הסתרת מסך, הצגת פעולות, הוספת תוויות מותאמות אישית ועוד</string>
+  <string name="voice_commands_help_other_commands_description">‏להגדרות TalkBack FOSS, הסתרת מסך, הצגת פעולות, הוספת תוויות מותאמות אישית ועוד</string>
   <string name="voice_commands_help_label">הוספת תווית [שליחה]</string>
   <string name="voice_commands_help_hide_screen_description">הסתרת התצוגה כך שהמסך לא יהיה גלוי לאחרים במקומות ציבוריים</string>
   <string name="voice_commands_help_show_screen_description">אחרי הסתרת המסך, החזרה שלו למצב הרגיל</string>

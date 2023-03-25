@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="braille_ime_service_name">TalkBack-brailletoetsenbord</string>
+  <string name="braille_ime_service_name">TalkBack FOSS-brailletoetsenbord</string>
   <string name="switch_to_screen_away_announcement">Modus Scherm weg</string>
   <string name="switch_to_tabletop_announcement">Tafelbladmodus. Leg je apparaat neer met de oplaadpoort naar links. Plaats 6 vingers om de positie van de stippen te updaten.</string>
   <string name="bring_ime_settings_page">Er staat geen ander toetsenbord aan. Ga naar de toetsenbordinstellingen.</string>
@@ -10,7 +10,7 @@
   <string name="switched_to_ueb_uncontracted_announcement">Overgeschakeld naar volledige UEB</string>
   <string name="braille_ime_displayed_name">brailletoetsenbord</string>
   <string name="multiple_languages_braille_ime_displayed_name">brailletoetsenbord, %s</string>
-  <string name="input_view_caption">TalkBack-brailletoetsenbord - ga voor hulp naar g.co/help/braille</string>
+  <string name="input_view_caption">TalkBack FOSS-brailletoetsenbord - ga voor hulp naar g.co/help/braille</string>
   <string name="perform_action_next">Volgende</string>
   <string name="perform_action_submitting">Tekst indienen</string>
   <string name="calibration_step1_hold_left_finger_announcement">We updaten de positie van de stippen. Laten we eerst de stippen van je linkerhand opnemen. Tik op het scherm en houd dit vast met de middelste 3 vingers van je linkerhand.</string>
@@ -73,17 +73,17 @@
     <item quantity="one">punt %s</item>
     <item quantity="other">punten %s</item>
   </plurals>
-  <string name="talkback_off_dialog_title">Zet TalkBack aan om een brailletoetsenbord te gebruiken</string>
+  <string name="talkback_off_dialog_title">Zet TalkBack FOSS aan om een brailletoetsenbord te gebruiken</string>
   <string name="talkback_off_dialog_positive_button">Aanzetten via instellingen voor toegankelijkheid</string>
-  <string name="talkback_suspend_dialog_title">TalkBack hervatten om het brailletoetsenbord te gebruiken</string>
-  <string name="talkback_off_or_suspend_dialog_message">Als TalkBack aanstaat, kun je op je scherm tikken om brailletekens in te voeren.</string>
+  <string name="talkback_suspend_dialog_title">TalkBack FOSS hervatten om het brailletoetsenbord te gebruiken</string>
+  <string name="talkback_off_or_suspend_dialog_message">Als TalkBack FOSS aanstaat, kun je op je scherm tikken om brailletekens in te voeren.</string>
   <string name="next_keyboard">Volgend toetsenbord</string>
   <string name="braille_tutorial_title">Tutorial brailletoetsenbord</string>
-  <string name="tutorial_intro_description">Met het brailletoetsenbord kun je op je scherm tikken om zespunts braille op te geven.\n\nJe gebruikt UEB (Unified English Braille). Als je in een andere taal wilt typen, ga je naar de TalkBack-instellingen.\n\nAls je braille wilt typen, moet je je telefoon op een andere manier vasthouden en gebruiken.</string>
+  <string name="tutorial_intro_description">Met het brailletoetsenbord kun je op je scherm tikken om zespunts braille op te geven.\n\nJe gebruikt UEB (Unified English Braille). Als je in een andere taal wilt typen, ga je naar de TalkBack FOSS-instellingen.\n\nAls je braille wilt typen, moet je je telefoon op een andere manier vasthouden en gebruiken.</string>
   <string name="next_step">Volgende</string>
   <string name="leave_keyboard">Brailletoetsenbord sluiten</string>
-  <string name="hold_six_fingers_description">Je kunt geen reguliere TalkBack-gebaren gebruiken met het brailletoetsenbord.\n\nGa aan de slag door de positie van de zes braillestippen in te stellen als je typt.</string>
-  <string name="rotate_orientation_description_1">Je kunt vanaf nu geen reguliere TalkBack-gebaren gebruiken. TalkBack is niet beschikbaar als je het brailletoetsenbord gebruikt.</string>
+  <string name="hold_six_fingers_description">Je kunt geen reguliere TalkBack FOSS-gebaren gebruiken met het brailletoetsenbord.\n\nGa aan de slag door de positie van de zes braillestippen in te stellen als je typt.</string>
+  <string name="rotate_orientation_description_1">Je kunt vanaf nu geen reguliere TalkBack FOSS-gebaren gebruiken. TalkBack FOSS is niet beschikbaar als je het brailletoetsenbord gebruikt.</string>
   <string name="rotate_orientation_description_2">Begin door je telefoon zo vast te houden, met het scherm van je af gericht.</string>
   <string name="tap_to_continue">Dubbeltik op een willekeurige plek om verder te gaan</string>
   <string name="instruction_type_letter_a_left_index_finger">linkerwijsvinger</string>
@@ -99,7 +99,7 @@
   <string name="result_swipe_right">SPATIE</string>
   <string name="result_swipe_down_2_fingers">TOETSENBORD VERBERGEN</string>
   <string name="result_swipe_down_3_fingers">VOLGEND TOETSENBORD</string>
-  <string name="rotate_orientation_announcement">Je kunt vanaf nu geen reguliere TalkBack-gebaren gebruiken. TalkBack is niet beschikbaar als je het brailletoetsenbord gebruikt.\n\n%1$s</string>
+  <string name="rotate_orientation_announcement">Je kunt vanaf nu geen reguliere TalkBack FOSS-gebaren gebruiken. TalkBack FOSS is niet beschikbaar als je het brailletoetsenbord gebruikt.\n\n%1$s</string>
   <string name="rotate_orientation_inactive_announcement">Draai je telefoon zodat het scherm van je af is gericht.\n\nDraai de telefoon vervolgens horizontaal naar de liggende positie. Houd je telefoon aan de korte kanten vast. Je rechterhand moet de kant met de USB-poort vasthouden. Laat je drie middelste vingers rusten op het scherm en gebruik je pink en duim om de telefoon stevig vast te houden.\n\nAls je klaar bent, dubbeltik je op het scherm om verder te gaan.\n\nAls je het brailletoetsenbord wilt sluiten, swipe je met 3 vingers omlaag. Op die manier wordt het oorspronkelijke toetsenbord weer actief.</string>
   <string name="rotate_orientation_continue_announcement">Je telefoon bevindt zich in de verticale stand. Draai je telefoon horizontaal met de lange kant onderaan om verder te gaan. Zorg vervolgens dat het scherm van je af is gericht. Als je klaar bent, dubbeltik je op het scherm om verder te gaan.</string>
   <string name="type_letter_a_announcement_left_index_finger">linkerwijsvinger</string>
@@ -115,7 +115,7 @@
   <string name="swipe_down_3_fingers_announcement">Swipe met 3 vingers omlaag om over te schakelen naar je andere toetsenbord. Probeer het nu.</string>
   <string name="swipe_down_3_fingers_completed_announcement">Volgend toetsenbord. Hiermee ga je doorgaans naar het volgende toetsenbord. Het brailletoetsenbord blijft nu aan omdat de tutorial nog actief is.</string>
   <string name="swipe_up_3_fingers_announcement">Je kunt ook in de tafelbladmodus typen door de telefoon plat op een tafel te leggen. Als je de tutorial wilt voltooien, swipe je met 3 vingers omhoog en zoek je de optie om de tutorial te voltooien.</string>
-  <string name="open_context_menu_announcement">Het menu Opties is geopend. Draai de telefoon weer naar je toe en houd hem normaal vast. Je kunt nu gewone TalkBack-gebaren gebruiken voor navigatie. Swipe naar rechts voor meer opties.</string>
+  <string name="open_context_menu_announcement">Het menu Opties is geopend. Draai de telefoon weer naar je toe en houd hem normaal vast. Je kunt nu gewone TalkBack FOSS-gebaren gebruiken voor navigatie. Swipe naar rechts voor meer opties.</string>
   <string name="hold_six_fingers_announcement">%s\nLeg het apparaat plat op een tafel. Tik daarna op het scherm en houd dit vast met de middelste 3 vingers van elke hand. Houd de vingers in een positie waarin je prettig kunt typen.</string>
   <string name="hold_six_fingers_inactive_announcement">Leg het apparaat plat op een tafel. Tik daarna op het scherm en houd dit vast met de middelste 3 vingers van elke hand. Houd de vingers in een positie waarin je prettig kunt typen.</string>
   <string name="finish_tutorial_announcement">Brailletoetsenbord wordt getoond. Draai je telefoon zodat het scherm van je af is gericht. Draai de telefoon horizontaal naar de liggende apparaatstand. Begin dan te typen.</string>

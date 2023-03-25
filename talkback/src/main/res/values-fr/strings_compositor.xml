@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="talkback_on">TalkBack activé</string>
-  <string name="talkback_disabled">TalkBack désactivé</string>
+  <string name="talkback_on">TalkBack FOSS activé</string>
+  <string name="talkback_disabled">TalkBack FOSS désactivé</string>
   <string name="spokenfeedback_on">Commentaires audio activés</string>
   <string name="spokenfeedback_suspended">Commentaires audio suspendus</string>
   <string name="spokenfeedback_resumed">Commentaires audio réactivés</string>

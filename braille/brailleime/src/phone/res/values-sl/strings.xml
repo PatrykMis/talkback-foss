@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="braille_ime_service_name">Braillova tipkovnica TalkBack</string>
+  <string name="braille_ime_service_name">Braillova tipkovnica TalkBack FOSS</string>
   <string name="braille_ime_bd_mode_name">Vnos prek zaslona braille</string>
   <string name="switch_to_screen_away_announcement">Način s proč obrnjenim zaslonom</string>
   <string name="switch_to_tabletop_announcement">Namizni način z zaslonom navzgor. Napravo položite tako, da bodo vrata za polnjenje na levi. Za posodobitev položaja pik pridržite 6 prstov.</string>
@@ -8,7 +8,7 @@
   <string name="reminder_announcement">Za več možnosti povlecite navzgor s tremi prsti</string>
   <string name="braille_ime_displayed_name">Braillova tipkovnica</string>
   <string name="multiple_languages_braille_ime_displayed_name">Braillova tipkovnica, %s</string>
-  <string name="input_view_caption">Braillova tipkovnica TalkBack – za pomoč obiščite g.co/help/braille</string>
+  <string name="input_view_caption">Braillova tipkovnica TalkBack FOSS – za pomoč obiščite g.co/help/braille</string>
   <string name="perform_action_next">Naprej</string>
   <string name="perform_action_submitting">Pošiljanje besedila</string>
   <string name="calibration_step1_hold_left_finger_announcement">Posodabljanje položaja pik. Najprej zabeležite pike z levo roko. Na zaslonu pridržite srednje tri prste leve roke.</string>
@@ -64,17 +64,17 @@
   <string name="gesture_open_context_menu">Za <b>pomoč in druge možnosti</b> povlecite navzgor s tremi prsti</string>
   <string name="not_enough_touch_points_dialog_title">Naprava ne podpira braillove tipkovnice</string>
   <string name="not_enough_touch_points_dialog_message">Naprava ne podpira dovolj točk na dotik. Če želite več informacij, se obrnite na proizvajalca naprave.</string>
-  <string name="talkback_off_dialog_title">Če želite uporabljati braillovo tipkovnico, vklopite TalkBack</string>
+  <string name="talkback_off_dialog_title">Če želite uporabljati braillovo tipkovnico, vklopite TalkBack FOSS</string>
   <string name="talkback_off_dialog_positive_button">Vklopi v nastavitvah funkcij za ljudi s posebnimi potrebami</string>
-  <string name="talkback_suspend_dialog_title">Za uporabo braillove tipkovnice znova vklopite TalkBack</string>
-  <string name="talkback_off_or_suspend_dialog_message">Ko je funkcija TalkBack vklopljena, se lahko dotaknete zaslona in vnašate braillovo pisavo.</string>
+  <string name="talkback_suspend_dialog_title">Za uporabo braillove tipkovnice znova vklopite TalkBack FOSS</string>
+  <string name="talkback_off_or_suspend_dialog_message">Ko je funkcija TalkBack FOSS vklopljena, se lahko dotaknete zaslona in vnašate braillovo pisavo.</string>
   <string name="next_keyboard">Naslednja tipkovnica</string>
   <string name="braille_tutorial_title">Vadnica za braillovo tipkovnico</string>
-  <string name="tutorial_intro_description">Z braillovo tipkovnico lahko z dotikanjem zaslona vnašate braillovo pisavo s šestimi pikami.\n\nUporabljate poenoteno angleško braillovo pisavo. Če želite preklopiti jezik vnašanja, odprite nastavitve za TalkBack.\n\nČe želite pisati v braillovi pisavi, morate telefon držati in uporabljati drugače.</string>
+  <string name="tutorial_intro_description">Z braillovo tipkovnico lahko z dotikanjem zaslona vnašate braillovo pisavo s šestimi pikami.\n\nUporabljate poenoteno angleško braillovo pisavo. Če želite preklopiti jezik vnašanja, odprite nastavitve za TalkBack FOSS.\n\nČe želite pisati v braillovi pisavi, morate telefon držati in uporabljati drugače.</string>
   <string name="next_step">Naprej</string>
   <string name="leave_keyboard">Zapusti braillovo tipkovnico</string>
-  <string name="hold_six_fingers_description">Na braillovi tipkovnici ne boste mogli uporabljati običajnih potez za TalkBack.\n\nZa začetek nastavite položaje šestih pik braillove pisave za vnašanje.</string>
-  <string name="rotate_orientation_description_1">Zdaj ne boste mogli uporabljati običajnih potez za TalkBack. Funkcija TalkBack ni na voljo med uporabo braillove tipkovnice.</string>
+  <string name="hold_six_fingers_description">Na braillovi tipkovnici ne boste mogli uporabljati običajnih potez za TalkBack FOSS.\n\nZa začetek nastavite položaje šestih pik braillove pisave za vnašanje.</string>
+  <string name="rotate_orientation_description_1">Zdaj ne boste mogli uporabljati običajnih potez za TalkBack FOSS. Funkcija TalkBack FOSS ni na voljo med uporabo braillove tipkovnice.</string>
   <string name="rotate_orientation_description_2">Če želite začeti, držite telefon tako, zaslon pa naj bo obrnjen stran od vas.</string>
   <string name="tap_to_continue">Za nadaljevanje se dvakrat dotaknite kjer koli na zaslonu</string>
   <string name="instruction_type_letter_a">Z levim kazalcem se dotaknite pike 1, da natipkate črko »A«</string>
@@ -92,7 +92,7 @@
   <string name="result_swipe_down">KAZALEC PREMAKNJEN NAPREJ</string>
   <string name="result_swipe_down_2_fingers">SKRIJ TIPKOVNICO</string>
   <string name="result_swipe_down_3_fingers">NASLEDNJA TIPKOVNICA</string>
-  <string name="rotate_orientation_announcement">Zdaj ne boste mogli uporabljati običajnih potez za TalkBack. Funkcija TalkBack ni na voljo med uporabo braillove tipkovnice.\n\n%1$s</string>
+  <string name="rotate_orientation_announcement">Zdaj ne boste mogli uporabljati običajnih potez za TalkBack FOSS. Funkcija TalkBack FOSS ni na voljo med uporabo braillove tipkovnice.\n\n%1$s</string>
   <string name="rotate_orientation_inactive_announcement">Najprej obrnite telefon tako, da bo zaslon obrnjen stran od vas.\n\nNato telefon zasukajte v ležeči položaj. Z rokama morate držati krajša konca telefona. Z desno roko morate držati konec z vrati USB. Sredinske tri prste položite na zaslon, z mezincem in palcem pa podpirajte telefon.\n\nKo boste pripravljeni, se za nadaljevanje dvakrat dotaknite zaslona.\n\nČe želite zapreti braillovo tipkovnico, povlecite navzdol proti tlom s tremi prsti. S tem boste preklopili na prvotno tipkovnico.</string>
   <string name="rotate_orientation_continue_announcement">Telefon je v pokončnem položaju. Če želite nadaljevati, ga zasukajte v ležeči položaj, tako da bo daljša stran na dnu. Nato obrnite zaslon stran od sebe. Ko boste pripravljeni, se za nadaljevanje dvakrat dotaknite zaslona.</string>
   <string name="type_letter_a_announcement">Zaslon naj bo obrnjen stran od vas. Krajša konca telefona držite z obema rokama, tako da se boste lahko s sredinskimi tremi prsti vsake roke dotikali zaslona.\n\nLevi kazalec mora biti na piki 1. Nato se dotaknite pike 1, da natipkate črko »A«.</string>
@@ -108,7 +108,7 @@
   <string name="swipe_down_3_fingers_announcement">Če želite preklopiti na drugo tipkovnico, povlecite navzdol s tremi prsti. Preizkusite.</string>
   <string name="swipe_down_3_fingers_completed_announcement">Naslednja tipkovnica. S tem boste običajno preklopili na naslednjo tipkovnico. Tokrat boste ostali v braillovi tipkovnici, ker ste še vedno v vadnici.</string>
   <string name="swipe_up_3_fingers_announcement">Vnašate lahko tudi v namiznem načinu, če telefon položite plosko na mizo. Če želite dokončati vadnico, s tremi prsti povlecite navzgor in poiščite možnost za dokončanje vadnice.</string>
-  <string name="open_context_menu_announcement">Meni z možnostmi je odprt. Telefon obrnite tako, da bo zaslon obrnjen proti vam, in ga držite kot običajno. Zdaj se lahko premikate z običajnimi potezami za TalkBack. Povlecite v desno, da prikažete več možnosti.</string>
+  <string name="open_context_menu_announcement">Meni z možnostmi je odprt. Telefon obrnite tako, da bo zaslon obrnjen proti vam, in ga držite kot običajno. Zdaj se lahko premikate z običajnimi potezami za TalkBack FOSS. Povlecite v desno, da prikažete več možnosti.</string>
   <string name="hold_six_fingers_announcement">%s\nNapravo položite plosko na mizo. Nato na zaslonu pridržite srednje tri prste obeh rok tako, da vam bo med vnašanjem udobno.</string>
   <string name="hold_six_fingers_inactive_announcement">Napravo položite plosko na mizo. Nato na zaslonu pridržite srednje tri prste obeh rok tako, da vam bo med vnašanjem udobno.</string>
   <string name="finish_tutorial_announcement">Prikaz braillove tipkovnice. Telefon obrnite tako, da bo zaslon obrnjen stran od vas. Telefon zasukajte v ležeči položaj. Nato začnite vnašati.</string>

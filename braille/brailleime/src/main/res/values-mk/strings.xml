@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="braille_ime_service_name">Тастатура со брајово писмо за TalkBack</string>
+  <string name="braille_ime_service_name">Тастатура со брајово писмо за TalkBack FOSS</string>
   <string name="switch_to_screen_away_announcement">Режим на екран свртен обратно</string>
   <string name="switch_to_tabletop_announcement">Режим за на маса. Поставете го уредот со портата за полнење на левата страна. За ажурирање положба на точките, задржете со шест прсти.</string>
   <string name="bring_ime_settings_page">Нема друга овозможена тастатура, одете во поставките за тастатури</string>
@@ -10,7 +10,7 @@
   <string name="switched_to_ueb_uncontracted_announcement">Префрлено на нескратено унифицирано англиско брајово писмо (UEB)</string>
   <string name="braille_ime_displayed_name">тастатура со брајово писмо</string>
   <string name="multiple_languages_braille_ime_displayed_name">тастатура со брајово писмо, %s</string>
-  <string name="input_view_caption">Тастатура со брајово писмо за TalkBack. За помош, одете на g.co/help/braille</string>
+  <string name="input_view_caption">Тастатура со брајово писмо за TalkBack FOSS. За помош, одете на g.co/help/braille</string>
   <string name="perform_action_next">Следно</string>
   <string name="perform_action_submitting">Текстот се испраќа</string>
   <string name="calibration_step1_hold_left_finger_announcement">Ажурирање на положбата на точките. Прво, да ги снимиме точките на левата рака. Допрете и задржете го екранот со средните три прста од левата рака.</string>
@@ -73,17 +73,17 @@
     <item quantity="one">точки %s</item>
     <item quantity="other">точки %s</item>
   </plurals>
-  <string name="talkback_off_dialog_title">Вклучете TalkBack за да користите тастатура со брајово писмо</string>
+  <string name="talkback_off_dialog_title">Вклучете TalkBack FOSS за да користите тастатура со брајово писмо</string>
   <string name="talkback_off_dialog_positive_button">Вклучи ги поставките за пристапност</string>
-  <string name="talkback_suspend_dialog_title">Продолжете со TalkBack за да користите тастатура со брајово писмо</string>
-  <string name="talkback_off_or_suspend_dialog_message">Кога е вклучена TalkBack, може да го допирате екранот за да внесувате симболи од брајово писмо.</string>
+  <string name="talkback_suspend_dialog_title">Продолжете со TalkBack FOSS за да користите тастатура со брајово писмо</string>
+  <string name="talkback_off_or_suspend_dialog_message">Кога е вклучена TalkBack FOSS, може да го допирате екранот за да внесувате симболи од брајово писмо.</string>
   <string name="next_keyboard">Следна тастатура</string>
   <string name="braille_tutorial_title">Упатство за тастатура со брајово писмо</string>
-  <string name="tutorial_intro_description">Со тастатурата со брајово писмо може да внесувате шестточки со допирање на екранот.\n\nГо користите унифицираното англиско брајово писмо. За да го промените јазикот на пишување, одете во поставките за TalkBack.\n\nЗа да пишувате со брајово писмо, треба поинаку да го држите и користите телефонот.</string>
+  <string name="tutorial_intro_description">Со тастатурата со брајово писмо може да внесувате шестточки со допирање на екранот.\n\nГо користите унифицираното англиско брајово писмо. За да го промените јазикот на пишување, одете во поставките за TalkBack FOSS.\n\nЗа да пишувате со брајово писмо, треба поинаку да го држите и користите телефонот.</string>
   <string name="next_step">Следно</string>
   <string name="leave_keyboard">Излезете од тастатурата со брајово писмо</string>
-  <string name="hold_six_fingers_description">Нема да може да ги користите обичните движења на TalkBack на тастатурата со брајово писмо.\n\nЗа да започнеме, прво да ја поставиме положбата на шесте точки за брајово писмо кога пишувате.</string>
-  <string name="rotate_orientation_description_1">Почнувајќи отсега, нема да може да користите обични движења за TalkBack. TalkBack не е достапна додека ја користите тастатурата со брајово писмо.</string>
+  <string name="hold_six_fingers_description">Нема да може да ги користите обичните движења на TalkBack FOSS на тастатурата со брајово писмо.\n\nЗа да започнеме, прво да ја поставиме положбата на шесте точки за брајово писмо кога пишувате.</string>
+  <string name="rotate_orientation_description_1">Почнувајќи отсега, нема да може да користите обични движења за TalkBack FOSS. TalkBack FOSS не е достапна додека ја користите тастатурата со брајово писмо.</string>
   <string name="rotate_orientation_description_2">За да започнете, држете го телефонот вака, со екранот свртен обратно од вас.</string>
   <string name="tap_to_continue">Допрете два пати каде било за да продолжите</string>
   <string name="instruction_type_letter_a_left_index_finger">лев показалец</string>
@@ -99,7 +99,7 @@
   <string name="result_swipe_right">ПРАЗНО МЕСТО</string>
   <string name="result_swipe_down_2_fingers">СОКРИЈТЕ ЈА ТАСТАТУРАТА</string>
   <string name="result_swipe_down_3_fingers">СЛЕДНА ТАСТАТУРА</string>
-  <string name="rotate_orientation_announcement">Почнувајќи отсега, нема да може да користите обични движења за TalkBack. TalkBack не е достапна додека ја користите тастатурата со брајово писмо.\n\n%1$s</string>
+  <string name="rotate_orientation_announcement">Почнувајќи отсега, нема да може да користите обични движења за TalkBack FOSS. TalkBack FOSS не е достапна додека ја користите тастатурата со брајово писмо.\n\n%1$s</string>
   <string name="rotate_orientation_inactive_announcement">Прво, завртете го телефонот, тако што екранот ќе биде свртен обратно од вас.\n\nСледно, ротирајте го телефонот хоризонтално во положба на пејзаж. Со рацете држете го телефонот за потесните страни. Вашата десна рака треба да ја држи страната со USB-портата. Ставете ги трите средни прста на екранот, а со малиот прст и палецот држете го телефонот.\n\nКога ќе бидете спремни, допрете два пати на екранот за да продолжите.\n\nЗа да излезете од тастатурата со брајово писмо, повлечете надолу кон земјата со три прста. Така ќе се префрлите назад на првичната тастатура.</string>
   <string name="rotate_orientation_continue_announcement">Вашиот телефон е во вертикална положба. За да продолжите, ротирајте го телефонот хоризонтално, така што подолгата страна ќе биде долу. Потоа свртете го екранот обратно од вас. Кога ќе бидете спремни, допрете два пати на екранот за да продолжите.</string>
   <string name="type_letter_a_announcement_left_index_finger">лев показалец</string>
@@ -115,7 +115,7 @@
   <string name="swipe_down_3_fingers_announcement">За да се префрлите на вашата друга тастатура, повлечете надолу со три прста. Пробајте сега.</string>
   <string name="swipe_down_3_fingers_completed_announcement">Следна тастатура. Обично, ова ќе ве префрли на следната тастатура. Овој пат ќе останете во тастатурата со брајово писмо бидејќи сѐ уште сте во упатството.</string>
   <string name="swipe_up_3_fingers_announcement">Може да пишувате и во режим за на маса ако го ставите телефонот рамно на масата. За да го затворите упатството, повлечете нагоре со три прста и најдете ја опцијата „Затвори го упатството“</string>
-  <string name="open_context_menu_announcement">Менито со опции е отворено. Свртете го телефонот кон вас и држете го нормално. Сега може да ги користите обичните движења на TalkBack за навигација. Повлечете надесно за да видите повеќе опции.</string>
+  <string name="open_context_menu_announcement">Менито со опции е отворено. Свртете го телефонот кон вас и држете го нормално. Сега може да ги користите обичните движења на TalkBack FOSS за навигација. Повлечете надесно за да видите повеќе опции.</string>
   <string name="hold_six_fingers_announcement">%s\nСтавете го уредот рамно на масата. Потоа, допрете и задржете го екранот со средните три прста од секоја рака во положба што ви е удобна за пишување.</string>
   <string name="hold_six_fingers_inactive_announcement">Ставете го уредот рамно на масата. Потоа, допрете и задржете го екранот со средните три прста од секоја рака во положба што ви е удобна за пишување.</string>
   <string name="finish_tutorial_announcement">Се прикажува тастатурата со брајово писмо. Свртете го телефонот, така што екранот ќе биде свртен обратно од вас. Ротирајте го телефонот хоризонтално во положба на пејзаж. Потоа, почнете да пишувате.</string>

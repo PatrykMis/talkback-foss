@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="braille_ime_service_name">Брайлова клавиатура за TalkBack</string>
+  <string name="braille_ime_service_name">Брайлова клавиатура за TalkBack FOSS</string>
   <string name="switch_to_screen_away_announcement">Режим на обърнат екран</string>
   <string name="switch_to_tabletop_announcement">Настолен режим. Насочете наляво порта за зареждане на устройството. За да актуализирате позициите на точките, задръжте 6 пръста върху екрана.</string>
   <string name="bring_ime_settings_page">Не е активирана друга клавиатура, отворете съответните настройки</string>
@@ -10,7 +10,7 @@
   <string name="switched_to_ueb_uncontracted_announcement">Превключихте към унифицирано английско брайлово писмо без съкращения</string>
   <string name="braille_ime_displayed_name">брайлова клавиатура</string>
   <string name="multiple_languages_braille_ime_displayed_name">брайлова клавиатура, %s</string>
-  <string name="input_view_caption">Брайлова клавиатура за TalkBack – за помощ посетете g.co/help/braille</string>
+  <string name="input_view_caption">Брайлова клавиатура за TalkBack FOSS – за помощ посетете g.co/help/braille</string>
   <string name="perform_action_next">Напред</string>
   <string name="perform_action_submitting">Текстът се изпраща</string>
   <string name="calibration_step1_hold_left_finger_announcement">Позициите на точките се актуализират. Първо, трябва да запишете точките за лявата си ръка. Докоснете и задръжте екрана с трите средни пръста на лявата си ръка.</string>
@@ -73,17 +73,17 @@
     <item quantity="one">точка %s</item>
     <item quantity="other">точки %s</item>
   </plurals>
-  <string name="talkback_off_dialog_title">Включване на TalkBack с цел използване на брайлова клавиатура</string>
+  <string name="talkback_off_dialog_title">Включване на TalkBack FOSS с цел използване на брайлова клавиатура</string>
   <string name="talkback_off_dialog_positive_button">Включване от настройките за достъпност</string>
-  <string name="talkback_suspend_dialog_title">Възобновяване на TalkBack с цел използване на брайлова клавиатура</string>
-  <string name="talkback_off_or_suspend_dialog_message">Когато функцията TalkBack е включена, можете да въвеждате брайлови символи чрез докосване на екрана.</string>
+  <string name="talkback_suspend_dialog_title">Възобновяване на TalkBack FOSS с цел използване на брайлова клавиатура</string>
+  <string name="talkback_off_or_suspend_dialog_message">Когато функцията TalkBack FOSS е включена, можете да въвеждате брайлови символи чрез докосване на екрана.</string>
   <string name="next_keyboard">Следваща клавиатура</string>
   <string name="braille_tutorial_title">Урок за брайловата клавиатура</string>
-  <string name="tutorial_intro_description">Чрез брайловата клавиатура можете да докосвате екрана, за да въвеждате с 6-точково писмо.\n\nИзползвате унифицирано английско брайлово писмо. За да превключите езика на въвеждане, отворете настройките на TalkBack.\n\nЗа да въвеждате с брайлово писмо, трябва да държите и използвате телефона си по различен начин.</string>
+  <string name="tutorial_intro_description">Чрез брайловата клавиатура можете да докосвате екрана, за да въвеждате с 6-точково писмо.\n\nИзползвате унифицирано английско брайлово писмо. За да превключите езика на въвеждане, отворете настройките на TalkBack FOSS.\n\nЗа да въвеждате с брайлово писмо, трябва да държите и използвате телефона си по различен начин.</string>
   <string name="next_step">Напред</string>
   <string name="leave_keyboard">Изход от брайловата клавиатура</string>
-  <string name="hold_six_fingers_description">В брайловата клавиатура няма да можете да използвате обичайните жестове за TalkBack.\n\nЗа да започнете, настройте позицията за въвеждане на шестте брайлови точки.</string>
-  <string name="rotate_orientation_description_1">От сега нататък няма да можете да използвате стандартните жестове в TalkBack. Функцията не е налице, докато използвате брайловата клавиатура.</string>
+  <string name="hold_six_fingers_description">В брайловата клавиатура няма да можете да използвате обичайните жестове за TalkBack FOSS.\n\nЗа да започнете, настройте позицията за въвеждане на шестте брайлови точки.</string>
+  <string name="rotate_orientation_description_1">От сега нататък няма да можете да използвате стандартните жестове в TalkBack FOSS. Функцията не е налице, докато използвате брайловата клавиатура.</string>
   <string name="rotate_orientation_description_2">За да започнете, дръжте телефона си по този начин. Екранът му не трябва да е насочен към вас.</string>
   <string name="tap_to_continue">Докоснете два пъти произволно място, за да продължите</string>
   <string name="instruction_type_letter_a_left_index_finger">левия си показалец</string>
@@ -99,7 +99,7 @@
   <string name="result_swipe_right">ИНТЕРВАЛ</string>
   <string name="result_swipe_down_2_fingers">СКРИВАНЕ НА КЛАВИАТУРАТА</string>
   <string name="result_swipe_down_3_fingers">СЛЕДВАЩА КЛАВИАТУРА</string>
-  <string name="rotate_orientation_announcement">От сега нататък няма да можете да използвате стандартните жестове в TalkBack. Функцията не работи, докато използвате брайловата клавиатура.\n\n%1$s</string>
+  <string name="rotate_orientation_announcement">От сега нататък няма да можете да използвате стандартните жестове в TalkBack FOSS. Функцията не работи, докато използвате брайловата клавиатура.\n\n%1$s</string>
   <string name="rotate_orientation_inactive_announcement">Първо, обърнете телефона си така, че гърбът му да сочи към вас.\n\nСлед това го завъртете в хоризонтална позиция. Трябва да хванете телефона за късите му страни. Дясната ви ръка трябва да е от страната на USB порта. Поставете трите си средни пръста на екрана и използвайте кутрето и палеца си, за да придържате телефона.\n\nКогато имате готовност, докоснете екрана два пъти, за да продължите.\n\nЗа да затворите брайловата клавиатура, прекарайте 3 пръста надолу към земята. Така ще превключите обратно към първоначалната клавиатура.</string>
   <string name="rotate_orientation_continue_announcement">Телефонът ви е във вертикална позиция. За да продължите, завъртете го хоризонтално, така че дългата му страна да е отдолу. След това обърнете екрана, за да не сочи към вас. Когато имате готовност, докоснете го два пъти, за да продължите.</string>
   <string name="type_letter_a_announcement_left_index_finger">Левият ви показалец</string>
@@ -115,7 +115,7 @@
   <string name="swipe_down_3_fingers_announcement">За да превключите към другата клавиатура, прекарайте 3 пръста надолу. Изпробвайте сега.</string>
   <string name="swipe_down_3_fingers_completed_announcement">Следваща клавиатура. Обикновено това действие ще превключи към следващата клавиатура. Този път няма да се случи нищо, защото урокът още не е приключил.</string>
   <string name="swipe_up_3_fingers_announcement">Можете също да въвеждате текст в настолен режим, като поставите телефона си върху равна повърхност, като например маса. За да завършите урока, прекарайте 3 пръста нагоре и намерете съответната опция.</string>
-  <string name="open_context_menu_announcement">Менюто с опции е отворено. Завъртете телефона си с екрана към вас и го дръжте нормално. Вече можете да използвате стандартните жестове на TalkBack за навигиране. Прекарайте пръст надясно, за да видите още опции.</string>
+  <string name="open_context_menu_announcement">Менюто с опции е отворено. Завъртете телефона си с екрана към вас и го дръжте нормално. Вече можете да използвате стандартните жестове на TalkBack FOSS за навигиране. Прекарайте пръст надясно, за да видите още опции.</string>
   <string name="hold_six_fingers_announcement">%s\nПоставете устройството си върху равна повърхност, като например маса. След това докоснете и задръжте екрана с трите средни пръста на двете си ръце, като ги разположите в позиция, удобна за въвеждане на текст.</string>
   <string name="hold_six_fingers_inactive_announcement">Поставете устройството си върху равна повърхност, като например маса. След това докоснете и задръжте екрана с трите средни пръста на двете си ръце, като ги разположите в позиция, удобна за въвеждане на текст.</string>
   <string name="finish_tutorial_announcement">Показване на брайловата клавиатура. Обърнете телефона си така, че гърбът му да сочи към вас. След това го завъртете в хоризонтална позиция и започнете да въвеждате текст.</string>

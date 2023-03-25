@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="talkback_on">TalkBack күйүк</string>
-  <string name="talkback_disabled">TalkBack өчүк</string>
+  <string name="talkback_on">TalkBack FOSS күйүк</string>
+  <string name="talkback_disabled">TalkBack FOSS өчүк</string>
   <string name="spokenfeedback_on">Экрандагы текстти окуп берүү функциясы күйгүзүлгөн</string>
   <string name="spokenfeedback_suspended">Экрандагы текстти окуп берүү функциясы убактылуу токтотулган</string>
   <string name="spokenfeedback_resumed">Экрандагы текстти окуп берүү функциясы кайра иштетилди</string>

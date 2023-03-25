@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="braille_ime_service_name">TalkBack se braille-sleutelbord</string>
+  <string name="braille_ime_service_name">TalkBack FOSS se braille-sleutelbord</string>
   <string name="switch_to_screen_away_announcement">Skermwegmodus</string>
   <string name="switch_to_tabletop_announcement">Tafelbladmodus. Plaas jou toestel met die laaipoort na links. Hou die puntposisie met 6 vingers in om dit op te dateer.</string>
   <string name="bring_ime_settings_page">Daar is nie \'n ander sleutelbord geaktiveer nie; gaan na sleutelbordinstellings toe</string>
@@ -10,7 +10,7 @@
   <string name="switched_to_ueb_uncontracted_announcement">Oorgeskakel na niesaamgetrekte UEB</string>
   <string name="braille_ime_displayed_name">braille-sleutelbord</string>
   <string name="multiple_languages_braille_ime_displayed_name">braille-sleutelbord, %s</string>
-  <string name="input_view_caption">TalkBack se braille-sleutelbord – besoek g.co/help/braille vir hulp</string>
+  <string name="input_view_caption">TalkBack FOSS se braille-sleutelbord – besoek g.co/help/braille vir hulp</string>
   <string name="perform_action_next">Volgende</string>
   <string name="perform_action_submitting">Dien tans teks in</string>
   <string name="calibration_step1_hold_left_finger_announcement">Dateer tans puntposisie op. Kom ons teken eers die punte op jou linkerhand aan. Raak en hou die skerm met jou linkerhand se middelste 3 vingers.</string>
@@ -73,17 +73,17 @@
     <item quantity="one">punt %s</item>
     <item quantity="other">punte %s</item>
   </plurals>
-  <string name="talkback_off_dialog_title">Skakel TalkBack aan om braille-sleutelbord te gebruik</string>
+  <string name="talkback_off_dialog_title">Skakel TalkBack FOSS aan om braille-sleutelbord te gebruik</string>
   <string name="talkback_off_dialog_positive_button">Skakel in toeganklikheidinstellings aan</string>
-  <string name="talkback_suspend_dialog_title">Hervat TalkBack om braillesleutelbord te gebruik</string>
-  <string name="talkback_off_or_suspend_dialog_message">Wanneer Talkback aan is, kan jy op jou skerm tik om braillesimbole in te voer.</string>
+  <string name="talkback_suspend_dialog_title">Hervat TalkBack FOSS om braillesleutelbord te gebruik</string>
+  <string name="talkback_off_or_suspend_dialog_message">Wanneer TalkBack FOSS aan is, kan jy op jou skerm tik om braillesimbole in te voer.</string>
   <string name="next_keyboard">Volgende sleutelbord</string>
   <string name="braille_tutorial_title">Braille-sleutelbordtutoriaal</string>
-  <string name="tutorial_intro_description">Met die braillesleutelbord kan jy op jou skerm tik om 6-knoppiebraille in te voer.\n\nJy gebruik tans Verenigde Engelse Braille. Gaan na TalkBack-instellings om jou tiktaal te wissel.\n\nJy moet jou foon anders vashou en gebruik om braille te tik.</string>
+  <string name="tutorial_intro_description">Met die braillesleutelbord kan jy op jou skerm tik om 6-knoppiebraille in te voer.\n\nJy gebruik tans Verenigde Engelse Braille. Gaan na TalkBack FOSS-instellings om jou tiktaal te wissel.\n\nJy moet jou foon anders vashou en gebruik om braille te tik.</string>
   <string name="next_step">Volgende</string>
   <string name="leave_keyboard">Verlaat braille-sleutelbord</string>
-  <string name="hold_six_fingers_description">Jy sal nie gewone TalkBack-gebare in the braillesleutelbord kan gebruik nie.\n\nOm aan die gang te kom, kan ons die posisie opstel van die 6 braillepunte wanneer jy tik.</string>
-  <string name="rotate_orientation_description_1">Jy sal van nou af nie meer gewone TalkBack-gebare kan gebruik nie. TalkBack is nie beskikbaar terwyl jy die braille-sleutelbord gebruik nie.</string>
+  <string name="hold_six_fingers_description">Jy sal nie gewone TalkBack FOSS-gebare in the braillesleutelbord kan gebruik nie.\n\nOm aan die gang te kom, kan ons die posisie opstel van die 6 braillepunte wanneer jy tik.</string>
+  <string name="rotate_orientation_description_1">Jy sal van nou af nie meer gewone TalkBack FOSS-gebare kan gebruik nie. TalkBack FOSS is nie beskikbaar terwyl jy die braille-sleutelbord gebruik nie.</string>
   <string name="rotate_orientation_description_2">Om te begin, moet jy jou foon só vashou met die skerm wat weg van jou af wys.</string>
   <string name="tap_to_continue">Dubbeltik enige plek om voort te gaan</string>
   <string name="instruction_type_letter_a_left_index_finger">linkerwysvinger</string>
@@ -99,7 +99,7 @@
   <string name="result_swipe_right">SPASIE</string>
   <string name="result_swipe_down_2_fingers">VERSTEEK SLEUTELBORD</string>
   <string name="result_swipe_down_3_fingers">VOLGENDE SLEUTELBORD</string>
-  <string name="rotate_orientation_announcement">Jy sal van nou af nie meer gewone TalkBack-gebare kan gebruik nie. TalkBack is nie beskikbaar terwyl jy die braillesleutelbord gebruik nie.\n\n%1$s</string>
+  <string name="rotate_orientation_announcement">Jy sal van nou af nie meer gewone TalkBack FOSS-gebare kan gebruik nie. TalkBack FOSS is nie beskikbaar terwyl jy die braillesleutelbord gebruik nie.\n\n%1$s</string>
   <string name="rotate_orientation_inactive_announcement">Draai eers jou foon sodat die skerm weg van jou af wys.\n\nDraai die foon dan horisontaal sodat dit in landskapposisie is. Jou hande moet die kort kante van die foon vashou. Jou regterhand moet die kant met die USB-poort vashou. Rus jou 3 middelvingers op die skerm en gebruik jou pinkie en duim om die foon vas te hou.\n\nDubbeltik wanneer jy gereed is op die skerm om voort te gaan.\n\nSwiep met 3 vingers af na die grond toe om die braillesleutelbord te verlaat. Jy sal dan na jou oorspronklike sleutelbord toe terugkeer.</string>
   <string name="rotate_orientation_continue_announcement">Jou foon is in \'n vertikale posisie. Om voort te gaan, draai jou foon horisontaal sodat die lang kant onder is. Draai die skerm dan só dat dit weg van jou af wys. Dubbeltik wanneer jy gereed is op die skerm om voort te gaan.</string>
   <string name="type_letter_a_announcement_left_index_finger">linkerwysvinger</string>
@@ -115,7 +115,7 @@
   <string name="swipe_down_3_fingers_announcement">Swiep af met 3 vingers om na jou ander sleutelbord toe oor te skakel. Probeer dit nou.</string>
   <string name="swipe_down_3_fingers_completed_announcement">Volgende sleutelbord. Dit sal gewoonlik na die volgende sleutelbord toe oorskakel. Hierdie keer sal jy in die braille-sleutelbord bly omdat jy steeds in die tutoriaal is.</string>
   <string name="swipe_up_3_fingers_announcement">Jy kan ook in tafelbladmodus tik deur jou foon plat op \'n tafel te plaas. Om die tutoriaal te voltooi, moet jy met 3 vingers opswiep en die \"voltooi tutoriaal\"-opsie kry</string>
-  <string name="open_context_menu_announcement">Die opsieskieslys is oop. Keer jou foon om sodat dit na jou toe wys en hou dit normaal vas. Jy kan nou die gewone TalkBack-gebare gebruik om te navigeer. Swiep regs om meer opsies te sien.</string>
+  <string name="open_context_menu_announcement">Die opsieskieslys is oop. Keer jou foon om sodat dit na jou toe wys en hou dit normaal vas. Jy kan nou die gewone TalkBack FOSS-gebare gebruik om te navigeer. Swiep regs om meer opsies te sien.</string>
   <string name="hold_six_fingers_announcement">%s\nSit jou toestel plat op \'n tafel neer. Raak en hou dan die skerm met die middelste 3 vingers van elke hand in \'n posisie waarin dit vir jou gemaklik is om te tik.</string>
   <string name="hold_six_fingers_inactive_announcement">Sit jou toestel plat op \'n tafel neer. Raak en hou dan die skerm met die middelste 3 vingers van elke hand in \'n posisie waarin dit vir jou gemaklik is om te tik.</string>
   <string name="finish_tutorial_announcement">Wys tans braillesleutelbord. Draai jou foon sodat die skerm weg van jou af wys. Draai die foon dan horisontaal sodat dit in landskapposisie is. Begin dan tik.</string>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="braille_ime_service_name">Clavier braille TalkBack</string>
+  <string name="braille_ime_service_name">Clavier braille TalkBack FOSS</string>
   <string name="braille_ime_bd_mode_name">Entrée de l\'afficheur braille</string>
   <string name="switch_to_screen_away_announcement">Mode Écran retourné</string>
   <string name="switch_to_tabletop_announcement">Mode À plat. Placez votre appareil avec le port de recharge vers la gauche. Pour modifier la position des points, maintenez six doigts sur l\'écran.</string>
@@ -8,7 +8,7 @@
   <string name="reminder_announcement">Balayez l\'écran vers le haut avec trois doigts pour afficher d\'autres options</string>
   <string name="braille_ime_displayed_name">clavier braille</string>
   <string name="multiple_languages_braille_ime_displayed_name">clavier braille, %s</string>
-  <string name="input_view_caption">Clavier braille TalkBack : pour obtenir de l\'aide, visitez g.co/help/braille</string>
+  <string name="input_view_caption">Clavier braille TalkBack FOSS : pour obtenir de l\'aide, visitez g.co/help/braille</string>
   <string name="perform_action_next">Suivant</string>
   <string name="perform_action_submitting">Envoi de texte en cours…</string>
   <string name="calibration_step1_hold_left_finger_announcement">Mise à jour de la position des points en cours… Enregistrez d\'abord les points pour la main gauche. Maintenez les trois doigts du milieu de votre main gauche sur l\'écran.</string>
@@ -64,17 +64,17 @@
   <string name="gesture_open_context_menu">Pour accéder <b>à l\'aide et à d\'autres options</b>, balayez l\'écran vers le haut avec trois doigts</string>
   <string name="not_enough_touch_points_dialog_title">Votre appareil ne prend pas en charge le clavier braille</string>
   <string name="not_enough_touch_points_dialog_message">Votre appareil ne prend pas en charge suffisamment de points tactiles. Pour en savoir plus, communiquez avec le fabricant de votre appareil.</string>
-  <string name="talkback_off_dialog_title">Activer TalkBack pour utiliser le clavier braille</string>
+  <string name="talkback_off_dialog_title">Activer TalkBack FOSS pour utiliser le clavier braille</string>
   <string name="talkback_off_dialog_positive_button">Activer dans les paramètres d\'accessibilité</string>
-  <string name="talkback_suspend_dialog_title">Réactiver TalkBack pour utiliser le clavier braille</string>
-  <string name="talkback_off_or_suspend_dialog_message">Lorsque TalkBack est activé, vous pouvez toucher votre écran pour entrer des symboles braille.</string>
+  <string name="talkback_suspend_dialog_title">Réactiver TalkBack FOSS pour utiliser le clavier braille</string>
+  <string name="talkback_off_or_suspend_dialog_message">Lorsque TalkBack FOSS est activé, vous pouvez toucher votre écran pour entrer des symboles braille.</string>
   <string name="next_keyboard">Clavier suivant</string>
   <string name="braille_tutorial_title">Tutoriel pour le clavier braille</string>
-  <string name="tutorial_intro_description">Avec le clavier braille, vous pouvez toucher votre écran pour entrer des caractères braille à six points.\n\nVous utilisez le clavier braille anglais unifié. Pour changer la langue d\'entrée, revenez aux paramètres de TalkBack.\n\nPour écrire en braille, vous devez tenir et utiliser votre téléphone différemment.</string>
+  <string name="tutorial_intro_description">Avec le clavier braille, vous pouvez toucher votre écran pour entrer des caractères braille à six points.\n\nVous utilisez le clavier braille anglais unifié. Pour changer la langue d\'entrée, revenez aux paramètres de TalkBack FOSS.\n\nPour écrire en braille, vous devez tenir et utiliser votre téléphone différemment.</string>
   <string name="next_step">Suivant</string>
   <string name="leave_keyboard">Quitter le clavier braille</string>
-  <string name="hold_six_fingers_description">Vous ne pourrez pas utiliser les gestes TalkBack habituels avec le clavier braille.\n\nPour commencer, configurez la position des six points utilisés lorsque vous écrivez en braille.</string>
-  <string name="rotate_orientation_description_1">À partir de maintenant, vous ne pourrez plus utiliser les gestes habituels de TalkBack. TalkBack ne peut pas être utilisé en même temps que le clavier braille.</string>
+  <string name="hold_six_fingers_description">Vous ne pourrez pas utiliser les gestes TalkBack FOSS habituels avec le clavier braille.\n\nPour commencer, configurez la position des six points utilisés lorsque vous écrivez en braille.</string>
+  <string name="rotate_orientation_description_1">À partir de maintenant, vous ne pourrez plus utiliser les gestes habituels de TalkBack FOSS. TalkBack FOSS ne peut pas être utilisé en même temps que le clavier braille.</string>
   <string name="rotate_orientation_description_2">Pour commencer, tenez votre téléphone comme ceci, avec l\'écran du côté opposé à vous.</string>
   <string name="tap_to_continue">Touchez deux fois n\'importe où pour continuer</string>
   <string name="instruction_type_letter_a">Touchez le point 1 avec votre index gauche pour entrer la lettre « A »</string>
@@ -92,7 +92,7 @@
   <string name="result_swipe_down">CURSEUR DÉPLACÉ VERS L\'AVANT</string>
   <string name="result_swipe_down_2_fingers">MASQUER LE CLAVIER</string>
   <string name="result_swipe_down_3_fingers">CLAVIER SUIVANT</string>
-  <string name="rotate_orientation_announcement">À partir de maintenant, vous ne pourrez plus utiliser les gestes habituels de TalkBack. TalkBack ne peut pas être utilisé en même temps que le clavier braille.\n\n%1$s</string>
+  <string name="rotate_orientation_announcement">À partir de maintenant, vous ne pourrez plus utiliser les gestes habituels de TalkBack FOSS. TalkBack FOSS ne peut pas être utilisé en même temps que le clavier braille.\n\n%1$s</string>
   <string name="rotate_orientation_inactive_announcement">En premier, tournez votre téléphone avec l\'écran orienté du côté opposé à vous.\n\nEnsuite, tournez le téléphone à l\'horizontale en position paysage. Vos mains doivent tenir le téléphone par ses côtés courts. Vous devez tenir l\'extrémité avec le port USB à l\'aide de votre main droite. Utilisez le pouce et l\'auriculaire pour tenir le téléphone et laissez reposer vos trois doigts médians sur l\'écran.\n\nQuand vous êtes prêt, touchez deux fois l\'écran pour continuer.\n\nPour quitter le clavier braille, balayez l\'écran vers le bas avec trois doigts. Cela vous fait revenir à votre clavier initial.</string>
   <string name="rotate_orientation_continue_announcement">Votre téléphone est en position verticale. Pour continuer, faites tourner votre téléphone à l\'horizontale de sorte que le côté long soit situé en bas. Ensuite, tournez l\'écran du côté opposé à vous. Quand vous êtes prêt, touchez deux fois l\'écran pour continuer.</string>
   <string name="type_letter_a_announcement">Gardez l\'écran tourné du côté opposé à vous. Tenez votre téléphone à deux mains par ses côtés courts, de sorte que les trois doigts médians de chaque main puissent toucher l\'écran.\n\nVotre index gauche doit être sur le point 1. Maintenant, touchez le point 1 pour entrer la lettre « A ».</string>
@@ -108,7 +108,7 @@
   <string name="swipe_down_3_fingers_announcement">Pour passer à votre autre clavier, balayez l\'écran vers le bas avec trois doigts. Essayez-le maintenant.</string>
   <string name="swipe_down_3_fingers_completed_announcement">Clavier suivant. Habituellement, cette action va vous faire passer au clavier suivant. Cette fois-ci, vous restez avec le clavier braille parce que vous êtes toujours dans le tutoriel.</string>
   <string name="swipe_up_3_fingers_announcement">Vous pouvez également écrire en mode À plat en plaçant votre téléphone à plat sur une table. Pour terminer le tutoriel, balayez l\'écran vers le haut avec trois doigts, puis accédez à l\'option « Terminer le tutoriel ».</string>
-  <string name="open_context_menu_announcement">Le menu des options est ouvert. Retournez de nouveau votre téléphone pour que l\'écran soit face à vous et tenez-le normalement. Vous pouvez maintenant utiliser les gestes TalkBack ordinaires pour naviguer. Balayez l\'écran vers la droite pour afficher plus d\'options.</string>
+  <string name="open_context_menu_announcement">Le menu des options est ouvert. Retournez de nouveau votre téléphone pour que l\'écran soit face à vous et tenez-le normalement. Vous pouvez maintenant utiliser les gestes TalkBack FOSS ordinaires pour naviguer. Balayez l\'écran vers la droite pour afficher plus d\'options.</string>
   <string name="hold_six_fingers_announcement">%s\nPlacez votre appareil à plat sur une table. Ensuite, maintenez sur l\'écran les trois doigts du milieu de chaque main, dans une position suffisamment confortable pour écrire.</string>
   <string name="hold_six_fingers_inactive_announcement">Placez votre appareil à plat sur une table. Ensuite, maintenez sur l\'écran les trois doigts du milieu de chaque main, dans une position suffisamment confortable pour écrire.</string>
   <string name="finish_tutorial_announcement">Clavier braille affiché. Retournez votre téléphone pour que l\'écran soit face à l\'extérieur. Faites pivoter le téléphone à l\'horizontale en position paysage. Ensuite, commencez à écrire.</string>

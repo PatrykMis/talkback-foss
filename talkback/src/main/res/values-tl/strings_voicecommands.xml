@@ -56,8 +56,8 @@
   <string name="voice_commands_dictate">Mag-dictate</string>
   <string name="voice_commands_write">Magsulat</string>
   <string name="voice_commands_Spell">Spell</string>
-  <string name="voice_commands_talkback_settings">Mga setting ng TalkBack</string>
-  <string name="voice_commands_talkback_setting">Setting ng TalkBack</string>
+  <string name="voice_commands_talkback_settings">Mga setting ng TalkBack FOSS</string>
+  <string name="voice_commands_talkback_setting">Setting ng TalkBack FOSS</string>
   <string name="voice_commands_screen_search">Paghahanap sa screen</string>
   <string name="voice_commands_search_on_screen">Maghanap sa screen</string>
   <string name="voice_commands_copy">@android:string/copy</string>
@@ -105,7 +105,7 @@
   <string name="voice_commands_help_title">Pangkalahatang-ideya ng command gamit ang boses</string>
   <string name="voice_commands_help_description">Para gamitin ang mga command gamit ang boses, mag-swipe pakanan at pagkatapos ay pataas. Sabihin ang \"Tulong\" o \"Ano ang puwede kong sabihin?\" anumang oras para sa listahan ng mga command na ito.</string>
   <string name="voice_commands_help_hint">Para sa pinakamahuhusay na resulta, sabihin ang eksaktong salitang nakalista sa mga sumusunod na screen.</string>
-  <string name="voice_command_screen_locked_hint">Hindi available ang mga command gamit ang boses habang naka-lock ang screen. Para menu ng TalkBack na lang ang gamitin, %1$s.</string>
+  <string name="voice_command_screen_locked_hint">Hindi available ang mga command gamit ang boses habang naka-lock ang screen. Para menu ng TalkBack FOSS na lang ang gamitin, %1$s.</string>
   <string name="voice_commands_during_setup_hint">Hindi available ang mga command gamit ang boses sa panahon ng pag-set up.</string>
   <string name="voice_commands_help_reading_controls_title">@string/shortcut_title_reading_control</string>
   <string name="voice_commands_help_reading_controls_description">Baguhin kung paano mo binabasa ang content sa kasalukuyang screen</string>
@@ -136,7 +136,7 @@
   <string name="voice_commands_help_overview_description">Tingnan ang iyong mga kamakailang app</string>
   <string name="voice_commands_help_assistant_description">Buksan ang Google Assistant</string>
   <string name="voice_commands_help_other_commands_title">Iba pang command</string>
-  <string name="voice_commands_help_other_commands_description">Pumunta sa mga setting ng TalkBack, itago ang screen, tingnan ang mga pagkilos, magdagdag ng mga custom na label, at higit pa</string>
+  <string name="voice_commands_help_other_commands_description">Pumunta sa mga setting ng TalkBack FOSS, itago ang screen, tingnan ang mga pagkilos, magdagdag ng mga custom na label, at higit pa</string>
   <string name="voice_commands_help_label">[Isumite] ang label</string>
   <string name="voice_commands_help_hide_screen_description">Itago ang display para hindi makita ng ibang tao ang iyong screen sa mga pampublikong lugar</string>
   <string name="voice_commands_help_show_screen_description">Pagkatapos itago ang iyong screen, ibalik ito sa normal na status</string>
