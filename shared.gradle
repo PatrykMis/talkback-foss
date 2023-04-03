@@ -68,5 +68,5 @@ dependencies {
     // UI understanding
     implementation 'joda-time:joda-time:2.12.3'
 
-implementation 'org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.10'
+implementation 'org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.20'
 }
