@@ -61,8 +61,8 @@ dependencies {
     implementation 'com.google.android.support:wearable:2.9.0'
 
     // UI understanding
-    implementation 'joda-time:joda-time:2.12.3'
+    implementation 'joda-time:joda-time:2.12.5'
 
-    // transitive dependency conflict
+    // transitive dependencies conflict resolution
     implementation 'org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.20'
 }
