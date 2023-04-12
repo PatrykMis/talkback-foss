@@ -3,3 +3,4 @@
 build
 **/build
 braille/translate/src/phone/res/
+braille/brltty/src/phone/res/raw/
