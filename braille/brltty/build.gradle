@@ -6,7 +6,7 @@ android {
     ndkVersion "25.2.9519653"
     externalNativeBuild {
         ndkBuild {
-            path file('src/phone/jni/Android.mk')
+            path 'src/phone/jni/Android.mk'
         }
     }
 }
@@ -20,8 +20,8 @@ dependencies {
 }
 
 task createBrlttyKeyTablesZip(type: Zip){
-    archiveName="keytables.zip"
-    destinationDir = file('src/phone/res/raw/')
+    archiveFileName="keytables.zip"
+    destinationDirectory = file('src/phone/res/raw/')
     from fileTree('./src/phone/tables/')
 }
 
