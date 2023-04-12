@@ -53,11 +53,6 @@
             android:defaultValue="@bool/pref_proximity_default"
             android:key="@string/pref_proximity_key"
             android:title="@string/title_pref_cover_proximity_sensor" />
-        <SwitchPreference
-            android:defaultValue="@bool/pref_icon_detection_default"
-            android:key="@string/pref_icon_detection_key"
-            android:title="@string/title_pref_icon_detection"
-            android:summary="@string/summary_pref_icon_detection"/>
     </PreferenceCategory>
     <PreferenceCategory
         android:key="@string/pref_category_braille_key"
