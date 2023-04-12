@@ -6,7 +6,7 @@ android {
     ndkVersion "25.2.9519653"
     externalNativeBuild {
         ndkBuild {
-            path file('src/phone/jni/Android.mk')
+            path 'src/phone/jni/Android.mk'
         }
     }
 }
