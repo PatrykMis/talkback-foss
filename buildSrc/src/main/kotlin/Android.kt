@@ -6,8 +6,8 @@ import org.gradle.kotlin.dsl.getByType
 private typealias AndroidBaseExtension = BaseExtension
 
 internal fun Project.configureAndroid() = this.extensions.getByType<AndroidBaseExtension>().run {
-    compileSdkVersion = "android-32"
-    buildToolsVersion = "32.0.0"
+    compileSdkVersion = "android-33"
+    buildToolsVersion = "33.0.2"
     
     compileOptions {
         sourceCompatibility(JavaVersion.VERSION_11)

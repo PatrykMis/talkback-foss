@@ -5,7 +5,8 @@ plugins {
 apply<Shared>()
 
 android {
-    ndkVersion = "23.1.7779620"
+    namespace = "com.google.android.accessibility.braille.service"
+    ndkVersion = "25.2.9519653"
     externalNativeBuild {
         ndkBuild {
             path(file("src/phone/jni/Android.mk"))
@@ -25,8 +26,4 @@ tasks.register<Zip>("createTranslationTablesZip") {
     into("liblouis/tables")
 }
 
-afterEvaluate {
-    tasks.named("preBuild") {
-        dependsOn("createTranslationTablesZip")
-    }
-}
+tasks.named("preBuild") { dependsOn("createTranslationTablesZip") }

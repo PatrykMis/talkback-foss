@@ -5,7 +5,7 @@ buildscript {
     }
     dependencies {
         classpath("org.aspectj:aspectjtools:1.9.19")
-        classpath("com.android.tools.build:gradle:7.2.1")
+        classpath("com.android.tools.build:gradle:7.4.2")
     }
 }
 

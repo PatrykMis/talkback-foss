@@ -4,6 +4,10 @@ plugins {
 
 apply<Shared>()
 
+android {
+    namespace = "com.google.android.accessibility.utils"
+}
+
 dependencies {
     implementation(project(":proguard"))
 }

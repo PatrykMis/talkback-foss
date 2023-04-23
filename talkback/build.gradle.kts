@@ -4,6 +4,10 @@ plugins {
 
 apply<Shared>()
 
+android {
+    namespace = "com.google.android.accessibility.talkback"
+}
+
 dependencies {
     implementation(project(":proguard"))
     implementation(project(":utils"))
