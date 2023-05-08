@@ -15,7 +15,7 @@ jobs:
           java-version: 11
           cache: gradle
       - name: Build with Gradle
-        run: ./gradlew --write-verification-metadata sha512 build --no-daemon --warning-mode all
+        run: ./gradlew build --no-daemon
 
       - name: Upload results
         uses: actions/upload-artifact@v3
@@ -24,4 +24,3 @@ jobs:
           path: |
             build/outputs/apk/phone/debug/talkback-foss-phone-debug.apk
             build/outputs/apk/phone/release/talkback-foss-phone-release-unsigned.apk
-            gradle/verification-metadata.xml

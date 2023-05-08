@@ -4,9 +4,9 @@ updates:
     directory: "/"
     schedule:
       interval: daily
-    target-branch: main
+    target-branch: 13.0
   - package-ecosystem: gradle
     directory: "/"
     schedule:
       interval: daily
-    target-branch: main
+    target-branch: 13.0
