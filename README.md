@@ -25,7 +25,9 @@ There is also an issue tracker where various issues and improvements can be disc
 
 ## How to Build
 
-To build TalkBack, Issue `gradlew assembleRelease` command and sign the apk.
+**NOTE**! This version won't build under Windows due to brltty incompatibilities, patches are welcome. Use a GNU/Linux distribution, WSL2 or GitHub CI.
+
+To build TalkBack, Issue `./gradlew build` command. Sign the release apk first if you would like to use it.
 
 ## How to Install
 
