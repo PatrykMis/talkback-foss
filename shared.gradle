@@ -41,7 +41,7 @@ android {
 dependencies {
 
     // Google common
-    implementation 'com.google.guava:guava:31.1-android'
+    implementation 'com.google.guava:guava:32.0.0-android'
     implementation 'com.google.android.material:material:1.9.0'
 
     // Support library
@@ -56,7 +56,7 @@ dependencies {
     implementation 'androidx.viewpager2:viewpager2:1.0.0'
 
     // Nullable
-    implementation 'org.checkerframework:checker-qual:3.34.0'
+    implementation 'org.checkerframework:checker-qual:3.35.0'
 
     // Auto-value
     implementation 'com.google.auto.value:auto-value-annotations:1.10.1'
