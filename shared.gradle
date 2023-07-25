@@ -12,6 +12,7 @@ java {
 
 android {
     compileSdk 33
+    buildToolsVersion '33.0.2'
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_11
         targetCompatibility JavaVersion.VERSION_11
