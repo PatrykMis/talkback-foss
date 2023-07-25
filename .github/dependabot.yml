@@ -1,12 +1,12 @@
 version: 2
 updates:
-  - package-ecosystem: github-actions
+  - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
-      interval: daily
-    target-branch: 13.0
-  - package-ecosystem: gradle
+      interval: "daily"
+    target-branch: "13.0"
+  - package-ecosystem: "gradle"
     directory: "/"
     schedule:
-      interval: daily
-    target-branch: 13.0
+      interval: "daily"
+    target-branch: "13.0"
