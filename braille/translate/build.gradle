@@ -24,4 +24,10 @@ task createTranslationTablesZip(type: Zip){
     into('liblouis/tables')
 }
 
-preBuild.dependsOn createTranslationTablesZip
+project.afterEvaluate {
+    preBuild.dependsOn createTranslationTablesZip
+    mergePhoneDebugNativeLibs.dependsOn externalNativeBuildWearDebug
+    mergeWearDebugNativeLibs.dependsOn externalNativeBuildPhoneDebug
+    mergePhoneReleaseNativeLibs.dependsOn externalNativeBuildWearRelease
+    mergeWearReleaseNativeLibs.dependsOn externalNativeBuildPhoneRelease
+}
