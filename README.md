@@ -21,7 +21,7 @@ All changes are in the commits log. Below are the most important ones:
 * updated dependencies which may fix bugs and potential security issues
 * Added more instructions in the readme
 
-There is also an issue tracker where various issues and improvements can be discussed. Unfortunately, the upstream code is not beeing updated too often.
+There is also an issue tracker where various issues and improvements can be discussed. Unfortunately, the upstream code is not being updated too often.
 
 ## How to Build
 
