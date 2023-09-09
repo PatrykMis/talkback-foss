@@ -16,7 +16,7 @@
 -->
 <resources>
   <!--The theme is for preference settings-->
-  <style name="SettingsTheme" parent="Theme.AppCompat.Light" >
+  <style name="SettingsTheme" parent="Theme.AppCompat.DayNight" >
     <item name="colorAccent">@color/colorAccent</item>
   </style>
 </resources>
