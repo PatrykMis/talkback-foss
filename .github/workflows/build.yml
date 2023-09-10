@@ -14,5 +14,7 @@ jobs:
           distribution: 'temurin'
           java-version: 17
           cache: gradle
+      - name: Install NDK
+        run: echo "y" | $ANDROID_HOME/tools/bin/sdkmanager --install "ndk;25.1.8937393"
       - name: Build with Gradle
         run: ./gradlew assemblePhoneDebug assemblePhoneRelease --no-daemon
