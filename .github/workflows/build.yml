@@ -15,7 +15,7 @@ jobs:
           java-version: 20
           cache: gradle
       - name: Build with Gradle
-        run: ./gradlew build --no-daemon
+        run: ./gradlew assemblePhoneDebug assemblePhoneRelease --no-daemon
 
       - name: Upload results
         uses: actions/upload-artifact@v3
