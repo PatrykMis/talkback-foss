@@ -69,7 +69,4 @@ dependencies {
 
     // UI understanding
     implementation 'joda-time:joda-time:2.12.5'
-
-    // transitive dependencies conflict resolution
-    implementation 'org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.10'
 }
