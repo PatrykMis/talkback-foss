@@ -20,7 +20,7 @@ jobs:
         run: ./gradlew assemblePhoneDebug assemblePhoneRelease --no-daemon
 
       - name: Upload results
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: talkback-foss-test
           path: |
