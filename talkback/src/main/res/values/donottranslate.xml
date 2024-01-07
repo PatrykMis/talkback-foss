@@ -890,7 +890,6 @@
     <bool name="pref_show_context_menu_talkback_settings_default">true</bool>
     <bool name="pref_show_context_menu_system_action_default">false</bool>
     <bool name="pref_show_context_menu_tts_settings_default">true</bool>
-    <bool name="pref_show_context_menu_image_caption_default">true</bool>
 
     <bool name="pref_show_navigation_menu_characters_default">true</bool>
     <bool name="pref_show_navigation_menu_words_default">true</bool>

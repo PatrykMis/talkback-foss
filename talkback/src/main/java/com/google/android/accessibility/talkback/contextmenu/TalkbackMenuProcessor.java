@@ -69,7 +69,6 @@ public class TalkbackMenuProcessor {
   private static final int ORDER_SHOW_HIDE_SCREEN = 20;
 
   private static final int ORDER_SYSTEM_ACTIONS = 25;
-  public static final int ORDER_IMAGE_CAPTION = 26;
 
   private final TalkBackService service;
   private final ActorState actorState;
@@ -116,10 +115,6 @@ public class TalkbackMenuProcessor {
     // Navigation
     addItemOrSubMenuForCurrentNode(
         menu, R.id.granularity_menu, R.string.title_granularity, ORDER_NAVIGATION);
-
-    // Image caption
-    addItemOrSubMenuForCurrentNode(
-        menu, R.id.image_caption_menu, R.string.title_image_caption, ORDER_IMAGE_CAPTION);
 
     // Read From & Last Phrase Spoken & screen search at context_menu.xml
     addContextMenuXMLMenu(menu);

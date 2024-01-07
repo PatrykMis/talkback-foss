@@ -21,7 +21,6 @@ import android.os.Bundle;
 import android.text.TextUtils;
 import androidx.preference.Preference;
 import com.google.android.accessibility.talkback.R;
-import com.google.android.accessibility.talkback.actor.ImageCaptioner;
 import com.google.android.accessibility.talkback.preference.PreferencesActivityUtils;
 import com.google.android.accessibility.utils.SharedPreferencesUtils;
 
@@ -93,14 +92,6 @@ public class ContextMenuFragment extends TalkbackBaseFragment {
           }
         };
     prefs.registerOnSharedPreferenceChangeListener(listener);
-
-    // For describe-image menu item.
-    Preference describeImagePreference =
-        findPreference(
-            context.getString(R.string.pref_show_context_menu_image_caption_setting_key));
-    if (describeImagePreference != null) {
-      describeImagePreference.setVisible(ImageCaptioner.supportsImageCaption(context));
-    }
   }
 
   @Override

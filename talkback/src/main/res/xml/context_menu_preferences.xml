@@ -37,14 +37,6 @@
             android:title="@string/title_labeling_show_or_hide_controls"
             app:singleLineTitle="false"
             android:summary="@string/summary_labeling_controls"/>
-        <CheckBoxPreference
-            android:layout="@layout/listitem_2texts"
-            android:defaultValue="@bool/pref_show_context_menu_image_caption_default"
-            android:key="@string/pref_show_context_menu_image_caption_setting_key"
-            android:order="27"
-            android:title="@string/title_image_caption"
-            app:singleLineTitle="false"
-            android:summary="@string/summary_image_caption"/>
     </PreferenceCategory>
     <PreferenceCategory
         android:key="@string/pref_show_context_menu_navigation_category_key"
