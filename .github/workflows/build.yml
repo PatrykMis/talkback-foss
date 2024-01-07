@@ -23,6 +23,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: talkback-foss-test
-          path: |
-            build/outputs/apk/phone/debug/talkback-foss-phone-debug.apk
-            build/outputs/apk/phone/release/talkback-foss-phone-release-unsigned.apk
+          path: build/outputs/apk/phone/*
