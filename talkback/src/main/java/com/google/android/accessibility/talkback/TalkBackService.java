@@ -923,8 +923,8 @@ public class TalkBackService extends AccessibilityService
     resumeInfrastructure();
 
     // Handle any update actions.
-    final TalkBackUpdateHelper helper = new TalkBackUpdateHelper(this);
-    helper.checkUpdate();
+    // final TalkBackUpdateHelper helper = new TalkBackUpdateHelper(this);
+    // helper.checkUpdate();
 
     compositor.handleEvent(Compositor.EVENT_SPOKEN_FEEDBACK_ON, EVENT_ID_UNTRACKED);
 
