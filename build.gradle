@@ -1,30 +1,15 @@
 // For building the open-source release of TalkBack.
 
-apply plugin: 'com.android.application'
-
-apply from: 'shared.gradle'
+plugins {
+    alias(libs.plugins.android.application)
+    alias(libs.plugins.android.library) apply false
+}
+apply from: "shared.gradle"
 
 dependencies {
     implementation project(':talkback')
 }
 
-buildscript {
-    repositories {
-        mavenCentral()
-        google()
-    }
-    dependencies {
-        classpath 'org.aspectj:aspectjtools:1.9.21'
-        classpath 'com.android.tools.build:gradle:8.2.2'
-    }
-}
-
-allprojects {
-    repositories {
-        mavenCentral()
-        google()
-    }
-}
 
 android {
     compileSdk 34
