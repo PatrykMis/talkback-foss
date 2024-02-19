@@ -42,31 +42,31 @@ android {
 dependencies {
 
     // Google common
-    implementation 'com.google.guava:guava:33.0.0-android'
-    implementation 'com.google.android.material:material:1.11.0'
+    implementation libs.guava
+    implementation libs.material
 
     // Support library
-    implementation 'androidx.annotation:annotation:1.7.1'
-    implementation 'androidx.appcompat:appcompat:1.6.1'
-    implementation 'androidx.collection:collection:1.4.0'
-    implementation 'androidx.core:core:1.12.0'
-    implementation 'androidx.fragment:fragment:1.6.2'
-    implementation 'androidx.localbroadcastmanager:localbroadcastmanager:1.1.0'
-    implementation 'androidx.preference:preference:1.2.1'
-    implementation 'androidx.recyclerview:recyclerview:1.3.2'
-    implementation 'androidx.viewpager2:viewpager2:1.0.0'
+    implementation libs.androidx.annotation
+    implementation libs.androidx.appcompat
+    implementation libs.androidx.collection
+    implementation libs.androidx.core
+    implementation libs.androidx.fragment
+    implementation libs.androidx.localbroadcastmanager
+    implementation libs.androidx.preference
+    implementation libs.androidx.recyclerview
+    implementation libs.androidx.viewpager2
 
     // Nullable
-    implementation 'org.checkerframework:checker-qual:3.42.0'
+    implementation libs.checker.qual
 
     // Auto-value
-    implementation 'com.google.auto.value:auto-value-annotations:1.10.4'
-    annotationProcessor 'com.google.auto.value:auto-value:1.10.4'
-    implementation 'javax.annotation:javax.annotation-api:1.3.2'
+    implementation libs.auto.value.annotations
+    annotationProcessor libs.auto.value
+    implementation libs.javax.annotation.api
 
-    implementation 'androidx.wear:wear:1.3.0'
-    implementation 'com.google.android.support:wearable:2.9.0'
+    implementation libs.wear
+    implementation libs.wearable.support
 
     // UI understanding
-    implementation 'joda-time:joda-time:2.12.6'
+    implementation libs.joda.time
 }
