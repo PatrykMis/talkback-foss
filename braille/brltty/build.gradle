@@ -27,8 +27,4 @@ task createBrlttyKeyTablesZip(type: Zip){
 
 project.afterEvaluate {
     preBuild.dependsOn createBrlttyKeyTablesZip
-    mergePhoneDebugNativeLibs.dependsOn externalNativeBuildWearDebug
-    mergePhoneReleaseNativeLibs.dependsOn externalNativeBuildWearRelease
-    mergeWearDebugNativeLibs.dependsOn externalNativeBuildPhoneDebug
-    mergeWearReleaseNativeLibs.dependsOn externalNativeBuildPhoneRelease
 }

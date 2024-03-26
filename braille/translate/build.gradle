@@ -26,8 +26,4 @@ task createTranslationTablesZip(type: Zip){
 
 project.afterEvaluate {
     preBuild.dependsOn createTranslationTablesZip
-    mergePhoneDebugNativeLibs.dependsOn externalNativeBuildWearDebug
-    mergeWearDebugNativeLibs.dependsOn externalNativeBuildPhoneDebug
-    mergePhoneReleaseNativeLibs.dependsOn externalNativeBuildWearRelease
-    mergeWearReleaseNativeLibs.dependsOn externalNativeBuildPhoneRelease
 }
