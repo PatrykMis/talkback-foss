@@ -20,4 +20,10 @@ jobs:
           java-version: 17
           cache: gradle
       - name: Build with Gradle
-        run: ./gradlew assemblePhoneDebug assemblePhoneRelease --no-daemon
+        run: ./gradlew build --no-daemon
+
+      - name: Upload results
+        uses: actions/upload-artifact@v4
+        with:
+          name: talkback-foss-test
+          path: build/outputs/apk/*
