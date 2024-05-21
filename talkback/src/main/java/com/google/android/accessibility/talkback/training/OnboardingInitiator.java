@@ -20,12 +20,15 @@ import static com.google.android.accessibility.talkback.trainingcommon.TrainingC
 import static com.google.android.accessibility.talkback.trainingcommon.TrainingConfig.TrainingId.TRAINING_ID_ON_BOARDING_TALKBACK;
 import static com.google.android.accessibility.talkback.trainingcommon.TrainingConfig.TrainingId.TRAINING_ID_ON_BOARDING_TALKBACK_WITHOUT_DESCRIBE_IMAGE;
 
+import android.app.ActivityManager;
 import android.app.NotificationManager;
 import android.app.PendingIntent;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.SharedPreferences.Editor;
+import android.util.Log;
+
 import androidx.annotation.StringRes;
 import androidx.annotation.VisibleForTesting;
 import com.google.android.accessibility.talkback.R;
@@ -78,7 +81,7 @@ public class OnboardingInitiator {
    */
   public static void showOnboardingIfNecessary(Context context) {
     FormFactorUtils formFactorUtils = FormFactorUtils.getInstance();
-    if (formFactorUtils.isAndroidTv() || formFactorUtils.isAndroidWear()) {
+    if (formFactorUtils.isAndroidTv() || formFactorUtils.isAndroidWear() || isInLockTaskMode(context)) {
       return;
     }
 
@@ -116,6 +119,13 @@ public class OnboardingInitiator {
       context.startActivity(createOnboardingIntent(context, /* showExitBanner= */ true));
       markOnboardingForNewFeaturesAsShown(prefs, context);
     }
+  }
+
+  /** Typically Kiosk device use Lock Task mode. If enabled assume the device is a Kiosk device */
+  private static boolean isInLockTaskMode(Context context) {
+    ActivityManager activityManager = (ActivityManager) context.getSystemService(Context.ACTIVITY_SERVICE);
+    Log.i("DEBUG", "activityManager.getLockTaskModeState() " + activityManager.getLockTaskModeState());
+    return activityManager.getLockTaskModeState() != ActivityManager.LOCK_TASK_MODE_NONE;
   }
 
   private static boolean hasOnboardingForMultiFingerGestureSupportBeenShown(
