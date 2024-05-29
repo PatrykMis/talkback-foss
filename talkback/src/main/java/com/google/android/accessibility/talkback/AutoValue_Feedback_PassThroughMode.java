@@ -17,7 +17,7 @@
 package com.google.android.accessibility.talkback;
 
 import android.graphics.Region;
-import javax.annotation.Generated;
+import jakarta.annotation.Generated;
 
 // This file is normally auto-generated using the @AutoValue processor.  But
 // that operation has been failing on the gradle-based build, so this file is

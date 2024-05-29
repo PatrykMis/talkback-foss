@@ -21,7 +21,7 @@ import com.google.android.accessibility.talkback.Feedback.Scroll;
 import com.google.android.accessibility.utils.AccessibilityNode;
 import com.google.android.accessibility.utils.input.ScrollEventInterpreter.ScrollTimeout;
 import com.google.android.accessibility.utils.output.ScrollActionRecord;
-import javax.annotation.Generated;
+import jakarta.annotation.Generated;
 import org.checkerframework.checker.nullness.qual.Nullable;
 
 // This file is normally auto-generated using the @AutoValue processor.  But

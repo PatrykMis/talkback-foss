@@ -16,7 +16,7 @@
 package com.google.android.accessibility.talkback;
 
 import android.content.res.Configuration;
-import javax.annotation.Generated;
+import jakarta.annotation.Generated;
 import org.checkerframework.checker.nullness.qual.Nullable;
 
 // This file is normally auto-generated using the @AutoValue processor.

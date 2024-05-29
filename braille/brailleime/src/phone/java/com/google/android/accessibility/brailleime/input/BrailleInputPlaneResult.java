@@ -21,7 +21,7 @@ import androidx.annotation.IntDef;
 import com.google.android.accessibility.braille.interfaces.BrailleCharacter;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
-import javax.annotation.Nullable;
+import jakarta.annotation.Nullable;
 
 /**
  * The result produced by a {@link BrailleInputPlane} commission.
