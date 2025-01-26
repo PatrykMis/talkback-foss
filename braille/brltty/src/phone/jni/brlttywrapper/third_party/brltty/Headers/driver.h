@@ -41,8 +41,8 @@ typedef struct {
   .comment = DRIVER_COMMENT, \
   .version = DRIVER_VERSION, \
   .developers = DRIVER_DEVELOPERS, \
-  .date = __DATE__, \
-  .time = __TIME__ \
+  .date = "Jan 1 1970", \
+  .time = "00:00:00" \
 }
 
 #define DRIVER_VERSION_STRING PACKAGE_VERSION
