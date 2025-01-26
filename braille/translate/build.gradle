@@ -22,6 +22,8 @@ task createTranslationTablesZip(type: Zip){
     destinationDirectory = file('src/phone/res/raw/')
     from fileTree('./src/phone/tables/')
     into('liblouis/tables')
+    preserveFileTimestamps = false
+    reproducibleFileOrder = true
 }
 
 project.afterEvaluate {
