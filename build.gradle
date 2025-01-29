@@ -26,7 +26,7 @@ allprojects {
 }
 
 android {
-    buildToolsVersion '35.0.0'
+    buildToolsVersion '35.0.1'
     namespace talkbackApplicationId
     defaultConfig {
         applicationId talkbackApplicationId
